@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "nonproprietaryNamePart",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>https://spor.ema.europa.eu/rmswi</code></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/nonproprietaryNamePart",
+  "version": "1.0.0-Ballot",
+  "name": "VsNonproprietaryNamePart",
+  "title": "Non-proprietary Name of the active ingredient(s)",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-11-24T15:56:43+00:00",
+  "contact": [
+    {
+      "name": "HL7 BR&R",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/"
+        }
+      ]
+    }
+  ],
+  "description": "Non-proprietary Name of the active ingredient(s)",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://spor.ema.europa.eu/rmswi"
+      }
+    ]
+  }
+}

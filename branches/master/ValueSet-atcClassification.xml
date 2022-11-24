@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="atcClassification"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://www.whocc.no/atc"><code>http://www.whocc.no/atc</code></a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification"/>
+  <version value="1.0.0-Ballot"/>
+  <name value="VsAtcClassification"/>
+  <title value="ATC Classification"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-11-24T15:56:43+00:00"/>
+  <contact>
+    <name value="HL7 BR&amp;R"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/"/>
+    </telecom>
+  </contact>
+  <description value="ATC Classification"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://www.whocc.no/atc"/>
+    </include>
+  </compose>
+</ValueSet>

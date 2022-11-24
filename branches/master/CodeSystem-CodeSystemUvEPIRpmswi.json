@@ -1,0 +1,49 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CodeSystemUvEPIRpmswi",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CodeSystemUvEPIRpmswi-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CodeSystemUvEPIRpmswi-2\"> </a></td></tr></table></div>"
+  },
+  "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi",
+  "version": "1.0.0-Ballot",
+  "name": "CodeSystemUvEPIRpmswi",
+  "title": "Products Management Services CodeSystem",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-11-24T15:56:43+00:00",
+  "contact": [
+    {
+      "name": "HL7 BR&R",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/"
+        }
+      ]
+    }
+  ],
+  "description": "Items from https://spor.ema.europa.eu/pmswi",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": false,
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "1"
+    },
+    {
+      "code": "2"
+    }
+  ]
+}

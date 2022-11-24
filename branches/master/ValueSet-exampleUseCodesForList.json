@@ -1,0 +1,51 @@
+{
+  "resourceType": "ValueSet",
+  "id": "exampleUseCodesForList",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:ietf:rfc:3986</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>http://hl7.org/fhir/ValueSet/list-example-codes</td><td>List Order Codes</td></tr></table></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/exampleUseCodesForList",
+  "version": "1.0.0-Ballot",
+  "name": "VsExampleUseCodesForList",
+  "title": "The topic of this list",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-11-24T15:56:43+00:00",
+  "contact": [
+    {
+      "name": "HL7 BR&R",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/"
+        }
+      ]
+    }
+  ],
+  "description": "The topic of this list",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "urn:ietf:rfc:3986",
+        "concept": [
+          {
+            "code": "http://hl7.org/fhir/ValueSet/list-example-codes",
+            "display": "List Order Codes"
+          }
+        ]
+      }
+    ]
+  }
+}

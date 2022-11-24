@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.FHIR.UV.VULCAN-EPRODUCT-INFO\Artifacts Summary - FHIR v5.0.0-ballot</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"10"}
+    h3,h4,h5,h6{--heading-prefix:"10.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0-Ballot - CI Build
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Introduction</a>
+  </li>
+  <li>
+    <a href="background.html">Background</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Specification
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="core-epi-structure.html">Core ePI Structure</a>
+      </li>
+      <li>
+        <a href="annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="steps-to-create-core-epi.html">Step to create ePI</a>
+      </li>
+      <li>
+        <a href="general-technical-conformance-requirements.html">General Technical Conformance</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li>
+    <a href="appendicies.html">Appendices</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide - Local Development build (v1.0.0-Ballot). See the <a href="http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">Behavior: Capability Statements</a>
+      </li>
+      <li>
+         <a href="#2">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#4">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#5">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>Behavior: Capability Statements </h3>
+   <p>
+    <p>The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CapabilityStatement-epi-server.html"
+                     title="CapabilityStatement/epi-server">epi-server</a>
+               </td>
+               <td>
+<p>This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html"
+                     title="StructureDefinition/AdministrableProductDefinition-uv-epi">AdministrableProductDefinition (ePI)</a>
+               </td>
+               <td>
+<p>AdministrableProductDefinition (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Bundle-uv-epi.html"
+                     title="StructureDefinition/Bundle-uv-epi">Bundle - ePI</a>
+               </td>
+               <td>
+<p>Medicinal product information is a pivotal source of regulated and scientifically validated information that assists healthcare professionals in prescribing and dispensing the medicine and informs consumers about its safe and effective use. This profile represents the constraints applied to the Bundle resource used in the Electronic Product Information (ePI) FHIR Implementation Guide.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi">ClinicalUseDefinition Contraindication (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Contraindication (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-indication-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-indication-uv-epi">ClinicalUseDefinition Indication (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Indication (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-interaction-uv-epi">ClinicalUseDefinition Interaction (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Interaction (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi">ClinicalUseDefinition Undesirable Effect (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Undesirable Effect (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-warning-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-warning-uv-epi">ClinicalUseDefinition Warning (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Warning (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Composition-uv-epi.html"
+                     title="StructureDefinition/Composition-uv-epi">Composition (ePI)</a>
+               </td>
+               <td>
+<p>The Composition captures the section headings, sub-section headings, and narrative text (For example, paragraphs, bulleted lists, tables) in an ePI.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Ingredient-uv-epi.html"
+                     title="StructureDefinition/Ingredient-uv-epi">Ingredient (ePI)</a>
+               </td>
+               <td>
+<p>Ingredient (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ManufacturedItemDefinition-uv-epi.html"
+                     title="StructureDefinition/ManufacturedItemDefinition-uv-epi">ManufacturedItemDefinition (ePI)</a>
+               </td>
+               <td>
+<p>ManufacturedItemDefinition (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-MedicinalProductDefinition-uv-epi.html"
+                     title="StructureDefinition/MedicinalProductDefinition-uv-epi">MedicinalProductDefinition (ePI)</a>
+               </td>
+               <td>
+<p>Description of the packaged authorized medicinal product(s) associated to this ePI document.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Organization-uv-epi.html"
+                     title="StructureDefinition/Organization-uv-epi">Organization (ePI)</a>
+               </td>
+               <td>
+<p>Organization (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PackagedProductDefinition-uv-epi.html"
+                     title="StructureDefinition/PackagedProductDefinition-uv-epi">PackagedProductDefinition (ePI)</a>
+               </td>
+               <td>
+<p>PackagedProductDefinition (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-RegulatedAuthorization-uv-epi.html"
+                     title="StructureDefinition/RegulatedAuthorization-uv-epi">RegulatedAuthorization (ePI)</a>
+               </td>
+               <td>
+<p>RegulatedAuthorization (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SubstanceDefinition-uv-epi.html"
+                     title="StructureDefinition/SubstanceDefinition-uv-epi">SubstanceDefinition (ePI)</a>
+               </td>
+               <td>
+<p>SubstanceDefinition (ePI)</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-additionalMonitoringIndicator.html"
+                     title="ValueSet/additionalMonitoringIndicator">Additional Monitoring Indicator</a>
+               </td>
+               <td>
+<p>Additional Monitoring Indicator</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-admProductIdSystems.html"
+                     title="ValueSet/admProductIdSystems">AdministrableProductDefinition identifier systems</a>
+               </td>
+               <td>
+<p>AdministrableProductDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-atcClassification.html"
+                     title="ValueSet/atcClassification">ATC Classification</a>
+               </td>
+               <td>
+<p>ATC Classification</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-authorizationStatus.html"
+                     title="ValueSet/authorizationStatus">Authorization Status</a>
+               </td>
+               <td>
+<p>Authorization Status</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-caseIdSystem.html" title="ValueSet/caseIdSystem">Case System Identifiers</a>
+               </td>
+               <td>
+<p>Case System Identifiers</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-country.html" title="ValueSet/country">ISO Country two letter code</a>
+               </td>
+               <td>
+<p>ISO Country two letter code</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-dataCarrierIdSystem.html"
+                     title="ValueSet/dataCarrierIdSystem">Data Carrier Identifiers</a>
+               </td>
+               <td>
+<p>Listing of identifiers for Data Carriers</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-epiType.html" title="ValueSet/epiType">ePI document types</a>
+               </td>
+               <td>
+<p>ePI document types</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-exampleUseCodesForList.html"
+                     title="ValueSet/exampleUseCodesForList">The topic of this list</a>
+               </td>
+               <td>
+<p>The topic of this list</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-generalStatus.html" title="ValueSet/generalStatus">General Status used across ePI resources</a>
+               </td>
+               <td>
+<p>General Status used across ePI resources</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-legalStatusOfSupply.html"
+                     title="ValueSet/legalStatusOfSupply">Legal Status for the Supply</a>
+               </td>
+               <td>
+<p>Legal Status for the Supply</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-manufacturedItemIdSystems.html"
+                     title="ValueSet/manufacturedItemIdSystems">ManufacturedItemDefinition identifier systems</a>
+               </td>
+               <td>
+<p>ManufacturedItemDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-marketingStatus.html" title="ValueSet/marketingStatus">Marketing Status</a>
+               </td>
+               <td>
+<p>Marketing Status</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VsMedProductIdSystems.html"
+                     title="ValueSet/VsMedProductIdSystems">MedicinalProductDefinition identifier systems</a>
+               </td>
+               <td>
+<p>MedicinalProductDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-medProductType.html" title="ValueSet/medProductType">Medicinal Product Type</a>
+               </td>
+               <td>
+<p>Medicinal Product Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-meddra.html" title="ValueSet/meddra">MedDRA Terms for clinical diseases and symptoms</a>
+               </td>
+               <td>
+<p>MedDRA Terms for clinical diseases and symptoms</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nonproprietaryNamePart.html"
+                     title="ValueSet/nonproprietaryNamePart">Non-proprietary Name of the active ingredient(s)</a>
+               </td>
+               <td>
+<p>Non-proprietary Name of the active ingredient(s)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-operationType.html" title="ValueSet/operationType">Type of operation</a>
+               </td>
+               <td>
+<p>Type of operation</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-organizationIdSystems.html"
+                     title="ValueSet/organizationIdSystems">Organization identifier systems</a>
+               </td>
+               <td>
+<p>Organization Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-organizationType.html" title="ValueSet/organizationType">Type of organization</a>
+               </td>
+               <td>
+<p>Type of organization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-packageMaterial.html" title="ValueSet/packageMaterial">Package Material</a>
+               </td>
+               <td>
+<p>Package Material</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-packageType.html" title="ValueSet/packageType">High level Pack Type</a>
+               </td>
+               <td>
+<p>High level type of pack; e.g., medicinal product pack, sample pack, shipping container.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-packagedProductIdSystems.html"
+                     title="ValueSet/packagedProductIdSystems">PackagedProductDefinition identifier systems</a>
+               </td>
+               <td>
+<p>PackagedProductDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-partType.html" title="ValueSet/partType">Part Type</a>
+               </td>
+               <td>
+<p>Part Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-pediatricUseIndicator.html"
+                     title="ValueSet/pediatricUseIndicator">Pediatric Use Indicator</a>
+               </td>
+               <td>
+<p>Pediatric Use Indicator</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-PharmaceuticalDoseForm.html"
+                     title="ValueSet/PharmaceuticalDoseForm">Pharmaceutical Dose Form</a>
+               </td>
+               <td>
+<p>Pharmaceutical Dose Form</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-pharmaceuticalDoseFormPart.html"
+                     title="ValueSet/pharmaceuticalDoseFormPart">Pharmaceutical Dose Form of the medicinal product</a>
+               </td>
+               <td>
+<p>Pharmaceutical Dose Form of the medicinal product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-productConfidentialityIdSystems.html"
+                     title="ValueSet/productConfidentialityIdSystems">Product Confidentiality</a>
+               </td>
+               <td>
+<p>Product Confidentiality</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-productNamePartType.html"
+                     title="ValueSet/productNamePartType">Product Name Part Type</a>
+               </td>
+               <td>
+<p>Product Name Part Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyColor.html" title="ValueSet/propertyColor">Color of the product</a>
+               </td>
+               <td>
+<p>Color of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyFlavor.html" title="ValueSet/propertyFlavor">Flavor of the product</a>
+               </td>
+               <td>
+<p>Flavor of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyScore.html" title="ValueSet/propertyScore">Score on the product</a>
+               </td>
+               <td>
+<p>Score on the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyShape.html" title="ValueSet/propertyShape">Shape of the product</a>
+               </td>
+               <td>
+<p>Shape of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VsPropertySurfaceForm.html"
+                     title="ValueSet/VsPropertySurfaceForm">Surface form of the product</a>
+               </td>
+               <td>
+<p>Surface form of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-proprietaryNamePart.html"
+                     title="ValueSet/proprietaryNamePart">Proprietary Name of the medicinal product</a>
+               </td>
+               <td>
+<p>Proprietary Name of the medicinal product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VsRegulatedAuthorization.html"
+                     title="ValueSet/VsRegulatedAuthorization">Type of Regulated Authorization</a>
+               </td>
+               <td>
+<p>Type of Regulated Authorization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-RegulatedAuthorizationTypeIdSystems.html"
+                     title="ValueSet/RegulatedAuthorizationTypeIdSystems">Regulated Authorization Type identifier systems</a>
+               </td>
+               <td>
+<p>Regulated Authorization Type Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-regulatoryActivityType.html"
+                     title="ValueSet/regulatoryActivityType">Regulatory Activity Type</a>
+               </td>
+               <td>
+<p>Regulatory Activity Type; e.g., MAA</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-roleClassIngredientEntity.html"
+                     title="ValueSet/roleClassIngredientEntity">Ingredient Role; e.g., inactive, active base, active moiety</a>
+               </td>
+               <td>
+<p>Ingredient Role; e.g., inactive, active base, active moiety</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-routeOfAdministration.html"
+                     title="ValueSet/routeOfAdministration">Route Of Administration</a>
+               </td>
+               <td>
+<p>Route Of Administration</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-secondaryPrimaryPackType.html"
+                     title="ValueSet/secondaryPrimaryPackType">Pack Type</a>
+               </td>
+               <td>
+<p>Pack Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-sectionCode.html" title="ValueSet/sectionCode">Section Codes</a>
+               </td>
+               <td>
+<p>Section Codes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-shelfLifeType.html" title="ValueSet/shelfLifeType">Shelf Life Type</a>
+               </td>
+               <td>
+<p>Shelf Life Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-specialPrecautionsForStorage.html"
+                     title="ValueSet/specialPrecautionsForStorage">Special Precautions For Storage</a>
+               </td>
+               <td>
+<p>Special Precautions For Storage</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-strengthPart.html" title="ValueSet/strengthPart">Strength of the medicinal product name</a>
+               </td>
+               <td>
+<p>Strength of the medicinal product name</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-substance.html" title="ValueSet/substance">Substances</a>
+               </td>
+               <td>
+<p>Substances</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-unitofMeasure.html" title="ValueSet/unitofMeasure">Units of Measure</a>
+               </td>
+               <td>
+<p>Units of Measure</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-unitofPresentation.html"
+                     title="ValueSet/unitofPresentation">Units of Presentation</a>
+               </td>
+               <td>
+<p>Units of Presentation</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-gravitate.html" title="CodeSystem/gravitate">Gravitate Health Project Code System</a>
+               </td>
+               <td>
+<p>Gravitate Health Project Code System. Coded concepts defined for internal project use.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRomswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRomswi">Organization Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/omswi</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRpmswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRpmswi">Products Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/pmswi</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRrmswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRrmswi">Referentials Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/rmswi</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRsmswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRsmswi">Substances Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/smswi</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-09c13040-8fd5-4818-972d-f01d4ee169b6.html"
+                     title="Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6">Ingredient-excipient Silicon dioxide</a>
+               </td>
+               <td>
+<p>Silicon dioxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-1c10b441-6bd3-40b8-b14b-514e7c2f79d0.html"
+                     title="Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0">Ingredient-excipient Hypromellose</a>
+               </td>
+               <td>
+<p>Hypromellose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd.html"
+                     title="Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd">Ingredient-excipient Microcrystalline cellulose</a>
+               </td>
+               <td>
+<p>Microcrystalline cellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-1e8963b2-896e-4ad7-a162-85e07cdd272f.html"
+                     title="ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f">Manufactured item karvea 75 mg tablet</a>
+               </td>
+               <td>
+<p>karvea 75 mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-23307304-5469-4897-b676-e8202fd25afc.html"
+                     title="Ingredient/23307304-5469-4897-b676-e8202fd25afc">Ingredient-excipient Microcrystalline cellulose</a>
+               </td>
+               <td>
+<p>Microcrystalline cellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-297e405a-b6f9-4273-bc01-ae031efe47f8.html"
+                     title="RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8">Regulated Authorization for Karvea 75 mg tablets</a>
+               </td>
+               <td>
+<p>Regulated Authorization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-3214f286-b8ec-4ef5-bc8d-0aec39d97468.html"
+                     title="ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468">Manufactured item Karvea 75 mg tabelt</a>
+               </td>
+               <td>
+<p>karvea 75 mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-324cd066-b593-4b32-aae3-26986e2f8e2b.html"
+                     title="Ingredient/324cd066-b593-4b32-aae3-26986e2f8e2b">Ingredient-excipient Macrogol 3000</a>
+               </td>
+               <td>
+<p>Macrogol 3000</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-373b9bf3-1fae-47a1-a7cd-230106def069.html"
+                     title="AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069">Karvea 75mg tablet administrable product</a>
+               </td>
+               <td>
+<p>Karvea 75 mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-3a8b6287-50e6-42cf-91d9-1bb83bd57103.html"
+                     title="Ingredient/3a8b6287-50e6-42cf-91d9-1bb83bd57103">Ingredient-excipient Magnesium stearate</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-4660d47b-f1d3-4007-bc72-1e7ad77fb541.html"
+                     title="Ingredient/4660d47b-f1d3-4007-bc72-1e7ad77fb541">Ingredient-excipient Titanium Dioxide</a>
+               </td>
+               <td>
+<p>Titanium Dioxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html"
+                     title="Bundle/479b02e1-cb8c-450d-988e-2bf225ff9413">ePI document Bundle for Karvea 75 mg Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for Karvea 75 mg Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-4e922ec1-a398-4a78-8381-3729422b7602.html"
+                     title="ClinicalUseDefinition/4e922ec1-a398-4a78-8381-3729422b7602">indication</a>
+               </td>
+               <td>
+<p>Indication</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.html"
+                     title="Ingredient/4f8b256b-2285-486c-8a03-24b972898aa8">Ingredient-active irbesartan</a>
+               </td>
+               <td>
+<p>irbesartan</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-745c01bc-936e-45ca-9880-57e97608f43e.html"
+                     title="Ingredient/745c01bc-936e-45ca-9880-57e97608f43e">Ingredient-active irbesartan</a>
+               </td>
+               <td>
+<p>irbesartan</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-793af3f5-edec-4a56-9584-cda6ad3fb8fc.html"
+                     title="Ingredient/793af3f5-edec-4a56-9584-cda6ad3fb8fc">Ingredient-excipient Lactose Monohydrate</a>
+               </td>
+               <td>
+<p>Lactose Monohydrate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.html"
+                     title="SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f">substance-irbesartan</a>
+               </td>
+               <td>
+<p>irbesartan</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-7a3c0b14-2473-4541-9e45-a24d24cceddf.html"
+                     title="Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf">Ingredient-excipient Lactose Monohydrate</a>
+               </td>
+               <td>
+<p>Lactose Monohydrate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-800a51a2-d81d-49a4-a4eb-f2417d301837.html"
+                     title="MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837">Medicinal Product Karvea 75 mg tablet in blister pack of 28 tablets</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Karvea 75 mg tablet blister x28</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-83f4a22f-9e5e-4941-9fdb-339a0f1f2055.html"
+                     title="ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055">contraindication</a>
+               </td>
+               <td>
+<p>Contraindication - Gastrointestinal disorders</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-878e7eb5-4023-4102-9aa5-f5ae596511ea.html"
+                     title="Ingredient/878e7eb5-4023-4102-9aa5-f5ae596511ea">Ingredient-excipient Carnauba wax</a>
+               </td>
+               <td>
+<p>Carnauba wax</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html"
+                     title="Composition/8e41a79c-274e-4f52-984e-e2dc2174bbdf">Composition for Karvea Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for Karvea Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-9278143f-513c-4965-8ed6-12789e13a3fb.html"
+                     title="Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb">Ingredient-excipient Hypromellose</a>
+               </td>
+               <td>
+<p>Hypromellose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-961e5052-6a8a-403a-b6ac-5e585c89de8e.html"
+                     title="Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e">Sanofi-Aventis Groupe as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-a4b7b60c-998f-4f93-89c7-860396af0fe3.html"
+                     title="Ingredient/a4b7b60c-998f-4f93-89c7-860396af0fe3">Ingredient-excipient carnauba wax</a>
+               </td>
+               <td>
+<p>Carnauba wax</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-a88891dc-7e9e-4d84-b462-95e53de3b6a6.html"
+                     title="Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6">Ingredient-excipient Titanium Dioxide</a>
+               </td>
+               <td>
+<p>Titanium Dioxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-ac21a804-cafa-41ff-b644-a14c8003edeb.html"
+                     title="ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb">warninghypotension</a>
+               </td>
+               <td>
+<p>Warning - hypotension</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet75.html"
+                     title="Bundle/bundlepackageleaflet75">ePI document Bundle for Karvea 75 mg Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for Karvea Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ceba5cd1-321f-4bc3-b203-92d97fcf472e.html"
+                     title="Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e">Ingredient-excipient Macrogol 3000</a>
+               </td>
+               <td>
+<p>Macrogol 3000</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfdd3877-9af7-48fe-9b15-a41614368a76.html"
+                     title="Ingredient/cfdd3877-9af7-48fe-9b15-a41614368a76">Ingredient-excipient Silicon dioxide</a>
+               </td>
+               <td>
+<p>Silicon dioxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.html"
+                     title="MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680">Medicinal Product Karvea 75 mg tablet blister x28</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Karvea 75 mg tablet blister x28</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-d71bf884-90eb-47f9-81b7-fa81ecec7e75.html"
+                     title="Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75">Sanofi-Aventis Groupe as Marketing Authorization Holder</a>
+               </td>
+               <td>
+<p>Marketing Authorization Holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066.html"
+                     title="RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066">Regulated Authorization for karvea 75 mg tablet</a>
+               </td>
+               <td>
+<p>Regulated Authorization for karvea 75 mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-da33bd51-a726-4232-aaa0-4168b9bfe249.html"
+                     title="SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249">substanceirbesartan</a>
+               </td>
+               <td>
+<p>irbesartan</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-e60575aa-e7b3-4461-a456-d310514f4041.html"
+                     title="ClinicalUseDefinition/e60575aa-e7b3-4461-a456-d310514f4041">interactionmethotrexate</a>
+               </td>
+               <td>
+<p>Interaction - METHOTREXATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-e63f72b2-993f-48b1-b7cb-539b1ed71571.html"
+                     title="Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571">Composition for Karvea 75 mg Package Leaflet</a>
+               </td>
+               <td>
+<p>Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ea2a8032-336a-4c0f-be2a-3084e9acbbcc.html"
+                     title="Ingredient/ea2a8032-336a-4c0f-be2a-3084e9acbbcc">Ingredient-excipient Croscarmellose sodium</a>
+               </td>
+               <td>
+<p>Croscarmellose sodium</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d.html"
+                     title="PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d">Packaging Blister x28 75 mg tablets</a>
+               </td>
+               <td>
+<p>Blister x28 tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-eee155e8-e442-491d-9a82-7af3cefac57f.html"
+                     title="Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f">Ingredient-excipient Magnesium stearate</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.html"
+                     title="PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4">Karvea 75 mg tablet blister x28 tablets</a>
+               </td>
+               <td>
+<p>Karvea 75 mg tablet blister x28 tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-fbf58407-83d3-42db-be3d-506b2006d431.html"
+                     title="Ingredient/fbf58407-83d3-42db-be3d-506b2006d431">Ingredient-excipient Croscarmellose sodium</a>
+               </td>
+               <td>
+<p>Croscarmellose sodium</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-ii.html" title="ClinicalUseDefinition/ii">contraindication-gastrointestinaldisorders</a>
+               </td>
+               <td>
+<p>contraindication - Gastrointestinal disorders</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-undesirableEffectanemia.html"
+                     title="ClinicalUseDefinition/undesirableEffectanemia">undesirableEffectanemia</a>
+               </td>
+               <td>
+<p>Undesirable Effect - anemia</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-xx.html"
+                     title="AdministrableProductDefinition/xx">Administrable product Karvea 75mg tablet</a>
+               </td>
+               <td>
+<p>Karvea 75mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-yy.html" title="ClinicalUseDefinition/yy">indication-psoriasis</a>
+               </td>
+               <td>
+<p>indication - Psoriasis</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-zz.html" title="ClinicalUseDefinition/zz">interaction-methotrexate</a>
+               </td>
+               <td>
+<p>interaction - METHOTREXATE</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/"></a>.  Package hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Thu, Nov 24, 2022 15:56+0000">2022-11-24</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

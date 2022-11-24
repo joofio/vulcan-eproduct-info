@@ -1,0 +1,45 @@
+{
+  "resourceType": "ValueSet",
+  "id": "atcClassification",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://www.whocc.no/atc\"><code>http://www.whocc.no/atc</code></a></li></ul></div>"
+  },
+  "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification",
+  "version": "1.0.0-Ballot",
+  "name": "VsAtcClassification",
+  "title": "ATC Classification",
+  "status": "active",
+  "experimental": false,
+  "date": "2022-11-24T15:56:43+00:00",
+  "contact": [
+    {
+      "name": "HL7 BR&R",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/"
+        }
+      ]
+    }
+  ],
+  "description": "ATC Classification",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.whocc.no/atc"
+      }
+    ]
+  }
+}

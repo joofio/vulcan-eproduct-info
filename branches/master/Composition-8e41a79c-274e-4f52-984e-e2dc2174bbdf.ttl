@@ -1,0 +1,268 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/8e41a79c-274e-4f52-984e-e2dc2174bbdf> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "8e41a79c-274e-4f52-984e-e2dc2174bbdf"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"8e41a79c-274e-4f52-984e-e2dc2174bbdf\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;8e41a79c-274e-4f52-984e-e2dc2174bbdf&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 01:28:17+0000</p><p><b>author</b>: <a href=\"Organization-961e5052-6a8a-403a-b6ac-5e585c89de8e.html\">Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e</a> &quot;Sanofi-Aventis Groupe&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - Karvea (irbesartan) 75 mg tablets</p></div>"
+  ];
+  fhir:Composition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+     fhir:Identifier.value [ fhir:value "0d69fdcb-33cf-407f-8209-a6529856ab4f" ]
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+       fhir:Coding.code [ fhir:value "100000155538" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Package Leaflet" ]
+  ];
+  fhir:Composition.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680" ]
+  ];
+  fhir:Composition.date [ fhir:value "2022-02-16T13:28:17Z"^^xsd:dateTime];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e>;
+     fhir:Reference.reference [ fhir:value "Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e" ]
+  ];
+  fhir:Composition.title [ fhir:value "TEST PURPOSES ONLY - Karvea (irbesartan) 75 mg tablets"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Product Information" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.text [ fhir:value "Product Info" ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/ii>;
+       fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/ii" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb>;
+       fhir:Reference.reference [ fhir:value "Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f>;
+       fhir:Reference.reference [ fhir:value "SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f" ]
+     ], [
+       fhir:index 3;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/xx>;
+       fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/xx" ]
+     ], [
+       fhir:index 4;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066>;
+       fhir:Reference.reference [ fhir:value "RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066" ]
+     ], [
+       fhir:index 5;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e>;
+       fhir:Reference.reference [ fhir:value "Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e" ]
+     ], [
+       fhir:index 6;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4>;
+       fhir:Reference.reference [ fhir:value "PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4" ]
+     ], [
+       fhir:index 7;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680>;
+       fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680" ]
+     ], [
+       fhir:index 8;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f>;
+       fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Narrative Text" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.text [ fhir:value "Narrative" ]
+     ];
+     fhir:Composition.section.section [
+       fhir:index 0;
+       fhir:Composition.section.title [ fhir:value "B. Package Leaflet" ];
+       fhir:Composition.section.code [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.code [ fhir:value "100000155538" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "B. PACKAGE LEAFLET" ]
+       ];
+       fhir:Composition.section.text [
+         fhir:Narrative.status [ fhir:value "additional" ];
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ];
+       fhir:Composition.section.emptyReason [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/list-empty-reason" ];
+           fhir:Coding.code [ fhir:value "unavailable" ]
+         ]
+       ];
+       fhir:Composition.section.section [
+         fhir:index 0;
+         fhir:Composition.section.title [ fhir:value "Package leaflet: Information for the user" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "Package leaflet: Information for the user" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Composition.section.title [ fhir:value "What is in this leaflet" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "What is in this leaflet" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Composition.section.title [ fhir:value "1. What Karvea is and what it is used for" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "1. What Karvea is and what it is used for" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ], [
+         fhir:index 3;
+         fhir:Composition.section.title [ fhir:value "2. What you need to know before you take Karvea" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "2. What you need to know before you take Karvea" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ], [
+         fhir:index 4;
+         fhir:Composition.section.title [ fhir:value "3. How to take Karvea" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "3. How to take Karvea" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ], [
+         fhir:index 5;
+         fhir:Composition.section.title [ fhir:value "4. Possible side effects" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "4. Possible side effects" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ], [
+         fhir:index 6;
+         fhir:Composition.section.title [ fhir:value "5. How to store Karvea" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "5. How to store Karvea" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ], [
+         fhir:index 7;
+         fhir:Composition.section.title [ fhir:value "6. Contents of the pack and other information" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "6. Contents of the pack and other information" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div></div>"
+         ]
+       ]
+     ]
+  ] .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/ii> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/xx> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/8e41a79c-274e-4f52-984e-e2dc2174bbdf.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/Composition/8e41a79c-274e-4f52-984e-e2dc2174bbdf.ttl> .
+
+# -------------------------------------------------------------------------------------
+
