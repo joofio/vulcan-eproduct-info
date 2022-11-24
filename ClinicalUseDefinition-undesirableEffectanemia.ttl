@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/undesirableEffectanemia> a fhir:ClinicalUseDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "undesirableEffectanemia"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"undesirableEffectanemia\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;undesirableEffectanemia&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi.html\">ClinicalUseDefinition Undesirable Effect (ePI)</a></p></div><p><b>identifier</b>: id: anemia (use: OFFICIAL)</p><p><b>type</b>: undesirable-effect</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-800a51a2-d81d-49a4-a4eb-f2417d301837.html\">MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837</a></p><blockquote><p><b>undesirableEffect</b></p><h3>SymptomConditionEffects</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Anemia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-mdr.html\">MedDRA</a>#10002272)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:ClinicalUseDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/" ];
+     fhir:Identifier.value [ fhir:value "anemia" ]
+  ];
+  fhir:ClinicalUseDefinition.type [ fhir:value "undesirable-effect"];
+  fhir:ClinicalUseDefinition.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837" ]
+  ];
+  fhir:ClinicalUseDefinition.undesirableEffect [
+     fhir:ClinicalUseDefinition.undesirableEffect.symptomConditionEffect [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/mdr" ];
+           fhir:Coding.code [ fhir:value "10002272" ];
+           fhir:Coding.display [ fhir:value "Anemia" ]
+         ]
+       ]
+     ]
+  ] .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/undesirableEffectanemia.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/ClinicalUseDefinition/undesirableEffectanemia.ttl> .
+
+# -------------------------------------------------------------------------------------
+

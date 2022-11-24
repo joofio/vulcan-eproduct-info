@@ -1,0 +1,2516 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.uv.vulcan-eproduct-info",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EpiIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/vulcan-eproduct-info/ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info</pre><div><p>BR&amp;R creates and promotes standards to facilitate biomedical research and any subsequent regulatory evaluation of the safety, efficacy and quality of medical products that may arise from research.</p>\n</div></div>"
+  },
+  "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info",
+  "version": "1.0.0-Ballot",
+  "name": "EpiIG",
+  "title": "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
+  "status": "active",
+  "date": "2022-11-24T15:56:43+00:00",
+  "contact": [
+    {
+      "name": "HL7 BR&R",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7.org/Special/committees/"
+        }
+      ]
+    }
+  ],
+  "description": "BR&R creates and promotes standards to facilitate biomedical research and any subsequent regulatory evaluation of the safety, efficacy and quality of medical products that may arise from research.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "001",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "packageId": "hl7.fhir.uv.vulcan-eproduct-info",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "5.0.0-ballot"
+  ],
+  "dependsOn": [
+    {
+      "id": "hl7tx",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+          "valueMarkdown": "Automatically added as a dependency - all IGs depend on HL7 Terminology"
+        }
+      ],
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r5",
+      "version": "5.0.0"
+    }
+  ],
+  "definition": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2021+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "CI Build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "show-inherited-invariants"
+          },
+          {
+            "url": "value",
+            "valueString": "false"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "autoload-resources"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-history"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "template/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-liquid"
+          },
+          {
+            "url": "value",
+            "valueString": "input/liquid"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-qa"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/qa"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-temp"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/pages"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-output"
+          },
+          {
+            "url": "value",
+            "valueString": "output"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-suppressed-warnings"
+          },
+          {
+            "url": "value",
+            "valueString": "input/ignoreWarnings.txt"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-html"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-md"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page-md.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-contact"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-context"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-copyright"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-jurisdiction"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-license"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-publisher"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-version"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "tabbed-snapshots"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/AdministrableProductDefinition-uv-epi"
+        },
+        "name": "AdministrableProductDefinition (ePI)",
+        "description": "AdministrableProductDefinition (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Bundle-uv-epi"
+        },
+        "name": "Bundle - ePI",
+        "description": "Medicinal product information is a pivotal source of regulated and scientifically validated information that assists healthcare professionals in prescribing and dispensing the medicine and informs consumers about its safe and effective use. This profile represents the constraints applied to the Bundle resource used in the Electronic Product Information (ePI) FHIR Implementation Guide.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+        },
+        "name": "ClinicalUseDefinition Contraindication (ePI)",
+        "description": "ClinicalUseDefinition Contraindication (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ClinicalUseDefinition-indication-uv-epi"
+        },
+        "name": "ClinicalUseDefinition Indication (ePI)",
+        "description": "ClinicalUseDefinition Indication (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"
+        },
+        "name": "ClinicalUseDefinition Interaction (ePI)",
+        "description": "ClinicalUseDefinition Interaction (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi"
+        },
+        "name": "ClinicalUseDefinition Undesirable Effect (ePI)",
+        "description": "ClinicalUseDefinition Undesirable Effect (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ClinicalUseDefinition-warning-uv-epi"
+        },
+        "name": "ClinicalUseDefinition Warning (ePI)",
+        "description": "ClinicalUseDefinition Warning (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Composition-uv-epi"
+        },
+        "name": "Composition (ePI)",
+        "description": "The Composition captures the section headings, sub-section headings, and narrative text (For example, paragraphs, bulleted lists, tables) in an ePI.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Ingredient-uv-epi"
+        },
+        "name": "Ingredient (ePI)",
+        "description": "Ingredient (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ManufacturedItemDefinition-uv-epi"
+        },
+        "name": "ManufacturedItemDefinition (ePI)",
+        "description": "ManufacturedItemDefinition (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/MedicinalProductDefinition-uv-epi"
+        },
+        "name": "MedicinalProductDefinition (ePI)",
+        "description": "Description of the packaged authorized medicinal product(s) associated to this ePI document.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/Organization-uv-epi"
+        },
+        "name": "Organization (ePI)",
+        "description": "Organization (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PackagedProductDefinition-uv-epi"
+        },
+        "name": "PackagedProductDefinition (ePI)",
+        "description": "PackagedProductDefinition (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/RegulatedAuthorization-uv-epi"
+        },
+        "name": "RegulatedAuthorization (ePI)",
+        "description": "RegulatedAuthorization (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/SubstanceDefinition-uv-epi"
+        },
+        "name": "SubstanceDefinition (ePI)",
+        "description": "SubstanceDefinition (ePI)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/additionalMonitoringIndicator"
+        },
+        "name": "Additional Monitoring Indicator",
+        "description": "Additional Monitoring Indicator",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/admProductIdSystems"
+        },
+        "name": "AdministrableProductDefinition identifier systems",
+        "description": "AdministrableProductDefinition Identifier systems (uri)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/atcClassification"
+        },
+        "name": "ATC Classification",
+        "description": "ATC Classification",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/authorizationStatus"
+        },
+        "name": "Authorization Status",
+        "description": "Authorization Status",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/caseIdSystem"
+        },
+        "name": "Case System Identifiers",
+        "description": "Case System Identifiers",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/country"
+        },
+        "name": "ISO Country two letter code",
+        "description": "ISO Country two letter code",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/dataCarrierIdSystem"
+        },
+        "name": "Data Carrier Identifiers",
+        "description": "Listing of identifiers for Data Carriers",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/epiType"
+        },
+        "name": "ePI document types",
+        "description": "ePI document types",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/exampleUseCodesForList"
+        },
+        "name": "The topic of this list",
+        "description": "The topic of this list",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/generalStatus"
+        },
+        "name": "General Status used across ePI resources",
+        "description": "General Status used across ePI resources",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/legalStatusOfSupply"
+        },
+        "name": "Legal Status for the Supply",
+        "description": "Legal Status for the Supply",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/manufacturedItemIdSystems"
+        },
+        "name": "ManufacturedItemDefinition identifier systems",
+        "description": "ManufacturedItemDefinition Identifier systems (uri)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/marketingStatus"
+        },
+        "name": "Marketing Status",
+        "description": "Marketing Status",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/VsMedProductIdSystems"
+        },
+        "name": "MedicinalProductDefinition identifier systems",
+        "description": "MedicinalProductDefinition Identifier systems (uri)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/medProductType"
+        },
+        "name": "Medicinal Product Type",
+        "description": "Medicinal Product Type",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/meddra"
+        },
+        "name": "MedDRA Terms for clinical diseases and symptoms",
+        "description": "MedDRA Terms for clinical diseases and symptoms",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/nonproprietaryNamePart"
+        },
+        "name": "Non-proprietary Name of the active ingredient(s)",
+        "description": "Non-proprietary Name of the active ingredient(s)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/operationType"
+        },
+        "name": "Type of operation",
+        "description": "Type of operation",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/organizationIdSystems"
+        },
+        "name": "Organization identifier systems",
+        "description": "Organization Identifier systems (uri)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/organizationType"
+        },
+        "name": "Type of organization",
+        "description": "Type of organization",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/packageMaterial"
+        },
+        "name": "Package Material",
+        "description": "Package Material",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/packageType"
+        },
+        "name": "High level Pack Type",
+        "description": "High level type of pack; e.g., medicinal product pack, sample pack, shipping container.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/packagedProductIdSystems"
+        },
+        "name": "PackagedProductDefinition identifier systems",
+        "description": "PackagedProductDefinition Identifier systems (uri)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/partType"
+        },
+        "name": "Part Type",
+        "description": "Part Type",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/pediatricUseIndicator"
+        },
+        "name": "Pediatric Use Indicator",
+        "description": "Pediatric Use Indicator",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/PharmaceuticalDoseForm"
+        },
+        "name": "Pharmaceutical Dose Form",
+        "description": "Pharmaceutical Dose Form",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/pharmaceuticalDoseFormPart"
+        },
+        "name": "Pharmaceutical Dose Form of the medicinal product",
+        "description": "Pharmaceutical Dose Form of the medicinal product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/productConfidentialityIdSystems"
+        },
+        "name": "Product Confidentiality",
+        "description": "Product Confidentiality",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/productNamePartType"
+        },
+        "name": "Product Name Part Type",
+        "description": "Product Name Part Type",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/propertyColor"
+        },
+        "name": "Color of the product",
+        "description": "Color of the product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/propertyFlavor"
+        },
+        "name": "Flavor of the product",
+        "description": "Flavor of the product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/propertyScore"
+        },
+        "name": "Score on the product",
+        "description": "Score on the product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/propertyShape"
+        },
+        "name": "Shape of the product",
+        "description": "Shape of the product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/VsPropertySurfaceForm"
+        },
+        "name": "Surface form of the product",
+        "description": "Surface form of the product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/proprietaryNamePart"
+        },
+        "name": "Proprietary Name of the medicinal product",
+        "description": "Proprietary Name of the medicinal product",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/VsRegulatedAuthorization"
+        },
+        "name": "Type of Regulated Authorization",
+        "description": "Type of Regulated Authorization",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/RegulatedAuthorizationTypeIdSystems"
+        },
+        "name": "Regulated Authorization Type identifier systems",
+        "description": "Regulated Authorization Type Identifier systems (uri)",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/regulatoryActivityType"
+        },
+        "name": "Regulatory Activity Type",
+        "description": "Regulatory Activity Type; e.g., MAA",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/roleClassIngredientEntity"
+        },
+        "name": "Ingredient Role; e.g., inactive, active base, active moiety",
+        "description": "Ingredient Role; e.g., inactive, active base, active moiety",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/routeOfAdministration"
+        },
+        "name": "Route Of Administration",
+        "description": "Route Of Administration",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/secondaryPrimaryPackType"
+        },
+        "name": "Pack Type",
+        "description": "Pack Type",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/sectionCode"
+        },
+        "name": "Section Codes",
+        "description": "Section Codes",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/shelfLifeType"
+        },
+        "name": "Shelf Life Type",
+        "description": "Shelf Life Type",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/specialPrecautionsForStorage"
+        },
+        "name": "Special Precautions For Storage",
+        "description": "Special Precautions For Storage",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/strengthPart"
+        },
+        "name": "Strength of the medicinal product name",
+        "description": "Strength of the medicinal product name",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/substance"
+        },
+        "name": "Substances",
+        "description": "Substances",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/unitofMeasure"
+        },
+        "name": "Units of Measure",
+        "description": "Units of Measure",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/unitofPresentation"
+        },
+        "name": "Units of Presentation",
+        "description": "Units of Presentation",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/gravitate"
+        },
+        "name": "Gravitate Health Project Code System",
+        "description": "Gravitate Health Project Code System. Coded concepts defined for internal project use.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/CodeSystemUvEPIRomswi"
+        },
+        "name": "Organization Management Services CodeSystem",
+        "description": "Items from https://spor.ema.europa.eu/omswi",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/CodeSystemUvEPIRpmswi"
+        },
+        "name": "Products Management Services CodeSystem",
+        "description": "Items from https://spor.ema.europa.eu/pmswi",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/CodeSystemUvEPIRrmswi"
+        },
+        "name": "Referentials Management Services CodeSystem",
+        "description": "Items from https://spor.ema.europa.eu/rmswi",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/CodeSystemUvEPIRsmswi"
+        },
+        "name": "Substances Management Services CodeSystem",
+        "description": "Items from https://spor.ema.europa.eu/smswi",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6"
+        },
+        "name": "Ingredient-excipient Silicon dioxide",
+        "description": "Silicon dioxide",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0"
+        },
+        "name": "Ingredient-excipient Hypromellose",
+        "description": "Hypromellose",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd"
+        },
+        "name": "Ingredient-excipient Microcrystalline cellulose",
+        "description": "Microcrystalline cellulose",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f"
+        },
+        "name": "Manufactured item karvea 75 mg tablet",
+        "description": "karvea 75 mg tablet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/23307304-5469-4897-b676-e8202fd25afc"
+        },
+        "name": "Ingredient-excipient Microcrystalline cellulose",
+        "description": "Microcrystalline cellulose",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8"
+        },
+        "name": "Regulated Authorization for Karvea 75 mg tablets",
+        "description": "Regulated Authorization",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468"
+        },
+        "name": "Manufactured item Karvea 75 mg tabelt",
+        "description": "karvea 75 mg tablet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/324cd066-b593-4b32-aae3-26986e2f8e2b"
+        },
+        "name": "Ingredient-excipient Macrogol 3000",
+        "description": "Macrogol 3000",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069"
+        },
+        "name": "Karvea 75mg tablet administrable product",
+        "description": "Karvea 75 mg tablet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/3a8b6287-50e6-42cf-91d9-1bb83bd57103"
+        },
+        "name": "Ingredient-excipient Magnesium stearate",
+        "description": "Magnesium stearate",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/4660d47b-f1d3-4007-bc72-1e7ad77fb541"
+        },
+        "name": "Ingredient-excipient Titanium Dioxide",
+        "description": "Titanium Dioxide",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/479b02e1-cb8c-450d-988e-2bf225ff9413"
+        },
+        "name": "ePI document Bundle for Karvea 75 mg Package Leaflet",
+        "description": "Bundle for Karvea 75 mg Package Leaflet ePI document",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/4e922ec1-a398-4a78-8381-3729422b7602"
+        },
+        "name": "indication",
+        "description": "Indication",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/4f8b256b-2285-486c-8a03-24b972898aa8"
+        },
+        "name": "Ingredient-active irbesartan",
+        "description": "irbesartan",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/745c01bc-936e-45ca-9880-57e97608f43e"
+        },
+        "name": "Ingredient-active irbesartan",
+        "description": "irbesartan",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/793af3f5-edec-4a56-9584-cda6ad3fb8fc"
+        },
+        "name": "Ingredient-excipient Lactose Monohydrate",
+        "description": "Lactose Monohydrate",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SubstanceDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f"
+        },
+        "name": "substance-irbesartan",
+        "description": "irbesartan",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf"
+        },
+        "name": "Ingredient-excipient Lactose Monohydrate",
+        "description": "Lactose Monohydrate",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837"
+        },
+        "name": "Medicinal Product Karvea 75 mg tablet in blister pack of 28 tablets",
+        "description": "EU/1/97/049/001 Karvea 75 mg tablet blister x28",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055"
+        },
+        "name": "contraindication",
+        "description": "Contraindication - Gastrointestinal disorders",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/878e7eb5-4023-4102-9aa5-f5ae596511ea"
+        },
+        "name": "Ingredient-excipient Carnauba wax",
+        "description": "Carnauba wax",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Composition"
+          }
+        ],
+        "reference": {
+          "reference": "Composition/8e41a79c-274e-4f52-984e-e2dc2174bbdf"
+        },
+        "name": "Composition for Karvea Package Leaflet",
+        "description": "Composition for Karvea Package Leaflet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb"
+        },
+        "name": "Ingredient-excipient Hypromellose",
+        "description": "Hypromellose",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e"
+        },
+        "name": "Sanofi-Aventis Groupe as Marketing authorisation holder",
+        "description": "Marketing authorisation holder",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/a4b7b60c-998f-4f93-89c7-860396af0fe3"
+        },
+        "name": "Ingredient-excipient carnauba wax",
+        "description": "Carnauba wax",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6"
+        },
+        "name": "Ingredient-excipient Titanium Dioxide",
+        "description": "Titanium Dioxide",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb"
+        },
+        "name": "warninghypotension",
+        "description": "Warning - hypotension",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/bundlepackageleaflet75"
+        },
+        "name": "ePI document Bundle for Karvea 75 mg Package Leaflet",
+        "description": "Bundle for Karvea Package Leaflet ePI document",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e"
+        },
+        "name": "Ingredient-excipient Macrogol 3000",
+        "description": "Macrogol 3000",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/cfdd3877-9af7-48fe-9b15-a41614368a76"
+        },
+        "name": "Ingredient-excipient Silicon dioxide",
+        "description": "Silicon dioxide",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MedicinalProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680"
+        },
+        "name": "Medicinal Product Karvea 75 mg tablet blister x28",
+        "description": "EU/1/97/049/001 Karvea 75 mg tablet blister x28",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75"
+        },
+        "name": "Sanofi-Aventis Groupe as Marketing Authorization Holder",
+        "description": "Marketing Authorization Holder",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066"
+        },
+        "name": "Regulated Authorization for karvea 75 mg tablet",
+        "description": "Regulated Authorization for karvea 75 mg tablet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SubstanceDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249"
+        },
+        "name": "substanceirbesartan",
+        "description": "irbesartan",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/e60575aa-e7b3-4461-a456-d310514f4041"
+        },
+        "name": "interactionmethotrexate",
+        "description": "Interaction - METHOTREXATE",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Composition"
+          }
+        ],
+        "reference": {
+          "reference": "Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571"
+        },
+        "name": "Composition for Karvea 75 mg Package Leaflet",
+        "description": "Package Leaflet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/ea2a8032-336a-4c0f-be2a-3084e9acbbcc"
+        },
+        "name": "Ingredient-excipient Croscarmellose sodium",
+        "description": "Croscarmellose sodium",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d"
+        },
+        "name": "Packaging Blister x28 75 mg tablets",
+        "description": "Blister x28 tablets",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f"
+        },
+        "name": "Ingredient-excipient Magnesium stearate",
+        "description": "Magnesium stearate",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/epi-server"
+        },
+        "name": "epi-server",
+        "description": "This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification.",
+        "isExample": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4"
+        },
+        "name": "Karvea 75 mg tablet blister x28 tablets",
+        "description": "Karvea 75 mg tablet blister x28 tablets",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/fbf58407-83d3-42db-be3d-506b2006d431"
+        },
+        "name": "Ingredient-excipient Croscarmellose sodium",
+        "description": "Croscarmellose sodium",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/ii"
+        },
+        "name": "contraindication-gastrointestinaldisorders",
+        "description": "contraindication - Gastrointestinal disorders",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/undesirableEffectanemia"
+        },
+        "name": "undesirableEffectanemia",
+        "description": "Undesirable Effect - anemia",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "AdministrableProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "AdministrableProductDefinition/xx"
+        },
+        "name": "Administrable product Karvea 75mg tablet",
+        "description": "Karvea 75mg tablet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/yy"
+        },
+        "name": "indication-psoriasis",
+        "description": "indication - Psoriasis",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ClinicalUseDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ClinicalUseDefinition/zz"
+        },
+        "name": "interaction-methotrexate",
+        "description": "interaction - METHOTREXATE",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"
+        ]
+      }
+    ],
+    "page": {
+      "sourceUrl": "toc.html",
+      "name": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "sourceUrl": "index.html",
+          "name": "index.html",
+          "title": "Introduction",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "background.html",
+          "name": "background.html",
+          "title": "Background",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "core-epi-structure.html",
+          "name": "core-epi-structure.html",
+          "title": "Core ePI Profile",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "annotation.html",
+          "name": "annotation.html",
+          "title": "Semantic Annotation",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "steps-to-create-core-epi.html",
+          "name": "steps-to-create-core-epi.html",
+          "title": "Steps to create a Core FHIR ePI",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "capability.html",
+          "name": "capability.html",
+          "title": "Capability",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "general-technical-conformance-requirements.html",
+          "name": "general-technical-conformance-requirements.html",
+          "title": "General Technical Conformance Requirements",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "appendicies.html",
+          "name": "appendicies.html",
+          "title": "Appendix",
+          "generation": "markdown"
+        },
+        {
+          "sourceUrl": "downloads.html",
+          "name": "downloads.html",
+          "title": "Downloads",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/resources/irbesartan"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/resources/oxymetazoline-hydrochloride"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/resources/dimethyl-fumarate"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/capabilities"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/examples"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/extensions"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/models"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/operations"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/profiles"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/resources"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/vocabulary"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/testing"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "input/history"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-resource"
+        },
+        "value": "fsh-generated/resources"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-pages"
+        },
+        "value": "template/config"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-pages"
+        },
+        "value": "input/images"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/guide-parameter-code",
+          "code": "path-tx-cache"
+        },
+        "value": "input-cache/txcache"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "copyrightyear"
+        },
+        "value": "2021+"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "releaselabel"
+        },
+        "value": "CI Build"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "show-inherited-invariants"
+        },
+        "value": "false"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "autoload-resources"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "path-history"
+        },
+        "value": "http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "path-liquid"
+        },
+        "value": "template/liquid"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "path-liquid"
+        },
+        "value": "input/liquid"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "path-qa"
+        },
+        "value": "temp/qa"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "path-temp"
+        },
+        "value": "temp/pages"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "path-output"
+        },
+        "value": "output"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "path-suppressed-warnings"
+        },
+        "value": "input/ignoreWarnings.txt"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "template-html"
+        },
+        "value": "template-page.html"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "template-md"
+        },
+        "value": "template-page-md.html"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "apply-contact"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "apply-context"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "apply-copyright"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "apply-jurisdiction"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "apply-license"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "apply-publisher"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "apply-version"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "active-tables"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "fmm-definition"
+        },
+        "value": "http://hl7.org/fhir/versions.html#maturity"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "propagate-status"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "excludelogbinaryformat"
+        },
+        "value": "true"
+      },
+      {
+        "code": {
+          "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
+          "code": "tabbed-snapshots"
+        },
+        "value": "true"
+      }
+    ]
+  }
+}

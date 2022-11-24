@@ -1,0 +1,492 @@
+[
+  {
+    "id": "epi-server",
+    "type": "CapabilityStatement",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CapabilityStatement/epi-server",
+    "version": "1.0.0-Ballot",
+    "name": "ePI FHIR Capability Statement (draft 1)"
+  },
+  {
+    "id": "CodeSystemUvEPIRomswi",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRomswi",
+    "version": "1.0.0-Ballot",
+    "name": "CodeSystemUvEPIRomswi"
+  },
+  {
+    "id": "CodeSystemUvEPIRpmswi",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi",
+    "version": "1.0.0-Ballot",
+    "name": "CodeSystemUvEPIRpmswi"
+  },
+  {
+    "id": "CodeSystemUvEPIRrmswi",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRrmswi",
+    "version": "1.0.0-Ballot",
+    "name": "CodeSystemUvEPIRrmswi"
+  },
+  {
+    "id": "CodeSystemUvEPIRsmswi",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRsmswi",
+    "version": "1.0.0-Ballot",
+    "name": "CodeSystemUvEPIRsmswi"
+  },
+  {
+    "id": "gravitate",
+    "type": "CodeSystem",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/gravitate",
+    "version": "1.0.0-Ballot",
+    "name": "CodeSystemGravitate"
+  },
+  {
+    "id": "hl7.fhir.uv.vulcan-eproduct-info",
+    "type": "ImplementationGuide",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info",
+    "version": "1.0.0-Ballot",
+    "name": "EpiIG"
+  },
+  {
+    "id": "AdministrableProductDefinition-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "AdministrableProductDefinitionUvEpi"
+  },
+  {
+    "id": "Bundle-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "BundleUvEpi"
+  },
+  {
+    "id": "ClinicalUseDefinition-contraindication-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "ClinicalUseDefinitionContraindicationUvEpi"
+  },
+  {
+    "id": "ClinicalUseDefinition-indication-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "ClinicalUseDefinitionIndicationUvEpi"
+  },
+  {
+    "id": "ClinicalUseDefinition-interaction-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "ClinicalUseDefinitionInteractionUvEpi"
+  },
+  {
+    "id": "ClinicalUseDefinition-undesirableEffect-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "ClinicalUseDefinitionUndesirableEffectUvEpi"
+  },
+  {
+    "id": "ClinicalUseDefinition-warning-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "ClinicalUseDefinitionWarningUvEpi"
+  },
+  {
+    "id": "Composition-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "CompositionUvEpi"
+  },
+  {
+    "id": "Ingredient-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "IngredientUvEpi"
+  },
+  {
+    "id": "ManufacturedItemDefinition-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "ManufacturedItemDefinitionUvEpi"
+  },
+  {
+    "id": "MedicinalProductDefinition-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "MedicinalProductDefinitionUvEpi"
+  },
+  {
+    "id": "Organization-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "OrganizationUvEpi"
+  },
+  {
+    "id": "PackagedProductDefinition-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "PackagedProductDefinitionUvEpi"
+  },
+  {
+    "id": "RegulatedAuthorization-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "RegulatedAuthorizationUvEpi"
+  },
+  {
+    "id": "SubstanceDefinition-uv-epi",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+    "version": "1.0.0-Ballot",
+    "name": "SubstanceDefinitionUvEpi"
+  },
+  {
+    "id": "PharmaceuticalDoseForm",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm",
+    "version": "1.0.0-Ballot",
+    "name": "VsPharmaceuticalDoseForm"
+  },
+  {
+    "id": "RegulatedAuthorizationTypeIdSystems",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/RegulatedAuthorizationTypeIdSystems",
+    "version": "1.0.0-Ballot",
+    "name": "VsRegulatedAuthorizationTypeIdSystems"
+  },
+  {
+    "id": "VsMedProductIdSystems",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsMedProductIdSystems",
+    "version": "1.0.0-Ballot",
+    "name": "VsMedProductIdSystems"
+  },
+  {
+    "id": "VsPropertySurfaceForm",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsPropertySurfaceForm",
+    "version": "1.0.0-Ballot",
+    "name": "VsPropertySurfaceForm"
+  },
+  {
+    "id": "VsRegulatedAuthorization",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsRegulatedAuthorization",
+    "version": "1.0.0-Ballot",
+    "name": "VsRegulatedAuthorization"
+  },
+  {
+    "id": "additionalMonitoringIndicator",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/additionalMonitoringIndicator",
+    "version": "1.0.0-Ballot",
+    "name": "VsAdditionalMonitoringIndicator"
+  },
+  {
+    "id": "admProductIdSystems",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/admProductIdSystems",
+    "version": "1.0.0-Ballot",
+    "name": "VsAdmProductIdSystems"
+  },
+  {
+    "id": "atcClassification",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification",
+    "version": "1.0.0-Ballot",
+    "name": "VsAtcClassification"
+  },
+  {
+    "id": "authorizationStatus",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/authorizationStatus",
+    "version": "1.0.0-Ballot",
+    "name": "VsAuthorizationStatus"
+  },
+  {
+    "id": "caseIdSystem",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/caseIdSystem",
+    "version": "1.0.0-Ballot",
+    "name": "VsCaseIdSystem"
+  },
+  {
+    "id": "country",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country",
+    "version": "1.0.0-Ballot",
+    "name": "VsCountry"
+  },
+  {
+    "id": "dataCarrierIdSystem",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/dataCarrierIdSystem",
+    "version": "1.0.0-Ballot",
+    "name": "VsDataCarrierIdSystem"
+  },
+  {
+    "id": "epiType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/epiType",
+    "version": "1.0.0-Ballot",
+    "name": "VsEpiType"
+  },
+  {
+    "id": "exampleUseCodesForList",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/exampleUseCodesForList",
+    "version": "1.0.0-Ballot",
+    "name": "VsExampleUseCodesForList"
+  },
+  {
+    "id": "generalStatus",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/generalStatus",
+    "version": "1.0.0-Ballot",
+    "name": "VsGeneralStatus"
+  },
+  {
+    "id": "legalStatusOfSupply",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/legalStatusOfSupply",
+    "version": "1.0.0-Ballot",
+    "name": "VsLegalStatusOfSupply"
+  },
+  {
+    "id": "manufacturedItemIdSystems",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/manufacturedItemIdSystems",
+    "version": "1.0.0-Ballot",
+    "name": "VsManufacturedItemIdSystems"
+  },
+  {
+    "id": "marketingStatus",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/marketingStatus",
+    "version": "1.0.0-Ballot",
+    "name": "VsMarketingStatus"
+  },
+  {
+    "id": "medProductType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/medProductType",
+    "version": "1.0.0-Ballot",
+    "name": "VsMedProductType"
+  },
+  {
+    "id": "meddra",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/meddra",
+    "version": "1.0.0-Ballot",
+    "name": "VsMeddra"
+  },
+  {
+    "id": "nonproprietaryNamePart",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/nonproprietaryNamePart",
+    "version": "1.0.0-Ballot",
+    "name": "VsNonproprietaryNamePart"
+  },
+  {
+    "id": "operationType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/operationType",
+    "version": "1.0.0-Ballot",
+    "name": "VsOperationType"
+  },
+  {
+    "id": "organizationIdSystems",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationIdSystems",
+    "version": "1.0.0-Ballot",
+    "name": "VsOrganizationIdSystems"
+  },
+  {
+    "id": "organizationType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationType",
+    "version": "1.0.0-Ballot",
+    "name": "VsOrganizationType"
+  },
+  {
+    "id": "packageMaterial",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageMaterial",
+    "version": "1.0.0-Ballot",
+    "name": "VsPackageMaterial"
+  },
+  {
+    "id": "packageType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageType",
+    "version": "1.0.0-Ballot",
+    "name": "VsPackageType"
+  },
+  {
+    "id": "packagedProductIdSystems",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packagedProductIdSystems",
+    "version": "1.0.0-Ballot",
+    "name": "VsPackagedProductIdSystems"
+  },
+  {
+    "id": "partType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/partType",
+    "version": "1.0.0-Ballot",
+    "name": "VsPartType"
+  },
+  {
+    "id": "pediatricUseIndicator",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/pediatricUseIndicator",
+    "version": "1.0.0-Ballot",
+    "name": "VsPediatricUseIndicator"
+  },
+  {
+    "id": "pharmaceuticalDoseFormPart",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/pharmaceuticalDoseFormPart",
+    "version": "1.0.0-Ballot",
+    "name": "VsPharmaceuticalDoseFormPart"
+  },
+  {
+    "id": "productConfidentialityIdSystems",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/productConfidentialityIdSystems",
+    "version": "1.0.0-Ballot",
+    "name": "VsProductConfidentialityIdSystems"
+  },
+  {
+    "id": "productNamePartType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/productNamePartType",
+    "version": "1.0.0-Ballot",
+    "name": "VsProductNamePartType"
+  },
+  {
+    "id": "propertyColor",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyColor",
+    "version": "1.0.0-Ballot",
+    "name": "VsPropertyColor"
+  },
+  {
+    "id": "propertyFlavor",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyFlavor",
+    "version": "1.0.0-Ballot",
+    "name": "VsPropertyFlavor"
+  },
+  {
+    "id": "propertyScore",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyScore",
+    "version": "1.0.0-Ballot",
+    "name": "VsPropertyScore"
+  },
+  {
+    "id": "propertyShape",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyShape",
+    "version": "1.0.0-Ballot",
+    "name": "VsPropertyShape"
+  },
+  {
+    "id": "proprietaryNamePart",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/proprietaryNamePart",
+    "version": "1.0.0-Ballot",
+    "name": "VsProprietaryNamePart"
+  },
+  {
+    "id": "regulatoryActivityType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/regulatoryActivityType",
+    "version": "1.0.0-Ballot",
+    "name": "VsRegulatoryActivityType"
+  },
+  {
+    "id": "roleClassIngredientEntity",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/roleClassIngredientEntity",
+    "version": "1.0.0-Ballot",
+    "name": "VsRoleClassIngredientEntity"
+  },
+  {
+    "id": "routeOfAdministration",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/routeOfAdministration",
+    "version": "1.0.0-Ballot",
+    "name": "VsRouteOfAdministration"
+  },
+  {
+    "id": "secondaryPrimaryPackType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/secondaryPrimaryPackType",
+    "version": "1.0.0-Ballot",
+    "name": "VsSecondaryPrimaryPackType"
+  },
+  {
+    "id": "sectionCode",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode",
+    "version": "1.0.0-Ballot",
+    "name": "VsSectionCode"
+  },
+  {
+    "id": "shelfLifeType",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/shelfLifeType",
+    "version": "1.0.0-Ballot",
+    "name": "VsShelfLifeType"
+  },
+  {
+    "id": "specialPrecautionsForStorage",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/specialPrecautionsForStorage",
+    "version": "1.0.0-Ballot",
+    "name": "VsSpecialPrecautionsForStorage"
+  },
+  {
+    "id": "strengthPart",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/strengthPart",
+    "version": "1.0.0-Ballot",
+    "name": "VsStrengthPart"
+  },
+  {
+    "id": "substance",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/substance",
+    "version": "1.0.0-Ballot",
+    "name": "VsSubstance"
+  },
+  {
+    "id": "unitofMeasure",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofMeasure",
+    "version": "1.0.0-Ballot",
+    "name": "VsUnitofMeasure"
+  },
+  {
+    "id": "unitofPresentation",
+    "type": "ValueSet",
+    "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofPresentation",
+    "version": "1.0.0-Ballot",
+    "name": "VsUnitofPresentation"
+  }
+]

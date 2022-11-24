@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.FHIR.UV.VULCAN-EPRODUCT-INFO\Semantic Annotation - FHIR v5.0.0-ballot</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"4"}
+    h3,h4,h5,h6{--heading-prefix:"4"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0-Ballot - CI Build
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Introduction</a>
+  </li>
+  <li>
+    <a href="background.html">Background</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Specification
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="core-epi-structure.html">Core ePI Structure</a>
+      </li>
+      <li>
+        <a href="annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="steps-to-create-core-epi.html">Step to create ePI</a>
+      </li>
+      <li>
+        <a href="general-technical-conformance-requirements.html">General Technical Conformance</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li>
+    <a href="appendicies.html">Appendices</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Semantic Annotation</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide - Local Development build (v1.0.0-Ballot). See the <a href="http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Semantic Annotation</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h4 id="technical-section">Technical Section</h4>
+
+<p>Semantic Annotation should be implemented with the <a href="http://hl7.org/fhir/2022Sep/extension-narrativelink.html">narrativeLink</a> extension. The <a href="http://hl7.org/fhir/2022Sep/narrative.html#linking">Linking between Data and Narrative</a> section of the Narrative datatype gives a basic example of use.</p>
+
+<p>The extension has to be declared in the structured resource, and scoped to the Composition using the <code class="language-plaintext highlighter-rouge">fullUrl</code> in the <code class="language-plaintext highlighter-rouge">valueUrl</code> of the extension:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Ingredient xmlns="http://hl7.org/fhir"&gt;
+  &lt;extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink"&gt;
+    &lt;valueUrl value="http://ema.europa.eu/fhir/Composition/123456#lactoseMonohydrateTag"/&gt;
+  &lt;/extension&gt;
+  ...
+  &lt;substance&gt;
+    &lt;code&gt;
+      &lt;concept&gt;
+        &lt;coding&gt;
+          &lt;system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+          &lt;code value="EWQ57Q8I5X"/&gt;
+          &lt;display value="Lactose Monohydrate"/&gt;
+        &lt;/coding&gt;
+      &lt;/concept&gt;
+    &lt;/code&gt;
+  &lt;/substance&gt;
+&lt;/Ingredient&gt;
+</code></pre></div></div>
+
+<p>The ID part can then be used in the HTML code of the extension to mark a section of text:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;p&gt;Text of the section with &lt;span id="lactoseMonohydrateTag"&gt;some information about the ingredient&lt;/span&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>The same ID attribute can only be used on one HTML element in the same document. If there are several text sections that should be marked, the extension must be duplicated with a different ID value:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Ingredient xmlns="http://hl7.org/fhir"&gt;
+  &lt;extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink"&gt;
+    &lt;valueUrl value="http://ema.europa.eu/fhir/Composition/123456#lactoseMonohydrateTag1"/&gt;
+  &lt;/extension&gt;
+  &lt;extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink"&gt;
+    &lt;valueUrl value="http://ema.europa.eu/fhir/Composition/123456#lactoseMonohydrateTag2"/&gt;
+  &lt;/extension&gt;
+  ...
+  &lt;substance&gt;
+    &lt;code&gt;
+      &lt;concept&gt;
+        &lt;coding&gt;
+          &lt;system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
+          &lt;code value="EWQ57Q8I5X"/&gt;
+          &lt;display value="Lactose Monohydrate"/&gt;
+        &lt;/coding&gt;
+      &lt;/concept&gt;
+    &lt;/code&gt;
+  &lt;/substance&gt;
+&lt;/Ingredient&gt;
+
+&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+  &lt;div&gt;
+    &lt;p&gt;Text of the section with &lt;span id="lactoseMonohydrateTag1"&gt;some information about the ingredient&lt;/span&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;Another section that describes &lt;span id="lactoseMonohydrateTag2"&gt;some other aspect related to the ingredient&lt;/span&gt;.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<h3 id="1-focusing-section">1.	Focusing Section</h3>
+
+<h4 id="11-introduction-to-focusing">1.1	Introduction to Focusing</h4>
+
+<p>What is focusing?
+Focusing allows the user to tag an attribute to a section of text. The section can be defined at the paragraph or bullet level. Multiple attributes can be tagged to the same section of text; however, all attributes must be applicable e.g., Attribute X and Attribute Y, rather than Attribute X or Attribute Y.  So, for example, you can have Adult and Female, but you cannot have Adult or Female. 
+Note: Within a given attribute, you can have multiple values (e.g., the text could apply to both Adult and Adolescent).</p>
+
+<p>Why is focusing useful/important?
+Engagement of patients in their own health can only be achieved with access to actionable, understandable, relevant, reliable, and evidence-based information that meets their specific needs, health context, and literacy level. Therefore, focusing will be beneficial in improving the patient’s understanding of the product information as the focusing could be used to identify the information that is relevant/applicable to the patient.</p>
+
+<h4 id="12-focus-attributes">1.2	Focus Attributes</h4>
+
+<p>The following attributes are identified as the key focus points of the product information. Some attribute options may vary between countries (e.g., Age to be considered an Adult). For information on these, refer to the Country Appendixes.</p>
+
+<h4 id="13-text-with-no-attribute">1.3	Text with No Attribute</h4>
+
+<p>Any text that does not contain an Attribute should not have a Focus assigned.</p>
+
+<h4 id="14-assigning-a-focus-attribute">1.4	Assigning a Focus Attribute</h4>
+
+<p>Assign an Attribute to a section that contains that Attribute e.g., assign an Attribute of INDICATION to a paragraph that contains information about that Indication. 
+Assign Multiple Attributes to a section if ALL Attributes are applicable to that section of text e.g., assign an Attribute of FEMALE and ADULT to a paragraph relating to Pregnancy. 
+There may be exceptions, such as assigning an Attribute of a Drug Class, rather than the individual medicines within that Drug Class e.g., assign an Attribute of Selective Serotonin Re-uptake Inhibitors (SSRI) as a Drug Class, rather than every SSRI within that Drug Class, where every medicine within that Drug Class is Contraindicated.</p>
+
+<h5 id="141-examples">1.4.1	Examples</h5>
+
+<p>**Multiple Values within One Attribute, and Multiple Attributes **</p>
+
+<p>INSERT TABLE</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th>Focus Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pregnancy, breast-feeding and fertility</td>
+      <td>Age = Adult or Adolescent</td>
+    </tr>
+    <tr>
+      <td>You should not use PRODUCT X if you are pregnant. You should avoid becoming pregnant while taking PRODUCT X.</td>
+      <td>Age = Adult or Adolescent, and Gender = Female</td>
+    </tr>
+    <tr>
+      <td>Discuss contraception with your doctor if there is any possibility that you or your partner may become pregnant.</td>
+      <td>Age = Adult or Adolescent</td>
+    </tr>
+    <tr>
+      <td>If you are pregnant or breast-feeding, think you may be pregnant, or are planning to have a baby, ask your doctor or pharmacist for advice before taking this medicine.</td>
+      <td>Age = Adult or Adolescent, and Gender = Female</td>
+    </tr>
+    <tr>
+      <td>Women of childbearing potential who are receiving this medicinal product, or their male partners should use adequate contraceptive methods (e.g., double-barrier contraception such as condom and diaphragm).</td>
+      <td>Age = Adult or Adolescent</td>
+    </tr>
+    <tr>
+      <td>These methods should be used during therapy and for at least 3 weeks after completing therapy for females.</td>
+      <td>Age = Adult or Adolescent, and Gender = Female</td>
+    </tr>
+    <tr>
+      <td>These methods should be used during therapy and for at least 14 weeks for males.</td>
+      <td>Age = Adult or Adolescent, and Gender = Male</td>
+    </tr>
+    <tr>
+      <td>Breast-feeding<br />You should not breast-feed while taking PRODUCT X. It is not known if PRODUCT X is excreted in breast milk.</td>
+      <td>Age = Adult or Adolescent, and Gender = Female, and Breastfeeding = Breastfeeding</td>
+    </tr>
+    <tr>
+      <td>Fertility<br />ACTIVE INGREDIENT X may decrease fertility in men. Therefore, men may consider sperm preservation before taking PRODUCT X.</td>
+      <td>Age = Adult or Adolescent, and Gender = Male</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>No Attribute Text</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th>Focus Attribute</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Posology<br /> The recommended dose is 125 mg of ACTIVE INGREDIENT X once daily for 21 consecutive days followed by 7 days off treatment (Schedule 3/1) to comprise a complete cycle of 28 days. The treatment with PRODUCT X should be continued as long as the patient is deriving clinical benefit from therapy or until unacceptable toxicity occurs.</td>
+      <td>(Since this applies to everyone, the focus attribute is left blank)</td>
+      <td>(Since this applies to everyone, the focus attribute is left blank)</td>
+    </tr>
+    <tr>
+      <td>When coadministered with ACTIVE INGREDIENT X, the aromatase inhibitor should be administered according to the dose schedule reported in the Summary of Product Characteristics.</td>
+      <td>Concomitant Medicines/Contraindications = Aromatase inhibitor</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>When coadministered with ACTIVE INGREDIENT X, the recommended dose of ACTIVE INGREDIENT Y is 500 mg administered intramuscularly. Please refer to the Summary of Product Characteristics of ACTIVE INGREDIENT Y.</td>
+      <td>Concomitant Medicines/Contraindications = ACTIVE INGREDIENT Y</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Patients should be encouraged to take their dose at approximately the same time each day. If the patient vomits or misses a dose, an additional dose should not be taken that day. The next prescribed dose should be taken at the usual time.</td>
+      <td>(Since this applies to everyone, the focus attribute is left blank)</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Bullet Points</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Text</th>
+      <th>Focus Attribute</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>PRODUCT X may increase side effects associated with the following medicines:</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>•	Alfentanil and other short acting opiates such as fentanyl (painkillers used for surgical procedures).</td>
+      <td>Concomitant Medicines/Contraindications = Short acting opiates</td>
+    </tr>
+    <tr>
+      <td>•	Medicines for high blood pressure called beta-blockers such as atenolol, propranolol, labetolol.</td>
+      <td>Concomitant Medicines/Contraindications = Beta-blockers</td>
+    </tr>
+    <tr>
+      <td>•	Metformin, used to treat diabetes.</td>
+      <td>Concomitant Medicines/Contraindications = Metformin</td>
+    </tr>
+    <tr>
+      <td>•	Ciclosporin, sirolimus and tacrolimus used in transplant patients.</td>
+      <td>Concomitant Medicines/Contraindications = Ciclosporin, sirolimus, tacrolimus</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/"></a>.  Package hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Thu, Nov 24, 2022 15:56+0000">2022-11-24</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

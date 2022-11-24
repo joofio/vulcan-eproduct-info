@@ -1,0 +1,1379 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = errors = 50, warn = 44, info = 78, 0 -->
+<head>
+  <title>EpiIG : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for EpiIG</h1>
+ <p>Generated Thu Nov 24 16:02:43 UTC 2022, FHIR version 5.0.0-ballot for hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot (canonical = <a href="http://hl7.org/fhir/uv/vulcan-eproduct-info">http://hl7.org/fhir/uv/vulcan-eproduct-info</a> (<a href="http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.2.19</span></td></tr>
+ <tr><td>Publication Code:</td><td>vulcan-eproduct-info<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.uv.vulcan-eproduct-info, Canonical = http://hl7.org/fhir/uv/vulcan-eproduct-info</td></tr>
+ <tr><td>Realm Check for UV:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Publication Request:</td><td><ul><li>The file package-list.json should not exist in the root folder <img src="icon-error.gif" height="16px" width="16px"/></li>
+<li>Error fetching package-list from http://hl7.org/fhir/uv/vulcan-eproduct-info: Read timed out <img src="icon-error.gif" height="16px" width="16px"/></li>
+<li>This IG has never been published, so the version should start with 0. <img src="icon-warning.png" height="16px" width="16px"/></li>
+<li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
+</ul>
+</td></tr>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">199 Suppressed Issues</a>
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/github/workspace/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.vulcan-eproduct-info</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0-Ballot</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org">R5</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/uv/vulcan-eproduct-info</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/github/workspace/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r5</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://build.fhir.org">R5</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/5.0.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: hl7.fhir.template#0.3.2 -&gt; hl7.base.template#0.3.2 -&gt; fhir.base.template#0.2.2</para></div></td></tr>
+ <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
+ <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
+ <tr><td>HTA Analysis:</td><td><a href="qa-hta.html"><span style="background-color: #ffcccc">2 issues</span></a></td></tr>
+ <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://hl7.org/fhir/uv/vulcan-eproduct-info (Problem #1 with package-list.json at http://hl7.org/fhir/uv/vulcan-eproduct-info: Invalid HTTP response 404 from http://hl7.org/fhir/uv/vulcan-eproduct-info/package-list.json?nocache=1669305402191 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
+ <tr><td>IPA Comparison:</td><td> n/a</td></tr>
+ <tr><td>Summary:</td><td> errors = 50, warn = 44, info = 78, broken links = 0</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413"><b>/github/workspace/fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413</b></a></td><td><b>19</b></td><td><b>25</b></td><td><b>31</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_CapabilityStatement-epi-server"><b>/github/workspace/fsh-generated/resources/CapabilityStatement-epi-server</b></a></td><td><b>11</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf"><b>/github/workspace/fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf</b></a></td><td><b>16</b></td><td><b>2</b></td><td><b>10</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8"><b>/github/workspace/fsh-generated/resources/Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4"><b>/github/workspace/fsh-generated/resources/PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066"><b>/github/workspace/fsh-generated/resources/RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-AdministrableProductDefinition-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-AdministrableProductDefinition-uv-epi</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Bundle-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Bundle-uv-epi</b></a></td><td><b>0</b></td><td><b>5</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-ClinicalUseDefinition-warning-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-ClinicalUseDefinition-warning-uv-epi</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Composition-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Composition-uv-epi</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-ManufacturedItemDefinition-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-ManufacturedItemDefinition-uv-epi</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-MedicinalProductDefinition-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-MedicinalProductDefinition-uv-epi</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_github_workspace_fsh-generated_resources_StructureDefinition-Organization-uv-epi"><b>/github/workspace/fsh-generated/resources/StructureDefinition-Organization-uv-epi</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_github_workspace_fsh-generated_resources_SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f"><b>/github/workspace/fsh-generated/resources/SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>2</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b></b></td><td><b>error</b></td><td title=""><b>There is no jira specification file defined with the expected name of FHIR-vulcan-eproduct-info in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413"> </a>
+<h2><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(30)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>Bundle: Validated against <i>this.</i><a href="StructureDefinition-Bundle-uv-epi.html">Bundle - ePI</a></li><li>Bundle.entry[0].resource: Validated against <i>this.</i><a href="StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/composition.html">Composition</a> and <i>this.</i><a href="StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a> (per meta)</li><li>Bundle.entry[1].resource: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/clinicalusedefinition.html">ClinicalUseDefinition</a> and <i>this.</i><a href="StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html">ClinicalUseDefinition Contraindication (ePI)</a> (per meta)</li><li>Bundle.entry[2].resource: Validated against <i>this.</i><a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/ingredient.html">Ingredient</a> and <i>this.</i><a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a> (per meta)</li><li>Bundle.entry[3].resource: Validated against <i>this.</i><a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/substancedefinition.html">SubstanceDefinition</a> and <i>this.</i><a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a> (per meta)</li><li>Bundle.entry[4].resource: Validated against <i>this.</i><a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/administrableproductdefinition.html">AdministrableProductDefinition</a> and <i>this.</i><a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a> (per meta)</li><li>Bundle.entry[5].resource: Validated against <i>this.</i><a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/regulatedauthorization.html">RegulatedAuthorization</a> and <i>this.</i><a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a> (per meta)</li><li>Bundle.entry[6].resource: Validated against <i>this.</i><a href="StructureDefinition-Organization-uv-epi.html">Organization (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/organization.html">Organization</a> and <i>this.</i><a href="StructureDefinition-Organization-uv-epi.html">Organization (ePI)</a> (per meta)</li><li>Bundle.entry[7].resource: Validated against <i>this.</i><a href="StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/packagedproductdefinition.html">PackagedProductDefinition</a> and <i>this.</i><a href="StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a> (per meta)</li><li>Bundle.entry[8].resource: Validated against <i>this.</i><a href="StructureDefinition-MedicinalProductDefinition-uv-epi.html">MedicinalProductDefinition (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/medicinalproductdefinition.html">MedicinalProductDefinition</a> and <i>this.</i><a href="StructureDefinition-MedicinalProductDefinition-uv-epi.html">MedicinalProductDefinition (ePI)</a> (per meta)</li><li>Bundle.entry[9].resource: Validated against <i>this.</i><a href="StructureDefinition-ManufacturedItemDefinition-uv-epi.html">ManufacturedItemDefinition (ePI)</a>, <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/manufactureditemdefinition.html">ManufacturedItemDefinition</a> and <i>this.</i><a href="StructureDefinition-ManufacturedItemDefinition-uv-epi.html">ManufacturedItemDefinition (ePI)</a> (per meta)</li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).type.coding[0] (l35/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).subject[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).author[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].code (l59/c14)</b></td><td><b>warning</b></td><td title="Terminology_TX_Code_ValueSet_Ext"><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 1 matches the reference ClinicalUseDefinition/ii by type and id but it's fullUrl ii does not match the full target URL ClinicalUseDefinition/ii by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[1]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 2 matches the reference Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb by type and id but it's fullUrl 9278143f-513c-4965-8ed6-12789e13a3fb does not match the full target URL Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[2]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 3 matches the reference SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f by type and id but it's fullUrl 79524c84-b17b-4c17-a69e-a9b9b9f1fe5f does not match the full target URL SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[3]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 4 matches the reference AdministrableProductDefinition/xx by type and id but it's fullUrl xx does not match the full target URL AdministrableProductDefinition/xx by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[4]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 5 matches the reference RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066 by type and id but it's fullUrl d9901302-451f-4902-839a-5f4375895066 does not match the full target URL RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[5]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[6]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 7 matches the reference PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4 by type and id but it's fullUrl f556130a-9d5d-40d2-84a0-dbf2c92afbe4 does not match the full target URL PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[7]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[0].entry[8]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 9 matches the reference ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by type and id but it's fullUrl 1e8963b2-896e-4ad7-a162-85e07cdd272f does not match the full target URL ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].code (l94/c14)</b></td><td><b>warning</b></td><td title="Terminology_TX_Code_ValueSet_Ext"><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0] (l100/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[0].code.coding[0] (l124/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[0].text.div (l134/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[0].text.div (l134/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[1].code.coding[0] (l140/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[1].text.div (l150/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[1].text.div (l150/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[2].code.coding[0] (l156/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[2].text.div (l166/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[2].text.div (l166/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[3].code.coding[0] (l172/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[3].text.div (l182/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[3].text.div (l182/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[4].code.coding[0] (l188/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[4].text.div (l198/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[4].text.div (l198/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[5].code.coding[0] (l204/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[5].text.div (l214/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[5].text.div (l214/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[6].code.coding[0] (l220/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[6].text.div (l230/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[6].text.div (l230/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[7].code.coding[0] (l236/c26)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[7].text.div (l246/c22)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[7].text.div (l246/c22)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[1].resource.ofType(ClinicalUseDefinition).subject[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[1].resource.ofType(ClinicalUseDefinition).contraindication.diseaseSymptomProcedure.concept.coding[0] (l282/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource.ofType(Ingredient).for[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 9 matches the reference ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by type and id but it's fullUrl 1e8963b2-896e-4ad7-a162-85e07cdd272f does not match the full target URL ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[2].resource.ofType(Ingredient).role.coding[0] (l310/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[2].resource.ofType(Ingredient).manufacturer[0].manufacturer</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(SubstanceDefinition).status.coding[0] (l365/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[3].resource.ofType(SubstanceDefinition).manufacturer[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[3].resource.ofType(SubstanceDefinition).name[0].name (l393/c24)</b></td><td><b>error</b></td><td title="Rule ele-1: 'All FHIR elements must have a @value or children' Failed"><b>Rule ele-1: 'All FHIR elements must have a @value or children' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[3].resource.ofType(SubstanceDefinition).name[0].name (l393/c24)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_Primitive_NotEmpty"><b>@value cannot be empty</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[3].resource.ofType(SubstanceDefinition).name[0].type.coding[0] (l396/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[4].resource.ofType(AdministrableProductDefinition).formOf[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AdministrableProductDefinition).administrableDoseForm.coding[0] (l431/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AdministrableProductDefinition).unitOfPresentation.coding[0] (l440/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[4].resource.ofType(AdministrableProductDefinition).producedFrom[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 9 matches the reference ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by type and id but it's fullUrl 1e8963b2-896e-4ad7-a162-85e07cdd272f does not match the full target URL ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AdministrableProductDefinition).routeOfAdministration[0].code.coding[0] (l456/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[4].resource.ofType(AdministrableProductDefinition).routeOfAdministration[0].targetSpecies[0].code.coding[0] (l467/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5].resource.ofType(RegulatedAuthorization).subject[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[5].resource.ofType(RegulatedAuthorization).type.coding[0] (l504/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Bundle.entry[5].resource.ofType(RegulatedAuthorization).status.coding[0] (l524/c14)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://hl7.org/fhir/publication-status#Active in http://hl7.org/fhir/publication-status for 'http://hl7.org/fhir/publication-status#Active'</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[5].resource.ofType(RegulatedAuthorization).holder</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[6].resource.ofType(Organization).type[0].coding[0] (l558/c16)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(PackagedProductDefinition).type.coding[0] (l604/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource.ofType(PackagedProductDefinition).packageFor[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource.ofType(PackagedProductDefinition).status.coding[0] (l613/c14)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[7].resource.ofType(PackagedProductDefinition).manufacturer[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(PackagedProductDefinition).packaging.type.coding[0] (l635/c16)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[7].resource.ofType(PackagedProductDefinition).packaging.material[0].coding[0] (l646/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(MedicinalProductDefinition).legalStatusOfSupply.coding[0] (l804/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(MedicinalProductDefinition).name[0].type.coding[0] (l681/c18)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(MedicinalProductDefinition).name[0].part[0].type.coding[0] (l694/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(MedicinalProductDefinition).name[0].part[1].type.coding[0] (l706/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(MedicinalProductDefinition).name[0].part[2].type.coding[0] (l718/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[8].resource.ofType(MedicinalProductDefinition).name[0].part[3].type.coding[0] (l730/c22)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm.coding[0] (l833/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Bundle.entry[9].resource.ofType(ManufacturedItemDefinition).unitOfPresentation.coding[0] (l842/c14)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Bundle.entry[9].resource.ofType(ManufacturedItemDefinition).manufacturer[0]</b></td><td><b>warning</b></td><td title="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_CapabilityStatement-epi-server"> </a>
+<h2><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>CapabilityStatement: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/capabilitystatement.html">CapabilityStatement</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].searchParam[0].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/id' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].searchParam[2].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-has' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].searchParam[5].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-count' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].searchParam[6].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-include' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].searchParam[7].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-revinclude' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].searchParam[8].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-elements' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].operation[0].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/resource-meta' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].operation[1].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/resource-filter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].operation[2].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/composition-document' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].operation[3].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/list-find' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>CapabilityStatement.rest[0].operation[4].definition</b></td><td><b>error</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/medicinalproductdefinition-everything' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf"> </a>
+<h2><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>Composition: Validated against <i>this.</i><a href="StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.type.coding[0] (l18/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Composition.section[0].code (l42/c8)</b></td><td><b>warning</b></td><td title="Terminology_TX_Code_ValueSet_Ext"><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Composition.section[1].code (l77/c8)</b></td><td><b>warning</b></td><td title="Terminology_TX_Code_ValueSet_Ext"><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].code.coding[0] (l83/c16)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[0].code.coding[0] (l107/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[0].text.div (l117/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[0].text.div (l117/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[1].code.coding[0] (l123/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[1].text.div (l133/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[1].text.div (l133/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[2].code.coding[0] (l139/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[2].text.div (l149/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[2].text.div (l149/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[3].code.coding[0] (l155/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[3].text.div (l165/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[3].text.div (l165/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[4].code.coding[0] (l171/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[4].text.div (l181/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[4].text.div (l181/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[5].code.coding[0] (l187/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[5].text.div (l197/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[5].text.div (l197/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[6].code.coding[0] (l203/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[6].text.div (l213/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[6].text.div (l213/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Composition.section[1].section[0].section[7].code.coding[0] (l219/c20)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[7].text.div (l229/c16)</b></td><td><b>error</b></td><td title="Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed"><b>Rule txt-2: 'The narrative SHALL have some non-whitespace content' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>Composition.section[1].section[0].section[7].text.div (l229/c16)</b></td><td><b>error</b></td><td title="XHTML_XHTML_NS_InValid"><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8"> </a>
+<h2><a href="Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.html">fsh-generated/resources/Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>Ingredient: Validated against <i>this.</i><a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>Ingredient.role.coding[0] (l16/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Ingredient.substance.strength[0].basis.coding[0] (l45/c14)</b></td><td><b>warning</b></td><td title="Terminology_PassThrough_TX_Message"><b>Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Ingredient.substance.strength[0].basis.coding[0].display (l49/c14)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'active...strength '</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4"> </a>
+<h2><a href="PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.html">fsh-generated/resources/PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>PackagedProductDefinition: Validated against <i>this.</i><a href="StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>PackagedProductDefinition.type.coding[0] (l19/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>PackagedProductDefinition.status.coding[0] (l28/c8)</b></td><td><b>warning</b></td><td title="TERMINOLOGY_TX_SYSTEM_NO_CODE"><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>PackagedProductDefinition.packaging.type.coding[0] (l50/c10)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>PackagedProductDefinition.packaging.material[0].coding[0] (l61/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066"> </a>
+<h2><a href="RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066.html">fsh-generated/resources/RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>RegulatedAuthorization: Validated against <i>this.</i><a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>RegulatedAuthorization.type.coding[0] (l23/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>RegulatedAuthorization.status.coding[0] (l43/c8)</b></td><td><b>error</b></td><td title="Terminology_PassThrough_TX_Message"><b>Unknown Code http://hl7.org/fhir/publication-status#Active in http://hl7.org/fhir/publication-status for 'http://hl7.org/fhir/publication-status#Active'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-AdministrableProductDefinition-uv-epi"> </a>
+<h2><a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html">fsh-generated/resources/StructureDefinition-AdministrableProductDefinition-uv-epi.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed"><b>Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-Bundle-uv-epi"> </a>
+<h2><a href="StructureDefinition-Bundle-uv-epi.html">fsh-generated/resources/StructureDefinition-Bundle-uv-epi.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed"><b>Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[0]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[53]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[117]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[181]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi"> </a>
+<h2><a href="StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi.html">fsh-generated/resources/StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed"><b>Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-ClinicalUseDefinition-warning-uv-epi"> </a>
+<h2><a href="StructureDefinition-ClinicalUseDefinition-warning-uv-epi.html">fsh-generated/resources/StructureDefinition-ClinicalUseDefinition-warning-uv-epi.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed"><b>Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-Composition-uv-epi"> </a>
+<h2><a href="StructureDefinition-Composition-uv-epi.html">fsh-generated/resources/StructureDefinition-Composition-uv-epi.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[0]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[23]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[39].comment</b></td><td><b>warning</b></td><td title="TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML"><b>The markdown contains content that appears to be an embedded HTML tag starting at 'To'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-ManufacturedItemDefinition-uv-epi"> </a>
+<h2><a href="StructureDefinition-ManufacturedItemDefinition-uv-epi.html">fsh-generated/resources/StructureDefinition-ManufacturedItemDefinition-uv-epi.json</a> <span id="svi12" class="toggle" onclick="toggle('vi12')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi12')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi12"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition</b></td><td><b>warning</b></td><td title="Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed"><b>Rule sdf-29: 'Elements in Resources must have a min cardinality or 0 or 1 and a max cardinality of 1 or *' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-MedicinalProductDefinition-uv-epi"> </a>
+<h2><a href="StructureDefinition-MedicinalProductDefinition-uv-epi.html">fsh-generated/resources/StructureDefinition-MedicinalProductDefinition-uv-epi.json</a> <span id="svi13" class="toggle" onclick="toggle('vi13')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi13')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi13"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[0]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_StructureDefinition-Organization-uv-epi"> </a>
+<h2><a href="StructureDefinition-Organization-uv-epi.html">fsh-generated/resources/StructureDefinition-Organization-uv-epi.json</a> <span id="svi14" class="toggle" onclick="toggle('vi14')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi14')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi14"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://build.fhir.org/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[0]</b></td><td><b>warning</b></td><td title="Rule eld-27: 'Mappings SHOULD be unique by key' Failed"><b>Rule eld-27: 'Mappings SHOULD be unique by key' Failed</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_github_workspace_fsh-generated_resources_SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f"> </a>
+<h2><a href="SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.html">fsh-generated/resources/SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.json</a> <span id="svi15" class="toggle" onclick="toggle('vi15')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi15')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi15"><ul style="font-size: 7px"><li>SubstanceDefinition: Validated against <i>this.</i><a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>SubstanceDefinition.status.coding[0] (l19/c8)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>SubstanceDefinition.name[0].name (l47/c18)</b></td><td><b>error</b></td><td title="Rule ele-1: 'All FHIR elements must have a @value or children' Failed"><b>Rule ele-1: 'All FHIR elements must have a @value or children' Failed</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>SubstanceDefinition.name[0].name (l47/c18)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_Primitive_NotEmpty"><b>@value cannot be empty</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>SubstanceDefinition.name[0].type.coding[0] (l50/c12)</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p><b>Code systems are external codesystems not expected to be supported by the HL7 Terminology server</b></p><ul>
+ <li>INFORMATION: AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069: AdministrableProductDefinition.administrableDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069: AdministrableProductDefinition.routeOfAdministration[0].targetSpecies[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: AdministrableProductDefinition/adminproductkarvea75: AdministrableProductDefinition.administrableDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: AdministrableProductDefinition/adminproductkarvea75: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: AdministrableProductDefinition/adminproductkarvea75: AdministrableProductDefinition.routeOfAdministration[0].targetSpecies[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: AdministrableProductDefinition/adminproductkarvea75: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).section[1].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[0].resource.ofType(Composition).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[10].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[10].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[11].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[11].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[12].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[12].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[13].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[13].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[14].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[14].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[15].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[15].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[16].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[16].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[17].resource.ofType(ClinicalUseDefinition).indication.diseaseSymptomProcedure.concept.coding[0]: Code System URI 'https://www.meddra.org' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[18].resource.ofType(ClinicalUseDefinition).contraindication.diseaseSymptomProcedure.concept.coding[0]: Code System URI 'https://www.meddra.org' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[19].resource.ofType(ClinicalUseDefinition).interaction.interactant[0].item.ofType(CodeableConcept).coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[1].resource.ofType(List).code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[1].resource.ofType(Organization).type[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[21].resource.ofType(SubstanceDefinition).name[0].type.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[21].resource.ofType(SubstanceDefinition).status.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[2].resource.ofType(RegulatedAuthorization).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[3].resource.ofType(MedicinalProductDefinition).legalStatusOfSupply.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[3].resource.ofType(MedicinalProductDefinition).name[0].part[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[3].resource.ofType(MedicinalProductDefinition).name[0].part[1].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[3].resource.ofType(MedicinalProductDefinition).name[0].part[2].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[3].resource.ofType(MedicinalProductDefinition).name[0].part[3].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[3].resource.ofType(MedicinalProductDefinition).name[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[4].resource.ofType(PackagedProductDefinition).packaging.material[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[4].resource.ofType(PackagedProductDefinition).packaging.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[4].resource.ofType(PackagedProductDefinition).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[5].resource.ofType(AdministrableProductDefinition).administrableDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[5].resource.ofType(AdministrableProductDefinition).routeOfAdministration[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[5].resource.ofType(AdministrableProductDefinition).routeOfAdministration[0].targetSpecies[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[5].resource.ofType(AdministrableProductDefinition).unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[6].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[6].resource.ofType(ManufacturedItemDefinition).unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[7].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[7].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[8].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[8].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[9].resource.ofType(Ingredient).role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[9].resource.ofType(Ingredient).substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: ClinicalUseDefinition/4e922ec1-a398-4a78-8381-3729422b7602: ClinicalUseDefinition.indication.diseaseSymptomProcedure.concept.coding[0]: Code System URI 'https://www.meddra.org' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055: ClinicalUseDefinition.contraindication.diseaseSymptomProcedure.concept.coding[0]: Code System URI 'https://www.meddra.org' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: ClinicalUseDefinition/e60575aa-e7b3-4461-a456-d310514f4041: ClinicalUseDefinition.interaction.interactant[0].item.ofType(CodeableConcept).coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: ClinicalUseDefinition/undesirableEffectanemia: ClinicalUseDefinition.undesirableEffect.symptomConditionEffect.concept.coding[0]: Code System URI 'https://www.meddra.org' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.section[1].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/compositionkarvea75: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.section[1].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/745c01bc-936e-45ca-9880-57e97608f43e: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/745c01bc-936e-45ca-9880-57e97608f43e: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Croscarmellosesodium: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Croscarmellosesodium: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Hypromellose: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Hypromellose: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Macrogol3000: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Macrogol3000: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Magnesiumstearate: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Magnesiumstearate: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Microcrystallinecellulose: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Microcrystallinecellulose: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Silicondioxide: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/Silicondioxide: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/carnaubawax: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/carnaubawax: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/fbf58407-83d3-42db-be3d-506b2006d431: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/fbf58407-83d3-42db-be3d-506b2006d431: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/irbesartan: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/irbesartan: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/lactosemonohydrate: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/lactosemonohydrate: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/titaniumdioxide: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Ingredient/titaniumdioxide: Ingredient.substance.code.concept.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: List/listofKarveaProducts: List.code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468: ManufacturedItemDefinition.unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: ManufacturedItemDefinition/manitemkarvea75: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: ManufacturedItemDefinition/manitemkarvea75: ManufacturedItemDefinition.unitOfPresentation.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837: MedicinalProductDefinition.legalStatusOfSupply.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837: MedicinalProductDefinition.name[0].part[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837: MedicinalProductDefinition.name[0].part[1].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837: MedicinalProductDefinition.name[0].part[2].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837: MedicinalProductDefinition.name[0].part[3].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837: MedicinalProductDefinition.name[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/karvea75mgblisterx28: MedicinalProductDefinition.legalStatusOfSupply.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/karvea75mgblisterx28: MedicinalProductDefinition.name[0].part[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/karvea75mgblisterx28: MedicinalProductDefinition.name[0].part[1].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/karvea75mgblisterx28: MedicinalProductDefinition.name[0].part[2].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/karvea75mgblisterx28: MedicinalProductDefinition.name[0].part[3].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: MedicinalProductDefinition/karvea75mgblisterx28: MedicinalProductDefinition.name[0].type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>INFORMATION: Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75: Organization.type[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d: PackagedProductDefinition.packaging.material[0].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d: PackagedProductDefinition.packaging.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d: PackagedProductDefinition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8: RegulatedAuthorization.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.differential.element[21].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.differential.element[25].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.differential.element[28].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.differential.element[31].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.differential.element[34].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.snapshot.element[60].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.snapshot.element[72].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.snapshot.element[78].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.snapshot.element[84].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: StructureDefinition/MedicinalProductDefinition-uv-epi: StructureDefinition.snapshot.element[90].pattern.ofType(CodeableConcept).coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated <span style="color: navy">(746 uses)<span></li>
+ <li>INFORMATION: SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249: SubstanceDefinition.name[0].type.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>INFORMATION: SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249: SubstanceDefinition.status.coding[0]: Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'PharmaceuticalDoseForm'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/pmswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'VsRegulatedAuthorization'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/pmswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'additionalMonitoringIndicator'): Error from server: Unable to provide support for code system http://example.org <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'authorizationStatus'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/100000072052 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'epiType'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'legalStatusOfSupply'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/100000072051 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'marketingStatus'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/100000072052 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'medProductType'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/200000025915 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'nonproprietaryNamePart'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'operationType'): Error from server: Unable to provide support for code system http://example.org <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'organizationType'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/220000000031 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'packageMaterial'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/omswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'partType'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/omswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'pediatricUseIndicator'): Error from server: Unable to provide support for code system http://example.org <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'pharmaceuticalDoseFormPart'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'productNamePartType'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/220000000000 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'proprietaryNamePart'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'routeOfAdministration'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/100000073345 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'secondaryPrimaryPackType'): Error from server: Unable to provide support for code system http://example.org <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'sectionCode'): Error from server: Unable to provide support for code system http://example.org <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'shelfLifeType'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/omswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'specialPrecautionsForStorage'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi/100000073344 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'strengthPart'): Error from server: Unable to provide support for code system https://spor.ema.europa.eu/rmswi <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet.where(id = 'substance'): Error from server: Unable to provide support for code system https://gsrs.ncats.nih.gov/ginas/app/beta <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet/country: ValueSet.compose[0].include[1].concept[0]: The code EU is not valid in the system urn:iso:std:iso:3166 <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet/epiType: ValueSet.compose[0].include[0]: Unknown System 'https://spor.ema.europa.eu/rmswi' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system https://spor.ema.europa.eu/rmswi. Server Error: The code system 'https://spor.ema.europa.eu/rmswi' is not known (encountered paired with code = '100000155538'); The code provided (https://spor.ema.europa.eu/rmswi#100000155538) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)) <span style="color: navy">(743 uses)<span></li>
+ <li>WARNING: ValueSet/epiType: ValueSet.compose[0].include[0]: Unknown System 'https://spor.ema.europa.eu/rmswi' specified, so Concepts and Filters cant be checked <span style="color: maroon">(0 uses)<span></li>
+ <li>WARNING: ValueSet/sectionCode: ValueSet.compose[0].include[0]: Unknown System 'http://example.org' specified, so Concepts and Filters can't be checked (Details: Local Error: Unable to resolve system http://example.org. Server Error: The code system 'http://example.org' is not known (encountered paired with code = 'sectionCode'); The code provided (http://example.org#sectionCode) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)) <span style="color: navy">(743 uses)<span></li>
+</ul>
+<p><b>No schematrons available for Logical Models</b></p><ul>
+ <li>The link 'StructureDefinition-Patient.sch' for &quot;Schematron&quot; cannot be resolved <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>There is a JIRA addressing these links from the core specification https://jira.hl7.org/browse/FHIR-39335, also these are for R5 and see http://hl7.org/fhir/2022Sep/capabilitystatement-base.xml.html</b></p><ul>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].operation[0].definition: Canonical URL 'http://hl7.org/fhir/OperationDefinition/resource-meta' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].operation[1].definition: Canonical URL 'http://hl7.org/fhir/OperationDefinition/resource-filter' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].operation[2].definition: Canonical URL 'http://hl7.org/fhir/OperationDefinition/composition-document' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].operation[3].definition: Canonical URL 'http://hl7.org/fhir/OperationDefinition/list-find' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].operation[4].definition: Canonical URL 'http://hl7.org/fhir/OperationDefinition/medicinalproductdefinition-everything' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].searchParam[0].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/id' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].searchParam[2].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-has' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].searchParam[5].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-count' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].searchParam[6].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-include' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].searchParam[7].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-revinclude' does not resolve <span style="color: maroon">(0 uses)<span></li>
+ <li>ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].searchParam[8].definition: Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-elements' does not resolve <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU"> </a>
+<h2>BUNDLE_BUNDLE_POSSIBLE_MATCH_WRONG_FU</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 1 matches the reference ClinicalUseDefinition/ii by type and id but it's fullUrl ii does not match the full target URL ClinicalUseDefinition/ii by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 2 matches the reference Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb by type and id but it's fullUrl 9278143f-513c-4965-8ed6-12789e13a3fb does not match the full target URL Ingredient/9278143f-513c-4965-8ed6-12789e13a3fb by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 3 matches the reference SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f by type and id but it's fullUrl 79524c84-b17b-4c17-a69e-a9b9b9f1fe5f does not match the full target URL SubstanceDefinition/79524c84-b17b-4c17-a69e-a9b9b9f1fe5f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 4 matches the reference AdministrableProductDefinition/xx by type and id but it's fullUrl xx does not match the full target URL AdministrableProductDefinition/xx by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 5 matches the reference RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066 by type and id but it's fullUrl d9901302-451f-4902-839a-5f4375895066 does not match the full target URL RegulatedAuthorization/d9901302-451f-4902-839a-5f4375895066 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 7 matches the reference PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4 by type and id but it's fullUrl f556130a-9d5d-40d2-84a0-dbf2c92afbe4 does not match the full target URL PackagedProductDefinition/f556130a-9d5d-40d2-84a0-dbf2c92afbe4 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 9 matches the reference ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by type and id but it's fullUrl 1e8963b2-896e-4ad7-a162-85e07cdd272f does not match the full target URL ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 9 matches the reference ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by type and id but it's fullUrl 1e8963b2-896e-4ad7-a162-85e07cdd272f does not match the full target URL ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 9 matches the reference ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by type and id but it's fullUrl 1e8963b2-896e-4ad7-a162-85e07cdd272f does not match the full target URL ManufacturedItemDefinition/1e8963b2-896e-4ad7-a162-85e07cdd272f by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 8 matches the reference MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by type and id but it's fullUrl d2bbeade-13e5-445d-8ec0-ae25cae09680 does not match the full target URL MedicinalProductDefinition/d2bbeade-13e5-445d-8ec0-ae25cae09680 by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Entry 6 matches the reference Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by type and id but it's fullUrl 961e5052-6a8a-403a-b6ac-5e585c89de8e does not match the full target URL Organization/961e5052-6a8a-403a-b6ac-5e585c89de8e by Bundle resolution rules</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TERMINOLOGY_TX_SYSTEM_NO_CODE"> </a>
+<h2>TERMINOLOGY_TX_SYSTEM_NO_CODE</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.html">fsh-generated/resources/PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.json</a></td><td><b>A code with no system has no defined meaning. A system should be provided</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"> </a>
+<h2>TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/id' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-has' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-count' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-include' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-revinclude' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/SearchParameter/Resource-elements' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/resource-meta' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/resource-filter' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/composition-document' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/list-find' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="CapabilityStatement-epi-server.html">fsh-generated/resources/CapabilityStatement-epi-server.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/OperationDefinition/medicinalproductdefinition-everything' does not resolve</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML"> </a>
+<h2>TYPE_SPECIFIC_CHECKS_DT_MARKDOWN_HTML</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-Composition-uv-epi.html">fsh-generated/resources/StructureDefinition-Composition-uv-epi.json</a></td><td><b>The markdown contains content that appears to be an embedded HTML tag starting at 'To'. This will (or SHOULD) be escaped by the presentation layer. The content should be checked to confirm that this is the desired behaviour</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_PassThrough_TX_Message"> </a>
+<h2>Terminology_PassThrough_TX_Message</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Unknown Code http://hl7.org/fhir/publication-status#Active in http://hl7.org/fhir/publication-status for 'http://hl7.org/fhir/publication-status#Active'</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.html">fsh-generated/resources/Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.json</a></td><td><b>Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066.html">fsh-generated/resources/RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066.json</a></td><td><b>Unknown Code http://hl7.org/fhir/publication-status#Active in http://hl7.org/fhir/publication-status for 'http://hl7.org/fhir/publication-status#Active'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_Code_ValueSet_Ext"> </a>
+<h2>Terminology_TX_Code_ValueSet_Ext</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode|1.0.0-Ballot)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="AdministrableProductDefinition-xx.html">fsh-generated/resources/AdministrableProductDefinition-xx.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="AdministrableProductDefinition-xx.html">fsh-generated/resources/AdministrableProductDefinition-xx.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="AdministrableProductDefinition-xx.html">fsh-generated/resources/AdministrableProductDefinition-xx.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="AdministrableProductDefinition-xx.html">fsh-generated/resources/AdministrableProductDefinition-xx.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-bundlepackageleaflet75.html">fsh-generated/resources/Bundle-bundlepackageleaflet75.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Bundle-bundlepackageleaflet75.html">fsh-generated/resources/Bundle-bundlepackageleaflet75.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ClinicalUseDefinition-4e922ec1-a398-4a78-8381-3729422b7602.html">fsh-generated/resources/ClinicalUseDefinition-4e922ec1-a398-4a78-8381-3729422b7602.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ClinicalUseDefinition-83f4a22f-9e5e-4941-9fdb-339a0f1f2055.html">fsh-generated/resources/ClinicalUseDefinition-83f4a22f-9e5e-4941-9fdb-339a0f1f2055.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ClinicalUseDefinition-ii.html">fsh-generated/resources/ClinicalUseDefinition-ii.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ClinicalUseDefinition-undesirableEffectanemia.html">fsh-generated/resources/ClinicalUseDefinition-undesirableEffectanemia.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ClinicalUseDefinition-yy.html">fsh-generated/resources/ClinicalUseDefinition-yy.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/CodeSystem/mdr' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ClinicalUseDefinition-zz.html">fsh-generated/resources/ClinicalUseDefinition-zz.json</a></td><td><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-23307304-5469-4897-b676-e8202fd25afc.html">fsh-generated/resources/Ingredient-23307304-5469-4897-b676-e8202fd25afc.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-324cd066-b593-4b32-aae3-26986e2f8e2b.html">fsh-generated/resources/Ingredient-324cd066-b593-4b32-aae3-26986e2f8e2b.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-3a8b6287-50e6-42cf-91d9-1bb83bd57103.html">fsh-generated/resources/Ingredient-3a8b6287-50e6-42cf-91d9-1bb83bd57103.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-4660d47b-f1d3-4007-bc72-1e7ad77fb541.html">fsh-generated/resources/Ingredient-4660d47b-f1d3-4007-bc72-1e7ad77fb541.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.html">fsh-generated/resources/Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-793af3f5-edec-4a56-9584-cda6ad3fb8fc.html">fsh-generated/resources/Ingredient-793af3f5-edec-4a56-9584-cda6ad3fb8fc.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-878e7eb5-4023-4102-9aa5-f5ae596511ea.html">fsh-generated/resources/Ingredient-878e7eb5-4023-4102-9aa5-f5ae596511ea.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-9278143f-513c-4965-8ed6-12789e13a3fb.html">fsh-generated/resources/Ingredient-9278143f-513c-4965-8ed6-12789e13a3fb.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-cfdd3877-9af7-48fe-9b15-a41614368a76.html">fsh-generated/resources/Ingredient-cfdd3877-9af7-48fe-9b15-a41614368a76.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Ingredient-ea2a8032-336a-4c0f-be2a-3084e9acbbcc.html">fsh-generated/resources/Ingredient-ea2a8032-336a-4c0f-be2a-3084e9acbbcc.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ManufacturedItemDefinition-1e8963b2-896e-4ad7-a162-85e07cdd272f.html">fsh-generated/resources/ManufacturedItemDefinition-1e8963b2-896e-4ad7-a162-85e07cdd272f.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ManufacturedItemDefinition-1e8963b2-896e-4ad7-a162-85e07cdd272f.html">fsh-generated/resources/ManufacturedItemDefinition-1e8963b2-896e-4ad7-a162-85e07cdd272f.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.html">fsh-generated/resources/MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.html">fsh-generated/resources/MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.html">fsh-generated/resources/MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.html">fsh-generated/resources/MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.html">fsh-generated/resources/MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.html">fsh-generated/resources/MedicinalProductDefinition-d2bbeade-13e5-445d-8ec0-ae25cae09680.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi/220000000000' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Organization-961e5052-6a8a-403a-b6ac-5e585c89de8e.html">fsh-generated/resources/Organization-961e5052-6a8a-403a-b6ac-5e585c89de8e.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.html">fsh-generated/resources/PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.html">fsh-generated/resources/PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.html">fsh-generated/resources/PackagedProductDefinition-f556130a-9d5d-40d2-84a0-dbf2c92afbe4.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066.html">fsh-generated/resources/RegulatedAuthorization-d9901302-451f-4902-839a-5f4375895066.json</a></td><td><b>Code System URI 'https://spor.ema.europa.eu/rmswi' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.html">fsh-generated/resources/SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.json</a></td><td><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.html">fsh-generated/resources/SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.json</a></td><td><b>Code System URI 'https://gsrs.ncats.nih.gov/ginas/app/beta/' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_Primitive_NotEmpty"> </a>
+<h2>Type_Specific_Checks_DT_Primitive_NotEmpty</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>@value cannot be empty</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.html">fsh-generated/resources/SubstanceDefinition-79524c84-b17b-4c17-a69e-a9b9b9f1fe5f.json</a></td><td><b>@value cannot be empty</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_String_WS"> </a>
+<h2>Type_Specific_Checks_DT_String_WS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.html">fsh-generated/resources/Ingredient-4f8b256b-2285-486c-8a03-24b972898aa8.json</a></td><td><b>value should not start or finish with whitespace 'active...strength '</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="XHTML_XHTML_NS_InValid"> </a>
+<h2>XHTML_XHTML_NS_InValid</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.html">fsh-generated/resources/Bundle-479b02e1-cb8c-450d-988e-2bf225ff9413.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.html">fsh-generated/resources/Composition-8e41a79c-274e-4f52-984e-e2dc2174bbdf.json</a></td><td><b>Wrong namespace on the XHTML ('null', should be 'http://www.w3.org/1999/xhtml')</b></td>
+   </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,215 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRrmswi> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "CodeSystemUvEPIRrmswi"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRrmswi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">00000072072<a name=\"CodeSystemUvEPIRrmswi-00000072072\"> </a></td><td>active</td></tr><tr><td style=\"white-space:nowrap\">100000000012<a name=\"CodeSystemUvEPIRrmswi-100000000012\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000072062<a name=\"CodeSystemUvEPIRrmswi-100000072062\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000072082<a name=\"CodeSystemUvEPIRrmswi-100000072082\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000072084<a name=\"CodeSystemUvEPIRrmswi-100000072084\"> </a></td><td>Medicinal product subject to medical prescription</td></tr><tr><td style=\"white-space:nowrap\">100000073543<a name=\"CodeSystemUvEPIRrmswi-100000073543\"> </a></td><td>Pre-filled pen</td></tr><tr><td style=\"white-space:nowrap\">100000073578<a name=\"CodeSystemUvEPIRrmswi-100000073578\"> </a></td><td>Gingival use</td></tr><tr><td style=\"white-space:nowrap\">100000073633<a name=\"CodeSystemUvEPIRrmswi-100000073633\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000073646<a name=\"CodeSystemUvEPIRrmswi-100000073646\"> </a></td><td>Oral solution</td></tr><tr><td style=\"white-space:nowrap\">100000073864<a name=\"CodeSystemUvEPIRrmswi-100000073864\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000109093<a name=\"CodeSystemUvEPIRrmswi-100000109093\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000155527<a name=\"CodeSystemUvEPIRrmswi-100000155527\"> </a></td><td>Chemical Medicinal Product</td></tr><tr><td style=\"white-space:nowrap\">100000155538<a name=\"CodeSystemUvEPIRrmswi-100000155538\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">200000002135<a name=\"CodeSystemUvEPIRrmswi-200000002135\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">200000002145<a name=\"CodeSystemUvEPIRrmswi-200000002145\"> </a></td><td>Spoonful</td></tr><tr><td style=\"white-space:nowrap\">200000003204<a name=\"CodeSystemUvEPIRrmswi-200000003204\"> </a></td><td>Glass type I</td></tr><tr><td style=\"white-space:nowrap\">100000073496<a name=\"CodeSystemUvEPIRrmswi-100000073496\"> </a></td><td>Blister</td></tr><tr><td style=\"white-space:nowrap\">220000000001<a name=\"CodeSystemUvEPIRrmswi-220000000001\"> </a></td><td>Full name</td></tr><tr><td style=\"white-space:nowrap\">220000000002<a name=\"CodeSystemUvEPIRrmswi-220000000002\"> </a></td><td>Invented name part</td></tr><tr><td style=\"white-space:nowrap\">220000000003<a name=\"CodeSystemUvEPIRrmswi-220000000003\"> </a></td><td>Scientific name part</td></tr><tr><td style=\"white-space:nowrap\">220000000004<a name=\"CodeSystemUvEPIRrmswi-220000000004\"> </a></td><td>Strength part</td></tr><tr><td style=\"white-space:nowrap\">220000000005<a name=\"CodeSystemUvEPIRrmswi-220000000005\"> </a></td><td>Pharmaceutical dose form part</td></tr><tr><td style=\"white-space:nowrap\">220000000033<a name=\"CodeSystemUvEPIRrmswi-220000000033\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">220000000034<a name=\"CodeSystemUvEPIRrmswi-220000000034\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">30007000<a name=\"CodeSystemUvEPIRrmswi-30007000\"> </a></td><td>Blister</td></tr><tr><td style=\"white-space:nowrap\">200000003222<a name=\"CodeSystemUvEPIRrmswi-200000003222\"> </a></td><td>PolyVinyl Chloride</td></tr><tr><td style=\"white-space:nowrap\">200000003215<a name=\"CodeSystemUvEPIRrmswi-200000003215\"> </a></td><td>High Density PolyEthylene</td></tr><tr><td style=\"white-space:nowrap\">100000073497<a name=\"CodeSystemUvEPIRrmswi-100000073497\"> </a></td><td>Bottle</td></tr><tr><td style=\"white-space:nowrap\">10219000<a name=\"CodeSystemUvEPIRrmswi-10219000\"> </a></td><td>Tablet</td></tr><tr><td style=\"white-space:nowrap\">15054000<a name=\"CodeSystemUvEPIRrmswi-15054000\"> </a></td><td>Tablet</td></tr><tr><td style=\"white-space:nowrap\">20053000<a name=\"CodeSystemUvEPIRrmswi-20053000\"> </a></td><td>Oral use</td></tr><tr><td style=\"white-space:nowrap\">100000116155<a name=\"CodeSystemUvEPIRrmswi-100000116155\"> </a></td><td>Granules and solvent for oral suspension</td></tr><tr><td style=\"white-space:nowrap\">100000073619<a name=\"CodeSystemUvEPIRrmswi-100000073619\"> </a></td><td>oral use</td></tr><tr><td style=\"white-space:nowrap\">100000155538-0<a name=\"CodeSystemUvEPIRrmswi-100000155538-0\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000155538-1<a name=\"CodeSystemUvEPIRrmswi-100000155538-1\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000155538-2<a name=\"CodeSystemUvEPIRrmswi-100000155538-2\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000155538-3<a name=\"CodeSystemUvEPIRrmswi-100000155538-3\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000155538-4<a name=\"CodeSystemUvEPIRrmswi-100000155538-4\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000155538-5<a name=\"CodeSystemUvEPIRrmswi-100000155538-5\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000155538-6<a name=\"CodeSystemUvEPIRrmswi-100000155538-6\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">100000073504<a name=\"CodeSystemUvEPIRrmswi-100000073504\"> </a></td><td>Child-resistant closure</td></tr><tr><td style=\"white-space:nowrap\">200000003529<a name=\"CodeSystemUvEPIRrmswi-200000003529\"> </a></td><td>Cardboard</td></tr><tr><td style=\"white-space:nowrap\">200000002152<a name=\"CodeSystemUvEPIRrmswi-200000002152\"> </a></td><td/></tr><tr><td style=\"white-space:nowrap\">200000001111<a name=\"CodeSystemUvEPIRrmswi-200000001111\"> </a></td><td>List of Products</td></tr><tr><td style=\"white-space:nowrap\">200000001112<a name=\"CodeSystemUvEPIRrmswi-200000001112\"> </a></td><td>List of ePI documents</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRrmswi"];
+  fhir:CodeSystem.version [ fhir:value "1.0.0-Ballot"];
+  fhir:CodeSystem.name [ fhir:value "CodeSystemUvEPIRrmswi"];
+  fhir:CodeSystem.title [ fhir:value "Referentials Management Services CodeSystem"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.date [ fhir:value "2022-11-24T15:56:43+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Items from https://spor.ema.europa.eu/rmswi"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       fhir:Coding.code [ fhir:value "001" ];
+       fhir:Coding.display [ fhir:value "World" ]
+     ]
+  ];
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "45"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "00000072072" ];
+     fhir:CodeSystem.concept.display [ fhir:value "active" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "100000000012" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "100000072062" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "100000072082" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "100000072084" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Medicinal product subject to medical prescription" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073543" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pre-filled pen" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073578" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Gingival use" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073633" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073646" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Oral solution" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073864" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "100000109093" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155527" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Chemical Medicinal Product" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "200000002135" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "200000002145" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Spoonful" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "200000003204" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Glass type I" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073496" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Blister" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "220000000001" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Full name" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "220000000002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Invented name part" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "220000000003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Scientific name part" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "220000000004" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Strength part" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "220000000005" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Pharmaceutical dose form part" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "220000000033" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "220000000034" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "30007000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Blister" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "200000003222" ];
+     fhir:CodeSystem.concept.display [ fhir:value "PolyVinyl Chloride" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "200000003215" ];
+     fhir:CodeSystem.concept.display [ fhir:value "High Density PolyEthylene" ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073497" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Bottle" ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "10219000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tablet" ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "15054000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Tablet" ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "20053000" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Oral use" ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "100000116155" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Granules and solvent for oral suspension" ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073619" ];
+     fhir:CodeSystem.concept.display [ fhir:value "oral use" ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538-0" ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538-1" ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538-2" ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538-3" ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538-4" ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538-5" ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "100000155538-6" ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "100000073504" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Child-resistant closure" ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "200000003529" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Cardboard" ]
+  ], [
+     fhir:index 42;
+     fhir:CodeSystem.concept.code [ fhir:value "200000002152" ]
+  ], [
+     fhir:index 43;
+     fhir:CodeSystem.concept.code [ fhir:value "200000001111" ];
+     fhir:CodeSystem.concept.display [ fhir:value "List of Products" ]
+  ], [
+     fhir:index 44;
+     fhir:CodeSystem.concept.code [ fhir:value "200000001112" ];
+     fhir:CodeSystem.concept.display [ fhir:value "List of ePI documents" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRrmswi.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRrmswi.ttl> .
+
+# -------------------------------------------------------------------------------------
+
