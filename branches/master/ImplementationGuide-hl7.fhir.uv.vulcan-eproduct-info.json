@@ -10,7 +10,7 @@
   "name": "EpiIG",
   "title": "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status": "active",
-  "date": "2022-11-25T11:53:22+00:00",
+  "date": "2022-11-25T11:57:58+00:00",
   "contact": [
     {
       "name": "HL7 BR&R",
@@ -630,8 +630,8 @@
         "reference": {
           "reference": "ValueSet/atcClassification"
         },
-        "name": "ATC Classification",
-        "description": "ATC Classification",
+        "name": "WHO ATC",
+        "description": "World Health Organization Anatomical Therapeutic Chemical (ATC) classification system",
         "isExample": false
       },
       {
@@ -952,8 +952,8 @@
         "reference": {
           "reference": "ValueSet/PharmaceuticalDoseForm"
         },
-        "name": "Pharmaceutical Dose Form",
-        "description": "Pharmaceutical Dose Form",
+        "name": "Combined Pharmaceutical Dose Form",
+        "description": "Combined Pharmaceutical Dose Form",
         "isExample": false
       },
       {
@@ -1446,7 +1446,7 @@
         "reference": {
           "reference": "RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8"
         },
-        "name": "Regulated Authorization for Karvea 75 mg tablets",
+        "name": "Regulated Authorization for cava 75 mg tablets",
         "description": "Regulated Authorization",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
@@ -1463,8 +1463,8 @@
         "reference": {
           "reference": "ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468"
         },
-        "name": "Manufactured item Karvea 75 mg tabelt",
-        "description": "karvea 75 mg tablet",
+        "name": "Manufactured item cava 75 mg tabelt",
+        "description": "cava 75 mg tablet",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
@@ -1480,8 +1480,8 @@
         "reference": {
           "reference": "AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069"
         },
-        "name": "Karvea 75mg tablet administrable product",
-        "description": "Karvea 75 mg tablet",
+        "name": "cava 75mg tablet administrable product",
+        "description": "cava 75 mg tablet",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
@@ -1599,8 +1599,8 @@
         "reference": {
           "reference": "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837"
         },
-        "name": "Medicinal Product Karvea 75 mg tablet in blister pack of 28 tablets",
-        "description": "EU/1/97/049/001 Karvea 75 mg tablet blister x28",
+        "name": "Medicinal Product cava 75 mg tablet in blister pack of 28 tablets",
+        "description": "EU/1/97/049/001 cava 75 mg tablet blister x28",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
@@ -1779,8 +1779,8 @@
         "reference": {
           "reference": "Bundle/bundlepackageleaflet75"
         },
-        "name": "ePI document Bundle for Karvea 75 mg Package Leaflet",
-        "description": "Bundle for Karvea Package Leaflet ePI document",
+        "name": "ePI document Bundle for cava 75 mg Package Leaflet",
+        "description": "Bundle for cava Package Leaflet ePI document",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
@@ -1843,7 +1843,7 @@
         "reference": {
           "reference": "Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75"
         },
-        "name": "Sanofi-Aventis Groupe as Marketing Authorization Holder",
+        "name": "Acme Inc. as Marketing Authorization Holder",
         "description": "Marketing Authorization Holder",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
@@ -1945,7 +1945,7 @@
         "reference": {
           "reference": "Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571"
         },
-        "name": "Composition for Karvea 75 mg Package Leaflet",
+        "name": "Composition for cava 75 mg Package Leaflet",
         "description": "Package Leaflet",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",

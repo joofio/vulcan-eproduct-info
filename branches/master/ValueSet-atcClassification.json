@@ -8,10 +8,10 @@
   "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification",
   "version": "1.0.0-Ballot",
   "name": "VsAtcClassification",
-  "title": "ATC Classification",
+  "title": "WHO ATC",
   "status": "active",
   "experimental": false,
-  "date": "2022-11-25T11:53:22+00:00",
+  "date": "2022-11-25T11:57:58+00:00",
   "contact": [
     {
       "name": "HL7 BR&R",
@@ -23,7 +23,7 @@
       ]
     }
   ],
-  "description": "ATC Classification",
+  "description": "World Health Organization Anatomical Therapeutic Chemical (ATC) classification system",
   "jurisdiction": [
     {
       "coding": [
@@ -35,6 +35,7 @@
       ]
     }
   ],
+  "copyright": "This artifact includes content from Anatomical Therapeutic Chemical (ATC) classification system. ATC codes are copyright World Health Organization (WHO) Collaborating Centre for Drug Statistics Methodology. Terms & Conditions in https://www.whocc.no/use_of_atc_ddd/",
   "compose": {
     "include": [
       {

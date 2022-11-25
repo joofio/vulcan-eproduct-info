@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"];
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-25T11:53:22+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-25T11:57:58+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -609,8 +609,8 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification>;
          fhir:Reference.reference [ fhir:value "ValueSet/atcClassification" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ATC Classification" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ATC Classification" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "WHO ATC" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "World Health Organization Anatomical Therapeutic Chemical (ATC) classification system" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 18;
@@ -931,8 +931,8 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm>;
          fhir:Reference.reference [ fhir:value "ValueSet/PharmaceuticalDoseForm" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Pharmaceutical Dose Form" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Pharmaceutical Dose Form" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Combined Pharmaceutical Dose Form" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Combined Pharmaceutical Dose Form" ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 41;
@@ -1455,7 +1455,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8>;
          fhir:Reference.reference [ fhir:value "RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for Karvea 75 mg tablets" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for cava 75 mg tablets" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
@@ -1477,8 +1477,8 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468>;
          fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item Karvea 75 mg tabelt" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "karvea 75 mg tablet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item cava 75 mg tabelt" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "cava 75 mg tablet" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
          fhir:index 0;
@@ -1499,8 +1499,8 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069>;
          fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Karvea 75mg tablet administrable product" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Karvea 75 mg tablet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cava 75mg tablet administrable product" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "cava 75 mg tablet" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
          fhir:index 0;
@@ -1653,8 +1653,8 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837>;
          fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Karvea 75 mg tablet in blister pack of 28 tablets" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Karvea 75 mg tablet blister x28" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product cava 75 mg tablet in blister pack of 28 tablets" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 cava 75 mg tablet blister x28" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
          fhir:index 0;
@@ -1913,8 +1913,8 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/bundlepackageleaflet75>;
          fhir:Reference.reference [ fhir:value "Bundle/bundlepackageleaflet75" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for Karvea 75 mg Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for Karvea Package Leaflet ePI document" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for cava 75 mg Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for cava Package Leaflet ePI document" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
          fhir:index 0;
@@ -2031,7 +2031,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75>;
          fhir:Reference.reference [ fhir:value "Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sanofi-Aventis Groupe as Marketing Authorization Holder" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Acme Inc. as Marketing Authorization Holder" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorization Holder" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
@@ -2163,7 +2163,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571>;
          fhir:Reference.reference [ fhir:value "Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for Karvea 75 mg Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for cava 75 mg Package Leaflet" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Package Leaflet" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
