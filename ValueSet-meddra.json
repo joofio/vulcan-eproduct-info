@@ -3,7 +3,7 @@
   "id": "meddra",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:ietf:rfc:3986</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>https://placeholder.com</td><td/></tr></table></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-mdr.html\"><code>http://terminology.hl7.org/CodeSystem/mdr</code></a></li></ul></div>"
   },
   "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/meddra",
   "version": "1.0.0-Ballot",
@@ -11,7 +11,7 @@
   "title": "MedDRA Terms for clinical diseases and symptoms",
   "status": "active",
   "experimental": false,
-  "date": "2022-11-25T11:53:22+00:00",
+  "date": "2022-11-25T11:57:58+00:00",
   "contact": [
     {
       "name": "HL7 BR&R",
@@ -38,12 +38,7 @@
   "compose": {
     "include": [
       {
-        "system": "urn:ietf:rfc:3986",
-        "concept": [
-          {
-            "code": "https://placeholder.com"
-          }
-        ]
+        "system": "http://terminology.hl7.org/CodeSystem/mdr"
       }
     ]
   }

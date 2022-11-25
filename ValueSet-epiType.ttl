@@ -18,7 +18,7 @@
   fhir:ValueSet.title [ fhir:value "ePI document types"];
   fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2022-11-25T11:53:22+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-11-25T11:57:58+00:00"^^xsd:dateTime];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -38,6 +38,7 @@
        fhir:Coding.display [ fhir:value "World" ]
      ]
   ];
+  fhir:ValueSet.copyright [ fhir:value "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
