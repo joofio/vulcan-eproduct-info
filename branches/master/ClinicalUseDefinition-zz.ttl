@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"zz\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;zz&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html\">ClinicalUseDefinition Interaction (ePI)</a></p></div><p><b>identifier</b>: id: xx (use: OFFICIAL)</p><p><b>type</b>: interaction</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-e02a86aa-215d-45a7-afca-eda52266f54f.html\">MedicinalProductDefinition/e02a86aa-215d-45a7-afca-eda52266f54f</a></p><blockquote><p><b>interaction</b></p><h3>Interactants</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>METHOTREXATE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#YL5FZ2Y5U1)</span></td></tr></table></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"zz\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;zz&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html\">ClinicalUseDefinition Interaction (ePI)</a></p></div><p><b>identifier</b>: id: xx (use: OFFICIAL)</p><p><b>type</b>: interaction</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-737815c7-800f-4619-ac08-72adc5ab7adc.html\">MedicinalProductDefinition/737815c7-800f-4619-ac08-72adc5ab7adc</a></p><blockquote><p><b>interaction</b></p><h3>Interactants</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>METHOTREXATE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#YL5FZ2Y5U1)</span></td></tr></table></blockquote></div>"
   ];
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
@@ -28,8 +28,8 @@
   fhir:ClinicalUseDefinition.type [ fhir:value "interaction"];
   fhir:ClinicalUseDefinition.subject [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/e02a86aa-215d-45a7-afca-eda52266f54f>;
-     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/e02a86aa-215d-45a7-afca-eda52266f54f" ]
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/737815c7-800f-4619-ac08-72adc5ab7adc>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/737815c7-800f-4619-ac08-72adc5ab7adc" ]
   ];
   fhir:ClinicalUseDefinition.interaction [
      fhir:ClinicalUseDefinition.interaction.interactant [
@@ -45,7 +45,7 @@
      ]
   ] .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/e02a86aa-215d-45a7-afca-eda52266f54f> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/737815c7-800f-4619-ac08-72adc5ab7adc> a fhir:uv .
 
 # - ontology header ------------------------------------------------------------
 
