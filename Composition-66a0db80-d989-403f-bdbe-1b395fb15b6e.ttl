@@ -1,0 +1,317 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/66a0db80-d989-403f-bdbe-1b395fb15b6e> a fhir:Composition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "66a0db80-d989-403f-bdbe-1b395fb15b6e"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"66a0db80-d989-403f-bdbe-1b395fb15b6e\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;66a0db80-d989-403f-bdbe-1b395fb15b6e&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 01:28:17+0000</p><p><b>author</b>: <a href=\"Organization-a158a35f-2be5-4c74-8132-dabb9476d887.html\">Organization/a158a35f-2be5-4c74-8132-dabb9476d887</a> &quot;Eli Lilly Nederland B.V.&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - Humalog Vulcan ePI v1</p></div>"
+  ];
+  fhir:Composition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+     fhir:Identifier.value [ fhir:value "0d69fdcb-33cf-407f-8209-a6529856ab4f" ]
+  ];
+  fhir:Composition.status [ fhir:value "final"];
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+       fhir:Coding.code [ fhir:value "100000155538" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Package Leaflet" ]
+  ];
+  fhir:Composition.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/ac456ef5-b0e6-47dc-ad7d-326e4b71893c>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/ac456ef5-b0e6-47dc-ad7d-326e4b71893c" ]
+  ];
+  fhir:Composition.date [ fhir:value "2022-02-16T13:28:17Z"^^xsd:dateTime];
+  fhir:Composition.author [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/a158a35f-2be5-4c74-8132-dabb9476d887>;
+     fhir:Reference.reference [ fhir:value "Organization/a158a35f-2be5-4c74-8132-dabb9476d887" ]
+  ];
+  fhir:Composition.title [ fhir:value "TEST PURPOSES ONLY - Humalog Vulcan ePI v1"];
+  fhir:Composition.section [
+     fhir:index 0;
+     fhir:Composition.section.title [ fhir:value "Product Information" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.text [ fhir:value "Product Info" ]
+     ];
+     fhir:Composition.section.entry [
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/d18d564a-01d2-4e0d-a673-0c7e336df152>;
+       fhir:Reference.reference [ fhir:value "Ingredient/d18d564a-01d2-4e0d-a673-0c7e336df152" ]
+     ], [
+       fhir:index 1;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/f7fb22b8-26be-4229-9118-85e82491c72b>;
+       fhir:Reference.reference [ fhir:value "Ingredient/f7fb22b8-26be-4229-9118-85e82491c72b" ]
+     ], [
+       fhir:index 2;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6b74defc-348f-4a74-953e-6264081ad272>;
+       fhir:Reference.reference [ fhir:value "Ingredient/6b74defc-348f-4a74-953e-6264081ad272" ]
+     ], [
+       fhir:index 3;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0cca7d64-ff25-4de0-8500-91fed616733f>;
+       fhir:Reference.reference [ fhir:value "Ingredient/0cca7d64-ff25-4de0-8500-91fed616733f" ]
+     ], [
+       fhir:index 4;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/ac74d4f3-ec9b-499d-bca4-86ee25647a21>;
+       fhir:Reference.reference [ fhir:value "Ingredient/ac74d4f3-ec9b-499d-bca4-86ee25647a21" ]
+     ], [
+       fhir:index 5;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/82d2f93b-9e3c-4ce8-aa91-bd081056a896>;
+       fhir:Reference.reference [ fhir:value "Ingredient/82d2f93b-9e3c-4ce8-aa91-bd081056a896" ]
+     ], [
+       fhir:index 6;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/aed218f0-e174-452c-9d07-a8f4fd79bc73>;
+       fhir:Reference.reference [ fhir:value "Ingredient/aed218f0-e174-452c-9d07-a8f4fd79bc73" ]
+     ], [
+       fhir:index 7;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/7134e4c7-8d10-475d-88fa-a6a2b4d3ed11>;
+       fhir:Reference.reference [ fhir:value "Ingredient/7134e4c7-8d10-475d-88fa-a6a2b4d3ed11" ]
+     ], [
+       fhir:index 8;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/xxxxx>;
+       fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/xxxxx" ]
+     ], [
+       fhir:index 9;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/c73de2f9-34dd-439b-b74b-1d6304a206e9>;
+       fhir:Reference.reference [ fhir:value "RegulatedAuthorization/c73de2f9-34dd-439b-b74b-1d6304a206e9" ]
+     ], [
+       fhir:index 10;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/a158a35f-2be5-4c74-8132-dabb9476d887>;
+       fhir:Reference.reference [ fhir:value "Organization/a158a35f-2be5-4c74-8132-dabb9476d887" ]
+     ], [
+       fhir:index 11;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/39a732bc-4fe0-403a-bfc4-f772963e9c7d>;
+       fhir:Reference.reference [ fhir:value "Organization/39a732bc-4fe0-403a-bfc4-f772963e9c7d" ]
+     ], [
+       fhir:index 12;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/188e4e7a-832a-4099-a715-5792d96c8d8d>;
+       fhir:Reference.reference [ fhir:value "Organization/188e4e7a-832a-4099-a715-5792d96c8d8d" ]
+     ], [
+       fhir:index 13;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/a4b9135b-3b33-42c0-8e12-b814645f8f20>;
+       fhir:Reference.reference [ fhir:value "PackagedProductDefinition/a4b9135b-3b33-42c0-8e12-b814645f8f20" ]
+     ], [
+       fhir:index 14;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/ac456ef5-b0e6-47dc-ad7d-326e4b71893c>;
+       fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/ac456ef5-b0e6-47dc-ad7d-326e4b71893c" ]
+     ], [
+       fhir:index 15;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/258439a1-ebde-4f04-baed-5302d25fc29e>;
+       fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/258439a1-ebde-4f04-baed-5302d25fc29e" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Composition.section.title [ fhir:value "Narrative Text" ];
+     fhir:Composition.section.code [
+       fhir:CodeableConcept.text [ fhir:value "Narrative" ]
+     ];
+     fhir:Composition.section.section [
+       fhir:index 0;
+       fhir:Composition.section.title [ fhir:value "B. Package Leaflet" ];
+       fhir:Composition.section.code [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.code [ fhir:value "100000155538" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "B. PACKAGE LEAFLET" ]
+       ];
+       fhir:Composition.section.text [
+         fhir:Narrative.status [ fhir:value "additional" ];
+         fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+       ];
+       fhir:Composition.section.emptyReason [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/list-empty-reason" ];
+           fhir:Coding.code [ fhir:value "unavailable" ]
+         ]
+       ];
+       fhir:Composition.section.section [
+         fhir:index 0;
+         fhir:Composition.section.title [ fhir:value "Package leaflet: Information for the user" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "Package leaflet: Information for the user" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">PACKAGE LEAFLET: INFORMATION FOR THE USER Humalog Mix50 100 units/ml suspension for injection in cartridge insulin lispro Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.<ul><li>Keep this leaflet. You may need to read it again.</li><li>If you have any further questions, ask your doctor or pharmacist.</li><li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li><li>If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li></ul></div>"
+         ]
+       ], [
+         fhir:index 1;
+         fhir:Composition.section.title [ fhir:value "What is in this leaflet" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "What is in this leaflet" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">What in this leaflet<ol><li>What Humalog Mix50 is and what it is used for</li><li>What you need to know before you take Humalog Mix50</li><li>How to take Humalog Mix50</li><li>Possible side effects</li><li>How to store Humalog Mix50</li><li>Contents of the pack and other information</li></ol></div>"
+         ]
+       ], [
+         fhir:index 2;
+         fhir:Composition.section.title [ fhir:value "1. What Humalog is and what it is used for" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "1. What Humalog is and what it is used for" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+         ];
+         fhir:Composition.section.emptyReason [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/list-empty-reason" ];
+             fhir:Coding.code [ fhir:value "unavailable" ]
+           ]
+         ]
+       ], [
+         fhir:index 3;
+         fhir:Composition.section.title [ fhir:value "2. What you need to know before you take Humalog" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "2. What you need to know before you take Humalog" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>2. What you need to know before you use Humalog Mix50</b> Do NOT use Humalog Mix50 if you</div>"
+         ]
+       ], [
+         fhir:index 4;
+         fhir:Composition.section.title [ fhir:value "3. How to take Humalog" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "3. How to take Humalog" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>3. How to use Humalog Mix50</b> <b>The 3 ml cartridge is only for use in Lilly 3 ml pens. It is not for use in 1.5 ml pens.</b><p>Always use Humalog Mix50 exactly as your doctor has told you. You should check with your doctor if you are not sure. To prevent the possible transmission of disease, each cartridge must be used by you only, even if the needle on the delivery device is changed.</p></div>"
+         ]
+       ], [
+         fhir:index 5;
+         fhir:Composition.section.title [ fhir:value "4. Possible side effects" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "4. Possible side effects" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>4. Possible side effects</b></p><p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p></div>"
+         ]
+       ], [
+         fhir:index 6;
+         fhir:Composition.section.title [ fhir:value "5. How to store Humalog" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "5. How to store Humalog" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Keep this medicine out of the sight and reach of children.</p><p>Do not use this medicine after the expiry date which is stated on the carton and on the blister after EXP. The expiry date refers to the last day of that month.</p><p>Do not store above 30°C.</p><p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away of medicines you no longer use. These measures will help protect the environment.</p></div>"
+         ]
+       ], [
+         fhir:index 7;
+         fhir:Composition.section.title [ fhir:value "6. Contents of the pack and other information" ];
+         fhir:Composition.section.code [
+           fhir:CodeableConcept.coding [
+             fhir:index 0;
+             fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+             fhir:Coding.code [ fhir:value "100000155538" ]
+           ];
+           fhir:CodeableConcept.text [ fhir:value "6. Contents of the pack and other information" ]
+         ];
+         fhir:Composition.section.text [
+           fhir:Narrative.status [ fhir:value "additional" ];
+           fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><b>6. Contents of the pack and other information</b> <b>What Humalog Mix50 100 units/ml suspension for injection in cartridge contains</b><p>The active substance is insulin lispro. Insulin lispro is made in the laboratory by a ‘recombinant DNA technology’ process. It is a changed form of human insulin and so is different from other human and animal insulins. Insulin lispro is closely related to human insulin which is a natural hormone made by the pancreas. The other ingredients are protamine sulphate, m-cresol, phenol, glycerol, dibasic sodium phosphate 7H2O, zinc oxide and water for injection. Sodium hydroxide or hydrochloric acid may have been used to adjust the acidity.</p></div>"
+         ]
+       ]
+     ]
+  ] .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/ac456ef5-b0e6-47dc-ad7d-326e4b71893c> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/a158a35f-2be5-4c74-8132-dabb9476d887> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/d18d564a-01d2-4e0d-a673-0c7e336df152> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/f7fb22b8-26be-4229-9118-85e82491c72b> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6b74defc-348f-4a74-953e-6264081ad272> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0cca7d64-ff25-4de0-8500-91fed616733f> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/ac74d4f3-ec9b-499d-bca4-86ee25647a21> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/82d2f93b-9e3c-4ce8-aa91-bd081056a896> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/aed218f0-e174-452c-9d07-a8f4fd79bc73> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/7134e4c7-8d10-475d-88fa-a6a2b4d3ed11> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/xxxxx> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/c73de2f9-34dd-439b-b74b-1d6304a206e9> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/39a732bc-4fe0-403a-bfc4-f772963e9c7d> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/188e4e7a-832a-4099-a715-5792d96c8d8d> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/a4b9135b-3b33-42c0-8e12-b814645f8f20> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/258439a1-ebde-4f04-baed-5302d25fc29e> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/66a0db80-d989-403f-bdbe-1b395fb15b6e.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/Composition/66a0db80-d989-403f-bdbe-1b395fb15b6e.ttl> .
+
+# -------------------------------------------------------------------------------------
+
