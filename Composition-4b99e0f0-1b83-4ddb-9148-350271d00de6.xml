@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="4b99e0f0-1b83-4ddb-9148-350271d00de6"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="4b99e0f0-1b83-4ddb-9148-350271d00de6"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;4b99e0f0-1b83-4ddb-9148-350271d00de6&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 01:28:17+0000</p><p><b>author</b>: <a href="Organization-3bd7e482-d239-4b59-9fed-986d570c5a23.html">Organization/3bd7e482-d239-4b59-9fed-986d570c5a23</a> &quot;Eli Lilly Nederland B.V.&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - Humalog Vulcan ePI v1</p></div>
+  </text>
+  <identifier>
+    <system value="https://spor.ema.europa.eu/rmswi/"/>
+    <value value="0d69fdcb-33cf-407f-8209-a6529856ab4f"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi/"/>
+      <code value="100000155538"/>
+    </coding>
+    <text value="Package Leaflet"/>
+  </type>
+  <subject>
+    <reference value="MedicinalProductDefinition/92b74b89-f4e9-408f-939a-283cb1dfb574"/>
+  </subject>
+  <date value="2022-02-16T13:28:17Z"/>
+  <author>
+    <reference value="Organization/3bd7e482-d239-4b59-9fed-986d570c5a23"/>
+  </author>
+  <title value="TEST PURPOSES ONLY - Humalog Vulcan ePI v1"/>
+  <section>
+    <title value="Product Information"/>
+    <code>
+      <text value="Product Info"/>
+    </code>
+    <entry>
+      <reference value="Ingredient/d123eae5-741f-4a32-8e1e-e4db5bc0a410"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/ee6096d8-b5c0-4b15-95ca-4d704c6842eb"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/fd6a6a38-98d6-4cad-b69a-fdd8d35c7485"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/6d394361-ea99-4b55-a0d6-0efef203dfea"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/daa40ae6-d2d2-407b-81ee-cdb2f2fb4b1b"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/b33a3f01-1e7e-4f64-8ab7-ff62edbbc151"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/ec72d410-6b04-42e9-9a74-3024f7a117ba"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/b4fea749-0c4a-490d-88e7-3fa410da9cfe"/>
+    </entry>
+    <entry>
+      <reference value="AdministrableProductDefinition/xxxxx"/>
+    </entry>
+    <entry>
+      <reference value="RegulatedAuthorization/c010d6db-72cc-4eb9-97d0-20b19009bc29"/>
+    </entry>
+    <entry>
+      <reference value="Organization/3bd7e482-d239-4b59-9fed-986d570c5a23"/>
+    </entry>
+    <entry>
+      <reference value="Organization/831bbbb4-0976-44a4-899d-1b13717fc147"/>
+    </entry>
+    <entry>
+      <reference value="Organization/7cb3034f-3619-45c5-a794-8f1cf858ccd1"/>
+    </entry>
+    <entry>
+      <reference value="PackagedProductDefinition/4309ebdf-a28c-4b25-9d6e-2f9164d9922a"/>
+    </entry>
+    <entry>
+      <reference value="MedicinalProductDefinition/92b74b89-f4e9-408f-939a-283cb1dfb574"/>
+    </entry>
+    <entry>
+      <reference value="ManufacturedItemDefinition/ad309584-9018-49f9-b2ee-1af7eb2ff544"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Narrative Text"/>
+    <code>
+      <text value="Narrative"/>
+    </code>
+    <section>
+      <title value="B. Package Leaflet"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="B. PACKAGE LEAFLET"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="unavailable"/>
+        </coding>
+      </emptyReason>
+      <section>
+        <title value="Package leaflet: Information for the user"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="Package leaflet: Information for the user"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">PACKAGE LEAFLET: INFORMATION FOR THE USER Humalog Mix50 100 units/ml suspension for injection in cartridge insulin lispro Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.<ul><li>Keep this leaflet. You may need to read it again.</li><li>If you have any further questions, ask your doctor or pharmacist.</li><li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li><li>If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li></ul></div>
+        </text>
+      </section>
+      <section>
+        <title value="What is in this leaflet"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="What is in this leaflet"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">What in this leaflet<ol><li>What Humalog Mix50 is and what it is used for</li><li>What you need to know before you take Humalog Mix50</li><li>How to take Humalog Mix50</li><li>Possible side effects</li><li>How to store Humalog Mix50</li><li>Contents of the pack and other information</li></ol></div>
+        </text>
+      </section>
+      <section>
+        <title value="1. What Humalog is and what it is used for"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="1. What Humalog is and what it is used for"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div>
+        </text>
+        <emptyReason>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+            <code value="unavailable"/>
+          </coding>
+        </emptyReason>
+      </section>
+      <section>
+        <title value="2. What you need to know before you take Humalog"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="2. What you need to know before you take Humalog"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><b>2. What you need to know before you use Humalog Mix50</b> Do NOT use Humalog Mix50 if you</div>
+        </text>
+      </section>
+      <section>
+        <title value="3. How to take Humalog"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="3. How to take Humalog"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><b>3. How to use Humalog Mix50</b> <b>The 3 ml cartridge is only for use in Lilly 3 ml pens. It is not for use in 1.5 ml pens.</b><p>Always use Humalog Mix50 exactly as your doctor has told you. You should check with your doctor if you are not sure. To prevent the possible transmission of disease, each cartridge must be used by you only, even if the needle on the delivery device is changed.</p></div>
+        </text>
+      </section>
+      <section>
+        <title value="4. Possible side effects"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="4. Possible side effects"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>4. Possible side effects</b></p><p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p></div>
+        </text>
+      </section>
+      <section>
+        <title value="5. How to store Humalog"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="5. How to store Humalog"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><p>Keep this medicine out of the sight and reach of children.</p><p>Do not use this medicine after the expiry date which is stated on the carton and on the blister after EXP. The expiry date refers to the last day of that month.</p><p>Do not store above 30°C.</p><p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away of medicines you no longer use. These measures will help protect the environment.</p></div>
+        </text>
+      </section>
+      <section>
+        <title value="6. Contents of the pack and other information"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="6. Contents of the pack and other information"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><b>6. Contents of the pack and other information</b> <b>What Humalog Mix50 100 units/ml suspension for injection in cartridge contains</b><p>The active substance is insulin lispro. Insulin lispro is made in the laboratory by a ‘recombinant DNA technology’ process. It is a changed form of human insulin and so is different from other human and animal insulins. Insulin lispro is closely related to human insulin which is a natural hormone made by the pancreas. The other ingredients are protamine sulphate, m-cresol, phenol, glycerol, dibasic sodium phosphate 7H2O, zinc oxide and water for injection. Sodium hydroxide or hydrochloric acid may have been used to adjust the acidity.</p></div>
+        </text>
+      </section>
+    </section>
+  </section>
+</Composition>

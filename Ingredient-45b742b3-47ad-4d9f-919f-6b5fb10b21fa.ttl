@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/45b742b3-47ad-4d9f-919f-6b5fb10b21fa> a fhir:Ingredient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "45b742b3-47ad-4d9f-919f-6b5fb10b21fa"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"45b742b3-47ad-4d9f-919f-6b5fb10b21fa\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;45b742b3-47ad-4d9f-919f-6b5fb10b21fa&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: PDC6A3C0OX (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-2f7c703e-98f8-46ae-afeb-42a729fd1a30.html\">ManufacturedItemDefinition/2f7c703e-98f8-46ae-afeb-42a729fd1a30</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-4cea4c8b-fbbe-429d-bc76-866eef94955c.html\">Organization/4cea4c8b-fbbe-429d-bc76-866eef94955c</a> &quot;Sanofi-Aventis Groupe&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Glycerol 85% <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PDC6A3C0OX)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:Ingredient.identifier [
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+     fhir:Identifier.value [ fhir:value "PDC6A3C0OX" ]
+  ];
+  fhir:Ingredient.status [ fhir:value "active"];
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/2f7c703e-98f8-46ae-afeb-42a729fd1a30>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/2f7c703e-98f8-46ae-afeb-42a729fd1a30" ]
+  ];
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ];
+  fhir:Ingredient.manufacturer [
+     fhir:index 0;
+     fhir:Ingredient.manufacturer.manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/4cea4c8b-fbbe-429d-bc76-866eef94955c>;
+       fhir:Reference.reference [ fhir:value "Organization/4cea4c8b-fbbe-429d-bc76-866eef94955c" ]
+     ]
+  ];
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+           fhir:Coding.code [ fhir:value "PDC6A3C0OX" ];
+           fhir:Coding.display [ fhir:value "Glycerol 85%" ]
+         ]
+       ]
+     ]
+  ] .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/2f7c703e-98f8-46ae-afeb-42a729fd1a30> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/4cea4c8b-fbbe-429d-bc76-866eef94955c> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/45b742b3-47ad-4d9f-919f-6b5fb10b21fa.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/Ingredient/45b742b3-47ad-4d9f-919f-6b5fb10b21fa.ttl> .
+
+# -------------------------------------------------------------------------------------
+
