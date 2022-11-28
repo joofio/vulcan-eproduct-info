@@ -10,7 +10,7 @@
   "name": "EpiIG",
   "title": "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status": "active",
-  "date": "2022-11-26T17:48:47+00:00",
+  "date": "2022-11-28T10:19:29+00:00",
   "contact": [
     {
       "name": "HL7 BR&R",
@@ -1342,10 +1342,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/0150abcf-932d-43f1-a09f-b3e84c7ebfa3"
+          "reference": "Ingredient/08a678db-eb75-46d0-8331-7b7c81a6fb6b"
         },
-        "name": "Ingredient-excipient Microcrystalline cellulose",
-        "description": "Microcrystalline cellulose",
+        "name": "Ingredient-excipient Hypromellose",
+        "description": "Hypromellose",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -1355,17 +1355,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "PackagedProductDefinition"
+            "valueString": "Composition"
           }
         ],
         "reference": {
-          "reference": "PackagedProductDefinition/05230760-65af-4ef8-8bef-f086322efc4f"
+          "reference": "Composition/0958e7b6-736c-41d4-9642-462466eb8090"
         },
-        "name": "Karvea 75 mg tablet blister x28 tablets",
-        "description": "Karvea 75 mg tablet blister x28 tablets",
+        "name": "Composition for acmedrug Package Leaflet",
+        "description": "Composition for acmedrug Package Leaflet",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
         ]
       },
       {
@@ -1389,11 +1389,40 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/0ac8a575-cb4c-4d06-a384-e2b4b624d699"
+        },
+        "name": "ePI document Bundle for Karvea 75 mg Package Leaflet",
+        "description": "Bundle for Karvea 75 mg Package Leaflet ePI document",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Ingredient"
           }
         ],
         "reference": {
-          "reference": "Ingredient/0cca7d64-ff25-4de0-8500-91fed616733f"
+          "reference": "Ingredient/0b01147e-1ee6-4009-936b-22ddded71f23"
         },
         "name": "Ingredient-excipient Water for injections",
         "description": "Water for injections",
@@ -1410,10 +1439,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/149adc34-5481-4dd4-80aa-422fb8143966"
+          "reference": "Ingredient/0c6c9337-797f-4d94-9edc-2181ac283783"
         },
-        "name": "Ingredient-excipient Croscarmellose sodium",
-        "description": "Croscarmellose sodium",
+        "name": "Ingredient-excipient Trometamol",
+        "description": "Trometamol",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -1423,17 +1452,59 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
+            "valueString": "Bundle"
           }
         ],
         "reference": {
-          "reference": "Organization/188e4e7a-832a-4099-a715-5792d96c8d8d"
+          "reference": "Bundle/0fef8464-93ba-4a69-9d99-26e9fc1160fb"
         },
-        "name": "Lilly S.A. as Manufacturer",
-        "description": "Lilly S.A. as Manufacturer",
+        "name": "ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet",
+        "description": "Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document",
         "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/108c814e-54b8-4408-9066-8a199bb731e4"
+        },
+        "name": "Ingredient-excipient Silicon dioxide",
+        "description": "Silicon dioxide",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/11cc94b2-aad1-4e35-868a-55514d7ed9c9"
+        },
+        "name": "Karvea 75 mg tablet blister x28 tablets",
+        "description": "Karvea 75 mg tablet blister x28 tablets",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
         ]
       },
       {
@@ -1474,17 +1545,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ManufacturedItemDefinition"
+            "valueString": "Ingredient"
           }
         ],
         "reference": {
-          "reference": "ManufacturedItemDefinition/258439a1-ebde-4f04-baed-5302d25fc29e"
+          "reference": "Ingredient/2253beea-3b62-4bd6-b1ca-810b178a8c76"
         },
-        "name": "Manufactured item Humalog 100 U/ml 5 pre-filled pen",
-        "description": "Humalog 100 U/ml 5 pre-filled pen",
+        "name": "Ingredient-excipient acmedrug-ing3",
+        "description": "acmedrug-ing3",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
         ]
       },
       {
@@ -1508,34 +1579,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
+            "valueString": "MedicinalProductDefinition"
           }
         ],
         "reference": {
-          "reference": "Ingredient/2a2f4000-ce6e-4506-a396-9f6972c68de3"
+          "reference": "MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60"
         },
-        "name": "Ingredient-excipient Macrogol 3000",
-        "description": "Macrogol 3000",
+        "name": "Medicinal Product Karvea 75 mg tablet blister x28",
+        "description": "EU/1/97/049/001 Karvea 75 mg tablet blister x28",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
         ]
       },
       {
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "AdministrableProductDefinition"
+            "valueString": "MedicinalProductDefinition"
           }
         ],
         "reference": {
-          "reference": "AdministrableProductDefinition/2c97ad37-a8e3-4f9d-987f-bb62f754fe1d"
+          "reference": "MedicinalProductDefinition/303c1ef5-3e72-4ce9-8c27-997fe07b14bd"
         },
-        "name": "Administrable product acmedrug",
-        "description": "acmedrug",
+        "name": "Medicinal Product Humalog Mix50 Insulin KwikPen, 3ml pre-fill",
+        "description": "EU/1/97/049/001 Humalog Mix50 Insulin KwikPen, 3ml pre-fill",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
         ]
       },
       {
@@ -1559,6 +1630,74 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/3241ef64-12d0-4948-8108-a8f65a214f38"
+        },
+        "name": "Regulated Authorization for Humalog ",
+        "description": "Regulated Authorization for Humalog ",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/32cbe673-db54-4e01-ad15-9ec5af4d4f8d"
+        },
+        "name": "Ingredient-excipient acmedrug-ing2",
+        "description": "acmedrug-ing2",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/3599ec0f-5617-4122-8544-a3af708827c5"
+        },
+        "name": "Eli Lilly Nederland B.V. as Marketing authorisation holder",
+        "description": "Eli Lilly Nederland B.V. as Marketing authorisation holder",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SubstanceDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "SubstanceDefinition/36f24df3-e646-4245-b8e0-9b39f8f683b0"
+        },
+        "name": "substance-acmesub",
+        "description": "acmesub",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "AdministrableProductDefinition"
           }
         ],
@@ -1576,17 +1715,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
+            "valueString": "ManufacturedItemDefinition"
           }
         ],
         "reference": {
-          "reference": "Organization/39a732bc-4fe0-403a-bfc4-f772963e9c7d"
+          "reference": "ManufacturedItemDefinition/387ff913-0414-42e3-a775-afca9b607f28"
         },
-        "name": "Eli Lilly and Company as Manufacturer API",
-        "description": "Eli Lilly and Company as Manufacturer API",
+        "name": "Manufactured item Humalog 100 U/ml 5 pre-filled pen",
+        "description": "Humalog 100 U/ml 5 pre-filled pen",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
         ]
       },
       {
@@ -1597,10 +1736,95 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/4052f5ef-0e2c-43c9-a09d-a9bab86a2761"
+          "reference": "Ingredient/3d56b64b-cbf7-4c7e-9a4d-3d80302e6720"
         },
-        "name": "Ingredient-excipient Magnesium stearate",
-        "description": "Magnesium stearate",
+        "name": "Ingredient-excipient Carnauba wax",
+        "description": "Carnauba wax",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/45e26190-08dc-48ef-97d7-a6d540e01a48"
+        },
+        "name": "Ingredient-excipient Glycerol",
+        "description": "Glycerol",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/479a5c43-b020-4a05-a9db-f5a85a3e00c1"
+        },
+        "name": "acme drug blister tabs",
+        "description": "acme drug blister tabs",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/4d2d647b-3992-47c3-9dc9-c54d11ca104f"
+        },
+        "name": "Ingredient-active acmedrug-ing1",
+        "description": "acmedrug-ing1",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "RegulatedAuthorization"
+          }
+        ],
+        "reference": {
+          "reference": "RegulatedAuthorization/4de48799-ce2c-4865-9ab6-a2614b0534b0"
+        },
+        "name": "Regulated Authorization for karvea 75 mg tablet",
+        "description": "Regulated Authorization for karvea 75 mg tablet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/4e0d8561-7c05-4f48-a2d2-1d25ae436f8d"
+        },
+        "name": "Ingredient-active irbesartan",
+        "description": "irbesartan",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -1627,51 +1851,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
+            "valueString": "RegulatedAuthorization"
           }
         ],
         "reference": {
-          "reference": "Ingredient/50fc0917-4077-4011-a4f3-4c56a527d722"
+          "reference": "RegulatedAuthorization/4f9c2c04-6651-419d-933e-fc01b0988afe"
         },
-        "name": "Ingredient-active acmedrug-ing1",
-        "description": "acmedrug-ing1",
+        "name": "Regulated Authorization for acme drug",
+        "description": "Regulated Authorization for acme drug",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "SubstanceDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "SubstanceDefinition/55e016dd-3819-4d7b-a6f0-4d37f6918d1a"
-        },
-        "name": "substance-acmesub",
-        "description": "acmesub",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
-          }
-        ],
-        "reference": {
-          "reference": "Ingredient/5d97329d-7b6e-42a4-9c0d-8339d9511e55"
-        },
-        "name": "Ingredient-excipient Carnauba wax",
-        "description": "Carnauba wax",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
         ]
       },
       {
@@ -1682,7 +1872,7 @@
           }
         ],
         "reference": {
-          "reference": "Organization/5df384d3-1203-4cfc-8547-4e56f32956e2"
+          "reference": "Organization/5b5e860e-1563-46da-b528-ce1e36849c96"
         },
         "name": "ACME industry as Marketing authorisation holder",
         "description": "ACME industry as Marketing authorisation holder",
@@ -1695,85 +1885,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Bundle"
-          }
-        ],
-        "reference": {
-          "reference": "Bundle/5effcecf-3ef5-4e02-834f-9a088d4a22d2"
-        },
-        "name": "ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet",
-        "description": "Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
-          }
-        ],
-        "reference": {
-          "reference": "Ingredient/603b8e7c-3a6e-4f87-be86-3e2f040733ea"
-        },
-        "name": "Ingredient-excipient Lactose Monohydrate",
-        "description": "Lactose Monohydrate",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Bundle"
-          }
-        ],
-        "reference": {
-          "reference": "Bundle/603edbbe-8911-4ca3-a351-3d0f873f92c8"
-        },
-        "name": "ePI document Bundle for Karvea 75 mg Package Leaflet",
-        "description": "Bundle for Karvea 75 mg Package Leaflet ePI document",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Composition"
           }
         ],
         "reference": {
-          "reference": "Composition/66a0db80-d989-403f-bdbe-1b395fb15b6e"
+          "reference": "Composition/6381a224-8d68-4416-af4b-babc79a846b1"
         },
-        "name": "Composition for Humalog Package Leaflet",
-        "description": "Composition for Humalog Package Leaflet",
+        "name": "Composition for Karvea Package Leaflet",
+        "description": "Composition for Karvea Package Leaflet",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
@@ -1783,11 +1902,28 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/67d331ea-4b1b-4c43-801e-8e42c12b36bb"
+        },
+        "name": "Lilly S.A. as Manufacturer",
+        "description": "Lilly S.A. as Manufacturer",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Ingredient"
           }
         ],
         "reference": {
-          "reference": "Ingredient/6b74defc-348f-4a74-953e-6264081ad272"
+          "reference": "Ingredient/6ab9fca4-4497-4f7f-b6bd-a2010957ff03"
         },
         "name": "Ingredient-excipient Sodium Hydroxide",
         "description": "Sodium Hydroxide",
@@ -1804,10 +1940,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/7134e4c7-8d10-475d-88fa-a6a2b4d3ed11"
+          "reference": "Ingredient/6d9b16e9-4823-4a7a-982a-1f4df119d19a"
         },
-        "name": "Ingredient-excipient Trometamol",
-        "description": "Trometamol",
+        "name": "Ingredient-active Insulin Lispro",
+        "description": "Insulin Lispro",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -1817,17 +1953,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MedicinalProductDefinition"
+            "valueString": "Organization"
           }
         ],
         "reference": {
-          "reference": "MedicinalProductDefinition/737815c7-800f-4619-ac08-72adc5ab7adc"
+          "reference": "Organization/712497f3-fbc0-48b0-9e34-574972ce4580"
         },
-        "name": "Medicinal Product Karvea 75 mg tablet blister x28",
-        "description": "EU/1/97/049/001 Karvea 75 mg tablet blister x28",
+        "name": "Sanofi-Aventis Groupe as Marketing authorisation holder",
+        "description": "Sanofi-Aventis Groupe as Marketing authorisation holder",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
         ]
       },
       {
@@ -1855,10 +1991,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/77438757-2ca0-440b-847f-311ce77bbfdc"
+          "reference": "Ingredient/76e569cc-51cf-4276-ab62-8921aa076616"
         },
-        "name": "Ingredient-excipient Titanium Dioxide",
-        "description": "Titanium Dioxide",
+        "name": "Ingredient-excipient Magnesium stearate",
+        "description": "Magnesium stearate",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -1868,17 +2004,17 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
+            "valueString": "Composition"
           }
         ],
         "reference": {
-          "reference": "Ingredient/798e8e36-5bfb-4015-9db7-b71c2ef1d920"
+          "reference": "Composition/7724125e-749c-4586-8da6-3a6d4e73c315"
         },
-        "name": "Ingredient-excipient Silicon dioxide",
-        "description": "Silicon dioxide",
+        "name": "Composition for Humalog Package Leaflet",
+        "description": "Composition for Humalog Package Leaflet",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
         ]
       },
       {
@@ -1919,17 +2055,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ManufacturedItemDefinition"
+            "valueString": "AdministrableProductDefinition"
           }
         ],
         "reference": {
-          "reference": "ManufacturedItemDefinition/81ced9f3-9549-4248-8af0-1d82f50cb42d"
+          "reference": "AdministrableProductDefinition/82986f93-9d02-42b6-a801-23d62fcb3a52"
         },
-        "name": "Manufactured item acmedrugman",
-        "description": "acmedrugman",
+        "name": "Administrable product acmedrug",
+        "description": "acmedrug",
         "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PackagedProductDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "PackagedProductDefinition/835a07ad-61ff-4d4c-bb2a-04d024359332"
+        },
+        "name": "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen",
+        "description": "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
         ]
       },
       {
@@ -1940,10 +2093,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/82d2f93b-9e3c-4ce8-aa91-bd081056a896"
+          "reference": "Ingredient/83dff0dd-2150-4243-b878-02ac6d6c6478"
         },
-        "name": "Ingredient-excipient Zinc Oxide",
-        "description": "Zinc Oxide",
+        "name": "Ingredient-excipient Titanium Dioxide",
+        "description": "Titanium Dioxide",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -1970,11 +2123,28 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/84e88521-3b58-443e-aae0-5ada0547293a"
+        },
+        "name": "Ingredient-excipient Lactose Monohydrate",
+        "description": "Lactose Monohydrate",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "SubstanceDefinition"
           }
         ],
         "reference": {
-          "reference": "SubstanceDefinition/856336f0-01ab-4b87-9ac0-b6573dd84991"
+          "reference": "SubstanceDefinition/92db919e-4060-4f92-bcd1-cf165f0dfa2d"
         },
         "name": "substance-irbesartan",
         "description": "irbesartan",
@@ -1987,40 +2157,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Bundle"
-          }
-        ],
-        "reference": {
-          "reference": "Bundle/96a7b972-889d-497d-b82c-28391a0fa0eb"
-        },
-        "name": "ePI document Bundle for acmedrug- Package Leaflet",
-        "description": "Bundle for acmedrug- Package Leaflet ePI document",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Organization"
           }
         ],
         "reference": {
-          "reference": "Organization/a158a35f-2be5-4c74-8132-dabb9476d887"
+          "reference": "Organization/9784a291-6f83-4c37-9b51-c40421a661a0"
         },
-        "name": "Eli Lilly Nederland B.V. as Marketing authorisation holder",
-        "description": "Eli Lilly Nederland B.V. as Marketing authorisation holder",
+        "name": "Eli Lilly and Company as Manufacturer API",
+        "description": "Eli Lilly and Company as Manufacturer API",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
@@ -2034,10 +2178,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/a1761e53-7b70-4cc3-8fee-52d47721a935"
+          "reference": "Ingredient/9b93fcf1-34f4-4976-878d-8da5403d6c22"
         },
-        "name": "Ingredient-excipient Hypromellose",
-        "description": "Hypromellose",
+        "name": "Ingredient-excipient Metacresol",
+        "description": "Metacresol",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -2058,23 +2202,6 @@
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "PackagedProductDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "PackagedProductDefinition/a4b9135b-3b33-42c0-8e12-b814645f8f20"
-        },
-        "name": "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen",
-        "description": "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
         ]
       },
       {
@@ -2115,31 +2242,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "MedicinalProductDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "MedicinalProductDefinition/ac456ef5-b0e6-47dc-ad7d-326e4b71893c"
-        },
-        "name": "Medicinal Product Humalog Mix50 Insulin KwikPen, 3ml pre-fill",
-        "description": "EU/1/97/049/001 Humalog Mix50 Insulin KwikPen, 3ml pre-fill",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Ingredient"
           }
         ],
         "reference": {
-          "reference": "Ingredient/ac74d4f3-ec9b-499d-bca4-86ee25647a21"
+          "reference": "Ingredient/acedb713-3a17-4c17-8283-ef55125dc59f"
         },
-        "name": "Ingredient-active Insulin Lispro",
-        "description": "Insulin Lispro",
+        "name": "Ingredient-excipient Macrogol 3000",
+        "description": "Macrogol 3000",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -2153,10 +2263,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/aed218f0-e174-452c-9d07-a8f4fd79bc73"
+          "reference": "Ingredient/ae76b89e-2c36-432e-84af-6ffe7096cb21"
         },
-        "name": "Ingredient-excipient Metacresol",
-        "description": "Metacresol",
+        "name": "Ingredient-excipient Croscarmellose sodium",
+        "description": "Croscarmellose sodium",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -2200,78 +2310,10 @@
           }
         ],
         "reference": {
-          "reference": "Ingredient/c0fd49c6-92e7-40c0-b623-70531dabf320"
+          "reference": "Ingredient/c094c43d-68c3-48e6-9b09-98199814514a"
         },
-        "name": "Ingredient-active irbesartan",
-        "description": "irbesartan",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ManufacturedItemDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "ManufacturedItemDefinition/c113da0a-04e0-41c5-aa31-c611ac98f783"
-        },
-        "name": "Manufactured item karvea 75 mg tablet",
-        "description": "karvea 75 mg tablet",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "RegulatedAuthorization"
-          }
-        ],
-        "reference": {
-          "reference": "RegulatedAuthorization/c73de2f9-34dd-439b-b74b-1d6304a206e9"
-        },
-        "name": "Regulated Authorization for Humalog ",
-        "description": "Regulated Authorization for Humalog ",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
-          }
-        ],
-        "reference": {
-          "reference": "Ingredient/cb01f7d2-7208-47e5-96b3-af3b713bb6d3"
-        },
-        "name": "Ingredient-excipient acmedrug-ing2",
-        "description": "acmedrug-ing2",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
-          }
-        ],
-        "reference": {
-          "reference": "Ingredient/ce7e3ed2-ea4c-45af-bcd8-abdefd82e517"
-        },
-        "name": "Ingredient-excipient acmedrug-ing3",
-        "description": "acmedrug-ing3",
+        "name": "Ingredient-excipient Zinc Oxide",
+        "description": "Zinc Oxide",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
@@ -2302,57 +2344,6 @@
           }
         ],
         "reference": {
-          "reference": "Organization/d039892c-e849-4f0b-babc-97a3929055c4"
-        },
-        "name": "Sanofi-Aventis Groupe as Marketing authorisation holder",
-        "description": "Sanofi-Aventis Groupe as Marketing authorisation holder",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Ingredient"
-          }
-        ],
-        "reference": {
-          "reference": "Ingredient/d18d564a-01d2-4e0d-a673-0c7e336df152"
-        },
-        "name": "Ingredient-excipient Glycerol",
-        "description": "Glycerol",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Composition"
-          }
-        ],
-        "reference": {
-          "reference": "Composition/d48a8563-8918-4c29-9eb9-ba7efab94739"
-        },
-        "name": "Composition for Karvea Package Leaflet",
-        "description": "Composition for Karvea Package Leaflet",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
           "reference": "Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75"
         },
         "name": "Acme Inc. as Marketing Authorization Holder",
@@ -2360,6 +2351,23 @@
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/d8a79128-2b4c-4019-b9a9-dd62e6829a56"
+        },
+        "name": "Manufactured item acmedrugman",
+        "description": "acmedrugman",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
         ]
       },
       {
@@ -2383,68 +2391,43 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "PackagedProductDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "PackagedProductDefinition/dc1cb42c-164f-41f6-9927-c1304552b98b"
-        },
-        "name": "acme drug blister tabs",
-        "description": "acme drug blister tabs",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "RegulatedAuthorization"
-          }
-        ],
-        "reference": {
-          "reference": "RegulatedAuthorization/dd7ac0a9-53ae-4f7b-9b40-c2e3a0ad8b0e"
-        },
-        "name": "Regulated Authorization for karvea 75 mg tablet",
-        "description": "Regulated Authorization for karvea 75 mg tablet",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "RegulatedAuthorization"
-          }
-        ],
-        "reference": {
-          "reference": "RegulatedAuthorization/de0b38ef-1fb8-4271-b786-afcb2bd5d0e9"
-        },
-        "name": "Regulated Authorization for acme drug",
-        "description": "Regulated Authorization for acme drug",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "MedicinalProductDefinition"
           }
         ],
         "reference": {
-          "reference": "MedicinalProductDefinition/e0219ac4-7203-499f-b77e-bfb6298e9c1e"
+          "reference": "MedicinalProductDefinition/dcc5b6db-b516-4350-893a-feb6647894fb"
         },
         "name": "Medicinal Product acmedrug-man",
         "description": "EU/1/97/049/001 acmedrug-man",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Bundle"
+          }
+        ],
+        "reference": {
+          "reference": "Bundle/df2d0493-7403-43c9-9e49-3f705fbb8531"
+        },
+        "name": "ePI document Bundle for acmedrug- Package Leaflet",
+        "description": "Bundle for acmedrug- Package Leaflet ePI document",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"
         ]
       },
       {
@@ -2479,6 +2462,23 @@
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Ingredient"
+          }
+        ],
+        "reference": {
+          "reference": "Ingredient/e96096c7-1c07-4781-8954-de8fb99aa813"
+        },
+        "name": "Ingredient-excipient Microcrystalline cellulose",
+        "description": "Microcrystalline cellulose",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
         ]
       },
       {
@@ -2533,34 +2533,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Composition"
-          }
-        ],
-        "reference": {
-          "reference": "Composition/f110b8ad-6d95-414b-af50-a108e3c2df23"
-        },
-        "name": "Composition for acmedrug Package Leaflet",
-        "description": "Composition for acmedrug Package Leaflet",
-        "profile": [
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
-          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"
-        ]
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Ingredient"
           }
         ],
         "reference": {
-          "reference": "Ingredient/f7fb22b8-26be-4229-9118-85e82491c72b"
+          "reference": "Ingredient/f0ff2f51-65ab-4b6e-b35c-5b3fe08ace89"
         },
         "name": "Ingredient-excipient Hydrochloric acid",
         "description": "Hydrochloric acid",
         "profile": [
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
           "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"
+        ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ManufacturedItemDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ManufacturedItemDefinition/fadf3825-be85-48f8-99ce-7780be998236"
+        },
+        "name": "Manufactured item karvea 75 mg tablet",
+        "description": "karvea 75 mg tablet",
+        "profile": [
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+          "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"
         ]
       },
       {
