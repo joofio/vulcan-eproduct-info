@@ -11,7 +11,7 @@
   <name value="EpiIG"/>
   <title value="Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-11-28T13:17:59+00:00"/>
+  <date value="2022-11-28T13:54:36+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
@@ -989,15 +989,63 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="AdministrableProductDefinition"/>
+        <valueString value="ManufacturedItemDefinition"/>
       </extension>
       <reference>
-        <reference value="AdministrableProductDefinition/0727e2fa-06b9-4809-b89d-a0928d5e3865"/>
+        <reference value="ManufacturedItemDefinition/0034259b-f788-4d52-9c13-8c62f93331a4"/>
       </reference>
-      <name value="Administrable product Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
-      <description value="Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <name value="Manufactured item acmedrugman"/>
+      <description value="acmedrugman"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/00b9d5fd-39f7-4622-8160-dc48b338af10"/>
+      </reference>
+      <name value="Composition for Suliqua Package Leaflet"/>
+      <description value="Composition for Suliqua Package Leaflet"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/01ec3fca-a39d-41a0-930a-062d7630aa7b"/>
+      </reference>
+      <name value="Ingredient-excipient Carnauba wax"/>
+      <description value="Carnauba wax"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/067a5ac8-28c7-49dc-816f-6a90e68a951e"/>
+      </reference>
+      <name value="Ingredient-excipient Hypromellose"/>
+      <description value="Hypromellose"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ClinicalUseDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ClinicalUseDefinition/08e00c8e-a184-4284-9dfb-af1fca472541"/>
+      </reference>
+      <name value="interaction-bezafibrat"/>
+      <description value="interaction - Bezafibrat"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1013,15 +1061,63 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
+        <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Organization/1103225b-fb53-4bdd-bc37-e175c91020d1"/>
+        <reference value="Ingredient/0c68a637-b160-4b70-8fb2-9a01c28981cd"/>
       </reference>
-      <name value="ACME industry as Marketing authorisation holder"/>
-      <description value="ACME industry as Marketing authorisation holder"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <name value="Ingredient-excipient Trometamol"/>
+      <description value="Trometamol"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/0d5d1a1d-82e8-41e1-88a3-d1dba4274c5a"/>
+      </reference>
+      <name value="Ingredient-excipient Metacresol"/>
+      <description value="Metacresol"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/0d6a5b63-b9cc-4934-bf42-fd8502701d7a"/>
+      </reference>
+      <name value="Medicinal Product acmedrug-man"/>
+      <description value="EU/1/97/049/001 acmedrug-man"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/10433a82-cfba-42e4-841c-8752df0ec986"/>
+      </reference>
+      <name value="Ingredient-active acmedrug-ing1"/>
+      <description value="acmedrug-ing1"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/164e9629-3831-419a-b7fc-284c4f7d3997"/>
+      </reference>
+      <name value="Medicinal Product Humalog Mix50 Insulin KwikPen, 3ml pre-fill"/>
+      <description value="EU/1/97/049/001 Humalog Mix50 Insulin KwikPen, 3ml pre-fill"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1034,6 +1130,18 @@
       <description value="Hypromellose"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/1cb84090-83f3-44b9-8097-8d77541bef86"/>
+      </reference>
+      <name value="Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen"/>
+      <description value="Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1052,48 +1160,12 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/1fa7de02-9c39-4fa2-890c-9bf8a1614e5f"/>
+        <reference value="Ingredient/1db2b8c7-270c-42c0-8c83-22ce5bee44b7"/>
       </reference>
-      <name value="Ingredient-excipient Silicon dioxide"/>
-      <description value="Silicon dioxide"/>
+      <name value="Ingredient-excipient Lactose Monohydrate"/>
+      <description value="Lactose Monohydrate"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="RegulatedAuthorization"/>
-      </extension>
-      <reference>
-        <reference value="RegulatedAuthorization/208a1f78-5347-400b-8c27-e809b7c81dbe"/>
-      </reference>
-      <name value="Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen"/>
-      <description value="Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicinalProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="MedicinalProductDefinition/23f26b3d-1f5a-49a2-a133-48a198c5ffda"/>
-      </reference>
-      <name value="Medicinal Product acmedrug-man"/>
-      <description value="EU/1/97/049/001 acmedrug-man"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ManufacturedItemDefinition"/>
-      </extension>
-      <reference>
-        <reference value="ManufacturedItemDefinition/25fbd641-f8cb-4f22-9de1-1e9220922ec4"/>
-      </reference>
-      <name value="Manufactured item acmedrugman"/>
-      <description value="acmedrugman"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1112,36 +1184,12 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/2a6b1c77-5ffa-40be-a2af-ab5109410a9d"/>
+        <reference value="Ingredient/3051b60c-c3f3-4778-af3f-90abfe20ae16"/>
       </reference>
-      <name value="Ingredient-excipient Methionine"/>
-      <description value="Methionine"/>
+      <name value="Ingredient-excipient Water for injections"/>
+      <description value="Water for injections"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/2e7ebb55-7254-445b-b0d0-0ed8146fddf7"/>
-      </reference>
-      <name value="Sanofi-Aventis Deutschland GmbH as Manufacturer API"/>
-      <description value="Sanofi-Aventis Deutschland GmbH as Manufacturer API"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ManufacturedItemDefinition"/>
-      </extension>
-      <reference>
-        <reference value="ManufacturedItemDefinition/2f7c703e-98f8-46ae-afeb-42a729fd1a30"/>
-      </reference>
-      <name value="Manufactured item Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
-      <description value="Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1169,22 +1217,22 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
+        <valueString value="ClinicalUseDefinition"/>
       </extension>
       <reference>
-        <reference value="Ingredient/39e6d50f-ecb4-424c-95b1-63bc40db32c4"/>
+        <reference value="ClinicalUseDefinition/3bb7ca2f-94b3-4657-967a-3efec1b481a0"/>
       </reference>
-      <name value="Ingredient-active acmedrug-ing1"/>
-      <description value="acmedrug-ing1"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <name value="indication-hypertension"/>
+      <description value="indication - Hypertension"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/3bd7e482-d239-4b59-9fed-986d570c5a23"/>
+        <reference value="Organization/4128611d-15a4-47c3-8bec-cde2fae84429"/>
       </reference>
       <name value="Eli Lilly Nederland B.V. as Marketing authorisation holder"/>
       <description value="Eli Lilly Nederland B.V. as Marketing authorisation holder"/>
@@ -1193,87 +1241,87 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
+        <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Composition/4289dba7-aa89-41cd-9f50-924cc81b0438"/>
+        <reference value="Ingredient/4167d0ab-62f0-4471-9d13-6adc179ca1ee"/>
       </reference>
-      <name value="Composition for Suliqua Package Leaflet"/>
-      <description value="Composition for Suliqua Package Leaflet"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PackagedProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="PackagedProductDefinition/4309ebdf-a28c-4b25-9d6e-2f9164d9922a"/>
-      </reference>
-      <name value="Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen"/>
-      <description value="Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+      <name value="Ingredient-excipient Sodium Hydroxide"/>
+      <description value="Sodium Hydroxide"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/45b742b3-47ad-4d9f-919f-6b5fb10b21fa"/>
+        <reference value="Ingredient/426328c5-a90f-4e98-b953-864f58de48b6"/>
       </reference>
-      <name value="Ingredient-excipient Glycerol 85%"/>
-      <description value="Glycerol 85%"/>
+      <name value="Ingredient-excipient Titanium Dioxide"/>
+      <description value="Titanium Dioxide"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PackagedProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="PackagedProductDefinition/4702bfc5-31b2-4bb8-b6c9-2b41b4b4eefe"/>
-      </reference>
-      <name value="acme drug blister tabs"/>
-      <description value="acme drug blister tabs"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/4b6c3f19-2727-45b9-a9b6-e2cf0bd2a4a4"/>
+        <reference value="Ingredient/4527eee7-2e3e-4608-a146-a6b5b28a0847"/>
       </reference>
-      <name value="Ingredient-active Insulin glargine"/>
-      <description value="Insulin glargine"/>
+      <name value="Ingredient-excipient acmedrug-ing2"/>
+      <description value="acmedrug-ing2"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
+        <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Composition/4b99e0f0-1b83-4ddb-9148-350271d00de6"/>
+        <reference value="Ingredient/4892cab3-40b1-4cb2-9a23-bc73b22c64a4"/>
       </reference>
-      <name value="Composition for Humalog Package Leaflet"/>
-      <description value="Composition for Humalog Package Leaflet"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+      <name value="Ingredient-excipient Sodium hydroxide"/>
+      <description value="Sodium hydroxide"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
+        <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Organization/4cea4c8b-fbbe-429d-bc76-866eef94955c"/>
+        <reference value="Ingredient/48b74fc7-675a-4cc4-9d81-73eb6e29d40d"/>
       </reference>
-      <name value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
-      <description value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <name value="Ingredient-excipient Zinc Oxide"/>
+      <description value="Zinc Oxide"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/4cb80895-d470-4fce-83dc-4b11158c1006"/>
+      </reference>
+      <name value="Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen"/>
+      <description value="Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ClinicalUseDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ClinicalUseDefinition/4d57ed2c-7a03-4fef-b0a1-ae92da2268ae"/>
+      </reference>
+      <name value="contraindication-hypersensitivityreaction"/>
+      <description value="contraindication - Hypersensitivity reaction"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1289,69 +1337,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicinalProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="MedicinalProductDefinition/557820eb-c339-4874-bbf8-36a4caf54695"/>
-      </reference>
-      <name value="Medicinal Product Karvea 75 mg tablet blister x28"/>
-      <description value="EU/1/97/049/001 Karvea 75 mg tablet blister x28"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/5a3e9d4e-5fe3-4b8d-9d13-ad7ecaaf20d5"/>
-      </reference>
-      <name value="Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"/>
-      <description value="Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/5fef3b81-9222-46d7-b050-577bd19828ce"/>
-      </reference>
-      <name value="ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet"/>
-      <description value="Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ClinicalUseDefinition"/>
-      </extension>
-      <reference>
-        <reference value="ClinicalUseDefinition/6324ddbf-17cb-4658-98a8-d500c57f11ca"/>
-      </reference>
-      <name value="indication-hypertension"/>
-      <description value="indication - Hypertension"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/63c8217b-cdec-4b4d-a6b7-edd74ec166d2"/>
+        <reference value="Ingredient/4feb51cb-65ee-418e-b251-1cf43a62a3a6"/>
       </reference>
-      <name value="Ingredient-excipient Hypromellose"/>
-      <description value="Hypromellose"/>
+      <name value="Ingredient-active Insulin glargine"/>
+      <description value="Insulin glargine"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -1360,10 +1352,10 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/6b8f6570-c9b9-49fb-8e7b-8f4f15dbc78c"/>
+        <reference value="Ingredient/5295a834-9601-4ea4-9c07-40e83809791f"/>
       </reference>
-      <name value="Ingredient-excipient Macrogol 3000"/>
-      <description value="Macrogol 3000"/>
+      <name value="Ingredient-excipient Methionine"/>
+      <description value="Methionine"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -1372,10 +1364,10 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/6d394361-ea99-4b55-a0d6-0efef203dfea"/>
+        <reference value="Ingredient/57111443-b153-4db4-ae92-092d4b70e31b"/>
       </reference>
-      <name value="Ingredient-excipient Water for injections"/>
-      <description value="Water for injections"/>
+      <name value="Ingredient-excipient Concentrated hydrochloric acid"/>
+      <description value="Concentrated hydrochloric acid"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -1384,196 +1376,7 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/6dd1c5f7-3902-4bed-97c9-052a1526e860"/>
-      </reference>
-      <name value="ePI document Bundle for acmedrug- Package Leaflet"/>
-      <description value="Bundle for acmedrug- Package Leaflet ePI document"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="AdministrableProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="AdministrableProductDefinition/6e7ab932-7ec7-4792-a9ad-60765295b770"/>
-      </reference>
-      <name value="Administrable product acmedrug"/>
-      <description value="acmedrug"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/73d936c8-bb81-4889-8c47-233775553d0a"/>
-      </reference>
-      <name value="Ingredient-active irbesartan"/>
-      <description value="irbesartan"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/745c01bc-936e-45ca-9880-57e97608f43e"/>
-      </reference>
-      <name value="Ingredient-active irbesartan"/>
-      <description value="irbesartan"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/767ed6fc-910f-4a7d-8e31-b7e8120b37ed"/>
-      </reference>
-      <name value="European Medicines Agency as Medicines Regulatory Authority"/>
-      <description value="European Medicines Agency as Medicines Regulatory Authority"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf"/>
-      </reference>
-      <name value="Ingredient-excipient Lactose Monohydrate"/>
-      <description value="Lactose Monohydrate"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/7cb3034f-3619-45c5-a794-8f1cf858ccd1"/>
-      </reference>
-      <name value="Lilly S.A. as Manufacturer"/>
-      <description value="Lilly S.A. as Manufacturer"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PackagedProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="PackagedProductDefinition/7cbd14d1-7cb4-4785-83fe-a9d909be7ec8"/>
-      </reference>
-      <name value="3 ml cartridge (glass) in a pre-filled pen"/>
-      <description value="3 ml cartridge (glass) in a pre-filled pen"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="SubstanceDefinition"/>
-      </extension>
-      <reference>
-        <reference value="SubstanceDefinition/7cfe042b-2b33-4f1f-b179-c6db51b6452c"/>
-      </reference>
-      <name value="substance-acmesub"/>
-      <description value="acmesub"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ClinicalUseDefinition"/>
-      </extension>
-      <reference>
-        <reference value="ClinicalUseDefinition/7ecb17f8-84a2-4a04-9ef5-a8e18a184bf8"/>
-      </reference>
-      <name value="contraindication-hypersensitivityreaction"/>
-      <description value="contraindication - Hypersensitivity reaction"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicinalProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837"/>
-      </reference>
-      <name value="Medicinal Product cava 75 mg tablet in blister pack of 28 tablets"/>
-      <description value="EU/1/97/049/001 cava 75 mg tablet blister x28"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/831bbbb4-0976-44a4-899d-1b13717fc147"/>
-      </reference>
-      <name value="Eli Lilly and Company as Manufacturer API"/>
-      <description value="Eli Lilly and Company as Manufacturer API"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ClinicalUseDefinition"/>
-      </extension>
-      <reference>
-        <reference value="ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055"/>
-      </reference>
-      <name value="contraindication"/>
-      <description value="Contraindication - Gastrointestinal disorders"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Composition"/>
-      </extension>
-      <reference>
-        <reference value="Composition/8448c750-1295-441a-8cd5-4977975b9987"/>
-      </reference>
-      <name value="Composition for Karvea Package Leaflet"/>
-      <description value="Composition for Karvea Package Leaflet"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/8488a092-a0c2-4cc9-a23e-521224825f33"/>
-      </reference>
-      <name value="Ingredient-excipient acmedrug-ing2"/>
-      <description value="acmedrug-ing2"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/9023dafa-6c63-440b-bb2c-25728db53fdd"/>
+        <reference value="Bundle/5829d2ab-c739-4e96-996e-1014caadfe2a"/>
       </reference>
       <name value="ePI document Bundle for Karvea 75 mg Package Leaflet"/>
       <description value="Bundle for Karvea 75 mg Package Leaflet ePI document"/>
@@ -1594,37 +1397,121 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicinalProductDefinition"/>
+        <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="MedicinalProductDefinition/92b74b89-f4e9-408f-939a-283cb1dfb574"/>
+        <reference value="Ingredient/588505a6-be35-44c1-b279-18035fb158f7"/>
       </reference>
-      <name value="Medicinal Product Humalog Mix50 Insulin KwikPen, 3ml pre-fill"/>
-      <description value="EU/1/97/049/001 Humalog Mix50 Insulin KwikPen, 3ml pre-fill"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <name value="Ingredient-excipient Silicon dioxide"/>
+      <description value="Silicon dioxide"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/5e82e4b0-0aab-468f-b6f4-549522418202"/>
+      </reference>
+      <name value="Composition for acmedrug Package Leaflet"/>
+      <description value="Composition for acmedrug Package Leaflet"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/5eaeea10-382e-4765-a30c-9cea53e0d83e"/>
+      </reference>
+      <name value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
+      <description value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/5eef6ad0-e167-423c-ba89-b39be0bdcf46"/>
+      </reference>
+      <name value="Ingredient-excipient Glycerol 85%"/>
+      <description value="Glycerol 85%"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/60fa600c-99f2-49c8-bb13-802281e43254"/>
+      </reference>
+      <name value="Administrable product Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
+      <description value="Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/651bede5-c6e4-4277-8692-e195495a2ed4"/>
+      </reference>
+      <name value="Ingredient-excipient Zinc chloride"/>
+      <description value="Zinc chloride"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="PackagedProductDefinition"/>
       </extension>
       <reference>
-        <reference value="PackagedProductDefinition/9922ec3a-ba89-4582-9c40-0f5cc0ca1401"/>
+        <reference value="PackagedProductDefinition/653be62d-5558-438e-ae86-a8918ccf3b4c"/>
       </reference>
-      <name value="Karvea 75 mg tablet blister x28 tablets"/>
-      <description value="Karvea 75 mg tablet blister x28 tablets"/>
+      <name value="3 ml cartridge (glass) in a pre-filled pen"/>
+      <description value="3 ml cartridge (glass) in a pre-filled pen"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/69554809-d328-404d-b144-69d17aa71872"/>
+      </reference>
+      <name value="Regulated Authorization for acme drug"/>
+      <description value="Regulated Authorization for acme drug"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/6aec6237-b16c-48cc-a198-670f5fda2eab"/>
+      </reference>
+      <name value="ACME industry as Marketing authorisation holder"/>
+      <description value="ACME industry as Marketing authorisation holder"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/9ec6079d-d9d9-4f27-b21a-763f763d571d"/>
+        <reference value="Ingredient/745c01bc-936e-45ca-9880-57e97608f43e"/>
       </reference>
-      <name value="Ingredient-excipient Microcrystalline cellulose"/>
-      <description value="Microcrystalline cellulose"/>
+      <name value="Ingredient-active irbesartan"/>
+      <description value="irbesartan"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -1633,10 +1520,130 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/a15e0b81-c040-47c9-9276-9068dee22ad9"/>
+        <reference value="Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf"/>
       </reference>
-      <name value="Ingredient-excipient acmedrug-ing3"/>
-      <description value="acmedrug-ing3"/>
+      <name value="Ingredient-excipient Lactose Monohydrate"/>
+      <description value="Lactose Monohydrate"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/7acb6663-7259-4688-a576-fd1516f121c9"/>
+      </reference>
+      <name value="European Medicines Agency as Medicines Regulatory Authority"/>
+      <description value="European Medicines Agency as Medicines Regulatory Authority"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SubstanceDefinition"/>
+      </extension>
+      <reference>
+        <reference value="SubstanceDefinition/7adb8f94-5c7e-4bd7-8101-8ce68aa3fde6"/>
+      </reference>
+      <name value="substance-irbesartan"/>
+      <description value="irbesartan"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837"/>
+      </reference>
+      <name value="Medicinal Product cava 75 mg tablet in blister pack of 28 tablets"/>
+      <description value="EU/1/97/049/001 cava 75 mg tablet blister x28"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ClinicalUseDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055"/>
+      </reference>
+      <name value="contraindication"/>
+      <description value="Contraindication - Gastrointestinal disorders"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/85cf01da-1922-414c-9d2b-288ff351ab59"/>
+      </reference>
+      <name value="Ingredient-active irbesartan"/>
+      <description value="irbesartan"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/8e0c87f0-4409-4b70-8f5f-837746a89de5"/>
+      </reference>
+      <name value="Manufactured item Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
+      <description value="Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/95ed9ab6-32dc-4d78-abe7-1e54d221c826"/>
+      </reference>
+      <name value="Ingredient-excipient Macrogol 3000"/>
+      <description value="Macrogol 3000"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/98b6dc4f-c2bb-4888-bb78-3abc7af95f4d"/>
+      </reference>
+      <name value="Lilly S.A. as Manufacturer"/>
+      <description value="Lilly S.A. as Manufacturer"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/9a79f63e-4248-4fcb-b7ed-4f3164e55872"/>
+      </reference>
+      <name value="Ingredient-excipient Croscarmellose sodium"/>
+      <description value="Croscarmellose sodium"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/a4a2969a-d32d-46df-9d16-8dfaf0b5340e"/>
+      </reference>
+      <name value="Ingredient-excipient Magnesium stearate"/>
+      <description value="Magnesium stearate"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -1654,18 +1661,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="MedicinalProductDefinition"/>
-      </extension>
-      <reference>
-        <reference value="MedicinalProductDefinition/a59f72e1-a5f4-4ce6-a673-5f44f8fe8df8"/>
-      </reference>
-      <name value="Medicinal Product Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"/>
-      <description value="EU/1/97/049/001 Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
@@ -1675,6 +1670,18 @@
       <description value="Titanium Dioxide"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/aa0614ce-c6c4-4347-ab01-e74863a62af3"/>
+      </reference>
+      <name value="Karvea 75 mg tablet blister x28 tablets"/>
+      <description value="Karvea 75 mg tablet blister x28 tablets"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1690,87 +1697,127 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/af84067f-3e96-41c7-b9f5-899f82649631"/>
+      </reference>
+      <name value="Ingredient-excipient Hydrochloric acid"/>
+      <description value="Hydrochloric acid"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/b029f158-afc1-46c5-8be0-0ad2bba8bde9"/>
+      </reference>
+      <name value="ePI document Bundle for acmedrug- Package Leaflet"/>
+      <description value="Bundle for acmedrug- Package Leaflet ePI document"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/b1b5c827-1ff4-4b3f-bbc5-128bf532cd0d"/>
+      </reference>
+      <name value="Ingredient-excipient acmedrug-ing3"/>
+      <description value="acmedrug-ing3"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/b3382bbd-49b2-4965-b259-2a9394f39a9f"/>
+      </reference>
+      <name value="ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet"/>
+      <description value="Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/b5b41b85-0c3d-4e46-8503-72302da19bdf"/>
+      </reference>
+      <name value="Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"/>
+      <description value="Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/b7101563-64b7-440f-82b0-bf6b90d6b090"/>
+      </reference>
+      <name value="Ingredient-excipient Glycerol"/>
+      <description value="Glycerol"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/bbdd8baa-43ae-4eac-a1af-610d8c667683"/>
+      </reference>
+      <name value="ePI document Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet"/>
+      <description value="Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet ePI document"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ManufacturedItemDefinition"/>
       </extension>
       <reference>
-        <reference value="ManufacturedItemDefinition/ad309584-9018-49f9-b2ee-1af7eb2ff544"/>
+        <reference value="ManufacturedItemDefinition/bee84dd2-a5f5-437f-9739-bb108235e2c9"/>
       </reference>
       <name value="Manufactured item Humalog 100 U/ml 5 pre-filled pen"/>
       <description value="Humalog 100 U/ml 5 pre-filled pen"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ManufacturedItemDefinition"/>
-      </extension>
-      <reference>
-        <reference value="ManufacturedItemDefinition/adaa0c2b-d6bc-4243-a660-6e29dfb4c605"/>
-      </reference>
-      <name value="Manufactured item karvea 75 mg tablet"/>
-      <description value="karvea 75 mg tablet"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/b33a3f01-1e7e-4f64-8ab7-ff62edbbc151"/>
-      </reference>
-      <name value="Ingredient-excipient Zinc Oxide"/>
-      <description value="Zinc Oxide"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/b4fea749-0c4a-490d-88e7-3fa410da9cfe"/>
-      </reference>
-      <name value="Ingredient-excipient Trometamol"/>
-      <description value="Trometamol"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/b91e0ff8-0ec8-48b3-b5b9-a21f607b2c47"/>
-      </reference>
-      <name value="Ingredient-excipient Titanium Dioxide"/>
-      <description value="Titanium Dioxide"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/b9f3cd0b-e111-48b2-adf0-e3f646b254d5"/>
-      </reference>
-      <name value="Ingredient-excipient Magnesium stearate"/>
-      <description value="Magnesium stearate"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/bfdf8e8a-a143-4b9b-9ac6-0e9ef7430426"/>
-      </reference>
-      <name value="Ingredient-excipient Concentrated hydrochloric acid"/>
-      <description value="Concentrated hydrochloric acid"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1799,84 +1846,61 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="RegulatedAuthorization"/>
+        <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="RegulatedAuthorization/c010d6db-72cc-4eb9-97d0-20b19009bc29"/>
+        <reference value="Ingredient/c2c85f07-dbd4-4df0-bd74-d89f351ea783"/>
       </reference>
-      <name value="Regulated Authorization for Humalog "/>
-      <description value="Regulated Authorization for Humalog "/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <name value="Ingredient-excipient Metacresol"/>
+      <description value="Metacresol"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ClinicalUseDefinition"/>
+        <valueString value="RegulatedAuthorization"/>
       </extension>
       <reference>
-        <reference value="ClinicalUseDefinition/c453790d-bba6-400e-ad52-ee5c9c600c60"/>
+        <reference value="RegulatedAuthorization/c7a90c8a-0138-41f6-a646-c00caf79d71f"/>
       </reference>
-      <name value="interaction-bezafibrat"/>
-      <description value="interaction - Bezafibrat"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"/>
+      <name value="Regulated Authorization for karvea 75 mg tablet"/>
+      <description value="Regulated Authorization for karvea 75 mg tablet"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/ca306644-074f-40e7-b5dd-bb9206506591"/>
+        <reference value="Organization/ca5f0350-89ca-43c6-a7ac-4b77d5238a96"/>
       </reference>
-      <name value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
-      <description value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
+      <name value="Sanofi-Aventis Deutschland GmbH as Manufacturer API"/>
+      <description value="Sanofi-Aventis Deutschland GmbH as Manufacturer API"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
+        <valueString value="AdministrableProductDefinition"/>
       </extension>
       <reference>
-        <reference value="Ingredient/cdacc662-be2e-4a6a-8610-457a6281a5eb"/>
+        <reference value="AdministrableProductDefinition/cbe8942d-9ec9-4025-99fe-573bdf1a55b6"/>
       </reference>
-      <name value="Ingredient-excipient Sodium hydroxide"/>
-      <description value="Sodium hydroxide"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/cdefc5fb-27e7-4443-a970-1ae064aacdc1"/>
-      </reference>
-      <name value="ePI document Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet"/>
-      <description value="Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet ePI document"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
+      <name value="Administrable product acmedrug"/>
+      <description value="acmedrug"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Composition"/>
       </extension>
       <reference>
-        <reference value="Composition/ce04c358-6777-4aec-b0c1-e8a15b512ddb"/>
+        <reference value="Composition/ce8a7816-ded4-42eb-a027-21cd1c073d7c"/>
       </reference>
-      <name value="Composition for acmedrug Package Leaflet"/>
-      <description value="Composition for acmedrug Package Leaflet"/>
+      <name value="Composition for Humalog Package Leaflet"/>
+      <description value="Composition for Humalog Package Leaflet"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
     </resource>
@@ -1897,48 +1921,12 @@
         <valueString value="RegulatedAuthorization"/>
       </extension>
       <reference>
-        <reference value="RegulatedAuthorization/d0800f9f-f88c-484c-98d2-6c1c35565f53"/>
+        <reference value="RegulatedAuthorization/cfaef28d-506d-410d-b689-8796b7a4d8c3"/>
       </reference>
-      <name value="Regulated Authorization for karvea 75 mg tablet"/>
-      <description value="Regulated Authorization for karvea 75 mg tablet"/>
+      <name value="Regulated Authorization for Humalog "/>
+      <description value="Regulated Authorization for Humalog "/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/d123eae5-741f-4a32-8e1e-e4db5bc0a410"/>
-      </reference>
-      <name value="Ingredient-excipient Glycerol"/>
-      <description value="Glycerol"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/d32ac7bd-90ee-49c4-a1da-667c3641b848"/>
-      </reference>
-      <name value="Ingredient-active Lixisenatide"/>
-      <description value="Lixisenatide"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/d6a60db8-09ce-4c30-9656-2f83aa7b77de"/>
-      </reference>
-      <name value="Ingredient-excipient Croscarmellose sodium"/>
-      <description value="Croscarmellose sodium"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1957,22 +1945,10 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/d80ecd29-5fbb-4635-987c-c18b98d049d9"/>
+        <reference value="Ingredient/d9f2414a-ce0e-4878-88c3-1fabd45e0834"/>
       </reference>
-      <name value="Ingredient-excipient Carnauba wax"/>
-      <description value="Carnauba wax"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/d9d60abc-13a6-4f5a-8d6b-39783da8f343"/>
-      </reference>
-      <name value="Ingredient-excipient Metacresol"/>
-      <description value="Metacresol"/>
+      <name value="Ingredient-excipient Microcrystalline cellulose"/>
+      <description value="Microcrystalline cellulose"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -1990,13 +1966,25 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/dcccd62b-c857-4504-ab19-7c8928d4a7a7"/>
+      </reference>
+      <name value="Medicinal Product Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"/>
+      <description value="EU/1/97/049/001 Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/daa40ae6-d2d2-407b-81ee-cdb2f2fb4b1b"/>
+        <reference value="Ingredient/df4d6d30-9f8f-4ec1-aa83-b2bee102f0c4"/>
       </reference>
-      <name value="Ingredient-active Insulin Lispro"/>
-      <description value="Insulin Lispro"/>
+      <name value="Ingredient-active Lixisenatide"/>
+      <description value="Lixisenatide"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -2005,12 +1993,24 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/e2854a87-1943-44f9-8618-b455d5ab8757"/>
+        <reference value="Ingredient/e5933d70-dc88-47f4-b90f-b51a0cef1e9a"/>
       </reference>
-      <name value="Ingredient-excipient Water for injections"/>
-      <description value="Water for injections"/>
+      <name value="Ingredient-active Insulin Lispro"/>
+      <description value="Insulin Lispro"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SubstanceDefinition"/>
+      </extension>
+      <reference>
+        <reference value="SubstanceDefinition/e5b4f5d5-d1ab-488c-9498-2dc1af17ca7e"/>
+      </reference>
+      <name value="substance-acmesub"/>
+      <description value="acmesub"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2038,18 +2038,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="SubstanceDefinition"/>
-      </extension>
-      <reference>
-        <reference value="SubstanceDefinition/e9fa9b75-c539-4286-ade3-814cd69ac2fb"/>
-      </reference>
-      <name value="substance-irbesartan"/>
-      <description value="irbesartan"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="PackagedProductDefinition"/>
       </extension>
       <reference>
@@ -2062,37 +2050,25 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
+        <valueString value="PackagedProductDefinition"/>
       </extension>
       <reference>
-        <reference value="Ingredient/ec72d410-6b04-42e9-9a74-3024f7a117ba"/>
+        <reference value="PackagedProductDefinition/ec8309be-c4cd-44b3-a956-29fd290148a1"/>
       </reference>
-      <name value="Ingredient-excipient Metacresol"/>
-      <description value="Metacresol"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <name value="acme drug blister tabs"/>
+      <description value="acme drug blister tabs"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
-        <reference value="Ingredient/ee1755ea-a4ce-4e86-a075-c13ebe42b4d3"/>
+        <reference value="Ingredient/ed74b2d2-91bc-4646-b5a8-7cffebebb8d8"/>
       </reference>
-      <name value="Ingredient-excipient Lactose Monohydrate"/>
-      <description value="Lactose Monohydrate"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
-      </extension>
-      <reference>
-        <reference value="Ingredient/ee6096d8-b5c0-4b15-95ca-4d704c6842eb"/>
-      </reference>
-      <name value="Ingredient-excipient Hydrochloric acid"/>
-      <description value="Hydrochloric acid"/>
+      <name value="Ingredient-excipient Water for injections"/>
+      <description value="Water for injections"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -2110,15 +2086,15 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="RegulatedAuthorization"/>
+        <valueString value="Composition"/>
       </extension>
       <reference>
-        <reference value="RegulatedAuthorization/ef56e95b-7fd5-4d3b-a8d2-c858aaa0d22b"/>
+        <reference value="Composition/efbbb97c-53d4-4b83-abb0-8c781e59dbfb"/>
       </reference>
-      <name value="Regulated Authorization for acme drug"/>
-      <description value="Regulated Authorization for acme drug"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <name value="Composition for Karvea Package Leaflet"/>
+      <description value="Composition for Karvea Package Leaflet"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2130,6 +2106,18 @@
       <name value="epi-server"/>
       <description value="This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification."/>
       <isExample value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/f17fe898-2e45-449e-9f4a-65083e5b2ed8"/>
+      </reference>
+      <name value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
+      <description value="Sanofi-Aventis Groupe as Marketing authorisation holder"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2145,15 +2133,27 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
+        <valueString value="ManufacturedItemDefinition"/>
       </extension>
       <reference>
-        <reference value="Ingredient/f988df16-856b-4709-904a-b606c4797379"/>
+        <reference value="ManufacturedItemDefinition/f8205dea-e20c-484d-9536-7dd00afe0d44"/>
       </reference>
-      <name value="Ingredient-excipient Zinc chloride"/>
-      <description value="Zinc chloride"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <name value="Manufactured item karvea 75 mg tablet"/>
+      <description value="karvea 75 mg tablet"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/faa28e90-61d7-42d5-a5b0-e2c487946b24"/>
+      </reference>
+      <name value="Medicinal Product Karvea 75 mg tablet blister x28"/>
+      <description value="EU/1/97/049/001 Karvea 75 mg tablet blister x28"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2169,15 +2169,15 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Ingredient"/>
+        <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Ingredient/fd6a6a38-98d6-4cad-b69a-fdd8d35c7485"/>
+        <reference value="Organization/fe78f030-27a4-4a1c-a5c7-4ba1fedc4b2f"/>
       </reference>
-      <name value="Ingredient-excipient Sodium Hydroxide"/>
-      <description value="Sodium Hydroxide"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
-      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+      <name value="Eli Lilly and Company as Manufacturer API"/>
+      <description value="Eli Lilly and Company as Manufacturer API"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
