@@ -191,20 +191,25 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 </div>
 <h3 id="step-1-create-foundation-resources">Step 1: Create foundation resources</h3>
-<p>Create the Core ePI document by creating and then bundling these FHIR resources in the order described in section 7.</p>
+<p>Create the Core ePI document by creating and then bundling these FHIR resources in the order described below.</p>
+
+<figure>
+  <img style="padding-top:0;padding-bottom:0" src="step-0.png" alt="ePI Resource Relationships" />
+  <figcaption>Create Substance</figcaption>
+</figure>
 
 <p>NOTE:</p>
 <ul>
-  <li>National Profiles can be built using the Core FHIR ePI profile as is; or they can use a subset of these resources and relationships.</li>
+  <li>This model is meant as a demonstration. Refer to national or regional guidance for local rules about what resources are in or out of scope.</li>
 </ul>
 
 <h4 id="create-organization-resources">Create Organization resource(s)</h4>
-<p>Using the Core ePI Profile as a template, complete one Organization resource for each organization associated with the authorized product(s) in this ePI. The following are examples of the type of organization typically associated with the ePI: Market Authorization Holder; health authority responsible for regulating the ePI content; manufacture, test, analysis, packaging).</p>
+<p>Using the Core ePI Profile as a template, complete one Organization resource for each organization associated with the authorized product(s) in this ePI. The following are examples of the type of organization typically associated with ePIs: Market Authorization Holder; health authority responsible for regulating the ePI content; manufacture, test, analysis, packaging).</p>
 
 <p>Refer to the <a href="StructureDefinition-Organization-uv-epi.html">Organization profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step1.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-1.png" alt="Organization Relationships" />
   <figcaption>Create Organization</figcaption>
 </figure>
 
@@ -216,7 +221,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Refer to the <a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step2.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-2.png" alt="Substance Relationships" />
   <figcaption>Create Substance</figcaption>
 </figure>
 
@@ -232,20 +237,23 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>(add two examples, one for a product with no transformation (tablet) and one with transformation).</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step3.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-3.png" alt="Manufactured Item Relationships" />
   <figcaption>Create Manufactured Item</figcaption>
 </figure>
 
 <h4 id="create-ingredient-resources">Create Ingredient resource(s)</h4>
 <p>Using the Core ePI Profile as a template, complete one Ingredient resource for each active ingredient and each excipient that make up each manufactured item associated with the authorized product(s) in this ePI.</p>
 
-<p>Create a reference from the relevant Ingredient resources to the corresponding ManufacturedItemDefinition resource (e.g., reference the ingredients that make up the powder to the powder’s manufactured item, and reference the ingredients that make up the diluent to the diluent’s manufactured item). 
-Create a reference from the relevant Ingredient resources to the corresponding Organization resource (e.g., reference to the Organization that manufactures that ingredient).</p>
+<p>Create a reference from the relevant Ingredient resources to the corresponding ManufacturedItemDefinition resource (e.g., reference the ingredients that make up the powder to the powder’s manufactured item, and reference the ingredients that make up the diluent to the diluent’s manufactured item).</p>
+
+<p>Create a reference from the relevant Ingredient resources to the corresponding Organization resource (e.g., reference to the Organization that manufactures that ingredient).</p>
+
+<p>Create a reference from the relevant Ingredient resources to the corresponding Substance Definition resource (e.g., reference the active ingredient to the corresponding substance so there is a link to capture molecular structure, molecular formula, and molecular weight.).</p>
 
 <p>Refer to <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step4.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-4.png" alt="Ingredient Relationships" />
   <figcaption>Create Ingredient</figcaption>
 </figure>
 
@@ -302,7 +310,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>Refer to <a href="StructureDefinition-MedicinalProductDefinition-uv-epi.html">MedicinalProductDefinition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step5.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-5.png" alt="Medicinal Product Relationships" />
   <figcaption>Create Medicinal Product</figcaption>
 </figure>
 
@@ -320,7 +328,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>(add two examples, one for a product with no transformation (tablet) and one with transformation).</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step6.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-6.png" alt="Administrable Product Relationships" />
   <figcaption>Create Administrable Product</figcaption>
 </figure>
 
@@ -335,7 +343,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>Refer to <a href="StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step7.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-7.png" alt="Packaging Relationships" />
   <figcaption>Create Packaged Product</figcaption>
 </figure>
 
@@ -347,7 +355,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>Refer to <a href="StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html">ClinicalUseDefinition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step8-12.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-8-12.png" alt="Contraindication Relationships" />
   <figcaption>Create Clinical Use</figcaption>
 </figure>
 
@@ -359,7 +367,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>Refer to <a href="StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html">ClinicalUseDefinition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step8-12.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-8-12.png" alt="Indication Relationships" />
   <figcaption>Create Clinical Use - Indication</figcaption>
 </figure>
 
@@ -371,7 +379,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>Refer to <a href="StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html">ClinicalUseDefinition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step8-12.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-8-12.png" alt="Interaction Relationships" />
   <figcaption>Create Clinical Use - Interaction</figcaption>
 </figure>
 
@@ -383,7 +391,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>Refer to <a href="StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html">ClinicalUseDefinition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step8-12.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-8-12.png" alt="Undesirable Effect  Relationships" />
   <figcaption>Create Clinical Use - undesireable effect</figcaption>
 </figure>
 
@@ -395,7 +403,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>INSERT reference to the Profile page.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step8-12.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-8-12.png" alt="Warning Relationships" />
   <figcaption>Create Clinical Use - warning</figcaption>
 </figure>
 
@@ -414,7 +422,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 </ul>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step13.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-13.png" alt="Authorization Relationships" />
   <figcaption>Create Regulated Authorization</figcaption>
 </figure>
 
@@ -428,7 +436,7 @@ Create a reference from the relevant Ingredient resources to the corresponding O
 <p>Refer to <a href="http://build.fhir.org/binary.html">Binary Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step14.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-14.png" alt="Binary Relationships" />
   <figcaption>Create Binary</figcaption>
 </figure>
 
@@ -455,7 +463,7 @@ ePI documents are meant to be separate and shall not be combined into one large 
 <p>Refer to <a href="StructureDefinition-Composition-uv-epi.html">Composition Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step15.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-15.png" alt="Composition Relationships" />
   <figcaption>Create Composition</figcaption>
 </figure>
 
@@ -470,18 +478,12 @@ ePI documents are meant to be separate and shall not be combined into one large 
 <ul>
   <li>There is one bundle for each ePI document. E.g., one Bundle resource for each healthcare practitioner document, patient information document and their respective translations.</li>
   <li>As per the FHIR Document specification, there shall not be any loose resources; i.e., all resources contained in the Bundle must be referenced.</li>
-  <li>INSERT reference to the Profile page.</li>
-  <li>Step 3: Create a List of Bundles</li>
-  <li>Using the FHIR ePI Profile as a template, complete one List resource that includes a reference to the Bundle created in section 6.2.</li>
-  <li>INSERT reference to the Profile page.</li>
-  <li>INSERT another figure showing the List of Bundles for the various ePI documents</li>
-  <li>INSERT call out the options to list all bundles in the List vs just List the set ids for the bundles and all documents in the List vs separate Lists for documents and translations.</li>
 </ul>
 
 <p>Refer to <a href="StructureDefinition-Bundle-uv-epi.html">Bundle Profile</a> for detail.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step16.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-16.png" alt="Bundle Relationships" />
   <figcaption>Create Bundle </figcaption>
 </figure>
 
@@ -489,7 +491,7 @@ ePI documents are meant to be separate and shall not be combined into one large 
 <p>The List of ePIs is ued to keep track of all ePIs for a given medicinal product. E.g., the list will track the SmPC and all its versions; the Package Leaflet and all its versions.</p>
 
 <figure>
-  <img style="padding-top:0;padding-bottom:0" src="step17.png" alt="ePI Resource Relationship" />
+  <img style="padding-top:0;padding-bottom:0" src="step-17.png" alt="List Relationships" />
   <figcaption>Create List</figcaption>
 </figure>
 
@@ -518,7 +520,7 @@ ePI documents are meant to be separate and shall not be combined into one large 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/"></a>.  Package hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Mon, Nov 28, 2022 11:42+0000">2022-11-28</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/"></a>.  Package hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Mon, Nov 28, 2022 13:17+0000">2022-11-28</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
