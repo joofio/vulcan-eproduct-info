@@ -103,10 +103,14 @@
      fhir:Bundle.entry.resource <urn:uuid:e60575aa-e7b3-4461-a456-d310514f4041>
   ], [
      fhir:index 20;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:f7d8f2a0-27eb-4e37-8036-58f3d5aa6537" ];
+     fhir:Bundle.entry.resource <urn:uuid:f7d8f2a0-27eb-4e37-8036-58f3d5aa6537>
+  ], [
+     fhir:index 21;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:ac21a804-cafa-41ff-b644-a14c8003edeb" ];
      fhir:Bundle.entry.resource <urn:uuid:ac21a804-cafa-41ff-b644-a14c8003edeb>
   ], [
-     fhir:index 21;
+     fhir:index 22;
      fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:da33bd51-a726-4232-aaa0-4168b9bfe249" ];
      fhir:Bundle.entry.resource <urn:uuid:da33bd51-a726-4232-aaa0-4168b9bfe249>
   ] .
@@ -1390,6 +1394,45 @@
            fhir:Coding.code [ fhir:value "YL5FZ2Y5U1" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "METHOTREXATE" ]
+       ]
+     ]
+  ] .
+
+<urn:uuid:f7d8f2a0-27eb-4e37-8036-58f3d5aa6537> a fhir:ClinicalUseDefinition;
+  fhir:Resource.id [ fhir:value "f7d8f2a0-27eb-4e37-8036-58f3d5aa6537"];
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+     ]
+  ];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"f7d8f2a0-27eb-4e37-8036-58f3d5aa6537\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;f7d8f2a0-27eb-4e37-8036-58f3d5aa6537&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html\">ClinicalUseDefinition Interaction (ePI)</a></p></div><p><b>identifier</b>: id: JQ9EK2H6BG (use: OFFICIAL)</p><p><b>type</b>: interaction</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_800a51a2-d81d-49a4-a4eb-f2417d301837\">See above (MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837)</a></p><blockquote><p><b>interaction</b></p><h3>Interactants</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>GRAPEFRUIT JUICE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#JQ9EK2H6BG)</span></td></tr></table></blockquote></div>"
+  ];
+  fhir:ClinicalUseDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+     fhir:Identifier.value [ fhir:value "JQ9EK2H6BG" ]
+  ];
+  fhir:ClinicalUseDefinition.type [ fhir:value "interaction"];
+  fhir:ClinicalUseDefinition.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837" ]
+  ];
+  fhir:ClinicalUseDefinition.interaction [
+     fhir:ClinicalUseDefinition.interaction.interactant [
+       fhir:index 0;
+       fhir:ClinicalUseDefinition.interaction.interactant.itemCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+           fhir:Coding.code [ fhir:value "JQ9EK2H6BG" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "GRAPEFRUIT JUICE" ]
        ]
      ]
   ] .

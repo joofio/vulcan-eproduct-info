@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"];
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-28T11:42:39+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-28T13:17:59+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -3523,6 +3523,28 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ClinicalUseDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537>;
+         fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "interactiongrapefruitjuice" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Interaction - GRAPEFRUIT JUICE" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ]
+     ], [
+       fhir:index 160;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -3541,7 +3563,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 160;
+       fhir:index 161;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3563,7 +3585,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 161;
+       fhir:index 162;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3585,7 +3607,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 162;
+       fhir:index 163;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3607,7 +3629,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
        ]
      ], [
-       fhir:index 163;
+       fhir:index 164;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3629,7 +3651,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>
        ]
      ], [
-       fhir:index 164;
+       fhir:index 165;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3651,7 +3673,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 165;
+       fhir:index 166;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3673,7 +3695,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 166;
+       fhir:index 167;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3695,7 +3717,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
        ]
      ], [
-       fhir:index 167;
+       fhir:index 168;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -4392,6 +4414,8 @@
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/ef56e95b-7fd5-4d3b-a8d2-c858aaa0d22b> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/CapabilityStatement/epi-server> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/f988df16-856b-4709-904a-b606c4797379> a fhir:uv .
 
