@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"];
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-11-28T10:19:29+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-11-28T11:36:40+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -1320,11 +1320,11 @@
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/08a678db-eb75-46d0-8331-7b7c81a6fb6b>;
-         fhir:Reference.reference [ fhir:value "Ingredient/08a678db-eb75-46d0-8331-7b7c81a6fb6b" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/02c66837-4d05-425e-853d-e28c063a1ae3>;
+         fhir:Reference.reference [ fhir:value "Ingredient/02c66837-4d05-425e-853d-e28c063a1ae3" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Hypromellose" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hypromellose" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Sodium hydroxide" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sodium hydroxide" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -1339,25 +1339,47 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Composition" ]
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/0958e7b6-736c-41d4-9642-462466eb8090>;
-         fhir:Reference.reference [ fhir:value "Composition/0958e7b6-736c-41d4-9642-462466eb8090" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/03bd1911-aa03-439e-8bf7-a2e5b515e9be>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/03bd1911-aa03-439e-8bf7-a2e5b515e9be" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for acmedrug Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for acmedrug Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item Humalog 100 U/ml 5 pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humalog 100 U/ml 5 pre-filled pen" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
        fhir:index 70;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/0800df10-5b3b-4102-ace1-1e14b05f8112>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/0800df10-5b3b-4102-ace1-1e14b05f8112" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product acmedrug-man" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 acmedrug-man" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 71;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1379,205 +1401,37 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 71;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Bundle" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/0ac8a575-cb4c-4d06-a384-e2b4b624d699>;
-         fhir:Reference.reference [ fhir:value "Bundle/0ac8a575-cb4c-4d06-a384-e2b4b624d699" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for Karvea 75 mg Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for Karvea 75 mg Package Leaflet ePI document" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 2;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-         fhir:index 3;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
-         fhir:index 4;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
-         fhir:index 5;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 6;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 7;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 8;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
-         fhir:index 9;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
-         fhir:index 10;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
-         fhir:index 11;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
-         fhir:index 12;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
-         fhir:index 13;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
-       ]
-     ], [
        fhir:index 72;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0b01147e-1ee6-4009-936b-22ddded71f23>;
-         fhir:Reference.reference [ fhir:value "Ingredient/0b01147e-1ee6-4009-936b-22ddded71f23" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Water for injections" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Water for injections" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 73;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0c6c9337-797f-4d94-9edc-2181ac283783>;
-         fhir:Reference.reference [ fhir:value "Ingredient/0c6c9337-797f-4d94-9edc-2181ac283783" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Trometamol" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Trometamol" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 74;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Bundle" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/0fef8464-93ba-4a69-9d99-26e9fc1160fb>;
-         fhir:Reference.reference [ fhir:value "Bundle/0fef8464-93ba-4a69-9d99-26e9fc1160fb" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 2;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
-         fhir:index 3;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-         fhir:index 4;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
-         fhir:index 5;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
-         fhir:index 6;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
-         fhir:index 7;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 8;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 9;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 75;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/108c814e-54b8-4408-9066-8a199bb731e4>;
-         fhir:Reference.reference [ fhir:value "Ingredient/108c814e-54b8-4408-9066-8a199bb731e4" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Silicon dioxide" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Silicon dioxide" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 76;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/11cc94b2-aad1-4e35-868a-55514d7ed9c9>;
-         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/11cc94b2-aad1-4e35-868a-55514d7ed9c9" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/0a32589b-d8c9-4bd3-9b08-824a3648e006>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/0a32589b-d8c9-4bd3-9b08-824a3648e006" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "acme drug blister tabs" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acme drug blister tabs" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 73;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/0adafec9-9dc7-40e1-8be9-5b4a4d8af4dd>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/0adafec9-9dc7-40e1-8be9-5b4a4d8af4dd" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Karvea 75 mg tablet blister x28 tablets" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Karvea 75 mg tablet blister x28 tablets" ];
@@ -1591,7 +1445,139 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
+       fhir:index 74;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/0c8100d9-2901-4d2b-aaa6-0e9c6f0079d8>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/0c8100d9-2901-4d2b-aaa6-0e9c6f0079d8" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 75;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/0d92a800-adf6-4961-b450-5f36e9690054>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/0d92a800-adf6-4961-b450-5f36e9690054" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 76;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0e658957-cc58-4076-a827-776d6677b87f>;
+         fhir:Reference.reference [ fhir:value "Ingredient/0e658957-cc58-4076-a827-776d6677b87f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Microcrystalline cellulose" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Microcrystalline cellulose" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
        fhir:index 77;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0e7c742f-19c0-4394-bb1e-6618f697cc60>;
+         fhir:Reference.reference [ fhir:value "Ingredient/0e7c742f-19c0-4394-bb1e-6618f697cc60" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Macrogol 3000" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Macrogol 3000" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 78;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/13495019-60f5-4ea2-83e8-32cca6b85816>;
+         fhir:Reference.reference [ fhir:value "Organization/13495019-60f5-4ea2-83e8-32cca6b85816" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Eli Lilly and Company as Manufacturer API" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Eli Lilly and Company as Manufacturer API" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ]
+     ], [
+       fhir:index 79;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/145aa175-c24f-4f92-84ba-0af40120650b>;
+         fhir:Reference.reference [ fhir:value "Ingredient/145aa175-c24f-4f92-84ba-0af40120650b" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Titanium Dioxide" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Titanium Dioxide" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 80;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1613,7 +1599,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 78;
+       fhir:index 81;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1635,18 +1621,18 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 79;
+       fhir:index 82;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/2253beea-3b62-4bd6-b1ca-810b178a8c76>;
-         fhir:Reference.reference [ fhir:value "Ingredient/2253beea-3b62-4bd6-b1ca-810b178a8c76" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/206774a5-da86-4211-aa25-2e56d36c6083>;
+         fhir:Reference.reference [ fhir:value "Ingredient/206774a5-da86-4211-aa25-2e56d36c6083" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient acmedrug-ing3" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug-ing3" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Hypromellose" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hypromellose" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -1657,7 +1643,51 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 80;
+       fhir:index 83;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/25a5957a-ed23-44a7-b5bd-8dca58e6de78>;
+         fhir:Reference.reference [ fhir:value "Ingredient/25a5957a-ed23-44a7-b5bd-8dca58e6de78" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Zinc chloride" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Zinc chloride" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 84;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SubstanceDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/2897d5e8-eaa3-469f-86a5-d5d45a00004f>;
+         fhir:Reference.reference [ fhir:value "SubstanceDefinition/2897d5e8-eaa3-469f-86a5-d5d45a00004f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "substance-irbesartan" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "irbesartan" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 85;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1679,51 +1709,95 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 81;
+       fhir:index 86;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60>;
-         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/2c2f1842-84e4-4e18-b6d7-dd3264fb1150>;
+         fhir:Reference.reference [ fhir:value "Ingredient/2c2f1842-84e4-4e18-b6d7-dd3264fb1150" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Karvea 75 mg tablet blister x28" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Karvea 75 mg tablet blister x28" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Concentrated hydrochloric acid" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Concentrated hydrochloric acid" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 82;
+       fhir:index 87;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+         fhir:Extension.valueString [ fhir:value "Composition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/303c1ef5-3e72-4ce9-8c27-997fe07b14bd>;
-         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/303c1ef5-3e72-4ce9-8c27-997fe07b14bd" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/2fc7e6d1-f7e3-4223-acd2-f6232e1e6d54>;
+         fhir:Reference.reference [ fhir:value "Composition/2fc7e6d1-f7e3-4223-acd2-f6232e1e6d54" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for Suliqua Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for Suliqua Package Leaflet" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
        ]
      ], [
-       fhir:index 83;
+       fhir:index 88;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/31cfd78c-1e9a-4f4b-aa0d-afe63630ec88>;
+         fhir:Reference.reference [ fhir:value "Ingredient/31cfd78c-1e9a-4f4b-aa0d-afe63630ec88" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Glycerol" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Glycerol" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 89;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/31f41425-8f41-4b5d-bf36-ac83d2cfe7c6>;
+         fhir:Reference.reference [ fhir:value "Ingredient/31f41425-8f41-4b5d-bf36-ac83d2cfe7c6" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Silicon dioxide" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Silicon dioxide" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 90;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1745,18 +1819,18 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
-       fhir:index 84;
+       fhir:index 91;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/3241ef64-12d0-4948-8108-a8f65a214f38>;
-         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/3241ef64-12d0-4948-8108-a8f65a214f38" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/35399ca8-d5da-453e-b170-e5e6a2d48b67>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/35399ca8-d5da-453e-b170-e5e6a2d48b67" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for Humalog " ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for Humalog " ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for acme drug" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for acme drug" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
          fhir:index 0;
@@ -1767,73 +1841,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 85;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/32cbe673-db54-4e01-ad15-9ec5af4d4f8d>;
-         fhir:Reference.reference [ fhir:value "Ingredient/32cbe673-db54-4e01-ad15-9ec5af4d4f8d" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient acmedrug-ing2" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug-ing2" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 86;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/3599ec0f-5617-4122-8544-a3af708827c5>;
-         fhir:Reference.reference [ fhir:value "Organization/3599ec0f-5617-4122-8544-a3af708827c5" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Eli Lilly Nederland B.V. as Marketing authorisation holder" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Eli Lilly Nederland B.V. as Marketing authorisation holder" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ]
-     ], [
-       fhir:index 87;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "SubstanceDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/36f24df3-e646-4245-b8e0-9b39f8f683b0>;
-         fhir:Reference.reference [ fhir:value "SubstanceDefinition/36f24df3-e646-4245-b8e0-9b39f8f683b0" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "substance-acmesub" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmesub" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 88;
+       fhir:index 92;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1855,150 +1863,128 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 89;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/387ff913-0414-42e3-a775-afca9b607f28>;
-         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/387ff913-0414-42e3-a775-afca9b607f28" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item Humalog 100 U/ml 5 pre-filled pen" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humalog 100 U/ml 5 pre-filled pen" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 90;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/3d56b64b-cbf7-4c7e-9a4d-3d80302e6720>;
-         fhir:Reference.reference [ fhir:value "Ingredient/3d56b64b-cbf7-4c7e-9a4d-3d80302e6720" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Carnauba wax" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Carnauba wax" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 91;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/45e26190-08dc-48ef-97d7-a6d540e01a48>;
-         fhir:Reference.reference [ fhir:value "Ingredient/45e26190-08dc-48ef-97d7-a6d540e01a48" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Glycerol" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Glycerol" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 92;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/479a5c43-b020-4a05-a9db-f5a85a3e00c1>;
-         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/479a5c43-b020-4a05-a9db-f5a85a3e00c1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "acme drug blister tabs" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acme drug blister tabs" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
-     ], [
        fhir:index 93;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+         fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/4d2d647b-3992-47c3-9dc9-c54d11ca104f>;
-         fhir:Reference.reference [ fhir:value "Ingredient/4d2d647b-3992-47c3-9dc9-c54d11ca104f" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/384661f5-4fd7-4279-ac96-5342c961b499>;
+         fhir:Reference.reference [ fhir:value "Organization/384661f5-4fd7-4279-ac96-5342c961b499" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active acmedrug-ing1" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug-ing1" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sanofi-Aventis Groupe as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sanofi-Aventis Groupe as Marketing authorisation holder" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
        fhir:index 94;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/4de48799-ce2c-4865-9ab6-a2614b0534b0>;
-         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/4de48799-ce2c-4865-9ab6-a2614b0534b0" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/3b772d7a-88fc-4fb3-a838-137e003d1b6a>;
+         fhir:Reference.reference [ fhir:value "Ingredient/3b772d7a-88fc-4fb3-a838-137e003d1b6a" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for karvea 75 mg tablet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for karvea 75 mg tablet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active Insulin Lispro" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Insulin Lispro" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
        fhir:index 95;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/3c3cf920-92be-4506-b599-bb9d0bdcfc2b>;
+         fhir:Reference.reference [ fhir:value "Organization/3c3cf920-92be-4506-b599-bb9d0bdcfc2b" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "European Medicines Agency as Medicines Regulatory Authority" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "European Medicines Agency as Medicines Regulatory Authority" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ]
+     ], [
+       fhir:index 96;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/3dccb574-9202-4fbc-8a86-77b31b45372f>;
+         fhir:Reference.reference [ fhir:value "Organization/3dccb574-9202-4fbc-8a86-77b31b45372f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Lilly S.A. as Manufacturer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Lilly S.A. as Manufacturer" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ]
+     ], [
+       fhir:index 97;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ClinicalUseDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/3f59a272-23f3-4e78-a4eb-56ecdba0f770>;
+         fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/3f59a272-23f3-4e78-a4eb-56ecdba0f770" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "contraindication-hypersensitivityreaction" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "contraindication - Hypersensitivity reaction" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+       ]
+     ], [
+       fhir:index 98;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/4e0d8561-7c05-4f48-a2d2-1d25ae436f8d>;
-         fhir:Reference.reference [ fhir:value "Ingredient/4e0d8561-7c05-4f48-a2d2-1d25ae436f8d" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/49272e37-fca8-433b-97d9-be3f6446c78c>;
+         fhir:Reference.reference [ fhir:value "Ingredient/49272e37-fca8-433b-97d9-be3f6446c78c" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active irbesartan" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "irbesartan" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Metacresol" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Metacresol" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -2009,7 +1995,51 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 96;
+       fhir:index 99;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/49404199-a1cc-490d-aa45-78a56c4e8f4d>;
+         fhir:Reference.reference [ fhir:value "Organization/49404199-a1cc-490d-aa45-78a56c4e8f4d" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ACME industry as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME industry as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ]
+     ], [
+       fhir:index 100;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/4ce6b9e7-66b2-4462-a008-66cea2105b02>;
+         fhir:Reference.reference [ fhir:value "Composition/4ce6b9e7-66b2-4462-a008-66cea2105b02" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for Humalog Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for Humalog Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ]
+     ], [
+       fhir:index 101;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2031,116 +2061,6 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
        ]
      ], [
-       fhir:index 97;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/4f9c2c04-6651-419d-933e-fc01b0988afe>;
-         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/4f9c2c04-6651-419d-933e-fc01b0988afe" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for acme drug" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for acme drug" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
-       ]
-     ], [
-       fhir:index 98;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/5b5e860e-1563-46da-b528-ce1e36849c96>;
-         fhir:Reference.reference [ fhir:value "Organization/5b5e860e-1563-46da-b528-ce1e36849c96" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ACME industry as Marketing authorisation holder" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME industry as Marketing authorisation holder" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ]
-     ], [
-       fhir:index 99;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Composition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/6381a224-8d68-4416-af4b-babc79a846b1>;
-         fhir:Reference.reference [ fhir:value "Composition/6381a224-8d68-4416-af4b-babc79a846b1" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for Karvea Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for Karvea Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
-       ]
-     ], [
-       fhir:index 100;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/67d331ea-4b1b-4c43-801e-8e42c12b36bb>;
-         fhir:Reference.reference [ fhir:value "Organization/67d331ea-4b1b-4c43-801e-8e42c12b36bb" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Lilly S.A. as Manufacturer" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Lilly S.A. as Manufacturer" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
-       ]
-     ], [
-       fhir:index 101;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6ab9fca4-4497-4f7f-b6bd-a2010957ff03>;
-         fhir:Reference.reference [ fhir:value "Ingredient/6ab9fca4-4497-4f7f-b6bd-a2010957ff03" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Sodium Hydroxide" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sodium Hydroxide" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
        fhir:index 102;
        fhir:Element.extension [
          fhir:index 0;
@@ -2148,11 +2068,11 @@
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6d9b16e9-4823-4a7a-982a-1f4df119d19a>;
-         fhir:Reference.reference [ fhir:value "Ingredient/6d9b16e9-4823-4a7a-982a-1f4df119d19a" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/557565c9-d6b0-45b5-b30d-af0dc9b6a3c3>;
+         fhir:Reference.reference [ fhir:value "Ingredient/557565c9-d6b0-45b5-b30d-af0dc9b6a3c3" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active Insulin Lispro" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Insulin Lispro" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Lactose Monohydrate" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Lactose Monohydrate" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -2167,25 +2087,113 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/712497f3-fbc0-48b0-9e34-574972ce4580>;
-         fhir:Reference.reference [ fhir:value "Organization/712497f3-fbc0-48b0-9e34-574972ce4580" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/5e55623d-87fe-4ac8-872a-97a3be4c7094>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/5e55623d-87fe-4ac8-872a-97a3be4c7094" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sanofi-Aventis Groupe as Marketing authorisation holder" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sanofi-Aventis Groupe as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ]
      ], [
        fhir:index 104;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/604c4c60-9145-4219-84a7-8b1fb8565f9c>;
+         fhir:Reference.reference [ fhir:value "Composition/604c4c60-9145-4219-84a7-8b1fb8565f9c" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for Karvea Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for Karvea Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ]
+     ], [
+       fhir:index 105;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6643e34e-dd04-4bbd-9de5-8de2d6caa48d>;
+         fhir:Reference.reference [ fhir:value "Ingredient/6643e34e-dd04-4bbd-9de5-8de2d6caa48d" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active irbesartan" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "irbesartan" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 106;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6690053a-fecc-4fc2-a247-10399b22753f>;
+         fhir:Reference.reference [ fhir:value "Ingredient/6690053a-fecc-4fc2-a247-10399b22753f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Water for injections" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Water for injections" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 107;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6ea51df7-53c8-4a02-a1cc-9ae1fec859c8>;
+         fhir:Reference.reference [ fhir:value "Ingredient/6ea51df7-53c8-4a02-a1cc-9ae1fec859c8" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Carnauba wax" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Carnauba wax" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 108;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2207,51 +2215,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 105;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/76e569cc-51cf-4276-ab62-8921aa076616>;
-         fhir:Reference.reference [ fhir:value "Ingredient/76e569cc-51cf-4276-ab62-8921aa076616" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Magnesium stearate" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Magnesium stearate" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 106;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Composition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/7724125e-749c-4586-8da6-3a6d4e73c315>;
-         fhir:Reference.reference [ fhir:value "Composition/7724125e-749c-4586-8da6-3a6d4e73c315" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for Humalog Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for Humalog Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
-       ]
-     ], [
-       fhir:index 107;
+       fhir:index 109;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2273,7 +2237,51 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 108;
+       fhir:index 110;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/7a982640-cf19-4a7d-83dd-7ab5188e15c8>;
+         fhir:Reference.reference [ fhir:value "Ingredient/7a982640-cf19-4a7d-83dd-7ab5188e15c8" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Hydrochloric acid" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hydrochloric acid" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 111;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/7cca9d59-b5c3-429d-97c1-628aedf78f9f>;
+         fhir:Reference.reference [ fhir:value "Ingredient/7cca9d59-b5c3-429d-97c1-628aedf78f9f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Croscarmellose sodium" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Croscarmellose sodium" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 112;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2295,73 +2303,29 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 109;
+       fhir:index 113;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+         fhir:Extension.valueString [ fhir:value "SubstanceDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/82986f93-9d02-42b6-a801-23d62fcb3a52>;
-         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/82986f93-9d02-42b6-a801-23d62fcb3a52" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/82ef491b-ce4b-4f12-9f46-d8bc7da0afeb>;
+         fhir:Reference.reference [ fhir:value "SubstanceDefinition/82ef491b-ce4b-4f12-9f46-d8bc7da0afeb" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Administrable product acmedrug" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "substance-acmesub" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmesub" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ]
      ], [
-       fhir:index 110;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/835a07ad-61ff-4d4c-bb2a-04d024359332>;
-         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/835a07ad-61ff-4d4c-bb2a-04d024359332" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 111;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/83dff0dd-2150-4243-b878-02ac6d6c6478>;
-         fhir:Reference.reference [ fhir:value "Ingredient/83dff0dd-2150-4243-b878-02ac6d6c6478" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Titanium Dioxide" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Titanium Dioxide" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 112;
+       fhir:index 114;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2383,50 +2347,6 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
        ]
      ], [
-       fhir:index 113;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/84e88521-3b58-443e-aae0-5ada0547293a>;
-         fhir:Reference.reference [ fhir:value "Ingredient/84e88521-3b58-443e-aae0-5ada0547293a" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Lactose Monohydrate" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Lactose Monohydrate" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 114;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "SubstanceDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/92db919e-4060-4f92-bcd1-cf165f0dfa2d>;
-         fhir:Reference.reference [ fhir:value "SubstanceDefinition/92db919e-4060-4f92-bcd1-cf165f0dfa2d" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "substance-irbesartan" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "irbesartan" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
-       ]
-     ], [
        fhir:index 115;
        fhir:Element.extension [
          fhir:index 0;
@@ -2434,11 +2354,11 @@
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/9784a291-6f83-4c37-9b51-c40421a661a0>;
-         fhir:Reference.reference [ fhir:value "Organization/9784a291-6f83-4c37-9b51-c40421a661a0" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/8c88a2fb-e8cb-4e04-af62-b7b38d7f4560>;
+         fhir:Reference.reference [ fhir:value "Organization/8c88a2fb-e8cb-4e04-af62-b7b38d7f4560" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Eli Lilly and Company as Manufacturer API" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Eli Lilly and Company as Manufacturer API" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sanofi-Aventis Deutschland GmbH as Manufacturer API" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sanofi-Aventis Deutschland GmbH as Manufacturer API" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
          fhir:index 0;
@@ -2453,14 +2373,58 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/8d1ede1e-2dea-4090-9911-28614afbbe4d>;
+         fhir:Reference.reference [ fhir:value "Composition/8d1ede1e-2dea-4090-9911-28614afbbe4d" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for acmedrug Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for acmedrug Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ]
+     ], [
+       fhir:index 117;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/9496d90e-abed-4763-8699-f09ddd5f956f>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/9496d90e-abed-4763-8699-f09ddd5f956f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for Humalog " ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for Humalog " ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ]
+     ], [
+       fhir:index 118;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9b93fcf1-34f4-4976-878d-8da5403d6c22>;
-         fhir:Reference.reference [ fhir:value "Ingredient/9b93fcf1-34f4-4976-878d-8da5403d6c22" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9cb845e8-fa9d-4552-b4e9-cea43e7b1716>;
+         fhir:Reference.reference [ fhir:value "Ingredient/9cb845e8-fa9d-4552-b4e9-cea43e7b1716" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Metacresol" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Metacresol" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Water for injections" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Water for injections" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -2471,7 +2435,51 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 117;
+       fhir:index 119;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9d8a15b2-cfa2-40e3-a08d-c778752852cd>;
+         fhir:Reference.reference [ fhir:value "Ingredient/9d8a15b2-cfa2-40e3-a08d-c778752852cd" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Magnesium stearate" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Magnesium stearate" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 120;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9dd7a42a-fd76-4797-9bd2-b64b6ba3b12a>;
+         fhir:Reference.reference [ fhir:value "Ingredient/9dd7a42a-fd76-4797-9bd2-b64b6ba3b12a" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Trometamol" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Trometamol" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 121;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2493,7 +2501,51 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 118;
+       fhir:index 122;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/a751569d-13ff-495c-80c3-0ee91b1a36e6>;
+         fhir:Reference.reference [ fhir:value "Ingredient/a751569d-13ff-495c-80c3-0ee91b1a36e6" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Sodium Hydroxide" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sodium Hydroxide" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 123;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/a842129e-7b89-4082-b245-6a2466f85e73>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/a842129e-7b89-4082-b245-6a2466f85e73" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ]
+     ], [
+       fhir:index 124;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2515,7 +2567,73 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 119;
+       fhir:index 125;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/a8ecb6c6-a718-4880-b649-869bede50511>;
+         fhir:Reference.reference [ fhir:value "Bundle/a8ecb6c6-a718-4880-b649-869bede50511" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet ePI document" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 2;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 3;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 4;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+         fhir:index 5;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
+         fhir:index 6;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
+         fhir:index 7;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 8;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 9;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 10;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
+         fhir:index 11;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 12;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 126;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2537,18 +2655,106 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>
        ]
      ], [
-       fhir:index 120;
+       fhir:index 127;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/ae157154-5933-4408-9d70-a2b8aaac0f2f>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/ae157154-5933-4408-9d70-a2b8aaac0f2f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Administrable product acmedrug" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 128;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/af27560a-6ad5-43b5-8df0-21b13de10f7a>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/af27560a-6ad5-43b5-8df0-21b13de10f7a" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Karvea 75 mg tablet blister x28" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Karvea 75 mg tablet blister x28" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 129;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ClinicalUseDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/b0f4d667-bc1d-463b-87f3-81eb2c1ee6ce>;
+         fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/b0f4d667-bc1d-463b-87f3-81eb2c1ee6ce" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "interaction-bezafibrat" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "interaction - Bezafibrat" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ]
+     ], [
+       fhir:index 130;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/b1690558-c82c-4c3d-b918-98978c113f0d>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/b1690558-c82c-4c3d-b918-98978c113f0d" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "3 ml cartridge (glass) in a pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "3 ml cartridge (glass) in a pre-filled pen" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 131;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/acedb713-3a17-4c17-8283-ef55125dc59f>;
-         fhir:Reference.reference [ fhir:value "Ingredient/acedb713-3a17-4c17-8283-ef55125dc59f" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/b2e0c516-0aeb-4091-aaeb-f04186b32ec3>;
+         fhir:Reference.reference [ fhir:value "Ingredient/b2e0c516-0aeb-4091-aaeb-f04186b32ec3" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Macrogol 3000" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Macrogol 3000" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient acmedrug-ing2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug-ing2" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -2559,18 +2765,18 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 121;
+       fhir:index 132;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/ae76b89e-2c36-432e-84af-6ffe7096cb21>;
-         fhir:Reference.reference [ fhir:value "Ingredient/ae76b89e-2c36-432e-84af-6ffe7096cb21" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/bae53c28-c126-4886-be49-0c12db852e85>;
+         fhir:Reference.reference [ fhir:value "Ingredient/bae53c28-c126-4886-be49-0c12db852e85" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Croscarmellose sodium" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Croscarmellose sodium" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Methionine" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Methionine" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -2581,7 +2787,29 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 122;
+       fhir:index 133;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/bf57ee08-4e88-4b54-84c3-09c54bf672f2>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/bf57ee08-4e88-4b54-84c3-09c54bf672f2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Humalog Mix50 Insulin KwikPen, 3ml pre-fill" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 134;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2655,18 +2883,18 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
        ]
      ], [
-       fhir:index 123;
+       fhir:index 135;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c094c43d-68c3-48e6-9b09-98199814514a>;
-         fhir:Reference.reference [ fhir:value "Ingredient/c094c43d-68c3-48e6-9b09-98199814514a" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c4ea3e78-4d5b-41ad-84e8-e3181dd0a161>;
+         fhir:Reference.reference [ fhir:value "Ingredient/c4ea3e78-4d5b-41ad-84e8-e3181dd0a161" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Zinc Oxide" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Zinc Oxide" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active acmedrug-ing1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug-ing1" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -2677,7 +2905,139 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 124;
+       fhir:index 136;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/c50eef2b-2519-4e73-82e5-f1830332d29c>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/c50eef2b-2519-4e73-82e5-f1830332d29c" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item karvea 75 mg tablet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "karvea 75 mg tablet" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 137;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c65d829d-0142-45f0-8fc2-954f266b8f0f>;
+         fhir:Reference.reference [ fhir:value "Ingredient/c65d829d-0142-45f0-8fc2-954f266b8f0f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active Lixisenatide" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Lixisenatide" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 138;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c72c0b2e-b9bd-4512-a8a1-6160cf2ef072>;
+         fhir:Reference.reference [ fhir:value "Ingredient/c72c0b2e-b9bd-4512-a8a1-6160cf2ef072" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Glycerol 85%" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Glycerol 85%" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 139;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c9953c00-0a59-47ed-99fc-626bcac49c70>;
+         fhir:Reference.reference [ fhir:value "Ingredient/c9953c00-0a59-47ed-99fc-626bcac49c70" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active Insulin glargine" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Insulin glargine" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 140;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/cb740756-c762-43ae-8e7a-d296e4d447a7>;
+         fhir:Reference.reference [ fhir:value "Organization/cb740756-c762-43ae-8e7a-d296e4d447a7" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ]
+     ], [
+       fhir:index 141;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/cc81f083-40fb-4de3-8950-aeb3d4cf4606>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/cc81f083-40fb-4de3-8950-aeb3d4cf4606" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Administrable product Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 142;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2699,7 +3059,83 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 125;
+       fhir:index 143;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/cfb5470b-ccb4-4430-9ec2-5d07ce2f64a6>;
+         fhir:Reference.reference [ fhir:value "Organization/cfb5470b-ccb4-4430-9ec2-5d07ce2f64a6" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Eli Lilly Nederland B.V. as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Eli Lilly Nederland B.V. as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ]
+     ], [
+       fhir:index 144;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/d5e5bc01-bc34-49fb-aaf0-b4815c0a14df>;
+         fhir:Reference.reference [ fhir:value "Bundle/d5e5bc01-bc34-49fb-aaf0-b4815c0a14df" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 2;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 3;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 4;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
+         fhir:index 5;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 6;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 7;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 8;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 9;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 145;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2721,15 +3157,15 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 126;
+       fhir:index 146;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/d8a79128-2b4c-4019-b9a9-dd62e6829a56>;
-         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/d8a79128-2b4c-4019-b9a9-dd62e6829a56" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/d93b5a15-58f4-483a-9218-c5ddd7e0fb00>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/d93b5a15-58f4-483a-9218-c5ddd7e0fb00" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item acmedrugman" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrugman" ];
@@ -2743,7 +3179,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
-       fhir:index 127;
+       fhir:index 147;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2765,37 +3201,81 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ]
      ], [
-       fhir:index 128;
+       fhir:index 148;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/dcc5b6db-b516-4350-893a-feb6647894fb>;
-         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/dcc5b6db-b516-4350-893a-feb6647894fb" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/db00497d-d9de-478c-a0ca-aa3d605e83f1>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/db00497d-d9de-478c-a0ca-aa3d605e83f1" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product acmedrug-man" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 acmedrug-man" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for karvea 75 mg tablet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for karvea 75 mg tablet" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 129;
+       fhir:index 149;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/dcd39619-37ba-43b4-97f9-3219653315c4>;
+         fhir:Reference.reference [ fhir:value "Organization/dcd39619-37ba-43b4-97f9-3219653315c4" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sanofi-Aventis Groupe as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Sanofi-Aventis Groupe as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ]
+     ], [
+       fhir:index 150;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ClinicalUseDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/de27d445-8b4d-474b-8acf-cfb1107b0f74>;
+         fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/de27d445-8b4d-474b-8acf-cfb1107b0f74" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "indication-hypertension" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "indication - Hypertension" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+       ]
+     ], [
+       fhir:index 151;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/df2d0493-7403-43c9-9e49-3f705fbb8531>;
-         fhir:Reference.reference [ fhir:value "Bundle/df2d0493-7403-43c9-9e49-3f705fbb8531" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/de8368a6-158b-424f-a0f1-22c364851b7d>;
+         fhir:Reference.reference [ fhir:value "Bundle/de8368a6-158b-424f-a0f1-22c364851b7d" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for acmedrug- Package Leaflet" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for acmedrug- Package Leaflet ePI document" ];
@@ -2845,7 +3325,77 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 130;
+       fhir:index 152;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/e510b220-33d9-4886-807c-5215339145a0>;
+         fhir:Reference.reference [ fhir:value "Bundle/e510b220-33d9-4886-807c-5215339145a0" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for Karvea 75 mg Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for Karvea 75 mg Package Leaflet ePI document" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
+         fhir:index 2;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 3;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 4;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 5;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 6;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 7;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:index 8;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 9;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+         fhir:index 10;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
+         fhir:index 11;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
+         fhir:index 12;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
+         fhir:index 13;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+       ]
+     ], [
+       fhir:index 153;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2867,7 +3417,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
        ]
      ], [
-       fhir:index 131;
+       fhir:index 154;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2889,29 +3439,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
        ]
      ], [
-       fhir:index 132;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/e96096c7-1c07-4781-8954-de8fb99aa813>;
-         fhir:Reference.reference [ fhir:value "Ingredient/e96096c7-1c07-4781-8954-de8fb99aa813" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Microcrystalline cellulose" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Microcrystalline cellulose" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 133;
+       fhir:index 155;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2933,7 +3461,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 134;
+       fhir:index 156;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2955,7 +3483,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 135;
+       fhir:index 157;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2969,18 +3497,18 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification." ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 136;
+       fhir:index 158;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/f0ff2f51-65ab-4b6e-b35c-5b3fe08ace89>;
-         fhir:Reference.reference [ fhir:value "Ingredient/f0ff2f51-65ab-4b6e-b35c-5b3fe08ace89" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/f64c14b9-fe07-42d2-b7e9-dbf57d47e32f>;
+         fhir:Reference.reference [ fhir:value "Ingredient/f64c14b9-fe07-42d2-b7e9-dbf57d47e32f" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Hydrochloric acid" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hydrochloric acid" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Metacresol" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Metacresol" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
@@ -2991,29 +3519,29 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 137;
+       fhir:index 159;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/fadf3825-be85-48f8-99ce-7780be998236>;
-         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/fadf3825-be85-48f8-99ce-7780be998236" ]
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/fad4f151-c7af-4a72-a5ec-ca937a0f6a94>;
+         fhir:Reference.reference [ fhir:value "Ingredient/fad4f151-c7af-4a72-a5ec-ca937a0f6a94" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item karvea 75 mg tablet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "karvea 75 mg tablet" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient acmedrug-ing3" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "acmedrug-ing3" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 138;
+       fhir:index 160;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3035,7 +3563,29 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 139;
+       fhir:index 161;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/fd47943b-44c7-44a0-bf72-73b2f20e1b62>;
+         fhir:Reference.reference [ fhir:value "Ingredient/fd47943b-44c7-44a0-bf72-73b2f20e1b62" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Zinc Oxide" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Zinc Oxide" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 162;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3057,7 +3607,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
        ]
      ], [
-       fhir:index 140;
+       fhir:index 163;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3079,7 +3629,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>
        ]
      ], [
-       fhir:index 141;
+       fhir:index 164;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3101,7 +3651,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 142;
+       fhir:index 165;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3123,7 +3673,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 143;
+       fhir:index 166;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3145,7 +3695,7 @@
          fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
        ]
      ], [
-       fhir:index 144;
+       fhir:index 167;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3661,135 +4211,179 @@
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRsmswi> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/08a678db-eb75-46d0-8331-7b7c81a6fb6b> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/02c66837-4d05-425e-853d-e28c063a1ae3> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/0958e7b6-736c-41d4-9642-462466eb8090> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/03bd1911-aa03-439e-8bf7-a2e5b515e9be> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/0800df10-5b3b-4102-ace1-1e14b05f8112> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/0ac8a575-cb4c-4d06-a384-e2b4b624d699> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/0a32589b-d8c9-4bd3-9b08-824a3648e006> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0b01147e-1ee6-4009-936b-22ddded71f23> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/0adafec9-9dc7-40e1-8be9-5b4a4d8af4dd> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0c6c9337-797f-4d94-9edc-2181ac283783> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/0c8100d9-2901-4d2b-aaa6-0e9c6f0079d8> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/0fef8464-93ba-4a69-9d99-26e9fc1160fb> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/0d92a800-adf6-4961-b450-5f36e9690054> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/108c814e-54b8-4408-9066-8a199bb731e4> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0e658957-cc58-4076-a827-776d6677b87f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/11cc94b2-aad1-4e35-868a-55514d7ed9c9> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0e7c742f-19c0-4394-bb1e-6618f697cc60> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/13495019-60f5-4ea2-83e8-32cca6b85816> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/145aa175-c24f-4f92-84ba-0af40120650b> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/2253beea-3b62-4bd6-b1ca-810b178a8c76> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/206774a5-da86-4211-aa25-2e56d36c6083> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/25a5957a-ed23-44a7-b5bd-8dca58e6de78> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/2897d5e8-eaa3-469f-86a5-d5d45a00004f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/2c2f1842-84e4-4e18-b6d7-dd3264fb1150> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/303c1ef5-3e72-4ce9-8c27-997fe07b14bd> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/2fc7e6d1-f7e3-4223-acd2-f6232e1e6d54> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/31cfd78c-1e9a-4f4b-aa0d-afe63630ec88> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/31f41425-8f41-4b5d-bf36-ac83d2cfe7c6> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/3241ef64-12d0-4948-8108-a8f65a214f38> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/32cbe673-db54-4e01-ad15-9ec5af4d4f8d> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/3599ec0f-5617-4122-8544-a3af708827c5> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/36f24df3-e646-4245-b8e0-9b39f8f683b0> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/35399ca8-d5da-453e-b170-e5e6a2d48b67> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/387ff913-0414-42e3-a775-afca9b607f28> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/384661f5-4fd7-4279-ac96-5342c961b499> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/3d56b64b-cbf7-4c7e-9a4d-3d80302e6720> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/3b772d7a-88fc-4fb3-a838-137e003d1b6a> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/45e26190-08dc-48ef-97d7-a6d540e01a48> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/3c3cf920-92be-4506-b599-bb9d0bdcfc2b> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/479a5c43-b020-4a05-a9db-f5a85a3e00c1> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/3dccb574-9202-4fbc-8a86-77b31b45372f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/4d2d647b-3992-47c3-9dc9-c54d11ca104f> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/3f59a272-23f3-4e78-a4eb-56ecdba0f770> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/4de48799-ce2c-4865-9ab6-a2614b0534b0> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/49272e37-fca8-433b-97d9-be3f6446c78c> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/4e0d8561-7c05-4f48-a2d2-1d25ae436f8d> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/49404199-a1cc-490d-aa45-78a56c4e8f4d> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/4ce6b9e7-66b2-4462-a008-66cea2105b02> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/4e922ec1-a398-4a78-8381-3729422b7602> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/4f9c2c04-6651-419d-933e-fc01b0988afe> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/557565c9-d6b0-45b5-b30d-af0dc9b6a3c3> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/5b5e860e-1563-46da-b528-ce1e36849c96> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/5e55623d-87fe-4ac8-872a-97a3be4c7094> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/6381a224-8d68-4416-af4b-babc79a846b1> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/604c4c60-9145-4219-84a7-8b1fb8565f9c> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/67d331ea-4b1b-4c43-801e-8e42c12b36bb> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6643e34e-dd04-4bbd-9de5-8de2d6caa48d> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6ab9fca4-4497-4f7f-b6bd-a2010957ff03> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6690053a-fecc-4fc2-a247-10399b22753f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6d9b16e9-4823-4a7a-982a-1f4df119d19a> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/712497f3-fbc0-48b0-9e34-574972ce4580> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/6ea51df7-53c8-4a02-a1cc-9ae1fec859c8> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/745c01bc-936e-45ca-9880-57e97608f43e> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/76e569cc-51cf-4276-ab62-8921aa076616> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/7724125e-749c-4586-8da6-3a6d4e73c315> a fhir:uv .
-
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/7a982640-cf19-4a7d-83dd-7ab5188e15c8> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/7cca9d59-b5c3-429d-97c1-628aedf78f9f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/82986f93-9d02-42b6-a801-23d62fcb3a52> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/835a07ad-61ff-4d4c-bb2a-04d024359332> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/83dff0dd-2150-4243-b878-02ac6d6c6478> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/82ef491b-ce4b-4f12-9f46-d8bc7da0afeb> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/84e88521-3b58-443e-aae0-5ada0547293a> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/8c88a2fb-e8cb-4e04-af62-b7b38d7f4560> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/92db919e-4060-4f92-bcd1-cf165f0dfa2d> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/8d1ede1e-2dea-4090-9911-28614afbbe4d> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/9784a291-6f83-4c37-9b51-c40421a661a0> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/9496d90e-abed-4763-8699-f09ddd5f956f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9b93fcf1-34f4-4976-878d-8da5403d6c22> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9cb845e8-fa9d-4552-b4e9-cea43e7b1716> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9d8a15b2-cfa2-40e3-a08d-c778752852cd> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/9dd7a42a-fd76-4797-9bd2-b64b6ba3b12a> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/a4b7b60c-998f-4f93-89c7-860396af0fe3> a fhir:uv .
 
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/a751569d-13ff-495c-80c3-0ee91b1a36e6> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/a842129e-7b89-4082-b245-6a2466f85e73> a fhir:uv .
+
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/a8ecb6c6-a718-4880-b649-869bede50511> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/acedb713-3a17-4c17-8283-ef55125dc59f> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/ae157154-5933-4408-9d70-a2b8aaac0f2f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/ae76b89e-2c36-432e-84af-6ffe7096cb21> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/af27560a-6ad5-43b5-8df0-21b13de10f7a> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/b0f4d667-bc1d-463b-87f3-81eb2c1ee6ce> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/b1690558-c82c-4c3d-b918-98978c113f0d> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/b2e0c516-0aeb-4091-aaeb-f04186b32ec3> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/bae53c28-c126-4886-be49-0c12db852e85> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/bf57ee08-4e88-4b54-84c3-09c54bf672f2> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/bundlepackageleaflet75> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c094c43d-68c3-48e6-9b09-98199814514a> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c4ea3e78-4d5b-41ad-84e8-e3181dd0a161> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/c50eef2b-2519-4e73-82e5-f1830332d29c> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c65d829d-0142-45f0-8fc2-954f266b8f0f> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c72c0b2e-b9bd-4512-a8a1-6160cf2ef072> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c9953c00-0a59-47ed-99fc-626bcac49c70> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/cb740756-c762-43ae-8e7a-d296e4d447a7> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/cc81f083-40fb-4de3-8950-aeb3d4cf4606> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e> a fhir:uv .
 
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/cfb5470b-ccb4-4430-9ec2-5d07ce2f64a6> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/d5e5bc01-bc34-49fb-aaf0-b4815c0a14df> a fhir:uv .
+
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/d8a79128-2b4c-4019-b9a9-dd62e6829a56> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/d93b5a15-58f4-483a-9218-c5ddd7e0fb00> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/dcc5b6db-b516-4350-893a-feb6647894fb> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/db00497d-d9de-478c-a0ca-aa3d605e83f1> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/df2d0493-7403-43c9-9e49-3f705fbb8531> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/dcd39619-37ba-43b4-97f9-3219653315c4> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/de27d445-8b4d-474b-8acf-cfb1107b0f74> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/de8368a6-158b-424f-a0f1-22c364851b7d> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Bundle/e510b220-33d9-4886-807c-5215339145a0> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/e60575aa-e7b3-4461-a456-d310514f4041> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571> a fhir:uv .
-
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/e96096c7-1c07-4781-8954-de8fb99aa813> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d> a fhir:uv .
 
@@ -3797,11 +4391,13 @@
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/CapabilityStatement/epi-server> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/f0ff2f51-65ab-4b6e-b35c-5b3fe08ace89> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/f64c14b9-fe07-42d2-b7e9-dbf57d47e32f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/fadf3825-be85-48f8-99ce-7780be998236> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/fad4f151-c7af-4a72-a5ec-ca937a0f6a94> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/fbf58407-83d3-42db-be3d-506b2006d431> a fhir:uv .
+
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/fd47943b-44c7-44a0-bf72-73b2f20e1b62> a fhir:uv .
 
 <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/ii> a fhir:uv .
 
