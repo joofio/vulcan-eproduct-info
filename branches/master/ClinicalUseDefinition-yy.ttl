@@ -17,7 +17,7 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"yy\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;yy&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-indication-uv-epi.html\">ClinicalUseDefinition Indication (ePI)</a></p></div><p><b>identifier</b>: id: xx (use: OFFICIAL)</p><p><b>type</b>: indication</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-2e1419a6-7a34-46a9-bc8b-62a6adae3e60.html\">MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60</a></p><blockquote><p><b>indication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-mdr.html\">MedDRA</a>#10020772)</span></td></tr></table></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"yy\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;yy&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-indication-uv-epi.html\">ClinicalUseDefinition Indication (ePI)</a></p></div><p><b>identifier</b>: id: xx (use: OFFICIAL)</p><p><b>type</b>: indication</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-af27560a-6ad5-43b5-8df0-21b13de10f7a.html\">MedicinalProductDefinition/af27560a-6ad5-43b5-8df0-21b13de10f7a</a></p><blockquote><p><b>indication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-mdr.html\">MedDRA</a>#10020772)</span></td></tr></table></blockquote></div>"
   ];
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
@@ -28,8 +28,8 @@
   fhir:ClinicalUseDefinition.type [ fhir:value "indication"];
   fhir:ClinicalUseDefinition.subject [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60>;
-     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60" ]
+     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/af27560a-6ad5-43b5-8df0-21b13de10f7a>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/af27560a-6ad5-43b5-8df0-21b13de10f7a" ]
   ];
   fhir:ClinicalUseDefinition.indication [
      fhir:ClinicalUseDefinition.indication.diseaseSymptomProcedure [
@@ -44,7 +44,7 @@
      ]
   ] .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/2e1419a6-7a34-46a9-bc8b-62a6adae3e60> a fhir:uv .
+<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/af27560a-6ad5-43b5-8df0-21b13de10f7a> a fhir:uv .
 
 # - ontology header ------------------------------------------------------------
 
