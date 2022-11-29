@@ -126,18 +126,18 @@
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"e63f72b2-993f-48b1-b7cb-539b1ed71571\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;e63f72b2-993f-48b1-b7cb-539b1ed71571&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 01:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_d71bf884-90eb-47f9-81b7-fa81ecec7e75\">See above (Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75)</a></p><p><b>title</b>: TEST PURPOSES ONLY - cava (irbesartan) 75 mg tablets</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"e63f72b2-993f-48b1-b7cb-539b1ed71571\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;e63f72b2-993f-48b1-b7cb-539b1ed71571&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155538)</span></p><p><b>date</b>: 2022-02-16 01:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_d71bf884-90eb-47f9-81b7-fa81ecec7e75\">See above (Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75)</a></p><p><b>title</b>: TEST PURPOSES ONLY - cava (irbesartan) 75 mg tablets</p></div>"
   ];
   fhir:Composition.identifier [
      fhir:index 0;
-     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
      fhir:Identifier.value [ fhir:value "0d69fdcb-33cf-407f-8209-a6529856ab4f" ]
   ];
   fhir:Composition.status [ fhir:value "final"];
   fhir:Composition.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
        fhir:Coding.code [ fhir:value "100000155538" ]
      ];
      fhir:CodeableConcept.text [ fhir:value "Package Leaflet" ]
@@ -160,7 +160,7 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
          fhir:Coding.code [ fhir:value "100000155538" ]
        ];
        fhir:CodeableConcept.text [ fhir:value "B. PACKAGE LEAFLET" ]
@@ -182,7 +182,7 @@
      fhir:Composition.section.code [
        fhir:CodeableConcept.coding [
          fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
          fhir:Coding.code [ fhir:value "100000155538" ]
        ];
        fhir:CodeableConcept.text [ fhir:value "B. PACKAGE LEAFLET" ]
@@ -204,7 +204,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "Package leaflet: Information for the user" ]
@@ -219,7 +219,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "What is in this leaflet" ]
@@ -234,7 +234,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "1. What cava is and what it is used for" ]
@@ -249,7 +249,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "2. What you need to know before you take cava" ]
@@ -264,7 +264,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "3. How to take cava" ]
@@ -279,7 +279,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "4. Possible side effects" ]
@@ -294,7 +294,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "5. How to store cava" ]
@@ -309,7 +309,7 @@
        fhir:Composition.section.code [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
            fhir:Coding.code [ fhir:value "100000155538" ]
          ];
          fhir:CodeableConcept.text [ fhir:value "6. Contents of the pack and other information" ]
@@ -722,7 +722,7 @@
   fhir:ManufacturedItemDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi/#/" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi/#" ];
      fhir:Identifier.value [ fhir:value "EU/1/96/007/035" ]
   ];
   fhir:ManufacturedItemDefinition.status [ fhir:value "active"];
@@ -1299,7 +1299,7 @@
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi#" ];
      fhir:Identifier.value [ fhir:value "Psoriasis" ]
   ];
   fhir:ClinicalUseDefinition.type [ fhir:value "indication"];
@@ -1337,7 +1337,7 @@
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi#" ];
      fhir:Identifier.value [ fhir:value "Gastrointestinal disorders" ]
   ];
   fhir:ClinicalUseDefinition.type [ fhir:value "contraindication"];
@@ -1375,7 +1375,7 @@
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta" ];
      fhir:Identifier.value [ fhir:value "YL5FZ2Y5U1" ]
   ];
   fhir:ClinicalUseDefinition.type [ fhir:value "interaction"];
@@ -1414,7 +1414,7 @@
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta" ];
      fhir:Identifier.value [ fhir:value "JQ9EK2H6BG" ]
   ];
   fhir:ClinicalUseDefinition.type [ fhir:value "interaction"];
@@ -1453,7 +1453,7 @@
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi#" ];
      fhir:Identifier.value [ fhir:value "hypotension" ]
   ];
   fhir:ClinicalUseDefinition.type [ fhir:value "warning"];
@@ -1482,7 +1482,7 @@
   fhir:SubstanceDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta" ];
      fhir:Identifier.value [ fhir:value "J0E2756Z7N" ]
   ];
   fhir:SubstanceDefinition.version [ fhir:value "1"];
