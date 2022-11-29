@@ -1,9 +1,9 @@
 ﻿EpiIG : Validation Results
 =========================================
 
-err = 37, warn = 63, info = 2
+err = 12, warn = 63, info = 2
 IG Publisher Version: 1.2.19
-Generated Mon Nov 28 14:13:20 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot (canonical = http://hl7.org/fhir/uv/vulcan-eproduct-info)
+Generated Tue Nov 29 11:22:09 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot (canonical = http://hl7.org/fhir/uv/vulcan-eproduct-info)
  Build Errors : 1 / 0 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-2da7e0de-e567-4bd9-8211-6bbc72ccf649 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-373b9bf3-1fae-47a1-a7cd-230106def069 : 0 / 2 / 5
@@ -14,7 +14,7 @@ Generated Mon Nov 28 14:13:20 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Bundle-6da8dd5c-9783-42f7-879d-3f8251e2e639 : 0 / 10 / 66
  /github/workspace/fsh-generated/resources/Bundle-7545c8b4-5128-4425-8b92-1ae922259b1e : 0 / 6 / 103
  /github/workspace/fsh-generated/resources/Bundle-9ad134f5-dbb9-4756-8489-2ca70fdab5c1 : 0 / 6 / 89
- /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet75 : 0 / 22 / 99
+ /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet75 : 0 / 23 / 99
  /github/workspace/fsh-generated/resources/CapabilityStatement-epi-server : 11 / 0 / 1
  /github/workspace/fsh-generated/resources/ClinicalUseDefinition-4e922ec1-a398-4a78-8381-3729422b7602 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/ClinicalUseDefinition-5e371f8f-48f2-43a1-b8c4-279d1986891f : 0 / 0 / 2
@@ -37,8 +37,8 @@ Generated Mon Nov 28 14:13:20 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Composition-62c55a84-3f0c-46a7-9179-312a0e9f110f : 0 / 2 / 11
  /github/workspace/fsh-generated/resources/Composition-8fc84937-c7b4-45f1-a5c6-3ec19b5674d7 : 0 / 2 / 11
  /github/workspace/fsh-generated/resources/Composition-c58a2559-c16a-4388-b133-a2612a8ccb68 : 0 / 2 / 11
- /github/workspace/fsh-generated/resources/Composition-e63f72b2-993f-48b1-b7cb-539b1ed71571 : 0 / 0 / 12
- /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.vulcan-eproduct-info : 25 / 1 / 1
+ /github/workspace/fsh-generated/resources/Composition-e63f72b2-993f-48b1-b7cb-539b1ed71571 : 0 / 1 / 12
+ /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.vulcan-eproduct-info : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Ingredient-09c13040-8fd5-4818-972d-f01d4ee169b6 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-0b85af0d-bc40-4f9f-a522-4cba8d51f8a4 : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/Ingredient-10bc2401-23f1-4e47-b3d3-730e599a1e93 : 0 / 0 / 2
@@ -265,31 +265,6 @@ WARNING: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1
 == fsh-generated/resources/Composition-e63f72b2-993f-48b1-b7cb-539b1ed71571.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.vulcan-eproduct-info.json ==
 WARNING: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.resource[73].name: value should not start or finish with whitespace 'Regulated...Humalog '
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[17].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[18].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[19].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[20].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[21].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[22].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[23].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[24].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[25].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[26].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[27].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[28].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[29].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[30].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[31].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[32].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[33].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[34].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[35].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[36].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[37].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[38].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[39].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[40].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info: ImplementationGuide.definition.parameter[41].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
 == fsh-generated/resources/Ingredient-09c13040-8fd5-4818-972d-f01d4ee169b6.json ==
 == fsh-generated/resources/Ingredient-0b85af0d-bc40-4f9f-a522-4cba8d51f8a4.json ==
 WARNING: Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4: Ingredient.substance.code.concept.coding[0]: The display "Concentrated hydrochloric acid" is not a valid display for the code {http://fdasis.nlm.nih.gov}QTT17582CB - should be one of ['', 'ACIDUM HYDROCHLORICUM [WHO-IP LATIN]', 'ACIDUM HYDROCHLORICUM DILUTUM [WHO-IP LATIN]', 'ANHYDROUS HYDROCHLORIC ACID', 'BAUME HCL', 'DILUTE HYDROCHLORIC ACID [WHO-IP]', 'DILUTED HYDROCHLORIC ACID', 'E-507', 'ENPLATE PO 236', 'HYDROCHLORIC ACID', 'HYDROCHLORIC ACID [FCC]', 'HYDROCHLORIC ACID [HSDB]', 'HYDROCHLORIC ACID [IARC]', 'HYDROCHLORIC ACID [II]', 'HYDROCHLORIC ACID [INCI]', 'HYDROCHLORIC ACID [MART.]', 'HYDROCHLORIC ACID [MI]', 'HYDROCHLORIC ACID [VANDF]', 'HYDROCHLORIC ACID [WHO-DD]', 'HYDROCHLORIC ACID [WHO-IP]', 'HYDROCHLORIC ACID, DILUTED', 'HYDROCHLORIC ACID, DILUTED [II]', 'HYDROGEN CHLORIDE', 'HYDROGEN CHLORIDE [MI]', 'ICON ETCH', 'INS NO.507', 'INS-507', 'MURIATIC ACID', 'MURIATICUM ACIDUM', 'MURIATICUM ACIDUM [HPUS]', 'NSC-77365'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#QTT17582CB'
