@@ -5,27 +5,27 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b> a fhir:PackagedProductDefinition;
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b> a fhir:PackagedProductDefinition;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "2a1300ff-712f-4adf-9d97-68079e1ea81b"];
+  fhir:Resource.id [ fhir:value "2a1300ff-712f-4adf-9d97-68079e1ea81b"]; # 
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
      ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"2a1300ff-712f-4adf-9d97-68079e1ea81b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;2a1300ff-712f-4adf-9d97-68079e1ea81b&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/97/049/001 (use: OFFICIAL)</p><p><b>name</b>: Karvea 75 mg tablet blister x28 tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-53d36464-e1de-42c2-aa91-9cf2c7af7515.html\">MedicinalProductDefinition/53d36464-e1de-42c2-aa91-9cf2c7af7515</a></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#active)</span></p><p><b>statusDate</b>: 2015-02-07 01:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href=\"Organization-38676041-1bb2-43e9-9bf7-0b02de0e3b97.html\">Organization/38676041-1bb2-43e9-9bf7-0b02de0e3b97</a> &quot;Sanofi-Aventis Groupe&quot;</p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></td><td>28</td><td>PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></td></tr></table></div>"
-  ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"2a1300ff-712f-4adf-9d97-68079e1ea81b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;2a1300ff-712f-4adf-9d97-68079e1ea81b&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/97/049/001 (use: OFFICIAL)</p><p><b>name</b>: Karvea 75 mg tablet blister x28 tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-53d36464-e1de-42c2-aa91-9cf2c7af7515.html\">MedicinalProductDefinition/53d36464-e1de-42c2-aa91-9cf2c7af7515</a></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ([not stated]#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href=\"Organization-38676041-1bb2-43e9-9bf7-0b02de0e3b97.html\">Organization/38676041-1bb2-43e9-9bf7-0b02de0e3b97</a> &quot;Sanofi-Aventis Groupe&quot;</p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></td><td>28</td><td>PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></td></tr></table></div>"
+  ]; # 
   fhir:PackagedProductDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
      fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi" ];
      fhir:Identifier.value [ fhir:value "EU/1/97/049/001" ]
-  ];
-  fhir:PackagedProductDefinition.name [ fhir:value "Karvea 75 mg tablet blister x28 tablets"];
+  ]; # 
+  fhir:PackagedProductDefinition.name [ fhir:value "Karvea 75 mg tablet blister x28 tablets"]; # 
   fhir:PackagedProductDefinition.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
@@ -33,30 +33,30 @@
        fhir:Coding.code [ fhir:value "100000155527" ];
        fhir:Coding.display [ fhir:value "Chemical Medicinal Prodcut" ]
      ]
-  ];
+  ]; # 
   fhir:PackagedProductDefinition.packageFor [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/53d36464-e1de-42c2-aa91-9cf2c7af7515>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/53d36464-e1de-42c2-aa91-9cf2c7af7515>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/53d36464-e1de-42c2-aa91-9cf2c7af7515" ]
-  ];
+  ]; # 
   fhir:PackagedProductDefinition.status [
      fhir:CodeableConcept.coding [
        fhir:index 0;
        fhir:Coding.code [ fhir:value "active" ]
      ]
-  ];
-  fhir:PackagedProductDefinition.statusDate [ fhir:value "2015-02-07T13:28:17Z"^^xsd:dateTime];
+  ]; # 
+  fhir:PackagedProductDefinition.statusDate [ fhir:value "2015-02-07T13:28:17Z"^^xsd:dateTime]; # 
   fhir:PackagedProductDefinition.containedItemQuantity [
      fhir:index 0;
      fhir:Quantity.value [ fhir:value "75"^^xsd:decimal ];
      fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
      fhir:Quantity.code [ fhir:value "mg" ]
-  ];
+  ]; # 
   fhir:PackagedProductDefinition.manufacturer [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/38676041-1bb2-43e9-9bf7-0b02de0e3b97>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/38676041-1bb2-43e9-9bf7-0b02de0e3b97>;
      fhir:Reference.reference [ fhir:value "Organization/38676041-1bb2-43e9-9bf7-0b02de0e3b97" ]
-  ];
+  ]; # 
   fhir:PackagedProductDefinition.packaging [
      fhir:PackagedProductDefinition.packaging.identifier [
        fhir:index 0;
@@ -81,17 +81,17 @@
          fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
        ]
      ]
-  ] .
+  ] . # 
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/53d36464-e1de-42c2-aa91-9cf2c7af7515> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/53d36464-e1de-42c2-aa91-9cf2c7af7515> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/38676041-1bb2-43e9-9bf7-0b02de0e3b97> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/38676041-1bb2-43e9-9bf7-0b02de0e3b97> a fhir:uv .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b.ttl> .
 
 # -------------------------------------------------------------------------------------
 

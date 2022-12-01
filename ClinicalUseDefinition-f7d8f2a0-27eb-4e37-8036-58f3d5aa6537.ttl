@@ -5,32 +5,32 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537> a fhir:ClinicalUseDefinition;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537> a fhir:ClinicalUseDefinition;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "f7d8f2a0-27eb-4e37-8036-58f3d5aa6537"];
+  fhir:Resource.id [ fhir:value "f7d8f2a0-27eb-4e37-8036-58f3d5aa6537"]; # 
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
      ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"f7d8f2a0-27eb-4e37-8036-58f3d5aa6537\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;f7d8f2a0-27eb-4e37-8036-58f3d5aa6537&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html\">ClinicalUseDefinition Interaction (ePI)</a></p></div><p><b>identifier</b>: id: JQ9EK2H6BG (use: OFFICIAL)</p><p><b>type</b>: interaction</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-800a51a2-d81d-49a4-a4eb-f2417d301837.html\">MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837</a></p><blockquote><p><b>interaction</b></p><h3>Interactants</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>GRAPEFRUIT JUICE <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#JQ9EK2H6BG)</span></td></tr></table></blockquote></div>"
-  ];
+  ]; # 
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
      fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta" ];
      fhir:Identifier.value [ fhir:value "JQ9EK2H6BG" ]
-  ];
-  fhir:ClinicalUseDefinition.type [ fhir:value "interaction"];
+  ]; # 
+  fhir:ClinicalUseDefinition.type [ fhir:value "interaction"]; # 
   fhir:ClinicalUseDefinition.subject [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837" ]
-  ];
+  ]; # 
   fhir:ClinicalUseDefinition.interaction [
      fhir:ClinicalUseDefinition.interaction.interactant [
        fhir:index 0;
@@ -43,15 +43,15 @@
          fhir:CodeableConcept.text [ fhir:value "GRAPEFRUIT JUICE" ]
        ]
      ]
-  ] .
+  ] . # 
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537.ttl> .
 
 # -------------------------------------------------------------------------------------
 

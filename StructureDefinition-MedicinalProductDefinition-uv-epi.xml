@@ -71,17 +71,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="MedicinalProductDefinitionUvEpi"/>
   <title value="MedicinalProductDefinition (ePI)"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="Description of the packaged authorized medicinal product(s) associated to this ePI document."/>
@@ -691,7 +691,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsMedProductIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -851,7 +851,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/medProductType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/medProductType"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1068,7 +1068,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1106,7 +1106,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/routeOfAdministration"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/routeOfAdministration"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1178,7 +1178,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/legalStatusOfSupply"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/legalStatusOfSupply"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1216,7 +1216,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/additionalMonitoringIndicator"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/additionalMonitoringIndicator"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1296,7 +1296,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/pediatricUseIndicator"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pediatricUseIndicator"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1334,7 +1334,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/atcClassification"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -1571,7 +1571,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/marketingStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/marketingStatus"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.marketingStatus.dateRange">
@@ -1651,7 +1651,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -3688,7 +3688,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -3726,7 +3726,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -4171,7 +4171,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/operationType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/operationType"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -4360,7 +4360,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -4676,7 +4676,7 @@
       <min value="1"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsMedProductIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.identifier.value">
@@ -4687,7 +4687,7 @@
       <path value="MedicinalProductDefinition.type"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/medProductType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/medProductType"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.domain">
@@ -4720,14 +4720,14 @@
       <path value="MedicinalProductDefinition.combinedPharmaceuticalDoseForm"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.route">
       <path value="MedicinalProductDefinition.route"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/routeOfAdministration"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/routeOfAdministration"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.indication">
@@ -4738,28 +4738,28 @@
       <path value="MedicinalProductDefinition.legalStatusOfSupply"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/legalStatusOfSupply"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/legalStatusOfSupply"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.additionalMonitoringIndicator">
       <path value="MedicinalProductDefinition.additionalMonitoringIndicator"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/additionalMonitoringIndicator"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/additionalMonitoringIndicator"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.pediatricUseIndicator">
       <path value="MedicinalProductDefinition.pediatricUseIndicator"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/pediatricUseIndicator"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pediatricUseIndicator"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.classification">
       <path value="MedicinalProductDefinition.classification"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/atcClassification"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.marketingStatus">
@@ -4770,7 +4770,7 @@
       <path value="MedicinalProductDefinition.marketingStatus.status"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/marketingStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/marketingStatus"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.packagedMedicinalProduct">
@@ -4778,7 +4778,7 @@
       <short value="High level package type for this product. E.g., sample pack"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.name.productName">
@@ -4904,14 +4904,14 @@
       <path value="MedicinalProductDefinition.name.usage.country"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.name.usage.jurisdiction">
       <path value="MedicinalProductDefinition.name.usage.jurisdiction"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.crossReference.type">
@@ -4925,7 +4925,7 @@
       <path value="MedicinalProductDefinition.operation.type"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/operationType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/operationType"/>
       </binding>
     </element>
     <element id="MedicinalProductDefinition.operation.type.concept">
@@ -4936,7 +4936,7 @@
       <path value="MedicinalProductDefinition.operation.organization"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
   </differential>

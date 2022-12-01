@@ -5,30 +5,30 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/epiType> a fhir:ValueSet;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/epiType> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "epiType"];
+  fhir:Resource.id [ fhir:value "epiType"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>https://spor.ema.europa.eu/rmswi</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>100000155538</td><td>Package Leaflet</td></tr></table></li><li>Include these codes as defined in <a href=\"http://loinc.org\"><code>http://loinc.org</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"https://loinc.org/34390-5/\">34390-5</a></td><td>HUMAN OTC DRUG LABEL</td></tr><tr><td><a href=\"https://loinc.org/34391-3/\">34391-3</a></td><td>HUMAN PRESCRIPTION DRUG LABEL</td></tr></table></li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/epiType"];
-  fhir:ValueSet.version [ fhir:value "1.0.0-Ballot"];
-  fhir:ValueSet.name [ fhir:value "VsEpiType"];
-  fhir:ValueSet.title [ fhir:value "ePI document types"];
-  fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2022-11-29T11:19:39+00:00"^^xsd:dateTime];
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/epiType"]; # 
+  fhir:ValueSet.version [ fhir:value "1.0.0-Ballot"]; # 
+  fhir:ValueSet.name [ fhir:value "VsEpiType"]; # 
+  fhir:ValueSet.title [ fhir:value "ePI document types"]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:ValueSet.date [ fhir:value "2022-12-01T10:11:45+00:00"^^xsd:dateTime]; # 
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/rcrim" ]
      ]
-  ];
-  fhir:ValueSet.description [ fhir:value "ePI document types"];
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "ePI document types"]; # 
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -37,8 +37,8 @@
        fhir:Coding.code [ fhir:value "001" ];
        fhir:Coding.display [ fhir:value "World" ]
      ]
-  ];
-  fhir:ValueSet.copyright [ fhir:value "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"];
+  ]; # 
+  fhir:ValueSet.copyright [ fhir:value "This material contains content from LOINC (http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc"]; # 
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
@@ -61,13 +61,13 @@
          fhir:ValueSet.compose.include.concept.display [ fhir:value "HUMAN PRESCRIPTION DRUG LABEL" ]
        ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/epiType.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/epiType.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/ValueSet/epiType.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ValueSet/epiType.ttl> .
 
 # -------------------------------------------------------------------------------------
 

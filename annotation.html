@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.UV.VULCAN-EPRODUCT-INFO\Semantic Annotation - FHIR v5.0.0-ballot</title>
+    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Semantic Annotation - FHIR v5.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -166,7 +166,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide - Local Development build (v1.0.0-Ballot). See the <a href="http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide - Local Development build (v1.0.0-Ballot). See the <a href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Semantic Annotation</h2>
   
 
@@ -250,9 +250,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 &lt;/div&gt;
 </code></pre></div></div>
 
-<h3 id="1-focusing-section">1.	Focusing Section</h3>
+<h3 id="focusing-section">Focusing Section</h3>
 
-<h4 id="11-introduction-to-focusing">1.1	Introduction to Focusing</h4>
+<h4 id="introduction-to-focusing">Introduction to Focusing</h4>
 
 <p>What is focusing?
 Focusing allows the user to tag an attribute to a section of text. The section can be defined at the paragraph or bullet level. Multiple attributes can be tagged to the same section of text; however, all attributes must be applicable e.g., Attribute X and Attribute Y, rather than Attribute X or Attribute Y.  So, for example, you can have Adult and Female, but you cannot have Adult or Female. 
@@ -261,21 +261,21 @@ Note: Within a given attribute, you can have multiple values (e.g., the text cou
 <p>Why is focusing useful/important?
 Engagement of patients in their own health can only be achieved with access to actionable, understandable, relevant, reliable, and evidence-based information that meets their specific needs, health context, and literacy level. Therefore, focusing will be beneficial in improving the patient’s understanding of the product information as the focusing could be used to identify the information that is relevant/applicable to the patient.</p>
 
-<h4 id="12-focus-attributes">1.2	Focus Attributes</h4>
+<h4 id="focus-attributes">Focus Attributes</h4>
 
 <p>The following attributes are identified as the key focus points of the product information. Some attribute options may vary between countries (e.g., Age to be considered an Adult). For information on these, refer to the Country Appendixes.</p>
 
-<h4 id="13-text-with-no-attribute">1.3	Text with No Attribute</h4>
+<h4 id="text-with-no-attribute">Text with No Attribute</h4>
 
 <p>Any text that does not contain an Attribute should not have a Focus assigned.</p>
 
-<h4 id="14-assigning-a-focus-attribute">1.4	Assigning a Focus Attribute</h4>
+<h4 id="assigning-a-focus-attribute">Assigning a Focus Attribute</h4>
 
 <p>Assign an Attribute to a section that contains that Attribute e.g., assign an Attribute of INDICATION to a paragraph that contains information about that Indication. 
 Assign Multiple Attributes to a section if ALL Attributes are applicable to that section of text e.g., assign an Attribute of FEMALE and ADULT to a paragraph relating to Pregnancy. 
 There may be exceptions, such as assigning an Attribute of a Drug Class, rather than the individual medicines within that Drug Class e.g., assign an Attribute of Selective Serotonin Re-uptake Inhibitors (SSRI) as a Drug Class, rather than every SSRI within that Drug Class, where every medicine within that Drug Class is Contraindicated.</p>
 
-<h5 id="141-examples">1.4.1	Examples</h5>
+<h5 id="examples">Examples</h5>
 
 <p>**Multiple Values within One Attribute, and Multiple Attributes **</p>
 
@@ -420,14 +420,14 @@ There may be exceptions, such as assigning an Attribute of a Drug Class, rather 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/"></a>.  Package hl7.fhir.uv.vulcan-eproduct-info#1.0.0-Ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Tue, Nov 29, 2022 11:19+0000">2022-11-29</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-Ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-ballot</a>. Generated <span title="Thu, Dec 1, 2022 10:11+0000">2022-12-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
-                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/vulcan-eproduct-info/history.html">Version History</a> |
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Version History</a> |
                  <a style="color: #81BEF7" rel="license" href="http://build.fhir.org/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
                  <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>

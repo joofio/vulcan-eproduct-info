@@ -1,5 +1,5 @@
 {
-  "package": "hl7.fhir.uv.vulcan-eproduct-info",
+  "package": "hl7.fhir.uv.emedicinal-product-info",
   "version": "1.0.0-Ballot",
   "fhirVersion": "5.0.0-ballot",
   "jurisdiction": "001",
@@ -7,83 +7,83 @@
   "profiles": {
     "AdministrableProductDefinition": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
         "title": "AdministrableProductDefinition (ePI)"
       }
     ],
     "Bundle": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
         "title": "Bundle - ePI"
       }
     ],
     "ClinicalUseDefinition": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
         "title": "ClinicalUseDefinition Contraindication (ePI)"
       },
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
         "title": "ClinicalUseDefinition Indication (ePI)"
       },
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
         "title": "ClinicalUseDefinition Interaction (ePI)"
       },
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi",
         "title": "ClinicalUseDefinition Undesirable Effect (ePI)"
       },
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
         "title": "ClinicalUseDefinition Warning (ePI)"
       }
     ],
     "Composition": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
         "title": "Composition (ePI)"
       }
     ],
     "Ingredient": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
         "title": "Ingredient (ePI)"
       }
     ],
     "ManufacturedItemDefinition": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
         "title": "ManufacturedItemDefinition (ePI)"
       }
     ],
     "MedicinalProductDefinition": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
         "title": "MedicinalProductDefinition (ePI)"
       }
     ],
     "Organization": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
         "title": "Organization (ePI)"
       }
     ],
     "PackagedProductDefinition": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
         "title": "PackagedProductDefinition (ePI)"
       }
     ],
     "RegulatedAuthorization": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
         "title": "RegulatedAuthorization (ePI)"
       }
     ],
     "SubstanceDefinition": [
       {
-        "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi",
+        "url": "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
         "title": "SubstanceDefinition (ePI)"
       }
     ]

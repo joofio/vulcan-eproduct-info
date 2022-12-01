@@ -5,30 +5,30 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/CapabilityStatement/epi-server> a fhir:CapabilityStatement;
+<http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server> a fhir:CapabilityStatement;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "epi-server"];
+  fhir:Resource.id [ fhir:value "epi-server"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ePI FHIR Capability Statement (draft 1)</h2><div><p>This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td><div><p>A minumum functionality for ePI. Refer to the FHIR specification for further requirements, and the details in the computable version of this Capabiltiy Statement</p>\n</div></td></tr><tr><td>Transaction</td><td>y</td></tr><tr><td>System History</td><td>y</td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>AdministrableProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition\">http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Bundle</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Bundle\">http://hl7.org/fhir/StructureDefinition/Bundle</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>CapabilityStatement</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/CapabilityStatement\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ClinicalUseDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition\">http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Composition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Composition\">http://hl7.org/fhir/StructureDefinition/Composition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Ingredient</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Ingredient\">http://hl7.org/fhir/StructureDefinition/Ingredient</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ManufacturedItemDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition\">http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>MedicinalProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition\">http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Organization</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Organization\">http://hl7.org/fhir/StructureDefinition/Organization</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>PackagedProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition\">http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>RegulatedAuthorization</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization\">http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>SubstanceDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/SubstanceDefinition\">http://hl7.org/fhir/StructureDefinition/SubstanceDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi\">http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>"
-  ];
-  fhir:CapabilityStatement.url [ fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/CapabilityStatement/epi-server"];
-  fhir:CapabilityStatement.version [ fhir:value "1.0.0-Ballot"];
-  fhir:CapabilityStatement.name [ fhir:value "ePI FHIR Capability Statement (draft 1)"];
-  fhir:CapabilityStatement.status [ fhir:value "draft"];
-  fhir:CapabilityStatement.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CapabilityStatement.date [ fhir:value "2022-10-19"^^xsd:date];
-  fhir:CapabilityStatement.publisher [ fhir:value "Vulcan Accelerator on behalf of the HL7 PC WG"];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ePI FHIR Capability Statement (draft 1)</h2><div><p>This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td><div><p>A minumum functionality for ePI. Refer to the FHIR specification for further requirements, and the details in the computable version of this Capabiltiy Statement</p>\n</div></td></tr><tr><td>Transaction</td><td>y</td></tr><tr><td>System History</td><td>y</td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>AdministrableProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition\">http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Bundle</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Bundle\">http://hl7.org/fhir/StructureDefinition/Bundle</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>CapabilityStatement</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/CapabilityStatement\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ClinicalUseDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition\">http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Composition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Composition\">http://hl7.org/fhir/StructureDefinition/Composition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Ingredient</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Ingredient\">http://hl7.org/fhir/StructureDefinition/Ingredient</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ManufacturedItemDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition\">http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>MedicinalProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition\">http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Organization</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Organization\">http://hl7.org/fhir/StructureDefinition/Organization</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>PackagedProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition\">http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>RegulatedAuthorization</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization\">http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>SubstanceDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/SubstanceDefinition\">http://hl7.org/fhir/StructureDefinition/SubstanceDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>"
+  ]; # 
+  fhir:CapabilityStatement.url [ fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server"]; # 
+  fhir:CapabilityStatement.version [ fhir:value "1.0.0-Ballot"]; # 
+  fhir:CapabilityStatement.name [ fhir:value "ePI FHIR Capability Statement (draft 1)"]; # 
+  fhir:CapabilityStatement.status [ fhir:value "draft"]; # 
+  fhir:CapabilityStatement.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CapabilityStatement.date [ fhir:value "2022-10-19"^^xsd:date]; # 
+  fhir:CapabilityStatement.publisher [ fhir:value "Vulcan Accelerator on behalf of the HL7 PC WG"]; # 
   fhir:CapabilityStatement.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/rcrim" ]
      ]
-  ];
-  fhir:CapabilityStatement.description [ fhir:value "This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification."];
+  ]; # 
+  fhir:CapabilityStatement.description [ fhir:value "This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification."]; # 
   fhir:CapabilityStatement.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -37,9 +37,9 @@
        fhir:Coding.code [ fhir:value "001" ];
        fhir:Coding.display [ fhir:value "World" ]
      ]
-  ];
-  fhir:CapabilityStatement.kind [ fhir:value "requirements"];
-  fhir:CapabilityStatement.fhirVersion [ fhir:value "5.0.0-cibuild"];
+  ]; # 
+  fhir:CapabilityStatement.kind [ fhir:value "requirements"]; # 
+  fhir:CapabilityStatement.fhirVersion [ fhir:value "5.0.0-cibuild"]; # 
   fhir:CapabilityStatement.format [
      fhir:value "xml";
      fhir:index 0;
@@ -56,17 +56,17 @@
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
        fhir:Extension.valueCode [ fhir:value "SHALL" ]
      ]
-  ];
+  ]; # 
   fhir:CapabilityStatement.implementationGuide [
-     fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info";
+     fhir:value "http://build.fhir.org/ig/HL7/emedicinal-product-info/toc.html";
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ImplementationGuide/hl7.fhir.uv.vulcan-eproduct-info>;
+     fhir:link <http://build.fhir.org/ig/HL7/emedicinal-product-info/toc.html>;
      fhir:Element.extension [
        fhir:index 0;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
        fhir:Extension.valueCode [ fhir:value "SHOULD" ]
      ]
-  ];
+  ]; # 
   fhir:CapabilityStatement.rest [
      fhir:index 0;
      fhir:CapabilityStatement.rest.mode [ fhir:value "server" ];
@@ -83,9 +83,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -249,9 +249,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/Bundle>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -654,45 +654,45 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
            fhir:Extension.valueCode [ fhir:value "SHALL" ]
          ]
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
            fhir:Extension.valueCode [ fhir:value "SHALL" ]
          ]
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
          fhir:index 2;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
            fhir:Extension.valueCode [ fhir:value "SHALL" ]
          ]
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi";
          fhir:index 3;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
            fhir:Extension.valueCode [ fhir:value "SHALL" ]
          ]
        ], [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi";
          fhir:index 4;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -885,9 +885,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -1162,9 +1162,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/Ingredient>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -1331,9 +1331,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -1457,9 +1457,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -1662,9 +1662,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -2272,9 +2272,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -2471,9 +2471,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -2612,9 +2612,9 @@
          fhir:link <http://hl7.org/fhir/StructureDefinition/SubstanceDefinition>
        ];
        fhir:CapabilityStatement.rest.resource.supportedProfile [
-         fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi>;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>;
          fhir:Element.extension [
            fhir:index 0;
            fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
@@ -2896,13 +2896,13 @@
          fhir:link <http://hl7.org/fhir/OperationDefinition/medicinalproductdefinition-everything>
        ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/CapabilityStatement/epi-server.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/CapabilityStatement/epi-server.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/CapabilityStatement/epi-server.ttl> .
 
 # -------------------------------------------------------------------------------------
 

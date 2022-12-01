@@ -5,43 +5,43 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb> a fhir:ClinicalUseDefinition;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb> a fhir:ClinicalUseDefinition;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "ac21a804-cafa-41ff-b644-a14c8003edeb"];
+  fhir:Resource.id [ fhir:value "ac21a804-cafa-41ff-b644-a14c8003edeb"]; # 
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi";
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>
      ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"ac21a804-cafa-41ff-b644-a14c8003edeb\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;ac21a804-cafa-41ff-b644-a14c8003edeb&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-warning-uv-epi.html\">ClinicalUseDefinition Warning (ePI)</a></p></div><p><b>identifier</b>: id: hypotension (use: OFFICIAL)</p><p><b>type</b>: warning</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-800a51a2-d81d-49a4-a4eb-f2417d301837.html\">MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837</a></p><h3>Warnings</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td></tr><tr><td>*</td><td>Intravascular volume depletion: symptomatic hypotension, especially after the first dose, may occur in patients who are volume and/or sodium depleted by vigorous diuretic therapy, dietary salt restriction, diarrhoea or vomiting. Such conditions should be corrected before the administration of cava.</td></tr></table></div>"
-  ];
+  ]; # 
   fhir:ClinicalUseDefinition.identifier [
      fhir:index 0;
      fhir:Identifier.use [ fhir:value "official" ];
      fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi#" ];
      fhir:Identifier.value [ fhir:value "hypotension" ]
-  ];
-  fhir:ClinicalUseDefinition.type [ fhir:value "warning"];
+  ]; # 
+  fhir:ClinicalUseDefinition.type [ fhir:value "warning"]; # 
   fhir:ClinicalUseDefinition.subject [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837" ]
-  ];
+  ]; # 
   fhir:ClinicalUseDefinition.warning [
      fhir:ClinicalUseDefinition.warning.description [ fhir:value "Intravascular volume depletion: symptomatic hypotension, especially after the first dose, may occur in patients who are volume and/or sodium depleted by vigorous diuretic therapy, dietary salt restriction, diarrhoea or vomiting. Such conditions should be corrected before the administration of cava." ]
-  ] .
+  ] . # 
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb.ttl> .
 
 # -------------------------------------------------------------------------------------
 

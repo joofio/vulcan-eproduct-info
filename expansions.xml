@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="299bcd46-949b-4be1-8873-f2904cfe3dcc"/>
+  <id value="182556f1-1ca7-478c-b541-7e59ca823bcf"/>
   <meta>
-    <lastUpdated value="2022-11-29T11:19:39.729+00:00"/>
+    <lastUpdated value="2022-12-01T10:11:45.462+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsPropertySurfaceForm"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm"/>
     <resource>
       <ValueSet>
         <id value="VsPropertySurfaceForm"/>
@@ -38,18 +38,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsPropertySurfaceForm"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsPropertySurfaceForm"/>
         <title value="Surface form of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Surface form of the product"/>
@@ -61,8 +61,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a08f180e-ded8-44aa-8907-02056539cbbe"/>
-          <timestamp value="2022-11-29T11:20:30+00:00"/>
+          <identifier value="urn:uuid:16e3b470-5350-41a4-8eb1-eafb9843201f"/>
+          <timestamp value="2022-12-01T10:13:07+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -85,7 +85,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/regulatoryActivityType"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType"/>
     <resource>
       <ValueSet>
         <id value="regulatoryActivityType"/>
@@ -116,18 +116,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/regulatoryActivityType"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsRegulatoryActivityType"/>
         <title value="Regulatory Activity Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Regulatory Activity Type; e.g., MAA"/>
@@ -139,8 +139,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5ce20422-01d5-4e18-abac-0d8df80a5146"/>
-          <timestamp value="2022-11-29T11:20:31+00:00"/>
+          <identifier value="urn:uuid:264b5799-3bea-49c5-a50f-597b0eec1dbc"/>
+          <timestamp value="2022-12-01T10:13:10+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -163,7 +163,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/admProductIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems"/>
     <resource>
       <ValueSet>
         <id value="admProductIdSystems"/>
@@ -201,18 +201,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/admProductIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsAdmProductIdSystems"/>
         <title value="AdministrableProductDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="AdministrableProductDefinition Identifier systems (uri)"/>
@@ -224,8 +224,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:bb87509a-d991-4062-912b-3d1cbb7fc4fe"/>
-          <timestamp value="2022-11-29T11:20:35+00:00"/>
+          <identifier value="urn:uuid:93e3227a-2d77-4ac1-bc0d-d6698c09f93e"/>
+          <timestamp value="2022-12-01T10:13:14+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -254,7 +254,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/generalStatus"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
     <resource>
       <ValueSet>
         <id value="generalStatus"/>
@@ -285,18 +285,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/generalStatus"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsGeneralStatus"/>
         <title value="General Status used across ePI resources"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="General Status used across ePI resources"/>
@@ -308,8 +308,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4ca3aa05-3111-4385-8b77-625edcc74102"/>
-          <timestamp value="2022-11-29T11:20:49+00:00"/>
+          <identifier value="urn:uuid:2bc1270d-671a-40b3-a452-7384829c5902"/>
+          <timestamp value="2022-12-01T10:13:34+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -332,7 +332,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
     <resource>
       <ValueSet>
         <id value="organizationIdSystems"/>
@@ -363,18 +363,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsOrganizationIdSystems"/>
         <title value="Organization identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Organization Identifier systems (uri)"/>
@@ -386,8 +386,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ee417fee-d83e-43ff-ac38-8cda17473008"/>
-          <timestamp value="2022-11-29T11:20:52+00:00"/>
+          <identifier value="urn:uuid:9d73f616-0179-4ef2-97c3-a16e25a73521"/>
+          <timestamp value="2022-12-01T10:13:42+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -411,7 +411,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsMedProductIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
     <resource>
       <ValueSet>
         <id value="VsMedProductIdSystems"/>
@@ -442,18 +442,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsMedProductIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsMedProductIdSystems"/>
         <title value="MedicinalProductDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="MedicinalProductDefinition Identifier systems (uri)"/>
@@ -465,8 +465,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2d98d59a-7e83-464f-8189-48841e049054"/>
-          <timestamp value="2022-11-29T11:20:53+00:00"/>
+          <identifier value="urn:uuid:7ddde786-7f64-499b-a0ce-0f3efe3bf377"/>
+          <timestamp value="2022-12-01T10:13:42+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -490,7 +490,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/caseIdSystem"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
     <resource>
       <ValueSet>
         <id value="caseIdSystem"/>
@@ -521,18 +521,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/caseIdSystem"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsCaseIdSystem"/>
         <title value="Case System Identifiers"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Case System Identifiers"/>
@@ -544,8 +544,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f8e7c2d6-182c-401d-a561-6f1dac1c7c7d"/>
-          <timestamp value="2022-11-29T11:20:53+00:00"/>
+          <identifier value="urn:uuid:058deda0-008d-4c0b-9c15-b64d64236386"/>
+          <timestamp value="2022-12-01T10:13:42+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -568,7 +568,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyScore"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore"/>
     <resource>
       <ValueSet>
         <id value="propertyScore"/>
@@ -599,18 +599,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyScore"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsPropertyScore"/>
         <title value="Score on the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Score on the product"/>
@@ -622,8 +622,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:12ad7d93-34af-4154-bdc9-9a2e7a38ffbe"/>
-          <timestamp value="2022-11-29T11:20:53+00:00"/>
+          <identifier value="urn:uuid:19836e7c-c976-4c5f-98fd-98e476a53f6c"/>
+          <timestamp value="2022-12-01T10:13:42+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -646,7 +646,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
     <resource>
       <ValueSet>
         <id value="country"/>
@@ -4164,18 +4164,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsCountry"/>
         <title value="ISO Country two letter code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="ISO Country two letter code"/>
@@ -4187,8 +4187,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:58ccccc1-7523-419d-ba0e-d4b59c57d1c4"/>
-          <timestamp value="2022-11-29T11:20:53+00:00"/>
+          <identifier value="urn:uuid:f06f8968-4f89-4e07-a31a-67acf0812600"/>
+          <timestamp value="2022-12-01T10:13:42+00:00"/>
           <total value="498"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6705,7 +6705,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/dataCarrierIdSystem"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
     <resource>
       <ValueSet>
         <id value="dataCarrierIdSystem"/>
@@ -6736,18 +6736,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/dataCarrierIdSystem"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsDataCarrierIdSystem"/>
         <title value="Data Carrier Identifiers"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Listing of identifiers for Data Carriers"/>
@@ -6759,8 +6759,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:38f28268-13ec-4021-a1ff-6ec686b4382b"/>
-          <timestamp value="2022-11-29T11:20:53+00:00"/>
+          <identifier value="urn:uuid:abb18723-2af8-4052-8508-898f0936e8fc"/>
+          <timestamp value="2022-12-01T10:13:43+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6783,7 +6783,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packagedProductIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
     <resource>
       <ValueSet>
         <id value="packagedProductIdSystems"/>
@@ -6814,18 +6814,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packagedProductIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsPackagedProductIdSystems"/>
         <title value="PackagedProductDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="PackagedProductDefinition Identifier systems (uri)"/>
@@ -6837,8 +6837,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:23daa055-eb7f-4916-9196-e17a60af0c88"/>
-          <timestamp value="2022-11-29T11:20:54+00:00"/>
+          <identifier value="urn:uuid:875d1728-8a25-4716-822e-5ce69624da4e"/>
+          <timestamp value="2022-12-01T10:13:45+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6862,7 +6862,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/productConfidentialityIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems"/>
     <resource>
       <ValueSet>
         <id value="productConfidentialityIdSystems"/>
@@ -6893,18 +6893,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/productConfidentialityIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsProductConfidentialityIdSystems"/>
         <title value="Product Confidentiality"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Product Confidentiality"/>
@@ -6916,8 +6916,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:260dc141-7e21-4427-a6ea-98f767f5db31"/>
-          <timestamp value="2022-11-29T11:20:55+00:00"/>
+          <identifier value="urn:uuid:1eb90bef-91bb-4332-a857-3637510faeaa"/>
+          <timestamp value="2022-12-01T10:13:45+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6941,7 +6941,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyFlavor"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor"/>
     <resource>
       <ValueSet>
         <id value="propertyFlavor"/>
@@ -6972,18 +6972,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyFlavor"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsPropertyFlavor"/>
         <title value="Flavor of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Flavor of the product"/>
@@ -6995,8 +6995,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:beda2840-4d30-443d-85f5-9b7f53b2839e"/>
-          <timestamp value="2022-11-29T11:20:57+00:00"/>
+          <identifier value="urn:uuid:3d79aa8b-18c2-4534-ae0a-ebd51847b529"/>
+          <timestamp value="2022-12-01T10:13:52+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7019,7 +7019,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/roleClassIngredientEntity"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
     <resource>
       <ValueSet>
         <id value="roleClassIngredientEntity"/>
@@ -7050,18 +7050,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/roleClassIngredientEntity"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsRoleClassIngredientEntity"/>
         <title value="Ingredient Role; e.g., inactive, active base, active moiety"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Ingredient Role; e.g., inactive, active base, active moiety"/>
@@ -7073,8 +7073,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b3d4ded0-e925-4ff9-ab03-d38042d907af"/>
-          <timestamp value="2022-11-29T11:20:57+00:00"/>
+          <identifier value="urn:uuid:0a66e268-9fdd-4921-b853-2e89ce06d93f"/>
+          <timestamp value="2022-12-01T10:13:52+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7097,7 +7097,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/exampleUseCodesForList"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList"/>
     <resource>
       <ValueSet>
         <id value="exampleUseCodesForList"/>
@@ -7128,18 +7128,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/exampleUseCodesForList"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsExampleUseCodesForList"/>
         <title value="The topic of this list"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="The topic of this list"/>
@@ -7151,8 +7151,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:43ea722f-c86c-4ccc-ba9f-1c4fb4ab14cd"/>
-          <timestamp value="2022-11-29T11:20:57+00:00"/>
+          <identifier value="urn:uuid:e850c923-4f4c-429b-a833-64ab59a4fe9a"/>
+          <timestamp value="2022-12-01T10:13:52+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7176,7 +7176,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/manufacturedItemIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/manufacturedItemIdSystems"/>
     <resource>
       <ValueSet>
         <id value="manufacturedItemIdSystems"/>
@@ -7207,18 +7207,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/manufacturedItemIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/manufacturedItemIdSystems"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsManufacturedItemIdSystems"/>
         <title value="ManufacturedItemDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="ManufacturedItemDefinition Identifier systems (uri)"/>
@@ -7230,8 +7230,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:00d40303-78e2-4fe8-9483-bbe89f288ae8"/>
-          <timestamp value="2022-11-29T11:20:58+00:00"/>
+          <identifier value="urn:uuid:083b237c-5014-40c8-bd70-dfdfccb7964e"/>
+          <timestamp value="2022-12-01T10:13:53+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7255,7 +7255,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofPresentation"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation"/>
     <resource>
       <ValueSet>
         <id value="unitofPresentation"/>
@@ -7286,18 +7286,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofPresentation"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsUnitofPresentation"/>
         <title value="Units of Presentation"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Units of Presentation"/>
@@ -7309,8 +7309,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b35be2e4-2424-4adf-a25b-0ab66e6f37ca"/>
-          <timestamp value="2022-11-29T11:20:58+00:00"/>
+          <identifier value="urn:uuid:44ec991f-723a-414f-bcbf-5b20df3c973a"/>
+          <timestamp value="2022-12-01T10:13:53+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7333,7 +7333,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
     <resource>
       <ValueSet>
         <id value="RegulatedAuthorizationTypeIdSystems"/>
@@ -7364,18 +7364,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsRegulatedAuthorizationTypeIdSystems"/>
         <title value="Regulated Authorization Type identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Regulated Authorization Type Identifier systems (uri)"/>
@@ -7387,8 +7387,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ef41d0d5-1b35-432b-a680-38a683d633ac"/>
-          <timestamp value="2022-11-29T11:20:58+00:00"/>
+          <identifier value="urn:uuid:809c3e5d-d678-4aef-9a4c-0d9410ae94f2"/>
+          <timestamp value="2022-12-01T10:13:54+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7412,7 +7412,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyShape"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape"/>
     <resource>
       <ValueSet>
         <id value="propertyShape"/>
@@ -7443,18 +7443,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyShape"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsPropertyShape"/>
         <title value="Shape of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Shape of the product"/>
@@ -7466,8 +7466,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:199aa8eb-3e63-4876-bf0a-a697085e777e"/>
-          <timestamp value="2022-11-29T11:21:00+00:00"/>
+          <identifier value="urn:uuid:ad3883b4-874f-4fcb-acd8-70f17873b7dc"/>
+          <timestamp value="2022-12-01T10:14:04+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7490,7 +7490,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofMeasure"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofMeasure"/>
     <resource>
       <ValueSet>
         <id value="unitofMeasure"/>
@@ -7521,18 +7521,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofMeasure"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofMeasure"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsUnitofMeasure"/>
         <title value="Units of Measure"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Units of Measure"/>
@@ -7544,8 +7544,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5e13854f-f33b-40b2-ab5f-c8aef90598a5"/>
-          <timestamp value="2022-11-29T11:21:03+00:00"/>
+          <identifier value="urn:uuid:a132a2d4-a573-48d4-be31-b0ecd8c278b0"/>
+          <timestamp value="2022-12-01T10:14:11+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7568,7 +7568,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyColor"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor"/>
     <resource>
       <ValueSet>
         <id value="propertyColor"/>
@@ -7599,18 +7599,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/propertyColor"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsPropertyColor"/>
         <title value="Color of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="Color of the product"/>
@@ -7622,8 +7622,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:29e830ec-85db-4c17-8b7f-082a67d65cc2"/>
-          <timestamp value="2022-11-29T11:21:05+00:00"/>
+          <identifier value="urn:uuid:cb8b1699-be35-41a4-adf1-776144c1964f"/>
+          <timestamp value="2022-12-01T10:14:13+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7646,7 +7646,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageType"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
     <resource>
       <ValueSet>
         <id value="packageType"/>
@@ -7696,18 +7696,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageType"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsPackageType"/>
         <title value="High level Pack Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="High level type of pack; e.g., medicinal product pack, sample pack, shipping container."/>
@@ -7719,8 +7719,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:44b97941-5ec2-4d74-8f5f-cdb94919e7fb"/>
-          <timestamp value="2022-11-29T11:21:10+00:00"/>
+          <identifier value="urn:uuid:bdbe2df1-58df-43e7-8444-6415d5f3c0bd"/>
+          <timestamp value="2022-12-01T10:14:19+00:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7750,7 +7750,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/atcClassification"/>
     <resource>
       <ValueSet>
         <id value="atcClassification"/>
@@ -14774,18 +14774,18 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/atcClassification"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/atcClassification"/>
         <version value="1.0.0-Ballot"/>
         <name value="VsAtcClassification"/>
         <title value="WHO ATC"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-11-29T11:19:39+00:00"/>
+        <date value="2022-12-01T10:11:45+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
             <system value="url"/>
-            <value value="http://hl7.org/Special/committees/"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
         <description value="World Health Organization Anatomical Therapeutic Chemical (ATC) classification system"/>
@@ -14801,8 +14801,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:5524d435-d8d1-4991-8588-33bf6b1ee803"/>
-          <timestamp value="2022-11-29T11:21:16+00:00"/>
+          <identifier value="urn:uuid:e0c50339-0fcb-4029-a008-1c8cc6eba78e"/>
+          <timestamp value="2022-12-01T10:14:28+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>

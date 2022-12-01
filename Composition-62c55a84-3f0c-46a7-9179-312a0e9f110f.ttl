@@ -5,26 +5,26 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f> a fhir:Composition;
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f> a fhir:Composition;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "62c55a84-3f0c-46a7-9179-312a0e9f110f"];
+  fhir:Resource.id [ fhir:value "62c55a84-3f0c-46a7-9179-312a0e9f110f"]; # 
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
      ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"62c55a84-3f0c-46a7-9179-312a0e9f110f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;62c55a84-3f0c-46a7-9179-312a0e9f110f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 01:28:17+0000</p><p><b>author</b>: <a href=\"Organization-36e7be59-db47-4e36-8fcf-8547ab0fd175.html\">Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175</a> &quot;Sanofi-Aventis Groupe&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - Suliqua Vulcan ePI</p></div>"
-  ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"62c55a84-3f0c-46a7-9179-312a0e9f110f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;62c55a84-3f0c-46a7-9179-312a0e9f110f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Organization-36e7be59-db47-4e36-8fcf-8547ab0fd175.html\">Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175</a> &quot;Sanofi-Aventis Groupe&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - Suliqua Vulcan ePI</p></div>"
+  ]; # 
   fhir:Composition.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
      fhir:Identifier.value [ fhir:value "0d69fdcb-33cf-407f-8209-a6529856ab4f" ]
-  ];
-  fhir:Composition.status [ fhir:value "final"];
+  ]; # 
+  fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
@@ -32,19 +32,19 @@
        fhir:Coding.code [ fhir:value "100000155538" ]
      ];
      fhir:CodeableConcept.text [ fhir:value "Package Leaflet" ]
-  ];
+  ]; # 
   fhir:Composition.subject [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298" ]
-  ];
-  fhir:Composition.date [ fhir:value "2022-02-16T13:28:17Z"^^xsd:dateTime];
+  ]; # 
+  fhir:Composition.date [ fhir:value "2022-02-16T13:28:17Z"^^xsd:dateTime]; # 
   fhir:Composition.author [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175>;
      fhir:Reference.reference [ fhir:value "Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175" ]
-  ];
-  fhir:Composition.title [ fhir:value "TEST PURPOSES ONLY - Suliqua Vulcan ePI"];
+  ]; # 
+  fhir:Composition.title [ fhir:value "TEST PURPOSES ONLY - Suliqua Vulcan ePI"]; # 
   fhir:Composition.section [
      fhir:index 0;
      fhir:Composition.section.title [ fhir:value "Product Information" ];
@@ -53,87 +53,87 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/5e371f8f-48f2-43a1-b8c4-279d1986891f>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/5e371f8f-48f2-43a1-b8c4-279d1986891f>;
        fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/5e371f8f-48f2-43a1-b8c4-279d1986891f" ]
      ], [
        fhir:index 1;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/9483a182-2054-4b25-b896-3ff631520525>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/9483a182-2054-4b25-b896-3ff631520525>;
        fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/9483a182-2054-4b25-b896-3ff631520525" ]
      ], [
        fhir:index 2;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/fbcad1f7-7563-446e-83e0-a72b898cb7ce>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/fbcad1f7-7563-446e-83e0-a72b898cb7ce>;
        fhir:Reference.reference [ fhir:value "ClinicalUseDefinition/fbcad1f7-7563-446e-83e0-a72b898cb7ce" ]
      ], [
        fhir:index 3;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c224c241-f427-453f-a083-4d3c9c956e02>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/c224c241-f427-453f-a083-4d3c9c956e02>;
        fhir:Reference.reference [ fhir:value "Ingredient/c224c241-f427-453f-a083-4d3c9c956e02" ]
      ], [
        fhir:index 4;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/e855286c-d620-4520-9f20-8e24a12c06e3>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e855286c-d620-4520-9f20-8e24a12c06e3>;
        fhir:Reference.reference [ fhir:value "Ingredient/e855286c-d620-4520-9f20-8e24a12c06e3" ]
      ], [
        fhir:index 5;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/574081c4-dc09-43d6-a578-cd3bd703454d>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/574081c4-dc09-43d6-a578-cd3bd703454d>;
        fhir:Reference.reference [ fhir:value "Ingredient/574081c4-dc09-43d6-a578-cd3bd703454d" ]
      ], [
        fhir:index 6;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/d6fc3cd5-e10c-4b72-8327-db41db350025>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/d6fc3cd5-e10c-4b72-8327-db41db350025>;
        fhir:Reference.reference [ fhir:value "Ingredient/d6fc3cd5-e10c-4b72-8327-db41db350025" ]
      ], [
        fhir:index 7;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/10bc2401-23f1-4e47-b3d3-730e599a1e93>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/10bc2401-23f1-4e47-b3d3-730e599a1e93>;
        fhir:Reference.reference [ fhir:value "Ingredient/10bc2401-23f1-4e47-b3d3-730e599a1e93" ]
      ], [
        fhir:index 8;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/339bc23b-1755-4436-88b2-3d36d03ea299>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/339bc23b-1755-4436-88b2-3d36d03ea299>;
        fhir:Reference.reference [ fhir:value "Ingredient/339bc23b-1755-4436-88b2-3d36d03ea299" ]
      ], [
        fhir:index 9;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4>;
        fhir:Reference.reference [ fhir:value "Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4" ]
      ], [
        fhir:index 10;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/53a7a449-c9f2-4eb2-b32b-c7a5591e8b31>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/53a7a449-c9f2-4eb2-b32b-c7a5591e8b31>;
        fhir:Reference.reference [ fhir:value "Ingredient/53a7a449-c9f2-4eb2-b32b-c7a5591e8b31" ]
      ], [
        fhir:index 11;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/5fcdfc1a-2e5a-44db-b1e1-89bfcd69a924>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/5fcdfc1a-2e5a-44db-b1e1-89bfcd69a924>;
        fhir:Reference.reference [ fhir:value "Ingredient/5fcdfc1a-2e5a-44db-b1e1-89bfcd69a924" ]
      ], [
        fhir:index 12;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/2da7e0de-e567-4bd9-8211-6bbc72ccf649>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/2da7e0de-e567-4bd9-8211-6bbc72ccf649>;
        fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/2da7e0de-e567-4bd9-8211-6bbc72ccf649" ]
      ], [
        fhir:index 13;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/e30ad7d4-7718-441e-8ca5-71610faaabf3>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/e30ad7d4-7718-441e-8ca5-71610faaabf3>;
        fhir:Reference.reference [ fhir:value "RegulatedAuthorization/e30ad7d4-7718-441e-8ca5-71610faaabf3" ]
      ], [
        fhir:index 14;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175>;
        fhir:Reference.reference [ fhir:value "Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175" ]
      ], [
        fhir:index 15;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/a8ad4152-3e43-48d9-a11c-75685eb1ce01>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/a8ad4152-3e43-48d9-a11c-75685eb1ce01>;
        fhir:Reference.reference [ fhir:value "Organization/a8ad4152-3e43-48d9-a11c-75685eb1ce01" ]
      ], [
        fhir:index 16;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/80afb7f0-9865-46b6-b137-622e8fe7dd6d>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/80afb7f0-9865-46b6-b137-622e8fe7dd6d>;
        fhir:Reference.reference [ fhir:value "Organization/80afb7f0-9865-46b6-b137-622e8fe7dd6d" ]
      ], [
        fhir:index 17;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/01e531fb-7cf6-446a-94f7-217c9c9bbc47>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/01e531fb-7cf6-446a-94f7-217c9c9bbc47>;
        fhir:Reference.reference [ fhir:value "Organization/01e531fb-7cf6-446a-94f7-217c9c9bbc47" ]
      ], [
        fhir:index 18;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/ba66035b-96a3-414d-8274-7640b5af8148>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ba66035b-96a3-414d-8274-7640b5af8148>;
        fhir:Reference.reference [ fhir:value "PackagedProductDefinition/ba66035b-96a3-414d-8274-7640b5af8148" ]
      ], [
        fhir:index 19;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298>;
        fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298" ]
      ], [
        fhir:index 20;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/fabc4bf2-0393-433d-baff-0122606e5049>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/fabc4bf2-0393-433d-baff-0122606e5049>;
        fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/fabc4bf2-0393-433d-baff-0122606e5049" ]
      ]
   ], [
@@ -293,55 +293,55 @@
          ]
        ]
      ]
-  ] .
+  ] . # 
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/36e7be59-db47-4e36-8fcf-8547ab0fd175> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/5e371f8f-48f2-43a1-b8c4-279d1986891f> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/5e371f8f-48f2-43a1-b8c4-279d1986891f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/9483a182-2054-4b25-b896-3ff631520525> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/9483a182-2054-4b25-b896-3ff631520525> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ClinicalUseDefinition/fbcad1f7-7563-446e-83e0-a72b898cb7ce> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/fbcad1f7-7563-446e-83e0-a72b898cb7ce> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/c224c241-f427-453f-a083-4d3c9c956e02> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/c224c241-f427-453f-a083-4d3c9c956e02> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/e855286c-d620-4520-9f20-8e24a12c06e3> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e855286c-d620-4520-9f20-8e24a12c06e3> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/574081c4-dc09-43d6-a578-cd3bd703454d> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/574081c4-dc09-43d6-a578-cd3bd703454d> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/d6fc3cd5-e10c-4b72-8327-db41db350025> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/d6fc3cd5-e10c-4b72-8327-db41db350025> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/10bc2401-23f1-4e47-b3d3-730e599a1e93> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/10bc2401-23f1-4e47-b3d3-730e599a1e93> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/339bc23b-1755-4436-88b2-3d36d03ea299> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/339bc23b-1755-4436-88b2-3d36d03ea299> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/53a7a449-c9f2-4eb2-b32b-c7a5591e8b31> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/53a7a449-c9f2-4eb2-b32b-c7a5591e8b31> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/5fcdfc1a-2e5a-44db-b1e1-89bfcd69a924> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/5fcdfc1a-2e5a-44db-b1e1-89bfcd69a924> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/2da7e0de-e567-4bd9-8211-6bbc72ccf649> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/2da7e0de-e567-4bd9-8211-6bbc72ccf649> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/e30ad7d4-7718-441e-8ca5-71610faaabf3> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/e30ad7d4-7718-441e-8ca5-71610faaabf3> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/a8ad4152-3e43-48d9-a11c-75685eb1ce01> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/a8ad4152-3e43-48d9-a11c-75685eb1ce01> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/80afb7f0-9865-46b6-b137-622e8fe7dd6d> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/80afb7f0-9865-46b6-b137-622e8fe7dd6d> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/01e531fb-7cf6-446a-94f7-217c9c9bbc47> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/01e531fb-7cf6-446a-94f7-217c9c9bbc47> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/ba66035b-96a3-414d-8274-7640b5af8148> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ba66035b-96a3-414d-8274-7640b5af8148> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/fabc4bf2-0393-433d-baff-0122606e5049> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/fabc4bf2-0393-433d-baff-0122606e5049> a fhir:uv .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f.ttl> .
 
 # -------------------------------------------------------------------------------------
 

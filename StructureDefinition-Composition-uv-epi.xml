@@ -34,17 +34,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="CompositionUvEpi"/>
   <title value="Composition (ePI)"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="The Composition captures the section headings, sub-section headings, and narrative text (For example, paragraphs, bulleted lists, tables) in an ePI."/>
@@ -964,7 +964,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/epiType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/epiType"/>
       </binding>
       <mapping>
         <identity value="workflow"/>
@@ -1053,7 +1053,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1229,7 +1229,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2204,7 +2204,7 @@
       <isSummary value="false"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -2714,7 +2714,7 @@
       <isSummary value="false"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode"/>
       </binding>
       <mapping>
         <identity value="rim"/>
@@ -3075,7 +3075,7 @@
       <definition value="Specifies the type of ePI template. For example, Package Insert, Patient Information, Summary of Product Characteristics, Human Prescription, Drug Label."/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/epiType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/epiType"/>
       </binding>
     </element>
     <element id="Composition.category">
@@ -3088,7 +3088,7 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
     </element>
     <element id="Composition.date">
@@ -3101,7 +3101,7 @@
       <definition value="Link to the Organization resource that describes the organization responsible for the ePI (For example, Markting Authorization Holder)."/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="Composition.title">
@@ -3126,7 +3126,7 @@
       <min value="1"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode"/>
       </binding>
     </element>
     <element id="Composition.section.text">
@@ -3159,7 +3159,7 @@
       <min value="1"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/sectionCode"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode"/>
       </binding>
     </element>
     <element id="Composition.section.section.text">
