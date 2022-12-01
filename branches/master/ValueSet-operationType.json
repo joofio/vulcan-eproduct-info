@@ -1,45 +1,35 @@
 {
-  "resourceType": "ValueSet",
-  "id": "operationType",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://example.org</code></li></ul></div>"
+  "resourceType" : "ValueSet",
+  "id" : "operationType",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>http://example.org</code></li></ul></div>"
   },
-  "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/operationType",
-  "version": "1.0.0-Ballot",
-  "name": "VsOperationType",
-  "title": "Type of operation",
-  "status": "active",
-  "experimental": false,
-  "date": "2022-11-29T11:19:39+00:00",
-  "contact": [
-    {
-      "name": "HL7 BR&R",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "http://hl7.org/Special/committees/"
-        }
-      ]
-    }
-  ],
-  "description": "Type of operation",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001",
-          "display": "World"
-        }
-      ]
-    }
-  ],
-  "compose": {
-    "include": [
-      {
-        "system": "http://example.org"
-      }
-    ]
+  "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/operationType",
+  "version" : "1.0.0-Ballot",
+  "name" : "VsOperationType",
+  "title" : "Type of operation",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-12-01T10:11:45+00:00",
+  "contact" : [{
+    "name" : "HL7 BR&R",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/rcrim"
+    }]
+  }],
+  "description" : "Type of operation",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://example.org"
+    }]
   }
 }

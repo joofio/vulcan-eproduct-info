@@ -28,17 +28,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="SubstanceDefinitionUvEpi"/>
   <title value="SubstanceDefinition (ePI)"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="SubstanceDefinition (ePI)"/>
@@ -713,7 +713,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2734,7 +2734,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/substance"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -4436,7 +4436,7 @@
       <path value="SubstanceDefinition.manufacturer"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="SubstanceDefinition.molecularWeight.amount">
@@ -4467,7 +4467,7 @@
       <path value="SubstanceDefinition.code.code"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/substance"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance"/>
       </binding>
     </element>
     <element id="SubstanceDefinition.name">

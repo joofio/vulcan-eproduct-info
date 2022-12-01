@@ -35,17 +35,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="business"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="OrganizationUvEpi"/>
   <title value="Organization (ePI)"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="Organization (ePI)"/>
@@ -690,7 +690,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -902,7 +902,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationType"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -3165,7 +3165,7 @@
       <min value="1"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
       </binding>
     </element>
     <element id="Organization.identifier.value">
@@ -3182,7 +3182,7 @@
       <definition value="Organization type clarifies what purpose or busines operation this organization performs in relation to the ePI and the associated authorized medicinal products mentioned."/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/organizationType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationType"/>
       </binding>
     </element>
     <element id="Organization.name">

@@ -5,30 +5,30 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi> a fhir:CodeSystem;
+<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "CodeSystemUvEPIRpmswi"];
+  fhir:Resource.id [ fhir:value "CodeSystemUvEPIRpmswi"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CodeSystemUvEPIRpmswi-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CodeSystemUvEPIRpmswi-2\"> </a></td></tr></table></div>"
-  ];
-  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi"];
-  fhir:CodeSystem.version [ fhir:value "1.0.0-Ballot"];
-  fhir:CodeSystem.name [ fhir:value "CodeSystemUvEPIRpmswi"];
-  fhir:CodeSystem.title [ fhir:value "Products Management Services CodeSystem"];
-  fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.date [ fhir:value "2022-11-29T11:19:39+00:00"^^xsd:dateTime];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CodeSystemUvEPIRpmswi-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CodeSystemUvEPIRpmswi-2\"> </a></td></tr></table></div>"
+  ]; # 
+  fhir:CodeSystem.url [ fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi"]; # 
+  fhir:CodeSystem.version [ fhir:value "1.0.0-Ballot"]; # 
+  fhir:CodeSystem.name [ fhir:value "CodeSystemUvEPIRpmswi"]; # 
+  fhir:CodeSystem.title [ fhir:value "Products Management Services CodeSystem"]; # 
+  fhir:CodeSystem.status [ fhir:value "active"]; # 
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.date [ fhir:value "2022-12-01T10:11:45+00:00"^^xsd:dateTime]; # 
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/rcrim" ]
      ]
-  ];
-  fhir:CodeSystem.description [ fhir:value "Items from https://spor.ema.europa.eu/pmswi"];
+  ]; # 
+  fhir:CodeSystem.description [ fhir:value "Items from https://spor.ema.europa.eu/pmswi"]; # 
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -37,23 +37,23 @@
        fhir:Coding.code [ fhir:value "001" ];
        fhir:Coding.display [ fhir:value "World" ]
      ]
-  ];
-  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean];
-  fhir:CodeSystem.content [ fhir:value "complete"];
-  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger];
+  ]; # 
+  fhir:CodeSystem.caseSensitive [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:CodeSystem.content [ fhir:value "complete"]; # 
+  fhir:CodeSystem.count [ fhir:value "2"^^xsd:nonNegativeInteger]; # 
   fhir:CodeSystem.concept [
      fhir:index 0;
      fhir:CodeSystem.concept.code [ fhir:value "1" ]
   ], [
      fhir:index 1;
      fhir:CodeSystem.concept.code [ fhir:value "2" ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRpmswi.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi.ttl> .
 
 # -------------------------------------------------------------------------------------
 

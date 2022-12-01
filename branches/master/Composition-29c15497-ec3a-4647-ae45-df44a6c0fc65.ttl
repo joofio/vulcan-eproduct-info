@@ -5,26 +5,26 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65> a fhir:Composition;
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65> a fhir:Composition;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "29c15497-ec3a-4647-ae45-df44a6c0fc65"];
+  fhir:Resource.id [ fhir:value "29c15497-ec3a-4647-ae45-df44a6c0fc65"]; # 
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi";
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi>
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
      ]
-  ];
+  ]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"29c15497-ec3a-4647-ae45-df44a6c0fc65\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;29c15497-ec3a-4647-ae45-df44a6c0fc65&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 01:28:17+0000</p><p><b>author</b>: <a href=\"Organization-e8501a78-f0bc-4453-b2ca-617a340c10e0.html\">Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0</a> &quot;ACME industry&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - Karvea (irbesartan) 75 mg tablets</p></div>"
-  ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"29c15497-ec3a-4647-ae45-df44a6c0fc65\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;29c15497-ec3a-4647-ae45-df44a6c0fc65&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"Organization-e8501a78-f0bc-4453-b2ca-617a340c10e0.html\">Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0</a> &quot;ACME industry&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - Karvea (irbesartan) 75 mg tablets</p></div>"
+  ]; # 
   fhir:Composition.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
      fhir:Identifier.value [ fhir:value "0d69fdcb-33cf-407f-8209-a6529856ab4f" ]
-  ];
-  fhir:Composition.status [ fhir:value "final"];
+  ]; # 
+  fhir:Composition.status [ fhir:value "final"]; # 
   fhir:Composition.type [
      fhir:CodeableConcept.coding [
        fhir:index 0;
@@ -32,19 +32,19 @@
        fhir:Coding.code [ fhir:value "100000155538" ]
      ];
      fhir:CodeableConcept.text [ fhir:value "Package Leaflet" ]
-  ];
+  ]; # 
   fhir:Composition.subject [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367>;
      fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367" ]
-  ];
-  fhir:Composition.date [ fhir:value "2022-02-16T13:28:17Z"^^xsd:dateTime];
+  ]; # 
+  fhir:Composition.date [ fhir:value "2022-02-16T13:28:17Z"^^xsd:dateTime]; # 
   fhir:Composition.author [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0>;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0>;
      fhir:Reference.reference [ fhir:value "Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0" ]
-  ];
-  fhir:Composition.title [ fhir:value "TEST PURPOSES ONLY - Karvea (irbesartan) 75 mg tablets"];
+  ]; # 
+  fhir:Composition.title [ fhir:value "TEST PURPOSES ONLY - Karvea (irbesartan) 75 mg tablets"]; # 
   fhir:Composition.section [
      fhir:index 0;
      fhir:Composition.section.title [ fhir:value "Product Information" ];
@@ -53,43 +53,43 @@
      ];
      fhir:Composition.section.entry [
        fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/388ecd24-ca23-406a-a014-08c1bd18a14a>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/388ecd24-ca23-406a-a014-08c1bd18a14a>;
        fhir:Reference.reference [ fhir:value "Ingredient/388ecd24-ca23-406a-a014-08c1bd18a14a" ]
      ], [
        fhir:index 1;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/de7df0fc-9425-4f26-9179-89ba64db4d6e>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/de7df0fc-9425-4f26-9179-89ba64db4d6e>;
        fhir:Reference.reference [ fhir:value "Ingredient/de7df0fc-9425-4f26-9179-89ba64db4d6e" ]
      ], [
        fhir:index 2;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3>;
        fhir:Reference.reference [ fhir:value "Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3" ]
      ], [
        fhir:index 3;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7>;
        fhir:Reference.reference [ fhir:value "SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7" ]
      ], [
        fhir:index 4;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/79e4149f-207e-47ea-a14c-2156649ced8c>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/79e4149f-207e-47ea-a14c-2156649ced8c>;
        fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/79e4149f-207e-47ea-a14c-2156649ced8c" ]
      ], [
        fhir:index 5;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/cf5b7336-8b94-4856-8e61-049fac698c80>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/cf5b7336-8b94-4856-8e61-049fac698c80>;
        fhir:Reference.reference [ fhir:value "RegulatedAuthorization/cf5b7336-8b94-4856-8e61-049fac698c80" ]
      ], [
        fhir:index 6;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0>;
        fhir:Reference.reference [ fhir:value "Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0" ]
      ], [
        fhir:index 7;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/7a0c05d7-e40e-4f33-b2cb-02beb61ca790>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/7a0c05d7-e40e-4f33-b2cb-02beb61ca790>;
        fhir:Reference.reference [ fhir:value "PackagedProductDefinition/7a0c05d7-e40e-4f33-b2cb-02beb61ca790" ]
      ], [
        fhir:index 8;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367>;
        fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367" ]
      ], [
        fhir:index 9;
-       fhir:link <http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/c9c8e0b8-3e9b-4bee-b9b7-e29cfc874ede>;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/c9c8e0b8-3e9b-4bee-b9b7-e29cfc874ede>;
        fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/c9c8e0b8-3e9b-4bee-b9b7-e29cfc874ede" ]
      ]
   ], [
@@ -242,33 +242,33 @@
          ]
        ]
      ]
-  ] .
+  ] . # 
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/388ecd24-ca23-406a-a014-08c1bd18a14a> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/388ecd24-ca23-406a-a014-08c1bd18a14a> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/de7df0fc-9425-4f26-9179-89ba64db4d6e> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/de7df0fc-9425-4f26-9179-89ba64db4d6e> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/AdministrableProductDefinition/79e4149f-207e-47ea-a14c-2156649ced8c> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/79e4149f-207e-47ea-a14c-2156649ced8c> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/RegulatedAuthorization/cf5b7336-8b94-4856-8e61-049fac698c80> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/cf5b7336-8b94-4856-8e61-049fac698c80> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/PackagedProductDefinition/7a0c05d7-e40e-4f33-b2cb-02beb61ca790> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/7a0c05d7-e40e-4f33-b2cb-02beb61ca790> a fhir:uv .
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ManufacturedItemDefinition/c9c8e0b8-3e9b-4bee-b9b7-e29cfc874ede> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/c9c8e0b8-3e9b-4bee-b9b7-e29cfc874ede> a fhir:uv .
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65.ttl> .
 
 # -------------------------------------------------------------------------------------
 

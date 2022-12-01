@@ -46,17 +46,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="not-classified"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="BundleUvEpi"/>
   <title value="Bundle - ePI"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="Medicinal product information is a pivotal source of regulated and scientifically validated information that assists healthcare professionals in prescribing and dispensing the medicine and informs consumers about its safe and effective use. This profile represents the constraints applied to the Bundle resource used in the Electronic Product Information (ePI) FHIR Implementation Guide."/>
@@ -221,7 +221,7 @@
         <severity value="error"/>
         <human value="An ePI document must have no additional Composition (including Composition subclass) resources besides the first."/>
         <expression value="entry.tail().where(resource is Composition).empty()"/>
-        <source value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+        <source value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
       </constraint>
       <mustSupport value="false"/>
       <isModifier value="false"/>
@@ -1895,7 +1895,7 @@
       </base>
       <type>
         <code value="Composition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -3922,7 +3922,7 @@
       </base>
       <type>
         <code value="Organization"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -4979,7 +4979,7 @@
       </base>
       <type>
         <code value="RegulatedAuthorization"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -6016,7 +6016,7 @@
       </base>
       <type>
         <code value="MedicinalProductDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -7058,7 +7058,7 @@
       </base>
       <type>
         <code value="AdministrableProductDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="apd-1"/>
@@ -8103,7 +8103,7 @@
       </base>
       <type>
         <code value="ManufacturedItemDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -9140,7 +9140,7 @@
       </base>
       <type>
         <code value="Ingredient"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -10185,7 +10185,7 @@
       </base>
       <type>
         <code value="PackagedProductDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -11222,7 +11222,7 @@
       </base>
       <type>
         <code value="SubstanceDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="dom-2"/>
@@ -14061,7 +14061,7 @@
         <severity value="error"/>
         <human value="An ePI document must have no additional Composition (including Composition subclass) resources besides the first."/>
         <expression value="entry.tail().where(resource is Composition).empty()"/>
-        <source value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Bundle-uv-epi"/>
+        <source value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
       </constraint>
     </element>
     <element id="Bundle.identifier">
@@ -14123,7 +14123,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="Composition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Composition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:list">
@@ -14142,7 +14142,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="Organization"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:authorization">
@@ -14155,7 +14155,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="RegulatedAuthorization"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:medicinalProduct">
@@ -14168,7 +14168,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="MedicinalProductDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:administrableProduct">
@@ -14181,7 +14181,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="AdministrableProductDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:manItem">
@@ -14194,7 +14194,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="ManufacturedItemDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:ingredient">
@@ -14207,7 +14207,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="Ingredient"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:packagedProduct">
@@ -14220,7 +14220,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="PackagedProductDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:substanceDefinition">
@@ -14233,7 +14233,7 @@
       <path value="Bundle.entry.resource"/>
       <type>
         <code value="SubstanceDefinition"/>
-        <profile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+        <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
       </type>
     </element>
     <element id="Bundle.entry:binary">

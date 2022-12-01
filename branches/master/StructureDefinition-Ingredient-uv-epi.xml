@@ -28,17 +28,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Ingredient-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="IngredientUvEpi"/>
   <title value="Ingredient (ePI)"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="Ingredient (ePI)"/>
@@ -504,9 +504,9 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -849,7 +849,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1033,7 +1033,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/substance"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -1343,7 +1343,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/roleClassIngredientEntity"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -1587,7 +1587,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/substance"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -1718,9 +1718,9 @@
       <path value="Ingredient.for"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
       </type>
     </element>
     <element id="Ingredient.role">
@@ -1738,14 +1738,14 @@
       <path value="Ingredient.manufacturer.manufacturer"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="Ingredient.substance.code">
       <path value="Ingredient.substance.code"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/substance"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance"/>
       </binding>
     </element>
     <element id="Ingredient.substance.strength">
@@ -1764,14 +1764,14 @@
       <path value="Ingredient.substance.strength.basis"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/roleClassIngredientEntity"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
       </binding>
     </element>
     <element id="Ingredient.substance.strength.referenceStrength.substance">
       <path value="Ingredient.substance.strength.referenceStrength.substance"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/substance"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance"/>
       </binding>
     </element>
     <element id="Ingredient.substance.strength.referenceStrength.strength[x]">

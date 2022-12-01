@@ -45,17 +45,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="PackagedProductDefinitionUvEpi"/>
   <title value="PackagedProductDefinition (ePI)"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="PackagedProductDefinition (ePI)"/>
@@ -656,7 +656,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packagedProductIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -850,7 +850,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -870,7 +870,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1198,7 +1198,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/legalStatusOfSupply"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/legalStatusOfSupply"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -1465,7 +1465,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/marketingStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/marketingStatus"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.marketingStatus.dateRange">
@@ -1600,7 +1600,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -2016,7 +2016,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/dataCarrierIdSystem"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2176,7 +2176,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/secondaryPrimaryPackType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/secondaryPrimaryPackType"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -2240,7 +2240,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageMaterial"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageMaterial"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -2457,7 +2457,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/shelfLifeType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/shelfLifeType"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.shelfLifeStorage.period[x]">
@@ -2782,7 +2782,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofMeasure"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofMeasure"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -2819,7 +2819,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/specialPrecautionsForStorage"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/specialPrecautionsForStorage"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.manufacturer">
@@ -2835,7 +2835,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -3222,7 +3222,7 @@
       </base>
       <type>
         <code value="CodeableReference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceDefinition"/>
       </type>
       <constraint>
@@ -3309,7 +3309,7 @@
       <min value="1"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packagedProductIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.identifier.value">
@@ -3328,14 +3328,14 @@
       <short value="A high level category e.g., medicinal product pack, sample pack, shipping container."/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packageFor">
       <path value="PackagedProductDefinition.packageFor"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
     </element>
     <element id="PackagedProductDefinition.status">
@@ -3373,7 +3373,7 @@
       <path value="PackagedProductDefinition.legalStatusOfSupply.code"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/legalStatusOfSupply"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/legalStatusOfSupply"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.legalStatusOfSupply.jurisdiction">
@@ -3398,7 +3398,7 @@
       <path value="PackagedProductDefinition.marketingStatus.status"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/marketingStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/marketingStatus"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.copackagedIndicator">
@@ -3409,7 +3409,7 @@
       <path value="PackagedProductDefinition.manufacturer"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="PackagedProductDefinition.packaging.identifier">
@@ -3421,7 +3421,7 @@
       <min value="1"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/dataCarrierIdSystem"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.identifier.value">
@@ -3432,14 +3432,14 @@
       <path value="PackagedProductDefinition.packaging.type"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/secondaryPrimaryPackType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/secondaryPrimaryPackType"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.material">
       <path value="PackagedProductDefinition.packaging.material"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/packageMaterial"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageMaterial"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.shelfLifeStorage">
@@ -3450,7 +3450,7 @@
       <path value="PackagedProductDefinition.packaging.shelfLifeStorage.type"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/shelfLifeType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/shelfLifeType"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.shelfLifeStorage.periodDuration">
@@ -3465,28 +3465,28 @@
       <path value="PackagedProductDefinition.packaging.shelfLifeStorage.periodDuration.code"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/unitofMeasure"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofMeasure"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.shelfLifeStorage.specialPrecautionsForStorage">
       <path value="PackagedProductDefinition.packaging.shelfLifeStorage.specialPrecautionsForStorage"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/specialPrecautionsForStorage"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/specialPrecautionsForStorage"/>
       </binding>
     </element>
     <element id="PackagedProductDefinition.packaging.manufacturer">
       <path value="PackagedProductDefinition.packaging.manufacturer"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="PackagedProductDefinition.packaging.containedItem.item">
       <path value="PackagedProductDefinition.packaging.containedItem.item"/>
       <type>
         <code value="CodeableReference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
         <targetProfile value="http://hl7.org/fhir/StructureDefinition/DeviceDefinition"/>
       </type>
     </element>

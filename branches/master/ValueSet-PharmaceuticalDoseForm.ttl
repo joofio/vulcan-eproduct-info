@@ -5,30 +5,30 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm> a fhir:ValueSet;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "PharmaceuticalDoseForm"];
+  fhir:Resource.id [ fhir:value "PharmaceuticalDoseForm"]; # 
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>https://spor.ema.europa.eu/rmswi/200000000006</code></li></ul></div>"
-  ];
-  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm"];
-  fhir:ValueSet.version [ fhir:value "1.0.0-Ballot"];
-  fhir:ValueSet.name [ fhir:value "VsPharmaceuticalDoseForm"];
-  fhir:ValueSet.title [ fhir:value "Combined Pharmaceutical Dose Form"];
-  fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ValueSet.date [ fhir:value "2022-11-29T11:19:39+00:00"^^xsd:dateTime];
+  ]; # 
+  fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm"]; # 
+  fhir:ValueSet.version [ fhir:value "1.0.0-Ballot"]; # 
+  fhir:ValueSet.name [ fhir:value "VsPharmaceuticalDoseForm"]; # 
+  fhir:ValueSet.title [ fhir:value "Combined Pharmaceutical Dose Form"]; # 
+  fhir:ValueSet.status [ fhir:value "active"]; # 
+  fhir:ValueSet.experimental [ fhir:value "false"^^xsd:boolean]; # 
+  fhir:ValueSet.date [ fhir:value "2022-12-01T10:11:45+00:00"^^xsd:dateTime]; # 
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
      fhir:ContactDetail.telecom [
        fhir:index 0;
        fhir:ContactPoint.system [ fhir:value "url" ];
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/" ]
+       fhir:ContactPoint.value [ fhir:value "http://www.hl7.org/Special/committees/rcrim" ]
      ]
-  ];
-  fhir:ValueSet.description [ fhir:value "Combined Pharmaceutical Dose Form"];
+  ]; # 
+  fhir:ValueSet.description [ fhir:value "Combined Pharmaceutical Dose Form"]; # 
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -37,19 +37,19 @@
        fhir:Coding.code [ fhir:value "001" ];
        fhir:Coding.display [ fhir:value "World" ]
      ]
-  ];
+  ]; # 
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
        fhir:ValueSet.compose.include.system [ fhir:value "https://spor.ema.europa.eu/rmswi/200000000006" ]
      ]
-  ] .
+  ] . # 
 
 # - ontology header ------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm.ttl> a owl:Ontology;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/vulcan-eproduct-info/ValueSet/PharmaceuticalDoseForm.ttl> .
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -1,49 +1,39 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "CodeSystemUvEPIRsmswi",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRsmswi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CodeSystemUvEPIRsmswi-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CodeSystemUvEPIRsmswi-2\"> </a></td></tr></table></div>"
+  "resourceType" : "CodeSystem",
+  "id" : "CodeSystemUvEPIRsmswi",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRsmswi</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CodeSystemUvEPIRsmswi-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CodeSystemUvEPIRsmswi-2\"> </a></td></tr></table></div>"
   },
-  "url": "http://hl7.org/fhir/uv/vulcan-eproduct-info/CodeSystem/CodeSystemUvEPIRsmswi",
-  "version": "1.0.0-Ballot",
-  "name": "CodeSystemUvEPIRsmswi",
-  "title": "Substances Management Services CodeSystem",
-  "status": "active",
-  "experimental": false,
-  "date": "2022-11-29T11:19:39+00:00",
-  "contact": [
-    {
-      "name": "HL7 BR&R",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "http://hl7.org/Special/committees/"
-        }
-      ]
-    }
-  ],
-  "description": "Items from https://spor.ema.europa.eu/smswi",
-  "jurisdiction": [
-    {
-      "coding": [
-        {
-          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code": "001",
-          "display": "World"
-        }
-      ]
-    }
-  ],
-  "caseSensitive": false,
-  "content": "complete",
-  "count": 2,
-  "concept": [
-    {
-      "code": "1"
-    },
-    {
-      "code": "2"
-    }
-  ]
+  "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRsmswi",
+  "version" : "1.0.0-Ballot",
+  "name" : "CodeSystemUvEPIRsmswi",
+  "title" : "Substances Management Services CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-12-01T10:11:45+00:00",
+  "contact" : [{
+    "name" : "HL7 BR&R",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/rcrim"
+    }]
+  }],
+  "description" : "Items from https://spor.ema.europa.eu/smswi",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "1"
+  },
+  {
+    "code" : "2"
+  }]
 }

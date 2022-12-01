@@ -29,17 +29,17 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="anonymous"/>
   </extension>
-  <url value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
   <version value="1.0.0-Ballot"/>
   <name value="RegulatedAuthorizationUvEpi"/>
   <title value="RegulatedAuthorization (ePI)"/>
   <status value="active"/>
-  <date value="2022-11-29T11:19:39+00:00"/>
+  <date value="2022-12-01T10:11:45+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/Special/committees/"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
     </telecom>
   </contact>
   <description value="RegulatedAuthorization (ePI)"/>
@@ -640,7 +640,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsRegulatedAuthorization"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsRegulatedAuthorization"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -786,7 +786,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -831,7 +831,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -895,7 +895,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -929,7 +929,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/authorizationStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/authorizationStatus"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -1009,7 +1009,7 @@
       </base>
       <type>
         <code value="CodeableReference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1247,7 +1247,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1278,7 +1278,7 @@
       </base>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
       <constraint>
         <key value="ele-1"/>
@@ -1694,7 +1694,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/caseIdSystem"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
       </binding>
       <mapping>
         <identity value="v2"/>
@@ -1854,7 +1854,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/regulatoryActivityType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -1888,7 +1888,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/generalStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
       </binding>
       <mapping>
         <identity value="idmp"/>
@@ -1971,7 +1971,7 @@
       <min value="1"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/VsRegulatedAuthorization"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsRegulatedAuthorization"/>
       </binding>
     </element>
     <element id="RegulatedAuthorization.identifier.value">
@@ -1983,14 +1983,14 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       </type>
     </element>
     <element id="RegulatedAuthorization.type">
       <path value="RegulatedAuthorization.type"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
       </binding>
     </element>
     <element id="RegulatedAuthorization.description">
@@ -2002,7 +2002,7 @@
       <short value="The jusrisdiction in which the authorization has been granted"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/country"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country"/>
       </binding>
     </element>
     <element id="RegulatedAuthorization.status">
@@ -2010,7 +2010,7 @@
       <short value="The current status of this authorization"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/authorizationStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/authorizationStatus"/>
       </binding>
     </element>
     <element id="RegulatedAuthorization.indication">
@@ -2018,7 +2018,7 @@
       <short value="Reference to the Clinical Use Definition"/>
       <type>
         <code value="CodeableReference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"/>
       </type>
     </element>
     <element id="RegulatedAuthorization.indication.reference">
@@ -2030,14 +2030,14 @@
       <min value="1"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="RegulatedAuthorization.regulator">
       <path value="RegulatedAuthorization.regulator"/>
       <type>
         <code value="Reference"/>
-        <targetProfile value="http://hl7.org/fhir/uv/vulcan-eproduct-info/StructureDefinition/Organization-uv-epi"/>
+        <targetProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       </type>
     </element>
     <element id="RegulatedAuthorization.case">
@@ -2048,21 +2048,21 @@
       <path value="RegulatedAuthorization.case.identifier.system"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/caseIdSystem"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
       </binding>
     </element>
     <element id="RegulatedAuthorization.case.type">
       <path value="RegulatedAuthorization.case.type"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/regulatoryActivityType"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType"/>
       </binding>
     </element>
     <element id="RegulatedAuthorization.case.status">
       <path value="RegulatedAuthorization.case.status"/>
       <binding>
         <strength value="preferred"/>
-        <valueSet value="http://hl7.org/fhir/uv/vulcan-eproduct-info/ValueSet/generalStatus"/>
+        <valueSet value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
       </binding>
     </element>
   </differential>
