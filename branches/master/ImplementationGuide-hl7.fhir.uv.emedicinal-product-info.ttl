@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EpiIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info</pre><div><p>BR&amp;R creates and promotes standards to facilitate biomedical research and any subsequent regulatory evaluation of the safety, efficacy and quality of medical products that may arise from research.</p>\n</div></div>"
   ]; # 
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info"]; # 
-  fhir:ImplementationGuide.version [ fhir:value "1.0.0-Ballot"]; # 
+  fhir:ImplementationGuide.version [ fhir:value "1.0.0-ballot"]; # 
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-01T10:11:45+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-02T14:16:24+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -2273,7 +2273,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/745c01bc-936e-45ca-9880-57e97608f43e>;
          fhir:Reference.reference [ fhir:value "Ingredient/745c01bc-936e-45ca-9880-57e97608f43e" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active irbesartan" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Irbesartan – Example of Ingredient with basis for strength" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "irbesartan" ];
        fhir:ImplementationGuide.definition.resource.profile [
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
