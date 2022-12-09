@@ -1,0 +1,34 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "97de62c5-6774-4afa-9ee7-7e432cc6dad8-99",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/97de62c5-6774-4afa-9ee7-7e432cc6dad8-99",
+  "name" : "IntersectionVsEpiTypeAndVsEpiType",
+  "title" : "Intersection of ePI document types And ePI document types",
+  "status" : "active",
+  "date" : "2022-12-09T15:05:44+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "100000155538",
+        "display" : "Package Leaflet"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "34390-5",
+        "display" : "HUMAN OTC DRUG LABEL"
+      },
+      {
+        "code" : "34391-3",
+        "display" : "HUMAN PRESCRIPTION DRUG LABEL"
+      }]
+    }]
+  }
+}

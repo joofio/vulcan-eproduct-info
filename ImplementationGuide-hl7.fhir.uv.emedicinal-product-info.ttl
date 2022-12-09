@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-02T14:16:24+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-09T15:04:58+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -80,7 +80,7 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "value" ];
-         fhir:Extension.valueString [ fhir:value "CI Build" ]
+         fhir:Extension.valueString [ fhir:value "STU Ballot" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
      ], [
@@ -3944,7 +3944,7 @@
          fhir:Coding.system [ fhir:value "http://hl7.org/fhir/tools/CodeSystem/ig-parameters" ];
          fhir:Coding.code [ fhir:value "releaselabel" ]
        ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "CI Build" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "STU Ballot" ]
      ], [
        fhir:index 19;
        fhir:ImplementationGuide.definition.parameter.code [
