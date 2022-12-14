@@ -1,25 +1,27 @@
 ﻿EpiIG : Validation Results
 =========================================
 
-err = 172, warn = 64, info = 221
+err = 176, warn = 77, info = 131
 IG Publisher Version: 1.2.24
-Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
+Generated Wed Dec 14 18:18:25 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-2da7e0de-e567-4bd9-8211-6bbc72ccf649 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-373b9bf3-1fae-47a1-a7cd-230106def069 : 0 / 2 / 5
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-57f5ff3c-c26d-4d44-bbf4-6cc7aefb80bd : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-79e4149f-207e-47ea-a14c-2156649ced8c : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-cfsb1650999516847 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-cfsb1665507846505 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-cfsb1665507849181 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-xx : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-xxxxx : 0 / 0 / 5
- /github/workspace/fsh-generated/resources/Bundle-2f81d005-2ea1-4bdf-8f44-587fda4a52a6 : 0 / 10 / 108
- /github/workspace/fsh-generated/resources/Bundle-6da8dd5c-9783-42f7-879d-3f8251e2e639 : 0 / 10 / 66
- /github/workspace/fsh-generated/resources/Bundle-7545c8b4-5128-4425-8b92-1ae922259b1e : 0 / 6 / 103
- /github/workspace/fsh-generated/resources/Bundle-9ad134f5-dbb9-4756-8489-2ca70fdab5c1 : 0 / 6 / 89
+ /github/workspace/fsh-generated/resources/Bundle-0d7c83f4-56a5-46d5-9b93-d21c30d58574 : 2 / 7 / 61
+ /github/workspace/fsh-generated/resources/Bundle-2f81d005-2ea1-4bdf-8f44-587fda4a52a6 : 0 / 10 / 100
+ /github/workspace/fsh-generated/resources/Bundle-6da8dd5c-9783-42f7-879d-3f8251e2e639 : 0 / 10 / 58
+ /github/workspace/fsh-generated/resources/Bundle-7545c8b4-5128-4425-8b92-1ae922259b1e : 0 / 6 / 95
+ /github/workspace/fsh-generated/resources/Bundle-9ad134f5-dbb9-4756-8489-2ca70fdab5c1 : 0 / 6 / 81
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet75 : 0 / 4 / 118
- /github/workspace/fsh-generated/resources/Bundle-cfsb1651596479132 : 64 / 0 / 68
- /github/workspace/fsh-generated/resources/Bundle-cfsb1651597532341 : 64 / 0 / 68
+ /github/workspace/fsh-generated/resources/Bundle-cfsb1651596479132 : 64 / 0 / 60
+ /github/workspace/fsh-generated/resources/Bundle-cfsb1651597532341 : 64 / 0 / 60
  /github/workspace/fsh-generated/resources/CapabilityStatement-epi-server : 11 / 0 / 1
  /github/workspace/fsh-generated/resources/ClinicalUseDefinition-4e922ec1-a398-4a78-8381-3729422b7602 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/ClinicalUseDefinition-5e371f8f-48f2-43a1-b8c4-279d1986891f : 0 / 0 / 2
@@ -38,14 +40,17 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/CodeSystem-CodeSystemUvEPIRrmswi : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-CodeSystemUvEPIRsmswi : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-gravitate : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Composition-29c15497-ec3a-4647-ae45-df44a6c0fc65 : 0 / 2 / 11
- /github/workspace/fsh-generated/resources/Composition-62c55a84-3f0c-46a7-9179-312a0e9f110f : 0 / 2 / 11
- /github/workspace/fsh-generated/resources/Composition-8fc84937-c7b4-45f1-a5c6-3ec19b5674d7 : 0 / 2 / 11
- /github/workspace/fsh-generated/resources/Composition-c58a2559-c16a-4388-b133-a2612a8ccb68 : 0 / 2 / 11
- /github/workspace/fsh-generated/resources/Composition-cfsb1651231019151 : 0 / 0 / 11
- /github/workspace/fsh-generated/resources/Composition-cfsb1651234995610 : 0 / 0 / 11
+ /github/workspace/fsh-generated/resources/Composition-002670b7-0c2e-4583-9cfe-46ab06f4e014 : 0 / 2 / 3
+ /github/workspace/fsh-generated/resources/Composition-29c15497-ec3a-4647-ae45-df44a6c0fc65 : 0 / 2 / 3
+ /github/workspace/fsh-generated/resources/Composition-62c55a84-3f0c-46a7-9179-312a0e9f110f : 0 / 2 / 3
+ /github/workspace/fsh-generated/resources/Composition-8fc84937-c7b4-45f1-a5c6-3ec19b5674d7 : 0 / 2 / 3
+ /github/workspace/fsh-generated/resources/Composition-c58a2559-c16a-4388-b133-a2612a8ccb68 : 0 / 2 / 3
+ /github/workspace/fsh-generated/resources/Composition-cfsb1651231019151 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/Composition-cfsb1651234995610 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/Composition-e63f72b2-993f-48b1-b7cb-539b1ed71571 : 0 / 1 / 12
  /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.emedicinal-product-info : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/Ingredient-024196e7-a36f-4b63-ac35-af98ed3e67f6 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-07c746e5-ca65-4646-b4af-48a23d454f30 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-09c13040-8fd5-4818-972d-f01d4ee169b6 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-0b85af0d-bc40-4f9f-a522-4cba8d51f8a4 : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/Ingredient-10bc2401-23f1-4e47-b3d3-730e599a1e93 : 0 / 0 / 2
@@ -68,8 +73,10 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Ingredient-7717bb68-373b-4549-adc6-080a961f44a8 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-7a3c0b14-2473-4541-9e45-a24d24cceddf : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-7c7fe6a6-3628-41b7-84c1-7f182dd0dc9f : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/Ingredient-8ac669b9-eb26-4232-be2e-9858bff72fc0 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-8ca81fcb-bc37-428f-90d8-93464193fea2 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-9ad9a0f3-8244-4aee-809b-16a8490cd837 : 1 / 1 / 2
  /github/workspace/fsh-generated/resources/Ingredient-a4b7b60c-998f-4f93-89c7-860396af0fe3 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-a88891dc-7e9e-4d84-b462-95e53de3b6a6 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-bcedce7d-07ac-461e-955f-60e33589ff19 : 0 / 0 / 2
@@ -110,6 +117,7 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-cfsb1650998521654 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-cfsb1667576615115 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-cfsb1667576759979 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-ed2b34a7-e18d-4b76-8102-1a214d2aa2a9 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-fabc4bf2-0393-433d-baff-0122606e5049 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367 : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-53d36464-e1de-42c2-aa91-9cf2c7af7515 : 0 / 0 / 7
@@ -118,12 +126,14 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-cfsb1650904258324 : 2 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-cfsb1665505881364 : 3 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-cfsb1665505991728 : 3 / 0 / 7
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-e08788c9-1403-4d0e-9e5f-fef66bb88d2e : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-fb2a80e7-b5cb-4035-ac9c-2e655a9bb298 : 0 / 0 / 9
  /github/workspace/fsh-generated/resources/Organization-01e531fb-7cf6-446a-94f7-217c9c9bbc47 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-36e7be59-db47-4e36-8fcf-8547ab0fd175 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-38676041-1bb2-43e9-9bf7-0b02de0e3b97 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-7569e92a-c5b5-44af-a965-4f760aebbd66 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-80afb7f0-9865-46b6-b137-622e8fe7dd6d : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Organization-93c7f694-718b-48c9-bf22-06029bb40679 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-a8ad4152-3e43-48d9-a11c-75685eb1ce01 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-b71cd809-191a-418d-961f-e733c698bcae : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-cfsb1650997423990 : 2 / 0 / 2
@@ -142,6 +152,7 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-2a1300ff-712f-4adf-9d97-68079e1ea81b : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-7a0c05d7-e40e-4f33-b2cb-02beb61ca790 : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-9f1d9c2d-eb18-4524-8611-b478975190e6 : 0 / 1 / 4
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-b3f25574-fca9-4994-82c5-da198f8fa6ac : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ba66035b-96a3-414d-8274-7640b5af8148 : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-cfsb1650995718524 : 1 / 0 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-cfsb1667580052450 : 1 / 0 / 4
@@ -150,6 +161,7 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-0de57933-1ad6-429f-9507-461ebea37790 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-177536ed-754a-4e64-8d19-b7e873b6f688 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-297e405a-b6f9-4273-bc01-ae031efe47f8 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/RegulatedAuthorization-6025c7f1-df31-463b-b3b9-de97ed0787ff : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-cf5b7336-8b94-4856-8e61-049fac698c80 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-cfsb1651148079894 : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-cfsb1665505019066 : 2 / 0 / 2
@@ -171,6 +183,7 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/StructureDefinition-SubstanceDefinition-uv-epi : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/SubstanceDefinition-09e2fc38-0c24-41f3-8cf6-5110640f519f : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/SubstanceDefinition-6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/SubstanceDefinition-c610e618-ea39-4d75-ad1e-11bb8e2f65f0 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/SubstanceDefinition-da33bd51-a726-4232-aaa0-4168b9bfe249 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ValueSet-PharmaceuticalDoseForm : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-RegulatedAuthorizationTypeIdSystems : 0 / 0 / 1
@@ -225,6 +238,7 @@ Generated Wed Dec 14 14:19:05 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
 WARNING: The jira specification file appears to be out of date with the versions, artifacts and pages currently defined in the IG.  A proposed revised file to be reviewed and, if appropriate, submitted as a pull request against the XML folder in https://github.com/HL7/JIRA-Spec-Artifacts.  To see the differences, perform a file compare on 'template/jira-current.xml' (a normalized view of what is in Github) and 'template/jira-new.xml' (reflects current IG content)
 == fsh-generated/resources/AdministrableProductDefinition-2da7e0de-e567-4bd9-8211-6bbc72ccf649.json ==
 == fsh-generated/resources/AdministrableProductDefinition-373b9bf3-1fae-47a1-a7cd-230106def069.json ==
+== fsh-generated/resources/AdministrableProductDefinition-57f5ff3c-c26d-4d44-bbf4-6cc7aefb80bd.json ==
 == fsh-generated/resources/AdministrableProductDefinition-79e4149f-207e-47ea-a14c-2156649ced8c.json ==
 == fsh-generated/resources/AdministrableProductDefinition-cfsb1650999516847.json ==
 INFORMATION: AdministrableProductDefinition/cfsb1650999516847: AdministrableProductDefinition.administrableDoseForm.coding[0]: Code System URI 'https://standardterms.edqm.eu/browse/get_concepts_by/SOM/SOM/' is unknown so the code cannot be validated
@@ -243,19 +257,24 @@ INFORMATION: AdministrableProductDefinition/cfsb1665507849181: AdministrableProd
 INFORMATION: AdministrableProductDefinition/cfsb1665507849181: AdministrableProductDefinition.routeOfAdministration[0].targetSpecies[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/AdministrableProductDefinition-xx.json ==
 == fsh-generated/resources/AdministrableProductDefinition-xxxxx.json ==
+== fsh-generated/resources/Bundle-0d7c83f4-56a5-46d5-9b93-d21c30d58574.json ==
+INFORMATION: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[0].resource.ofType(Composition).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+WARNING: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[0].resource.ofType(Composition).section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+WARNING: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[0].resource.ofType(Composition).section[0].entry[4]: Entry 5 matches the reference SubstanceDefinition/c610e618-ea39-4d75-ad1e-11bb8e2f65f0 by type and id but it's fullUrl Substance/c610e618-ea39-4d75-ad1e-11bb8e2f65f0 does not match the full target URL SubstanceDefinition/c610e618-ea39-4d75-ad1e-11bb8e2f65f0 by Bundle resolution rules
+WARNING: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[0].resource.ofType(Composition).section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+INFORMATION: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+WARNING: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[3].resource.ofType(Ingredient).substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
+WARNING: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[3].resource.ofType(Ingredient).substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
+ERROR: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[4].resource.ofType(Ingredient).status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
+WARNING: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[4].resource.ofType(Ingredient).substance.code.concept.coding[0]: The display "Water for injections" is not a valid display for the code {http://fdasis.nlm.nih.gov}059QF0KO0R - should be one of ['', 'ADELHEID AQUA', 'ADELHEIDSQUELLE', 'ADELHEIDSQUELLE [HPUS]', 'AQUA', 'AQUA [INCI]', 'AQUA ADELHEID', 'AQUA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA PURIFICATA [WHO-IP LATIN]', 'AQUA STERILISATA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA WIESBADEN', 'AQUA WILDBAD', 'AQUAFINA', 'AQUEOUS SOLUTION', 'B1217 [LANGUAL]', 'BACTERIOSTATIC WATER FOR INJECTION', 'DEIONIZED WATER', 'DISTILLED WATER', 'HYDROGEN OXIDE (H2O)', 'NSC-147337', 'PURIFIED WATER', 'PURIFIED WATER [MART.]', 'PURIFIED WATER [ORANGE BOOK]', 'PURIFIED WATER [USP MONOGRAPH]', 'PURIFIED WATER [WHO-IP]', 'R-718', 'STERILE PURIFIED WATER', 'STERILE PURIFIED WATER [USP MONOGRAPH]', 'STERILE WATER', 'STERILE WATER FOR INHALATION', 'STERILE WATER FOR INHALATION [II]', 'STERILE WATER FOR INJECTION', 'STERILE WATER FOR INJECTION [ORANGE BOOK]', 'STERILE WATER FOR INJECTIONS [WHO-IP]', 'STERILE WATER FOR IRRIGATION', 'STERILE WATER FOR IRRIGATION [ORANGE BOOK]', 'ULTREX II ULTRAPURE', 'WATER', 'WATER [INCI]', 'WATER [MI]', 'WATER [VANDF]', 'WATER [WHO-DD]', 'WATER FOR HEMODIALYSIS', 'WATER FOR INHALATION, STERILE', 'WATER FOR INJECTION', 'WATER FOR INJECTION [VANDF]', 'WATER FOR INJECTION [WHO-DD]', 'WATER FOR INJECTION, BACTERIOSTATIC', 'WATER FOR INJECTION, STERILE', 'WATER FOR INJECTION,BACTERIOSTATIC', 'WATER FOR INJECTION,BACTERIOSTATIC [VANDF]', 'WATER FOR INJECTIONS [WHO-IP]', 'WATER FOR IRRIGATION, STERILE', 'WATER FOR IRRIGATION,STERILE [VANDF]', 'WATER PURIFIED [WHO-DD]', 'WATER, DEIONIZED', 'WATER, DISTILLED', 'WATER, PURIFIED', 'WATER, PURIFIED [EP MONOGRAPH]', 'WATER, PURIFIED STERILE', 'WATER, STERILE', 'WATER, STERILE PURIFIED', 'WATER,BACTERIOSTATIC [VANDF]', 'WATER,BACTERIOSTATIC INJECTION [VANDF]', 'WATER,DEIONIZED [VANDF]', 'WATER,DISTILLED [VANDF]', 'WATER,PURIFIED [VANDF]', 'WATER,SANITIZED [VANDF]', 'WATER,STERILE [VANDF]', 'WIESBADEN [HPUS]', 'WIESBADEN AQUA', 'WILDBAD AQUA'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#059QF0KO0R'
+ERROR: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[7].resource.ofType(RegulatedAuthorization).region[0].coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "EU" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#EU) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#EU'
+WARNING: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[9].resource.ofType(PackagedProductDefinition).status.coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574: Bundle.entry[11].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Bundle-2f81d005-2ea1-4bdf-8f44-587fda4a52a6.json ==
 INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 WARNING: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[4].resource.ofType(Ingredient).substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
 WARNING: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[4].resource.ofType(Ingredient).substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
 WARNING: Bundle/2f81d005-2ea1-4bdf-8f44-587fda4a52a6: Bundle.entry[5].resource.ofType(Ingredient).substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
@@ -273,14 +292,6 @@ WARNING: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.o
 WARNING: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[0].entry[3]: Entry 4 matches the reference SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7 by type and id but it's fullUrl Substance/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7 does not match the full target URL SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7 by Bundle resolution rules
 WARNING: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[1].resource.ofType(Ingredient).substance.code.concept.coding[0]: The display "acmedrug-ing3" is not a valid display for the code {http://fdasis.nlm.nih.gov}ETJ7Z6XBU4 - should be one of ['', '.ALPHA.-TRIDYMITE', 'AEROSIL 130', 'AEROSIL 200', 'AEROSIL 255', 'AEROSIL 300', 'AEROSIL 380', 'AEROSIL-200', 'AGATE', 'AVENTURINE', 'CAB-O-SIL M-5P', 'CHRISTENSENITE', 'COLLOIDAL SILICON DIOXIDE', 'COLLOIDAL SILICON DIOXIDE [MART.]', 'COLLOIDAL SILICON DIOXIDE ANHYDROUS', 'CRYSTALLIZED SILICON DIOXIDE', 'E-551', 'FUMED SILICON DIOXIDE', 'INS NO.551', 'INS-551', 'LIGHT ANHYDROUS SILICIC ACID', 'LIGHT ANHYDROUS SILICIC ACID [JAN]', 'LUDOX', 'QUARTZ', 'QUARTZ [INCI]', 'QUSO F-22', 'QUSO F-22 [II]', 'ROCK CRYSTAL', 'SAND', 'SAND [INCI]', 'SILICA', 'SILICA [INCI]', 'SILICA AEROGEL', 'SILICA GEL', 'SILICA GEL [VANDF]', 'SILICA GEL [WHO-DD]', 'SILICA SAND', 'SILICA, AMORPHOUS [IARC]', 'SILICA, COLLOIDAL ANHYDROUS', 'SILICA, COLLOIDAL ANHYDROUS [EP MONOGRAPH]', 'SILICA, DENTAL', 'SILICA, DENTAL [II]', 'SILICA, DENTAL TYPE [EP MONOGRAPH]', 'SILICA, DENTAL-TYPE', 'SILICA, FUMED', 'SILICA,FUMED [VANDF]', 'SILICATE [VANDF]', 'SILICEA', 'SILICEA [HPUS]', 'SILICON DIOXIDE', 'SILICON DIOXIDE [FCC]', 'SILICON DIOXIDE [II]', 'SILICON DIOXIDE [MI]', 'SILICON DIOXIDE [VANDF]', 'SILICON DIOXIDE [WHO-DD]', 'SILICON DIOXIDE COMPONENT OF SIMETHICONE', 'SILICON DIOXIDE, AMORPHOUS', 'SILICON DIOXIDE, COLLOIDAL', 'SILICON DIOXIDE, COLLOIDAL [II]', 'SILICON DIOXIDE, FUMED', 'SILICON DIOXIDE,COLLOIDAL [VANDF]', 'SILICONE DIOXIDE [VANDF]', 'SIMETHICONE COMPONENT SILICON DIOXIDE', 'SYLOID 244 [VANDF]', 'SYLOID SILICA GEL [VANDF]', 'TIGER-EYE', 'TRIDYMITE', 'TRIDYMITE (SIO2)'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#ETJ7Z6XBU4'
 WARNING: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[2].resource.ofType(Ingredient).substance.code.concept.coding[0]: The display "acmedrug-ing2" is not a valid display for the code {http://fdasis.nlm.nih.gov}15FIX9V2JP - should be one of ['', 'C.I. 77891', 'CI 77891', 'CI 77891 [INCI]', 'CI-(1975)NO.77891', 'CI-77891', 'CI-PIGMENT WHITE 6', 'E 171', 'E-171', 'INS NO.171', 'INS-171', 'NSC-15204', 'NSC-200C', 'RUTILE', 'RUTILE (TIO2)', 'SAGENITE', 'TITANIA', 'TITANIUM DIOXIDE', 'TITANIUM DIOXIDE [EP MONOGRAPH]', 'TITANIUM DIOXIDE [EP]', 'TITANIUM DIOXIDE [FCC]', 'TITANIUM DIOXIDE [HSDB]', 'TITANIUM DIOXIDE [IARC]', 'TITANIUM DIOXIDE [II]', 'TITANIUM DIOXIDE [INCI]', 'TITANIUM DIOXIDE [MART.]', 'TITANIUM DIOXIDE [MI]', 'TITANIUM DIOXIDE [ORANGE BOOK]', 'TITANIUM DIOXIDE [USP]', 'TITANIUM DIOXIDE [USP-RS]', 'TITANIUM DIOXIDE [VANDF]', 'TITANIUM DIOXIDE [WHO-DD]', 'TITANIUM OXIDE'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#15FIX9V2JP'
 WARNING: Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639: Bundle.entry[3].resource.ofType(Ingredient).substance.code.concept.coding[0]: The display "acmedrug-ing1" is not a valid display for the code {http://fdasis.nlm.nih.gov}J0E2756Z7N - should be one of ['', '1,3-DIAZASPIRO(4.4)NON-1-EN-4-ONE, 2-BUTYL-3-((2'-(1H-TETRAZOL-5-YL)(1,1'-BIPHENYL)-4-YL)METHYL)-', '2-BUTYL-3-(P-(O-1H-TETRAZOL-5-YLPHENYL)BENZYL)-1,3-DIAZASPIRO(4.4)NON-1-EN-4-ONE', 'AVALIDE COMPONENT IRBESARTAN', 'AVAPRO', 'BMS-186295', 'COAPROVEL COMPONENT IRBESARTAN', 'IBERSARTAN COMPONENT OF IBERSARTAN/HYDROCHLOROTHIAZIDE TEVA', 'IBERSARTAN COMPONENT OF IBERSARTAN/HYDROCHLOROTHIAZIDE ZENTIVA', 'IBERSARTAN/HYDROCHLOROTHIAZIDE COMPONENT IBERSARTAN', 'IBERSARTAN/HYDROCHLOROTHIAZIDE TEVA COMPONENT IBERSARTAN', 'IBERSARTAN/HYDROCHLOROTHIAZIDE ZENTIVA COMPONENT IBERSARTAN', 'IFIRMACOMBI COMPONENT IRBESARTAN', 'IRBESARTAN', 'IRBESARTAN [EMA EPAR]', 'IRBESARTAN [EP MONOGRAPH]', 'IRBESARTAN [EP]', 'IRBESARTAN [INN]', 'IRBESARTAN [JAN]', 'IRBESARTAN [MART.]', 'IRBESARTAN [MI]', 'IRBESARTAN [ORANGE BOOK]', 'IRBESARTAN [USAN]', 'IRBESARTAN [USP MONOGRAPH]', 'IRBESARTAN [USP]', 'IRBESARTAN [USP-RS]', 'IRBESARTAN [VANDF]', 'IRBESARTAN [WHO-DD]', 'IRBESARTAN BMS', 'IRBESARTAN COMPONENT OF AVALIDE', 'IRBESARTAN COMPONENT OF COAPROVEL', 'IRBESARTAN COMPONENT OF IFIRMACOMBI', 'IRBESARTAN COMPONENT OF KARVEZIDE', 'IRBESARTAN TEVA', 'IRBESARTAN ZENTIVA', 'KARVEA', 'NSC-758696', 'SARBEVEL', 'SR 47436', 'SR-47436'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#J0E2756Z7N'
@@ -295,14 +306,6 @@ WARNING: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.o
 WARNING: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[0].entry[13]: Entry 14 matches the reference SubstanceDefinition/09e2fc38-0c24-41f3-8cf6-5110640f519f by type and id but it's fullUrl Substance/09e2fc38-0c24-41f3-8cf6-5110640f519f does not match the full target URL SubstanceDefinition/09e2fc38-0c24-41f3-8cf6-5110640f519f by Bundle resolution rules
 WARNING: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[9].resource.ofType(Ingredient).substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
 WARNING: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[9].resource.ofType(Ingredient).substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
 WARNING: Bundle/7545c8b4-5128-4425-8b92-1ae922259b1e: Bundle.entry[18].resource.ofType(PackagedProductDefinition).status.coding[0]: A code with no system has no defined meaning. A system should be provided
@@ -312,14 +315,6 @@ INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resour
 WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[4].resource.ofType(Ingredient).substance.code.concept.coding[0]: The display "Water for injections" is not a valid display for the code {http://fdasis.nlm.nih.gov}059QF0KO0R - should be one of ['', 'ADELHEID AQUA', 'ADELHEIDSQUELLE', 'ADELHEIDSQUELLE [HPUS]', 'AQUA', 'AQUA [INCI]', 'AQUA ADELHEID', 'AQUA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA PURIFICATA [WHO-IP LATIN]', 'AQUA STERILISATA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA WIESBADEN', 'AQUA WILDBAD', 'AQUAFINA', 'AQUEOUS SOLUTION', 'B1217 [LANGUAL]', 'BACTERIOSTATIC WATER FOR INJECTION', 'DEIONIZED WATER', 'DISTILLED WATER', 'HYDROGEN OXIDE (H2O)', 'NSC-147337', 'PURIFIED WATER', 'PURIFIED WATER [MART.]', 'PURIFIED WATER [ORANGE BOOK]', 'PURIFIED WATER [USP MONOGRAPH]', 'PURIFIED WATER [WHO-IP]', 'R-718', 'STERILE PURIFIED WATER', 'STERILE PURIFIED WATER [USP MONOGRAPH]', 'STERILE WATER', 'STERILE WATER FOR INHALATION', 'STERILE WATER FOR INHALATION [II]', 'STERILE WATER FOR INJECTION', 'STERILE WATER FOR INJECTION [ORANGE BOOK]', 'STERILE WATER FOR INJECTIONS [WHO-IP]', 'STERILE WATER FOR IRRIGATION', 'STERILE WATER FOR IRRIGATION [ORANGE BOOK]', 'ULTREX II ULTRAPURE', 'WATER', 'WATER [INCI]', 'WATER [MI]', 'WATER [VANDF]', 'WATER [WHO-DD]', 'WATER FOR HEMODIALYSIS', 'WATER FOR INHALATION, STERILE', 'WATER FOR INJECTION', 'WATER FOR INJECTION [VANDF]', 'WATER FOR INJECTION [WHO-DD]', 'WATER FOR INJECTION, BACTERIOSTATIC', 'WATER FOR INJECTION, STERILE', 'WATER FOR INJECTION,BACTERIOSTATIC', 'WATER FOR INJECTION,BACTERIOSTATIC [VANDF]', 'WATER FOR INJECTIONS [WHO-IP]', 'WATER FOR IRRIGATION, STERILE', 'WATER FOR IRRIGATION,STERILE [VANDF]', 'WATER PURIFIED [WHO-DD]', 'WATER, DEIONIZED', 'WATER, DISTILLED', 'WATER, PURIFIED', 'WATER, PURIFIED [EP MONOGRAPH]', 'WATER, PURIFIED STERILE', 'WATER, STERILE', 'WATER, STERILE PURIFIED', 'WATER,BACTERIOSTATIC [VANDF]', 'WATER,BACTERIOSTATIC INJECTION [VANDF]', 'WATER,DEIONIZED [VANDF]', 'WATER,DISTILLED [VANDF]', 'WATER,PURIFIED [VANDF]', 'WATER,SANITIZED [VANDF]', 'WATER,STERILE [VANDF]', 'WIESBADEN [HPUS]', 'WIESBADEN AQUA', 'WILDBAD AQUA'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#059QF0KO0R'
 WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[5].resource.ofType(Ingredient).substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
 WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[5].resource.ofType(Ingredient).substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
@@ -352,14 +347,6 @@ INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Compositi
 ERROR: Bundle/cfsb1651596479132: Bundle.entry[0]: Bundle entry missing fullUrl
 ERROR: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).subject[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).author[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651596479132: Bundle.entry[0].resource.ofType(Composition).section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
 ERROR: Bundle/cfsb1651596479132: Bundle.entry[1].resource.ofType(Organization).identifier[0]: Identifier.system must be an absolute reference, not a local reference
 ERROR: Bundle/cfsb1651596479132: Bundle.entry[1].resource.ofType(Organization).identifier[1]: Identifier.system must be an absolute reference, not a local reference
 ERROR: Bundle/cfsb1651596479132: Bundle.entry[2].resource.ofType(Organization).identifier[1]: Identifier.system must be an absolute reference, not a local reference
@@ -442,14 +429,6 @@ INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Compositi
 ERROR: Bundle/cfsb1651597532341: Bundle.entry[0]: Bundle entry missing fullUrl
 ERROR: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).subject[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
 ERROR: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).author[0]: Relative Reference appears inside Bundle whose entry is missing a fullUrl
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Bundle/cfsb1651597532341: Bundle.entry[0].resource.ofType(Composition).section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
 ERROR: Bundle/cfsb1651597532341: Bundle.entry[1].resource.ofType(Organization).identifier[0]: Identifier.system must be an absolute reference, not a local reference
 ERROR: Bundle/cfsb1651597532341: Bundle.entry[1].resource.ofType(Organization).identifier[1]: Identifier.system must be an absolute reference, not a local reference
 ERROR: Bundle/cfsb1651597532341: Bundle.entry[2].resource.ofType(Organization).identifier[1]: Identifier.system must be an absolute reference, not a local reference
@@ -554,83 +533,42 @@ ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].operation[4].
 == fsh-generated/resources/CodeSystem-CodeSystemUvEPIRrmswi.json ==
 == fsh-generated/resources/CodeSystem-CodeSystemUvEPIRsmswi.json ==
 == fsh-generated/resources/CodeSystem-gravitate.json ==
+== fsh-generated/resources/Composition-002670b7-0c2e-4583-9cfe-46ab06f4e014.json ==
+INFORMATION: Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+WARNING: Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014: Composition.section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+WARNING: Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014: Composition.section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+INFORMATION: Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-29c15497-ec3a-4647-ae45-df44a6c0fc65.json ==
 INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 WARNING: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-62c55a84-3f0c-46a7-9179-312a0e9f110f.json ==
 INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 WARNING: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f: Composition.section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-8fc84937-c7b4-45f1-a5c6-3ec19b5674d7.json ==
 INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 WARNING: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7: Composition.section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-c58a2559-c16a-4388-b133-a2612a8ccb68.json ==
 INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 WARNING: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
 INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
-INFORMATION: Composition/c58a2559-c16a-4388-b133-a2612a8ccb68: Composition.section[1].section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-cfsb1651231019151.json ==
 INFORMATION: Composition/cfsb1651231019151: Composition.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|5.0.0-ballot), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/#100000155538)
 INFORMATION: Composition/cfsb1651231019151: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651231019151: Composition.section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-cfsb1651234995610.json ==
 INFORMATION: Composition/cfsb1651234995610: Composition.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|5.0.0-ballot), and a coding is recommended to come from this value set) (codes = https://spor.ema.europa.eu/#100000155538)
 INFORMATION: Composition/cfsb1651234995610: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
-INFORMATION: Composition/cfsb1651234995610: Composition.section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-e63f72b2-993f-48b1-b7cb-539b1ed71571.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.emedicinal-product-info.json ==
-WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[73].name: value should not start or finish with whitespace 'Regulated...Humalog '
+WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[77].name: value should not start or finish with whitespace 'Regulated...Humalog '
+== fsh-generated/resources/Ingredient-024196e7-a36f-4b63-ac35-af98ed3e67f6.json ==
+== fsh-generated/resources/Ingredient-07c746e5-ca65-4646-b4af-48a23d454f30.json ==
 == fsh-generated/resources/Ingredient-09c13040-8fd5-4818-972d-f01d4ee169b6.json ==
 == fsh-generated/resources/Ingredient-0b85af0d-bc40-4f9f-a522-4cba8d51f8a4.json ==
 WARNING: Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4: Ingredient.substance.code.concept.coding[0]: The display "Concentrated hydrochloric acid" is not a valid display for the code {http://fdasis.nlm.nih.gov}QTT17582CB - should be one of ['', 'ACIDUM HYDROCHLORICUM [WHO-IP LATIN]', 'ACIDUM HYDROCHLORICUM DILUTUM [WHO-IP LATIN]', 'ANHYDROUS HYDROCHLORIC ACID', 'BAUME HCL', 'DILUTE HYDROCHLORIC ACID [WHO-IP]', 'DILUTED HYDROCHLORIC ACID', 'E-507', 'ENPLATE PO 236', 'HYDROCHLORIC ACID', 'HYDROCHLORIC ACID [FCC]', 'HYDROCHLORIC ACID [HSDB]', 'HYDROCHLORIC ACID [IARC]', 'HYDROCHLORIC ACID [II]', 'HYDROCHLORIC ACID [INCI]', 'HYDROCHLORIC ACID [MART.]', 'HYDROCHLORIC ACID [MI]', 'HYDROCHLORIC ACID [VANDF]', 'HYDROCHLORIC ACID [WHO-DD]', 'HYDROCHLORIC ACID [WHO-IP]', 'HYDROCHLORIC ACID, DILUTED', 'HYDROCHLORIC ACID, DILUTED [II]', 'HYDROGEN CHLORIDE', 'HYDROGEN CHLORIDE [MI]', 'ICON ETCH', 'INS NO.507', 'INS-507', 'MURIATIC ACID', 'MURIATICUM ACIDUM', 'MURIATICUM ACIDUM [HPUS]', 'NSC-77365'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#QTT17582CB'
@@ -662,8 +600,14 @@ WARNING: Ingredient/6d7916dc-e367-47cf-b39d-a5aa38b059cb: Ingredient.substance.s
 == fsh-generated/resources/Ingredient-7717bb68-373b-4549-adc6-080a961f44a8.json ==
 == fsh-generated/resources/Ingredient-7a3c0b14-2473-4541-9e45-a24d24cceddf.json ==
 == fsh-generated/resources/Ingredient-7c7fe6a6-3628-41b7-84c1-7f182dd0dc9f.json ==
+== fsh-generated/resources/Ingredient-7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa.json ==
+WARNING: Ingredient/7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa: Ingredient.substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
+WARNING: Ingredient/7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa: Ingredient.substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
 == fsh-generated/resources/Ingredient-8ac669b9-eb26-4232-be2e-9858bff72fc0.json ==
 == fsh-generated/resources/Ingredient-8ca81fcb-bc37-428f-90d8-93464193fea2.json ==
+== fsh-generated/resources/Ingredient-9ad9a0f3-8244-4aee-809b-16a8490cd837.json ==
+ERROR: Ingredient/9ad9a0f3-8244-4aee-809b-16a8490cd837: Ingredient.status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
+WARNING: Ingredient/9ad9a0f3-8244-4aee-809b-16a8490cd837: Ingredient.substance.code.concept.coding[0]: The display "Water for injections" is not a valid display for the code {http://fdasis.nlm.nih.gov}059QF0KO0R - should be one of ['', 'ADELHEID AQUA', 'ADELHEIDSQUELLE', 'ADELHEIDSQUELLE [HPUS]', 'AQUA', 'AQUA [INCI]', 'AQUA ADELHEID', 'AQUA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA PURIFICATA [WHO-IP LATIN]', 'AQUA STERILISATA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA WIESBADEN', 'AQUA WILDBAD', 'AQUAFINA', 'AQUEOUS SOLUTION', 'B1217 [LANGUAL]', 'BACTERIOSTATIC WATER FOR INJECTION', 'DEIONIZED WATER', 'DISTILLED WATER', 'HYDROGEN OXIDE (H2O)', 'NSC-147337', 'PURIFIED WATER', 'PURIFIED WATER [MART.]', 'PURIFIED WATER [ORANGE BOOK]', 'PURIFIED WATER [USP MONOGRAPH]', 'PURIFIED WATER [WHO-IP]', 'R-718', 'STERILE PURIFIED WATER', 'STERILE PURIFIED WATER [USP MONOGRAPH]', 'STERILE WATER', 'STERILE WATER FOR INHALATION', 'STERILE WATER FOR INHALATION [II]', 'STERILE WATER FOR INJECTION', 'STERILE WATER FOR INJECTION [ORANGE BOOK]', 'STERILE WATER FOR INJECTIONS [WHO-IP]', 'STERILE WATER FOR IRRIGATION', 'STERILE WATER FOR IRRIGATION [ORANGE BOOK]', 'ULTREX II ULTRAPURE', 'WATER', 'WATER [INCI]', 'WATER [MI]', 'WATER [VANDF]', 'WATER [WHO-DD]', 'WATER FOR HEMODIALYSIS', 'WATER FOR INHALATION, STERILE', 'WATER FOR INJECTION', 'WATER FOR INJECTION [VANDF]', 'WATER FOR INJECTION [WHO-DD]', 'WATER FOR INJECTION, BACTERIOSTATIC', 'WATER FOR INJECTION, STERILE', 'WATER FOR INJECTION,BACTERIOSTATIC', 'WATER FOR INJECTION,BACTERIOSTATIC [VANDF]', 'WATER FOR INJECTIONS [WHO-IP]', 'WATER FOR IRRIGATION, STERILE', 'WATER FOR IRRIGATION,STERILE [VANDF]', 'WATER PURIFIED [WHO-DD]', 'WATER, DEIONIZED', 'WATER, DISTILLED', 'WATER, PURIFIED', 'WATER, PURIFIED [EP MONOGRAPH]', 'WATER, PURIFIED STERILE', 'WATER, STERILE', 'WATER, STERILE PURIFIED', 'WATER,BACTERIOSTATIC [VANDF]', 'WATER,BACTERIOSTATIC INJECTION [VANDF]', 'WATER,DEIONIZED [VANDF]', 'WATER,DISTILLED [VANDF]', 'WATER,PURIFIED [VANDF]', 'WATER,SANITIZED [VANDF]', 'WATER,STERILE [VANDF]', 'WIESBADEN [HPUS]', 'WIESBADEN AQUA', 'WILDBAD AQUA'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#059QF0KO0R'
 == fsh-generated/resources/Ingredient-a4b7b60c-998f-4f93-89c7-860396af0fe3.json ==
 == fsh-generated/resources/Ingredient-a88891dc-7e9e-4d84-b462-95e53de3b6a6.json ==
 == fsh-generated/resources/Ingredient-bcedce7d-07ac-461e-955f-60e33589ff19.json ==
@@ -753,6 +697,8 @@ INFORMATION: ManufacturedItemDefinition/cfsb1650998521654: ManufacturedItemDefin
 INFORMATION: ManufacturedItemDefinition/cfsb1667576615115: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-cfsb1667576759979.json ==
 INFORMATION: ManufacturedItemDefinition/cfsb1667576759979: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+== fsh-generated/resources/ManufacturedItemDefinition-ed2b34a7-e18d-4b76-8102-1a214d2aa2a9.json ==
+INFORMATION: ManufacturedItemDefinition/ed2b34a7-e18d-4b76-8102-1a214d2aa2a9: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-fabc4bf2-0393-433d-baff-0122606e5049.json ==
 INFORMATION: ManufacturedItemDefinition/fabc4bf2-0393-433d-baff-0122606e5049: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicinalProductDefinition-3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367.json ==
@@ -770,6 +716,7 @@ ERROR: MedicinalProductDefinition/cfsb1665505881364: MedicinalProductDefinition.
 ERROR: MedicinalProductDefinition/cfsb1665505991728: MedicinalProductDefinition.identifier[0]: Identifier.system must be an absolute reference, not a local reference
 ERROR: MedicinalProductDefinition/cfsb1665505991728: MedicinalProductDefinition.name[0].usage[0].country.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
 ERROR: MedicinalProductDefinition/cfsb1665505991728: MedicinalProductDefinition.name[0].usage[0].jurisdiction.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
+== fsh-generated/resources/MedicinalProductDefinition-e08788c9-1403-4d0e-9e5f-fef66bb88d2e.json ==
 == fsh-generated/resources/MedicinalProductDefinition-fb2a80e7-b5cb-4035-ac9c-2e655a9bb298.json ==
 INFORMATION: MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298: MedicinalProductDefinition.classification[0].coding[0]: Code System URI 'https://www.whocc.no/atc_ddd_index/' is unknown so the code cannot be validated
 INFORMATION: MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298: MedicinalProductDefinition.classification[1].coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
@@ -778,6 +725,7 @@ INFORMATION: MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298: Me
 == fsh-generated/resources/Organization-38676041-1bb2-43e9-9bf7-0b02de0e3b97.json ==
 == fsh-generated/resources/Organization-7569e92a-c5b5-44af-a965-4f760aebbd66.json ==
 == fsh-generated/resources/Organization-80afb7f0-9865-46b6-b137-622e8fe7dd6d.json ==
+== fsh-generated/resources/Organization-93c7f694-718b-48c9-bf22-06029bb40679.json ==
 == fsh-generated/resources/Organization-a8ad4152-3e43-48d9-a11c-75685eb1ce01.json ==
 == fsh-generated/resources/Organization-b71cd809-191a-418d-961f-e733c698bcae.json ==
 == fsh-generated/resources/Organization-cfsb1650997423990.json ==
@@ -810,6 +758,8 @@ WARNING: PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b: Package
 WARNING: PackagedProductDefinition/7a0c05d7-e40e-4f33-b2cb-02beb61ca790: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/PackagedProductDefinition-9f1d9c2d-eb18-4524-8611-b478975190e6.json ==
 WARNING: PackagedProductDefinition/9f1d9c2d-eb18-4524-8611-b478975190e6: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PackagedProductDefinition-b3f25574-fca9-4994-82c5-da198f8fa6ac.json ==
+WARNING: PackagedProductDefinition/b3f25574-fca9-4994-82c5-da198f8fa6ac: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/PackagedProductDefinition-ba66035b-96a3-414d-8274-7640b5af8148.json ==
 WARNING: PackagedProductDefinition/ba66035b-96a3-414d-8274-7640b5af8148: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/PackagedProductDefinition-cfsb1650995718524.json ==
@@ -821,6 +771,8 @@ ERROR: PackagedProductDefinition/cfsb1667580052450: PackagedProductDefinition.id
 == fsh-generated/resources/RegulatedAuthorization-0de57933-1ad6-429f-9507-461ebea37790.json ==
 == fsh-generated/resources/RegulatedAuthorization-177536ed-754a-4e64-8d19-b7e873b6f688.json ==
 == fsh-generated/resources/RegulatedAuthorization-297e405a-b6f9-4273-bc01-ae031efe47f8.json ==
+== fsh-generated/resources/RegulatedAuthorization-6025c7f1-df31-463b-b3b9-de97ed0787ff.json ==
+ERROR: RegulatedAuthorization/6025c7f1-df31-463b-b3b9-de97ed0787ff: RegulatedAuthorization.region[0].coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "EU" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#EU) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#EU'
 == fsh-generated/resources/RegulatedAuthorization-cf5b7336-8b94-4856-8e61-049fac698c80.json ==
 == fsh-generated/resources/RegulatedAuthorization-cfsb1651148079894.json ==
 ERROR: RegulatedAuthorization/cfsb1651148079894: RegulatedAuthorization.region[0].coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
@@ -845,6 +797,7 @@ ERROR: RegulatedAuthorization/cfsb1665505019066: RegulatedAuthorization.region[0
 == fsh-generated/resources/StructureDefinition-SubstanceDefinition-uv-epi.json ==
 == fsh-generated/resources/SubstanceDefinition-09e2fc38-0c24-41f3-8cf6-5110640f519f.json ==
 == fsh-generated/resources/SubstanceDefinition-6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7.json ==
+== fsh-generated/resources/SubstanceDefinition-c610e618-ea39-4d75-ad1e-11bb8e2f65f0.json ==
 == fsh-generated/resources/SubstanceDefinition-da33bd51-a726-4232-aaa0-4168b9bfe249.json ==
 == fsh-generated/resources/ValueSet-PharmaceuticalDoseForm.json ==
 == fsh-generated/resources/ValueSet-RegulatedAuthorizationTypeIdSystems.json ==

@@ -1,0 +1,43 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "024196e7-a36f-4b63-ac35-af98ed3e67f6",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"024196e7-a36f-4b63-ac35-af98ed3e67f6\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;024196e7-a36f-4b63-ac35-af98ed3e67f6&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 6OZP39ZG8H (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-ed2b34a7-e18d-4b76-8102-1a214d2aa2a9.html\">ManufacturedItemDefinition/ed2b34a7-e18d-4b76-8102-1a214d2aa2a9</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-93c7f694-718b-48c9-bf22-06029bb40679.html\">Organization/93c7f694-718b-48c9-bf22-06029bb40679</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Polysorbate 80 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#6OZP39ZG8H)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "http://fdasis.nlm.nih.gov",
+    "value" : "6OZP39ZG8H"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/ed2b34a7-e18d-4b76-8102-1a214d2aa2a9"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072082",
+      "display" : "Excipient"
+    }]
+  },
+  "manufacturer" : [{
+    "manufacturer" : {
+      "reference" : "Organization/93c7f694-718b-48c9-bf22-06029bb40679"
+    }
+  }],
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://fdasis.nlm.nih.gov",
+          "code" : "6OZP39ZG8H",
+          "display" : "Polysorbate 80"
+        }]
+      }
+    }
+  }
+}
