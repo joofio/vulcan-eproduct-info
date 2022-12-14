@@ -10,7 +10,7 @@
   "name" : "EpiIG",
   "title" : "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status" : "active",
-  "date" : "2022-12-09T15:04:58+00:00",
+  "date" : "2022-12-14T14:15:20+00:00",
   "contact" : [{
     "name" : "HL7 BR&R",
     "telecom" : [{
@@ -2156,6 +2156,546 @@
       "description" : "Lactose Monohydrate",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicinalProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "MedicinalProductDefinition/cfsb1650904258324"
+      },
+      "name" : "cfsb1650904258324",
+      "description" : "EU/1/19/1370/001 Dovato 50 mg/300 mg film-coated tablets",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PackagedProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "PackagedProductDefinition/cfsb1650995718524"
+      },
+      "name" : "cfsb1650995718524",
+      "description" : "50 mg/300 mg film-coated tablets",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1650997423990"
+      },
+      "name" : "cfsb1650997423990",
+      "description" : "Manufacturer",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ManufacturedItemDefinition"
+      }],
+      "reference" : {
+        "reference" : "ManufacturedItemDefinition/cfsb1650998521654"
+      },
+      "name" : "cfsb1650998521654",
+      "description" : "Manufactured Item: Dovato 50 mg/300 mg film-coated tablets",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "AdministrableProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "AdministrableProductDefinition/cfsb1650999516847"
+      },
+      "name" : "cfsb1650999516847",
+      "description" : "Dovato 50 mg/300 mg film-coated tablets",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "RegulatedAuthorization"
+      }],
+      "reference" : {
+        "reference" : "RegulatedAuthorization/cfsb1651148079894"
+      },
+      "name" : "cfsb1651148079894",
+      "description" : "Regulated authorization",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1651149548743"
+      },
+      "name" : "cfsb1651149548743",
+      "description" : "Organization2",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1651149636159"
+      },
+      "name" : "cfsb1651149636159",
+      "description" : "Marketing Authorization Holder",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1651152112409"
+      },
+      "name" : "cfsb1651152112409",
+      "description" : "Regulator",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1651162710491"
+      },
+      "name" : "cfsb1651162710491",
+      "description" : "dolutegravir",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1651164758053"
+      },
+      "name" : "cfsb1651164758053",
+      "description" : "lamivudine",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1651170791283"
+      },
+      "name" : "cfsb1651170791283",
+      "description" : "microcrystalline cellulose",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1651229974487"
+      },
+      "name" : "cfsb1651229974487",
+      "description" : "sodium starch glycolate",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1651230170831"
+      },
+      "name" : "cfsb1651230170831",
+      "description" : "magnesium stearate",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1651230330246"
+      },
+      "name" : "cfsb1651230330246",
+      "description" : "mannitol",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/cfsb1651231019151"
+      },
+      "name" : "cfsb1651231019151",
+      "description" : "Package Leaflet",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/cfsb1651234995610"
+      },
+      "name" : "cfsb1651234995610",
+      "description" : "Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/cfsb1651596479132"
+      },
+      "name" : "Vulcan Dovato FHIR Package Insert EMA",
+      "description" : "English Instance of Dovato package insert for Connectathon testing",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/cfsb1651597532341"
+      },
+      "name" : "Vulcan Dovato FHIR Package Insert EMA ESP",
+      "description" : "Spanish Instance of Dovato package insert for Connectathon testing",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "RegulatedAuthorization"
+      }],
+      "reference" : {
+        "reference" : "RegulatedAuthorization/cfsb1665505019066"
+      },
+      "name" : "cfsb1665505019066",
+      "description" : "RegulatedAuthorization1",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1665505132093"
+      },
+      "name" : "cfsb1665505132093",
+      "description" : "Marketing Authorization Holder",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1665505181936"
+      },
+      "name" : "cfsb1665505181936",
+      "description" : "Regulator",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1665505232916"
+      },
+      "name" : "cfsb1665505232916",
+      "description" : "Bictegravir",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1665505279685"
+      },
+      "name" : "cfsb1665505279685",
+      "description" : "Embtricitabine",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicinalProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "MedicinalProductDefinition/cfsb1665505881364"
+      },
+      "name" : "cfsb1665505881364",
+      "description" : "54347 MAGNESIOBOI 48,62 mg COMPRIMIDOS",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicinalProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "MedicinalProductDefinition/cfsb1665505991728"
+      },
+      "name" : "cfsb1665505991728",
+      "description" : "EU/1/18/1289/001",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "AdministrableProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "AdministrableProductDefinition/cfsb1665507846505"
+      },
+      "name" : "cfsb1665507846505",
+      "description" : "Biktarvy 50 mg/200 mg/25 mg film-coated tablets",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "AdministrableProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "AdministrableProductDefinition/cfsb1665507849181"
+      },
+      "name" : "cfsb1665507849181",
+      "description" : "Magnesioboi 48,62 mg comprimidos",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666195249780"
+      },
+      "name" : "cfsb1666195249780",
+      "description" : "MAGNESIUM LACTATE",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666195266647"
+      },
+      "name" : "cfsb1666195266647",
+      "description" : "tenofovir alafenamide",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666197203511"
+      },
+      "name" : "cfsb1666197203511",
+      "description" : "Lactose monohydrate",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666197397224"
+      },
+      "name" : "cfsb1666197397224",
+      "description" : "Microcrystalline cellulose",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666197441225"
+      },
+      "name" : "cfsb1666197441225",
+      "description" : "Croscarmellose sodium",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666197470356"
+      },
+      "name" : "cfsb1666197470356",
+      "description" : "Magnesium stearate",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666197552249"
+      },
+      "name" : "cfsb1666197552249",
+      "description" : "MACROGOL 6000",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666197990155"
+      },
+      "name" : "cfsb1666197990155",
+      "description" : "MAGNESIUM STEARATE",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/cfsb1666198119118"
+      },
+      "name" : "cfsb1666198119118",
+      "description" : "Talc",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ManufacturedItemDefinition"
+      }],
+      "reference" : {
+        "reference" : "ManufacturedItemDefinition/cfsb1667576615115"
+      },
+      "name" : "cfsb1667576615115",
+      "description" : "Biktarvy 50 mg/200 mg/25 mg film-coated tablets",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ManufacturedItemDefinition"
+      }],
+      "reference" : {
+        "reference" : "ManufacturedItemDefinition/cfsb1667576759979"
+      },
+      "name" : "cfsb1667576759979",
+      "description" : "Magnesioboi 48,62 mg comprimidos",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1667578239500"
+      },
+      "name" : "cfsb1667578239500",
+      "description" : "Organization1",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1667578264482"
+      },
+      "name" : "cfsb1667578264482",
+      "description" : "Marketing Authorization Holder",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1667578279099"
+      },
+      "name" : "cfsb1667578279099",
+      "description" : "Manufacturer",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/cfsb1667579389819"
+      },
+      "name" : "cfsb1667579389819",
+      "description" : "Marketing Authorization Holder",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PackagedProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "PackagedProductDefinition/cfsb1667580052450"
+      },
+      "name" : "cfsb1667580052450",
+      "description" : "90 (3 bottles of 30) film-coated tablets",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PackagedProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "PackagedProductDefinition/cfsb1667580056388"
+      },
+      "name" : "cfsb1667580056388",
+      "description" : "Packaging Blister x50 tablets",
+      "isExample" : true
     },
     {
       "extension" : [{

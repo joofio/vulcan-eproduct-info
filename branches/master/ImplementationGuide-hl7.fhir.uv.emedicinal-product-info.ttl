@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-09T15:04:58+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-14T14:15:20+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -3169,6 +3169,636 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1650904258324>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/cfsb1650904258324" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1650904258324" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/19/1370/001 Dovato 50 mg/300 mg film-coated tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 143;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/cfsb1650995718524>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/cfsb1650995718524" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1650995718524" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "50 mg/300 mg film-coated tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 144;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1650997423990>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1650997423990" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1650997423990" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufacturer" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 145;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1650998521654>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/cfsb1650998521654" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1650998521654" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufactured Item: Dovato 50 mg/300 mg film-coated tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 146;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1650999516847>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/cfsb1650999516847" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1650999516847" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dovato 50 mg/300 mg film-coated tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 147;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/cfsb1651148079894>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/cfsb1651148079894" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651148079894" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated authorization" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 148;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1651149548743>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1651149548743" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651149548743" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Organization2" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 149;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1651149636159>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1651149636159" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651149636159" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorization Holder" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 150;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1651152112409>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1651152112409" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651152112409" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulator" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 151;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651162710491>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1651162710491" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651162710491" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "dolutegravir" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 152;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651164758053>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1651164758053" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651164758053" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "lamivudine" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 153;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651170791283>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1651170791283" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651170791283" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "microcrystalline cellulose" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 154;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651229974487>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1651229974487" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651229974487" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "sodium starch glycolate" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 155;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651230170831>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1651230170831" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651230170831" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "magnesium stearate" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 156;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651230330246>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1651230330246" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651230330246" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "mannitol" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 157;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/cfsb1651231019151>;
+         fhir:Reference.reference [ fhir:value "Composition/cfsb1651231019151" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651231019151" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 158;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/cfsb1651234995610>;
+         fhir:Reference.reference [ fhir:value "Composition/cfsb1651234995610" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1651234995610" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 159;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/cfsb1651596479132>;
+         fhir:Reference.reference [ fhir:value "Bundle/cfsb1651596479132" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vulcan Dovato FHIR Package Insert EMA" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "English Instance of Dovato package insert for Connectathon testing" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 160;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/cfsb1651597532341>;
+         fhir:Reference.reference [ fhir:value "Bundle/cfsb1651597532341" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vulcan Dovato FHIR Package Insert EMA ESP" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Spanish Instance of Dovato package insert for Connectathon testing" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 161;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/cfsb1665505019066>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/cfsb1665505019066" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665505019066" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "RegulatedAuthorization1" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 162;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1665505132093>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1665505132093" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665505132093" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorization Holder" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 163;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1665505181936>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1665505181936" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665505181936" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulator" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 164;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1665505232916>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1665505232916" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665505232916" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bictegravir" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 165;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1665505279685>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1665505279685" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665505279685" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Embtricitabine" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 166;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1665505881364>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/cfsb1665505881364" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665505881364" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "54347 MAGNESIOBOI 48,62 mg COMPRIMIDOS" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 167;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1665505991728>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/cfsb1665505991728" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665505991728" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/18/1289/001" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 168;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1665507846505>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/cfsb1665507846505" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665507846505" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Biktarvy 50 mg/200 mg/25 mg film-coated tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 169;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1665507849181>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/cfsb1665507849181" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1665507849181" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Magnesioboi 48,62 mg comprimidos" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 170;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666195249780>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666195249780" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666195249780" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "MAGNESIUM LACTATE" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 171;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666195266647>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666195266647" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666195266647" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "tenofovir alafenamide" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 172;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197203511>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666197203511" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666197203511" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Lactose monohydrate" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 173;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197397224>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666197397224" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666197397224" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Microcrystalline cellulose" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 174;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197441225>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666197441225" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666197441225" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Croscarmellose sodium" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 175;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197470356>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666197470356" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666197470356" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Magnesium stearate" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 176;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197552249>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666197552249" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666197552249" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "MACROGOL 6000" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 177;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197990155>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666197990155" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666197990155" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "MAGNESIUM STEARATE" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 178;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666198119118>;
+         fhir:Reference.reference [ fhir:value "Ingredient/cfsb1666198119118" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1666198119118" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Talc" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 179;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1667576615115>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/cfsb1667576615115" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667576615115" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Biktarvy 50 mg/200 mg/25 mg film-coated tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 180;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1667576759979>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/cfsb1667576759979" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667576759979" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Magnesioboi 48,62 mg comprimidos" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 181;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667578239500>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1667578239500" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667578239500" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Organization1" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 182;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667578264482>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1667578264482" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667578264482" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorization Holder" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 183;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667578279099>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1667578279099" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667578279099" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Manufacturer" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 184;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667579389819>;
+         fhir:Reference.reference [ fhir:value "Organization/cfsb1667579389819" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667579389819" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Marketing Authorization Holder" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 185;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/cfsb1667580052450>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/cfsb1667580052450" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667580052450" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "90 (3 bottles of 30) film-coated tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 186;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/cfsb1667580056388>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/cfsb1667580056388" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "cfsb1667580056388" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Packaging Blister x50 tablets" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 187;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Ingredient" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -3187,7 +3817,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 143;
+       fhir:index 188;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3209,7 +3839,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 144;
+       fhir:index 189;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3231,7 +3861,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 145;
+       fhir:index 190;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3253,7 +3883,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ]
      ], [
-       fhir:index 146;
+       fhir:index 191;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3275,7 +3905,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 147;
+       fhir:index 192;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3297,7 +3927,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 148;
+       fhir:index 193;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3319,7 +3949,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 149;
+       fhir:index 194;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3341,7 +3971,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 150;
+       fhir:index 195;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3363,7 +3993,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 151;
+       fhir:index 196;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3385,7 +4015,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
        ]
      ], [
-       fhir:index 152;
+       fhir:index 197;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3407,7 +4037,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
        ]
      ], [
-       fhir:index 153;
+       fhir:index 198;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3429,7 +4059,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 154;
+       fhir:index 199;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3451,7 +4081,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 155;
+       fhir:index 200;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3473,7 +4103,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 156;
+       fhir:index 201;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3495,7 +4125,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 157;
+       fhir:index 202;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3509,7 +4139,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification." ];
        fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 158;
+       fhir:index 203;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3531,7 +4161,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
        ]
      ], [
-       fhir:index 159;
+       fhir:index 204;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3553,7 +4183,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
-       fhir:index 160;
+       fhir:index 205;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3575,7 +4205,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 161;
+       fhir:index 206;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3597,7 +4227,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
        ]
      ], [
-       fhir:index 162;
+       fhir:index 207;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3619,7 +4249,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 163;
+       fhir:index 208;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3641,7 +4271,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
        ]
      ], [
-       fhir:index 164;
+       fhir:index 209;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3663,7 +4293,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>
        ]
      ], [
-       fhir:index 165;
+       fhir:index 210;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3685,7 +4315,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 166;
+       fhir:index 211;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3707,7 +4337,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 167;
+       fhir:index 212;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3729,7 +4359,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
        ]
      ], [
-       fhir:index 168;
+       fhir:index 213;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -4399,6 +5029,96 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/cf5b7336-8b94-4856-8e61-049fac698c80> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfc9d211-e9c2-47b2-a693-10e580c160c9> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1650904258324> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/cfsb1650995718524> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1650997423990> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1650998521654> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1650999516847> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/cfsb1651148079894> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1651149548743> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1651149636159> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1651152112409> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651162710491> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651164758053> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651170791283> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651229974487> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651230170831> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651230330246> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/cfsb1651231019151> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/cfsb1651234995610> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/cfsb1651596479132> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/cfsb1651597532341> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/cfsb1665505019066> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1665505132093> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1665505181936> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1665505232916> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1665505279685> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1665505881364> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1665505991728> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1665507846505> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1665507849181> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666195249780> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666195266647> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197203511> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197397224> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197441225> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197470356> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197552249> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666197990155> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1666198119118> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1667576615115> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1667576759979> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667578239500> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667578264482> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667578279099> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1667579389819> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/cfsb1667580052450> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/cfsb1667580056388> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/d24c9451-74d1-42de-94cd-a084cb5dd815> a fhir:uv .
 
