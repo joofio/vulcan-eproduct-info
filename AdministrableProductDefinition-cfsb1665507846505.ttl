@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1665507846505> a fhir:AdministrableProductDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "cfsb1665507846505"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"cfsb1665507846505\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;cfsb1665507846505&quot; </p></div><p><b>identifier</b>: id: 123456</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-cfsb1665505991728.html\">MedicinalProductDefinition/cfsb1665505991728</a></p><p><b>administrableDoseForm</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#10219000)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#15054000)</span></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#20053000)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#/#100000109093)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:AdministrableProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://www.who-umc.org/phpid" ];
+     fhir:Identifier.value [ fhir:value "123456" ]
+  ]; # 
+  fhir:AdministrableProductDefinition.status [ fhir:value "active"]; # 
+  fhir:AdministrableProductDefinition.formOf [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1665505991728>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/cfsb1665505991728" ]
+  ]; # 
+  fhir:AdministrableProductDefinition.administrableDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://standardterms.edqm.eu/browse/get_concepts_by/SOM/SOM/" ];
+       fhir:Coding.code [ fhir:value "10219000" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Tablet" ]
+  ]; # 
+  fhir:AdministrableProductDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://standardterms.edqm.eu/browse/get_concepts/UOP/" ];
+       fhir:Coding.code [ fhir:value "15054000" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Tablet" ]
+  ]; # 
+  fhir:AdministrableProductDefinition.routeOfAdministration [
+     fhir:index 0;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://standardterms.edqm.eu/browse/get_concepts/ROA/" ];
+         fhir:Coding.code [ fhir:value "20053000" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Oral use" ]
+     ];
+     fhir:AdministrableProductDefinition.routeOfAdministration.targetSpecies [
+       fhir:index 0;
+       fhir:AdministrableProductDefinition.routeOfAdministration.targetSpecies.code [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+           fhir:Coding.code [ fhir:value "/#100000109093" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "Human" ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1665505991728> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1665507846505.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/AdministrableProductDefinition/cfsb1665507846505.ttl> .
+
+# -------------------------------------------------------------------------------------
+

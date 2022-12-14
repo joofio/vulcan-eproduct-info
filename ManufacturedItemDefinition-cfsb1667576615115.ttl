@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1667576615115> a fhir:ManufacturedItemDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "cfsb1667576615115"]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"cfsb1667576615115\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;cfsb1667576615115&quot; </p></div><p><b>identifier</b>: id: EU/1/18/1289/001 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073665)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href=\"Organization-cfsb1665505132093.html\">Organization/cfsb1665505132093</a> &quot;Gilead Sciences Ireland UC&quot;</p></div>"
+  ]; # 
+  fhir:ManufacturedItemDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi/#/" ];
+     fhir:Identifier.value [ fhir:value "EU/1/18/1289/001" ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"]; # 
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+       fhir:Coding.code [ fhir:value "100000073665" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "tablet" ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "200000002152" ]
+     ];
+     fhir:CodeableConcept.text [ fhir:value "Tablet" ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.manufacturer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1665505132093>;
+     fhir:Reference.reference [ fhir:value "Organization/cfsb1665505132093" ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1665505132093> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1667576615115.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1667576615115.ttl> .
+
+# -------------------------------------------------------------------------------------
+

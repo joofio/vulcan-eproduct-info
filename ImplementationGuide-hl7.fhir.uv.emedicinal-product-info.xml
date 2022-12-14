@@ -11,7 +11,7 @@
   <name value="EpiIG"/>
   <title value="Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-12-09T15:04:58+00:00"/>
+  <date value="2022-12-14T14:15:20+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
@@ -1935,6 +1935,501 @@
       <description value="Lactose Monohydrate"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/cfsb1650904258324"/>
+      </reference>
+      <name value="cfsb1650904258324"/>
+      <description value="EU/1/19/1370/001 Dovato 50 mg/300 mg film-coated tablets"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/cfsb1650995718524"/>
+      </reference>
+      <name value="cfsb1650995718524"/>
+      <description value="50 mg/300 mg film-coated tablets"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1650997423990"/>
+      </reference>
+      <name value="cfsb1650997423990"/>
+      <description value="Manufacturer"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/cfsb1650998521654"/>
+      </reference>
+      <name value="cfsb1650998521654"/>
+      <description value="Manufactured Item: Dovato 50 mg/300 mg film-coated tablets"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/cfsb1650999516847"/>
+      </reference>
+      <name value="cfsb1650999516847"/>
+      <description value="Dovato 50 mg/300 mg film-coated tablets"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/cfsb1651148079894"/>
+      </reference>
+      <name value="cfsb1651148079894"/>
+      <description value="Regulated authorization"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1651149548743"/>
+      </reference>
+      <name value="cfsb1651149548743"/>
+      <description value="Organization2"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1651149636159"/>
+      </reference>
+      <name value="cfsb1651149636159"/>
+      <description value="Marketing Authorization Holder"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1651152112409"/>
+      </reference>
+      <name value="cfsb1651152112409"/>
+      <description value="Regulator"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1651162710491"/>
+      </reference>
+      <name value="cfsb1651162710491"/>
+      <description value="dolutegravir"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1651164758053"/>
+      </reference>
+      <name value="cfsb1651164758053"/>
+      <description value="lamivudine"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1651170791283"/>
+      </reference>
+      <name value="cfsb1651170791283"/>
+      <description value="microcrystalline cellulose"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1651229974487"/>
+      </reference>
+      <name value="cfsb1651229974487"/>
+      <description value="sodium starch glycolate"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1651230170831"/>
+      </reference>
+      <name value="cfsb1651230170831"/>
+      <description value="magnesium stearate"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1651230330246"/>
+      </reference>
+      <name value="cfsb1651230330246"/>
+      <description value="mannitol"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/cfsb1651231019151"/>
+      </reference>
+      <name value="cfsb1651231019151"/>
+      <description value="Package Leaflet"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/cfsb1651234995610"/>
+      </reference>
+      <name value="cfsb1651234995610"/>
+      <description value="Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/cfsb1651596479132"/>
+      </reference>
+      <name value="Vulcan Dovato FHIR Package Insert EMA"/>
+      <description value="English Instance of Dovato package insert for Connectathon testing"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/cfsb1651597532341"/>
+      </reference>
+      <name value="Vulcan Dovato FHIR Package Insert EMA ESP"/>
+      <description value="Spanish Instance of Dovato package insert for Connectathon testing"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/cfsb1665505019066"/>
+      </reference>
+      <name value="cfsb1665505019066"/>
+      <description value="RegulatedAuthorization1"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1665505132093"/>
+      </reference>
+      <name value="cfsb1665505132093"/>
+      <description value="Marketing Authorization Holder"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1665505181936"/>
+      </reference>
+      <name value="cfsb1665505181936"/>
+      <description value="Regulator"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1665505232916"/>
+      </reference>
+      <name value="cfsb1665505232916"/>
+      <description value="Bictegravir"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1665505279685"/>
+      </reference>
+      <name value="cfsb1665505279685"/>
+      <description value="Embtricitabine"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/cfsb1665505881364"/>
+      </reference>
+      <name value="cfsb1665505881364"/>
+      <description value="54347 MAGNESIOBOI 48,62 mg COMPRIMIDOS"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/cfsb1665505991728"/>
+      </reference>
+      <name value="cfsb1665505991728"/>
+      <description value="EU/1/18/1289/001"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/cfsb1665507846505"/>
+      </reference>
+      <name value="cfsb1665507846505"/>
+      <description value="Biktarvy 50 mg/200 mg/25 mg film-coated tablets"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/cfsb1665507849181"/>
+      </reference>
+      <name value="cfsb1665507849181"/>
+      <description value="Magnesioboi 48,62 mg comprimidos"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666195249780"/>
+      </reference>
+      <name value="cfsb1666195249780"/>
+      <description value="MAGNESIUM LACTATE"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666195266647"/>
+      </reference>
+      <name value="cfsb1666195266647"/>
+      <description value="tenofovir alafenamide"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666197203511"/>
+      </reference>
+      <name value="cfsb1666197203511"/>
+      <description value="Lactose monohydrate"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666197397224"/>
+      </reference>
+      <name value="cfsb1666197397224"/>
+      <description value="Microcrystalline cellulose"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666197441225"/>
+      </reference>
+      <name value="cfsb1666197441225"/>
+      <description value="Croscarmellose sodium"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666197470356"/>
+      </reference>
+      <name value="cfsb1666197470356"/>
+      <description value="Magnesium stearate"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666197552249"/>
+      </reference>
+      <name value="cfsb1666197552249"/>
+      <description value="MACROGOL 6000"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666197990155"/>
+      </reference>
+      <name value="cfsb1666197990155"/>
+      <description value="MAGNESIUM STEARATE"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/cfsb1666198119118"/>
+      </reference>
+      <name value="cfsb1666198119118"/>
+      <description value="Talc"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/cfsb1667576615115"/>
+      </reference>
+      <name value="cfsb1667576615115"/>
+      <description value="Biktarvy 50 mg/200 mg/25 mg film-coated tablets"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/cfsb1667576759979"/>
+      </reference>
+      <name value="cfsb1667576759979"/>
+      <description value="Magnesioboi 48,62 mg comprimidos"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1667578239500"/>
+      </reference>
+      <name value="cfsb1667578239500"/>
+      <description value="Organization1"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1667578264482"/>
+      </reference>
+      <name value="cfsb1667578264482"/>
+      <description value="Marketing Authorization Holder"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1667578279099"/>
+      </reference>
+      <name value="cfsb1667578279099"/>
+      <description value="Manufacturer"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/cfsb1667579389819"/>
+      </reference>
+      <name value="cfsb1667579389819"/>
+      <description value="Marketing Authorization Holder"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/cfsb1667580052450"/>
+      </reference>
+      <name value="cfsb1667580052450"/>
+      <description value="90 (3 bottles of 30) film-coated tablets"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/cfsb1667580056388"/>
+      </reference>
+      <name value="cfsb1667580056388"/>
+      <description value="Packaging Blister x50 tablets"/>
+      <isExample value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

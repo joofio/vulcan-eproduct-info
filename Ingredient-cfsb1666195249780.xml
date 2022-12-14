@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="cfsb1666195249780"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="cfsb1666195249780"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;cfsb1666195249780&quot; </p></div><p><b>identifier</b>: id: MT6QI8324A (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="MedicinalProductDefinition-cfsb1665505881364.html">MedicinalProductDefinition/cfsb1665505881364</a></p><p><b>role</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#00000072072)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>MAGNESIUM LACTATE <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#MT6QI8324A)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>404.85 mg</td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (v3-RoleClassIngredientEntity##ACTIB)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+    <value value="MT6QI8324A"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="MedicinalProductDefinition/cfsb1665505881364"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi/"/>
+      <code value="00000072072"/>
+    </coding>
+    <text value="active"/>
+  </role>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+          <code value="MT6QI8324A"/>
+          <display value="MAGNESIUM LACTATE"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationQuantity>
+        <value value="404.85"/>
+        <unit value="mg"/>
+      </presentationQuantity>
+      <basis>
+        <coding>
+          <system value="http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"/>
+          <code value="#ACTIB"/>
+          <display value="active ingredient - basis of strength"/>
+        </coding>
+      </basis>
+    </strength>
+  </substance>
+</Ingredient>
