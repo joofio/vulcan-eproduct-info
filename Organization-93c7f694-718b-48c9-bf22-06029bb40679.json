@@ -1,0 +1,36 @@
+{
+  "resourceType" : "Organization",
+  "id" : "93c7f694-718b-48c9-bf22-06029bb40679",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"93c7f694-718b-48c9-bf22-06029bb40679\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;93c7f694-718b-48c9-bf22-06029bb40679&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id: xx (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000034)</span></p><p><b>name</b>: AbbVie Deutschland GmbH Co. KG</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Address</b></td></tr><tr><td>*</td><td>street tal e tal(WORK)</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/omswi",
+    "value" : "xx"
+  }],
+  "active" : true,
+  "type" : [{
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "220000000034",
+      "display" : "Marketing authorisation holder"
+    }],
+    "text" : "Marketing authorisation holder"
+  }],
+  "name" : "AbbVie Deutschland GmbH Co. KG",
+  "contact" : [{
+    "address" : {
+      "use" : "work",
+      "type" : "physical",
+      "text" : "street tal e tal",
+      "line" : ["Knollstrasse"],
+      "city" : "67061 Ludwigshafen",
+      "country" : "Germany"
+    }
+  }]
+}
