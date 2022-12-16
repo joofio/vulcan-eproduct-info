@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2022-12-14T18:14:38+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2022-12-16T11:20:12+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -1329,28 +1329,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Composition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014>;
-         fhir:Reference.reference [ fhir:value "Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for humira Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for humira Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
-       ]
-     ], [
-       fhir:index 69;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1369,51 +1347,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 70;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/024196e7-a36f-4b63-ac35-af98ed3e67f6>;
-         fhir:Reference.reference [ fhir:value "Ingredient/024196e7-a36f-4b63-ac35-af98ed3e67f6" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Polysorbate 80" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Polysorbate 80" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 71;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/07c746e5-ca65-4646-b4af-48a23d454f30>;
-         fhir:Reference.reference [ fhir:value "Ingredient/07c746e5-ca65-4646-b4af-48a23d454f30" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Mannitol" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mannitol" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 72;
+       fhir:index 69;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1435,7 +1369,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 73;
+       fhir:index 70;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1457,7 +1391,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ]
      ], [
-       fhir:index 74;
+       fhir:index 71;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1479,7 +1413,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
-       fhir:index 75;
+       fhir:index 72;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1501,65 +1435,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 76;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Bundle" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574>;
-         fhir:Reference.reference [ fhir:value "Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for humira Package Leaflet" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for humira Package Leaflet ePI document" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-         fhir:index 2;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
-         fhir:index 3;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi";
-         fhir:index 4;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
-         fhir:index 5;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
-         fhir:index 6;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 7;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 8;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
-         fhir:index 9;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 10;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 77;
+       fhir:index 73;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1581,7 +1457,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 78;
+       fhir:index 74;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1603,7 +1479,29 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 79;
+       fhir:index 75;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/113679d3-7966-4144-ac8f-a0a767f8c94f>;
+         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/113679d3-7966-4144-ac8f-a0a767f8c94f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 76;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1625,7 +1523,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 80;
+       fhir:index 77;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1647,7 +1545,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 81;
+       fhir:index 78;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1669,7 +1567,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 82;
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1691,7 +1589,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 83;
+       fhir:index 80;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1713,7 +1611,29 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 84;
+       fhir:index 81;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/27a9bf77-3521-4928-855d-c71d492ea11b>;
+         fhir:Reference.reference [ fhir:value "Ingredient/27a9bf77-3521-4928-855d-c71d492ea11b" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Mannitol" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Mannitol" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 82;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1735,7 +1655,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 85;
+       fhir:index 83;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1757,7 +1677,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
        ]
      ], [
-       fhir:index 86;
+       fhir:index 84;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1779,7 +1699,29 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 87;
+       fhir:index 85;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/2b98f916-8f6c-4b07-9591-fd6da51f4fbc>;
+         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/2b98f916-8f6c-4b07-9591-fd6da51f4fbc" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 86;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1801,7 +1743,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 88;
+       fhir:index 87;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1867,7 +1809,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 89;
+       fhir:index 88;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1889,7 +1831,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 90;
+       fhir:index 89;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1911,7 +1853,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
-       fhir:index 91;
+       fhir:index 90;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1933,7 +1875,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 92;
+       fhir:index 91;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1955,7 +1897,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 93;
+       fhir:index 92;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1977,7 +1919,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 94;
+       fhir:index 93;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1999,7 +1941,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 95;
+       fhir:index 94;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2021,7 +1963,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 96;
+       fhir:index 95;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2043,7 +1985,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 97;
+       fhir:index 96;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2065,7 +2007,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 98;
+       fhir:index 97;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2087,7 +2029,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 99;
+       fhir:index 98;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2109,7 +2051,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
        ]
      ], [
-       fhir:index 100;
+       fhir:index 99;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2131,7 +2073,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 101;
+       fhir:index 100;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2153,7 +2095,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 102;
+       fhir:index 101;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2175,7 +2117,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 103;
+       fhir:index 102;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2195,6 +2137,28 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 1;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 103;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/56b1bd0e-c906-4e2f-8f96-463bef79c7e2>;
+         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/56b1bd0e-c906-4e2f-8f96-463bef79c7e2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Administrable product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
        fhir:index 104;
@@ -2223,28 +2187,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "AdministrableProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/57f5ff3c-c26d-4d44-bbf4-6cc7aefb80bd>;
-         fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/57f5ff3c-c26d-4d44-bbf4-6cc7aefb80bd" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Administrable product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 106;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "ClinicalUseDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -2263,7 +2205,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
        ]
      ], [
-       fhir:index 107;
+       fhir:index 106;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2285,26 +2227,48 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
+       fhir:index 107;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/602fc486-24f0-4295-b214-a8bc160c8aeb>;
+         fhir:Reference.reference [ fhir:value "Ingredient/602fc486-24f0-4295-b214-a8bc160c8aeb" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Polysorbate 80" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Polysorbate 80" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
        fhir:index 108;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+         fhir:Extension.valueString [ fhir:value "Organization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/6025c7f1-df31-463b-b3b9-de97ed0787ff>;
-         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/6025c7f1-df31-463b-b3b9-de97ed0787ff" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/610b6f60-ed48-4e0c-9eda-304152906e60>;
+         fhir:Reference.reference [ fhir:value "Organization/610b6f60-ed48-4e0c-9eda-304152906e60" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi";
          fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
        fhir:index 109;
@@ -2352,6 +2316,28 @@
        ]
      ], [
        fhir:index 111;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/6d8392ff-76b3-4225-8581-cdcc00445100>;
+         fhir:Reference.reference [ fhir:value "Ingredient/6d8392ff-76b3-4225-8581-cdcc00445100" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Water for injections" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Water for injections" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 112;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2409,7 +2395,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 112;
+       fhir:index 113;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2431,7 +2417,29 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ]
      ], [
-       fhir:index 113;
+       fhir:index 114;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/7026194c-eb59-4740-9aed-c5c6375ffd4b>;
+         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/7026194c-eb59-4740-9aed-c5c6375ffd4b" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 115;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2453,7 +2461,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 114;
+       fhir:index 116;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2523,7 +2531,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 115;
+       fhir:index 117;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2545,7 +2553,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 116;
+       fhir:index 118;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2567,7 +2575,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 117;
+       fhir:index 119;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2589,7 +2597,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 118;
+       fhir:index 120;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2611,7 +2619,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 119;
+       fhir:index 121;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2633,7 +2641,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 120;
+       fhir:index 122;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2655,29 +2663,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 121;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa>;
-         fhir:Reference.reference [ fhir:value "Ingredient/7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active adalimumab" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "adalimumab" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 122;
+       fhir:index 123;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2699,7 +2685,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 123;
+       fhir:index 124;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2721,7 +2707,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 124;
+       fhir:index 125;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2743,7 +2729,29 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
        ]
      ], [
-       fhir:index 125;
+       fhir:index 126;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Composition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/89f1d65e-4095-44b1-8d8d-303f41c0911f>;
+         fhir:Reference.reference [ fhir:value "Composition/89f1d65e-4095-44b1-8d8d-303f41c0911f" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Composition for humira Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Composition for humira Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ]
+     ], [
+       fhir:index 127;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2765,7 +2773,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 126;
+       fhir:index 128;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2787,7 +2795,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
-       fhir:index 127;
+       fhir:index 129;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2809,7 +2817,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 128;
+       fhir:index 130;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2831,29 +2839,65 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
        ]
      ], [
-       fhir:index 129;
+       fhir:index 131;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
+         fhir:Extension.valueString [ fhir:value "Bundle" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/93c7f694-718b-48c9-bf22-06029bb40679>;
-         fhir:Reference.reference [ fhir:value "Organization/93c7f694-718b-48c9-bf22-06029bb40679" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/9442bd1e-698c-4d85-8c2e-c0f303392616>;
+         fhir:Reference.reference [ fhir:value "Bundle/9442bd1e-698c-4d85-8c2e-c0f303392616" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ePI document Bundle for humira Package Leaflet" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Bundle for humira Package Leaflet ePI document" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi";
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi";
          fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
        ], [
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi";
          fhir:index 1;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+         fhir:index 2;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+         fhir:index 3;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi";
+         fhir:index 4;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 5;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
+         fhir:index 6;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 7;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
+         fhir:index 8;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+         fhir:index 9;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+         fhir:index 10;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 130;
+       fhir:index 132;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2875,7 +2919,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
        ]
      ], [
-       fhir:index 131;
+       fhir:index 133;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2929,29 +2973,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 132;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Ingredient" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/9ad9a0f3-8244-4aee-809b-16a8490cd837>;
-         fhir:Reference.reference [ fhir:value "Ingredient/9ad9a0f3-8244-4aee-809b-16a8490cd837" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-excipient Water for injections" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Water for injections" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 133;
+       fhir:index 134;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2973,7 +2995,29 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 134;
+       fhir:index 135;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SubstanceDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/9fc0cb01-2d59-4015-b8e2-b50bd4cd62fe>;
+         fhir:Reference.reference [ fhir:value "SubstanceDefinition/9fc0cb01-2d59-4015-b8e2-b50bd4cd62fe" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "substance-adalimumab" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ADALIMUMAB" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ]
+     ], [
+       fhir:index 136;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2995,7 +3039,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 135;
+       fhir:index 137;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3017,7 +3061,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 136;
+       fhir:index 138;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3039,7 +3083,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 137;
+       fhir:index 139;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3061,29 +3105,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>
        ]
      ], [
-       fhir:index 138;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/b3f25574-fca9-4994-82c5-da198f8fa6ac>;
-         fhir:Reference.reference [ fhir:value "PackagedProductDefinition/b3f25574-fca9-4994-82c5-da198f8fa6ac" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 139;
+       fhir:index 140;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3105,7 +3127,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
        ]
      ], [
-       fhir:index 140;
+       fhir:index 141;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3127,7 +3149,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 141;
+       fhir:index 142;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3149,7 +3171,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 142;
+       fhir:index 143;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3171,7 +3193,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
        ]
      ], [
-       fhir:index 143;
+       fhir:index 144;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3245,7 +3267,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ]
      ], [
-       fhir:index 144;
+       fhir:index 145;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3267,7 +3289,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 145;
+       fhir:index 146;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3289,7 +3311,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 146;
+       fhir:index 147;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3311,7 +3333,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
        ]
      ], [
-       fhir:index 147;
+       fhir:index 148;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3331,28 +3353,6 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
          fhir:index 1;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
-       ]
-     ], [
-       fhir:index 148;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "SubstanceDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/c610e618-ea39-4d75-ad1e-11bb8e2f65f0>;
-         fhir:Reference.reference [ fhir:value "SubstanceDefinition/c610e618-ea39-4d75-ad1e-11bb8e2f65f0" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "substance-adalimumab" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ADALIMUMAB" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ]
      ], [
        fhir:index 149;
@@ -4231,28 +4231,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "MedicinalProductDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/e08788c9-1403-4d0e-9e5f-fef66bb88d2e>;
-         fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/e08788c9-1403-4d0e-9e5f-fef66bb88d2e" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Medicinal Product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "EU/1/97/049/001 Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 206;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -4271,7 +4249,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
-       fhir:index 207;
+       fhir:index 206;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -4293,7 +4271,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
        ]
      ], [
-       fhir:index 208;
+       fhir:index 207;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -4315,7 +4293,7 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
        ]
      ], [
-       fhir:index 209;
+       fhir:index 208;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -4335,6 +4313,28 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi";
          fhir:index 1;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ]
+     ], [
+       fhir:index 209;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "RegulatedAuthorization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/e684d7e3-34e8-4c3d-b571-b003a6fbb653>;
+         fhir:Reference.reference [ fhir:value "RegulatedAuthorization/e684d7e3-34e8-4c3d-b571-b003a6fbb653" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
        ]
      ], [
        fhir:index 210;
@@ -4385,6 +4385,28 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Ingredient" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e8b7cfcd-e36e-4711-a8d8-a3de88263718>;
+         fhir:Reference.reference [ fhir:value "Ingredient/e8b7cfcd-e36e-4711-a8d8-a3de88263718" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Ingredient-active adalimumab" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "adalimumab" ];
+       fhir:ImplementationGuide.definition.resource.profile [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 0;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ], [
+         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+         fhir:index 1;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ]
+     ], [
+       fhir:index 213;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "PackagedProductDefinition" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -4401,28 +4423,6 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 1;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
-     ], [
-       fhir:index 213;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ManufacturedItemDefinition" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/ed2b34a7-e18d-4b76-8102-1a214d2aa2a9>;
-         fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/ed2b34a7-e18d-4b76-8102-1a214d2aa2a9" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Manufactured item Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)" ];
-       fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-         fhir:index 0;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
-       ], [
-         fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-         fhir:index 1;
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
        ]
      ], [
        fhir:index 214;
@@ -5204,13 +5204,7 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRsmswi> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/01e531fb-7cf6-446a-94f7-217c9c9bbc47> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/024196e7-a36f-4b63-ac35-af98ed3e67f6> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/07c746e5-ca65-4646-b4af-48a23d454f30> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6> a fhir:uv .
 
@@ -5220,11 +5214,11 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/0de57933-1ad6-429f-9507-461ebea37790> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/10bc2401-23f1-4e47-b3d3-730e599a1e93> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/113679d3-7966-4144-ac8f-a0a767f8c94f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/166a6519-25e7-46df-bc09-bb42504edf01> a fhir:uv .
 
@@ -5236,11 +5230,15 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/1fb2ec19-1705-4bb2-b66d-3252b8498c05> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/27a9bf77-3521-4928-855d-c71d492ea11b> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/2b98f916-8f6c-4b07-9591-fd6da51f4fbc> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/2da7e0de-e567-4bd9-8211-6bbc72ccf649> a fhir:uv .
 
@@ -5276,23 +5274,29 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/550a61ce-2019-4d53-9cbd-40a83f00061e> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/574081c4-dc09-43d6-a578-cd3bd703454d> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/56b1bd0e-c906-4e2f-8f96-463bef79c7e2> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/57f5ff3c-c26d-4d44-bbf4-6cc7aefb80bd> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/574081c4-dc09-43d6-a578-cd3bd703454d> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/5e371f8f-48f2-43a1-b8c4-279d1986891f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/5fcdfc1a-2e5a-44db-b1e1-89bfcd69a924> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/6025c7f1-df31-463b-b3b9-de97ed0787ff> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/602fc486-24f0-4295-b214-a8bc160c8aeb> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/610b6f60-ed48-4e0c-9eda-304152906e60> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/62c55a84-3f0c-46a7-9179-312a0e9f110f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/6d7916dc-e367-47cf-b39d-a5aa38b059cb> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/6d8392ff-76b3-4225-8581-cdcc00445100> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/6da8dd5c-9783-42f7-879d-3f8251e2e639> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/7026194c-eb59-4740-9aed-c5c6375ffd4b> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/745c01bc-936e-45ca-9880-57e97608f43e> a fhir:uv .
 
@@ -5310,13 +5314,13 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/7c7fe6a6-3628-41b7-84c1-7f182dd0dc9f> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/80afb7f0-9865-46b6-b137-622e8fe7dd6d> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/89f1d65e-4095-44b1-8d8d-303f41c0911f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/8ac669b9-eb26-4232-be2e-9858bff72fc0> a fhir:uv .
 
@@ -5326,15 +5330,15 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/8fc84937-c7b4-45f1-a5c6-3ec19b5674d7> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/93c7f694-718b-48c9-bf22-06029bb40679> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/9442bd1e-698c-4d85-8c2e-c0f303392616> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/9483a182-2054-4b25-b896-3ff631520525> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/9ad9a0f3-8244-4aee-809b-16a8490cd837> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/9f1d9c2d-eb18-4524-8611-b478975190e6> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/9fc0cb01-2d59-4015-b8e2-b50bd4cd62fe> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/a4b7b60c-998f-4f93-89c7-860396af0fe3> a fhir:uv .
 
@@ -5343,8 +5347,6 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/a8ad4152-3e43-48d9-a11c-75685eb1ce01> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/b3f25574-fca9-4994-82c5-da198f8fa6ac> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/b71cd809-191a-418d-961f-e733c698bcae> a fhir:uv .
 
@@ -5363,8 +5365,6 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/c58a2559-c16a-4388-b133-a2612a8ccb68> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/c5ef4ed7-5578-4fa9-9959-847524450714> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/c610e618-ea39-4d75-ad1e-11bb8e2f65f0> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/c9c8e0b8-3e9b-4bee-b9b7-e29cfc874ede> a fhir:uv .
 
@@ -5478,8 +5478,6 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/de7df0fc-9425-4f26-9179-89ba64db4d6e> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/e08788c9-1403-4d0e-9e5f-fef66bb88d2e> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/e30ad7d4-7718-441e-8ca5-71610faaabf3> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e5cc746a-5a27-4177-b09d-0dece84d0cc2> a fhir:uv .
@@ -5488,13 +5486,15 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/e684d7e3-34e8-4c3d-b571-b003a6fbb653> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e855286c-d620-4520-9f20-8e24a12c06e3> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e8b7cfcd-e36e-4711-a8d8-a3de88263718> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/ed2b34a7-e18d-4b76-8102-1a214d2aa2a9> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f> a fhir:uv .
 

@@ -10,7 +10,7 @@
   "name" : "EpiIG",
   "title" : "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status" : "active",
-  "date" : "2022-12-14T18:14:38+00:00",
+  "date" : "2022-12-16T11:20:12+00:00",
   "contact" : [{
     "name" : "HL7 BR&R",
     "telecom" : [{
@@ -1145,19 +1145,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/002670b7-0c2e-4583-9cfe-46ab06f4e014"
-      },
-      "name" : "Composition for humira Package Leaflet",
-      "description" : "Composition for humira Package Leaflet",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -1167,32 +1154,6 @@
       "description" : "European Medicines Agency as Medicines Regulatory Authority",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/024196e7-a36f-4b63-ac35-af98ed3e67f6"
-      },
-      "name" : "Ingredient-excipient Polysorbate 80",
-      "description" : "Polysorbate 80",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/07c746e5-ca65-4646-b4af-48a23d454f30"
-      },
-      "name" : "Ingredient-excipient Mannitol",
-      "description" : "Mannitol",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
     {
       "extension" : [{
@@ -1249,28 +1210,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/0d7c83f4-56a5-46d5-9b93-d21c30d58574"
-      },
-      "name" : "ePI document Bundle for humira Package Leaflet",
-      "description" : "Bundle for humira Package Leaflet ePI document",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "RegulatedAuthorization"
       }],
       "reference" : {
@@ -1293,6 +1232,19 @@
       "description" : "Metacresol",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicinalProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "MedicinalProductDefinition/113679d3-7966-4144-ac8f-a0a767f8c94f"
+      },
+      "name" : "Medicinal Product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
+      "description" : "EU/1/97/049/001 Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -1362,6 +1314,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/27a9bf77-3521-4928-855d-c71d492ea11b"
+      },
+      "name" : "Ingredient-excipient Mannitol",
+      "description" : "Mannitol",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "RegulatedAuthorization"
       }],
       "reference" : {
@@ -1395,6 +1360,19 @@
       },
       "name" : "Karvea 75 mg tablet blister x28 tablets",
       "description" : "Karvea 75 mg tablet blister x28 tablets",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PackagedProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "PackagedProductDefinition/2b98f916-8f6c-4b07-9591-fd6da51f4fbc"
+      },
+      "name" : "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads",
+      "description" : "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
     },
@@ -1633,6 +1611,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "AdministrableProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "AdministrableProductDefinition/56b1bd0e-c906-4e2f-8f96-463bef79c7e2"
+      },
+      "name" : "Administrable product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
+      "description" : "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Ingredient"
       }],
       "reference" : {
@@ -1642,19 +1633,6 @@
       "description" : "Glycerol 85%",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "AdministrableProductDefinition"
-      }],
-      "reference" : {
-        "reference" : "AdministrableProductDefinition/57f5ff3c-c26d-4d44-bbf4-6cc7aefb80bd"
-      },
-      "name" : "Administrable product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
-      "description" : "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -1685,15 +1663,28 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "RegulatedAuthorization"
+        "valueString" : "Ingredient"
       }],
       "reference" : {
-        "reference" : "RegulatedAuthorization/6025c7f1-df31-463b-b3b9-de97ed0787ff"
+        "reference" : "Ingredient/602fc486-24f0-4295-b214-a8bc160c8aeb"
       },
-      "name" : "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe",
-      "description" : "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+      "name" : "Ingredient-excipient Polysorbate 80",
+      "description" : "Polysorbate 80",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/610b6f60-ed48-4e0c-9eda-304152906e60"
+      },
+      "name" : "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder",
+      "description" : "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
     },
     {
       "extension" : [{
@@ -1718,6 +1709,19 @@
       },
       "name" : "Ingredient-active irbesartan",
       "description" : "irbesartan",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/6d8392ff-76b3-4225-8581-cdcc00445100"
+      },
+      "name" : "Ingredient-excipient Water for injections",
+      "description" : "Water for injections",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
@@ -1755,6 +1759,19 @@
       "description" : "acmesub",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ManufacturedItemDefinition"
+      }],
+      "reference" : {
+        "reference" : "ManufacturedItemDefinition/7026194c-eb59-4740-9aed-c5c6375ffd4b"
+      },
+      "name" : "Manufactured item Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
+      "description" : "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -1875,19 +1892,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/7e6a312d-e0c2-4d0d-b3c0-9e337d9627fa"
-      },
-      "name" : "Ingredient-active adalimumab",
-      "description" : "adalimumab",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "MedicinalProductDefinition"
       }],
       "reference" : {
@@ -1923,6 +1927,19 @@
       "description" : "Contraindication - Gastrointestinal disorders",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/89f1d65e-4095-44b1-8d8d-303f41c0911f"
+      },
+      "name" : "Composition for humira Package Leaflet",
+      "description" : "Composition for humira Package Leaflet",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
     },
     {
       "extension" : [{
@@ -1979,15 +1996,24 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
+        "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Organization/93c7f694-718b-48c9-bf22-06029bb40679"
+        "reference" : "Bundle/9442bd1e-698c-4d85-8c2e-c0f303392616"
       },
-      "name" : "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder",
-      "description" : "AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      "name" : "ePI document Bundle for humira Package Leaflet",
+      "description" : "Bundle for humira Package Leaflet ePI document",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -2026,19 +2052,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/9ad9a0f3-8244-4aee-809b-16a8490cd837"
-      },
-      "name" : "Ingredient-excipient Water for injections",
-      "description" : "Water for injections",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "PackagedProductDefinition"
       }],
       "reference" : {
@@ -2048,6 +2061,19 @@
       "description" : "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SubstanceDefinition"
+      }],
+      "reference" : {
+        "reference" : "SubstanceDefinition/9fc0cb01-2d59-4015-b8e2-b50bd4cd62fe"
+      },
+      "name" : "substance-adalimumab",
+      "description" : "ADALIMUMAB",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -2100,19 +2126,6 @@
       "description" : "Warning - hypotension",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "PackagedProductDefinition"
-      }],
-      "reference" : {
-        "reference" : "PackagedProductDefinition/b3f25574-fca9-4994-82c5-da198f8fa6ac"
-      },
-      "name" : "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads",
-      "description" : "Humira 20 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -2243,19 +2256,6 @@
       "description" : "Glycerol",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "SubstanceDefinition"
-      }],
-      "reference" : {
-        "reference" : "SubstanceDefinition/c610e618-ea39-4d75-ad1e-11bb8e2f65f0"
-      },
-      "name" : "substance-adalimumab",
-      "description" : "ADALIMUMAB",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -2943,19 +2943,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicinalProductDefinition"
-      }],
-      "reference" : {
-        "reference" : "MedicinalProductDefinition/e08788c9-1403-4d0e-9e5f-fef66bb88d2e"
-      },
-      "name" : "Medicinal Product Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
-      "description" : "EU/1/97/049/001 Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "RegulatedAuthorization"
       }],
       "reference" : {
@@ -3008,6 +2995,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "RegulatedAuthorization"
+      }],
+      "reference" : {
+        "reference" : "RegulatedAuthorization/e684d7e3-34e8-4c3d-b571-b003a6fbb653"
+      },
+      "name" : "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe",
+      "description" : "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -3034,6 +3034,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/e8b7cfcd-e36e-4711-a8d8-a3de88263718"
+      },
+      "name" : "Ingredient-active adalimumab",
+      "description" : "adalimumab",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "PackagedProductDefinition"
       }],
       "reference" : {
@@ -3043,19 +3056,6 @@
       "description" : "Blister x28 tablets",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ManufacturedItemDefinition"
-      }],
-      "reference" : {
-        "reference" : "ManufacturedItemDefinition/ed2b34a7-e18d-4b76-8102-1a214d2aa2a9"
-      },
-      "name" : "Manufactured item Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
-      "description" : "Humira 20 mg Solution for injection Subcutaneous use pre-filled syringe (glass)",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
     },
     {
       "extension" : [{
