@@ -1,9 +1,9 @@
 ﻿EpiIG : Validation Results
 =========================================
 
-err = 176, warn = 78, info = 131
+err = 184, warn = 89, info = 137
 IG Publisher Version: 1.2.25
-Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
+Generated Fri Dec 16 12:03:22 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-2da7e0de-e567-4bd9-8211-6bbc72ccf649 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-373b9bf3-1fae-47a1-a7cd-230106def069 : 0 / 2 / 5
@@ -12,6 +12,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-cfsb1650999516847 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-cfsb1665507846505 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-cfsb1665507849181 : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-d869a593-3dfb-49c4-a79c-52f4ca959e8c : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-xx : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-xxxxx : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/Bundle-2f81d005-2ea1-4bdf-8f44-587fda4a52a6 : 0 / 10 / 100
@@ -19,6 +20,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Bundle-7545c8b4-5128-4425-8b92-1ae922259b1e : 0 / 6 / 95
  /github/workspace/fsh-generated/resources/Bundle-9442bd1e-698c-4d85-8c2e-c0f303392616 : 2 / 7 / 63
  /github/workspace/fsh-generated/resources/Bundle-9ad134f5-dbb9-4756-8489-2ca70fdab5c1 : 0 / 6 / 81
+ /github/workspace/fsh-generated/resources/Bundle-a7c54631-a072-4ef5-8187-13b017dd551e : 4 / 6 / 70
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet75 : 0 / 4 / 118
  /github/workspace/fsh-generated/resources/Bundle-cfsb1651596479132 : 64 / 0 / 60
  /github/workspace/fsh-generated/resources/Bundle-cfsb1651597532341 : 64 / 0 / 60
@@ -40,6 +42,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/CodeSystem-CodeSystemUvEPIRrmswi : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-CodeSystemUvEPIRsmswi : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-gravitate : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Composition-0314ccee-d7e2-4fd5-942c-8f0cf3536bb6 : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/Composition-29c15497-ec3a-4647-ae45-df44a6c0fc65 : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/Composition-62c55a84-3f0c-46a7-9179-312a0e9f110f : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/Composition-89f1d65e-4095-44b1-8d8d-303f41c0911f : 0 / 2 / 3
@@ -64,6 +67,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Ingredient-49ad9cf6-c57a-4885-bc98-be91c5ffabb7 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-5338e475-548e-49eb-a8c4-3ec129029242 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-53a7a449-c9f2-4eb2-b32b-c7a5591e8b31 : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-5401aa24-0831-4468-a38b-5574ccacf2ce : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-550a61ce-2019-4d53-9cbd-40a83f00061e : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/Ingredient-574081c4-dc09-43d6-a578-cd3bd703454d : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/Ingredient-5fcdfc1a-2e5a-44db-b1e1-89bfcd69a924 : 0 / 0 / 2
@@ -76,11 +80,15 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Ingredient-7c7fe6a6-3628-41b7-84c1-7f182dd0dc9f : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-8ac669b9-eb26-4232-be2e-9858bff72fc0 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-8ca81fcb-bc37-428f-90d8-93464193fea2 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-8f251b0a-1423-4d8b-a3ef-9b146a6fe01c : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-92bd7c1e-26ca-49a5-8eb0-d70b05d03b44 : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-a4b7b60c-998f-4f93-89c7-860396af0fe3 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-a88891dc-7e9e-4d84-b462-95e53de3b6a6 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Ingredient-b80d7261-777f-4b5e-8d44-0e13071edd7f : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-bcedce7d-07ac-461e-955f-60e33589ff19 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-c224c241-f427-453f-a083-4d3c9c956e02 : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/Ingredient-c2483786-0526-4f40-b22b-83faeda5361e : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-c33c5f43-4449-4cef-a306-ff4628c84d1e : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-c5ef4ed7-5578-4fa9-9959-847524450714 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-ceba5cd1-321f-4bc3-b203-92d97fcf472e : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Ingredient-cfc9d211-e9c2-47b2-a693-10e580c160c9 : 0 / 0 / 2
@@ -104,6 +112,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Ingredient-d24c9451-74d1-42de-94cd-a084cb5dd815 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-d6fc3cd5-e10c-4b72-8327-db41db350025 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-dc63ac4f-4460-4e7a-afba-296e240335f3 : 0 / 3 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-de2dd6f2-98b1-4fc9-b7e4-1cd379ffd22d : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-de7df0fc-9425-4f26-9179-89ba64db4d6e : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/Ingredient-e5cc746a-5a27-4177-b09d-0dece84d0cc2 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-e855286c-d620-4520-9f20-8e24a12c06e3 : 0 / 2 / 2
@@ -118,10 +127,12 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-cfsb1650998521654 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-cfsb1667576615115 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-cfsb1667576759979 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-f8ae9a23-8840-43f5-98e3-a10f45a5b02c : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-fabc4bf2-0393-433d-baff-0122606e5049 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-113679d3-7966-4144-ac8f-a0a767f8c94f : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367 : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-53d36464-e1de-42c2-aa91-9cf2c7af7515 : 0 / 0 / 7
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-7d2f8e3a-4618-4cb3-b296-e224070c2bc0 : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-800a51a2-d81d-49a4-a4eb-f2417d301837 : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-bdf843db-3035-4cab-9768-dfd67a78a0e1 : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-cfsb1650904258324 : 2 / 0 / 7
@@ -131,6 +142,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Organization-01e531fb-7cf6-446a-94f7-217c9c9bbc47 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-36e7be59-db47-4e36-8fcf-8547ab0fd175 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-38676041-1bb2-43e9-9bf7-0b02de0e3b97 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Organization-3d5adfac-80d1-433a-a3e7-197e780ac68e : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-610b6f60-ed48-4e0c-9eda-304152906e60 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-7569e92a-c5b5-44af-a965-4f760aebbd66 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-80afb7f0-9865-46b6-b137-622e8fe7dd6d : 0 / 0 / 2
@@ -151,6 +163,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/Organization-e8501a78-f0bc-4453-b2ca-617a340c10e0 : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-2a1300ff-712f-4adf-9d97-68079e1ea81b : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-2b98f916-8f6c-4b07-9591-fd6da51f4fbc : 0 / 1 / 6
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-30c7a595-10ce-4270-8dfa-37db9d2c8613 : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-7a0c05d7-e40e-4f33-b2cb-02beb61ca790 : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-9f1d9c2d-eb18-4524-8611-b478975190e6 : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ba66035b-96a3-414d-8274-7640b5af8148 : 0 / 1 / 4
@@ -164,6 +177,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-cf5b7336-8b94-4856-8e61-049fac698c80 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-cfsb1651148079894 : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-cfsb1665505019066 : 2 / 0 / 2
+ /github/workspace/fsh-generated/resources/RegulatedAuthorization-d64d7407-e79f-424c-b33b-29a24e4a302c : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-e30ad7d4-7718-441e-8ca5-71610faaabf3 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-e684d7e3-34e8-4c3d-b571-b003a6fbb653 : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/StructureDefinition-AdministrableProductDefinition-uv-epi : 0 / 1 / 1
@@ -185,6 +199,7 @@ Generated Fri Dec 16 11:23:58 UTC 2022. FHIR version 5.0.0-ballot for hl7.fhir.u
  /github/workspace/fsh-generated/resources/SubstanceDefinition-6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/SubstanceDefinition-9fc0cb01-2d59-4015-b8e2-b50bd4cd62fe : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/SubstanceDefinition-da33bd51-a726-4232-aaa0-4168b9bfe249 : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/SubstanceDefinition-ffb0f429-e115-4395-a3c3-da00cf611182 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ValueSet-PharmaceuticalDoseForm : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/ValueSet-RegulatedAuthorizationTypeIdSystems : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-VsMedProductIdSystems : 0 / 0 / 1
@@ -255,6 +270,7 @@ INFORMATION: AdministrableProductDefinition/cfsb1665507849181: AdministrableProd
 INFORMATION: AdministrableProductDefinition/cfsb1665507849181: AdministrableProductDefinition.unitOfPresentation.coding[0]: Code System URI 'https://standardterms.edqm.eu/browse/get_concepts/UOP/' is unknown so the code cannot be validated
 INFORMATION: AdministrableProductDefinition/cfsb1665507849181: AdministrableProductDefinition.routeOfAdministration[0].code.coding[0]: Code System URI 'https://standardterms.edqm.eu/browse/get_concepts/ROA/' is unknown so the code cannot be validated
 INFORMATION: AdministrableProductDefinition/cfsb1665507849181: AdministrableProductDefinition.routeOfAdministration[0].targetSpecies[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+== fsh-generated/resources/AdministrableProductDefinition-d869a593-3dfb-49c4-a79c-52f4ca959e8c.json ==
 == fsh-generated/resources/AdministrableProductDefinition-xx.json ==
 == fsh-generated/resources/AdministrableProductDefinition-xxxxx.json ==
 == fsh-generated/resources/Bundle-2f81d005-2ea1-4bdf-8f44-587fda4a52a6.json ==
@@ -320,6 +336,20 @@ WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[5].resource.o
 WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[5].resource.ofType(Ingredient).substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
 WARNING: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[14].resource.ofType(PackagedProductDefinition).status.coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: Bundle/9ad134f5-dbb9-4756-8489-2ca70fdab5c1: Bundle.entry[16].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+== fsh-generated/resources/Bundle-a7c54631-a072-4ef5-8187-13b017dd551e.json ==
+INFORMATION: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[0].resource.ofType(Composition).type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+WARNING: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[0].resource.ofType(Composition).section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+WARNING: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[0].resource.ofType(Composition).section[0].entry[6]: Entry 7 matches the reference SubstanceDefinition/ffb0f429-e115-4395-a3c3-da00cf611182 by type and id but it's fullUrl Substance/ffb0f429-e115-4395-a3c3-da00cf611182 does not match the full target URL SubstanceDefinition/ffb0f429-e115-4395-a3c3-da00cf611182 by Bundle resolution rules
+WARNING: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[0].resource.ofType(Composition).section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+INFORMATION: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[0].resource.ofType(Composition).section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+WARNING: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[1].resource.ofType(Ingredient).substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
+WARNING: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[1].resource.ofType(Ingredient).substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
+ERROR: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[3].resource.ofType(Ingredient).status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
+ERROR: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[4].resource.ofType(Ingredient).status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
+ERROR: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[5].resource.ofType(Ingredient).status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
+ERROR: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[6].resource.ofType(Ingredient).status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
+WARNING: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[11].resource.ofType(PackagedProductDefinition).status.coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Bundle/a7c54631-a072-4ef5-8187-13b017dd551e: Bundle.entry[13].resource.ofType(ManufacturedItemDefinition).manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Bundle-bundlepackageleaflet75.json ==
 INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[24]: Entry 'urn:uuid:297e405a-b6f9-4273-bc01-ae031efe47f8' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
 INFORMATION: Bundle/bundlepackageleaflet75: Bundle.entry[24]: Entry 'urn:uuid:eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
@@ -533,6 +563,11 @@ ERROR: CapabilityStatement/epi-server: CapabilityStatement.rest[0].operation[4].
 == fsh-generated/resources/CodeSystem-CodeSystemUvEPIRrmswi.json ==
 == fsh-generated/resources/CodeSystem-CodeSystemUvEPIRsmswi.json ==
 == fsh-generated/resources/CodeSystem-gravitate.json ==
+== fsh-generated/resources/Composition-0314ccee-d7e2-4fd5-942c-8f0cf3536bb6.json ==
+INFORMATION: Composition/0314ccee-d7e2-4fd5-942c-8f0cf3536bb6: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+WARNING: Composition/0314ccee-d7e2-4fd5-942c-8f0cf3536bb6: Composition.section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+WARNING: Composition/0314ccee-d7e2-4fd5-942c-8f0cf3536bb6: Composition.section[1].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
+INFORMATION: Composition/0314ccee-d7e2-4fd5-942c-8f0cf3536bb6: Composition.section[1].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-29c15497-ec3a-4647-ae45-df44a6c0fc65.json ==
 INFORMATION: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 WARNING: Composition/29c15497-ec3a-4647-ae45-df44a6c0fc65: Composition.section[0].code: No code provided, and a code should be provided from the value set 'Section Codes' (http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode|1.0.0-ballot)
@@ -566,7 +601,7 @@ INFORMATION: Composition/cfsb1651234995610: Composition.type: None of the coding
 INFORMATION: Composition/cfsb1651234995610: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-e63f72b2-993f-48b1-b7cb-539b1ed71571.json ==
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.emedicinal-product-info.json ==
-WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[73].name: value should not start or finish with whitespace 'Regulated...Humalog '
+WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[74].name: value should not start or finish with whitespace 'Regulated...Humalog '
 == fsh-generated/resources/Ingredient-09c13040-8fd5-4818-972d-f01d4ee169b6.json ==
 == fsh-generated/resources/Ingredient-0b85af0d-bc40-4f9f-a522-4cba8d51f8a4.json ==
 WARNING: Ingredient/0b85af0d-bc40-4f9f-a522-4cba8d51f8a4: Ingredient.substance.code.concept.coding[0]: The display "Concentrated hydrochloric acid" is not a valid display for the code {http://fdasis.nlm.nih.gov}QTT17582CB - should be one of ['', 'ACIDUM HYDROCHLORICUM [WHO-IP LATIN]', 'ACIDUM HYDROCHLORICUM DILUTUM [WHO-IP LATIN]', 'ANHYDROUS HYDROCHLORIC ACID', 'BAUME HCL', 'DILUTE HYDROCHLORIC ACID [WHO-IP]', 'DILUTED HYDROCHLORIC ACID', 'E-507', 'ENPLATE PO 236', 'HYDROCHLORIC ACID', 'HYDROCHLORIC ACID [FCC]', 'HYDROCHLORIC ACID [HSDB]', 'HYDROCHLORIC ACID [IARC]', 'HYDROCHLORIC ACID [II]', 'HYDROCHLORIC ACID [INCI]', 'HYDROCHLORIC ACID [MART.]', 'HYDROCHLORIC ACID [MI]', 'HYDROCHLORIC ACID [VANDF]', 'HYDROCHLORIC ACID [WHO-DD]', 'HYDROCHLORIC ACID [WHO-IP]', 'HYDROCHLORIC ACID, DILUTED', 'HYDROCHLORIC ACID, DILUTED [II]', 'HYDROGEN CHLORIDE', 'HYDROGEN CHLORIDE [MI]', 'ICON ETCH', 'INS NO.507', 'INS-507', 'MURIATIC ACID', 'MURIATICUM ACIDUM', 'MURIATICUM ACIDUM [HPUS]', 'NSC-77365'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#QTT17582CB'
@@ -587,6 +622,7 @@ WARNING: Ingredient/388ecd24-ca23-406a-a014-08c1bd18a14a: Ingredient.substance.c
 == fsh-generated/resources/Ingredient-5338e475-548e-49eb-a8c4-3ec129029242.json ==
 == fsh-generated/resources/Ingredient-53a7a449-c9f2-4eb2-b32b-c7a5591e8b31.json ==
 WARNING: Ingredient/53a7a449-c9f2-4eb2-b32b-c7a5591e8b31: Ingredient.substance.code.concept.coding[0]: The display "Water for injections" is not a valid display for the code {http://fdasis.nlm.nih.gov}059QF0KO0R - should be one of ['', 'ADELHEID AQUA', 'ADELHEIDSQUELLE', 'ADELHEIDSQUELLE [HPUS]', 'AQUA', 'AQUA [INCI]', 'AQUA ADELHEID', 'AQUA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA PURIFICATA [WHO-IP LATIN]', 'AQUA STERILISATA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA WIESBADEN', 'AQUA WILDBAD', 'AQUAFINA', 'AQUEOUS SOLUTION', 'B1217 [LANGUAL]', 'BACTERIOSTATIC WATER FOR INJECTION', 'DEIONIZED WATER', 'DISTILLED WATER', 'HYDROGEN OXIDE (H2O)', 'NSC-147337', 'PURIFIED WATER', 'PURIFIED WATER [MART.]', 'PURIFIED WATER [ORANGE BOOK]', 'PURIFIED WATER [USP MONOGRAPH]', 'PURIFIED WATER [WHO-IP]', 'R-718', 'STERILE PURIFIED WATER', 'STERILE PURIFIED WATER [USP MONOGRAPH]', 'STERILE WATER', 'STERILE WATER FOR INHALATION', 'STERILE WATER FOR INHALATION [II]', 'STERILE WATER FOR INJECTION', 'STERILE WATER FOR INJECTION [ORANGE BOOK]', 'STERILE WATER FOR INJECTIONS [WHO-IP]', 'STERILE WATER FOR IRRIGATION', 'STERILE WATER FOR IRRIGATION [ORANGE BOOK]', 'ULTREX II ULTRAPURE', 'WATER', 'WATER [INCI]', 'WATER [MI]', 'WATER [VANDF]', 'WATER [WHO-DD]', 'WATER FOR HEMODIALYSIS', 'WATER FOR INHALATION, STERILE', 'WATER FOR INJECTION', 'WATER FOR INJECTION [VANDF]', 'WATER FOR INJECTION [WHO-DD]', 'WATER FOR INJECTION, BACTERIOSTATIC', 'WATER FOR INJECTION, STERILE', 'WATER FOR INJECTION,BACTERIOSTATIC', 'WATER FOR INJECTION,BACTERIOSTATIC [VANDF]', 'WATER FOR INJECTIONS [WHO-IP]', 'WATER FOR IRRIGATION, STERILE', 'WATER FOR IRRIGATION,STERILE [VANDF]', 'WATER PURIFIED [WHO-DD]', 'WATER, DEIONIZED', 'WATER, DISTILLED', 'WATER, PURIFIED', 'WATER, PURIFIED [EP MONOGRAPH]', 'WATER, PURIFIED STERILE', 'WATER, STERILE', 'WATER, STERILE PURIFIED', 'WATER,BACTERIOSTATIC [VANDF]', 'WATER,BACTERIOSTATIC INJECTION [VANDF]', 'WATER,DEIONIZED [VANDF]', 'WATER,DISTILLED [VANDF]', 'WATER,PURIFIED [VANDF]', 'WATER,SANITIZED [VANDF]', 'WATER,STERILE [VANDF]', 'WIESBADEN [HPUS]', 'WIESBADEN AQUA', 'WILDBAD AQUA'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#059QF0KO0R'
+== fsh-generated/resources/Ingredient-5401aa24-0831-4468-a38b-5574ccacf2ce.json ==
 == fsh-generated/resources/Ingredient-550a61ce-2019-4d53-9cbd-40a83f00061e.json ==
 WARNING: Ingredient/550a61ce-2019-4d53-9cbd-40a83f00061e: Ingredient.substance.code.concept.coding[0]: The display "Water for injections" is not a valid display for the code {http://fdasis.nlm.nih.gov}059QF0KO0R - should be one of ['', 'ADELHEID AQUA', 'ADELHEIDSQUELLE', 'ADELHEIDSQUELLE [HPUS]', 'AQUA', 'AQUA [INCI]', 'AQUA ADELHEID', 'AQUA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA PURIFICATA [WHO-IP LATIN]', 'AQUA STERILISATA PRO INJECTIONE [WHO-IP LATIN]', 'AQUA WIESBADEN', 'AQUA WILDBAD', 'AQUAFINA', 'AQUEOUS SOLUTION', 'B1217 [LANGUAL]', 'BACTERIOSTATIC WATER FOR INJECTION', 'DEIONIZED WATER', 'DISTILLED WATER', 'HYDROGEN OXIDE (H2O)', 'NSC-147337', 'PURIFIED WATER', 'PURIFIED WATER [MART.]', 'PURIFIED WATER [ORANGE BOOK]', 'PURIFIED WATER [USP MONOGRAPH]', 'PURIFIED WATER [WHO-IP]', 'R-718', 'STERILE PURIFIED WATER', 'STERILE PURIFIED WATER [USP MONOGRAPH]', 'STERILE WATER', 'STERILE WATER FOR INHALATION', 'STERILE WATER FOR INHALATION [II]', 'STERILE WATER FOR INJECTION', 'STERILE WATER FOR INJECTION [ORANGE BOOK]', 'STERILE WATER FOR INJECTIONS [WHO-IP]', 'STERILE WATER FOR IRRIGATION', 'STERILE WATER FOR IRRIGATION [ORANGE BOOK]', 'ULTREX II ULTRAPURE', 'WATER', 'WATER [INCI]', 'WATER [MI]', 'WATER [VANDF]', 'WATER [WHO-DD]', 'WATER FOR HEMODIALYSIS', 'WATER FOR INHALATION, STERILE', 'WATER FOR INJECTION', 'WATER FOR INJECTION [VANDF]', 'WATER FOR INJECTION [WHO-DD]', 'WATER FOR INJECTION, BACTERIOSTATIC', 'WATER FOR INJECTION, STERILE', 'WATER FOR INJECTION,BACTERIOSTATIC', 'WATER FOR INJECTION,BACTERIOSTATIC [VANDF]', 'WATER FOR INJECTIONS [WHO-IP]', 'WATER FOR IRRIGATION, STERILE', 'WATER FOR IRRIGATION,STERILE [VANDF]', 'WATER PURIFIED [WHO-DD]', 'WATER, DEIONIZED', 'WATER, DISTILLED', 'WATER, PURIFIED', 'WATER, PURIFIED [EP MONOGRAPH]', 'WATER, PURIFIED STERILE', 'WATER, STERILE', 'WATER, STERILE PURIFIED', 'WATER,BACTERIOSTATIC [VANDF]', 'WATER,BACTERIOSTATIC INJECTION [VANDF]', 'WATER,DEIONIZED [VANDF]', 'WATER,DISTILLED [VANDF]', 'WATER,PURIFIED [VANDF]', 'WATER,SANITIZED [VANDF]', 'WATER,STERILE [VANDF]', 'WIESBADEN [HPUS]', 'WIESBADEN AQUA', 'WILDBAD AQUA'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#059QF0KO0R'
 == fsh-generated/resources/Ingredient-574081c4-dc09-43d6-a578-cd3bd703454d.json ==
@@ -605,13 +641,22 @@ WARNING: Ingredient/6d8392ff-76b3-4225-8581-cdcc00445100: Ingredient.substance.c
 == fsh-generated/resources/Ingredient-7c7fe6a6-3628-41b7-84c1-7f182dd0dc9f.json ==
 == fsh-generated/resources/Ingredient-8ac669b9-eb26-4232-be2e-9858bff72fc0.json ==
 == fsh-generated/resources/Ingredient-8ca81fcb-bc37-428f-90d8-93464193fea2.json ==
+== fsh-generated/resources/Ingredient-8f251b0a-1423-4d8b-a3ef-9b146a6fe01c.json ==
+WARNING: Ingredient/8f251b0a-1423-4d8b-a3ef-9b146a6fe01c: Ingredient.substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
+WARNING: Ingredient/8f251b0a-1423-4d8b-a3ef-9b146a6fe01c: Ingredient.substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
+== fsh-generated/resources/Ingredient-92bd7c1e-26ca-49a5-8eb0-d70b05d03b44.json ==
+ERROR: Ingredient/92bd7c1e-26ca-49a5-8eb0-d70b05d03b44: Ingredient.status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
 == fsh-generated/resources/Ingredient-a4b7b60c-998f-4f93-89c7-860396af0fe3.json ==
 == fsh-generated/resources/Ingredient-a88891dc-7e9e-4d84-b462-95e53de3b6a6.json ==
+== fsh-generated/resources/Ingredient-b80d7261-777f-4b5e-8d44-0e13071edd7f.json ==
+ERROR: Ingredient/b80d7261-777f-4b5e-8d44-0e13071edd7f: Ingredient.status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
 == fsh-generated/resources/Ingredient-bcedce7d-07ac-461e-955f-60e33589ff19.json ==
 == fsh-generated/resources/Ingredient-c224c241-f427-453f-a083-4d3c9c956e02.json ==
 WARNING: Ingredient/c224c241-f427-453f-a083-4d3c9c956e02: Ingredient.substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
 WARNING: Ingredient/c224c241-f427-453f-a083-4d3c9c956e02: Ingredient.substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
 == fsh-generated/resources/Ingredient-c2483786-0526-4f40-b22b-83faeda5361e.json ==
+== fsh-generated/resources/Ingredient-c33c5f43-4449-4cef-a306-ff4628c84d1e.json ==
+ERROR: Ingredient/c33c5f43-4449-4cef-a306-ff4628c84d1e: Ingredient.status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
 == fsh-generated/resources/Ingredient-c5ef4ed7-5578-4fa9-9959-847524450714.json ==
 == fsh-generated/resources/Ingredient-ceba5cd1-321f-4bc3-b203-92d97fcf472e.json ==
 == fsh-generated/resources/Ingredient-cfc9d211-e9c2-47b2-a693-10e580c160c9.json ==
@@ -673,6 +718,8 @@ INFORMATION: Ingredient/cfsb1666198119118: Ingredient.role.coding[0]: Code Syste
 WARNING: Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3: Ingredient.substance.code.concept.coding[0]: The display "acmedrug-ing1" is not a valid display for the code {http://fdasis.nlm.nih.gov}J0E2756Z7N - should be one of ['', '1,3-DIAZASPIRO(4.4)NON-1-EN-4-ONE, 2-BUTYL-3-((2'-(1H-TETRAZOL-5-YL)(1,1'-BIPHENYL)-4-YL)METHYL)-', '2-BUTYL-3-(P-(O-1H-TETRAZOL-5-YLPHENYL)BENZYL)-1,3-DIAZASPIRO(4.4)NON-1-EN-4-ONE', 'AVALIDE COMPONENT IRBESARTAN', 'AVAPRO', 'BMS-186295', 'COAPROVEL COMPONENT IRBESARTAN', 'IBERSARTAN COMPONENT OF IBERSARTAN/HYDROCHLOROTHIAZIDE TEVA', 'IBERSARTAN COMPONENT OF IBERSARTAN/HYDROCHLOROTHIAZIDE ZENTIVA', 'IBERSARTAN/HYDROCHLOROTHIAZIDE COMPONENT IBERSARTAN', 'IBERSARTAN/HYDROCHLOROTHIAZIDE TEVA COMPONENT IBERSARTAN', 'IBERSARTAN/HYDROCHLOROTHIAZIDE ZENTIVA COMPONENT IBERSARTAN', 'IFIRMACOMBI COMPONENT IRBESARTAN', 'IRBESARTAN', 'IRBESARTAN [EMA EPAR]', 'IRBESARTAN [EP MONOGRAPH]', 'IRBESARTAN [EP]', 'IRBESARTAN [INN]', 'IRBESARTAN [JAN]', 'IRBESARTAN [MART.]', 'IRBESARTAN [MI]', 'IRBESARTAN [ORANGE BOOK]', 'IRBESARTAN [USAN]', 'IRBESARTAN [USP MONOGRAPH]', 'IRBESARTAN [USP]', 'IRBESARTAN [USP-RS]', 'IRBESARTAN [VANDF]', 'IRBESARTAN [WHO-DD]', 'IRBESARTAN BMS', 'IRBESARTAN COMPONENT OF AVALIDE', 'IRBESARTAN COMPONENT OF COAPROVEL', 'IRBESARTAN COMPONENT OF IFIRMACOMBI', 'IRBESARTAN COMPONENT OF KARVEZIDE', 'IRBESARTAN TEVA', 'IRBESARTAN ZENTIVA', 'KARVEA', 'NSC-758696', 'SARBEVEL', 'SR 47436', 'SR-47436'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#J0E2756Z7N'
 WARNING: Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3: Ingredient.substance.strength[0].basis.coding[0]: Display Name for http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB should be 'active ingredient - basis of strength', not 'active ingredient - basis of strength ' for 'http://terminology.hl7.org/CodeSystem/v3-RoleClass#ACTIB'
 WARNING: Ingredient/dc63ac4f-4460-4e7a-afba-296e240335f3: Ingredient.substance.strength[0].basis.coding[0].display: value should not start or finish with whitespace 'active...strength '
+== fsh-generated/resources/Ingredient-de2dd6f2-98b1-4fc9-b7e4-1cd379ffd22d.json ==
+ERROR: Ingredient/de2dd6f2-98b1-4fc9-b7e4-1cd379ffd22d: Ingredient.status: The value provided ('nan') is not in the value set 'PublicationStatus' (http://hl7.org/fhir/ValueSet/publication-status|5.0.0-ballot), and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/publication-status#nan in http://hl7.org/fhir/publication-status)
 == fsh-generated/resources/Ingredient-de7df0fc-9425-4f26-9179-89ba64db4d6e.json ==
 WARNING: Ingredient/de7df0fc-9425-4f26-9179-89ba64db4d6e: Ingredient.substance.code.concept.coding[0]: The display "acmedrug-ing2" is not a valid display for the code {http://fdasis.nlm.nih.gov}15FIX9V2JP - should be one of ['', 'C.I. 77891', 'CI 77891', 'CI 77891 [INCI]', 'CI-(1975)NO.77891', 'CI-77891', 'CI-PIGMENT WHITE 6', 'E 171', 'E-171', 'INS NO.171', 'INS-171', 'NSC-15204', 'NSC-200C', 'RUTILE', 'RUTILE (TIO2)', 'SAGENITE', 'TITANIA', 'TITANIUM DIOXIDE', 'TITANIUM DIOXIDE [EP MONOGRAPH]', 'TITANIUM DIOXIDE [EP]', 'TITANIUM DIOXIDE [FCC]', 'TITANIUM DIOXIDE [HSDB]', 'TITANIUM DIOXIDE [IARC]', 'TITANIUM DIOXIDE [II]', 'TITANIUM DIOXIDE [INCI]', 'TITANIUM DIOXIDE [MART.]', 'TITANIUM DIOXIDE [MI]', 'TITANIUM DIOXIDE [ORANGE BOOK]', 'TITANIUM DIOXIDE [USP]', 'TITANIUM DIOXIDE [USP-RS]', 'TITANIUM DIOXIDE [VANDF]', 'TITANIUM DIOXIDE [WHO-DD]', 'TITANIUM OXIDE'] (from http://tx.fhir.org/r4) for 'http://fdasis.nlm.nih.gov#15FIX9V2JP'
 == fsh-generated/resources/Ingredient-e5cc746a-5a27-4177-b09d-0dece84d0cc2.json ==
@@ -699,11 +746,14 @@ INFORMATION: ManufacturedItemDefinition/cfsb1650998521654: ManufacturedItemDefin
 INFORMATION: ManufacturedItemDefinition/cfsb1667576615115: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-cfsb1667576759979.json ==
 INFORMATION: ManufacturedItemDefinition/cfsb1667576759979: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+== fsh-generated/resources/ManufacturedItemDefinition-f8ae9a23-8840-43f5-98e3-a10f45a5b02c.json ==
+INFORMATION: ManufacturedItemDefinition/f8ae9a23-8840-43f5-98e3-a10f45a5b02c: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-fabc4bf2-0393-433d-baff-0122606e5049.json ==
 INFORMATION: ManufacturedItemDefinition/fabc4bf2-0393-433d-baff-0122606e5049: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/MedicinalProductDefinition-113679d3-7966-4144-ac8f-a0a767f8c94f.json ==
 == fsh-generated/resources/MedicinalProductDefinition-3a873a1c-ecf5-4ce1-b5cd-cbfcc633f367.json ==
 == fsh-generated/resources/MedicinalProductDefinition-53d36464-e1de-42c2-aa91-9cf2c7af7515.json ==
+== fsh-generated/resources/MedicinalProductDefinition-7d2f8e3a-4618-4cb3-b296-e224070c2bc0.json ==
 == fsh-generated/resources/MedicinalProductDefinition-800a51a2-d81d-49a4-a4eb-f2417d301837.json ==
 == fsh-generated/resources/MedicinalProductDefinition-bdf843db-3035-4cab-9768-dfd67a78a0e1.json ==
 == fsh-generated/resources/MedicinalProductDefinition-cfsb1650904258324.json ==
@@ -723,6 +773,7 @@ INFORMATION: MedicinalProductDefinition/fb2a80e7-b5cb-4035-ac9c-2e655a9bb298: Me
 == fsh-generated/resources/Organization-01e531fb-7cf6-446a-94f7-217c9c9bbc47.json ==
 == fsh-generated/resources/Organization-36e7be59-db47-4e36-8fcf-8547ab0fd175.json ==
 == fsh-generated/resources/Organization-38676041-1bb2-43e9-9bf7-0b02de0e3b97.json ==
+== fsh-generated/resources/Organization-3d5adfac-80d1-433a-a3e7-197e780ac68e.json ==
 == fsh-generated/resources/Organization-610b6f60-ed48-4e0c-9eda-304152906e60.json ==
 == fsh-generated/resources/Organization-7569e92a-c5b5-44af-a965-4f760aebbd66.json ==
 == fsh-generated/resources/Organization-80afb7f0-9865-46b6-b137-622e8fe7dd6d.json ==
@@ -756,6 +807,8 @@ WARNING: Organization/e8501a78-f0bc-4453-b2ca-617a340c10e0: Organization.contact
 WARNING: PackagedProductDefinition/2a1300ff-712f-4adf-9d97-68079e1ea81b: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/PackagedProductDefinition-2b98f916-8f6c-4b07-9591-fd6da51f4fbc.json ==
 WARNING: PackagedProductDefinition/2b98f916-8f6c-4b07-9591-fd6da51f4fbc: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
+== fsh-generated/resources/PackagedProductDefinition-30c7a595-10ce-4270-8dfa-37db9d2c8613.json ==
+WARNING: PackagedProductDefinition/30c7a595-10ce-4270-8dfa-37db9d2c8613: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/PackagedProductDefinition-7a0c05d7-e40e-4f33-b2cb-02beb61ca790.json ==
 WARNING: PackagedProductDefinition/7a0c05d7-e40e-4f33-b2cb-02beb61ca790: PackagedProductDefinition.status.coding[0]: A code with no system has no defined meaning. A system should be provided
 == fsh-generated/resources/PackagedProductDefinition-9f1d9c2d-eb18-4524-8611-b478975190e6.json ==
@@ -777,6 +830,7 @@ ERROR: RegulatedAuthorization/cfsb1651148079894: RegulatedAuthorization.region[0
 == fsh-generated/resources/RegulatedAuthorization-cfsb1665505019066.json ==
 ERROR: RegulatedAuthorization/cfsb1665505019066: RegulatedAuthorization.identifier[0]: Identifier.system must be an absolute reference, not a local reference
 ERROR: RegulatedAuthorization/cfsb1665505019066: RegulatedAuthorization.region[0].coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
+== fsh-generated/resources/RegulatedAuthorization-d64d7407-e79f-424c-b33b-29a24e4a302c.json ==
 == fsh-generated/resources/RegulatedAuthorization-e30ad7d4-7718-441e-8ca5-71610faaabf3.json ==
 == fsh-generated/resources/RegulatedAuthorization-e684d7e3-34e8-4c3d-b571-b003a6fbb653.json ==
 ERROR: RegulatedAuthorization/e684d7e3-34e8-4c3d-b571-b003a6fbb653: RegulatedAuthorization.region[0].coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "EU" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#EU) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#EU'
@@ -799,6 +853,7 @@ ERROR: RegulatedAuthorization/e684d7e3-34e8-4c3d-b571-b003a6fbb653: RegulatedAut
 == fsh-generated/resources/SubstanceDefinition-6e8b7fe7-e4eb-4aaa-9841-f9ae4e5f16f7.json ==
 == fsh-generated/resources/SubstanceDefinition-9fc0cb01-2d59-4015-b8e2-b50bd4cd62fe.json ==
 == fsh-generated/resources/SubstanceDefinition-da33bd51-a726-4232-aaa0-4168b9bfe249.json ==
+== fsh-generated/resources/SubstanceDefinition-ffb0f429-e115-4395-a3c3-da00cf611182.json ==
 == fsh-generated/resources/ValueSet-PharmaceuticalDoseForm.json ==
 == fsh-generated/resources/ValueSet-RegulatedAuthorizationTypeIdSystems.json ==
 == fsh-generated/resources/ValueSet-VsMedProductIdSystems.json ==
