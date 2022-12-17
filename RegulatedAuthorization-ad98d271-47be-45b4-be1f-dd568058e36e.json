@@ -1,0 +1,44 @@
+{
+  "resourceType" : "RegulatedAuthorization",
+  "id" : "ad98d271-47be-45b4-be1f-dd568058e36e",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"ad98d271-47be-45b4-be1f-dd568058e36e\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;ad98d271-47be-45b4-be1f-dd568058e36e&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/96/007/035 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-dc1c1f15-c169-419c-a4b2-d4895a8cc4f9.html\">MedicinalProductDefinition/dc1c1f15-c169-419c-a4b2-d4895a8cc4f9</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>region</b>: Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"Organization-2d45157a-fa8f-4bfe-8baf-5a39dc887c5f.html\">Organization/2d45157a-fa8f-4bfe-8baf-5a39dc887c5f</a> &quot;ACME industry&quot;</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "EU/1/96/007/035"
+  }],
+  "subject" : [{
+    "reference" : "MedicinalProductDefinition/dc1c1f15-c169-419c-a4b2-d4895a8cc4f9"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072062",
+      "display" : "Marketing Authorisation"
+    }]
+  },
+  "region" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "DK",
+      "display" : "Denmark"
+    }]
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2015-02-07T13:28:17Z",
+  "holder" : {
+    "reference" : "Organization/2d45157a-fa8f-4bfe-8baf-5a39dc887c5f"
+  }
+}

@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/9b936a6a-a403-4ceb-b71f-f2d2354a9d24> a fhir:Ingredient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "9b936a6a-a403-4ceb-b71f-f2d2354a9d24"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"9b936a6a-a403-4ceb-b71f-f2d2354a9d24\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;9b936a6a-a403-4ceb-b71f-f2d2354a9d24&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: J0E2756Z7N (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-df08f8ed-f66c-4445-8783-84bb22dc1ffa.html\">ManufacturedItemDefinition/df08f8ed-f66c-4445-8783-84bb22dc1ffa</a></p><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#72072)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-e3b6f94b-3aab-4dba-8156-c70f3810f3b2.html\">Organization/e3b6f94b-3aab-4dba-8156-c70f3810f3b2</a> &quot;ACME industry&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>paracetamol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#J0E2756Z7N)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>75 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength  <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:Ingredient.identifier [
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+     fhir:Identifier.value [ fhir:value "J0E2756Z7N" ]
+  ]; # 
+  fhir:Ingredient.status [ fhir:value "active"]; # 
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/df08f8ed-f66c-4445-8783-84bb22dc1ffa>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/df08f8ed-f66c-4445-8783-84bb22dc1ffa" ]
+  ]; # 
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "72072" ];
+       fhir:Coding.display [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:Ingredient.manufacturer [
+     fhir:index 0;
+     fhir:Ingredient.manufacturer.manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/e3b6f94b-3aab-4dba-8156-c70f3810f3b2>;
+       fhir:Reference.reference [ fhir:value "Organization/e3b6f94b-3aab-4dba-8156-c70f3810f3b2" ]
+     ]
+  ]; # 
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+           fhir:Coding.code [ fhir:value "J0E2756Z7N" ];
+           fhir:Coding.display [ fhir:value "paracetamol" ]
+         ]
+       ]
+     ];
+     fhir:Ingredient.substance.strength [
+       fhir:index 0;
+       fhir:Ingredient.substance.strength.presentationQuantity [
+         fhir:Quantity.value [ fhir:value "75"^^xsd:decimal ];
+         fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+         fhir:Quantity.code [ fhir:value "mg" ]
+       ];
+       fhir:Ingredient.substance.strength.basis [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleClass" ];
+           fhir:Coding.code [ fhir:value "ACTIB" ];
+           fhir:Coding.display [ fhir:value "active ingredient - basis of strength " ]
+         ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/df08f8ed-f66c-4445-8783-84bb22dc1ffa> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/e3b6f94b-3aab-4dba-8156-c70f3810f3b2> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/9b936a6a-a403-4ceb-b71f-f2d2354a9d24.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Ingredient/9b936a6a-a403-4ceb-b71f-f2d2354a9d24.ttl> .
+
+# -------------------------------------------------------------------------------------
+
