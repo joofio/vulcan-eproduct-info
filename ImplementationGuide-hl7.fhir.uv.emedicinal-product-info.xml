@@ -11,7 +11,7 @@
   <name value="EpiIG"/>
   <title value="Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-12-17T10:20:03+00:00"/>
+  <date value="2022-12-17T12:06:32+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
@@ -1021,6 +1021,18 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/0502966b-96ac-4cca-9688-0da789a14e40"/>
+      </reference>
+      <name value="LABORATORIOS CINFA, S.A. as Marketing authorisation holder"/>
+      <description value="LABORATORIOS CINFA, S.A. as Marketing authorisation holder"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
@@ -1105,6 +1117,18 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ManufacturedItemDefinition/15c14913-631c-4b53-8ec1-28a770d99f61"/>
+      </reference>
+      <name value="Manufactured item MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <description value="MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
@@ -1150,6 +1174,18 @@
       <description value="Microcrystalline cellulose"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="AdministrableProductDefinition/1d111d09-1065-4858-81ed-ce66d36fab70"/>
+      </reference>
+      <name value="Administrable product MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <description value="MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1296,6 +1332,18 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PackagedProductDefinition/334d5486-989f-4f1a-a0cc-80f6e8bb41b9"/>
+      </reference>
+      <name value="MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <description value="MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
@@ -1303,6 +1351,18 @@
       </reference>
       <name value="Ingredient-excipient Zinc chloride"/>
       <description value="Zinc chloride"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/35594546-f4d4-4c4c-9a44-f0f094b07412"/>
+      </reference>
+      <name value="Ingredient-excipient LACTOSE MONOHYDRATE"/>
+      <description value="LACTOSE MONOHYDRATE"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -1395,12 +1455,45 @@
         <valueString value="Ingredient"/>
       </extension>
       <reference>
+        <reference value="Ingredient/454b97dd-ac2a-4c72-805e-939eb0920804"/>
+      </reference>
+      <name value="Ingredient-excipient HYDROXYPROPYL CELLULOSE, UNSPECIFIED"/>
+      <description value="HYDROXYPROPYL CELLULOSE, UNSPECIFIED"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
         <reference value="Ingredient/49ad9cf6-c57a-4885-bc98-be91c5ffabb7"/>
       </reference>
       <name value="Ingredient-excipient Microcrystalline cellulose"/>
       <description value="Microcrystalline cellulose"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/4a102677-8fbd-4bed-8616-94a76473c6ff"/>
+      </reference>
+      <name value="ePI document Bundle for mirtazapine-cinfa Package Leaflet"/>
+      <description value="Bundle for mirtazapine-cinfa Package Leaflet ePI document"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1629,6 +1722,18 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/7032911e-ca8f-446c-ac40-e3ddc422ffad"/>
+      </reference>
+      <name value="Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <description value="Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Ingredient"/>
       </extension>
       <reference>
@@ -1773,6 +1878,18 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/81f8ae61-07d0-4f0b-8de8-331063b714b8"/>
+      </reference>
+      <name value="Ingredient-excipient Magnesium stearate"/>
+      <description value="Magnesium stearate"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ClinicalUseDefinition"/>
       </extension>
       <reference>
@@ -1830,6 +1947,18 @@
       <description value="Titanium Dioxide"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/8ee62abd-2518-48da-b851-30936e547d7a"/>
+      </reference>
+      <name value="Medicinal Product MIRTAZAPINe CINFA 30 mg Coated Tablet"/>
+      <description value="EU/1/97/049/001 MIRTAZAPINe CINFA 30 mg Coated Tablet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1919,6 +2048,30 @@
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/9b6fd515-d60c-4fc4-93e7-4638bf065f37"/>
+      </reference>
+      <name value="Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet"/>
+      <description value="Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/9e6fea16-90c2-4c13-9b10-d2aa8ac25eee"/>
+      </reference>
+      <name value="Ingredient-active Mirtazapine"/>
+      <description value="Mirtazapine"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2012,6 +2165,18 @@
       <description value="Warning - hypotension"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/b3a3057f-b854-4c85-8e44-9c21b684221a"/>
+      </reference>
+      <name value="Ingredient-excipient CORN STARCH"/>
+      <description value="CORN STARCH"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2169,6 +2334,18 @@
       <description value="acmedrugman"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/ca64edab-0780-443c-bedd-267795149507"/>
+      </reference>
+      <name value="Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS"/>
+      <description value="SILICA, COLLOIDAL ANHYDROUS"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2880,6 +3057,18 @@
       <description value="Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SubstanceDefinition"/>
+      </extension>
+      <reference>
+        <reference value="SubstanceDefinition/e6b601d3-cb31-474d-bc08-79b81f2f7312"/>
+      </reference>
+      <name value="substance-mirtazapine"/>
+      <description value="Mirtazapine"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

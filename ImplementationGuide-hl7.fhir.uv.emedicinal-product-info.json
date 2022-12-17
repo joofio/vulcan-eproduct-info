@@ -10,7 +10,7 @@
   "name" : "EpiIG",
   "title" : "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status" : "active",
-  "date" : "2022-12-17T10:20:03+00:00",
+  "date" : "2022-12-17T12:06:32+00:00",
   "contact" : [{
     "name" : "HL7 BR&R",
     "telecom" : [{
@@ -1171,6 +1171,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Organization"
+      }],
+      "reference" : {
+        "reference" : "Organization/0502966b-96ac-4cca-9688-0da789a14e40"
+      },
+      "name" : "LABORATORIOS CINFA, S.A. as Marketing authorisation holder",
+      "description" : "LABORATORIOS CINFA, S.A. as Marketing authorisation holder",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Ingredient"
       }],
       "reference" : {
@@ -1262,6 +1275,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ManufacturedItemDefinition"
+      }],
+      "reference" : {
+        "reference" : "ManufacturedItemDefinition/15c14913-631c-4b53-8ec1-28a770d99f61"
+      },
+      "name" : "Manufactured item MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "description" : "MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Ingredient"
       }],
       "reference" : {
@@ -1310,6 +1336,19 @@
       "description" : "Microcrystalline cellulose",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "AdministrableProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "AdministrableProductDefinition/1d111d09-1065-4858-81ed-ce66d36fab70"
+      },
+      "name" : "Administrable product MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "description" : "MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -1468,6 +1507,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "PackagedProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "PackagedProductDefinition/334d5486-989f-4f1a-a0cc-80f6e8bb41b9"
+      },
+      "name" : "MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "description" : "MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Ingredient"
       }],
       "reference" : {
@@ -1475,6 +1527,19 @@
       },
       "name" : "Ingredient-excipient Zinc chloride",
       "description" : "Zinc chloride",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/35594546-f4d4-4c4c-9a44-f0f094b07412"
+      },
+      "name" : "Ingredient-excipient LACTOSE MONOHYDRATE",
+      "description" : "LACTOSE MONOHYDRATE",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
@@ -1575,12 +1640,47 @@
         "valueString" : "Ingredient"
       }],
       "reference" : {
+        "reference" : "Ingredient/454b97dd-ac2a-4c72-805e-939eb0920804"
+      },
+      "name" : "Ingredient-excipient HYDROXYPROPYL CELLULOSE, UNSPECIFIED",
+      "description" : "HYDROXYPROPYL CELLULOSE, UNSPECIFIED",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
         "reference" : "Ingredient/49ad9cf6-c57a-4885-bc98-be91c5ffabb7"
       },
       "name" : "Ingredient-excipient Microcrystalline cellulose",
       "description" : "Microcrystalline cellulose",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/4a102677-8fbd-4bed-8616-94a76473c6ff"
+      },
+      "name" : "ePI document Bundle for mirtazapine-cinfa Package Leaflet",
+      "description" : "Bundle for mirtazapine-cinfa Package Leaflet ePI document",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -1828,6 +1928,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "RegulatedAuthorization"
+      }],
+      "reference" : {
+        "reference" : "RegulatedAuthorization/7032911e-ca8f-446c-ac40-e3ddc422ffad"
+      },
+      "name" : "Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "description" : "Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Ingredient"
       }],
       "reference" : {
@@ -1983,6 +2096,19 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/81f8ae61-07d0-4f0b-8de8-331063b714b8"
+      },
+      "name" : "Ingredient-excipient Magnesium stearate",
+      "description" : "Magnesium stearate",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ClinicalUseDefinition"
       }],
       "reference" : {
@@ -2044,6 +2170,19 @@
       "description" : "Titanium Dioxide",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "MedicinalProductDefinition"
+      }],
+      "reference" : {
+        "reference" : "MedicinalProductDefinition/8ee62abd-2518-48da-b851-30936e547d7a"
+      },
+      "name" : "Medicinal Product MIRTAZAPINe CINFA 30 mg Coated Tablet",
+      "description" : "EU/1/97/049/001 MIRTAZAPINe CINFA 30 mg Coated Tablet",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
     },
     {
       "extension" : [{
@@ -2139,6 +2278,32 @@
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
+        "reference" : "Composition/9b6fd515-d60c-4fc4-93e7-4638bf065f37"
+      },
+      "name" : "Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet",
+      "description" : "Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/9e6fea16-90c2-4c13-9b10-d2aa8ac25eee"
+      },
+      "name" : "Ingredient-active Mirtazapine",
+      "description" : "Mirtazapine",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
     {
       "extension" : [{
@@ -2239,6 +2404,19 @@
       "description" : "Warning - hypotension",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/b3a3057f-b854-4c85-8e44-9c21b684221a"
+      },
+      "name" : "Ingredient-excipient CORN STARCH",
+      "description" : "CORN STARCH",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
     {
       "extension" : [{
@@ -2408,6 +2586,19 @@
       "description" : "acmedrugman",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Ingredient"
+      }],
+      "reference" : {
+        "reference" : "Ingredient/ca64edab-0780-443c-bedd-267795149507"
+      },
+      "name" : "Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS",
+      "description" : "SILICA, COLLOIDAL ANHYDROUS",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
     {
       "extension" : [{
@@ -3182,6 +3373,19 @@
       "description" : "Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SubstanceDefinition"
+      }],
+      "reference" : {
+        "reference" : "SubstanceDefinition/e6b601d3-cb31-474d-bc08-79b81f2f7312"
+      },
+      "name" : "substance-mirtazapine",
+      "description" : "Mirtazapine",
+      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
+      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
     },
     {
       "extension" : [{
