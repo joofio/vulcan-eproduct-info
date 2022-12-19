@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="2d577e19-b88f-45ac-8dcf-a0572e5b639a"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="2d577e19-b88f-45ac-8dcf-a0572e5b639a"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;2d577e19-b88f-45ac-8dcf-a0572e5b639a&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: nan (use: OFFICIAL)</p><p><b>name</b>: MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-9d461f6f-18d1-4594-83c2-219fd63cb9b7.html">MedicinalProductDefinition/9d461f6f-18d1-4594-83c2-219fd63cb9b7</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2021-09-01</p><p><b>containedItemQuantity</b>: 30 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href="Organization-1115f2ae-4569-4aab-8f1d-a48a2f91511c.html">Organization/1115f2ae-4569-4aab-8f1d-a48a2f91511c</a> &quot;LABORATORIOS CINFA, S.A.&quot;</p><h3>Packagings</h3><table class="grid"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073496)</span></td><td>30</td><td>PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003222)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="nan"/>
+  </identifier>
+  <name value="MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+      <display value="Chemical Medicinal Prodcut"/>
+    </coding>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/9d461f6f-18d1-4594-83c2-219fd63cb9b7"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2021-09-01"/>
+  <containedItemQuantity>
+    <value value="30"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mg"/>
+  </containedItemQuantity>
+  <manufacturer>
+    <reference value="Organization/1115f2ae-4569-4aab-8f1d-a48a2f91511c"/>
+  </manufacturer>
+  <packaging>
+    <identifier>
+      <system value="https://spor.ema.europa.eu/pmswi"/>
+      <value value="123456"/>
+    </identifier>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073496"/>
+        <display value="Blister"/>
+      </coding>
+    </type>
+    <quantity value="30"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003222"/>
+        <display value="PolyVinyl Chloride"/>
+      </coding>
+    </material>
+  </packaging>
+</PackagedProductDefinition>

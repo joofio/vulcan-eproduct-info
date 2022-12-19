@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb> a fhir:ManufacturedItemDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "7e6920cb-c95e-4251-961e-bfd59f1269bb"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"7e6920cb-c95e-4251-961e-bfd59f1269bb\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;7e6920cb-c95e-4251-961e-bfd59f1269bb&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: x (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073864)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href=\"Organization-9743e79b-32f2-4340-9f29-2f1995c4a147.html\">Organization/9743e79b-32f2-4340-9f29-2f1995c4a147</a> &quot;Lacer, S.A. - Boters, 5&quot;</p></div>"
+  ]; # 
+  fhir:ManufacturedItemDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi/#/" ];
+     fhir:Identifier.value [ fhir:value "x" ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"]; # 
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+       fhir:Coding.code [ fhir:value "100000073864" ];
+       fhir:Coding.display [ fhir:value "tablet" ]
+     ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "200000002152" ];
+       fhir:Coding.display [ fhir:value "Tablet" ]
+     ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.manufacturer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147>;
+     fhir:Reference.reference [ fhir:value "Organization/9743e79b-32f2-4340-9f29-2f1995c4a147" ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb.ttl> .
+
+# -------------------------------------------------------------------------------------
+

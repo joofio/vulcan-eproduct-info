@@ -1,0 +1,43 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "51d77634-ef0f-4230-a610-b52a05e5746e",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"51d77634-ef0f-4230-a610-b52a05e5746e\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;51d77634-ef0f-4230-a610-b52a05e5746e&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: QTT17582CB (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-4478e098-80bb-481a-ac3f-24c64014fff9.html\">ManufacturedItemDefinition/4478e098-80bb-481a-ac3f-24c64014fff9</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-631e8d02-c540-41d6-963e-8fcf2acb7a13.html\">Organization/631e8d02-c540-41d6-963e-8fcf2acb7a13</a> &quot;Eli Lilly Nederland B.V.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Hydrochloric acid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#QTT17582CB)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "http://fdasis.nlm.nih.gov",
+    "value" : "QTT17582CB"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/4478e098-80bb-481a-ac3f-24c64014fff9"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072082",
+      "display" : "Excipient"
+    }]
+  },
+  "manufacturer" : [{
+    "manufacturer" : {
+      "reference" : "Organization/631e8d02-c540-41d6-963e-8fcf2acb7a13"
+    }
+  }],
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://fdasis.nlm.nih.gov",
+          "code" : "QTT17582CB",
+          "display" : "Hydrochloric acid"
+        }]
+      }
+    }
+  }
+}

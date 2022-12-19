@@ -1,0 +1,43 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "e4cd6b02-ce03-4a35-98cc-83e062140eed",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"e4cd6b02-ce03-4a35-98cc-83e062140eed\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;e4cd6b02-ce03-4a35-98cc-83e062140eed&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 3OWL53L36A (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-8b33c52b-40d2-45df-89e6-16a09832fabb.html\">ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-fe05963e-eb22-4d71-a2f0-f937787ca79b.html\">Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Mannitol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#3OWL53L36A)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "http://fdasis.nlm.nih.gov",
+    "value" : "3OWL53L36A"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072082",
+      "display" : "Excipient"
+    }]
+  },
+  "manufacturer" : [{
+    "manufacturer" : {
+      "reference" : "Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b"
+    }
+  }],
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://fdasis.nlm.nih.gov",
+          "code" : "3OWL53L36A",
+          "display" : "Mannitol"
+        }]
+      }
+    }
+  }
+}

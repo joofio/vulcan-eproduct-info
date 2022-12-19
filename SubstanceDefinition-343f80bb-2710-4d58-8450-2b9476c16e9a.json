@@ -1,0 +1,49 @@
+{
+  "resourceType" : "SubstanceDefinition",
+  "id" : "343f80bb-2710-4d58-8450-2b9476c16e9a",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"343f80bb-2710-4d58-8450-2b9476c16e9a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;343f80bb-2710-4d58-8450-2b9476c16e9a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: J0E2756Z7N (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>description</b>: White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.</p><p><b>manufacturer</b>: <a href=\"Organization-edc2dc59-5e79-4486-a7f4-ab2d73c76230.html\">Organization/edc2dc59-5e79-4486-a7f4-ab2d73c76230</a> &quot;Sanofi-Aventis Groupe&quot;</p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td>*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>428.53</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C25H28N6O</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>(+)-6-methyleneandrosta-1,4-diene-3,17-dione</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+    "value" : "J0E2756Z7N"
+  }],
+  "version" : "1",
+  "status" : {
+    "coding" : [{
+      "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+      "code" : "1",
+      "display" : "Validated (UNII)"
+    }]
+  },
+  "description" : "White to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.",
+  "manufacturer" : [{
+    "reference" : "Organization/edc2dc59-5e79-4486-a7f4-ab2d73c76230"
+  }],
+  "molecularWeight" : [{
+    "type" : {
+      "text" : "exact"
+    },
+    "amount" : {
+      "value" : 428.53
+    }
+  }],
+  "structure" : {
+    "molecularFormula" : "C25H28N6O"
+  },
+  "name" : [{
+    "name" : "(+)-6-methyleneandrosta-1,4-diene-3,17-dione",
+    "type" : {
+      "coding" : [{
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "code" : "x",
+        "display" : "Chemical Name"
+      }]
+    }
+  }]
+}

@@ -1,0 +1,44 @@
+{
+  "resourceType" : "RegulatedAuthorization",
+  "id" : "86d3a696-f521-4209-bb67-4982833bc6e8",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"86d3a696-f521-4209-bb67-4982833bc6e8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;86d3a696-f521-4209-bb67-4982833bc6e8&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: 72.741 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-22a966c1-7ccf-4697-814d-8c5c861e936e.html\">MedicinalProductDefinition/22a966c1-7ccf-4697-814d-8c5c861e936e</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>region</b>: Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2010-10-01</p><p><b>holder</b>: <a href=\"Organization-1bee16d1-407b-483b-a78d-79d06f460cdd.html\">Organization/1bee16d1-407b-483b-a78d-79d06f460cdd</a> &quot;FERRER INTERNACIONAL, S.A.&quot;</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "72.741"
+  }],
+  "subject" : [{
+    "reference" : "MedicinalProductDefinition/22a966c1-7ccf-4697-814d-8c5c861e936e"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072062",
+      "display" : "Marketing Authorisation"
+    }]
+  },
+  "region" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2010-10-01",
+  "holder" : {
+    "reference" : "Organization/1bee16d1-407b-483b-a78d-79d06f460cdd"
+  }
+}

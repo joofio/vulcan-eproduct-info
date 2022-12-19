@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RegulatedAuthorization xmlns="http://hl7.org/fhir">
+  <id value="36aab683-567b-42c5-a65c-b3c2749b4660"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="36aab683-567b-42c5-a65c-b3c2749b4660"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;36aab683-567b-42c5-a65c-b3c2749b4660&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/16/1157/002 (use: OFFICIAL)</p><p><b>subject</b>: <a href="MedicinalProductDefinition-8e4f1fbf-70e9-470a-9694-e0168320b56c.html">MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072062)</span></p><p><b>region</b>: Denmark <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2017-01-11 13:28:17+0000</p><p><b>holder</b>: <a href="Organization-9986b39a-e820-49a9-9b65-de34d6079331.html">Organization/9986b39a-e820-49a9-9b65-de34d6079331</a> &quot;Sanofi-Aventis Groupe&quot;</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="EU/1/16/1157/002"/>
+  </identifier>
+  <subject>
+    <reference value="MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c"/>
+  </subject>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072062"/>
+      <display value="Marketing Authorisation"/>
+    </coding>
+  </type>
+  <region>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DK"/>
+      <display value="Denmark"/>
+    </coding>
+  </region>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2017-01-11T13:28:17Z"/>
+  <holder>
+    <reference value="Organization/9986b39a-e820-49a9-9b65-de34d6079331"/>
+  </holder>
+</RegulatedAuthorization>

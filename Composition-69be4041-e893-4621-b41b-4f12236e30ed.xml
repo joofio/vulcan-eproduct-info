@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Composition xmlns="http://hl7.org/fhir">
+  <id value="69be4041-e893-4621-b41b-4f12236e30ed"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="69be4041-e893-4621-b41b-4f12236e30ed"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;69be4041-e893-4621-b41b-4f12236e30ed&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a></p></div><p><b>identifier</b>: id: 0d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href="Organization-9986b39a-e820-49a9-9b65-de34d6079331.html">Organization/9986b39a-e820-49a9-9b65-de34d6079331</a> &quot;Sanofi-Aventis Groupe&quot;</p><p><b>title</b>: TEST PURPOSES ONLY - adalimumab</p></div>
+  </text>
+  <identifier>
+    <system value="https://spor.ema.europa.eu/rmswi/"/>
+    <value value="0d69fdcb-33cf-407f-8209-a6529856ab4f"/>
+  </identifier>
+  <status value="final"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi/"/>
+      <code value="100000155538"/>
+    </coding>
+    <text value="Package Leaflet"/>
+  </type>
+  <subject>
+    <reference value="MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c"/>
+  </subject>
+  <date value="2022-02-16T13:28:17Z"/>
+  <author>
+    <reference value="Organization/9986b39a-e820-49a9-9b65-de34d6079331"/>
+  </author>
+  <title value="TEST PURPOSES ONLY - adalimumab"/>
+  <section>
+    <title value="Product Information"/>
+    <code>
+      <text value="Product Info"/>
+    </code>
+    <entry>
+      <reference value="Ingredient/f5eba89a-53bf-41cc-a00f-a81330062946"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/34734d5b-c7cf-4a3e-bf87-1412db87476e"/>
+    </entry>
+    <entry>
+      <reference value="Ingredient/06d11577-dc08-4fe4-b9f3-3b98f8e4159b"/>
+    </entry>
+    <entry>
+      <reference value="AdministrableProductDefinition/88272368-f0bf-4222-aec0-4829b44b6d0b"/>
+    </entry>
+    <entry>
+      <reference value="RegulatedAuthorization/36aab683-567b-42c5-a65c-b3c2749b4660"/>
+    </entry>
+    <entry>
+      <reference value="Organization/9986b39a-e820-49a9-9b65-de34d6079331"/>
+    </entry>
+    <entry>
+      <reference value="Organization/a86857b5-0210-4df3-b550-e326ab3e2101"/>
+    </entry>
+    <entry>
+      <reference value="Organization/6f34afc3-66a7-4410-99ad-53604ea211f4"/>
+    </entry>
+    <entry>
+      <reference value="Organization/dbeccd59-b7ba-4640-a617-ad9d910e71bf"/>
+    </entry>
+    <entry>
+      <reference value="PackagedProductDefinition/560639ae-8c6a-4f98-9a5b-455534b1b16a"/>
+    </entry>
+    <entry>
+      <reference value="MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c"/>
+    </entry>
+    <entry>
+      <reference value="ManufacturedItemDefinition/3cc3914b-e0f5-43f4-b4fc-c02e7c70ecf7"/>
+    </entry>
+  </section>
+  <section>
+    <title value="Narrative Text"/>
+    <code>
+      <text value="Narrative"/>
+    </code>
+    <section>
+      <title value="B. Package Leaflet"/>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <code value="100000155538"/>
+        </coding>
+        <text value="B. PACKAGE LEAFLET"/>
+      </code>
+      <text>
+        <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div>
+      </text>
+      <emptyReason>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+          <code value="unavailable"/>
+        </coding>
+      </emptyReason>
+      <section>
+        <title value="Package leaflet: Information for the user"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="Package leaflet: Information for the user"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">PACKAGE LEAFLET: INFORMATION FOR THE USER Humalog Mix50 100 units/ml suspension for injection in cartridge insulin lispro Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.<ul><li>Keep this leaflet. You may need to read it again.</li><li>If you have any further questions, ask your doctor or pharmacist.</li><li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li><li>If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li></ul></div></div>
+        </text>
+      </section>
+      <section>
+        <title value="What is in this leaflet"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="What is in this leaflet"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml">What in this leaflet<ol><li>What Humalog Mix50 is and what it is used for</li><li>What you need to know before you take Humalog Mix50</li><li>How to take Humalog Mix50</li><li>Possible side effects</li><li>How to store Humalog Mix50</li><li>Contents of the pack and other information</li></ol></div></div>
+        </text>
+      </section>
+      <section>
+        <title value="1. What adalimumab is and what it is used for"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="1. What adalimumab is and what it is used for"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div>
+        </text>
+        <emptyReason>
+          <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+            <code value="unavailable"/>
+          </coding>
+        </emptyReason>
+      </section>
+      <section>
+        <title value="2. What you need to know before you take adalimumab"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="2. What you need to know before you take adalimumab"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><b>2. What you need to know before you use Humalog Mix50</b> Do NOT use Humalog Mix50 if you</div></div>
+        </text>
+      </section>
+      <section>
+        <title value="3. How to take adalimumab"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="3. How to take adalimumab"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><b>3. How to use Humalog Mix50</b> <b>The 3 ml cartridge is only for use in Lilly 3 ml pens. It is not for use in 1.5 ml pens.</b><p>Always use Humalog Mix50 exactly as your doctor has told you. You should check with your doctor if you are not sure. To prevent the possible transmission of disease, each cartridge must be used by you only, even if the needle on the delivery device is changed.</p></div></div>
+        </text>
+      </section>
+      <section>
+        <title value="4. Possible side effects"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="4. Possible side effects"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p><b>4. Possible side effects</b></p><p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p></div></div>
+        </text>
+      </section>
+      <section>
+        <title value="5. How to store adalimumab"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="5. How to store adalimumab"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Keep this medicine out of the sight and reach of children.</p><p>Do not use this medicine after the expiry date which is stated on the carton and on the blister after EXP. The expiry date refers to the last day of that month.</p><p>Do not store above 30°C.</p><p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away of medicines you no longer use. These measures will help protect the environment.</p></div></div>
+        </text>
+      </section>
+      <section>
+        <title value="6. Contents of the pack and other information"/>
+        <code>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="6. Contents of the pack and other information"/>
+        </code>
+        <text>
+          <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><b>6. Contents of the pack and other information</b> <b>What Humalog Mix50 100 units/ml suspension for injection in cartridge contains</b><p>The active substance is insulin lispro. Insulin lispro is made in the laboratory by a ‘recombinant DNA technology’ process. It is a changed form of human insulin and so is different from other human and animal insulins. Insulin lispro is closely related to human insulin which is a natural hormone made by the pancreas. The other ingredients are protamine sulphate, m-cresol, phenol, glycerol, dibasic sodium phosphate 7H2O, zinc oxide and water for injection. Sodium hydroxide or hydrochloric acid may have been used to adjust the acidity.</p></div></div>
+        </text>
+      </section>
+    </section>
+  </section>
+</Composition>

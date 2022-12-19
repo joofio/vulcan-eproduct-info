@@ -1,0 +1,75 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/36aab683-567b-42c5-a65c-b3c2749b4660> a fhir:RegulatedAuthorization;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "36aab683-567b-42c5-a65c-b3c2749b4660"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"36aab683-567b-42c5-a65c-b3c2749b4660\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;36aab683-567b-42c5-a65c-b3c2749b4660&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/16/1157/002 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-8e4f1fbf-70e9-470a-9694-e0168320b56c.html\">MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>region</b>: Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2017-01-11 13:28:17+0000</p><p><b>holder</b>: <a href=\"Organization-9986b39a-e820-49a9-9b65-de34d6079331.html\">Organization/9986b39a-e820-49a9-9b65-de34d6079331</a> &quot;Sanofi-Aventis Groupe&quot;</p></div>"
+  ]; # 
+  fhir:RegulatedAuthorization.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi" ];
+     fhir:Identifier.value [ fhir:value "EU/1/16/1157/002" ]
+  ]; # 
+  fhir:RegulatedAuthorization.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c" ]
+  ]; # 
+  fhir:RegulatedAuthorization.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "100000072062" ];
+       fhir:Coding.display [ fhir:value "Marketing Authorisation" ]
+     ]
+  ]; # 
+  fhir:RegulatedAuthorization.region [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "DK" ];
+       fhir:Coding.display [ fhir:value "Denmark" ]
+     ]
+  ]; # 
+  fhir:RegulatedAuthorization.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/publication-status" ];
+       fhir:Coding.code [ fhir:value "active" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ]; # 
+  fhir:RegulatedAuthorization.statusDate [ fhir:value "2017-01-11T13:28:17Z"^^xsd:dateTime]; # 
+  fhir:RegulatedAuthorization.holder [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9986b39a-e820-49a9-9b65-de34d6079331>;
+     fhir:Reference.reference [ fhir:value "Organization/9986b39a-e820-49a9-9b65-de34d6079331" ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/8e4f1fbf-70e9-470a-9694-e0168320b56c> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9986b39a-e820-49a9-9b65-de34d6079331> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/36aab683-567b-42c5-a65c-b3c2749b4660.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/RegulatedAuthorization/36aab683-567b-42c5-a65c-b3c2749b4660.ttl> .
+
+# -------------------------------------------------------------------------------------
+

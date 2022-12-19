@@ -1,0 +1,64 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "3ad17550-7a45-4a2f-a623-0933c7051b54",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"3ad17550-7a45-4a2f-a623-0933c7051b54\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;3ad17550-7a45-4a2f-a623-0933c7051b54&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/96/007/035 (use: OFFICIAL)</p><p><b>name</b>: Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-c931b18e-c12d-4215-9700-f5491d6c765a.html\">MedicinalProductDefinition/c931b18e-c12d-4215-9700-f5491d6c765a</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 3 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></p><p><b>manufacturer</b>: <a href=\"Organization-631e8d02-c540-41d6-963e-8fcf2acb7a13.html\">Organization/631e8d02-c540-41d6-963e-8fcf2acb7a13</a> &quot;Eli Lilly Nederland B.V.&quot;</p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Pre-filled pen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073543)</span></td><td>5</td><td>Glass type 1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003204)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "EU/1/96/007/035"
+  }],
+  "name" : "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medicinal Prodcut"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/c931b18e-c12d-4215-9700-f5491d6c765a"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2015-02-07T13:28:17Z",
+  "containedItemQuantity" : [{
+    "value" : 3,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "ml"
+  }],
+  "manufacturer" : [{
+    "reference" : "Organization/631e8d02-c540-41d6-963e-8fcf2acb7a13"
+  }],
+  "packaging" : {
+    "identifier" : [{
+      "system" : "https://spor.ema.europa.eu/pmswi",
+      "value" : "123456"
+    }],
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073543",
+        "display" : "Pre-filled pen"
+      }]
+    },
+    "quantity" : 5,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003204",
+        "display" : "Glass type 1"
+      }]
+    }]
+  }
+}

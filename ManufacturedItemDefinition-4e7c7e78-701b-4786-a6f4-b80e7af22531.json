@@ -1,0 +1,34 @@
+{
+  "resourceType" : "ManufacturedItemDefinition",
+  "id" : "4e7c7e78-701b-4786-a6f4-b80e7af22531",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"4e7c7e78-701b-4786-a6f4-b80e7af22531\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;4e7c7e78-701b-4786-a6f4-b80e7af22531&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: xx (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073864)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href=\"Organization-1bee16d1-407b-483b-a78d-79d06f460cdd.html\">Organization/1bee16d1-407b-483b-a78d-79d06f460cdd</a> &quot;FERRER INTERNACIONAL, S.A.&quot;</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi/#/",
+    "value" : "xx"
+  }],
+  "status" : "active",
+  "manufacturedDoseForm" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi/",
+      "code" : "100000073864",
+      "display" : "tablet"
+    }]
+  },
+  "unitOfPresentation" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "200000002152",
+      "display" : "Tablet"
+    }]
+  },
+  "manufacturer" : [{
+    "reference" : "Organization/1bee16d1-407b-483b-a78d-79d06f460cdd"
+  }]
+}

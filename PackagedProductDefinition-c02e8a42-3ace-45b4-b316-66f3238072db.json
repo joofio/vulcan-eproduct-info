@@ -1,0 +1,81 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "c02e8a42-3ace-45b4-b316-66f3238072db",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"c02e8a42-3ace-45b4-b316-66f3238072db\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;c02e8a42-3ace-45b4-b316-66f3238072db&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: nan (use: OFFICIAL)</p><p><b>name</b>: Humira 40 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads</p><p><b>type</b>: 100000155527 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-c98b73a6-65be-439b-81d7-4b86b2846031.html\">MedicinalProductDefinition/c98b73a6-65be-439b-81d7-4b86b2846031</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2008-09-08</p><p><b>containedItemQuantity</b>: 40 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>copackagedIndicator</b>: true</p><p><b>manufacturer</b>: <a href=\"Organization-fe05963e-eb22-4d71-a2f0-f937787ca79b.html\">Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p><blockquote><p><b>packaging</b></p><p><b>identifier</b>: id: xxxx</p><p><b>type</b>: 100000073498 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073498)</span></p><p><b>quantity</b>: 1</p><p><b>material</b>: Cardboard <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003529)</span></p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>Pre-filled syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#30051000)</span></td><td>2</td><td>Glass type I <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003204)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "nan"
+  }],
+  "name" : "Humira 40 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/c98b73a6-65be-439b-81d7-4b86b2846031"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2008-09-08",
+  "containedItemQuantity" : [{
+    "value" : 40,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "mg"
+  }],
+  "copackagedIndicator" : true,
+  "manufacturer" : [{
+    "reference" : "Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b"
+  }],
+  "packaging" : {
+    "identifier" : [{
+      "system" : "https://spor.ema.europa.eu/pmswi",
+      "value" : "xxxx"
+    }],
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073498",
+        "display" : "100000073498"
+      }]
+    },
+    "quantity" : 1,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003529",
+        "display" : "Cardboard"
+      }]
+    }],
+    "packaging" : [{
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "30051000",
+          "display" : "Pre-filled syringe"
+        }]
+      },
+      "quantity" : 2,
+      "material" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000003204",
+          "display" : "Glass type I"
+        }]
+      }]
+    }]
+  }
+}

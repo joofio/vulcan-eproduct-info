@@ -1,0 +1,113 @@
+{
+  "resourceType" : "MedicinalProductDefinition",
+  "id" : "9d461f6f-18d1-4594-83c2-219fd63cb9b7",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"9d461f6f-18d1-4594-83c2-219fd63cb9b7\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;9d461f6f-18d1-4594-83c2-219fd63cb9b7&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: cc</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-medicinal-product-type.html\">MedicinalProductType</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-medicinal-product-domain.html\">MedicinalProductDomain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: 100000000000 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000000000)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: MIRTAZAPINe CINFA 30 mg Coated Tablet</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Mirtazapine Cinfa</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Mirtazapine</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 30 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: coated tablet</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>English <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : [{
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "cc"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/medicinal-product-type",
+      "code" : "MedicinalProduct",
+      "display" : "Medicinal Product"
+    }]
+  },
+  "domain" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/medicinal-product-domain",
+      "code" : "Human",
+      "display" : "Human use"
+    }]
+  },
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "active"
+    }]
+  },
+  "legalStatusOfSupply" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000000000"
+    }]
+  },
+  "name" : [{
+    "productName" : "MIRTAZAPINe CINFA 30 mg Coated Tablet",
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+        "code" : "220000000001"
+      }],
+      "text" : "Full name"
+    },
+    "part" : [{
+      "part" : "Mirtazapine Cinfa",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+          "code" : "220000000002"
+        }],
+        "text" : "Invented name part"
+      }
+    },
+    {
+      "part" : "Mirtazapine",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+          "code" : "220000000003"
+        }],
+        "text" : "Scientific name part"
+      }
+    },
+    {
+      "part" : "30 mg",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+          "code" : "220000000004"
+        }],
+        "text" : "Strength part"
+      }
+    },
+    {
+      "part" : "coated tablet",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+          "code" : "220000000005"
+        }],
+        "text" : "Pharmaceutical dose form part"
+      }
+    }],
+    "usage" : [{
+      "country" : {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES"
+        }]
+      },
+      "jurisdiction" : {
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "ES"
+        }]
+      },
+      "language" : {
+        "coding" : [{
+          "system" : "urn:ietf:bcp:47",
+          "code" : "en",
+          "display" : "English"
+        }]
+      }
+    }]
+  }]
+}

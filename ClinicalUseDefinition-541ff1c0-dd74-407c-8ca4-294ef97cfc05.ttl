@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/541ff1c0-dd74-407c-8ca4-294ef97cfc05> a fhir:ClinicalUseDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "541ff1c0-dd74-407c-8ca4-294ef97cfc05"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"541ff1c0-dd74-407c-8ca4-294ef97cfc05\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;541ff1c0-dd74-407c-8ca4-294ef97cfc05&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html\">ClinicalUseDefinition Contraindication (ePI)</a></p></div><p><b>identifier</b>: id: Hypersensitivity reaction (use: OFFICIAL)</p><p><b>type</b>: contraindication</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-c05aadd3-d40a-460f-b63f-4e994b00b7ef.html\">MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef</a></p><blockquote><p><b>contraindication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Contraindication <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-mdr.html\">MedDRA</a>#nan)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:ClinicalUseDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/" ];
+     fhir:Identifier.value [ fhir:value "Hypersensitivity reaction" ]
+  ]; # 
+  fhir:ClinicalUseDefinition.type [ fhir:value "contraindication"]; # 
+  fhir:ClinicalUseDefinition.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef" ]
+  ]; # 
+  fhir:ClinicalUseDefinition.contraindication [
+     fhir:ClinicalUseDefinition.contraindication.diseaseSymptomProcedure [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/mdr" ];
+           fhir:Coding.code [ fhir:value "nan" ];
+           fhir:Coding.display [ fhir:value "Contraindication" ]
+         ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/541ff1c0-dd74-407c-8ca4-294ef97cfc05.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ClinicalUseDefinition/541ff1c0-dd74-407c-8ca4-294ef97cfc05.ttl> .
+
+# -------------------------------------------------------------------------------------
+

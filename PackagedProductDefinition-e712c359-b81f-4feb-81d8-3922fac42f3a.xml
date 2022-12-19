@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="e712c359-b81f-4feb-81d8-3922fac42f3a"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="e712c359-b81f-4feb-81d8-3922fac42f3a"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;e712c359-b81f-4feb-81d8-3922fac42f3a&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 672669 (use: OFFICIAL)</p><p><b>name</b>: DOLOCATIL 1 g tablets, 20 tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-22a966c1-7ccf-4697-814d-8c5c861e936e.html">MedicinalProductDefinition/22a966c1-7ccf-4697-814d-8c5c861e936e</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2010-10-13</p><p><b>containedItemQuantity</b>: 1000 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href="Organization-1bee16d1-407b-483b-a78d-79d06f460cdd.html">Organization/1bee16d1-407b-483b-a78d-79d06f460cdd</a> &quot;FERRER INTERNACIONAL, S.A.&quot;</p><h3>Packagings</h3><table class="grid"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073496)</span></td><td>20</td><td>PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003222)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="672669"/>
+  </identifier>
+  <name value="DOLOCATIL 1 g tablets, 20 tablets"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+      <display value="Chemical Medicinal Prodcut"/>
+    </coding>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/22a966c1-7ccf-4697-814d-8c5c861e936e"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2010-10-13"/>
+  <containedItemQuantity>
+    <value value="1000"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="mg"/>
+  </containedItemQuantity>
+  <manufacturer>
+    <reference value="Organization/1bee16d1-407b-483b-a78d-79d06f460cdd"/>
+  </manufacturer>
+  <packaging>
+    <identifier>
+      <system value="https://spor.ema.europa.eu/pmswi"/>
+      <value value="123456"/>
+    </identifier>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073496"/>
+        <display value="Blister"/>
+      </coding>
+    </type>
+    <quantity value="20"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003222"/>
+        <display value="PolyVinyl Chloride"/>
+      </coding>
+    </material>
+  </packaging>
+</PackagedProductDefinition>

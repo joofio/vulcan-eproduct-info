@@ -20,7 +20,7 @@
   ], [
      fhir:index 1;
      fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "$spor-org" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/omswi" ];
      fhir:Identifier.value [ fhir:value "LOC-100020264" ]
   ]; # 
   fhir:Organization.active [ fhir:value "true"^^xsd:boolean]; # 

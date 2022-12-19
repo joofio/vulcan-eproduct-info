@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="a1f0de5b-a07a-4011-b7b1-e1f10db89684"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="a1f0de5b-a07a-4011-b7b1-e1f10db89684"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;a1f0de5b-a07a-4011-b7b1-e1f10db89684&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 15FIX9V2JP (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="ManufacturedItemDefinition-e68562e6-e1b7-4f19-932f-03d864b27ed4.html">ManufacturedItemDefinition/e68562e6-e1b7-4f19-932f-03d864b27ed4</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="Organization-f8311055-9dd6-4b11-a954-60979578fb89.html">Organization/f8311055-9dd6-4b11-a954-60979578fb89</a> &quot;ACME industry&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>acmedrug-ing2 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#15FIX9V2JP)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://fdasis.nlm.nih.gov"/>
+    <value value="15FIX9V2JP"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="ManufacturedItemDefinition/e68562e6-e1b7-4f19-932f-03d864b27ed4"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072082"/>
+      <display value="Excipient"/>
+    </coding>
+  </role>
+  <manufacturer>
+    <manufacturer>
+      <reference value="Organization/f8311055-9dd6-4b11-a954-60979578fb89"/>
+    </manufacturer>
+  </manufacturer>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <code value="15FIX9V2JP"/>
+          <display value="acmedrug-ing2"/>
+        </coding>
+      </concept>
+    </code>
+  </substance>
+</Ingredient>

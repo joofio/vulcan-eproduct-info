@@ -1,0 +1,57 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "0436bbe6-578d-48bf-a7dd-2ba84f99013d",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"0436bbe6-578d-48bf-a7dd-2ba84f99013d\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;0436bbe6-578d-48bf-a7dd-2ba84f99013d&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: A051Q2099Q (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-8cb8f57f-aa9f-47da-83fd-a099ab0bea71.html\">ManufacturedItemDefinition/8cb8f57f-aa9f-47da-83fd-a099ab0bea71</a></p><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#72072)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-1115f2ae-4569-4aab-8f1d-a48a2f91511c.html\">Organization/1115f2ae-4569-4aab-8f1d-a48a2f91511c</a> &quot;LABORATORIOS CINFA, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Mirtazapine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#A051Q2099Q)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>30 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "http://fdasis.nlm.nih.gov",
+    "value" : "A051Q2099Q"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/8cb8f57f-aa9f-47da-83fd-a099ab0bea71"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "72072",
+      "display" : "active"
+    }]
+  },
+  "manufacturer" : [{
+    "manufacturer" : {
+      "reference" : "Organization/1115f2ae-4569-4aab-8f1d-a48a2f91511c"
+    }
+  }],
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://fdasis.nlm.nih.gov",
+          "code" : "A051Q2099Q",
+          "display" : "Mirtazapine"
+        }]
+      }
+    },
+    "strength" : [{
+      "presentationQuantity" : {
+        "value" : 30,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "mg"
+      },
+      "basis" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+          "code" : "ACTIB",
+          "display" : "active ingredient - basis of strength"
+        }]
+      }
+    }]
+  }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AdministrableProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="0eeb7689-35ca-4e3e-ab7f-c903eb77e421"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="0eeb7689-35ca-4e3e-ab7f-c903eb77e421"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;0eeb7689-35ca-4e3e-ab7f-c903eb77e421&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: nan</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-c98b73a6-65be-439b-81d7-4b86b2846031.html">MedicinalProductDefinition/c98b73a6-65be-439b-81d7-4b86b2846031</a></p><p><b>administrableDoseForm</b>: Solution for injection <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#11201000)</span></p><p><b>unitOfPresentation</b>: Syringe <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#15052000)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-8b33c52b-40d2-45df-89e6-16a09832fabb.html">ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Subcutaneous use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#20066000)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <system value="https://www.who-umc.org/phpid"/>
+    <value value="nan"/>
+  </identifier>
+  <status value="active"/>
+  <formOf>
+    <reference value="MedicinalProductDefinition/c98b73a6-65be-439b-81d7-4b86b2846031"/>
+  </formOf>
+  <administrableDoseForm>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="11201000"/>
+      <display value="Solution for injection"/>
+    </coding>
+  </administrableDoseForm>
+  <unitOfPresentation>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="15052000"/>
+      <display value="Syringe"/>
+    </coding>
+  </unitOfPresentation>
+  <producedFrom>
+    <reference value="ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb"/>
+  </producedFrom>
+  <routeOfAdministration>
+    <code>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="20066000"/>
+        <display value="Subcutaneous use"/>
+      </coding>
+    </code>
+    <targetSpecies>
+      <code>
+        <coding>
+          <system value="https://spor.ema.europa.eu/rmswi"/>
+          <code value="100000109093"/>
+          <display value="Human"/>
+        </coding>
+      </code>
+    </targetSpecies>
+  </routeOfAdministration>
+</AdministrableProductDefinition>

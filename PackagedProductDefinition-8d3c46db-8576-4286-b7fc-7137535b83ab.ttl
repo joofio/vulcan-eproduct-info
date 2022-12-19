@@ -1,0 +1,99 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/8d3c46db-8576-4286-b7fc-7137535b83ab> a fhir:PackagedProductDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "8d3c46db-8576-4286-b7fc-7137535b83ab"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"8d3c46db-8576-4286-b7fc-7137535b83ab\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;8d3c46db-8576-4286-b7fc-7137535b83ab&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: ss (use: OFFICIAL)</p><p><b>name</b>: BLASTON 1 mg tablets, 50 tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-c86f891a-a25c-431b-a229-a0e17e3815c5.html\">MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 1 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href=\"Organization-9743e79b-32f2-4340-9f29-2f1995c4a147.html\">Organization/9743e79b-32f2-4340-9f29-2f1995c4a147</a> &quot;Lacer, S.A. - Boters, 5&quot;</p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></td><td>50</td><td>PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></td></tr></table></div>"
+  ]; # 
+  fhir:PackagedProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi" ];
+     fhir:Identifier.value [ fhir:value "ss" ]
+  ]; # 
+  fhir:PackagedProductDefinition.name [ fhir:value "BLASTON 1 mg tablets, 50 tablets"]; # 
+  fhir:PackagedProductDefinition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "100000155527" ];
+       fhir:Coding.display [ fhir:value "Chemical Medicinal Prodcut" ]
+     ]
+  ]; # 
+  fhir:PackagedProductDefinition.packageFor [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5" ]
+  ]; # 
+  fhir:PackagedProductDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/publication-status" ];
+       fhir:Coding.code [ fhir:value "active" ];
+       fhir:Coding.display [ fhir:value "Active" ]
+     ]
+  ]; # 
+  fhir:PackagedProductDefinition.statusDate [ fhir:value "2015-02-07T13:28:17Z"^^xsd:dateTime]; # 
+  fhir:PackagedProductDefinition.containedItemQuantity [
+     fhir:index 0;
+     fhir:Quantity.value [ fhir:value "1"^^xsd:decimal ];
+     fhir:Quantity.system [ fhir:value "http://unitsofmeasure.org" ];
+     fhir:Quantity.code [ fhir:value "mg" ]
+  ]; # 
+  fhir:PackagedProductDefinition.manufacturer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147>;
+     fhir:Reference.reference [ fhir:value "Organization/9743e79b-32f2-4340-9f29-2f1995c4a147" ]
+  ]; # 
+  fhir:PackagedProductDefinition.packaging [
+     fhir:PackagedProductDefinition.packaging.identifier [
+       fhir:index 0;
+       fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi" ];
+       fhir:Identifier.value [ fhir:value "123456" ]
+     ];
+     fhir:PackagedProductDefinition.packaging.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+         fhir:Coding.code [ fhir:value "100000073496" ];
+         fhir:Coding.display [ fhir:value "Blister" ]
+       ]
+     ];
+     fhir:PackagedProductDefinition.packaging.quantity [ fhir:value "50"^^xsd:integer ];
+     fhir:PackagedProductDefinition.packaging.material [
+       fhir:index 0;
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+         fhir:Coding.code [ fhir:value "200000003222" ];
+         fhir:Coding.display [ fhir:value "PolyVinyl Chloride" ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/8d3c46db-8576-4286-b7fc-7137535b83ab.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/PackagedProductDefinition/8d3c46db-8576-4286-b7fc-7137535b83ab.ttl> .
+
+# -------------------------------------------------------------------------------------
+

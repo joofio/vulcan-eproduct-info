@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="3b879f4b-5382-4595-aff1-67b9d87093de"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="3b879f4b-5382-4595-aff1-67b9d87093de"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;3b879f4b-5382-4595-aff1-67b9d87093de&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 2ZM8CX04RZ (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="ManufacturedItemDefinition-c31e4605-bb1a-41b9-b716-4dd869c27fa4.html">ManufacturedItemDefinition/c31e4605-bb1a-41b9-b716-4dd869c27fa4</a></p><p><b>role</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#72072)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="Organization-688f4906-a6b5-4241-b734-72a5ea7acce6.html">Organization/688f4906-a6b5-4241-b734-72a5ea7acce6</a> &quot;Sanofi-Aventis Groupe&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Insulin glargine <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#2ZM8CX04RZ)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>100 U/ml<span style="background: LightGoldenRodYellow"> (Details: UCUM code U/ml = 'U/ml')</span></td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://fdasis.nlm.nih.gov"/>
+    <value value="2ZM8CX04RZ"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="ManufacturedItemDefinition/c31e4605-bb1a-41b9-b716-4dd869c27fa4"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="72072"/>
+      <display value="active"/>
+    </coding>
+  </role>
+  <manufacturer>
+    <manufacturer>
+      <reference value="Organization/688f4906-a6b5-4241-b734-72a5ea7acce6"/>
+    </manufacturer>
+  </manufacturer>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <code value="2ZM8CX04RZ"/>
+          <display value="Insulin glargine"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationQuantity>
+        <value value="100"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="U/ml"/>
+      </presentationQuantity>
+      <basis>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+          <code value="ACTIB"/>
+          <display value="active ingredient - basis of strength"/>
+        </coding>
+      </basis>
+    </strength>
+  </substance>
+</Ingredient>
