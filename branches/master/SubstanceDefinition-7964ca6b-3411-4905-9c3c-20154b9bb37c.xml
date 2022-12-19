@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SubstanceDefinition xmlns="http://hl7.org/fhir">
+  <id value="7964ca6b-3411-4905-9c3c-20154b9bb37c"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: SubstanceDefinition</b><a name="7964ca6b-3411-4905-9c3c-20154b9bb37c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource SubstanceDefinition &quot;7964ca6b-3411-4905-9c3c-20154b9bb37c&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 362O9ITL9D (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#1)</span></p><p><b>description</b>: nan</p><p><b>manufacturer</b>: <a href="Organization-1bee16d1-407b-483b-a78d-79d06f460cdd.html">Organization/1bee16d1-407b-483b-a78d-79d06f460cdd</a> &quot;FERRER INTERNACIONAL, S.A.&quot;</p><h3>MolecularWeights</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td>*</td><td>exact <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></td><td>151.16</td></tr></table><h3>Structures</h3><table class="grid"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C8H9NO2</td></tr></table><h3>Names</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>4'-HYDROXYACETANILIDE</td><td>Chemical Name <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#x)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+    <value value="362O9ITL9D"/>
+  </identifier>
+  <version value="1"/>
+  <status>
+    <coding>
+      <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+      <code value="1"/>
+      <display value="Validated (UNII)"/>
+    </coding>
+  </status>
+  <description value="nan"/>
+  <manufacturer>
+    <reference value="Organization/1bee16d1-407b-483b-a78d-79d06f460cdd"/>
+  </manufacturer>
+  <molecularWeight>
+    <type>
+      <text value="exact"/>
+    </type>
+    <amount>
+      <value value="151.16"/>
+    </amount>
+  </molecularWeight>
+  <structure>
+    <molecularFormula value="C8H9NO2"/>
+  </structure>
+  <name>
+    <name value="4'-HYDROXYACETANILIDE"/>
+    <type>
+      <coding>
+        <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+        <code value="x"/>
+        <display value="Chemical Name"/>
+      </coding>
+    </type>
+  </name>
+</SubstanceDefinition>

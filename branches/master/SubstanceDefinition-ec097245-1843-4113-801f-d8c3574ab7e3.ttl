@@ -1,0 +1,77 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/ec097245-1843-4113-801f-d8c3574ab7e3> a fhir:SubstanceDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ec097245-1843-4113-801f-d8c3574ab7e3"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"ec097245-1843-4113-801f-d8c3574ab7e3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;ec097245-1843-4113-801f-d8c3574ab7e3&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: R8I97I2L24 (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>description</b>: nan</p><p><b>manufacturer</b>: <a href=\"Organization-9743e79b-32f2-4340-9f29-2f1995c4a147.html\">Organization/9743e79b-32f2-4340-9f29-2f1995c4a147</a> &quot;Lacer, S.A. - Boters, 5&quot;</p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td>*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>402.49</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C21H30N4O4</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  ]; # 
+  fhir:SubstanceDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+     fhir:Identifier.value [ fhir:value "R8I97I2L24" ]
+  ]; # 
+  fhir:SubstanceDefinition.version [ fhir:value "1"]; # 
+  fhir:SubstanceDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+       fhir:Coding.code [ fhir:value "1" ];
+       fhir:Coding.display [ fhir:value "Validated (UNII)" ]
+     ]
+  ]; # 
+  fhir:SubstanceDefinition.description [ fhir:value "nan"]; # 
+  fhir:SubstanceDefinition.manufacturer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147>;
+     fhir:Reference.reference [ fhir:value "Organization/9743e79b-32f2-4340-9f29-2f1995c4a147" ]
+  ]; # 
+  fhir:SubstanceDefinition.molecularWeight [
+     fhir:index 0;
+     fhir:SubstanceDefinition.molecularWeight.type [
+       fhir:CodeableConcept.text [ fhir:value "exact" ]
+     ];
+     fhir:SubstanceDefinition.molecularWeight.amount [
+       fhir:Quantity.value [ fhir:value "402.49"^^xsd:decimal ]
+     ]
+  ]; # 
+  fhir:SubstanceDefinition.structure [
+     fhir:SubstanceDefinition.structure.molecularFormula [ fhir:value "C21H30N4O4" ]
+  ]; # 
+  fhir:SubstanceDefinition.name [
+     fhir:index 0;
+     fhir:SubstanceDefinition.name.name [ fhir:value "4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide" ];
+     fhir:SubstanceDefinition.name.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+         fhir:Coding.code [ fhir:value "x" ];
+         fhir:Coding.display [ fhir:value "Chemical Name" ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/ec097245-1843-4113-801f-d8c3574ab7e3.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/SubstanceDefinition/ec097245-1843-4113-801f-d8c3574ab7e3.ttl> .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,65 @@
+{
+  "resourceType" : "PackagedProductDefinition",
+  "id" : "dc59893c-2ad7-4366-95e2-18fb2e8eceb8",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"dc59893c-2ad7-4366-95e2-18fb2e8eceb8\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;dc59893c-2ad7-4366-95e2-18fb2e8eceb8&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: x (use: OFFICIAL)</p><p><b>name</b>: Pentasa Slow Release Tablets 1g</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"MedicinalProductDefinition-d2b4e8da-15b3-4132-8600-09ede8546895.html\">MedicinalProductDefinition/d2b4e8da-15b3-4132-8600-09ede8546895</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2021-01-01</p><p><b>containedItemQuantity</b>: 1 g<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code g = 'g')</span></p><p><b>copackagedIndicator</b>: false</p><p><b>manufacturer</b>: <a href=\"Organization-af8eadb6-8f58-40a9-9c39-c369824fb09e.html\">Organization/af8eadb6-8f58-40a9-9c39-c369824fb09e</a> &quot;FERRING S.A.U.&quot;</p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Blister <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073496)</span></td><td>28</td><td>PolyVinyl Chloride <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003222)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "x"
+  }],
+  "name" : "Pentasa Slow Release Tablets 1g",
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000155527",
+      "display" : "Chemical Medicinal Prodcut"
+    }]
+  },
+  "packageFor" : [{
+    "reference" : "MedicinalProductDefinition/d2b4e8da-15b3-4132-8600-09ede8546895"
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2021-01-01",
+  "containedItemQuantity" : [{
+    "value" : 1,
+    "system" : "http://unitsofmeasure.org",
+    "code" : "g"
+  }],
+  "copackagedIndicator" : false,
+  "manufacturer" : [{
+    "reference" : "Organization/af8eadb6-8f58-40a9-9c39-c369824fb09e"
+  }],
+  "packaging" : {
+    "identifier" : [{
+      "system" : "https://spor.ema.europa.eu/pmswi",
+      "value" : "123456"
+    }],
+    "type" : {
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "100000073496",
+        "display" : "Blister"
+      }]
+    },
+    "quantity" : 28,
+    "material" : [{
+      "coding" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi",
+        "code" : "200000003222",
+        "display" : "PolyVinyl Chloride"
+      }]
+    }]
+  }
+}

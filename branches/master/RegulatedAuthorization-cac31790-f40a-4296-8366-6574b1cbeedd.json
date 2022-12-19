@@ -1,0 +1,44 @@
+{
+  "resourceType" : "RegulatedAuthorization",
+  "id" : "cac31790-f40a-4296-8366-6574b1cbeedd",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"cac31790-f40a-4296-8366-6574b1cbeedd\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;cac31790-f40a-4296-8366-6574b1cbeedd&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: 67.068 (use: OFFICIAL)</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-9d461f6f-18d1-4594-83c2-219fd63cb9b7.html\">MedicinalProductDefinition/9d461f6f-18d1-4594-83c2-219fd63cb9b7</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>region</b>: Spain <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2021-01-01</p><p><b>holder</b>: <a href=\"Organization-1115f2ae-4569-4aab-8f1d-a48a2f91511c.html\">Organization/1115f2ae-4569-4aab-8f1d-a48a2f91511c</a> &quot;LABORATORIOS CINFA, S.A.&quot;</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi",
+    "value" : "67.068"
+  }],
+  "subject" : [{
+    "reference" : "MedicinalProductDefinition/9d461f6f-18d1-4594-83c2-219fd63cb9b7"
+  }],
+  "type" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072062",
+      "display" : "Marketing Authorisation"
+    }]
+  },
+  "region" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "ES",
+      "display" : "Spain"
+    }]
+  }],
+  "status" : {
+    "coding" : [{
+      "system" : "http://hl7.org/fhir/publication-status",
+      "code" : "active",
+      "display" : "Active"
+    }]
+  },
+  "statusDate" : "2021-01-01",
+  "holder" : {
+    "reference" : "Organization/1115f2ae-4569-4aab-8f1d-a48a2f91511c"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "resourceType" : "ManufacturedItemDefinition",
+  "id" : "8b33c52b-40d2-45df-89e6-16a09832fabb",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"8b33c52b-40d2-45df-89e6-16a09832fabb\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;8b33c52b-40d2-45df-89e6-16a09832fabb&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/03/256/001 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Solution for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#11201000)</span></p><p><b>unitOfPresentation</b>: Syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#15052000)</span></p><p><b>manufacturer</b>: <a href=\"Organization-fe05963e-eb22-4d71-a2f0-f937787ca79b.html\">Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi/#/",
+    "value" : "EU/1/03/256/001"
+  }],
+  "status" : "active",
+  "manufacturedDoseForm" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi/",
+      "code" : "11201000",
+      "display" : "Solution for injection"
+    }]
+  },
+  "unitOfPresentation" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "15052000",
+      "display" : "Syringe"
+    }]
+  },
+  "manufacturer" : [{
+    "reference" : "Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b"
+  }]
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ManufacturedItemDefinition xmlns="http://hl7.org/fhir">
+  <id value="e68562e6-e1b7-4f19-932f-03d864b27ed4"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="e68562e6-e1b7-4f19-932f-03d864b27ed4"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;e68562e6-e1b7-4f19-932f-03d864b27ed4&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ManufacturedItemDefinition-uv-epi.html">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/96/007/035 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000073864)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href="Organization-f8311055-9dd6-4b11-a954-60979578fb89.html">Organization/f8311055-9dd6-4b11-a954-60979578fb89</a> &quot;ACME industry&quot;</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi/#/"/>
+    <value value="EU/1/96/007/035"/>
+  </identifier>
+  <status value="active"/>
+  <manufacturedDoseForm>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi/"/>
+      <code value="100000073864"/>
+      <display value="tablet"/>
+    </coding>
+  </manufacturedDoseForm>
+  <unitOfPresentation>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="200000002152"/>
+      <display value="Tablet"/>
+    </coding>
+  </unitOfPresentation>
+  <manufacturer>
+    <reference value="Organization/f8311055-9dd6-4b11-a954-60979578fb89"/>
+  </manufacturer>
+</ManufacturedItemDefinition>

@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/660746d0-8de9-410e-9ab8-7d3da7c2ee41> a fhir:Ingredient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "660746d0-8de9-410e-9ab8-7d3da7c2ee41"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"660746d0-8de9-410e-9ab8-7d3da7c2ee41\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;660746d0-8de9-410e-9ab8-7d3da7c2ee41&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: O8232NY3SJ (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-7e6920cb-c95e-4251-961e-bfd59f1269bb.html\">ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-9743e79b-32f2-4340-9f29-2f1995c4a147.html\">Organization/9743e79b-32f2-4340-9f29-2f1995c4a147</a> &quot;Lacer, S.A. - Boters, 5&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>STARCH, CORN <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#O8232NY3SJ)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:Ingredient.identifier [
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+     fhir:Identifier.value [ fhir:value "O8232NY3SJ" ]
+  ]; # 
+  fhir:Ingredient.status [ fhir:value "active"]; # 
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb" ]
+  ]; # 
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ]; # 
+  fhir:Ingredient.manufacturer [
+     fhir:index 0;
+     fhir:Ingredient.manufacturer.manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147>;
+       fhir:Reference.reference [ fhir:value "Organization/9743e79b-32f2-4340-9f29-2f1995c4a147" ]
+     ]
+  ]; # 
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+           fhir:Coding.code [ fhir:value "O8232NY3SJ" ];
+           fhir:Coding.display [ fhir:value "STARCH, CORN" ]
+         ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/9743e79b-32f2-4340-9f29-2f1995c4a147> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/660746d0-8de9-410e-9ab8-7d3da7c2ee41.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Ingredient/660746d0-8de9-410e-9ab8-7d3da7c2ee41.ttl> .
+
+# -------------------------------------------------------------------------------------
+

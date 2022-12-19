@@ -1,0 +1,72 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e4cd6b02-ce03-4a35-98cc-83e062140eed> a fhir:Ingredient;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "e4cd6b02-ce03-4a35-98cc-83e062140eed"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"e4cd6b02-ce03-4a35-98cc-83e062140eed\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;e4cd6b02-ce03-4a35-98cc-83e062140eed&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 3OWL53L36A (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-8b33c52b-40d2-45df-89e6-16a09832fabb.html\">ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-fe05963e-eb22-4d71-a2f0-f937787ca79b.html\">Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Mannitol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#3OWL53L36A)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:Ingredient.identifier [
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+     fhir:Identifier.value [ fhir:value "3OWL53L36A" ]
+  ]; # 
+  fhir:Ingredient.status [ fhir:value "active"]; # 
+  fhir:Ingredient.for [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb" ]
+  ]; # 
+  fhir:Ingredient.role [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "100000072082" ];
+       fhir:Coding.display [ fhir:value "Excipient" ]
+     ]
+  ]; # 
+  fhir:Ingredient.manufacturer [
+     fhir:index 0;
+     fhir:Ingredient.manufacturer.manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b>;
+       fhir:Reference.reference [ fhir:value "Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b" ]
+     ]
+  ]; # 
+  fhir:Ingredient.substance [
+     fhir:Ingredient.substance.code [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
+           fhir:Coding.code [ fhir:value "3OWL53L36A" ];
+           fhir:Coding.display [ fhir:value "Mannitol" ]
+         ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/e4cd6b02-ce03-4a35-98cc-83e062140eed.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Ingredient/e4cd6b02-ce03-4a35-98cc-83e062140eed.ttl> .
+
+# -------------------------------------------------------------------------------------
+

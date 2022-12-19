@@ -1,0 +1,151 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/3eebcfec-8f3e-450b-b348-68e12e7cde87> a fhir:MedicinalProductDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "3eebcfec-8f3e-450b-b348-68e12e7cde87"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"3eebcfec-8f3e-450b-b348-68e12e7cde87\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;3eebcfec-8f3e-450b-b348-68e12e7cde87&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 4471bb15-7f52-4fcd-b615-8674ce6eb91e</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-medicinal-product-type.html\">MedicinalProductType</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-medicinal-product-domain.html\">MedicinalProductDomain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072084)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Karvea 75 mg tablet blister x28</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Karvea</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: irbesartan</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 75 mg</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></td><td>Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></td><td>English <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:MedicinalProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi" ];
+     fhir:Identifier.value [ fhir:value "4471bb15-7f52-4fcd-b615-8674ce6eb91e" ]
+  ]; # 
+  fhir:MedicinalProductDefinition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/medicinal-product-type" ];
+       fhir:Coding.code [ fhir:value "MedicinalProduct" ];
+       fhir:Coding.display [ fhir:value "Medicinal Product" ]
+     ]
+  ]; # 
+  fhir:MedicinalProductDefinition.domain [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/medicinal-product-domain" ];
+       fhir:Coding.code [ fhir:value "Human" ];
+       fhir:Coding.display [ fhir:value "Human use" ]
+     ]
+  ]; # 
+  fhir:MedicinalProductDefinition.status [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "http://hl7.org/fhir/publication-status" ];
+       fhir:Coding.code [ fhir:value "active" ];
+       fhir:Coding.display [ fhir:value "active" ]
+     ]
+  ]; # 
+  fhir:MedicinalProductDefinition.legalStatusOfSupply [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "100000072084" ];
+       fhir:Coding.display [ fhir:value "Medicinal product subject to medical prescription" ]
+     ]
+  ]; # 
+  fhir:MedicinalProductDefinition.name [
+     fhir:index 0;
+     fhir:MedicinalProductDefinition.name.productName [ fhir:value "Karvea 75 mg tablet blister x28" ];
+     fhir:MedicinalProductDefinition.name.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/220000000000" ];
+         fhir:Coding.code [ fhir:value "220000000001" ]
+       ];
+       fhir:CodeableConcept.text [ fhir:value "Full name" ]
+     ];
+     fhir:MedicinalProductDefinition.name.part [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.part.part [ fhir:value "Karvea" ];
+       fhir:MedicinalProductDefinition.name.part.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000002" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "Invented name part" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:MedicinalProductDefinition.name.part.part [ fhir:value "irbesartan" ];
+       fhir:MedicinalProductDefinition.name.part.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000003" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "Scientific name part" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:MedicinalProductDefinition.name.part.part [ fhir:value "75 mg" ];
+       fhir:MedicinalProductDefinition.name.part.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000004" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "Strength part" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:MedicinalProductDefinition.name.part.part [ fhir:value "tablet" ];
+       fhir:MedicinalProductDefinition.name.part.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/220000000000" ];
+           fhir:Coding.code [ fhir:value "220000000005" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "Pharmaceutical dose form part" ]
+       ]
+     ];
+     fhir:MedicinalProductDefinition.name.usage [
+       fhir:index 0;
+       fhir:MedicinalProductDefinition.name.usage.country [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+           fhir:Coding.code [ fhir:value "DK" ];
+           fhir:Coding.display [ fhir:value "Denmark" ]
+         ]
+       ];
+       fhir:MedicinalProductDefinition.name.usage.jurisdiction [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+           fhir:Coding.code [ fhir:value "DK" ];
+           fhir:Coding.display [ fhir:value "Denmark" ]
+         ]
+       ];
+       fhir:MedicinalProductDefinition.name.usage.language [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "urn:ietf:bcp:47" ];
+           fhir:Coding.code [ fhir:value "en" ];
+           fhir:Coding.display [ fhir:value "English" ]
+         ]
+       ]
+     ]
+  ] . # 
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/3eebcfec-8f3e-450b-b348-68e12e7cde87.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/MedicinalProductDefinition/3eebcfec-8f3e-450b-b348-68e12e7cde87.ttl> .
+
+# -------------------------------------------------------------------------------------
+

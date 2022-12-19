@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="606ca3c2-b603-469a-907d-3b7fa7a9020c"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="606ca3c2-b603-469a-907d-3b7fa7a9020c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;606ca3c2-b603-469a-907d-3b7fa7a9020c&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: FZ989GH94E (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="ManufacturedItemDefinition-7e6920cb-c95e-4251-961e-bfd59f1269bb.html">ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="Organization-9743e79b-32f2-4340-9f29-2f1995c4a147.html">Organization/9743e79b-32f2-4340-9f29-2f1995c4a147</a> &quot;Lacer, S.A. - Boters, 5&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>POVIDONE, UNSPECIFIED <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#FZ989GH94E)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://fdasis.nlm.nih.gov"/>
+    <value value="FZ989GH94E"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072082"/>
+      <display value="Excipient"/>
+    </coding>
+  </role>
+  <manufacturer>
+    <manufacturer>
+      <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+    </manufacturer>
+  </manufacturer>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <code value="FZ989GH94E"/>
+          <display value="POVIDONE, UNSPECIFIED"/>
+        </coding>
+      </concept>
+    </code>
+  </substance>
+</Ingredient>

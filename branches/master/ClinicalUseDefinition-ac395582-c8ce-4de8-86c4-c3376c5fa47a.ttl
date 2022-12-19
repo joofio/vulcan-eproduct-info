@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/ac395582-c8ce-4de8-86c4-c3376c5fa47a> a fhir:ClinicalUseDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "ac395582-c8ce-4de8-86c4-c3376c5fa47a"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"ac395582-c8ce-4de8-86c4-c3376c5fa47a\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;ac395582-c8ce-4de8-86c4-c3376c5fa47a&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-indication-uv-epi.html\">ClinicalUseDefinition Indication (ePI)</a></p></div><p><b>identifier</b>: id: Type 2 diabetes mellitus (use: OFFICIAL)</p><p><b>type</b>: indication</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-c05aadd3-d40a-460f-b63f-4e994b00b7ef.html\">MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef</a></p><blockquote><p><b>indication</b></p><h3>DiseaseSymptomProcedures</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Hypertension <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-mdr.html\">MedDRA</a>#10020772)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:ClinicalUseDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/rmswi/#/" ];
+     fhir:Identifier.value [ fhir:value "Type 2 diabetes mellitus" ]
+  ]; # 
+  fhir:ClinicalUseDefinition.type [ fhir:value "indication"]; # 
+  fhir:ClinicalUseDefinition.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef" ]
+  ]; # 
+  fhir:ClinicalUseDefinition.indication [
+     fhir:ClinicalUseDefinition.indication.diseaseSymptomProcedure [
+       fhir:CodeableReference.concept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/mdr" ];
+           fhir:Coding.code [ fhir:value "10020772" ];
+           fhir:Coding.display [ fhir:value "Hypertension" ]
+         ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/ac395582-c8ce-4de8-86c4-c3376c5fa47a.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ClinicalUseDefinition/ac395582-c8ce-4de8-86c4-c3376c5fa47a.ttl> .
+
+# -------------------------------------------------------------------------------------
+

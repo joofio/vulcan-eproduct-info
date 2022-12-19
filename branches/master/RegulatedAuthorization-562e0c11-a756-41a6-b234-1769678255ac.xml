@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RegulatedAuthorization xmlns="http://hl7.org/fhir">
+  <id value="562e0c11-a756-41a6-b234-1769678255ac"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="562e0c11-a756-41a6-b234-1769678255ac"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;562e0c11-a756-41a6-b234-1769678255ac&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: 59.032 (use: OFFICIAL)</p><p><b>subject</b>: <a href="MedicinalProductDefinition-c86f891a-a25c-431b-a229-a0e17e3815c5.html">MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072062)</span></p><p><b>region</b>: Spain <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2007-09-27</p><p><b>holder</b>: <a href="Organization-9743e79b-32f2-4340-9f29-2f1995c4a147.html">Organization/9743e79b-32f2-4340-9f29-2f1995c4a147</a> &quot;Lacer, S.A. - Boters, 5&quot;</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="59.032"/>
+  </identifier>
+  <subject>
+    <reference value="MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+  </subject>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072062"/>
+      <display value="Marketing Authorisation"/>
+    </coding>
+  </type>
+  <region>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="ES"/>
+      <display value="Spain"/>
+    </coding>
+  </region>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2007-09-27"/>
+  <holder>
+    <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+  </holder>
+</RegulatedAuthorization>

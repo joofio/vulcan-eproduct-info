@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SubstanceDefinition xmlns="http://hl7.org/fhir">
+  <id value="fe0f2c34-ca4a-4a73-aaf4-b65d0f02d1fc"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: SubstanceDefinition</b><a name="fe0f2c34-ca4a-4a73-aaf4-b65d0f02d1fc"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource SubstanceDefinition &quot;fe0f2c34-ca4a-4a73-aaf4-b65d0f02d1fc&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: FYS6T7F842 (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#1)</span></p><p><b>description</b>: nan</p><p><b>manufacturer</b>: <a href="Organization-fe05963e-eb22-4d71-a2f0-f937787ca79b.html">Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p><h3>Structures</h3><table class="grid"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C6448H10026O2016N1732S42</td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+    <value value="FYS6T7F842"/>
+  </identifier>
+  <version value="1"/>
+  <status>
+    <coding>
+      <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+      <code value="1"/>
+      <display value="Validated (UNII)"/>
+    </coding>
+  </status>
+  <description value="nan"/>
+  <manufacturer>
+    <reference value="Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b"/>
+  </manufacturer>
+  <structure>
+    <molecularFormula value="C6448H10026O2016N1732S42"/>
+  </structure>
+</SubstanceDefinition>

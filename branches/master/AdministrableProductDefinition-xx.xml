@@ -6,7 +6,7 @@
     <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="xx"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;xx&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: identifier</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-54b3f464-d390-4772-b521-92e7669cd5aa.html">MedicinalProductDefinition/54b3f464-d390-4772-b521-92e7669cd5aa</a></p><p><b>administrableDoseForm</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>unitOfPresentation</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-5cbcb5b5-7e20-4133-a315-4284513a001c.html">ManufacturedItemDefinition/5cbcb5b5-7e20-4133-a315-4284513a001c</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="xx"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;xx&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: identifier</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="MedicinalProductDefinition-3eebcfec-8f3e-450b-b348-68e12e7cde87.html">MedicinalProductDefinition/3eebcfec-8f3e-450b-b348-68e12e7cde87</a></p><p><b>administrableDoseForm</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>unitOfPresentation</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href="ManufacturedItemDefinition-2c1a500a-c4a2-4f4b-9836-b4661b89f882.html">ManufacturedItemDefinition/2c1a500a-c4a2-4f4b-9836-b4661b89f882</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
   </text>
   <identifier>
     <system value="https://www.who-umc.org/phpid"/>
@@ -14,7 +14,7 @@
   </identifier>
   <status value="active"/>
   <formOf>
-    <reference value="MedicinalProductDefinition/54b3f464-d390-4772-b521-92e7669cd5aa"/>
+    <reference value="MedicinalProductDefinition/3eebcfec-8f3e-450b-b348-68e12e7cde87"/>
   </formOf>
   <administrableDoseForm>
     <coding>
@@ -31,7 +31,7 @@
     </coding>
   </unitOfPresentation>
   <producedFrom>
-    <reference value="ManufacturedItemDefinition/5cbcb5b5-7e20-4133-a315-4284513a001c"/>
+    <reference value="ManufacturedItemDefinition/2c1a500a-c4a2-4f4b-9836-b4661b89f882"/>
   </producedFrom>
   <routeOfAdministration>
     <code>

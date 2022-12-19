@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/97cc04f8-5959-4700-9fe1-163cbdeab723> a fhir:ClinicalUseDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "97cc04f8-5959-4700-9fe1-163cbdeab723"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"97cc04f8-5959-4700-9fe1-163cbdeab723\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;97cc04f8-5959-4700-9fe1-163cbdeab723&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html\">ClinicalUseDefinition Interaction (ePI)</a></p></div><p><b>identifier</b>: id: Y9449Q51XH (use: OFFICIAL)</p><p><b>type</b>: interaction</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-c05aadd3-d40a-460f-b63f-4e994b00b7ef.html\">MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef</a></p><blockquote><p><b>interaction</b></p><h3>Interactants</h3><table class=\"grid\"><tr><td>-</td><td><b>Item[x]</b></td></tr><tr><td>*</td><td>Bezafibrat <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#Y9449Q51XH)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:ClinicalUseDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+     fhir:Identifier.value [ fhir:value "Y9449Q51XH" ]
+  ]; # 
+  fhir:ClinicalUseDefinition.type [ fhir:value "interaction"]; # 
+  fhir:ClinicalUseDefinition.subject [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef" ]
+  ]; # 
+  fhir:ClinicalUseDefinition.interaction [
+     fhir:ClinicalUseDefinition.interaction.interactant [
+       fhir:index 0;
+       fhir:ClinicalUseDefinition.interaction.interactant.itemCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
+           fhir:Coding.code [ fhir:value "Y9449Q51XH" ];
+           fhir:Coding.display [ fhir:value "Bezafibrat" ]
+         ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/c05aadd3-d40a-460f-b63f-4e994b00b7ef> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/97cc04f8-5959-4700-9fe1-163cbdeab723.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ClinicalUseDefinition/97cc04f8-5959-4700-9fe1-163cbdeab723.ttl> .
+
+# -------------------------------------------------------------------------------------
+

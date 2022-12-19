@@ -1,0 +1,60 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb> a fhir:ManufacturedItemDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "8b33c52b-40d2-45df-89e6-16a09832fabb"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"8b33c52b-40d2-45df-89e6-16a09832fabb\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;8b33c52b-40d2-45df-89e6-16a09832fabb&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/03/256/001 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Solution for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#11201000)</span></p><p><b>unitOfPresentation</b>: Syringe <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#15052000)</span></p><p><b>manufacturer</b>: <a href=\"Organization-fe05963e-eb22-4d71-a2f0-f937787ca79b.html\">Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p></div>"
+  ]; # 
+  fhir:ManufacturedItemDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.use [ fhir:value "official" ];
+     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi/#/" ];
+     fhir:Identifier.value [ fhir:value "EU/1/03/256/001" ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.status [ fhir:value "active"]; # 
+  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
+       fhir:Coding.code [ fhir:value "11201000" ];
+       fhir:Coding.display [ fhir:value "Solution for injection" ]
+     ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "15052000" ];
+       fhir:Coding.display [ fhir:value "Syringe" ]
+     ]
+  ]; # 
+  fhir:ManufacturedItemDefinition.manufacturer [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b>;
+     fhir:Reference.reference [ fhir:value "Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b" ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/fe05963e-eb22-4d71-a2f0-f937787ca79b> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ManufacturedItemDefinition/8b33c52b-40d2-45df-89e6-16a09832fabb.ttl> .
+
+# -------------------------------------------------------------------------------------
+

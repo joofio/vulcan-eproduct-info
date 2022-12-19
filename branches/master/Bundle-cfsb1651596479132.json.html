@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"10.231"}
-    h3,h4,h5,h6{--heading-prefix:"10.231"}</style>
+    <style type="text/css">h2{--heading-prefix:"10.230"}
+    h3,h4,h5,h6{--heading-prefix:"10.230"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -241,6 +241,7 @@
   "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.timestamp">timestamp</a>" : "2011-06-23T08:38:00+02:00",
   "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry">entry</a>" : [
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Composition/cfsb1651231019151",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html">resourceType</a>" : "Composition",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.id">id</a>" : "cfsb1651231019151",
@@ -286,137 +287,199 @@
         ],
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section">section</a>" : [
           {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "B. Package Leaflet",
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "Product Information",
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
-                }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Product Info"
             },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Package leaflet: Information for the patient Dovato 50 mg/300 mg film-coated tablets dolutegravir/lamivudine Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;If you have any further questions, ask your doctor or pharmacist.&lt;/li&gt;&lt;li&gt;This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.&lt;/li&gt;&lt;li&gt;If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.entry">entry</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Ingredient/cfsb1651162710491"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Ingredient/cfsb1651164758053"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Ingredient/cfsb1651170791283"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Ingredient/cfsb1651229974487"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Ingredient/cfsb1651230170831"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Ingredient/cfsb1651230330246"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "AdministrableProductDefinition/cfsb1650999516847"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "RegulatedAuthorization/cfsb1651148079894"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Organization/cfsb1651149636159"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Organization/cfsb1651152112409"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/cfsb1650998521654"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Organization/cfsb1650997423990"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "PackagedProductDefinition/cfsb1650995718524"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/cfsb1650904258324"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/cfsb1650998521654"
+              }
+            ]
           },
           {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "What is in this leaflet",
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "Narrative Text",
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-0"
-                }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "Narrative"
             },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;What in this leaflet&lt;ol&gt;&lt;li&gt;What Dovato is and what it is used for&lt;/li&gt;&lt;li&gt;What you need to know before you take Dovato&lt;/li&gt;&lt;li&gt;How to take Dovato&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store Dovato&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
-          },
-          {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "1. What Dovato is and what it is used for",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-1"
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.section">section</a>" : [
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "B. Package Leaflet",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;Package leaflet: Information for the patient Dovato 50 mg/300 mg film-coated tablets dolutegravir/lamivudine Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.&lt;ul&gt;&lt;li&gt;Keep this leaflet. You may need to read it again.&lt;/li&gt;&lt;li&gt;If you have any further questions, ask your doctor or pharmacist.&lt;/li&gt;&lt;li&gt;This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.&lt;/li&gt;&lt;li&gt;If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
                 }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
-            },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;1. What Dovato is and what it is used for&lt;/b&gt; Dovato is a medicine that contains two active ingredients used to treat human immunodeficiency virus (HIV) infection: dolutegravir and lamivudine.&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
-          },
-          {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "2. What you need to know before you take Dovato",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-2"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "What is in this leaflet",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-0"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;What in this leaflet&lt;ol&gt;&lt;li&gt;What Dovato is and what it is used for&lt;/li&gt;&lt;li&gt;What you need to know before you take Dovato&lt;/li&gt;&lt;li&gt;How to take Dovato&lt;/li&gt;&lt;li&gt;Possible side effects&lt;/li&gt;&lt;li&gt;How to store Dovato&lt;/li&gt;&lt;li&gt;Contents of the pack and other information&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
                 }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
-            },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;2. What you need to know before you take Dovato&lt;/b&gt; Do not take Dovato&lt;ul&gt;&lt;li&gt;if you are allergic (hypersensitive) to dolutegravir or lamivudine or any of the other ingredients of this medicine (listed in section 6).&lt;/li&gt;&lt;li&gt;If you are taking a medicine called fampridine (also known as dalfampridine; used in multiple sclerosis).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
-          },
-          {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "3. How to take Dovato",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-3"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "1. What Dovato is and what it is used for",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-1"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;1. What Dovato is and what it is used for&lt;/b&gt; Dovato is a medicine that contains two active ingredients used to treat human immunodeficiency virus (HIV) infection: dolutegravir and lamivudine.&lt;/div&gt;"<a name="end-xhtml"></a>
                 }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
-            },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;How to take Dovato&lt;/b&gt;&lt;p&gt;Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you are not sure&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The recommended dose of Dovato is &lt;b&gt;one tablet once a day.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;If you are taking a medicine called fampridine (also known as dalfampridine; used in multiple sclerosis).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
-          },
-          {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "4. Possible side effects",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-4"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "2. What you need to know before you take Dovato",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-2"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;2. What you need to know before you take Dovato&lt;/b&gt; Do not take Dovato&lt;ul&gt;&lt;li&gt;if you are allergic (hypersensitive) to dolutegravir or lamivudine or any of the other ingredients of this medicine (listed in section 6).&lt;/li&gt;&lt;li&gt;If you are taking a medicine called fampridine (also known as dalfampridine; used in multiple sclerosis).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
                 }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
-            },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;4. Possible side effects&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them,&lt;b&gt;so it is very important to talk to your doctor about any changes in your health&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
-          },
-          {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "5. How to store Dovato",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-5"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "3. How to take Dovato",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-3"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;How to take Dovato&lt;/b&gt;&lt;p&gt;Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you are not sure&lt;/p&gt;&lt;ul&gt;&lt;li&gt;The recommended dose of Dovato is &lt;b&gt;one tablet once a day.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;If you are taking a medicine called fampridine (also known as dalfampridine; used in multiple sclerosis).&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
                 }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
-            },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;5. How to store Dovato&lt;/b&gt;&lt;p&gt;Keep this medicine out of the sight and reach of children.&lt;/p&gt;&lt;p&gt;Do not use this medicine after the expiry date which is stated on the carton and bottle after EXP. The expiry date refers to the last day of that month.&lt;/p&gt;&lt;p&gt;This medicine does not require any special storage conditions.&lt;/p&gt;&lt;p&gt;Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
-          },
-          {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "6. Contents of the pack and other information",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-                {
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
-                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-6"
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "4. Possible side effects",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-4"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;4. Possible side effects&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Like all medicines, this medicine can cause side effects, although not everybody gets them,&lt;b&gt;so it is very important to talk to your doctor about any changes in your health&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
                 }
-              ],
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
-            },
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
-              "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;6. Contents of the pack and other information&lt;/b&gt; &lt;b&gt;What Dovato contains&lt;/b&gt;&lt;ul&gt;&lt;li&gt;The active substances are dolutegravir and lamivudine. Each tablet contains dolutegravir sodium equivalent to 50 mg dolutegravir and 300 mg lamivudine.&lt;/li&gt;&lt;li&gt;The other ingredients are microcrystalline cellulose, sodium starch glycolate, magnesium stearate, mannitol (E421), povidone (K29/32), sodium stearyl fumarate, hypromellose (E464), macrogol, titanium dioxide (E171).&lt;/li&gt;&lt;li&gt;This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodiumfree’.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-            }
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "5. How to store Dovato",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-5"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;5. How to store Dovato&lt;/b&gt;&lt;p&gt;Keep this medicine out of the sight and reach of children.&lt;/p&gt;&lt;p&gt;Do not use this medicine after the expiry date which is stated on the carton and bottle after EXP. The expiry date refers to the last day of that month.&lt;/p&gt;&lt;p&gt;This medicine does not require any special storage conditions.&lt;/p&gt;&lt;p&gt;Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away medicines you no longer use. These measures will help protect the environment.&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              },
+              {
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.title">title</a>" : "6. Contents of the pack and other information",
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.code">code</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+                    {
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/",
+                      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000155538-6"
+                    }
+                  ],
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "B. PACKAGE LEAFLET"
+                },
+                "<a href="http://hl7.org/fhir/5.0.0-snapshot3/composition.html#Composition.section.text">text</a>" : {
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "additional",
+                  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;b&gt;6. Contents of the pack and other information&lt;/b&gt; &lt;b&gt;What Dovato contains&lt;/b&gt;&lt;ul&gt;&lt;li&gt;The active substances are dolutegravir and lamivudine. Each tablet contains dolutegravir sodium equivalent to 50 mg dolutegravir and 300 mg lamivudine.&lt;/li&gt;&lt;li&gt;The other ingredients are microcrystalline cellulose, sodium starch glycolate, magnesium stearate, mannitol (E421), povidone (K29/32), sodium stearyl fumarate, hypromellose (E464), macrogol, titanium dioxide (E171).&lt;/li&gt;&lt;li&gt;This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodiumfree’.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+                }
+              }
+            ]
           }
         ]
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Organization/cfsb1650997423990",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html#Organization">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html">resourceType</a>" : "Organization",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html#Organization.id">id</a>" : "cfsb1650997423990",
@@ -427,12 +490,12 @@
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html#Organization.identifier">identifier</a>" : [
           {
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "$spor-org",
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/omswi",
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.value">value</a>" : "ORG-100004538"
           },
           {
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "$spor-org",
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/omswi",
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.value">value</a>" : "LOC-100000153"
           }
         ],
@@ -466,6 +529,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Organization/cfsb1651152112409",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html#Organization">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html">resourceType</a>" : "Organization",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html#Organization.id">id</a>" : "cfsb1651152112409",
@@ -481,7 +545,7 @@
           },
           {
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "$spor-org",
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/omswi",
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.value">value</a>" : "LOC-100020264"
           }
         ],
@@ -516,6 +580,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Organization/cfsb1651149636159",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html#Organization">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html">resourceType</a>" : "Organization",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/organization.html#Organization.id">id</a>" : "cfsb1651149636159",
@@ -561,6 +626,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "RegulatedAuthorization/cfsb1651148079894",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/regulatedauthorization.html#RegulatedAuthorization">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/regulatedauthorization.html">resourceType</a>" : "RegulatedAuthorization",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/regulatedauthorization.html#RegulatedAuthorization.id">id</a>" : "cfsb1651148079894",
@@ -619,6 +685,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "MedicinalProductDefinition/cfsb1650904258324",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/medicinalproductdefinition.html#MedicinalProductDefinition">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/medicinalproductdefinition.html">resourceType</a>" : "MedicinalProductDefinition",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/medicinalproductdefinition.html#MedicinalProductDefinition.id">id</a>" : "cfsb1650904258324",
@@ -766,6 +833,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "PackagedProductDefinition/cfsb1650995718524",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/packagedproductdefinition.html#PackagedProductDefinition">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/packagedproductdefinition.html">resourceType</a>" : "PackagedProductDefinition",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/packagedproductdefinition.html#PackagedProductDefinition.id">id</a>" : "cfsb1650995718524",
@@ -776,7 +844,7 @@
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/packagedproductdefinition.html#PackagedProductDefinition.identifier">identifier</a>" : [
           {
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "$spor-prod",
+            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "https://spor.ema.europa.eu/pmswi",
             "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.value">value</a>" : "EU/1/19/1370/001"
           }
         ],
@@ -848,6 +916,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "AdministrableProductDefinition/cfsb1650999516847",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/administrableproductdefinition.html#AdministrableProductDefinition">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/administrableproductdefinition.html">resourceType</a>" : "AdministrableProductDefinition",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/administrableproductdefinition.html#AdministrableProductDefinition.id">id</a>" : "cfsb1650999516847",
@@ -919,6 +988,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "ManufacturedItemDefinition/cfsb1650998521654",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/manufactureditemdefinition.html#ManufacturedItemDefinition">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/manufactureditemdefinition.html">resourceType</a>" : "ManufacturedItemDefinition",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/manufactureditemdefinition.html#ManufacturedItemDefinition.id">id</a>" : "cfsb1650998521654",
@@ -960,12 +1030,13 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Ingredient/cfsb1651162710491",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html">resourceType</a>" : "Ingredient",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.id">id</a>" : "cfsb1651162710491",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.text">text</a>" : {
           "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;cfsb1651162710491\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;cfsb1651162710491&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 1Q1V9V5WYQ (use: OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;a href=\&quot;#ManufacturedItemDefinition_cfsb1650998521654\&quot;&gt;See above (ManufacturedItemDefinition/cfsb1650998521654)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#00000072072)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Manufacturers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;#Organization_cfsb1650997423990\&quot;&gt;See above (Organization/cfsb1650997423990)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;DOLUTEGRAVIR SODIUM &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#1Q1V9V5WYQ)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presentation[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;50 mg&lt;/td&gt;&lt;td&gt;active ingredient - basis of strength &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (v3-RoleClassIngredientEntity##ACTIB)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;cfsb1651162710491\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;cfsb1651162710491&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 1Q1V9V5WYQ (use: OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;a href=\&quot;#ManufacturedItemDefinition_cfsb1650998521654\&quot;&gt;See above (ManufacturedItemDefinition/cfsb1650998521654)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#00000072072)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Manufacturers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;#Organization_cfsb1650997423990\&quot;&gt;See above (Organization/cfsb1650997423990)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;DOLUTEGRAVIR SODIUM &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#1Q1V9V5WYQ)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presentation[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;50 mg&lt;/td&gt;&lt;td&gt;active ingredient - basis of strength &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\&quot;&gt;RoleClass&lt;/a&gt;#ACTIB)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
         },
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.identifier">identifier</a>" : {
           "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
@@ -1015,8 +1086,8 @@
               "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.substance.strength.basis">basis</a>" : {
                 "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
                   {
-                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity",
-                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "#ACTIB"
+                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "ACTIB"
                   }
                 ],
                 "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "active ingredient - basis of strength"
@@ -1027,12 +1098,13 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Ingredient/cfsb1651164758053",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html">resourceType</a>" : "Ingredient",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.id">id</a>" : "cfsb1651164758053",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.text">text</a>" : {
           "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-          "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;cfsb1651164758053\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;cfsb1651164758053&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 2T8Q726O95 (use: OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;a href=\&quot;#ManufacturedItemDefinition_cfsb1650998521654\&quot;&gt;See above (ManufacturedItemDefinition/cfsb1650998521654)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#100000072072)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Manufacturers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;#Organization_cfsb1650997423990\&quot;&gt;See above (Organization/cfsb1650997423990)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;lamivudine &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#2T8Q726O95)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presentation[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;300 mg&lt;/td&gt;&lt;td&gt;active ingredient - basis of strength &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (v3-RoleClassIngredientEntity##ACTIB)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+          "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;cfsb1651164758053\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;cfsb1651164758053&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 2T8Q726O95 (use: OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;a href=\&quot;#ManufacturedItemDefinition_cfsb1650998521654\&quot;&gt;See above (ManufacturedItemDefinition/cfsb1650998521654)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: active &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#100000072072)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Manufacturers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;#Organization_cfsb1650997423990\&quot;&gt;See above (Organization/cfsb1650997423990)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;lamivudine &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (#2T8Q726O95)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Strengths&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Presentation[x]&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Basis&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;300 mg&lt;/td&gt;&lt;td&gt;active ingredient - basis of strength &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\&quot;&gt;RoleClass&lt;/a&gt;#ACTIB)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
         },
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.identifier">identifier</a>" : {
           "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
@@ -1082,8 +1154,8 @@
               "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.substance.strength.basis">basis</a>" : {
                 "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
                   {
-                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity",
-                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "#ACTIB"
+                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+                    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "ACTIB"
                   }
                 ],
                 "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.text">text</a>" : "active ingredient - basis of strength"
@@ -1094,6 +1166,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Ingredient/cfsb1651170791283",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html">resourceType</a>" : "Ingredient",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.id">id</a>" : "cfsb1651170791283",
@@ -1144,6 +1217,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Ingredient/cfsb1651229974487",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html">resourceType</a>" : "Ingredient",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.id">id</a>" : "cfsb1651229974487",
@@ -1194,6 +1268,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Ingredient/cfsb1651230170831",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html">resourceType</a>" : "Ingredient",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.id">id</a>" : "cfsb1651230170831",
@@ -1244,6 +1319,7 @@
       }
     },
     {
+      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/bundle.html#Bundle.entry.fullUrl">fullUrl</a>" : "Ingredient/cfsb1651230330246",
       "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient">resource</a>" : {
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html">resourceType</a>" : "Ingredient",
         "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.id">id</a>" : "cfsb1651230330246",
@@ -1324,7 +1400,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot3</a>. Generated <span title="Sat, Dec 17, 2022 12:26+0000">2022-12-17</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot3</a>. Generated <span title="Mon, Dec 19, 2022 17:15+0000">2022-12-19</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="34dc9670-5c6d-4dc2-940d-b89d12c1fda4"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
+  </meta>
+  <identifier>
+    <system value="https://www.gravitatehealth.eu/sid/doc"/>
+    <value value="EU/1/96/007/035"/>
+  </identifier>
+  <type value="document"/>
+  <timestamp value="2022-12-19T16:57:21Z"/>
+  <entry>
+    <fullUrl value="Composition/dc9ec1f2-f8df-4f6a-86aa-c1275f238c64"/>
+    <resource>
+      <Composition>
+        <id value="dc9ec1f2-f8df-4f6a-86aa-c1275f238c64"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Composition</b><a name="dc9ec1f2-f8df-4f6a-86aa-c1275f238c64"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition &quot;dc9ec1f2-f8df-4f6a-86aa-c1275f238c64&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Composition-uv-epi.html">Composition (ePI)</a></p></div><p><b>identifier</b>: id: xx</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></p><p><b>title</b>: TEST PURPOSES ONLY - cinitrapide</p></div>
+        </text>
+        <identifier>
+          <system value="https://spor.ema.europa.eu/rmswi/"/>
+          <value value="xx"/>
+        </identifier>
+        <status value="final"/>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000155538"/>
+          </coding>
+          <text value="Package Leaflet"/>
+        </type>
+        <subject>
+          <reference value="MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+        </subject>
+        <date value="2022-02-16T13:28:17Z"/>
+        <author>
+          <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+        </author>
+        <title value="TEST PURPOSES ONLY - cinitrapide"/>
+        <section>
+          <title value="Product Information"/>
+          <code>
+            <text value="Product Info"/>
+          </code>
+          <entry>
+            <reference value="Ingredient/2cb5307b-e1d4-4907-b347-6c9234d8c1c8"/>
+          </entry>
+          <entry>
+            <reference value="Ingredient/606ca3c2-b603-469a-907d-3b7fa7a9020c"/>
+          </entry>
+          <entry>
+            <reference value="Ingredient/cacf0960-e141-44df-8ee8-8965d5531243"/>
+          </entry>
+          <entry>
+            <reference value="Ingredient/b31599fa-671f-41af-afa5-af513de82843"/>
+          </entry>
+          <entry>
+            <reference value="Ingredient/bd92407c-482f-4279-ba37-cf66b8af02f5"/>
+          </entry>
+          <entry>
+            <reference value="Ingredient/660746d0-8de9-410e-9ab8-7d3da7c2ee41"/>
+          </entry>
+          <entry>
+            <reference value="SubstanceDefinition/ec097245-1843-4113-801f-d8c3574ab7e3"/>
+          </entry>
+          <entry>
+            <reference value="AdministrableProductDefinition/702309aa-2383-4116-9f1f-541e48c9026e"/>
+          </entry>
+          <entry>
+            <reference value="RegulatedAuthorization/562e0c11-a756-41a6-b234-1769678255ac"/>
+          </entry>
+          <entry>
+            <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+          </entry>
+          <entry>
+            <reference value="PackagedProductDefinition/8d3c46db-8576-4286-b7fc-7137535b83ab"/>
+          </entry>
+          <entry>
+            <reference value="MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+          </entry>
+          <entry>
+            <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+          </entry>
+        </section>
+        <section>
+          <title value="Narrative Text"/>
+          <code>
+            <text value="Narrative"/>
+          </code>
+          <section>
+            <title value="B. Package Leaflet"/>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/"/>
+                <code value="100000155538"/>
+              </coding>
+              <text value="B. PACKAGE LEAFLET"/>
+            </code>
+            <text>
+              <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml">unavailable</div>
+            </text>
+            <emptyReason>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/list-empty-reason"/>
+                <code value="unavailable"/>
+              </coding>
+            </emptyReason>
+            <section>
+              <title value="Package leaflet: Information for the user"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="Package leaflet: Information for the user"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Karvea 75 mg tablets</p><p>irbesartan</p><b>Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.</b><ul><li>Keep this leaflet. You may need to read it again.</li><li>If you have any further questions, ask your doctor or pharmacist.</li><li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li><li>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li></ul></div></div>
+              </text>
+            </section>
+            <section>
+              <title value="What is in this leaflet"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="What is in this leaflet"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>What Karvea is and what it is used for</li><li>What you need to know before you take Karvea</li><li>How to take Karvea</li><li>Possible side effects</li><li>How to store Karvea</li><li>Contents of the pack and other information</li></ul></div></div>
+              </text>
+            </section>
+            <section>
+              <title value="1. What cinitrapide is and what it is used for"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="1. What cinitrapide is and what it is used for"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Karvea belongs to a group of medicines known as angiotensin-II receptor antagonists. Angiotensin-II is a substance produced in the body which binds to receptors in blood vessels causing them to tighten. This results in an increase in blood pressure. Karvea prevents the binding of angiotensin-II to these receptors, causing the blood vessels to relax and the blood pressure to lower. Karvea slows the decrease of kidney function in patients with high blood pressure and type 2 diabetes.</p><p>Karvea is used in adult patients</p><ul><li>to treat high blood pressure (essential hypertension)</li><li>to protect the kidney in patients with high blood pressure, type 2 diabetes and laboratory evidence of impaired kidney function.</li></ul></div></div>
+              </text>
+            </section>
+            <section>
+              <title value="2. What you need to know before you take cinitrapide"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="2. What you need to know before you take cinitrapide"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><b>Do not take Karvea</b><ul><li>if you are allergic to irbesartan or any other ingredients of this medicine (listed in section 6)</li><li>if you are more than 3 months pregnant. (It is also better to avoid Karvea in early pregnancy – see pregnancy section)</li><li><b>if you have diabetes or impaired kidney function</b> and you are treated with a blood pressure lowering medicine containing aliskiren.</li></ul><b>Warning and precautions</b><p>Talk to your doctor before taking Karvea and <b>if any of the following apply to you:</b></p><ul><li>if you get excessive vomiting or diarrhoea</li><li>if you suffer from kidney problems</li><li>if you suffer from heart problems</li><li>if you receive Karvea for diabetic kidney disease. In this case your doctor may perform regular blood tests, especially for measuring blood potassium levels in case of poor kidney function</li><li>if you develop low blood sugar levels (symptoms may include sweating, weakness, hunger, dizziness, trembling, headache, flushing or paleness, numbness, having a fast, pounding heart beat), particularly if you are being treated for diabetes.</li><li>if you are going to have an operation (surgery) or be given anaesthetics</li><li><ul><li>an ACE-inhibitor (for example enalapril, lisinopril, ramipril), in particular if you have diabetes-related kidney problems.</li><li>aliskiren</li></ul></li></ul><p>Your doctor may check your kidney function, blood pressure, and the amount of electrolytes (e.g. potassium) in your blood at regular intervals.</p><p>See also information under the heading “Do not take Karvea”.</p><p>You must tell your doctor if you think you are (or might become) pregnant. Karvea is not recommended in early pregnancy, and must not be taken if you are more than 3 months pregnant, as it may cause serious harm to your baby if used at that stage (see pregnancy section).</p><b>Children and adolescents</b><p>This medicinal product should not be used in children and adolescents because the safety and efficacy have not yet been fully established.</p><b>Other medicines and Karvea</b><p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other medicines.</p><p>Your doctor may need to change your dose and/or to take other precautions: If you are taking an ACE-inhibitor or aliskiren (see also information under the headings “Do not take Karvea” and “Warnings and precautions”).</p><b>You may need to have blood checks if you take:</b><ul><li>potassium supplements</li><li>salt substitutes containing potassium</li><li>potassium-sparing medicines (such as certain diuretics)</li><li>medicines containing lithium</li><li>repaglinide (medication used for lowering blood sugar levels)</li></ul><p>If you take certain painkillers, called non-steroidal anti-inflammatory drugs, the effect of irbesartan may be reduced.</p><b>Karvea with food and drink</b><p>Karvea can be taken with or without food.</p><b>Pregnancy and breast-feeding</b> <b>Pregnancy</b><p>You must tell your doctor if you think you are (or might become) pregnant. Your doctor will normally advise you to stop taking Karvea before you become pregnant or as soon as you know you are pregnant and will advise you to take another medicine instead of Karvea. Karvea is not recommended in early pregnancy, and must not be taken when more than 3 months pregnant, as it may cause serious harm to your baby if used after the third month of pregnancy.</p><b>Breast-feeding</b><p>Tell your doctor if you are breast-feeding or about to start breast-feeding. Karvea is not recommended for mothers who are breast-feeding, and your doctor may choose another treatment for you if you wish to breast-feed, especially if your baby is newborn, or was born prematurely.</p><b>Driving and using machines</b><p>Karvea is unlikely to affect your ability to drive or use machines. However, occasionally dizziness or weariness may occur during treatment of high blood pressure. If you experience these, talk to your doctor before attempting to drive or use machines.</p><b>Karvea contains lactose.</b><p>If you have been told by your doctor that you have an intolerance to some sugars (e.g. lactose), contact your doctor before taking this medicinal product.</p><b>Karvea contains sodium.</b><p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially ‘sodium-free’.</p></div></div>
+              </text>
+            </section>
+            <section>
+              <title value="3. How to take cinitrapide"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="3. How to take cinitrapide"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><b>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you are not sure.</b> <b>Method of administration</b><p>Karvea is for oral use. Swallow the tablets with a sufficient amount of fluid (e.g. one glass of water). You can take Karvea with or without food. Try to take your daily dose at about the same time each day. It is important that you continue to take Karvea until your doctor tells you otherwise.</p><ul><li><b>Patients with high blood pressure</b><p>The usual dose is 150 mg once a day (two tablets a day). The dose may later be increased to 300 mg (four tablets a day) once daily depending on blood pressure response.</p></li><li><b>Patients with high blood pressure and type 2 diabetes with kidney disease</b><p>In patients with high blood pressure and type 2 diabetes, 300 mg (four tablets a day) once daily is the preferred maintenance dose for the treatment of associated kidney disease.</p></li></ul><p>The doctor may advise a lower dose, especially when starting treatment in certain patients such as those on haemodialysis, or those over the age of 75 years.</p><p>The maximal blood pressure lowering effect should be reached 4-6 weeks after beginning treatment.</p><b>Use in children and adolescents</b><p>Karvea should not be given to children under 18 years of age. If a child swallows some tablets, contact your doctor immediately.</p><b>If you take more Karvea than you should</b><p>If you accidentally take too many tablets, contact your doctor immediately.</p><b>If you forget to take Karvea</b><p>If you accidentally miss a daily dose, just take the next dose as normal. Do not take a double dose to make up for a forgotten dose.</p><p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p></div></div>
+              </text>
+            </section>
+            <section>
+              <title value="4. Possible side effects"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="4. Possible side effects"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Some of these effects may be serious and may require medical attention.</p><p>As with similar medicines, rare cases of allergic skin reactions (rash, urticaria), as well as localised swelling of the face, lips and/or tongue have been reported in patients taking irbesartan. If you get any of these symptoms or get short of breath, stop taking Karvea and contact your doctor immediately.</p><p>The frequency of the side effects listed below is defined using the following convention:</p><p>Very common: may affect more than 1 in 10 people</p><p>Common: may affect up to 1 in 10 people</p><p>Uncommon: may affect up to 1 in 100 people</p><p>Side effects reported in clinical studies for patients treated with Karvea were:</p><ul><li>Very common (may affect more than 1 in 10 people): if you suffer from high blood pressure and type 2 diabetes with kidney disease, blood tests may show an increased level of potassium.</li><li>Common (may affect up to 1 10 people): dizziness, feeling sick/vomiting, fatigue and blood tests may show raised levels of an enzyme that measures the muscle and heart function (creatine kinase enzyme). In patients with high blood pressure and type 2 diabetes with kidney disease, dizziness when getting up from a lying or sitting position, low blood pressure when getting up from a lying or sitting position, pain in joints or muscles and decreased levels of a protein in the red blood cells (haemoglobin) were also reported.</li><li>Uncommon (may affect up to 1 in 100 people): heart rate increased, flushing, cough, diarrhoea, indigestion/heartburn, sexual dysfunction (problems with sexual performance), chest pain.</li></ul><p>Some undesirable effects have been reported since marketing of Karvea. Undesirable effects where the frequency is not known are: feeling of spinning, headache, taste disturbance, ringing in the ears, muscle cramps, pain in joints and muscles, decreased number of red blood cells (anaemia – symptoms may include tiredness, headaches, being short of breath when exercising, dizziness and looking pale), reduced number of platelets, abnormal liver function, increased blood potassium levels, impaired kidney function, inflammation of small blood vessels mainly affecting the skin (a condition known as leukocytoclastic vasculitis), severe allergic reactions (anaphylactic shock) and low blood sugar levels. Uncommon cases of jaundice (yellowing of the skin and/or whites of the eyes) have also been reported.</p><b>Reporting of side effects</b><p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. By reporting side effects you can help provide more information on the safety of this medicine.</p></div></div>
+              </text>
+            </section>
+            <section>
+              <title value="5. How to store cinitrapide"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="5. How to store cinitrapide"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><p>Keep this medicine out of the sight and reach of children.</p><p>Do not use this medicine after the expiry date which is stated on the carton and on the blister after EXP. The expiry date refers to the last day of that month.</p><p>Do not store above 30°C.</p><p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw away of medicines you no longer use. These measures will help protect the environment.</p></div></div>
+              </text>
+            </section>
+            <section>
+              <title value="6. Contents of the pack and other information"/>
+              <code>
+                <coding>
+                  <system value="https://spor.ema.europa.eu/rmswi/"/>
+                  <code value="100000155538"/>
+                </coding>
+                <text value="6. Contents of the pack and other information"/>
+              </code>
+              <text>
+                <status value="additional"/><div xmlns="http://www.w3.org/1999/xhtml"><div xmlns="http://www.w3.org/1999/xhtml"><b>What Karvea contains</b><ul><li>The active substance is irbesartan. Each tablet of Karvea 75 mg contains 75 mg irbesartan.</li><li>The other ingredients are microcrystalline cellulose, croscarmellose sodium, lactose monohydrate, magnesium stearate, colloidal hydrated silica, pregelatinised maize starch, and poloxamer 188. Please see section 2 “Karvea contains lactose”.</li></ul><b>What Karvea looks like and contents of the pack</b><p>Karvea 75 mg tablets are white to off-white, biconvex, and oval-shaped with a heart debossed on one side and the number 2771 engraved on the other side.</p><p>Karvea 75 mg tablets are supplied in blister packs of 14, 28, 56 or 98 tablets. Unidose blister packs of 56 x 1 tablet for delivery in hospitals are also available.</p><p>Not all pack sizes may be marketed.</p><b>Marketing Authorisation Holder:</b><p>sanofi-aventis groupe</p><p>54, rue La Boétie</p><p>F-75008 Paris - France</p><p>Manufacturer:</p><p>SANOFI WINTHROP INDUSTRIE</p><p>1, rue de la Vierge</p><p>Ambarès and Lagrave</p><p>F-33565 Carbon Blanc Cedex - France</p><p>SANOFI WINTHROP INDUSTRIE</p><p>30-36 Avenue Gustave Eiffel, BP 7166</p><p>F-37071 Tours Cedex 2 - France</p><p>For any information about this medicinal product, please contact the local representative of the Marketing Authorisation Holder.</p><table><colgroup><col/><col/></colgroup><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><p><b>België/Belgique/Belgien</b></p><p>Sanofi Belgium</p><p>Tél/Tel: +32 (0)2 710 54 00</p></td><td><p><b>Lietuva</b></p><p>Swixx Biopharma UAB</p><p>Tel: +370 5 236 91 40</p></td></tr><tr><td><p><b>България</b></p><p>Swixx Biopharma EOOD Тел.: +359 (0)2 4942 480</p></td><td><p><b>Luxembourg/Luxemburg</b></p><p>Sanofi Belgium</p><p>Tél/Tel: +32 (0)2 710 54 00 (Belgique/Belgien)</p></td></tr><tr><td><p><b>Česká republika</b></p><p>sanofi-aventis, s.r.o. Tel: +420 233 086 111</p></td><td><p><b>Magyarország</b></p><p>SANOFI-A VENTIS Zrt. Tel.: +36 1 505 0050</p></td></tr><tr><td><p><b>Danmark</b></p><p>Sanofi A/S</p><p>Tlf: +45 45 16 70 00</p></td><td><p><b>Malta</b></p><p>Sanofi S.r.l.</p><p>Tel: +39 02 39394275</p></td></tr><tr><td><p><b>Deutschland</b></p><p>Sanofi-Aventis Deutschland GmbH</p><p>Tel: 0800 52 52 010</p><p>Tel. aus dem Ausland: +49 69 305 21 131</p></td><td><p><b>Norge</b></p><p>sanofi-aventis Norge AS Tlf: +47 67 10 71 00</p></td></tr><tr><td><p><b>Eesti</b></p><p>Swixx Biopharma OÜ Tel: +372 640 10 30</p></td><td><p><b>Österreich</b></p><p>sanofi-aventis GmbH Tel: +43 1 80 185 – 0</p></td></tr><tr><td><p><b>Ελλάδα</b></p><p>sanofi-aventis AEBE Τηλ: +30 210 900 16 00</p></td><td><p><b>Polska</b></p><p>sanofi-aventis Sp. z o.o. Tel.: +48 22 280 00 00</p></td></tr><tr><td><p><b>España</b></p><p>sanofi-aventis, S.A. Tel: +34 93 485 94 00</p></td><td></td></tr><tr><td><p><b>France</b></p><p>sanofi-aventis France</p><p>Tél: 0 800 222 555</p><p>Appel depuis l’étranger : +33 1 57 63 23 23</p></td><td><p><b>Portugal</b></p><p>Sanofi - Produtos Farmacêuticos, Lda Tel: +351 21 35 89 400</p></td></tr><tr><td><p><b>Hrvatska</b></p><p>Swixx Biopharma d.o.o. Tel: +385 1 2078 500</p></td><td><p><b>România</b></p><p>Sanofi Romania SRL Tel: +40 (0) 21 317 31 36</p></td></tr><tr><td><p><b>Ireland</b></p><p>sanofi-aventis Ireland Ltd. T/A SANOFI Tel: +353 (0) 1 403 56 00</p></td><td><p><b>Slovenija</b></p><p>Swixx Biopharma d.o.o. Tel: +386 1 235 51 00</p></td></tr><tr><td><p><b>Ísland</b></p><p>Vistor hf.</p><p>Sími: +354 535 7000</p></td><td><p><b>Slovenská republika</b></p><p>Swixx Biopharma s.r.o. Tel: +421 2 208 33 600</p></td></tr><tr><td><p><b>Italia</b></p><p>Sanofi S.r.l. Tel: 800 536389</p></td><td><p><b>Suomi/Finland</b></p><p>Sanofi Oy</p><p>Puh/Tel: +358 (0) 201 200 300</p></td></tr><tr><td><p><b>Κύπρος</b></p><p>C.A. Papaellinas Ltd. Τηλ: +357 22 741741</p></td><td><p><b>Sverige</b></p><p>Sanofi AB</p><p>Tel: +46 (0)8 634 50 00</p></td></tr><tr><td><p><b>Latvija</b></p><p>Swixx Biopharma SIA Tel: +371 6 616 47 50</p></td><td><p><b>United Kingdom (Northern Ireland)</b></p><p>sanofi-aventis Ireland Ltd. T/A SANOFI Tel: +44 (0) 800 035 2525</p></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></tbody></table><p>This leaflet was last revised in</p><p>Detailed information on this medicine is available on the European Medicines Agency web site: http://www.ema.europa.eu/</p></div></div>
+              </text>
+            </section>
+          </section>
+        </section>
+      </Composition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Ingredient/2cb5307b-e1d4-4907-b347-6c9234d8c1c8"/>
+    <resource>
+      <Ingredient>
+        <id value="2cb5307b-e1d4-4907-b347-6c9234d8c1c8"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="2cb5307b-e1d4-4907-b347-6c9234d8c1c8"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;2cb5307b-e1d4-4907-b347-6c9234d8c1c8&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 70097M6I30 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="#ManufacturedItemDefinition_7e6920cb-c95e-4251-961e-bfd59f1269bb">See above (ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb)</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Magnesium stearate <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#70097M6I30)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <value value="70097M6I30"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="Excipient"/>
+          </coding>
+        </role>
+        <manufacturer>
+          <manufacturer>
+            <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+          </manufacturer>
+        </manufacturer>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="http://fdasis.nlm.nih.gov"/>
+                <code value="70097M6I30"/>
+                <display value="Magnesium stearate"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Ingredient/606ca3c2-b603-469a-907d-3b7fa7a9020c"/>
+    <resource>
+      <Ingredient>
+        <id value="606ca3c2-b603-469a-907d-3b7fa7a9020c"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="606ca3c2-b603-469a-907d-3b7fa7a9020c"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;606ca3c2-b603-469a-907d-3b7fa7a9020c&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: FZ989GH94E (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="#ManufacturedItemDefinition_7e6920cb-c95e-4251-961e-bfd59f1269bb">See above (ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb)</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>POVIDONE, UNSPECIFIED <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#FZ989GH94E)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <value value="FZ989GH94E"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="Excipient"/>
+          </coding>
+        </role>
+        <manufacturer>
+          <manufacturer>
+            <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+          </manufacturer>
+        </manufacturer>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="http://fdasis.nlm.nih.gov"/>
+                <code value="FZ989GH94E"/>
+                <display value="POVIDONE, UNSPECIFIED"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Ingredient/cacf0960-e141-44df-8ee8-8965d5531243"/>
+    <resource>
+      <Ingredient>
+        <id value="cacf0960-e141-44df-8ee8-8965d5531243"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="cacf0960-e141-44df-8ee8-8965d5531243"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;cacf0960-e141-44df-8ee8-8965d5531243&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: R8I97I2L24 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="#ManufacturedItemDefinition_7e6920cb-c95e-4251-961e-bfd59f1269bb">See above (ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb)</a></p><p><b>role</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#72072)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>CINITAPRIDE <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#R8I97I2L24)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>1 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <value value="R8I97I2L24"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="72072"/>
+            <display value="active"/>
+          </coding>
+        </role>
+        <manufacturer>
+          <manufacturer>
+            <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+          </manufacturer>
+        </manufacturer>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="http://fdasis.nlm.nih.gov"/>
+                <code value="R8I97I2L24"/>
+                <display value="CINITAPRIDE"/>
+              </coding>
+            </concept>
+          </code>
+          <strength>
+            <presentationQuantity>
+              <value value="1"/>
+              <system value="http://unitsofmeasure.org"/>
+              <code value="mg"/>
+            </presentationQuantity>
+            <basis>
+              <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+                <code value="ACTIB"/>
+                <display value="active ingredient - basis of strength"/>
+              </coding>
+            </basis>
+          </strength>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Ingredient/b31599fa-671f-41af-afa5-af513de82843"/>
+    <resource>
+      <Ingredient>
+        <id value="b31599fa-671f-41af-afa5-af513de82843"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="b31599fa-671f-41af-afa5-af513de82843"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;b31599fa-671f-41af-afa5-af513de82843&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: ETJ7Z6XBU4 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="#ManufacturedItemDefinition_7e6920cb-c95e-4251-961e-bfd59f1269bb">See above (ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb)</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>SILICA, COLLOIDAL ANHYDROUS <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#ETJ7Z6XBU4)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <value value="ETJ7Z6XBU4"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="Excipient"/>
+          </coding>
+        </role>
+        <manufacturer>
+          <manufacturer>
+            <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+          </manufacturer>
+        </manufacturer>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="http://fdasis.nlm.nih.gov"/>
+                <code value="ETJ7Z6XBU4"/>
+                <display value="SILICA, COLLOIDAL ANHYDROUS"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Ingredient/bd92407c-482f-4279-ba37-cf66b8af02f5"/>
+    <resource>
+      <Ingredient>
+        <id value="bd92407c-482f-4279-ba37-cf66b8af02f5"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="bd92407c-482f-4279-ba37-cf66b8af02f5"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;bd92407c-482f-4279-ba37-cf66b8af02f5&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 8I089SAH3T (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="#ManufacturedItemDefinition_7e6920cb-c95e-4251-961e-bfd59f1269bb">See above (ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb)</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>STARCH, POTATO <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#8I089SAH3T)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <value value="8I089SAH3T"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="Excipient"/>
+          </coding>
+        </role>
+        <manufacturer>
+          <manufacturer>
+            <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+          </manufacturer>
+        </manufacturer>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="http://fdasis.nlm.nih.gov"/>
+                <code value="8I089SAH3T"/>
+                <display value="STARCH, POTATO"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Ingredient/660746d0-8de9-410e-9ab8-7d3da7c2ee41"/>
+    <resource>
+      <Ingredient>
+        <id value="660746d0-8de9-410e-9ab8-7d3da7c2ee41"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="660746d0-8de9-410e-9ab8-7d3da7c2ee41"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;660746d0-8de9-410e-9ab8-7d3da7c2ee41&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: O8232NY3SJ (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="#ManufacturedItemDefinition_7e6920cb-c95e-4251-961e-bfd59f1269bb">See above (ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb)</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>STARCH, CORN <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#O8232NY3SJ)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <value value="O8232NY3SJ"/>
+        </identifier>
+        <status value="active"/>
+        <for>
+          <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        </for>
+        <role>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072082"/>
+            <display value="Excipient"/>
+          </coding>
+        </role>
+        <manufacturer>
+          <manufacturer>
+            <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+          </manufacturer>
+        </manufacturer>
+        <substance>
+          <code>
+            <concept>
+              <coding>
+                <system value="http://fdasis.nlm.nih.gov"/>
+                <code value="O8232NY3SJ"/>
+                <display value="STARCH, CORN"/>
+              </coding>
+            </concept>
+          </code>
+        </substance>
+      </Ingredient>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="SubstanceDefinition/ec097245-1843-4113-801f-d8c3574ab7e3"/>
+    <resource>
+      <SubstanceDefinition>
+        <id value="ec097245-1843-4113-801f-d8c3574ab7e3"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: SubstanceDefinition</b><a name="ec097245-1843-4113-801f-d8c3574ab7e3"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource SubstanceDefinition &quot;ec097245-1843-4113-801f-d8c3574ab7e3&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: R8I97I2L24 (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#1)</span></p><p><b>description</b>: nan</p><p><b>manufacturer</b>: <a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></p><h3>MolecularWeights</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td>*</td><td>exact <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> ()</span></td><td>402.49</td></tr></table><h3>Structures</h3><table class="grid"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C21H30N4O4</td></tr></table><h3>Names</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide</td><td>Chemical Name <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#x)</span></td></tr></table></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+          <value value="R8I97I2L24"/>
+        </identifier>
+        <version value="1"/>
+        <status>
+          <coding>
+            <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+            <code value="1"/>
+            <display value="Validated (UNII)"/>
+          </coding>
+        </status>
+        <description value="nan"/>
+        <manufacturer>
+          <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+        </manufacturer>
+        <molecularWeight>
+          <type>
+            <text value="exact"/>
+          </type>
+          <amount>
+            <value value="402.49"/>
+          </amount>
+        </molecularWeight>
+        <structure>
+          <molecularFormula value="C21H30N4O4"/>
+        </structure>
+        <name>
+          <name value="4-amino-N-{1-[(cyclohex-3-en-1-yl)methyl]piperidin-4-yl}-2-ethoxy-5-nitrobenzamide"/>
+          <type>
+            <coding>
+              <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+              <code value="x"/>
+              <display value="Chemical Name"/>
+            </coding>
+          </type>
+        </name>
+      </SubstanceDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="AdministrableProductDefinition/702309aa-2383-4116-9f1f-541e48c9026e"/>
+    <resource>
+      <AdministrableProductDefinition>
+        <id value="702309aa-2383-4116-9f1f-541e48c9026e"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name="702309aa-2383-4116-9f1f-541e48c9026e"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AdministrableProductDefinition &quot;702309aa-2383-4116-9f1f-541e48c9026e&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: xx</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href="#MedicinalProductDefinition_c86f891a-a25c-431b-a229-a0e17e3815c5">See above (MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5)</a></p><p><b>administrableDoseForm</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>unitOfPresentation</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href="#ManufacturedItemDefinition_7e6920cb-c95e-4251-961e-bfd59f1269bb">See above (ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class="grid"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Human <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <system value="https://www.who-umc.org/phpid"/>
+          <value value="xx"/>
+        </identifier>
+        <status value="active"/>
+        <formOf>
+          <reference value="MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+        </formOf>
+        <administrableDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="200000002152"/>
+            <display value="tablet"/>
+          </coding>
+        </administrableDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="200000002152"/>
+            <display value="tablet"/>
+          </coding>
+        </unitOfPresentation>
+        <producedFrom>
+          <reference value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        </producedFrom>
+        <routeOfAdministration>
+          <code>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi"/>
+              <code value="100000073619"/>
+              <display value="Oral use"/>
+            </coding>
+          </code>
+          <targetSpecies>
+            <code>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi"/>
+                <code value="100000109093"/>
+                <display value="Human"/>
+              </coding>
+            </code>
+          </targetSpecies>
+        </routeOfAdministration>
+      </AdministrableProductDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="RegulatedAuthorization/562e0c11-a756-41a6-b234-1769678255ac"/>
+    <resource>
+      <RegulatedAuthorization>
+        <id value="562e0c11-a756-41a6-b234-1769678255ac"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="562e0c11-a756-41a6-b234-1769678255ac"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;562e0c11-a756-41a6-b234-1769678255ac&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: 59.032 (use: OFFICIAL)</p><p><b>subject</b>: <a href="#MedicinalProductDefinition_c86f891a-a25c-431b-a229-a0e17e3815c5">See above (MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5)</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072062)</span></p><p><b>region</b>: Spain <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2007-09-27</p><p><b>holder</b>: <a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></p></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="59.032"/>
+        </identifier>
+        <subject>
+          <reference value="MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+        </subject>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000072062"/>
+            <display value="Marketing Authorisation"/>
+          </coding>
+        </type>
+        <region>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="ES"/>
+            <display value="Spain"/>
+          </coding>
+        </region>
+        <status>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </status>
+        <statusDate value="2007-09-27"/>
+        <holder>
+          <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+        </holder>
+      </RegulatedAuthorization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+    <resource>
+      <Organization>
+        <id value="9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Organization</b><a name="9743e79b-32f2-4340-9f29-2f1995c4a147"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Organization &quot;9743e79b-32f2-4340-9f29-2f1995c4a147&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Organization-uv-epi.html">Organization (ePI)</a></p></div><p><b>identifier</b>: id: ORG-100000789 (use: OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#220000000034)</span></p><p><b>name</b>: Lacer, S.A. - Boters, 5</p><h3>Contacts</h3><table class="grid"><tr><td>-</td><td><b>Address</b></td></tr><tr><td>*</td><td>Cerdanyola del Vallès Barcelona ES(WORK)</td></tr></table></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/omswi"/>
+          <value value="ORG-100000789"/>
+        </identifier>
+        <active value="true"/>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="220000000034"/>
+            <display value="Marketing authorisation holder"/>
+          </coding>
+          <text value="Marketing authorisation holder"/>
+        </type>
+        <name value="Lacer, S.A. - Boters, 5"/>
+        <contact>
+          <address>
+            <use value="work"/>
+            <type value="physical"/>
+            <text value="Cerdanyola del Vallès Barcelona ES"/>
+            <line value="Cerdanyola del Vallès"/>
+            <city value="Barcelona"/>
+            <postalCode value="8290"/>
+            <country value="ES"/>
+          </address>
+        </contact>
+      </Organization>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="PackagedProductDefinition/8d3c46db-8576-4286-b7fc-7137535b83ab"/>
+    <resource>
+      <PackagedProductDefinition>
+        <id value="8d3c46db-8576-4286-b7fc-7137535b83ab"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="8d3c46db-8576-4286-b7fc-7137535b83ab"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;8d3c46db-8576-4286-b7fc-7137535b83ab&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-PackagedProductDefinition-uv-epi.html">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: ss (use: OFFICIAL)</p><p><b>name</b>: BLASTON 1 mg tablets, 50 tablets</p><p><b>type</b>: Chemical Medicinal Prodcut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="#MedicinalProductDefinition_c86f891a-a25c-431b-a229-a0e17e3815c5">See above (MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5)</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 1 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></p><p><b>manufacturer</b>: <a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></p><h3>Packagings</h3><table class="grid"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 123456</td><td>Blister <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073496)</span></td><td>50</td><td>PolyVinyl Chloride <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003222)</span></td></tr></table></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="ss"/>
+        </identifier>
+        <name value="BLASTON 1 mg tablets, 50 tablets"/>
+        <type>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000155527"/>
+            <display value="Chemical Medicinal Prodcut"/>
+          </coding>
+        </type>
+        <packageFor>
+          <reference value="MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+        </packageFor>
+        <status>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="Active"/>
+          </coding>
+        </status>
+        <statusDate value="2015-02-07T13:28:17Z"/>
+        <containedItemQuantity>
+          <value value="1"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="mg"/>
+        </containedItemQuantity>
+        <manufacturer>
+          <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+        </manufacturer>
+        <packaging>
+          <identifier>
+            <system value="https://spor.ema.europa.eu/pmswi"/>
+            <value value="123456"/>
+          </identifier>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi"/>
+              <code value="100000073496"/>
+              <display value="Blister"/>
+            </coding>
+          </type>
+          <quantity value="50"/>
+          <material>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi"/>
+              <code value="200000003222"/>
+              <display value="PolyVinyl Chloride"/>
+            </coding>
+          </material>
+        </packaging>
+      </PackagedProductDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="MedicinalProductDefinition/c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+    <resource>
+      <MedicinalProductDefinition>
+        <id value="c86f891a-a25c-431b-a229-a0e17e3815c5"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name="c86f891a-a25c-431b-a229-a0e17e3815c5"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource MedicinalProductDefinition &quot;c86f891a-a25c-431b-a229-a0e17e3815c5&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-MedicinalProductDefinition-uv-epi.html">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: ss</p><p><b>type</b>: Medicinal Product <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-medicinal-product-type.html">MedicinalProductType</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-medicinal-product-domain.html">MedicinalProductDomain</a>#Human)</span></p><p><b>status</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000000000)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: BLASTON 1 mg tablets</p><p><b>type</b>: Full name <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Blaston</p><p><b>type</b>: Invented name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Cinitapride</p><p><b>type</b>: Scientific name part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 1 mg</p><p><b>type</b>: Strength part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: tablet</p><p><b>type</b>: Pharmaceutical dose form part <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class="grid"><tr><td>-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Spain <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>Spain <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#ES)</span></td><td>English <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-ietf3066.html">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>
+        </text>
+        <identifier>
+          <system value="https://spor.ema.europa.eu/pmswi"/>
+          <value value="ss"/>
+        </identifier>
+        <type>
+          <coding>
+            <system value="http://hl7.org/fhir/medicinal-product-type"/>
+            <code value="MedicinalProduct"/>
+            <display value="Medicinal Product"/>
+          </coding>
+        </type>
+        <domain>
+          <coding>
+            <system value="http://hl7.org/fhir/medicinal-product-domain"/>
+            <code value="Human"/>
+            <display value="Human use"/>
+          </coding>
+        </domain>
+        <status>
+          <coding>
+            <system value="http://hl7.org/fhir/publication-status"/>
+            <code value="active"/>
+            <display value="active"/>
+          </coding>
+        </status>
+        <legalStatusOfSupply>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="100000000000"/>
+            <display value="Medicinal product subject to medical prescription"/>
+          </coding>
+        </legalStatusOfSupply>
+        <name>
+          <productName value="BLASTON 1 mg tablets"/>
+          <type>
+            <coding>
+              <system value="https://spor.ema.europa.eu/rmswi/220000000000"/>
+              <code value="220000000001"/>
+            </coding>
+            <text value="Full name"/>
+          </type>
+          <part>
+            <part value="Blaston"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/220000000000"/>
+                <code value="220000000002"/>
+              </coding>
+              <text value="Invented name part"/>
+            </type>
+          </part>
+          <part>
+            <part value="Cinitapride"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/220000000000"/>
+                <code value="220000000003"/>
+              </coding>
+              <text value="Scientific name part"/>
+            </type>
+          </part>
+          <part>
+            <part value="1 mg"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/220000000000"/>
+                <code value="220000000004"/>
+              </coding>
+              <text value="Strength part"/>
+            </type>
+          </part>
+          <part>
+            <part value="tablet"/>
+            <type>
+              <coding>
+                <system value="https://spor.ema.europa.eu/rmswi/220000000000"/>
+                <code value="220000000005"/>
+              </coding>
+              <text value="Pharmaceutical dose form part"/>
+            </type>
+          </part>
+          <usage>
+            <country>
+              <coding>
+                <system value="urn:iso:std:iso:3166"/>
+                <code value="ES"/>
+              </coding>
+            </country>
+            <jurisdiction>
+              <coding>
+                <system value="urn:iso:std:iso:3166"/>
+                <code value="ES"/>
+              </coding>
+            </jurisdiction>
+            <language>
+              <coding>
+                <system value="urn:ietf:bcp:47"/>
+                <code value="en"/>
+                <display value="English"/>
+              </coding>
+            </language>
+          </usage>
+        </name>
+      </MedicinalProductDefinition>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="ManufacturedItemDefinition/7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+    <resource>
+      <ManufacturedItemDefinition>
+        <id value="7e6920cb-c95e-4251-961e-bfd59f1269bb"/>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+        </meta>
+        <text>
+          <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name="7e6920cb-c95e-4251-961e-bfd59f1269bb"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource ManufacturedItemDefinition &quot;7e6920cb-c95e-4251-961e-bfd59f1269bb&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-ManufacturedItemDefinition-uv-epi.html">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: x (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000073864)</span></p><p><b>unitOfPresentation</b>: Tablet <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href="#Organization_9743e79b-32f2-4340-9f29-2f1995c4a147">See above (Organization/9743e79b-32f2-4340-9f29-2f1995c4a147)</a></p></div>
+        </text>
+        <identifier>
+          <use value="official"/>
+          <system value="https://spor.ema.europa.eu/pmswi/#/"/>
+          <value value="x"/>
+        </identifier>
+        <status value="active"/>
+        <manufacturedDoseForm>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi/"/>
+            <code value="100000073864"/>
+            <display value="tablet"/>
+          </coding>
+        </manufacturedDoseForm>
+        <unitOfPresentation>
+          <coding>
+            <system value="https://spor.ema.europa.eu/rmswi"/>
+            <code value="200000002152"/>
+            <display value="Tablet"/>
+          </coding>
+        </unitOfPresentation>
+        <manufacturer>
+          <reference value="Organization/9743e79b-32f2-4340-9f29-2f1995c4a147"/>
+        </manufacturer>
+      </ManufacturedItemDefinition>
+    </resource>
+  </entry>
+</Bundle>
