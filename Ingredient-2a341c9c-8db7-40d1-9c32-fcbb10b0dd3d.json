@@ -1,0 +1,43 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "2a341c9c-8db7-40d1-9c32-fcbb10b0dd3d",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"2a341c9c-8db7-40d1-9c32-fcbb10b0dd3d\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;2a341c9c-8db7-40d1-9c32-fcbb10b0dd3d&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 9XZ8H6N6OH (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-71af0163-c45f-42d2-ad69-2ab9f1a1df98.html\">ManufacturedItemDefinition/71af0163-c45f-42d2-ad69-2ab9f1a1df98</a></p><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-d298ea2e-3daa-4d96-94f9-14101207bf85.html\">Organization/d298ea2e-3daa-4d96-94f9-14101207bf85</a> &quot;LABORATORIOS CINFA, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>HYDROXYPROPYL CELLULOSE, UNSPECIFIED <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#9XZ8H6N6OH)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "http://fdasis.nlm.nih.gov",
+    "value" : "9XZ8H6N6OH"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/71af0163-c45f-42d2-ad69-2ab9f1a1df98"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072082",
+      "display" : "Excipient"
+    }]
+  },
+  "manufacturer" : [{
+    "manufacturer" : {
+      "reference" : "Organization/d298ea2e-3daa-4d96-94f9-14101207bf85"
+    }
+  }],
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://fdasis.nlm.nih.gov",
+          "code" : "9XZ8H6N6OH",
+          "display" : "HYDROXYPROPYL CELLULOSE, UNSPECIFIED"
+        }]
+      }
+    }
+  }
+}
