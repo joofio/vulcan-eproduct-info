@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="a29a3646-9c07-4904-b9e2-4b1bc805e03d"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="a29a3646-9c07-4904-b9e2-4b1bc805e03d"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;a29a3646-9c07-4904-b9e2-4b1bc805e03d&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Ingredient-uv-epi.html">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: 9NEZ333N27 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="ManufacturedItemDefinition-4f7115da-0859-41c8-997e-c2f7d8a3cdc1.html">ManufacturedItemDefinition/4f7115da-0859-41c8-997e-c2f7d8a3cdc1</a></p><p><b>role</b>: active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#72072)</span></p><h3>Manufacturers</h3><table class="grid"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href="Organization-999a6757-7465-4936-8055-e336523e87f3.html">Organization/999a6757-7465-4936-8055-e336523e87f3</a> &quot;Laboratorios Farmacéuticos ROVI, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Sodium <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html">Unique Ingredient Identifier (UNII)</a>#9NEZ333N27)</span></td></tr></table><h3>Strengths</h3><table class="grid"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>96.15 mg<span style="background: LightGoldenRodYellow"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="http://fdasis.nlm.nih.gov"/>
+    <value value="9NEZ333N27"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="ManufacturedItemDefinition/4f7115da-0859-41c8-997e-c2f7d8a3cdc1"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="72072"/>
+      <display value="active"/>
+    </coding>
+  </role>
+  <manufacturer>
+    <manufacturer>
+      <reference value="Organization/999a6757-7465-4936-8055-e336523e87f3"/>
+    </manufacturer>
+  </manufacturer>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="http://fdasis.nlm.nih.gov"/>
+          <code value="9NEZ333N27"/>
+          <display value="Sodium"/>
+        </coding>
+      </concept>
+    </code>
+    <strength>
+      <presentationQuantity>
+        <value value="96.15"/>
+        <system value="http://unitsofmeasure.org"/>
+        <code value="mg"/>
+      </presentationQuantity>
+      <basis>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
+          <code value="ACTIB"/>
+          <display value="active ingredient - basis of strength"/>
+        </coding>
+      </basis>
+    </strength>
+  </substance>
+</Ingredient>
