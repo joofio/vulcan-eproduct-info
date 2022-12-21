@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RegulatedAuthorization xmlns="http://hl7.org/fhir">
+  <id value="7cf83f38-dc7b-452e-a235-d50e78573b32"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="7cf83f38-dc7b-452e-a235-d50e78573b32"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;7cf83f38-dc7b-452e-a235-d50e78573b32&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/96/007/035 (use: OFFICIAL)</p><p><b>subject</b>: <a href="MedicinalProductDefinition-4b4e0245-f48f-4694-a22d-b2f7fac0ec8f.html">MedicinalProductDefinition/4b4e0245-f48f-4694-a22d-b2f7fac0ec8f</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072062)</span></p><p><b>region</b>: Denmark <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href="Organization-a8d56e1a-171d-443b-a1b3-c53bc210e643.html">Organization/a8d56e1a-171d-443b-a1b3-c53bc210e643</a> &quot;Eli Lilly Nederland B.V.&quot;</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="EU/1/96/007/035"/>
+  </identifier>
+  <subject>
+    <reference value="MedicinalProductDefinition/4b4e0245-f48f-4694-a22d-b2f7fac0ec8f"/>
+  </subject>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072062"/>
+      <display value="Marketing Authorisation"/>
+    </coding>
+  </type>
+  <region>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DK"/>
+      <display value="Denmark"/>
+    </coding>
+  </region>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2015-02-07T13:28:17Z"/>
+  <holder>
+    <reference value="Organization/a8d56e1a-171d-443b-a1b3-c53bc210e643"/>
+  </holder>
+</RegulatedAuthorization>
