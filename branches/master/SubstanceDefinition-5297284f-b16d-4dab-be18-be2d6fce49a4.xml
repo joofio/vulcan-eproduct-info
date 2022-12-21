@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SubstanceDefinition xmlns="http://hl7.org/fhir">
+  <id value="5297284f-b16d-4dab-be18-be2d6fce49a4"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: SubstanceDefinition</b><a name="5297284f-b16d-4dab-be18-be2d6fce49a4"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource SubstanceDefinition &quot;5297284f-b16d-4dab-be18-be2d6fce49a4&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-SubstanceDefinition-uv-epi.html">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: GFX7QIS1II (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#1)</span></p><p><b>manufacturer</b>: <a href="Organization-5645bec4-7fdb-47f8-9c3f-72ef925027a9.html">Organization/5645bec4-7fdb-47f8-9c3f-72ef925027a9</a> &quot;Eli Lilly Nederland B.V.&quot;</p><h3>Structures</h3><table class="grid"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C257H382O75N65S6</td></tr></table><h3>Names</h3><table class="grid"><tr><td>-</td><td><b>Name</b></td></tr><tr><td>*</td><td>28(SUP B)-L-LYSINE-29(SUP B)-L-PROLINEINSULIN (HUMAN)</td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+    <value value="GFX7QIS1II"/>
+  </identifier>
+  <version value="1"/>
+  <status>
+    <coding>
+      <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+      <code value="1"/>
+      <display value="Validated (UNII)"/>
+    </coding>
+  </status>
+  <manufacturer>
+    <reference value="Organization/5645bec4-7fdb-47f8-9c3f-72ef925027a9"/>
+  </manufacturer>
+  <structure>
+    <molecularFormula value="C257H382O75N65S6"/>
+  </structure>
+  <name>
+    <name value="28(SUP B)-L-LYSINE-29(SUP B)-L-PROLINEINSULIN (HUMAN)"/>
+  </name>
+</SubstanceDefinition>

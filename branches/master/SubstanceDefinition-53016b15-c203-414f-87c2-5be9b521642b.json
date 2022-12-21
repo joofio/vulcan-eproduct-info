@@ -1,0 +1,30 @@
+{
+  "resourceType" : "SubstanceDefinition",
+  "id" : "53016b15-c203-414f-87c2-5be9b521642b",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"53016b15-c203-414f-87c2-5be9b521642b\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;53016b15-c203-414f-87c2-5be9b521642b&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: FYS6T7F842 (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>manufacturer</b>: <a href=\"Organization-f344b32a-58f5-46a3-8898-f1099ff7d9b8.html\">Organization/f344b32a-58f5-46a3-8898-f1099ff7d9b8</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C6448H10026O2016N1732S42</td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+    "value" : "FYS6T7F842"
+  }],
+  "version" : "1",
+  "status" : {
+    "coding" : [{
+      "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+      "code" : "1",
+      "display" : "Validated (UNII)"
+    }]
+  },
+  "manufacturer" : [{
+    "reference" : "Organization/f344b32a-58f5-46a3-8898-f1099ff7d9b8"
+  }],
+  "structure" : {
+    "molecularFormula" : "C6448H10026O2016N1732S42"
+  }
+}

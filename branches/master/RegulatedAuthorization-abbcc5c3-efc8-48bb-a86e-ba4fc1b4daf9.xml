@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RegulatedAuthorization xmlns="http://hl7.org/fhir">
+  <id value="abbcc5c3-efc8-48bb-a86e-ba4fc1b4daf9"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RegulatedAuthorization</b><a name="abbcc5c3-efc8-48bb-a86e-ba4fc1b4daf9"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RegulatedAuthorization &quot;abbcc5c3-efc8-48bb-a86e-ba4fc1b4daf9&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-RegulatedAuthorization-uv-epi.html">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/03/256/022 (use: OFFICIAL)</p><p><b>subject</b>: <a href="MedicinalProductDefinition-cdfb1b2c-7b2f-4ab9-bfe4-e92a263aa23f.html">MedicinalProductDefinition/cdfb1b2c-7b2f-4ab9-bfe4-e92a263aa23f</a></p><p><b>type</b>: Marketing Authorisation <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000072062)</span></p><p><b>region</b>: European Union <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#EU)</span></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2008-09-08</p><p><b>holder</b>: <a href="Organization-f344b32a-58f5-46a3-8898-f1099ff7d9b8.html">Organization/f344b32a-58f5-46a3-8898-f1099ff7d9b8</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://spor.ema.europa.eu/pmswi"/>
+    <value value="EU/1/03/256/022"/>
+  </identifier>
+  <subject>
+    <reference value="MedicinalProductDefinition/cdfb1b2c-7b2f-4ab9-bfe4-e92a263aa23f"/>
+  </subject>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000072062"/>
+      <display value="Marketing Authorisation"/>
+    </coding>
+  </type>
+  <region>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="EU"/>
+      <display value="European Union"/>
+    </coding>
+  </region>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2008-09-08"/>
+  <holder>
+    <reference value="Organization/f344b32a-58f5-46a3-8898-f1099ff7d9b8"/>
+  </holder>
+</RegulatedAuthorization>
