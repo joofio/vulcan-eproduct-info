@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/a4f57a11-0cb8-4100-8cfd-e3289992699d> a fhir:AdministrableProductDefinition;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "a4f57a11-0cb8-4100-8cfd-e3289992699d"]; # 
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi";
+       fhir:index 0;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+     ]
+  ]; # 
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"a4f57a11-0cb8-4100-8cfd-e3289992699d\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;a4f57a11-0cb8-4100-8cfd-e3289992699d&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id: xx</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"MedicinalProductDefinition-094c056c-27bd-47ff-a6b9-b20fd6ca8040.html\">MedicinalProductDefinition/094c056c-27bd-47ff-a6b9-b20fd6ca8040</a></p><p><b>administrableDoseForm</b>: Effervescent tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073681)</span></p><p><b>unitOfPresentation</b>: tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>producedFrom</b>: <a href=\"ManufacturedItemDefinition-a7936f01-bf5f-4beb-92f1-ac451062a758.html\">ManufacturedItemDefinition/a7936f01-bf5f-4beb-92f1-ac451062a758</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Oral use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073619)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+  ]; # 
+  fhir:AdministrableProductDefinition.identifier [
+     fhir:index 0;
+     fhir:Identifier.system [ fhir:value "https://www.who-umc.org/phpid" ];
+     fhir:Identifier.value [ fhir:value "xx" ]
+  ]; # 
+  fhir:AdministrableProductDefinition.status [ fhir:value "active"]; # 
+  fhir:AdministrableProductDefinition.formOf [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/094c056c-27bd-47ff-a6b9-b20fd6ca8040>;
+     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/094c056c-27bd-47ff-a6b9-b20fd6ca8040" ]
+  ]; # 
+  fhir:AdministrableProductDefinition.administrableDoseForm [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "100000073681" ];
+       fhir:Coding.display [ fhir:value "Effervescent tablet" ]
+     ]
+  ]; # 
+  fhir:AdministrableProductDefinition.unitOfPresentation [
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+       fhir:Coding.code [ fhir:value "200000002152" ];
+       fhir:Coding.display [ fhir:value "tablet" ]
+     ]
+  ]; # 
+  fhir:AdministrableProductDefinition.producedFrom [
+     fhir:index 0;
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/a7936f01-bf5f-4beb-92f1-ac451062a758>;
+     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/a7936f01-bf5f-4beb-92f1-ac451062a758" ]
+  ]; # 
+  fhir:AdministrableProductDefinition.routeOfAdministration [
+     fhir:index 0;
+     fhir:AdministrableProductDefinition.routeOfAdministration.code [
+       fhir:CodeableConcept.coding [
+         fhir:index 0;
+         fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+         fhir:Coding.code [ fhir:value "100000073619" ];
+         fhir:Coding.display [ fhir:value "Oral use" ]
+       ]
+     ];
+     fhir:AdministrableProductDefinition.routeOfAdministration.targetSpecies [
+       fhir:index 0;
+       fhir:AdministrableProductDefinition.routeOfAdministration.targetSpecies.code [
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
+           fhir:Coding.code [ fhir:value "100000109093" ];
+           fhir:Coding.display [ fhir:value "Human" ]
+         ]
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/094c056c-27bd-47ff-a6b9-b20fd6ca8040> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/a7936f01-bf5f-4beb-92f1-ac451062a758> a fhir:uv .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/a4f57a11-0cb8-4100-8cfd-e3289992699d.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/AdministrableProductDefinition/a4f57a11-0cb8-4100-8cfd-e3289992699d.ttl> .
+
+# -------------------------------------------------------------------------------------
+
