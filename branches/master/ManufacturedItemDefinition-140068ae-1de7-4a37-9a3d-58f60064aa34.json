@@ -1,0 +1,34 @@
+{
+  "resourceType" : "ManufacturedItemDefinition",
+  "id" : "140068ae-1de7-4a37-9a3d-58f60064aa34",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"140068ae-1de7-4a37-9a3d-58f60064aa34\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;140068ae-1de7-4a37-9a3d-58f60064aa34&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/96/007/035 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Prolonged-release tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#10226000)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href=\"Organization-8a72ce32-881d-4e92-9aa2-23871ed1c1da.html\">Organization/8a72ce32-881d-4e92-9aa2-23871ed1c1da</a> &quot;FERRING S.A.U.&quot;</p></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://spor.ema.europa.eu/pmswi/#/",
+    "value" : "EU/1/96/007/035"
+  }],
+  "status" : "active",
+  "manufacturedDoseForm" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi/",
+      "code" : "10226000",
+      "display" : "Prolonged-release tablet"
+    }]
+  },
+  "unitOfPresentation" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "200000002152",
+      "display" : "Tablet"
+    }]
+  },
+  "manufacturer" : [{
+    "reference" : "Organization/8a72ce32-881d-4e92-9aa2-23871ed1c1da"
+  }]
+}

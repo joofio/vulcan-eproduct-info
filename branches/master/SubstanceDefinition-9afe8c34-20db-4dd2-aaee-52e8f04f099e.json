@@ -1,0 +1,49 @@
+{
+  "resourceType" : "SubstanceDefinition",
+  "id" : "9afe8c34-20db-4dd2-aaee-52e8f04f099e",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"9afe8c34-20db-4dd2-aaee-52e8f04f099e\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;9afe8c34-20db-4dd2-aaee-52e8f04f099e&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: 4Q81I59GXC (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>description</b>: nan</p><p><b>manufacturer</b>: <a href=\"Organization-8a72ce32-881d-4e92-9aa2-23871ed1c1da.html\">Organization/8a72ce32-881d-4e92-9aa2-23871ed1c1da</a> &quot;FERRING S.A.U.&quot;</p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td>*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>153.14</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C7H7NO3</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>5-AMINO-2-HYDROXYBENZOIC ACID</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  },
+  "identifier" : [{
+    "use" : "official",
+    "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+    "value" : "4Q81I59GXC"
+  }],
+  "version" : "1",
+  "status" : {
+    "coding" : [{
+      "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+      "code" : "1",
+      "display" : "Validated (UNII)"
+    }]
+  },
+  "description" : "nan",
+  "manufacturer" : [{
+    "reference" : "Organization/8a72ce32-881d-4e92-9aa2-23871ed1c1da"
+  }],
+  "molecularWeight" : [{
+    "type" : {
+      "text" : "exact"
+    },
+    "amount" : {
+      "value" : 153.14
+    }
+  }],
+  "structure" : {
+    "molecularFormula" : "C7H7NO3"
+  },
+  "name" : [{
+    "name" : "5-AMINO-2-HYDROXYBENZOIC ACID",
+    "type" : {
+      "coding" : [{
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "code" : "x",
+        "display" : "Chemical Name"
+      }]
+    }
+  }]
+}
