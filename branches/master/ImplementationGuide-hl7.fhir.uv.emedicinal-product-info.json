@@ -10,7 +10,7 @@
   "name" : "EpiIG",
   "title" : "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status" : "active",
-  "date" : "2022-12-21T16:19:38+00:00",
+  "date" : "2022-12-22T16:01:13+00:00",
   "contact" : [{
     "name" : "HL7 BR&R",
     "telecom" : [{
@@ -1271,19 +1271,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/0d6debc6-768f-4408-9a7a-54bb15f3d2cc"
-      },
-      "name" : "Ingredient-active irbesartan",
-      "description" : "irbesartan",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Composition"
       }],
       "reference" : {
@@ -1391,19 +1378,6 @@
         "valueString" : "PackagedProductDefinition"
       }],
       "reference" : {
-        "reference" : "PackagedProductDefinition/207acbe0-fa9f-4abb-877a-898e217be558"
-      },
-      "name" : "Karvea 75 mg tablet blister x28 tablets",
-      "description" : "Karvea 75 mg tablet blister x28 tablets",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "PackagedProductDefinition"
-      }],
-      "reference" : {
         "reference" : "PackagedProductDefinition/210b7844-d4ea-4d5d-b317-e0b7c185e5df"
       },
       "name" : "BLASTON 1 mg tablets, 50 tablets",
@@ -1423,32 +1397,6 @@
       "description" : "3 ml cartridge (glass) in a pre-filled pen",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/236a3c7d-815e-456c-9dfb-8b4f3c74db73"
-      },
-      "name" : "Ingredient-excipient Carnauba wax",
-      "description" : "Carnauba wax",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Composition"
-      }],
-      "reference" : {
-        "reference" : "Composition/27c23ed5-551a-4d68-aa74-60993a728973"
-      },
-      "name" : "Composition for Karvea Package Leaflet",
-      "description" : "Composition for Karvea Package Leaflet",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
     },
     {
       "extension" : [{
@@ -1748,19 +1696,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "MedicinalProductDefinition"
-      }],
-      "reference" : {
-        "reference" : "MedicinalProductDefinition/3ef1016c-e13a-426d-be3c-3e0af73ebb05"
-      },
-      "name" : "Medicinal Product Karvea 75 mg tablet blister x28",
-      "description" : "EU/1/97/049/001 Karvea 75 mg tablet blister x28",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Ingredient"
       }],
       "reference" : {
@@ -1833,19 +1768,6 @@
       },
       "name" : "Ingredient-excipient acmedrug-ing2",
       "description" : "acmedrug-ing2",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/456b42e8-b240-4f8e-ac7b-998e3db5c1fc"
-      },
-      "name" : "Ingredient-excipient Croscarmellose sodium",
-      "description" : "Croscarmellose sodium",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
@@ -1995,19 +1917,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "SubstanceDefinition"
-      }],
-      "reference" : {
-        "reference" : "SubstanceDefinition/561c91cd-a107-4a94-a9fd-5499295de87b"
-      },
-      "name" : "substance-irbesartan",
-      "description" : "irbesartan",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -2043,19 +1952,6 @@
       "description" : "Sodium chloride",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/597c80a0-8e3f-42d1-a253-70c29ed85ba7"
-      },
-      "name" : "Sanofi-Aventis Groupe as Marketing authorisation holder",
-      "description" : "Sanofi-Aventis Groupe as Marketing authorisation holder",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
     },
     {
       "extension" : [{
@@ -2323,19 +2219,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/75ca0bf6-4c4a-4b7e-92f3-cf54b17b1c5d"
-      },
-      "name" : "Ingredient-excipient Silicon dioxide",
-      "description" : "Silicon dioxide",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "RegulatedAuthorization"
       }],
       "reference" : {
@@ -2447,19 +2330,6 @@
       },
       "name" : "Ingredient-excipient HYDROXYPROPYL CELLULOSE, UNSPECIFIED",
       "description" : "HYDROXYPROPYL CELLULOSE, UNSPECIFIED",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/7ec26d13-1d0b-463e-bd6f-fe41733d451b"
-      },
-      "name" : "Ingredient-excipient Lactose Monohydrate",
-      "description" : "Lactose Monohydrate",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
@@ -2817,19 +2687,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ManufacturedItemDefinition"
-      }],
-      "reference" : {
-        "reference" : "ManufacturedItemDefinition/a0b07754-10c3-4b1b-b437-11e3b8e02747"
-      },
-      "name" : "Manufactured item karvea 75 mg tablet",
-      "description" : "karvea 75 mg tablet",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -2839,19 +2696,6 @@
       "description" : "Sanofi-Aventis Deutschland GmbH as Manufacturer API",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/a340f876-dfb2-49b7-9734-df0be629739a"
-      },
-      "name" : "Ingredient-excipient Macrogol 3000",
-      "description" : "Macrogol 3000",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
     {
       "extension" : [{
@@ -2950,19 +2794,6 @@
         "valueString" : "Ingredient"
       }],
       "reference" : {
-        "reference" : "Ingredient/a87b6dd5-63f5-4935-bcd6-bbce43967208"
-      },
-      "name" : "Ingredient-excipient Microcrystalline cellulose",
-      "description" : "Microcrystalline cellulose",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
         "reference" : "Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6"
       },
       "name" : "Ingredient-excipient Titanium Dioxide",
@@ -3045,19 +2876,6 @@
       },
       "name" : "Ingredient-excipient GLYCEROL 85% [WHO-DD]",
       "description" : "GLYCEROL 85% [WHO-DD]",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/ad724572-92b5-48c0-b0a1-c5c58c71db28"
-      },
-      "name" : "Ingredient-excipient Titanium Dioxide",
-      "description" : "Titanium Dioxide",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
@@ -3341,31 +3159,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/c6a49dce-3b9d-46a3-bb43-86daccddecad"
-      },
-      "name" : "ePI document Bundle for Karvea 75 mg Package Leaflet",
-      "description" : "Bundle for Karvea 75 mg Package Leaflet ePI document",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Ingredient"
       }],
       "reference" : {
@@ -3436,19 +3229,6 @@
       "description" : "MIRTAZAPINA CINFA 30 mg Coated Tablet",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/ca626f81-c251-4b1a-8354-1ec449a7236c"
-      },
-      "name" : "Ingredient-excipient Hypromellose",
-      "description" : "Hypromellose",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
     },
     {
       "extension" : [{
@@ -4009,19 +3789,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Ingredient"
-      }],
-      "reference" : {
-        "reference" : "Ingredient/d673d112-2a37-4b30-b2b4-3fbf2e4601e9"
-      },
-      "name" : "Ingredient-excipient Magnesium stearate",
-      "description" : "Magnesium stearate",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Organization"
       }],
       "reference" : {
@@ -4057,19 +3824,6 @@
       "description" : "irbesartan",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "RegulatedAuthorization"
-      }],
-      "reference" : {
-        "reference" : "RegulatedAuthorization/da5f0f13-fa8b-4bae-80f0-079bdbff49f0"
-      },
-      "name" : "Regulated Authorization for karvea 75 mg tablet",
-      "description" : "Regulated Authorization for karvea 75 mg tablet",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
     },
     {
       "extension" : [{
@@ -4484,19 +4238,6 @@
         "valueString" : "ClinicalUseDefinition"
       }],
       "reference" : {
-        "reference" : "ClinicalUseDefinition/ii"
-      },
-      "name" : "contraindication-gastrointestinaldisorders",
-      "description" : "contraindication - Gastrointestinal disorders",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ClinicalUseDefinition"
-      }],
-      "reference" : {
         "reference" : "ClinicalUseDefinition/undesirableEffectanemia"
       },
       "name" : "undesirableEffectanemia",
@@ -4510,51 +4251,12 @@
         "valueString" : "AdministrableProductDefinition"
       }],
       "reference" : {
-        "reference" : "AdministrableProductDefinition/xx"
-      },
-      "name" : "Administrable product Karvea 75mg tablet",
-      "description" : "Karvea 75mg tablet",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "AdministrableProductDefinition"
-      }],
-      "reference" : {
         "reference" : "AdministrableProductDefinition/xxxxx"
       },
       "name" : "Administrable product Humalog 100 U/ml 5 pre-filled pen",
       "description" : "Humalog 100 U/ml 5 pre-filled pen",
       "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ClinicalUseDefinition"
-      }],
-      "reference" : {
-        "reference" : "ClinicalUseDefinition/yy"
-      },
-      "name" : "indication-psoriasis",
-      "description" : "indication - Psoriasis",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"]
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ClinicalUseDefinition"
-      }],
-      "reference" : {
-        "reference" : "ClinicalUseDefinition/zz"
-      },
-      "name" : "interaction-methotrexate",
-      "description" : "interaction - METHOTREXATE",
-      "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
-      "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"]
     }],
     "page" : {
       "sourceUrl" : "toc.html",

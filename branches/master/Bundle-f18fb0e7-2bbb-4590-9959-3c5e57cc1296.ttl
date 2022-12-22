@@ -132,77 +132,6 @@
   fhir:Composition.title [ fhir:value "TEST PURPOSES ONLY - humira"]; # 
   fhir:Composition.section [
      fhir:index 0;
-     fhir:Composition.section.title [ fhir:value "Product Information" ];
-     fhir:Composition.section.code [
-       fhir:CodeableConcept.text [ fhir:value "Product Info" ]
-     ];
-     fhir:Composition.section.entry [
-       fhir:index 0;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/3ed73f46-3872-418b-9c79-cb669d3964e2>;
-       fhir:Reference.reference [ fhir:value "Ingredient/3ed73f46-3872-418b-9c79-cb669d3964e2" ]
-     ], [
-       fhir:index 1;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/bd88e626-db3d-41b9-87ab-9ee01fc97708>;
-       fhir:Reference.reference [ fhir:value "Ingredient/bd88e626-db3d-41b9-87ab-9ee01fc97708" ]
-     ], [
-       fhir:index 2;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/badc1242-cce7-4370-ab63-480689ecb321>;
-       fhir:Reference.reference [ fhir:value "Ingredient/badc1242-cce7-4370-ab63-480689ecb321" ]
-     ], [
-       fhir:index 3;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/f8b854d4-94ed-4b8a-b238-dfe219f947e8>;
-       fhir:Reference.reference [ fhir:value "Ingredient/f8b854d4-94ed-4b8a-b238-dfe219f947e8" ]
-     ], [
-       fhir:index 4;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/90f09bad-b077-4741-a8d9-c897a7b09b6a>;
-       fhir:Reference.reference [ fhir:value "Ingredient/90f09bad-b077-4741-a8d9-c897a7b09b6a" ]
-     ], [
-       fhir:index 5;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/b122e1c0-2a9a-4a91-bf2d-ad89ad821980>;
-       fhir:Reference.reference [ fhir:value "Ingredient/b122e1c0-2a9a-4a91-bf2d-ad89ad821980" ]
-     ], [
-       fhir:index 6;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/d31e32cd-688c-4e68-9c59-82d66e3af8b1>;
-       fhir:Reference.reference [ fhir:value "Ingredient/d31e32cd-688c-4e68-9c59-82d66e3af8b1" ]
-     ], [
-       fhir:index 7;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/a08d7cb1-84c0-46ff-967e-f5bd7bdb49f8>;
-       fhir:Reference.reference [ fhir:value "Ingredient/a08d7cb1-84c0-46ff-967e-f5bd7bdb49f8" ]
-     ], [
-       fhir:index 8;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/58474c8c-ab77-488e-80f5-cd9fea73913d>;
-       fhir:Reference.reference [ fhir:value "Ingredient/58474c8c-ab77-488e-80f5-cd9fea73913d" ]
-     ], [
-       fhir:index 9;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/53016b15-c203-414f-87c2-5be9b521642b>;
-       fhir:Reference.reference [ fhir:value "SubstanceDefinition/53016b15-c203-414f-87c2-5be9b521642b" ]
-     ], [
-       fhir:index 10;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/04695093-da2f-491f-a568-b7899cc574d1>;
-       fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/04695093-da2f-491f-a568-b7899cc574d1" ]
-     ], [
-       fhir:index 11;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/abbcc5c3-efc8-48bb-a86e-ba4fc1b4daf9>;
-       fhir:Reference.reference [ fhir:value "RegulatedAuthorization/abbcc5c3-efc8-48bb-a86e-ba4fc1b4daf9" ]
-     ], [
-       fhir:index 12;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/f344b32a-58f5-46a3-8898-f1099ff7d9b8>;
-       fhir:Reference.reference [ fhir:value "Organization/f344b32a-58f5-46a3-8898-f1099ff7d9b8" ]
-     ], [
-       fhir:index 13;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/b7b3c00d-32ea-49e5-b15d-edb7cd0ce622>;
-       fhir:Reference.reference [ fhir:value "PackagedProductDefinition/b7b3c00d-32ea-49e5-b15d-edb7cd0ce622" ]
-     ], [
-       fhir:index 14;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cdfb1b2c-7b2f-4ab9-bfe4-e92a263aa23f>;
-       fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/cdfb1b2c-7b2f-4ab9-bfe4-e92a263aa23f" ]
-     ], [
-       fhir:index 15;
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/1eac8896-5598-4ec8-89b6-1e8a30252d78>;
-       fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/1eac8896-5598-4ec8-89b6-1e8a30252d78" ]
-     ]
-  ], [
-     fhir:index 1;
      fhir:Composition.section.title [ fhir:value "Narrative Text" ];
      fhir:Composition.section.code [
        fhir:CodeableConcept.text [ fhir:value "Narrative" ]
@@ -364,34 +293,6 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/f344b32a-58f5-46a3-8898-f1099ff7d9b8> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/3ed73f46-3872-418b-9c79-cb669d3964e2> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/bd88e626-db3d-41b9-87ab-9ee01fc97708> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/badc1242-cce7-4370-ab63-480689ecb321> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/f8b854d4-94ed-4b8a-b238-dfe219f947e8> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/90f09bad-b077-4741-a8d9-c897a7b09b6a> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/b122e1c0-2a9a-4a91-bf2d-ad89ad821980> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/d31e32cd-688c-4e68-9c59-82d66e3af8b1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/a08d7cb1-84c0-46ff-967e-f5bd7bdb49f8> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/58474c8c-ab77-488e-80f5-cd9fea73913d> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/53016b15-c203-414f-87c2-5be9b521642b> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/04695093-da2f-491f-a568-b7899cc574d1> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/abbcc5c3-efc8-48bb-a86e-ba4fc1b4daf9> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/b7b3c00d-32ea-49e5-b15d-edb7cd0ce622> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/1eac8896-5598-4ec8-89b6-1e8a30252d78> a fhir:uv .
-
 <Ingredient/3ed73f46-3872-418b-9c79-cb669d3964e2> a fhir:Ingredient;
   fhir:Resource.id [ fhir:value "3ed73f46-3872-418b-9c79-cb669d3964e2"]; # 
   fhir:Resource.meta [
@@ -443,6 +344,8 @@
        ]
      ]
   ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/1eac8896-5598-4ec8-89b6-1e8a30252d78> a fhir:uv .
 
 <Ingredient/bd88e626-db3d-41b9-87ab-9ee01fc97708> a fhir:Ingredient;
   fhir:Resource.id [ fhir:value "bd88e626-db3d-41b9-87ab-9ee01fc97708"]; # 
