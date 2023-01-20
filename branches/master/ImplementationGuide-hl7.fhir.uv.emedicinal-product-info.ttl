@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "EpiIG"]; # 
   fhir:ImplementationGuide.title [ fhir:value "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"]; # 
   fhir:ImplementationGuide.status [ fhir:value "active"]; # 
-  fhir:ImplementationGuide.date [ fhir:value "2023-01-15T00:37:24+00:00"^^xsd:dateTime]; # 
+  fhir:ImplementationGuide.date [ fhir:value "2023-01-20T18:45:44+00:00"^^xsd:dateTime]; # 
   fhir:ImplementationGuide.contact [
      fhir:index 0;
      fhir:ContactDetail.name [ fhir:value "HL7 BR&R" ];
@@ -371,6 +371,12 @@
          fhir:Extension.valueString [ fhir:value "true" ]
        ];
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter" ]
+     ];
+     fhir:ImplementationGuide.definition.grouping [
+       fhir:index 0;
+       fhir:Element.id [ fhir:value "epis" ];
+       fhir:ImplementationGuide.definition.grouping.name [ fhir:value "ePI full document" ];
+       fhir:ImplementationGuide.definition.grouping.description [ fhir:value "ePI document Bundles" ]
      ];
      fhir:ImplementationGuide.definition.resource [
        fhir:index 0;
@@ -1877,7 +1883,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 13;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 91;
        fhir:Element.extension [
@@ -1931,7 +1938,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 9;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 92;
        fhir:Element.extension [
@@ -1989,7 +1997,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 93;
        fhir:Element.extension [
@@ -2047,7 +2056,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 94;
        fhir:Element.extension [
@@ -2105,7 +2115,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 95;
        fhir:Element.extension [
@@ -2163,7 +2174,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 96;
        fhir:Element.extension [
@@ -2221,7 +2233,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 97;
        fhir:Element.extension [
@@ -2279,7 +2292,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 98;
        fhir:Element.extension [
@@ -2337,7 +2351,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 99;
        fhir:Element.extension [
@@ -2395,7 +2410,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 10;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 100;
        fhir:Element.extension [
@@ -2461,7 +2477,8 @@
          fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi";
          fhir:index 12;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
-       ]
+       ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 101;
        fhir:Element.extension [
@@ -2699,7 +2716,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vulcan Dovato FHIR Package Insert EMA" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "English Instance of Dovato package insert for Connectathon testing" ];
-       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 118;
        fhir:Element.extension [
@@ -2713,7 +2731,8 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Vulcan Dovato FHIR Package Insert EMA ESP" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Spanish Instance of Dovato package insert for Connectathon testing" ];
-       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ];
+       fhir:ImplementationGuide.definition.resource.groupingId [ fhir:value "epis" ]
      ], [
        fhir:index 119;
        fhir:Element.extension [

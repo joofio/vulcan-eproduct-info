@@ -1,11 +1,807 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="55cdbd9e-dc32-4566-9dea-bada6bdc1050"/>
+  <id value="1e2e8366-2fa5-4146-9a71-ee35c081f0ce"/>
   <meta>
-    <lastUpdated value="2023-01-15T00:37:24.714+00:00"/>
+    <lastUpdated value="2023-01-20T18:45:44.599+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
+    <resource>
+      <ValueSet>
+        <id value="roleClassIngredientEntity"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsRoleClassIngredientEntity"/>
+        <title value="Ingredient Role; e.g., inactive, active base, active moiety"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Ingredient Role; e.g., inactive, active base, active moiety"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:b385cb3e-0e63-4a07-a7fe-cc7a1fc54a5c"/>
+          <timestamp value="2023-01-20T18:46:46+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
+    <resource>
+      <ValueSet>
+        <id value="VsMedProductIdSystems"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi"> </a>  https://spor.ema.europa.eu/pmswi
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td>EU MP ID system (placeholder)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsMedProductIdSystems"/>
+        <title value="MedicinalProductDefinition identifier systems"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="MedicinalProductDefinition Identifier systems (uri)"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e6e68095-e814-4983-923d-0c8bb6670dbb"/>
+          <timestamp value="2023-01-20T18:46:50+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://spor.ema.europa.eu/pmswi"/>
+            <display value="EU MP ID system (placeholder)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore"/>
+    <resource>
+      <ValueSet>
+        <id value="propertyScore"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---placeholder.com"> </a>  https://placeholder.com
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsPropertyScore"/>
+        <title value="Score on the product"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Score on the product"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:464e19ff-5760-4b8d-bed3-185d8001cc5e"/>
+          <timestamp value="2023-01-20T18:46:52+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://placeholder.com"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor"/>
+    <resource>
+      <ValueSet>
+        <id value="propertyFlavor"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C73339"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C73339
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsPropertyFlavor"/>
+        <title value="Flavor of the product"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Flavor of the product"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:63a5914e-9e57-4760-8fd6-8bda16bec979"/>
+          <timestamp value="2023-01-20T18:46:53+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C73339"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape"/>
+    <resource>
+      <ValueSet>
+        <id value="propertyShape"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54454"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54454
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsPropertyShape"/>
+        <title value="Shape of the product"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Shape of the product"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:adb51800-b1c8-45c1-b6c7-a0f4a5badef4"/>
+          <timestamp value="2023-01-20T18:46:53+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54454"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList"/>
+    <resource>
+      <ValueSet>
+        <id value="exampleUseCodesForList"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-http---hl7.org-fhir-ValueSet-list-example-codes"> </a>  http://hl7.org/fhir/ValueSet/list-example-codes
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td>List Order Codes</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsExampleUseCodesForList"/>
+        <title value="The topic of this list"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="The topic of this list"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:efbc887e-98aa-4474-81ec-bd37ff7b41fa"/>
+          <timestamp value="2023-01-20T18:46:57+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="http://hl7.org/fhir/ValueSet/list-example-codes"/>
+            <display value="List Order Codes"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
+    <resource>
+      <ValueSet>
+        <id value="dataCarrierIdSystem"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsDataCarrierIdSystem"/>
+        <title value="Data Carrier Identifiers"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Listing of identifiers for Data Carriers"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:bc0b238a-6f93-4b39-b7c4-579516c2e6ae"/>
+          <timestamp value="2023-01-20T18:47:04+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems"/>
+    <resource>
+      <ValueSet>
+        <id value="admProductIdSystems"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi"> </a>  https://spor.ema.europa.eu/pmswi
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td>SPOR Product (EU)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---www.who-umc.org-phpid"> </a>  https://www.who-umc.org/phpid
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td>IDMP PhPID</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsAdmProductIdSystems"/>
+        <title value="AdministrableProductDefinition identifier systems"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="AdministrableProductDefinition Identifier systems (uri)"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:e2aae721-cec4-437f-8e5e-26b72ad24ea7"/>
+          <timestamp value="2023-01-20T18:47:05+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://spor.ema.europa.eu/pmswi"/>
+            <display value="SPOR Product (EU)"/>
+          </contains>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://www.who-umc.org/phpid"/>
+            <display value="IDMP PhPID"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
+    <resource>
+      <ValueSet>
+        <id value="caseIdSystem"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---placeholder.com"> </a>  https://placeholder.com
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsCaseIdSystem"/>
+        <title value="Case System Identifiers"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Case System Identifiers"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:d07cfc42-0046-462b-b823-c915bc64e8a7"/>
+          <timestamp value="2023-01-20T18:47:08+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://placeholder.com"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
+    <resource>
+      <ValueSet>
+        <id value="organizationIdSystems"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-omswi"> </a>  https://spor.ema.europa.eu/omswi
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td>SPOR Organization (EU)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsOrganizationIdSystems"/>
+        <title value="Organization identifier systems"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Organization Identifier systems (uri)"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:82120200-9645-410d-844f-5721d7ab4cbd"/>
+          <timestamp value="2023-01-20T18:47:09+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://spor.ema.europa.eu/omswi"/>
+            <display value="SPOR Organization (EU)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType"/>
     <resource>
@@ -44,7 +840,7 @@
         <title value="Regulatory Activity Type"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -61,8 +857,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3a27127b-7954-422f-ae25-0689a2eda707"/>
-          <timestamp value="2023-01-15T00:38:13+00:00"/>
+          <identifier value="urn:uuid:4f817f8a-4b5a-4a9e-8641-d176fb94c449"/>
+          <timestamp value="2023-01-20T18:47:12+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -79,84 +875,6 @@
           <contains>
             <system value="urn:ietf:rfc:3986"/>
             <code value="https://placeholder.com"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor"/>
-    <resource>
-      <ValueSet>
-        <id value="propertyColor"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54453"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54453
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsPropertyColor"/>
-        <title value="Color of the product"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Color of the product"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:7869f87a-2d7a-4446-9ba5-d0cfadae31c1"/>
-          <timestamp value="2023-01-15T00:38:25+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54453"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -200,7 +918,7 @@
         <title value="Product Confidentiality"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -217,8 +935,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a026d8d4-2ee8-4258-8aa3-578cacbbd941"/>
-          <timestamp value="2023-01-15T00:38:26+00:00"/>
+          <identifier value="urn:uuid:4229134b-891e-4621-bf8f-ba7a6197e912"/>
+          <timestamp value="2023-01-20T18:47:13+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -236,6 +954,162 @@
             <system value="urn:ietf:rfc:3986"/>
             <code value="https://spor.ema.europa.eu/omswi"/>
             <display value="SPOR Organization (EU)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation"/>
+    <resource>
+      <ValueSet>
+        <id value="unitofPresentation"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-rmswi"> </a>  https://spor.ema.europa.eu/rmswi
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsUnitofPresentation"/>
+        <title value="Units of Presentation"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="Units of Presentation"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:2cdd00bd-b90d-4eeb-b217-1eebf3fcba67"/>
+          <timestamp value="2023-01-20T18:47:16+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://spor.ema.europa.eu/rmswi"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
+    <resource>
+      <ValueSet>
+        <id value="generalStatus"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="urn-ietf-rfc-3986-https---placeholder.com"> </a>  https://placeholder.com
+                </td>
+                <td>urn:ietf:rfc:3986</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsGeneralStatus"/>
+        <title value="General Status used across ePI resources"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="General Status used across ePI resources"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:6eb1ff16-3647-43b9-80bd-7820e46935d9"/>
+          <timestamp value="2023-01-20T18:47:17+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="urn:ietf:rfc:3986|n/a"/>
+          </parameter>
+          <contains>
+            <system value="urn:ietf:rfc:3986"/>
+            <code value="https://placeholder.com"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -3766,7 +4640,7 @@
         <title value="ISO Country two letter code"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -3783,8 +4657,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:783c7c40-5211-4c15-ac10-ea837b99da51"/>
-          <timestamp value="2023-01-15T00:38:26+00:00"/>
+          <identifier value="urn:uuid:c6300101-cad0-480a-ab79-d6ce92a47858"/>
+          <timestamp value="2023-01-20T18:47:17+00:00"/>
           <total value="498"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6301,164 +7175,6 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
-    <resource>
-      <ValueSet>
-        <id value="RegulatedAuthorizationTypeIdSystems"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi"> </a>  https://spor.ema.europa.eu/pmswi
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td>SPOR Product (EU)</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsRegulatedAuthorizationTypeIdSystems"/>
-        <title value="Regulated Authorization Type identifier systems"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Regulated Authorization Type Identifier systems (uri)"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:c8f5c6a3-f6d8-479f-83f3-5791d40e5477"/>
-          <timestamp value="2023-01-15T00:38:27+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://spor.ema.europa.eu/pmswi"/>
-            <display value="SPOR Product (EU)"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
-    <resource>
-      <ValueSet>
-        <id value="VsMedProductIdSystems"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi"> </a>  https://spor.ema.europa.eu/pmswi
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td>EU MP ID system (placeholder)</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsMedProductIdSystems"/>
-        <title value="MedicinalProductDefinition identifier systems"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="MedicinalProductDefinition Identifier systems (uri)"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:d0d0f58f-7a88-4853-b4a3-65ac9a9c0ef3"/>
-          <timestamp value="2023-01-15T00:38:30+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://spor.ema.europa.eu/pmswi"/>
-            <display value="EU MP ID system (placeholder)"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
     <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/manufacturedItemIdSystems"/>
     <resource>
       <ValueSet>
@@ -6496,7 +7212,7 @@
         <title value="ManufacturedItemDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -6513,8 +7229,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:2f28106c-de0f-45c0-846d-41d9441c56b6"/>
-          <timestamp value="2023-01-15T00:38:30+00:00"/>
+          <identifier value="urn:uuid:594d0842-de8c-4cbc-8eb7-3eb0d29f3389"/>
+          <timestamp value="2023-01-20T18:47:21+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6538,348 +7254,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
     <resource>
       <ValueSet>
-        <id value="packageType"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 3 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html">PackageType v5.0.0-snapshot3 (CodeSystem)</a>
-            </p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-package-type-MedicinalProductPack"> </a>  
-                  <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-MedicinalProductPack">MedicinalProductPack</a>
-                </td>
-                <td>http://hl7.org/fhir/package-type</td>
-                <td>Medicinal product pack</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-package-type-RawMaterialPackage"> </a>  
-                  <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-RawMaterialPackage">RawMaterialPackage</a>
-                </td>
-                <td>http://hl7.org/fhir/package-type</td>
-                <td>Raw material package</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="http---hl7.org-fhir-package-type-Shipping-TransportContainer"> </a>  
-                  <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-Shipping-TransportContainer">Shipping-TransportContainer</a>
-                </td>
-                <td>http://hl7.org/fhir/package-type</td>
-                <td>Shipping or transport container</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsPackageType"/>
-        <title value="High level Pack Type"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="High level type of pack; e.g., medicinal product pack, sample pack, shipping container."/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:7560b2e5-9143-4934-b5cf-4c9d62f1b168"/>
-          <timestamp value="2023-01-15T00:38:33+00:00"/>
-          <total value="3"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="http://hl7.org/fhir/package-type|5.0.0-snapshot3"/>
-          </parameter>
-          <contains>
-            <system value="http://hl7.org/fhir/package-type"/>
-            <code value="MedicinalProductPack"/>
-            <display value="Medicinal product pack"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/package-type"/>
-            <code value="RawMaterialPackage"/>
-            <display value="Raw material package"/>
-          </contains>
-          <contains>
-            <system value="http://hl7.org/fhir/package-type"/>
-            <code value="Shipping-TransportContainer"/>
-            <display value="Shipping or transport container"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm"/>
-    <resource>
-      <ValueSet>
-        <id value="VsPropertySurfaceForm"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---placeholder.com"> </a>  https://placeholder.com
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsPropertySurfaceForm"/>
-        <title value="Surface form of the product"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Surface form of the product"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:fc555bd8-4152-486f-b7c0-99307a9c6138"/>
-          <timestamp value="2023-01-15T00:38:49+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://placeholder.com"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
-    <resource>
-      <ValueSet>
-        <id value="caseIdSystem"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---placeholder.com"> </a>  https://placeholder.com
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsCaseIdSystem"/>
-        <title value="Case System Identifiers"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Case System Identifiers"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:00907f76-7272-4b24-ad55-37a96de827b0"/>
-          <timestamp value="2023-01-15T00:38:49+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://placeholder.com"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
-    <resource>
-      <ValueSet>
-        <id value="roleClassIngredientEntity"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsRoleClassIngredientEntity"/>
-        <title value="Ingredient Role; e.g., inactive, active base, active moiety"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Ingredient Role; e.g., inactive, active base, active moiety"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:a9ba589c-d5d9-4596-b251-056c20821cbc"/>
-          <timestamp value="2023-01-15T00:38:52+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
-    <resource>
-      <ValueSet>
-        <id value="packagedProductIdSystems"/>
+        <id value="RegulatedAuthorizationTypeIdSystems"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -6907,13 +7285,13 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems"/>
         <version value="1.0.0-ballot"/>
-        <name value="VsPackagedProductIdSystems"/>
-        <title value="PackagedProductDefinition identifier systems"/>
+        <name value="VsRegulatedAuthorizationTypeIdSystems"/>
+        <title value="Regulated Authorization Type identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -6921,7 +7299,7 @@
             <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
-        <description value="PackagedProductDefinition Identifier systems (uri)"/>
+        <description value="Regulated Authorization Type Identifier systems (uri)"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -6930,8 +7308,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:496e7c48-dc83-4b5e-ab3f-ca0742a58c3f"/>
-          <timestamp value="2023-01-15T00:38:53+00:00"/>
+          <identifier value="urn:uuid:b6a44b73-82e7-47c1-9286-d5c5efaf318a"/>
+          <timestamp value="2023-01-20T18:47:21+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -6955,10 +7333,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor"/>
     <resource>
       <ValueSet>
-        <id value="exampleUseCodesForList"/>
+        <id value="propertyColor"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -6978,86 +7356,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-http---hl7.org-fhir-ValueSet-list-example-codes"> </a>  http://hl7.org/fhir/ValueSet/list-example-codes
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td>List Order Codes</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsExampleUseCodesForList"/>
-        <title value="The topic of this list"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="The topic of this list"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:af668847-5177-475d-89d3-a7be42f2e6cd"/>
-          <timestamp value="2023-01-15T00:38:57+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="http://hl7.org/fhir/ValueSet/list-example-codes"/>
-            <display value="List Order Codes"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor"/>
-    <resource>
-      <ValueSet>
-        <id value="propertyFlavor"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C73339"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C73339
+                  <a name="urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54453"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54453
                 </td>
                 <td>urn:ietf:rfc:3986</td>
                 <td/>
@@ -7065,13 +7364,13 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor"/>
         <version value="1.0.0-ballot"/>
-        <name value="VsPropertyFlavor"/>
-        <title value="Flavor of the product"/>
+        <name value="VsPropertyColor"/>
+        <title value="Color of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -7079,7 +7378,7 @@
             <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
-        <description value="Flavor of the product"/>
+        <description value="Color of the product"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -7088,8 +7387,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f5e7939f-7776-4236-8257-0d6ece3171da"/>
-          <timestamp value="2023-01-15T00:38:58+00:00"/>
+          <identifier value="urn:uuid:54772edc-7029-448f-8ecc-1e58a013bdcd"/>
+          <timestamp value="2023-01-20T18:47:21+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -7105,7 +7404,7 @@
           </parameter>
           <contains>
             <system value="urn:ietf:rfc:3986"/>
-            <code value="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C73339"/>
+            <code value="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54453"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -14142,7 +14441,7 @@
         <title value="WHO ATC"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -14163,8 +14462,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:2353f41a-9951-4772-9367-6a62652e05cf"/>
-          <timestamp value="2023-01-15T00:39:06+00:00"/>
+          <identifier value="urn:uuid:a8470189-e4e0-40fb-bbd2-34f59aa07f17"/>
+          <timestamp value="2023-01-20T18:47:21+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19183,10 +19482,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
     <resource>
       <ValueSet>
-        <id value="dataCarrierIdSystem"/>
+        <id value="packagedProductIdSystems"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -19206,21 +19505,21 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity
+                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi"> </a>  https://spor.ema.europa.eu/pmswi
                 </td>
                 <td>urn:ietf:rfc:3986</td>
-                <td/>
+                <td>SPOR Product (EU)</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems"/>
         <version value="1.0.0-ballot"/>
-        <name value="VsDataCarrierIdSystem"/>
-        <title value="Data Carrier Identifiers"/>
+        <name value="VsPackagedProductIdSystems"/>
+        <title value="PackagedProductDefinition identifier systems"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -19228,7 +19527,7 @@
             <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
-        <description value="Listing of identifiers for Data Carriers"/>
+        <description value="PackagedProductDefinition Identifier systems (uri)"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -19237,8 +19536,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0c5996fd-7adb-4139-a4ae-893cb7233ab5"/>
-          <timestamp value="2023-01-15T00:39:07+00:00"/>
+          <identifier value="urn:uuid:149dd331-d9b0-4e35-9114-c0f4a3f9b7ad"/>
+          <timestamp value="2023-01-20T18:47:26+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19254,7 +19553,112 @@
           </parameter>
           <contains>
             <system value="urn:ietf:rfc:3986"/>
-            <code value="http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"/>
+            <code value="https://spor.ema.europa.eu/pmswi"/>
+            <display value="SPOR Product (EU)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
+    <resource>
+      <ValueSet>
+        <id value="packageType"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html">PackageType v5.0.0-snapshot3 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-package-type-MedicinalProductPack"> </a>  
+                  <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-MedicinalProductPack">MedicinalProductPack</a>
+                </td>
+                <td>http://hl7.org/fhir/package-type</td>
+                <td>Medicinal product pack</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-package-type-RawMaterialPackage"> </a>  
+                  <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-RawMaterialPackage">RawMaterialPackage</a>
+                </td>
+                <td>http://hl7.org/fhir/package-type</td>
+                <td>Raw material package</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-package-type-Shipping-TransportContainer"> </a>  
+                  <a href="http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-Shipping-TransportContainer">Shipping-TransportContainer</a>
+                </td>
+                <td>http://hl7.org/fhir/package-type</td>
+                <td>Shipping or transport container</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType"/>
+        <version value="1.0.0-ballot"/>
+        <name value="VsPackageType"/>
+        <title value="High level Pack Type"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
+        <contact>
+          <name value="HL7 BR&amp;R"/>
+          <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/rcrim"/>
+          </telecom>
+        </contact>
+        <description value="High level type of pack; e.g., medicinal product pack, sample pack, shipping container."/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:c7ebf28b-4384-439c-97e3-b3e6da426369"/>
+          <timestamp value="2023-01-20T18:47:29+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/package-type|5.0.0-snapshot3"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/package-type"/>
+            <code value="MedicinalProductPack"/>
+            <display value="Medicinal product pack"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/package-type"/>
+            <code value="RawMaterialPackage"/>
+            <display value="Raw material package"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/package-type"/>
+            <code value="Shipping-TransportContainer"/>
+            <display value="Shipping or transport container"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -19298,7 +19702,7 @@
         <title value="Units of Measure"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -19315,8 +19719,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4faaa538-66cd-4b24-8597-722bc1abca2e"/>
-          <timestamp value="2023-01-15T00:39:07+00:00"/>
+          <identifier value="urn:uuid:03c3bcfd-bbc1-43ae-a2ff-3de360b55f72"/>
+          <timestamp value="2023-01-20T18:47:29+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19339,179 +19743,10 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems"/>
+    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm"/>
     <resource>
       <ValueSet>
-        <id value="admProductIdSystems"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 2 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi"> </a>  https://spor.ema.europa.eu/pmswi
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td>SPOR Product (EU)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---www.who-umc.org-phpid"> </a>  https://www.who-umc.org/phpid
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td>IDMP PhPID</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsAdmProductIdSystems"/>
-        <title value="AdministrableProductDefinition identifier systems"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="AdministrableProductDefinition Identifier systems (uri)"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:9a377801-872f-46c1-b941-8bbac31c8192"/>
-          <timestamp value="2023-01-15T00:39:09+00:00"/>
-          <total value="2"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://spor.ema.europa.eu/pmswi"/>
-            <display value="SPOR Product (EU)"/>
-          </contains>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://www.who-umc.org/phpid"/>
-            <display value="IDMP PhPID"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape"/>
-    <resource>
-      <ValueSet>
-        <id value="propertyShape"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54454"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54454
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsPropertyShape"/>
-        <title value="Shape of the product"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Shape of the product"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:5a2c37f8-aba0-409d-8e2f-9b60c4842e18"/>
-          <timestamp value="2023-01-15T00:39:14+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54454"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
-    <resource>
-      <ValueSet>
-        <id value="generalStatus"/>
+        <id value="VsPropertySurfaceForm"/>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
@@ -19539,13 +19774,13 @@
             </table>
           </div>
         </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus"/>
+        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm"/>
         <version value="1.0.0-ballot"/>
-        <name value="VsGeneralStatus"/>
-        <title value="General Status used across ePI resources"/>
+        <name value="VsPropertySurfaceForm"/>
+        <title value="Surface form of the product"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
+        <date value="2023-01-20T18:45:44+00:00"/>
         <contact>
           <name value="HL7 BR&amp;R"/>
           <telecom>
@@ -19553,7 +19788,7 @@
             <value value="http://www.hl7.org/Special/committees/rcrim"/>
           </telecom>
         </contact>
-        <description value="General Status used across ePI resources"/>
+        <description value="Surface form of the product"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -19562,8 +19797,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:47a9389f-cac3-40d3-b602-ac9917cb109f"/>
-          <timestamp value="2023-01-15T00:39:14+00:00"/>
+          <identifier value="urn:uuid:ed9580cb-7691-4cfb-ade8-f49363f54451"/>
+          <timestamp value="2023-01-20T18:47:35+00:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19580,241 +19815,6 @@
           <contains>
             <system value="urn:ietf:rfc:3986"/>
             <code value="https://placeholder.com"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation"/>
-    <resource>
-      <ValueSet>
-        <id value="unitofPresentation"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-rmswi"> </a>  https://spor.ema.europa.eu/rmswi
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsUnitofPresentation"/>
-        <title value="Units of Presentation"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Units of Presentation"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:bb3ee0d7-1b79-442c-8252-62556bbc05c9"/>
-          <timestamp value="2023-01-15T00:39:18+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://spor.ema.europa.eu/rmswi"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore"/>
-    <resource>
-      <ValueSet>
-        <id value="propertyScore"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---placeholder.com"> </a>  https://placeholder.com
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td/>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsPropertyScore"/>
-        <title value="Score on the product"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Score on the product"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:5a0df9c7-67e9-49dd-ad67-ec4558e8be94"/>
-          <timestamp value="2023-01-15T00:39:19+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://placeholder.com"/>
-          </contains>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
-    <resource>
-      <ValueSet>
-        <id value="organizationIdSystems"/>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 1 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on urn:ietf:rfc:3986 version n/a</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="urn-ietf-rfc-3986-https---spor.ema.europa.eu-omswi"> </a>  https://spor.ema.europa.eu/omswi
-                </td>
-                <td>urn:ietf:rfc:3986</td>
-                <td>SPOR Organization (EU)</td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems"/>
-        <version value="1.0.0-ballot"/>
-        <name value="VsOrganizationIdSystems"/>
-        <title value="Organization identifier systems"/>
-        <status value="active"/>
-        <experimental value="false"/>
-        <date value="2023-01-15T00:37:24+00:00"/>
-        <contact>
-          <name value="HL7 BR&amp;R"/>
-          <telecom>
-            <system value="url"/>
-            <value value="http://www.hl7.org/Special/committees/rcrim"/>
-          </telecom>
-        </contact>
-        <description value="Organization Identifier systems (uri)"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:6aa10c99-2453-4c7c-94f3-0ab72f82939e"/>
-          <timestamp value="2023-01-15T00:39:21+00:00"/>
-          <total value="1"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-          <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="urn:ietf:rfc:3986|n/a"/>
-          </parameter>
-          <contains>
-            <system value="urn:ietf:rfc:3986"/>
-            <code value="https://spor.ema.europa.eu/omswi"/>
-            <display value="SPOR Organization (EU)"/>
           </contains>
         </expansion>
       </ValueSet>

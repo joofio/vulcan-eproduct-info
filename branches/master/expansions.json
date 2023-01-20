@@ -1,26 +1,26 @@
 {
   "resourceType" : "Bundle",
-  "id" : "55cdbd9e-dc32-4566-9dea-bada6bdc1050",
+  "id" : "1e2e8366-2fa5-4146-9a71-ee35c081f0ce",
   "meta" : {
-    "lastUpdated" : "2023-01-15T00:37:24.714+00:00"
+    "lastUpdated" : "2023-01-20T18:45:44.599+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType",
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "regulatoryActivityType",
+      "id" : "roleClassIngredientEntity",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity\"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType",
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity",
       "version" : "1.0.0-ballot",
-      "name" : "VsRegulatoryActivityType",
-      "title" : "Regulatory Activity Type",
+      "name" : "VsRoleClassIngredientEntity",
+      "title" : "Ingredient Role; e.g., inactive, active base, active moiety",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -28,7 +28,7 @@
           "value" : "http://www.hl7.org/Special/committees/rcrim"
         }]
       }],
-      "description" : "Regulatory Activity Type; e.g., MAA",
+      "description" : "Ingredient Role; e.g., inactive, active base, active moiety",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -37,8 +37,117 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:3a27127b-7954-422f-ae25-0689a2eda707",
-        "timestamp" : "2023-01-15T00:38:13+00:00",
+        "identifier" : "urn:uuid:b385cb3e-0e63-4a07-a7fe-cc7a1fc54a5c",
+        "timestamp" : "2023-01-20T18:46:46+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "VsMedProductIdSystems",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi\"> </a>  https://spor.ema.europa.eu/pmswi</td><td>urn:ietf:rfc:3986</td><td>EU MP ID system (placeholder)</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems",
+      "version" : "1.0.0-ballot",
+      "name" : "VsMedProductIdSystems",
+      "title" : "MedicinalProductDefinition identifier systems",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "MedicinalProductDefinition Identifier systems (uri)",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:e6e68095-e814-4983-923d-0c8bb6670dbb",
+        "timestamp" : "2023-01-20T18:46:50+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://spor.ema.europa.eu/pmswi",
+          "display" : "EU MP ID system (placeholder)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "propertyScore",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore",
+      "version" : "1.0.0-ballot",
+      "name" : "VsPropertyScore",
+      "title" : "Score on the product",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "Score on the product",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:464e19ff-5760-4b8d-bed3-185d8001cc5e",
+        "timestamp" : "2023-01-20T18:46:52+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -60,21 +169,21 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor",
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "propertyColor",
+      "id" : "propertyFlavor",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54453\"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54453</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C73339\"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C73339</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor",
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor",
       "version" : "1.0.0-ballot",
-      "name" : "VsPropertyColor",
-      "title" : "Color of the product",
+      "name" : "VsPropertyFlavor",
+      "title" : "Flavor of the product",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -82,7 +191,7 @@
           "value" : "http://www.hl7.org/Special/committees/rcrim"
         }]
       }],
-      "description" : "Color of the product",
+      "description" : "Flavor of the product",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -91,8 +200,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7869f87a-2d7a-4446-9ba5-d0cfadae31c1",
-        "timestamp" : "2023-01-15T00:38:25+00:00",
+        "identifier" : "urn:uuid:63a5914e-9e57-4760-8fd6-8bda16bec979",
+        "timestamp" : "2023-01-20T18:46:53+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -108,27 +217,27 @@
         }],
         "contains" : [{
           "system" : "urn:ietf:rfc:3986",
-          "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C54453"
+          "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C73339"
         }]
       }
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems",
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "productConfidentialityIdSystems",
+      "id" : "propertyShape",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-omswi\"> </a>  https://spor.ema.europa.eu/omswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Organization (EU)</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54454\"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54454</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems",
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape",
       "version" : "1.0.0-ballot",
-      "name" : "VsProductConfidentialityIdSystems",
-      "title" : "Product Confidentiality",
+      "name" : "VsPropertyShape",
+      "title" : "Shape of the product",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -136,7 +245,7 @@
           "value" : "http://www.hl7.org/Special/committees/rcrim"
         }]
       }],
-      "description" : "Product Confidentiality",
+      "description" : "Shape of the product",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -145,8 +254,285 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:a026d8d4-2ee8-4258-8aa3-578cacbbd941",
-        "timestamp" : "2023-01-15T00:38:26+00:00",
+        "identifier" : "urn:uuid:adb51800-b1c8-45c1-b6c7-a0f4a5badef4",
+        "timestamp" : "2023-01-20T18:46:53+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C54454"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "exampleUseCodesForList",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---hl7.org-fhir-ValueSet-list-example-codes\"> </a>  http://hl7.org/fhir/ValueSet/list-example-codes</td><td>urn:ietf:rfc:3986</td><td>List Order Codes</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList",
+      "version" : "1.0.0-ballot",
+      "name" : "VsExampleUseCodesForList",
+      "title" : "The topic of this list",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "The topic of this list",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:efbc887e-98aa-4474-81ec-bd37ff7b41fa",
+        "timestamp" : "2023-01-20T18:46:57+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "http://hl7.org/fhir/ValueSet/list-example-codes",
+          "display" : "List Order Codes"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "dataCarrierIdSystem",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity\"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem",
+      "version" : "1.0.0-ballot",
+      "name" : "VsDataCarrierIdSystem",
+      "title" : "Data Carrier Identifiers",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "Listing of identifiers for Data Carriers",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:bc0b238a-6f93-4b39-b7c4-579516c2e6ae",
+        "timestamp" : "2023-01-20T18:47:04+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "admProductIdSystems",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi\"> </a>  https://spor.ema.europa.eu/pmswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Product (EU)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---www.who-umc.org-phpid\"> </a>  https://www.who-umc.org/phpid</td><td>urn:ietf:rfc:3986</td><td>IDMP PhPID</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems",
+      "version" : "1.0.0-ballot",
+      "name" : "VsAdmProductIdSystems",
+      "title" : "AdministrableProductDefinition identifier systems",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "AdministrableProductDefinition Identifier systems (uri)",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:e2aae721-cec4-437f-8e5e-26b72ad24ea7",
+        "timestamp" : "2023-01-20T18:47:05+00:00",
+        "total" : 2,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://spor.ema.europa.eu/pmswi",
+          "display" : "SPOR Product (EU)"
+        },
+        {
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://www.who-umc.org/phpid",
+          "display" : "IDMP PhPID"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "caseIdSystem",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem",
+      "version" : "1.0.0-ballot",
+      "name" : "VsCaseIdSystem",
+      "title" : "Case System Identifiers",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "Case System Identifiers",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:d07cfc42-0046-462b-b823-c915bc64e8a7",
+        "timestamp" : "2023-01-20T18:47:08+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://placeholder.com"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "organizationIdSystems",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-omswi\"> </a>  https://spor.ema.europa.eu/omswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Organization (EU)</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems",
+      "version" : "1.0.0-ballot",
+      "name" : "VsOrganizationIdSystems",
+      "title" : "Organization identifier systems",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "Organization Identifier systems (uri)",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:82120200-9645-410d-844f-5721d7ab4cbd",
+        "timestamp" : "2023-01-20T18:47:09+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -169,6 +555,223 @@
     }
   },
   {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "regulatoryActivityType",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType",
+      "version" : "1.0.0-ballot",
+      "name" : "VsRegulatoryActivityType",
+      "title" : "Regulatory Activity Type",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "Regulatory Activity Type; e.g., MAA",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4f817f8a-4b5a-4a9e-8641-d176fb94c449",
+        "timestamp" : "2023-01-20T18:47:12+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://placeholder.com"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "productConfidentialityIdSystems",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-omswi\"> </a>  https://spor.ema.europa.eu/omswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Organization (EU)</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems",
+      "version" : "1.0.0-ballot",
+      "name" : "VsProductConfidentialityIdSystems",
+      "title" : "Product Confidentiality",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "Product Confidentiality",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:4229134b-891e-4621-bf8f-ba7a6197e912",
+        "timestamp" : "2023-01-20T18:47:13+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://spor.ema.europa.eu/omswi",
+          "display" : "SPOR Organization (EU)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "unitofPresentation",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-rmswi\"> </a>  https://spor.ema.europa.eu/rmswi</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation",
+      "version" : "1.0.0-ballot",
+      "name" : "VsUnitofPresentation",
+      "title" : "Units of Presentation",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "Units of Presentation",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:2cdd00bd-b90d-4eeb-b217-1eebf3fcba67",
+        "timestamp" : "2023-01-20T18:47:16+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://spor.ema.europa.eu/rmswi"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "generalStatus",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus",
+      "version" : "1.0.0-ballot",
+      "name" : "VsGeneralStatus",
+      "title" : "General Status used across ePI resources",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "General Status used across ePI resources",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:6eb1ff16-3647-43b9-80bd-7820e46935d9",
+        "timestamp" : "2023-01-20T18:47:17+00:00",
+        "total" : 1,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "limitedExpansion",
+          "valueBoolean" : true
+        },
+        {
+          "name" : "version",
+          "valueUri" : "urn:ietf:rfc:3986|n/a"
+        }],
+        "contains" : [{
+          "system" : "urn:ietf:rfc:3986",
+          "code" : "https://placeholder.com"
+        }]
+      }
+    }
+  },
+  {
     "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -183,7 +786,7 @@
       "title" : "ISO Country two letter code",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -200,8 +803,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:783c7c40-5211-4c15-ac10-ea837b99da51",
-        "timestamp" : "2023-01-15T00:38:26+00:00",
+        "identifier" : "urn:uuid:c6300101-cad0-480a-ab79-d6ce92a47858",
+        "timestamp" : "2023-01-20T18:47:17+00:00",
         "total" : 498,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2717,116 +3320,6 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "RegulatedAuthorizationTypeIdSystems",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi\"> </a>  https://spor.ema.europa.eu/pmswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Product (EU)</td></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems",
-      "version" : "1.0.0-ballot",
-      "name" : "VsRegulatedAuthorizationTypeIdSystems",
-      "title" : "Regulated Authorization Type identifier systems",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Regulated Authorization Type Identifier systems (uri)",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:c8f5c6a3-f6d8-479f-83f3-5791d40e5477",
-        "timestamp" : "2023-01-15T00:38:27+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://spor.ema.europa.eu/pmswi",
-          "display" : "SPOR Product (EU)"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "VsMedProductIdSystems",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi\"> </a>  https://spor.ema.europa.eu/pmswi</td><td>urn:ietf:rfc:3986</td><td>EU MP ID system (placeholder)</td></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems",
-      "version" : "1.0.0-ballot",
-      "name" : "VsMedProductIdSystems",
-      "title" : "MedicinalProductDefinition identifier systems",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "MedicinalProductDefinition Identifier systems (uri)",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:d0d0f58f-7a88-4853-b4a3-65ac9a9c0ef3",
-        "timestamp" : "2023-01-15T00:38:30+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://spor.ema.europa.eu/pmswi",
-          "display" : "EU MP ID system (placeholder)"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/manufacturedItemIdSystems",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -2841,7 +3334,7 @@
       "title" : "ManufacturedItemDefinition identifier systems",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -2858,8 +3351,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2f28106c-de0f-45c0-846d-41d9441c56b6",
-        "timestamp" : "2023-01-15T00:38:30+00:00",
+        "identifier" : "urn:uuid:594d0842-de8c-4cbc-8eb7-3eb0d29f3389",
+        "timestamp" : "2023-01-20T18:47:21+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -2882,244 +3375,21 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType",
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "packageType",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html\">PackageType v5.0.0-snapshot3 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-package-type-MedicinalProductPack\"> </a>  <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-MedicinalProductPack\">MedicinalProductPack</a></td><td>http://hl7.org/fhir/package-type</td><td>Medicinal product pack</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-package-type-RawMaterialPackage\"> </a>  <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-RawMaterialPackage\">RawMaterialPackage</a></td><td>http://hl7.org/fhir/package-type</td><td>Raw material package</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-package-type-Shipping-TransportContainer\"> </a>  <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-Shipping-TransportContainer\">Shipping-TransportContainer</a></td><td>http://hl7.org/fhir/package-type</td><td>Shipping or transport container</td></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType",
-      "version" : "1.0.0-ballot",
-      "name" : "VsPackageType",
-      "title" : "High level Pack Type",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "High level type of pack; e.g., medicinal product pack, sample pack, shipping container.",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:7560b2e5-9143-4934-b5cf-4c9d62f1b168",
-        "timestamp" : "2023-01-15T00:38:33+00:00",
-        "total" : 3,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "version",
-          "valueUri" : "http://hl7.org/fhir/package-type|5.0.0-snapshot3"
-        }],
-        "contains" : [{
-          "system" : "http://hl7.org/fhir/package-type",
-          "code" : "MedicinalProductPack",
-          "display" : "Medicinal product pack"
-        },
-        {
-          "system" : "http://hl7.org/fhir/package-type",
-          "code" : "RawMaterialPackage",
-          "display" : "Raw material package"
-        },
-        {
-          "system" : "http://hl7.org/fhir/package-type",
-          "code" : "Shipping-TransportContainer",
-          "display" : "Shipping or transport container"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "VsPropertySurfaceForm",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm",
-      "version" : "1.0.0-ballot",
-      "name" : "VsPropertySurfaceForm",
-      "title" : "Surface form of the product",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Surface form of the product",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:fc555bd8-4152-486f-b7c0-99307a9c6138",
-        "timestamp" : "2023-01-15T00:38:49+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://placeholder.com"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "caseIdSystem",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem",
-      "version" : "1.0.0-ballot",
-      "name" : "VsCaseIdSystem",
-      "title" : "Case System Identifiers",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Case System Identifiers",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:00907f76-7272-4b24-ad55-37a96de827b0",
-        "timestamp" : "2023-01-15T00:38:49+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://placeholder.com"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "roleClassIngredientEntity",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity\"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity",
-      "version" : "1.0.0-ballot",
-      "name" : "VsRoleClassIngredientEntity",
-      "title" : "Ingredient Role; e.g., inactive, active base, active moiety",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Ingredient Role; e.g., inactive, active base, active moiety",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:a9ba589c-d5d9-4596-b251-056c20821cbc",
-        "timestamp" : "2023-01-15T00:38:52+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "packagedProductIdSystems",
+      "id" : "RegulatedAuthorizationTypeIdSystems",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi\"> </a>  https://spor.ema.europa.eu/pmswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Product (EU)</td></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems",
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems",
       "version" : "1.0.0-ballot",
-      "name" : "VsPackagedProductIdSystems",
-      "title" : "PackagedProductDefinition identifier systems",
+      "name" : "VsRegulatedAuthorizationTypeIdSystems",
+      "title" : "Regulated Authorization Type identifier systems",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -3127,7 +3397,7 @@
           "value" : "http://www.hl7.org/Special/committees/rcrim"
         }]
       }],
-      "description" : "PackagedProductDefinition Identifier systems (uri)",
+      "description" : "Regulated Authorization Type Identifier systems (uri)",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3136,8 +3406,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:496e7c48-dc83-4b5e-ab3f-ca0742a58c3f",
-        "timestamp" : "2023-01-15T00:38:53+00:00",
+        "identifier" : "urn:uuid:b6a44b73-82e7-47c1-9286-d5c5efaf318a",
+        "timestamp" : "2023-01-20T18:47:21+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3160,21 +3430,21 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList",
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "exampleUseCodesForList",
+      "id" : "propertyColor",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---hl7.org-fhir-ValueSet-list-example-codes\"> </a>  http://hl7.org/fhir/ValueSet/list-example-codes</td><td>urn:ietf:rfc:3986</td><td>List Order Codes</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54453\"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54453</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList",
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor",
       "version" : "1.0.0-ballot",
-      "name" : "VsExampleUseCodesForList",
-      "title" : "The topic of this list",
+      "name" : "VsPropertyColor",
+      "title" : "Color of the product",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -3182,7 +3452,7 @@
           "value" : "http://www.hl7.org/Special/committees/rcrim"
         }]
       }],
-      "description" : "The topic of this list",
+      "description" : "Color of the product",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -3191,8 +3461,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:af668847-5177-475d-89d3-a7be42f2e6cd",
-        "timestamp" : "2023-01-15T00:38:57+00:00",
+        "identifier" : "urn:uuid:54772edc-7029-448f-8ecc-1e58a013bdcd",
+        "timestamp" : "2023-01-20T18:47:21+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3208,62 +3478,7 @@
         }],
         "contains" : [{
           "system" : "urn:ietf:rfc:3986",
-          "code" : "http://hl7.org/fhir/ValueSet/list-example-codes",
-          "display" : "List Order Codes"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "propertyFlavor",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C73339\"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C73339</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor",
-      "version" : "1.0.0-ballot",
-      "name" : "VsPropertyFlavor",
-      "title" : "Flavor of the product",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Flavor of the product",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:f5e7939f-7776-4236-8257-0d6ece3171da",
-        "timestamp" : "2023-01-15T00:38:58+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C73339"
+          "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C54453"
         }]
       }
     }
@@ -3283,7 +3498,7 @@
       "title" : "WHO ATC",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -3305,8 +3520,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:2353f41a-9951-4772-9367-6a62652e05cf",
-        "timestamp" : "2023-01-15T00:39:06+00:00",
+        "identifier" : "urn:uuid:a8470189-e4e0-40fb-bbd2-34f59aa07f17",
+        "timestamp" : "2023-01-20T18:47:21+00:00",
         "total" : 1000,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8324,21 +8539,21 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem",
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "dataCarrierIdSystem",
+      "id" : "packagedProductIdSystems",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-http---terminology.hl7.org-ValueSet-v3-RoleClassIngredientEntity\"> </a>  http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi\"> </a>  https://spor.ema.europa.eu/pmswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Product (EU)</td></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem",
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems",
       "version" : "1.0.0-ballot",
-      "name" : "VsDataCarrierIdSystem",
-      "title" : "Data Carrier Identifiers",
+      "name" : "VsPackagedProductIdSystems",
+      "title" : "PackagedProductDefinition identifier systems",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -8346,7 +8561,7 @@
           "value" : "http://www.hl7.org/Special/committees/rcrim"
         }]
       }],
-      "description" : "Listing of identifiers for Data Carriers",
+      "description" : "PackagedProductDefinition Identifier systems (uri)",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -8355,8 +8570,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:0c5996fd-7adb-4139-a4ae-893cb7233ab5",
-        "timestamp" : "2023-01-15T00:39:07+00:00",
+        "identifier" : "urn:uuid:149dd331-d9b0-4e35-9114-c0f4a3f9b7ad",
+        "timestamp" : "2023-01-20T18:47:26+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8372,7 +8587,69 @@
         }],
         "contains" : [{
           "system" : "urn:ietf:rfc:3986",
-          "code" : "http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity"
+          "code" : "https://spor.ema.europa.eu/pmswi",
+          "display" : "SPOR Product (EU)"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "id" : "packageType",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 3 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html\">PackageType v5.0.0-snapshot3 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-package-type-MedicinalProductPack\"> </a>  <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-MedicinalProductPack\">MedicinalProductPack</a></td><td>http://hl7.org/fhir/package-type</td><td>Medicinal product pack</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-package-type-RawMaterialPackage\"> </a>  <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-RawMaterialPackage\">RawMaterialPackage</a></td><td>http://hl7.org/fhir/package-type</td><td>Raw material package</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-package-type-Shipping-TransportContainer\"> </a>  <a href=\"http://hl7.org/fhir/5.0.0-snapshot3/codesystem-package-type.html#package-type-Shipping-TransportContainer\">Shipping-TransportContainer</a></td><td>http://hl7.org/fhir/package-type</td><td>Shipping or transport container</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType",
+      "version" : "1.0.0-ballot",
+      "name" : "VsPackageType",
+      "title" : "High level Pack Type",
+      "status" : "active",
+      "experimental" : false,
+      "date" : "2023-01-20T18:45:44+00:00",
+      "contact" : [{
+        "name" : "HL7 BR&R",
+        "telecom" : [{
+          "system" : "url",
+          "value" : "http://www.hl7.org/Special/committees/rcrim"
+        }]
+      }],
+      "description" : "High level type of pack; e.g., medicinal product pack, sample pack, shipping container.",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code" : "001",
+          "display" : "World"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:c7ebf28b-4384-439c-97e3-b3e6da426369",
+        "timestamp" : "2023-01-20T18:47:29+00:00",
+        "total" : 3,
+        "parameter" : [{
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/package-type|5.0.0-snapshot3"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/package-type",
+          "code" : "MedicinalProductPack",
+          "display" : "Medicinal product pack"
+        },
+        {
+          "system" : "http://hl7.org/fhir/package-type",
+          "code" : "RawMaterialPackage",
+          "display" : "Raw material package"
+        },
+        {
+          "system" : "http://hl7.org/fhir/package-type",
+          "code" : "Shipping-TransportContainer",
+          "display" : "Shipping or transport container"
         }]
       }
     }
@@ -8392,7 +8669,7 @@
       "title" : "Units of Measure",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -8409,8 +8686,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:4faaa538-66cd-4b24-8597-722bc1abca2e",
-        "timestamp" : "2023-01-15T00:39:07+00:00",
+        "identifier" : "urn:uuid:03c3bcfd-bbc1-43ae-a2ff-3de360b55f72",
+        "timestamp" : "2023-01-20T18:47:29+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8432,135 +8709,21 @@
     }
   },
   {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems",
+    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm",
     "resource" : {
       "resourceType" : "ValueSet",
-      "id" : "admProductIdSystems",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-pmswi\"> </a>  https://spor.ema.europa.eu/pmswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Product (EU)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---www.who-umc.org-phpid\"> </a>  https://www.who-umc.org/phpid</td><td>urn:ietf:rfc:3986</td><td>IDMP PhPID</td></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems",
-      "version" : "1.0.0-ballot",
-      "name" : "VsAdmProductIdSystems",
-      "title" : "AdministrableProductDefinition identifier systems",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "AdministrableProductDefinition Identifier systems (uri)",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:9a377801-872f-46c1-b941-8bbac31c8192",
-        "timestamp" : "2023-01-15T00:39:09+00:00",
-        "total" : 2,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://spor.ema.europa.eu/pmswi",
-          "display" : "SPOR Product (EU)"
-        },
-        {
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://www.who-umc.org/phpid",
-          "display" : "IDMP PhPID"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "propertyShape",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---ncithesaurus.nci.nih.gov-ncitbrowser-ConceptReport.jsp-dictionary-NCI-Thesaurus-ns-ncit-code-C54454\"> </a>  https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&amp;ns=ncit&amp;code=C54454</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape",
-      "version" : "1.0.0-ballot",
-      "name" : "VsPropertyShape",
-      "title" : "Shape of the product",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Shape of the product",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:5a2c37f8-aba0-409d-8e2f-9b60c4842e18",
-        "timestamp" : "2023-01-15T00:39:14+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C54454"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "generalStatus",
+      "id" : "VsPropertySurfaceForm",
       "text" : {
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
       },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus",
+      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm",
       "version" : "1.0.0-ballot",
-      "name" : "VsGeneralStatus",
-      "title" : "General Status used across ePI resources",
+      "name" : "VsPropertySurfaceForm",
+      "title" : "Surface form of the product",
       "status" : "active",
       "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
+      "date" : "2023-01-20T18:45:44+00:00",
       "contact" : [{
         "name" : "HL7 BR&R",
         "telecom" : [{
@@ -8568,7 +8731,7 @@
           "value" : "http://www.hl7.org/Special/committees/rcrim"
         }]
       }],
-      "description" : "General Status used across ePI resources",
+      "description" : "Surface form of the product",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -8577,8 +8740,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:47a9389f-cac3-40d3-b602-ac9917cb109f",
-        "timestamp" : "2023-01-15T00:39:14+00:00",
+        "identifier" : "urn:uuid:ed9580cb-7691-4cfb-ade8-f49363f54451",
+        "timestamp" : "2023-01-20T18:47:35+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -8595,169 +8758,6 @@
         "contains" : [{
           "system" : "urn:ietf:rfc:3986",
           "code" : "https://placeholder.com"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "unitofPresentation",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-rmswi\"> </a>  https://spor.ema.europa.eu/rmswi</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation",
-      "version" : "1.0.0-ballot",
-      "name" : "VsUnitofPresentation",
-      "title" : "Units of Presentation",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Units of Presentation",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:bb3ee0d7-1b79-442c-8252-62556bbc05c9",
-        "timestamp" : "2023-01-15T00:39:18+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://spor.ema.europa.eu/rmswi"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "propertyScore",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---placeholder.com\"> </a>  https://placeholder.com</td><td>urn:ietf:rfc:3986</td><td/></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore",
-      "version" : "1.0.0-ballot",
-      "name" : "VsPropertyScore",
-      "title" : "Score on the product",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Score on the product",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:5a0df9c7-67e9-49dd-ad67-ec4558e8be94",
-        "timestamp" : "2023-01-15T00:39:19+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://placeholder.com"
-        }]
-      }
-    }
-  },
-  {
-    "fullUrl" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "id" : "organizationIdSystems",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on urn:ietf:rfc:3986 version n/a</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"urn-ietf-rfc-3986-https---spor.ema.europa.eu-omswi\"> </a>  https://spor.ema.europa.eu/omswi</td><td>urn:ietf:rfc:3986</td><td>SPOR Organization (EU)</td></tr></table></div>"
-      },
-      "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems",
-      "version" : "1.0.0-ballot",
-      "name" : "VsOrganizationIdSystems",
-      "title" : "Organization identifier systems",
-      "status" : "active",
-      "experimental" : false,
-      "date" : "2023-01-15T00:37:24+00:00",
-      "contact" : [{
-        "name" : "HL7 BR&R",
-        "telecom" : [{
-          "system" : "url",
-          "value" : "http://www.hl7.org/Special/committees/rcrim"
-        }]
-      }],
-      "description" : "Organization Identifier systems (uri)",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "code" : "001",
-          "display" : "World"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:6aa10c99-2453-4c7c-94f3-0ab72f82939e",
-        "timestamp" : "2023-01-15T00:39:21+00:00",
-        "total" : 1,
-        "parameter" : [{
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "limitedExpansion",
-          "valueBoolean" : true
-        },
-        {
-          "name" : "version",
-          "valueUri" : "urn:ietf:rfc:3986|n/a"
-        }],
-        "contains" : [{
-          "system" : "urn:ietf:rfc:3986",
-          "code" : "https://spor.ema.europa.eu/omswi",
-          "display" : "SPOR Organization (EU)"
         }]
       }
     }
