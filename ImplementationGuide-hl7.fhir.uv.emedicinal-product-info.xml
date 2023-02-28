@@ -11,7 +11,7 @@
   <name value="EpiIG"/>
   <title value="Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2023-01-21T15:50:48+00:00"/>
+  <date value="2023-02-28T21:05:48+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
@@ -1687,6 +1687,17 @@
         <valueString value="Composition"/>
       </extension>
       <reference>
+        <reference value="Composition/cfsb1651231019153"/>
+      </reference>
+      <name value="cfsb1651231019153"/>
+      <description value="Package Leaflet"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
         <reference value="Composition/cfsb1651234995610"/>
       </reference>
       <name value="cfsb1651234995610"/>
@@ -1702,6 +1713,18 @@
       </reference>
       <name value="Vulcan Dovato FHIR Package Insert EMA"/>
       <description value="English Instance of Dovato package insert for Connectathon testing"/>
+      <isExample value="true"/>
+      <groupingId value="epis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/cfsb1651596479133"/>
+      </reference>
+      <name value="Vulcan Biktarvy FHIR Package Insert EMA"/>
+      <description value="English Instance of Biktarvy package insert for Connectathon testing"/>
       <isExample value="true"/>
       <groupingId value="epis"/>
     </resource>
