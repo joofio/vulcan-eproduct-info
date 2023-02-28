@@ -10,7 +10,7 @@
   "name" : "EpiIG",
   "title" : "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status" : "active",
-  "date" : "2023-01-21T15:50:48+00:00",
+  "date" : "2023-02-28T21:05:48+00:00",
   "contact" : [{
     "name" : "HL7 BR&R",
     "telecom" : [{
@@ -1887,6 +1887,18 @@
         "valueString" : "Composition"
       }],
       "reference" : {
+        "reference" : "Composition/cfsb1651231019153"
+      },
+      "name" : "cfsb1651231019153",
+      "description" : "Package Leaflet",
+      "isExample" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Composition"
+      }],
+      "reference" : {
         "reference" : "Composition/cfsb1651234995610"
       },
       "name" : "cfsb1651234995610",
@@ -1903,6 +1915,19 @@
       },
       "name" : "Vulcan Dovato FHIR Package Insert EMA",
       "description" : "English Instance of Dovato package insert for Connectathon testing",
+      "isExample" : true,
+      "groupingId" : "epis"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/cfsb1651596479133"
+      },
+      "name" : "Vulcan Biktarvy FHIR Package Insert EMA",
+      "description" : "English Instance of Biktarvy package insert for Connectathon testing",
       "isExample" : true,
       "groupingId" : "epis"
     },
