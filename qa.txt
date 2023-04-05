@@ -1,13 +1,14 @@
 ﻿EpiIG : Validation Results
 =========================================
 
-err = 1011, warn = 23, info = 500
-IG Publisher Version: 1.3.4 Out of date - current version is ?pub-ver-1?
-Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
+err = 1037, warn = 25, info = 573
+IG Publisher Version: 1.3.4
+Generated Wed Apr 05 12:06:07 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
  Build Errors : 0 / 2 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-1a7318638ddbbeb084ef416e717b6fdb : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-2e8a8b1c9142de3ac8de0723812d3fef : 0 / 0 / 5
+ /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-49178f16170ee8a6bc2a4361c1748d5f : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-5aa8042f9b2bea12d814ccaf27f6d64e : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-66d97ddf0e95a23a3c0f4f2102139f34 : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-925dad38f0afbba36223a82b3a766438 : 0 / 0 / 5
@@ -24,6 +25,7 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-31887cbcd4c018e35f958e5f8547dd66 : 2 / 0 / 104
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-3a3583227b4c5b0887f1e0d38269b469 : 1 / 0 / 103
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e : 0 / 3 / 72
+ /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08 : 22 / 1 / 132
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37 : 0 / 0 / 87
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-925dad38f0afbba36223a82b3a766438 : 455 / 1 / 117
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-9e0b95f2943e17e9a39046404c6cce71 : 0 / 0 / 87
@@ -49,10 +51,12 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/Composition-cfsb1651231019153 : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-cfsb1651234995610 : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition02e928f15b7b861b4b44915d9f1330ec : 455 / 0 / 11
+ /github/workspace/fsh-generated/resources/Composition-composition16598f252d07b4784b82ba43cf9e847e : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition2e8a8b1c9142de3ac8de0723812d3fef : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition34060417eeae4622c4674a9c4100d2ed : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition3a3583227b4c5b0887f1e0d38269b469 : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition45f3604d61f93f5f026bea5d5824af10 : 0 / 0 / 11
+ /github/workspace/fsh-generated/resources/Composition-composition50a5afca79d8be359ec08791f767639f : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition5aa8042f9b2bea12d814ccaf27f6d64e : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition7a7ff0f4e1993c2fdabba6c8d9931a52 : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-compositionaf8224f8c853d17daf5ea6782cb5a097 : 0 / 0 / 11
@@ -101,6 +105,12 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-cinitrapide-silicacolloidalanhydrous : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-cinitrapide-starchcorn : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-cinitrapide-starchpotato : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-dovato-dolutegravirsodium : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-dovato-lamivudine : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-dovato-magnesiumstearate : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-dovato-mannitol : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-dovato-microcrystallinecellulose : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-dovato-sodiumstarchglycolate : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-humalog-glycerol : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-humalog-hydrochloricacid : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Ingredient-ingredient-for-humalog-insulinlispro : 0 / 0 / 2
@@ -161,6 +171,7 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-mid-08ac066220d4d68a3933a9c94bef32ff : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-mid-1a7318638ddbbeb084ef416e717b6fdb : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-mid-2e8a8b1c9142de3ac8de0723812d3fef : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-mid-49178f16170ee8a6bc2a4361c1748d5f : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-mid-534e209eb0a3ff60437639cb2015316f : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-mid-66d97ddf0e95a23a3c0f4f2102139f34 : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/ManufacturedItemDefinition-mid-925dad38f0afbba36223a82b3a766438 : 0 / 0 / 3
@@ -173,6 +184,7 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-cfsb1665505881364 : 1 / 3 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-cfsb1665505991728 : 3 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-mp1453e0f16ff6c1d3106ed737a7857578 : 0 / 0 / 7
+ /github/workspace/fsh-generated/resources/MedicinalProductDefinition-mp16598f252d07b4784b82ba43cf9e847e : 2 / 1 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-mp2e8a8b1c9142de3ac8de0723812d3fef : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-mp367b9089c0743a2330f4c6e82b40ee41 : 0 / 0 / 7
  /github/workspace/fsh-generated/resources/MedicinalProductDefinition-mp534e209eb0a3ff60437639cb2015316f : 0 / 0 / 7
@@ -191,12 +203,15 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/Organization-cfsb1667578264482 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-cfsb1667579389819 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-16019cea3a857659d2c5a2018c2260df : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Organization-org-173fde4cb6b1018cb7ec8ab708d3961c : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-2aff7154a8d952c895e8a03849a25108 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Organization-org-31ff1af739c7dcf77386a86f8dd83d29 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-3fdc76794516d7826890ab9f893e99c1 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-591fe9c5de748b22eace6d084f2f041a : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-65db33d6be47a433e6e9e9c2980ea7a4 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-6ade044addd6563de0baefebb1cceb8e : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-6f4987de7be1bbfa4ee92c07de7e94d4 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Organization-org-7c9b97127f73ff3605a10eb1c2cc24d1 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-90385ec6a39a5d293a77ef9f7095bd30 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-94f8082c22713e050c3f2b55ea9d53ff : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-org-ab61fc2db513f79636782643b3407aa5 : 0 / 0 / 2
@@ -215,6 +230,7 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ppd-0c848f16e413619f64703ded9343d866 : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ppd-1a7318638ddbbeb084ef416e717b6fdb : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ppd-1fba151ccf2a68d419f373375e997036 : 0 / 0 / 4
+ /github/workspace/fsh-generated/resources/PackagedProductDefinition-ppd-23f4e5c6d9ca952c3ffb3940859a26f8 : 1 / 0 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ppd-2e8a8b1c9142de3ac8de0723812d3fef : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ppd-4c852ef40521d2a0f394aaaec09654a7 : 0 / 0 / 4
  /github/workspace/fsh-generated/resources/PackagedProductDefinition-ppd-8799ff87933460485b763ad9b52f8276 : 0 / 0 / 4
@@ -226,6 +242,7 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-authorization08ac066220d4d68a3933a9c94bef32ff : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-authorization2e8a8b1c9142de3ac8de0723812d3fef : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-authorization35570a7ffa4ad1ddf8a920b1728d4cd2 : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/RegulatedAuthorization-authorization49178f16170ee8a6bc2a4361c1748d5f : 1 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-authorization5aa8042f9b2bea12d814ccaf27f6d64e : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/RegulatedAuthorization-authorization816b7da4abc60b3e9ae3b37146463f8a : 1 / 0 / 2
@@ -256,8 +273,10 @@ Generated Wed Apr 05 09:52:12 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-adalimumab : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-calciumcarbonate : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-cinitapride : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-dolutegravirsodium : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-insulinlispro : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-irbesartan : 0 / 0 / 3
+ /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-lamivudine : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-mesalamine : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-mirtazapine : 0 / 0 / 3
  /github/workspace/fsh-generated/resources/SubstanceDefinition-substance-paracetamol : 0 / 0 / 3
@@ -316,6 +335,7 @@ WARNING: The jira specification file appears to be out of date with the versions
 == fsh-generated/resources/AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff.json ==
 == fsh-generated/resources/AdministrableProductDefinition-ap-1a7318638ddbbeb084ef416e717b6fdb.json ==
 == fsh-generated/resources/AdministrableProductDefinition-ap-2e8a8b1c9142de3ac8de0723812d3fef.json ==
+== fsh-generated/resources/AdministrableProductDefinition-ap-49178f16170ee8a6bc2a4361c1748d5f.json ==
 == fsh-generated/resources/AdministrableProductDefinition-ap-5aa8042f9b2bea12d814ccaf27f6d64e.json ==
 == fsh-generated/resources/AdministrableProductDefinition-ap-66d97ddf0e95a23a3c0f4f2102139f34.json ==
 == fsh-generated/resources/AdministrableProductDefinition-ap-925dad38f0afbba36223a82b3a766438.json ==
@@ -458,6 +478,82 @@ INFORMATION: Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e: Bundl
 INFORMATION: Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e: Bundle.entry[12]: Entry 'SubstanceDefinition/substance-acmesub' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
 INFORMATION: Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e: Bundle.entry[12]: Entry 'RegulatedAuthorization/authorization5aa8042f9b2bea12d814ccaf27f6d64e' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
 INFORMATION: Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e: Bundle.entry[12]: Entry 'PackagedProductDefinition/ppd-8799ff87933460485b763ad9b52f8276' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+== fsh-generated/resources/Bundle-bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08.json ==
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.subject[0]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.subject[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[1].resource/*Ingredient/ingredient-for-dovato-dolutegravirsodium*/.for[1]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[1].resource/*Ingredient/ingredient-for-dovato-dolutegravirsodium*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[1].resource/*Ingredient/ingredient-for-dovato-dolutegravirsodium*/.for[2]: Unable to find a match for profile AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[1].resource/*Ingredient/ingredient-for-dovato-dolutegravirsodium*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[1].resource/*Ingredient/ingredient-for-dovato-dolutegravirsodium*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[1].resource/*Ingredient/ingredient-for-dovato-dolutegravirsodium*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[2].resource/*Ingredient/ingredient-for-dovato-lamivudine*/.for[1]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[2].resource/*Ingredient/ingredient-for-dovato-lamivudine*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[2].resource/*Ingredient/ingredient-for-dovato-lamivudine*/.for[2]: Unable to find a match for profile AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[2].resource/*Ingredient/ingredient-for-dovato-lamivudine*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[2].resource/*Ingredient/ingredient-for-dovato-lamivudine*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[2].resource/*Ingredient/ingredient-for-dovato-lamivudine*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[3].resource/*Ingredient/ingredient-for-dovato-microcrystallinecellulose*/.for[1]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[3].resource/*Ingredient/ingredient-for-dovato-microcrystallinecellulose*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[3].resource/*Ingredient/ingredient-for-dovato-microcrystallinecellulose*/.for[2]: Unable to find a match for profile AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[3].resource/*Ingredient/ingredient-for-dovato-microcrystallinecellulose*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[3].resource/*Ingredient/ingredient-for-dovato-microcrystallinecellulose*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[3].resource/*Ingredient/ingredient-for-dovato-microcrystallinecellulose*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[4].resource/*Ingredient/ingredient-for-dovato-sodiumstarchglycolate*/.for[1]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[4].resource/*Ingredient/ingredient-for-dovato-sodiumstarchglycolate*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[4].resource/*Ingredient/ingredient-for-dovato-sodiumstarchglycolate*/.for[2]: Unable to find a match for profile AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[4].resource/*Ingredient/ingredient-for-dovato-sodiumstarchglycolate*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[4].resource/*Ingredient/ingredient-for-dovato-sodiumstarchglycolate*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[4].resource/*Ingredient/ingredient-for-dovato-sodiumstarchglycolate*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[5].resource/*Ingredient/ingredient-for-dovato-magnesiumstearate*/.for[1]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[5].resource/*Ingredient/ingredient-for-dovato-magnesiumstearate*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[5].resource/*Ingredient/ingredient-for-dovato-magnesiumstearate*/.for[2]: Unable to find a match for profile AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[5].resource/*Ingredient/ingredient-for-dovato-magnesiumstearate*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[5].resource/*Ingredient/ingredient-for-dovato-magnesiumstearate*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[5].resource/*Ingredient/ingredient-for-dovato-magnesiumstearate*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[6].resource/*Ingredient/ingredient-for-dovato-mannitol*/.for[1]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[6].resource/*Ingredient/ingredient-for-dovato-mannitol*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[6].resource/*Ingredient/ingredient-for-dovato-mannitol*/.for[2]: Unable to find a match for profile AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi, http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[6].resource/*Ingredient/ingredient-for-dovato-mannitol*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[6].resource/*Ingredient/ingredient-for-dovato-mannitol*/.for[1]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[6].resource/*Ingredient/ingredient-for-dovato-mannitol*/.for[2]: Details for AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f matching against profile http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[9].resource/*AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f*/.formOf[0]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[9].resource/*AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f*/.formOf[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[9].resource/*AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f*/.formOf[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[10].resource/*RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f*/.subject[0]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[10].resource/*RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f*/.subject[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[10].resource/*RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f*/.region[0].coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[10].resource/*RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f*/.subject[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[14].resource/*PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8*/.packageFor[0]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[14].resource/*PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8*/.packageFor[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[14].resource/*PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8*/.containedItemQuantity[0]: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablets': The unit "tablets" is unknown at character 1; The code "tablets" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablets) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablets'
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[14].resource/*PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8*/.packageFor[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition|5.0.0
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[15].resource/*MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e*/.name[0].usage[0].country.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[15].resource/*MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e*/.name[0].usage[0].jurisdiction.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
+WARNING: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[15].resource/*MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e*/.name[0].usage[0].language: The display "English" is not a valid display for the code {urn:ietf:bcp:47}eu - should be one of ['Basque'] (from http://tx.fhir.org/r4)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[16].resource/*ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f*/.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'Ingredient/ingredient-for-dovato-dolutegravirsodium' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'Ingredient/ingredient-for-dovato-lamivudine' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'Ingredient/ingredient-for-dovato-microcrystallinecellulose' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'Ingredient/ingredient-for-dovato-sodiumstarchglycolate' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'Ingredient/ingredient-for-dovato-magnesiumstearate' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'Ingredient/ingredient-for-dovato-mannitol' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'SubstanceDefinition/substance-dolutegravirsodium' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'SubstanceDefinition/substance-lamivudine' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[18]: Entry 'PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[13]: Entry 'Organization/org-31ff1af739c7dcf77386a86f8dd83d29' isn't reachable by traversing links (forward or backward) from the Composition
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[14]: Entry 'Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1' isn't reachable by traversing links (forward or backward) from the Composition
 == fsh-generated/resources/Bundle-bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37.json ==
 INFORMATION: Bundle/bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37: Bundle.entry[0].resource/*Composition/compositionb3a8d58c709a2281d8ad2a590fe81663*/.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Bundle/bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37: Bundle.entry[0].resource/*Composition/compositionb3a8d58c709a2281d8ad2a590fe81663*/.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
@@ -1694,6 +1790,17 @@ ERROR: Composition/composition02e928f15b7b861b4b44915d9f1330ec: Composition.sect
 ERROR: Composition/composition02e928f15b7b861b4b44915d9f1330ec: Composition.section[0].section[5].text.div: Invalid attribute name in the XHTML ('type' on 'ul')
 INFORMATION: Composition/composition02e928f15b7b861b4b44915d9f1330ec: Composition.section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition02e928f15b7b861b4b44915d9f1330ec: Composition.section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+== fsh-generated/resources/Composition-composition16598f252d07b4784b82ba43cf9e847e.json ==
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-composition2e8a8b1c9142de3ac8de0723812d3fef.json ==
 INFORMATION: Composition/composition2e8a8b1c9142de3ac8de0723812d3fef: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition2e8a8b1c9142de3ac8de0723812d3fef: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
@@ -1738,6 +1845,17 @@ INFORMATION: Composition/composition45f3604d61f93f5f026bea5d5824af10: Compositio
 INFORMATION: Composition/composition45f3604d61f93f5f026bea5d5824af10: Composition.section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition45f3604d61f93f5f026bea5d5824af10: Composition.section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition45f3604d61f93f5f026bea5d5824af10: Composition.section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+== fsh-generated/resources/Composition-composition50a5afca79d8be359ec08791f767639f.json ==
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[1].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[2].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[3].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[4].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[5].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+INFORMATION: Composition/composition50a5afca79d8be359ec08791f767639f: Composition.section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-composition5aa8042f9b2bea12d814ccaf27f6d64e.json ==
 INFORMATION: Composition/composition5aa8042f9b2bea12d814ccaf27f6d64e: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition5aa8042f9b2bea12d814ccaf27f6d64e: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
@@ -1806,9 +1924,9 @@ INFORMATION: Composition/compositionf4d45353edcb21af3718d3a0df94a4d8: Compositio
 INFORMATION: Composition/compositionf4d45353edcb21af3718d3a0df94a4d8: Composition.section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.emedicinal-product-info.json ==
 WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[69].name: value should not start or finish with whitespace 'Administrable product DOLOCATIL 1 g tablets '
-WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[80].name: value should not start or finish with whitespace 'Regulated Authorization for DOLOCATIL 1 g tablets '
-WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[82].name: value should not start or finish with whitespace 'Regulated Authorization for Humalog '
-WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[242].name: value should not start or finish with whitespace 'Manufactured item DOLOCATIL 1 g tablets '
+WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[81].name: value should not start or finish with whitespace 'Regulated Authorization for DOLOCATIL 1 g tablets '
+WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[83].name: value should not start or finish with whitespace 'Regulated Authorization for Humalog '
+WARNING: ImplementationGuide/hl7.fhir.uv.emedicinal-product-info: ImplementationGuide.definition.resource[253].name: value should not start or finish with whitespace 'Manufactured item DOLOCATIL 1 g tablets '
 == fsh-generated/resources/Ingredient-cfsb1651162710491.json ==
 INFORMATION: Ingredient/cfsb1651162710491: Ingredient.role.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Ingredient-cfsb1651164758053.json ==
@@ -1871,6 +1989,12 @@ WARNING: Ingredient/ingredient-for-calciovitaminad-hydrogenatedsoybeanoil: Ingre
 == fsh-generated/resources/Ingredient-ingredient-for-cinitrapide-silicacolloidalanhydrous.json ==
 == fsh-generated/resources/Ingredient-ingredient-for-cinitrapide-starchcorn.json ==
 == fsh-generated/resources/Ingredient-ingredient-for-cinitrapide-starchpotato.json ==
+== fsh-generated/resources/Ingredient-ingredient-for-dovato-dolutegravirsodium.json ==
+== fsh-generated/resources/Ingredient-ingredient-for-dovato-lamivudine.json ==
+== fsh-generated/resources/Ingredient-ingredient-for-dovato-magnesiumstearate.json ==
+== fsh-generated/resources/Ingredient-ingredient-for-dovato-mannitol.json ==
+== fsh-generated/resources/Ingredient-ingredient-for-dovato-microcrystallinecellulose.json ==
+== fsh-generated/resources/Ingredient-ingredient-for-dovato-sodiumstarchglycolate.json ==
 == fsh-generated/resources/Ingredient-ingredient-for-humalog-glycerol.json ==
 == fsh-generated/resources/Ingredient-ingredient-for-humalog-hydrochloricacid.json ==
 == fsh-generated/resources/Ingredient-ingredient-for-humalog-insulinlispro.json ==
@@ -1937,6 +2061,8 @@ INFORMATION: ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff: Ma
 INFORMATION: ManufacturedItemDefinition/mid-1a7318638ddbbeb084ef416e717b6fdb: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-mid-2e8a8b1c9142de3ac8de0723812d3fef.json ==
 INFORMATION: ManufacturedItemDefinition/mid-2e8a8b1c9142de3ac8de0723812d3fef: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
+== fsh-generated/resources/ManufacturedItemDefinition-mid-49178f16170ee8a6bc2a4361c1748d5f.json ==
+INFORMATION: ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-mid-534e209eb0a3ff60437639cb2015316f.json ==
 INFORMATION: ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f: ManufacturedItemDefinition.manufacturedDoseForm.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/ManufacturedItemDefinition-mid-66d97ddf0e95a23a3c0f4f2102139f34.json ==
@@ -1966,6 +2092,10 @@ ERROR: MedicinalProductDefinition/cfsb1665505991728: MedicinalProductDefinition.
 ERROR: MedicinalProductDefinition/cfsb1665505991728: MedicinalProductDefinition.name[0].usage[0].country.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
 ERROR: MedicinalProductDefinition/cfsb1665505991728: MedicinalProductDefinition.name[0].usage[0].jurisdiction.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
 == fsh-generated/resources/MedicinalProductDefinition-mp1453e0f16ff6c1d3106ed737a7857578.json ==
+== fsh-generated/resources/MedicinalProductDefinition-mp16598f252d07b4784b82ba43cf9e847e.json ==
+ERROR: MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e: MedicinalProductDefinition.name[0].usage[0].country.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
+ERROR: MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e: MedicinalProductDefinition.name[0].usage[0].jurisdiction.coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
+WARNING: MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e: MedicinalProductDefinition.name[0].usage[0].language: The display "English" is not a valid display for the code {urn:ietf:bcp:47}eu - should be one of ['Basque'] (from http://tx.fhir.org/r4)
 == fsh-generated/resources/MedicinalProductDefinition-mp2e8a8b1c9142de3ac8de0723812d3fef.json ==
 == fsh-generated/resources/MedicinalProductDefinition-mp367b9089c0743a2330f4c6e82b40ee41.json ==
 == fsh-generated/resources/MedicinalProductDefinition-mp534e209eb0a3ff60437639cb2015316f.json ==
@@ -1986,12 +2116,15 @@ INFORMATION: Organization/cfsb1665505181936: Organization.type[0].coding[0]: Cod
 == fsh-generated/resources/Organization-cfsb1667578264482.json ==
 == fsh-generated/resources/Organization-cfsb1667579389819.json ==
 == fsh-generated/resources/Organization-org-16019cea3a857659d2c5a2018c2260df.json ==
+== fsh-generated/resources/Organization-org-173fde4cb6b1018cb7ec8ab708d3961c.json ==
 == fsh-generated/resources/Organization-org-2aff7154a8d952c895e8a03849a25108.json ==
+== fsh-generated/resources/Organization-org-31ff1af739c7dcf77386a86f8dd83d29.json ==
 == fsh-generated/resources/Organization-org-3fdc76794516d7826890ab9f893e99c1.json ==
 == fsh-generated/resources/Organization-org-591fe9c5de748b22eace6d084f2f041a.json ==
 == fsh-generated/resources/Organization-org-65db33d6be47a433e6e9e9c2980ea7a4.json ==
 == fsh-generated/resources/Organization-org-6ade044addd6563de0baefebb1cceb8e.json ==
 == fsh-generated/resources/Organization-org-6f4987de7be1bbfa4ee92c07de7e94d4.json ==
+== fsh-generated/resources/Organization-org-7c9b97127f73ff3605a10eb1c2cc24d1.json ==
 == fsh-generated/resources/Organization-org-90385ec6a39a5d293a77ef9f7095bd30.json ==
 == fsh-generated/resources/Organization-org-94f8082c22713e050c3f2b55ea9d53ff.json ==
 == fsh-generated/resources/Organization-org-ab61fc2db513f79636782643b3407aa5.json ==
@@ -2010,6 +2143,8 @@ INFORMATION: Organization/cfsb1665505181936: Organization.type[0].coding[0]: Cod
 == fsh-generated/resources/PackagedProductDefinition-ppd-0c848f16e413619f64703ded9343d866.json ==
 == fsh-generated/resources/PackagedProductDefinition-ppd-1a7318638ddbbeb084ef416e717b6fdb.json ==
 == fsh-generated/resources/PackagedProductDefinition-ppd-1fba151ccf2a68d419f373375e997036.json ==
+== fsh-generated/resources/PackagedProductDefinition-ppd-23f4e5c6d9ca952c3ffb3940859a26f8.json ==
+ERROR: PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8: PackagedProductDefinition.containedItemQuantity[0]: Local Error: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition is not complete. Server Error: Error processing Unit: 'tablets': The unit "tablets" is unknown at character 1; The code "tablets" is not valid in the system http://unitsofmeasure.org; The code provided (http://unitsofmeasure.org#tablets) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'http://unitsofmeasure.org#tablets'
 == fsh-generated/resources/PackagedProductDefinition-ppd-2e8a8b1c9142de3ac8de0723812d3fef.json ==
 == fsh-generated/resources/PackagedProductDefinition-ppd-4c852ef40521d2a0f394aaaec09654a7.json ==
 == fsh-generated/resources/PackagedProductDefinition-ppd-8799ff87933460485b763ad9b52f8276.json ==
@@ -2021,6 +2156,8 @@ INFORMATION: Organization/cfsb1665505181936: Organization.type[0].coding[0]: Cod
 == fsh-generated/resources/RegulatedAuthorization-authorization08ac066220d4d68a3933a9c94bef32ff.json ==
 == fsh-generated/resources/RegulatedAuthorization-authorization2e8a8b1c9142de3ac8de0723812d3fef.json ==
 == fsh-generated/resources/RegulatedAuthorization-authorization35570a7ffa4ad1ddf8a920b1728d4cd2.json ==
+== fsh-generated/resources/RegulatedAuthorization-authorization49178f16170ee8a6bc2a4361c1748d5f.json ==
+ERROR: RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f: RegulatedAuthorization.region[0].coding[0]: Local Error: Resolved system urn:iso:std:iso:3166 (v1.0.0), but the definition is not complete. Server Error: The code "eu" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#eu) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4) for 'urn:iso:std:iso:3166#eu'
 == fsh-generated/resources/RegulatedAuthorization-authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4.json ==
 == fsh-generated/resources/RegulatedAuthorization-authorization5aa8042f9b2bea12d814ccaf27f6d64e.json ==
 == fsh-generated/resources/RegulatedAuthorization-authorization816b7da4abc60b3e9ae3b37146463f8a.json ==
@@ -2094,8 +2231,10 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/uv/emedicinal-prod
 == fsh-generated/resources/SubstanceDefinition-substance-adalimumab.json ==
 == fsh-generated/resources/SubstanceDefinition-substance-calciumcarbonate.json ==
 == fsh-generated/resources/SubstanceDefinition-substance-cinitapride.json ==
+== fsh-generated/resources/SubstanceDefinition-substance-dolutegravirsodium.json ==
 == fsh-generated/resources/SubstanceDefinition-substance-insulinlispro.json ==
 == fsh-generated/resources/SubstanceDefinition-substance-irbesartan.json ==
+== fsh-generated/resources/SubstanceDefinition-substance-lamivudine.json ==
 == fsh-generated/resources/SubstanceDefinition-substance-mesalamine.json ==
 == fsh-generated/resources/SubstanceDefinition-substance-mirtazapine.json ==
 == fsh-generated/resources/SubstanceDefinition-substance-paracetamol.json ==
