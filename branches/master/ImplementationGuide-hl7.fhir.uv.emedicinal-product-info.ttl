@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "EpiIG"] ; # 
   fhir:title [ fhir:v "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-04-05T09:48:34+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-05T12:01:25+00:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 BR&R" ] ;
      fhir:telecom ( [
@@ -1198,6 +1198,24 @@
          fhir:value [ fhir:v "AdministrableProductDefinition" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f> ;
+         fhir:reference [ fhir:v "AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f" ]
+       ] ;
+       fhir:name [ fhir:v "Administrable product Dovato 50 mg/300 mg film-coated tablets" ] ;
+       fhir:description [ fhir:v "Dovato 50 mg/300 mg film-coated tablets" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "AdministrableProductDefinition" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-5aa8042f9b2bea12d814ccaf27f6d64e> ;
          fhir:reference [ fhir:v "AdministrableProductDefinition/ap-5aa8042f9b2bea12d814ccaf27f6d64e" ]
        ] ;
@@ -1383,6 +1401,24 @@
        ] ;
        fhir:name [ fhir:v "Regulated Authorization for Humalog " ] ;
        fhir:description [ fhir:v "Regulated Authorization for Humalog " ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "RegulatedAuthorization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f> ;
+         fhir:reference [ fhir:v "RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f" ]
+       ] ;
+       fhir:name [ fhir:v "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets" ] ;
+       fhir:description [ fhir:v "Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
@@ -1770,6 +1806,51 @@
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
        ] ) ;
        fhir:groupingId [ fhir:v "epis" ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08> ;
+         fhir:reference [ fhir:v "Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08" ]
+       ] ;
+       fhir:name [ fhir:v "ePI document Bundle for dovato Package Leaflet" ] ;
+       fhir:description [ fhir:v "Bundle for dovato Package Leaflet ePI document" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2607,6 +2688,24 @@
          fhir:value [ fhir:v "Composition" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition16598f252d07b4784b82ba43cf9e847e> ;
+         fhir:reference [ fhir:v "Composition/composition16598f252d07b4784b82ba43cf9e847e" ]
+       ] ;
+       fhir:name [ fhir:v "Composition for  Dovato 50 mg/300 mg film-coated tablets Package Leaflet" ] ;
+       fhir:description [ fhir:v "Composition for  Dovato 50 mg/300 mg film-coated tablets Package Leaflet" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Composition" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition2e8a8b1c9142de3ac8de0723812d3fef> ;
          fhir:reference [ fhir:v "Composition/composition2e8a8b1c9142de3ac8de0723812d3fef" ]
        ] ;
@@ -2666,6 +2765,24 @@
        ] ;
        fhir:name [ fhir:v "Composition for Humalog Package Leaflet" ] ;
        fhir:description [ fhir:v "Composition for Humalog Package Leaflet" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Composition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition50a5afca79d8be359ec08791f767639f> ;
+         fhir:reference [ fhir:v "Composition/composition50a5afca79d8be359ec08791f767639f" ]
+       ] ;
+       fhir:name [ fhir:v "Composition for Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet" ] ;
+       fhir:description [ fhir:v "Composition for Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
@@ -3290,6 +3407,114 @@
        ] ;
        fhir:name [ fhir:v "Ingredient-excipient STARCH, POTATO" ] ;
        fhir:description [ fhir:v "STARCH, POTATO" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-dolutegravirsodium> ;
+         fhir:reference [ fhir:v "Ingredient/ingredient-for-dovato-dolutegravirsodium" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-active DOLUTEGRAVIR SODIUM" ] ;
+       fhir:description [ fhir:v "DOLUTEGRAVIR SODIUM" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-lamivudine> ;
+         fhir:reference [ fhir:v "Ingredient/ingredient-for-dovato-lamivudine" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-active lamivudine" ] ;
+       fhir:description [ fhir:v "lamivudine" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-magnesiumstearate> ;
+         fhir:reference [ fhir:v "Ingredient/ingredient-for-dovato-magnesiumstearate" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient magnesium stearate" ] ;
+       fhir:description [ fhir:v "magnesium stearate" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-mannitol> ;
+         fhir:reference [ fhir:v "Ingredient/ingredient-for-dovato-mannitol" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient mannitol" ] ;
+       fhir:description [ fhir:v "mannitol" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-microcrystallinecellulose> ;
+         fhir:reference [ fhir:v "Ingredient/ingredient-for-dovato-microcrystallinecellulose" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient microcrystalline cellulose" ] ;
+       fhir:description [ fhir:v "microcrystalline cellulose" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-sodiumstarchglycolate> ;
+         fhir:reference [ fhir:v "Ingredient/ingredient-for-dovato-sodiumstarchglycolate" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient sodium starch glycolate" ] ;
+       fhir:description [ fhir:v "sodium starch glycolate" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
@@ -4365,6 +4590,24 @@
          fhir:value [ fhir:v "ManufacturedItemDefinition" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f> ;
+         fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f" ]
+       ] ;
+       fhir:name [ fhir:v "Manufactured item Dovato 50 mg/300 mg film-coated tablets" ] ;
+       fhir:description [ fhir:v "Dovato 50 mg/300 mg film-coated tablets" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ManufacturedItemDefinition" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f> ;
          fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f" ]
        ] ;
@@ -4514,6 +4757,24 @@
        ] ;
        fhir:name [ fhir:v "Medicinal Product BLASTON 1 mg tablets" ] ;
        fhir:description [ fhir:v "EU/1/97/049/001 BLASTON 1 mg tablets" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "MedicinalProductDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e> ;
+         fhir:reference [ fhir:v "MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e" ]
+       ] ;
+       fhir:name [ fhir:v "Medicinal Product Dovato 50 mg/300 mg film-coated tablets" ] ;
+       fhir:description [ fhir:v "EU/1/97/049/001 Dovato 50 mg/300 mg film-coated tablets" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
@@ -4725,11 +4986,47 @@
          fhir:value [ fhir:v "Organization" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-173fde4cb6b1018cb7ec8ab708d3961c> ;
+         fhir:reference [ fhir:v "Organization/org-173fde4cb6b1018cb7ec8ab708d3961c" ]
+       ] ;
+       fhir:name [ fhir:v "GLAXO WELLCOME, S.A. as Manufacturer" ] ;
+       fhir:description [ fhir:v "GLAXO WELLCOME, S.A. as Manufacturer" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-2aff7154a8d952c895e8a03849a25108> ;
          fhir:reference [ fhir:v "Organization/org-2aff7154a8d952c895e8a03849a25108" ]
        ] ;
        fhir:name [ fhir:v "ACME industry as Marketing authorisation holder" ] ;
        fhir:description [ fhir:v "ACME industry as Marketing authorisation holder" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-31ff1af739c7dcf77386a86f8dd83d29> ;
+         fhir:reference [ fhir:v "Organization/org-31ff1af739c7dcf77386a86f8dd83d29" ]
+       ] ;
+       fhir:name [ fhir:v "ViiV Healthcare BV as Marketing authorisation holder" ] ;
+       fhir:description [ fhir:v "ViiV Healthcare BV as Marketing authorisation holder" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
@@ -4820,6 +5117,24 @@
        ] ;
        fhir:name [ fhir:v "Eli Lilly and Company as Manufacturer API" ] ;
        fhir:description [ fhir:v "Eli Lilly and Company as Manufacturer API" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1> ;
+         fhir:reference [ fhir:v "Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1" ]
+       ] ;
+       fhir:name [ fhir:v "European Medicines Agency as Medicines Regulatory Authority" ] ;
+       fhir:description [ fhir:v "European Medicines Agency as Medicines Regulatory Authority" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
@@ -5103,6 +5418,24 @@
          fhir:value [ fhir:v "PackagedProductDefinition" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8> ;
+         fhir:reference [ fhir:v "PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8" ]
+       ] ;
+       fhir:name [ fhir:v "50 mg/300 mg film-coated tablets" ] ;
+       fhir:description [ fhir:v "50 mg/300 mg film-coated tablets" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PackagedProductDefinition" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ppd-2e8a8b1c9142de3ac8de0723812d3fef> ;
          fhir:reference [ fhir:v "PackagedProductDefinition/ppd-2e8a8b1c9142de3ac8de0723812d3fef" ]
        ] ;
@@ -5319,6 +5652,24 @@
          fhir:value [ fhir:v "SubstanceDefinition" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-dolutegravirsodium> ;
+         fhir:reference [ fhir:v "SubstanceDefinition/substance-dolutegravirsodium" ]
+       ] ;
+       fhir:name [ fhir:v "substance-dolutegravirsodium" ] ;
+       fhir:description [ fhir:v "DOLUTEGRAVIR SODIUM" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SubstanceDefinition" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-insulinlispro> ;
          fhir:reference [ fhir:v "SubstanceDefinition/substance-insulinlispro" ]
        ] ;
@@ -5342,6 +5693,24 @@
        ] ;
        fhir:name [ fhir:v "substance-irbesartan" ] ;
        fhir:description [ fhir:v "irbesartan" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SubstanceDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-lamivudine> ;
+         fhir:reference [ fhir:v "SubstanceDefinition/substance-lamivudine" ]
+       ] ;
+       fhir:name [ fhir:v "substance-lamivudine" ] ;
+       fhir:description [ fhir:v "lamivudine" ] ;
        fhir:profile ( [
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
@@ -5867,6 +6236,8 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-2e8a8b1c9142de3ac8de0723812d3fef> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-5aa8042f9b2bea12d814ccaf27f6d64e> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-66d97ddf0e95a23a3c0f4f2102139f34> a fhir:uv .
@@ -5888,6 +6259,8 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/authorization2e8a8b1c9142de3ac8de0723812d3fef> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/authorization35570a7ffa4ad1ddf8a920b1728d4cd2> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4> a fhir:uv .
 
@@ -5914,6 +6287,8 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet-3a3583227b4c5b0887f1e0d38269b469> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37> a fhir:uv .
 
@@ -6017,6 +6392,8 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition02e928f15b7b861b4b44915d9f1330ec> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition16598f252d07b4784b82ba43cf9e847e> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition2e8a8b1c9142de3ac8de0723812d3fef> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition34060417eeae4622c4674a9c4100d2ed> a fhir:uv .
@@ -6024,6 +6401,8 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition3a3583227b4c5b0887f1e0d38269b469> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition45f3604d61f93f5f026bea5d5824af10> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition50a5afca79d8be359ec08791f767639f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/composition5aa8042f9b2bea12d814ccaf27f6d64e> a fhir:uv .
 
@@ -6094,6 +6473,18 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-cinitrapide-starchcorn> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-cinitrapide-starchpotato> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-dolutegravirsodium> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-lamivudine> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-magnesiumstearate> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-mannitol> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-microcrystallinecellulose> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-dovato-sodiumstarchglycolate> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-humalog-glycerol> a fhir:uv .
 
@@ -6213,6 +6604,8 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-2e8a8b1c9142de3ac8de0723812d3fef> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-66d97ddf0e95a23a3c0f4f2102139f34> a fhir:uv .
@@ -6230,6 +6623,8 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mp2e8a8b1c9142de3ac8de0723812d3fef> a fhir:uv .
 
@@ -6253,7 +6648,11 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-16019cea3a857659d2c5a2018c2260df> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-173fde4cb6b1018cb7ec8ab708d3961c> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-2aff7154a8d952c895e8a03849a25108> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-31ff1af739c7dcf77386a86f8dd83d29> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-3fdc76794516d7826890ab9f893e99c1> a fhir:uv .
 
@@ -6264,6 +6663,8 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-6ade044addd6563de0baefebb1cceb8e> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-6f4987de7be1bbfa4ee92c07de7e94d4> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-90385ec6a39a5d293a77ef9f7095bd30> a fhir:uv .
 
@@ -6295,6 +6696,8 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ppd-1fba151ccf2a68d419f373375e997036> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ppd-2e8a8b1c9142de3ac8de0723812d3fef> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/ppd-4c852ef40521d2a0f394aaaec09654a7> a fhir:uv .
@@ -6319,9 +6722,13 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-cinitapride> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-dolutegravirsodium> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-insulinlispro> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-irbesartan> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-lamivudine> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-mesalamine> a fhir:uv .
 

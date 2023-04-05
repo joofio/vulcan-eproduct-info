@@ -11,7 +11,7 @@
   <name value="EpiIG"/>
   <title value="Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"/>
   <status value="active"/>
-  <date value="2023-04-05T09:48:34+00:00"/>
+  <date value="2023-04-05T12:01:25+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
@@ -1066,6 +1066,18 @@
         <valueString value="AdministrableProductDefinition"/>
       </extension>
       <reference>
+        <reference value="AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f"/>
+      </reference>
+      <name value="Administrable product Dovato 50 mg/300 mg film-coated tablets"/>
+      <description value="Dovato 50 mg/300 mg film-coated tablets"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="AdministrableProductDefinition"/>
+      </extension>
+      <reference>
         <reference value="AdministrableProductDefinition/ap-5aa8042f9b2bea12d814ccaf27f6d64e"/>
       </reference>
       <name value="Administrable product acmedrug"/>
@@ -1190,6 +1202,18 @@
       </reference>
       <name value="Regulated Authorization for Humalog "/>
       <description value="Regulated Authorization for Humalog "/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="RegulatedAuthorization"/>
+      </extension>
+      <reference>
+        <reference value="RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f"/>
+      </reference>
+      <name value="Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets"/>
+      <description value="Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
     </resource>
@@ -1400,6 +1424,27 @@
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
       <groupingId value="epis"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08"/>
+      </reference>
+      <name value="ePI document Bundle for dovato Package Leaflet"/>
+      <description value="Bundle for dovato Package Leaflet ePI document"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -2039,6 +2084,18 @@
         <valueString value="Composition"/>
       </extension>
       <reference>
+        <reference value="Composition/composition16598f252d07b4784b82ba43cf9e847e"/>
+      </reference>
+      <name value="Composition for  Dovato 50 mg/300 mg film-coated tablets Package Leaflet"/>
+      <description value="Composition for  Dovato 50 mg/300 mg film-coated tablets Package Leaflet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
         <reference value="Composition/composition2e8a8b1c9142de3ac8de0723812d3fef"/>
       </reference>
       <name value="Composition for adalimumab Package Leaflet"/>
@@ -2079,6 +2136,18 @@
       </reference>
       <name value="Composition for Humalog Package Leaflet"/>
       <description value="Composition for Humalog Package Leaflet"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Composition"/>
+      </extension>
+      <reference>
+        <reference value="Composition/composition50a5afca79d8be359ec08791f767639f"/>
+      </reference>
+      <name value="Composition for Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"/>
+      <description value="Composition for Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"/>
     </resource>
@@ -2498,6 +2567,78 @@
       </reference>
       <name value="Ingredient-excipient STARCH, POTATO"/>
       <description value="STARCH, POTATO"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/ingredient-for-dovato-dolutegravirsodium"/>
+      </reference>
+      <name value="Ingredient-active DOLUTEGRAVIR SODIUM"/>
+      <description value="DOLUTEGRAVIR SODIUM"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/ingredient-for-dovato-lamivudine"/>
+      </reference>
+      <name value="Ingredient-active lamivudine"/>
+      <description value="lamivudine"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/ingredient-for-dovato-magnesiumstearate"/>
+      </reference>
+      <name value="Ingredient-excipient magnesium stearate"/>
+      <description value="magnesium stearate"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/ingredient-for-dovato-mannitol"/>
+      </reference>
+      <name value="Ingredient-excipient mannitol"/>
+      <description value="mannitol"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/ingredient-for-dovato-microcrystallinecellulose"/>
+      </reference>
+      <name value="Ingredient-excipient microcrystalline cellulose"/>
+      <description value="microcrystalline cellulose"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Ingredient"/>
+      </extension>
+      <reference>
+        <reference value="Ingredient/ingredient-for-dovato-sodiumstarchglycolate"/>
+      </reference>
+      <name value="Ingredient-excipient sodium starch glycolate"/>
+      <description value="sodium starch glycolate"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"/>
     </resource>
@@ -3214,6 +3355,18 @@
         <valueString value="ManufacturedItemDefinition"/>
       </extension>
       <reference>
+        <reference value="ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f"/>
+      </reference>
+      <name value="Manufactured item Dovato 50 mg/300 mg film-coated tablets"/>
+      <description value="Dovato 50 mg/300 mg film-coated tablets"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ManufacturedItemDefinition"/>
+      </extension>
+      <reference>
         <reference value="ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f"/>
       </reference>
       <name value="Manufactured item acmedrugman"/>
@@ -3314,6 +3467,18 @@
       </reference>
       <name value="Medicinal Product BLASTON 1 mg tablets"/>
       <description value="EU/1/97/049/001 BLASTON 1 mg tablets"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MedicinalProductDefinition"/>
+      </extension>
+      <reference>
+        <reference value="MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e"/>
+      </reference>
+      <name value="Medicinal Product Dovato 50 mg/300 mg film-coated tablets"/>
+      <description value="EU/1/97/049/001 Dovato 50 mg/300 mg film-coated tablets"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"/>
     </resource>
@@ -3454,10 +3619,34 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
+        <reference value="Organization/org-173fde4cb6b1018cb7ec8ab708d3961c"/>
+      </reference>
+      <name value="GLAXO WELLCOME, S.A. as Manufacturer"/>
+      <description value="GLAXO WELLCOME, S.A. as Manufacturer"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
         <reference value="Organization/org-2aff7154a8d952c895e8a03849a25108"/>
       </reference>
       <name value="ACME industry as Marketing authorisation holder"/>
       <description value="ACME industry as Marketing authorisation holder"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/org-31ff1af739c7dcf77386a86f8dd83d29"/>
+      </reference>
+      <name value="ViiV Healthcare BV as Marketing authorisation holder"/>
+      <description value="ViiV Healthcare BV as Marketing authorisation holder"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
     </resource>
@@ -3518,6 +3707,18 @@
       </reference>
       <name value="Eli Lilly and Company as Manufacturer API"/>
       <description value="Eli Lilly and Company as Manufacturer API"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1"/>
+      </reference>
+      <name value="European Medicines Agency as Medicines Regulatory Authority"/>
+      <description value="European Medicines Agency as Medicines Regulatory Authority"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"/>
     </resource>
@@ -3706,6 +3907,18 @@
         <valueString value="PackagedProductDefinition"/>
       </extension>
       <reference>
+        <reference value="PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8"/>
+      </reference>
+      <name value="50 mg/300 mg film-coated tablets"/>
+      <description value="50 mg/300 mg film-coated tablets"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PackagedProductDefinition"/>
+      </extension>
+      <reference>
         <reference value="PackagedProductDefinition/ppd-2e8a8b1c9142de3ac8de0723812d3fef"/>
       </reference>
       <name value="adalimumab"/>
@@ -3850,6 +4063,18 @@
         <valueString value="SubstanceDefinition"/>
       </extension>
       <reference>
+        <reference value="SubstanceDefinition/substance-dolutegravirsodium"/>
+      </reference>
+      <name value="substance-dolutegravirsodium"/>
+      <description value="DOLUTEGRAVIR SODIUM"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SubstanceDefinition"/>
+      </extension>
+      <reference>
         <reference value="SubstanceDefinition/substance-insulinlispro"/>
       </reference>
       <name value="substance-insulinlispro"/>
@@ -3866,6 +4091,18 @@
       </reference>
       <name value="substance-irbesartan"/>
       <description value="irbesartan"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+      <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SubstanceDefinition"/>
+      </extension>
+      <reference>
+        <reference value="SubstanceDefinition/substance-lamivudine"/>
+      </reference>
+      <name value="substance-lamivudine"/>
+      <description value="lamivudine"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
       <profile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"/>
     </resource>
