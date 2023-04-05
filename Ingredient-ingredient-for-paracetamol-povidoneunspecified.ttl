@@ -5,63 +5,56 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-paracetamol-povidoneunspecified> a fhir:Ingredient;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "ingredient-for-paracetamol-povidoneunspecified"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-       fhir:index 0;
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-paracetamol-povidoneunspecified> a fhir:Ingredient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ingredient-for-paracetamol-povidoneunspecified"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-paracetamol-povidoneunspecified\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-paracetamol-povidoneunspecified&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: FZ989GH94E (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-08ac066220d4d68a3933a9c94bef32ff.html\">ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff</a></li><li><a href=\"MedicinalProductDefinition-mpa975b7e209ea5c4c3bf8040a42b86fbd.html\">MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd</a></li><li><a href=\"AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff.html\">AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-org-65db33d6be47a433e6e9e9c2980ea7a4.html\">Organization/org-65db33d6be47a433e6e9e9c2980ea7a4</a> &quot;FERRER INTERNACIONAL, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>POVIDONE, UNSPECIFIED <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#FZ989GH94E)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "http://fdasis.nlm.nih.gov"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "FZ989GH94E" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "Excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-65db33d6be47a433e6e9e9c2980ea7a4> ;
+       fhir:reference [ fhir:v "Organization/org-65db33d6be47a433e6e9e9c2980ea7a4" ]
      ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-paracetamol-povidoneunspecified\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-paracetamol-povidoneunspecified&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: FZ989GH94E (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-08ac066220d4d68a3933a9c94bef32ff.html\">ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff</a></li><li><a href=\"MedicinalProductDefinition-mpa975b7e209ea5c4c3bf8040a42b86fbd.html\">MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd</a></li><li><a href=\"AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff.html\">AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-org-65db33d6be47a433e6e9e9c2980ea7a4.html\">Organization/org-65db33d6be47a433e6e9e9c2980ea7a4</a> &quot;FERRER INTERNACIONAL, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>POVIDONE, UNSPECIFIED <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#FZ989GH94E)</span></td></tr></table></blockquote></div>"
-  ]; # 
-  fhir:Ingredient.identifier [
-     fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-     fhir:Identifier.value [ fhir:value "FZ989GH94E" ]
-  ]; # 
-  fhir:Ingredient.status [ fhir:value "active"]; # 
-  fhir:Ingredient.for [
-     fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff>;
-     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff" ]
-  ], [
-     fhir:index 1;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd>;
-     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd" ]
-  ], [
-     fhir:index 2;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff>;
-     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff" ]
-  ]; # 
-  fhir:Ingredient.role [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
-       fhir:Coding.code [ fhir:value "100000072082" ];
-       fhir:Coding.display [ fhir:value "Excipient" ]
-     ]
-  ]; # 
-  fhir:Ingredient.manufacturer [
-     fhir:index 0;
-     fhir:Ingredient.manufacturer.manufacturer [
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-65db33d6be47a433e6e9e9c2980ea7a4>;
-       fhir:Reference.reference [ fhir:value "Organization/org-65db33d6be47a433e6e9e9c2980ea7a4" ]
-     ]
-  ]; # 
-  fhir:Ingredient.substance [
-     fhir:Ingredient.substance.code [
-       fhir:CodeableReference.concept [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-           fhir:Coding.code [ fhir:value "FZ989GH94E" ];
-           fhir:Coding.display [ fhir:value "POVIDONE, UNSPECIFIED" ]
-         ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://fdasis.nlm.nih.gov"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "FZ989GH94E" ] ;
+           fhir:display [ fhir:v "POVIDONE, UNSPECIFIED" ]
+         ] )
        ]
      ]
   ] . # 
@@ -73,12 +66,6 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-65db33d6be47a433e6e9e9c2980ea7a4> a fhir:uv .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-paracetamol-povidoneunspecified.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Ingredient/ingredient-for-paracetamol-povidoneunspecified.ttl> .
 
 # -------------------------------------------------------------------------------------
 

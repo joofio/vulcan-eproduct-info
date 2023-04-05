@@ -5,56 +5,45 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f> a fhir:ManufacturedItemDefinition;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "mid-534e209eb0a3ff60437639cb2015316f"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi";
-       fhir:index 0;
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f> a fhir:ManufacturedItemDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "mid-534e209eb0a3ff60437639cb2015316f"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
-     ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-534e209eb0a3ff60437639cb2015316f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-534e209eb0a3ff60437639cb2015316f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/96/007/035 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073864)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href=\"Organization-org-2aff7154a8d952c895e8a03849a25108.html\">Organization/org-2aff7154a8d952c895e8a03849a25108</a> &quot;ACME industry&quot;</p></div>"
-  ]; # 
-  fhir:ManufacturedItemDefinition.identifier [
-     fhir:index 0;
-     fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://spor.ema.europa.eu/pmswi/#/" ];
-     fhir:Identifier.value [ fhir:value "EU/1/96/007/035" ]
-  ]; # 
-  fhir:ManufacturedItemDefinition.status [ fhir:value "active"]; # 
-  fhir:ManufacturedItemDefinition.manufacturedDoseForm [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
-       fhir:Coding.code [ fhir:value "100000073864" ];
-       fhir:Coding.display [ fhir:value "tablet" ]
-     ]
-  ]; # 
-  fhir:ManufacturedItemDefinition.unitOfPresentation [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
-       fhir:Coding.code [ fhir:value "200000002152" ];
-       fhir:Coding.display [ fhir:value "Tablet" ]
-     ]
-  ]; # 
-  fhir:ManufacturedItemDefinition.manufacturer [
-     fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-2aff7154a8d952c895e8a03849a25108>;
-     fhir:Reference.reference [ fhir:value "Organization/org-2aff7154a8d952c895e8a03849a25108" ]
-  ] . # 
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-534e209eb0a3ff60437639cb2015316f\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-534e209eb0a3ff60437639cb2015316f&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id: EU/1/96/007/035 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073864)</span></p><p><b>unitOfPresentation</b>: Tablet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002152)</span></p><p><b>manufacturer</b>: <a href=\"Organization-org-2aff7154a8d952c895e8a03849a25108.html\">Organization/org-2aff7154a8d952c895e8a03849a25108</a> &quot;ACME industry&quot;</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/pmswi/#/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "EU/1/96/007/035" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:manufacturedDoseForm [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000073864" ] ;
+       fhir:display [ fhir:v "tablet" ]
+     ] )
+  ] ; # 
+  fhir:unitOfPresentation [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-2aff7154a8d952c895e8a03849a25108> ;
+     fhir:reference [ fhir:v "Organization/org-2aff7154a8d952c895e8a03849a25108" ]
+  ] ) . # 
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-2aff7154a8d952c895e8a03849a25108> a fhir:uv .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f.ttl> .
 
 # -------------------------------------------------------------------------------------
 

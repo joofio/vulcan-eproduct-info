@@ -5,72 +5,59 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-mirtazapine> a fhir:SubstanceDefinition;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "substance-mirtazapine"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
-       fhir:index 0;
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-mirtazapine> a fhir:SubstanceDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "substance-mirtazapine"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-mirtazapine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-mirtazapine&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: A051Q2099Q (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>manufacturer</b>: <a href=\"Organization-org-dbf32c7ed470ffbeb6060201f32edb29.html\">Organization/org-dbf32c7ed470ffbeb6060201f32edb29</a> &quot;LABORATORIOS CINFA, S.A.&quot;</p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td>*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>265.35</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C17H19N3</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "A051Q2099Q" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1"] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "Validated (UNII)" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-dbf32c7ed470ffbeb6060201f32edb29> ;
+     fhir:reference [ fhir:v "Organization/org-dbf32c7ed470ffbeb6060201f32edb29" ]
+  ] ) ; # 
+  fhir:molecularWeight ( [
+     fhir:type [
+       fhir:text [ fhir:v "exact" ]
+     ] ;
+     fhir:amount [
+       fhir:value [ fhir:v "265.35"^^xsd:decimal ]
      ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-mirtazapine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-mirtazapine&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: A051Q2099Q (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>manufacturer</b>: <a href=\"Organization-org-dbf32c7ed470ffbeb6060201f32edb29.html\">Organization/org-dbf32c7ed470ffbeb6060201f32edb29</a> &quot;LABORATORIOS CINFA, S.A.&quot;</p><h3>MolecularWeights</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Amount</b></td></tr><tr><td>*</td><td>exact <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></td><td>265.35</td></tr></table><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C17H19N3</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Type</b></td></tr><tr><td>*</td><td>1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine</td><td>Chemical Name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#x)</span></td></tr></table></div>"
-  ]; # 
-  fhir:SubstanceDefinition.identifier [
-     fhir:index 0;
-     fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
-     fhir:Identifier.value [ fhir:value "A051Q2099Q" ]
-  ]; # 
-  fhir:SubstanceDefinition.version [ fhir:value "1"]; # 
-  fhir:SubstanceDefinition.status [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
-       fhir:Coding.code [ fhir:value "1" ];
-       fhir:Coding.display [ fhir:value "Validated (UNII)" ]
+  ] ) ; # 
+  fhir:structure [
+     fhir:molecularFormula [ fhir:v "C17H19N3" ]
+  ] ; # 
+  fhir:name ( [
+     fhir:name [ fhir:v "1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine" ] ;
+     fhir:type [
+       fhir:coding ( [
+         fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "x" ] ;
+         fhir:display [ fhir:v "Chemical Name" ]
+       ] )
      ]
-  ]; # 
-  fhir:SubstanceDefinition.manufacturer [
-     fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-dbf32c7ed470ffbeb6060201f32edb29>;
-     fhir:Reference.reference [ fhir:value "Organization/org-dbf32c7ed470ffbeb6060201f32edb29" ]
-  ]; # 
-  fhir:SubstanceDefinition.molecularWeight [
-     fhir:index 0;
-     fhir:SubstanceDefinition.molecularWeight.type [
-       fhir:CodeableConcept.text [ fhir:value "exact" ]
-     ];
-     fhir:SubstanceDefinition.molecularWeight.amount [
-       fhir:Quantity.value [ fhir:value "265.35"^^xsd:decimal ]
-     ]
-  ]; # 
-  fhir:SubstanceDefinition.structure [
-     fhir:SubstanceDefinition.structure.molecularFormula [ fhir:value "C17H19N3" ]
-  ]; # 
-  fhir:SubstanceDefinition.name [
-     fhir:index 0;
-     fhir:SubstanceDefinition.name.name [ fhir:value "1,2,3,4,10,14b-Hexahydro-2-methylpyrazino[2,1-a]pyrido[2,3-c]benzazepine" ];
-     fhir:SubstanceDefinition.name.type [
-       fhir:CodeableConcept.coding [
-         fhir:index 0;
-         fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
-         fhir:Coding.code [ fhir:value "x" ];
-         fhir:Coding.display [ fhir:value "Chemical Name" ]
-       ]
-     ]
-  ] . # 
+  ] ) . # 
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-dbf32c7ed470ffbeb6060201f32edb29> a fhir:uv .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-mirtazapine.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/SubstanceDefinition/substance-mirtazapine.ttl> .
 
 # -------------------------------------------------------------------------------------
 

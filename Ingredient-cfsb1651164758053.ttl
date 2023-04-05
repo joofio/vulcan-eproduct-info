@@ -5,76 +5,65 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651164758053> a fhir:Ingredient;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "cfsb1651164758053"]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"cfsb1651164758053\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;cfsb1651164758053&quot; </p></div><p><b>identifier</b>: id: 2T8Q726O95 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-cfsb1650998521654.html\">ManufacturedItemDefinition/cfsb1650998521654</a></p><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000072072)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-cfsb1650997423990.html\">Organization/cfsb1650997423990</a> &quot;GLAXO WELLCOME, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>lamivudine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#2T8Q726O95)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>300 mg</td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
-  ]; # 
-  fhir:Ingredient.identifier [
-     fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
-     fhir:Identifier.value [ fhir:value "2T8Q726O95" ]
-  ]; # 
-  fhir:Ingredient.status [ fhir:value "active"]; # 
-  fhir:Ingredient.for [
-     fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1650998521654>;
-     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/cfsb1650998521654" ]
-  ]; # 
-  fhir:Ingredient.role [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi/" ];
-       fhir:Coding.code [ fhir:value "100000072072" ]
-     ];
-     fhir:CodeableConcept.text [ fhir:value "active" ]
-  ]; # 
-  fhir:Ingredient.manufacturer [
-     fhir:index 0;
-     fhir:Ingredient.manufacturer.manufacturer [
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1650997423990>;
-       fhir:Reference.reference [ fhir:value "Organization/cfsb1650997423990" ]
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651164758053> a fhir:Ingredient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "cfsb1651164758053"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"cfsb1651164758053\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;cfsb1651164758053&quot; </p></div><p><b>identifier</b>: id: 2T8Q726O95 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href=\"ManufacturedItemDefinition-cfsb1650998521654.html\">ManufacturedItemDefinition/cfsb1650998521654</a></p><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000072072)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-cfsb1650997423990.html\">Organization/cfsb1650997423990</a> &quot;GLAXO WELLCOME, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>lamivudine <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#2T8Q726O95)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>300 mg</td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "2T8Q726O95" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1650998521654> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/cfsb1650998521654" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072072" ]
+     ] ) ;
+     fhir:text [ fhir:v "active" ]
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1650997423990> ;
+       fhir:reference [ fhir:v "Organization/cfsb1650997423990" ]
      ]
-  ]; # 
-  fhir:Ingredient.substance [
-     fhir:Ingredient.substance.code [
-       fhir:CodeableReference.concept [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
-           fhir:Coding.code [ fhir:value "2T8Q726O95" ];
-           fhir:Coding.display [ fhir:value "lamivudine" ]
-         ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "2T8Q726O95" ] ;
+           fhir:display [ fhir:v "lamivudine" ]
+         ] )
        ]
-     ];
-     fhir:Ingredient.substance.strength [
-       fhir:index 0;
-       fhir:Ingredient.substance.strength.presentationQuantity [
-         fhir:Quantity.value [ fhir:value "300"^^xsd:decimal ];
-         fhir:Quantity.unit [ fhir:value "mg" ]
-       ];
-       fhir:Ingredient.substance.strength.basis [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-RoleClass" ];
-           fhir:Coding.code [ fhir:value "ACTIB" ]
-         ];
-         fhir:CodeableConcept.text [ fhir:value "active ingredient - basis of strength" ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "300"^^xsd:decimal ] ;
+         fhir:unit [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ]
+         ] ) ;
+         fhir:text [ fhir:v "active ingredient - basis of strength" ]
        ]
-     ]
+     ] )
   ] . # 
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/cfsb1650998521654> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/cfsb1650997423990> a fhir:uv .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/cfsb1651164758053.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Ingredient/cfsb1651164758053.ttl> .
 
 # -------------------------------------------------------------------------------------
 

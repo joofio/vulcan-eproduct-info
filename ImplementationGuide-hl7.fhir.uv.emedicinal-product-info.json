@@ -10,7 +10,7 @@
   "name" : "EpiIG",
   "title" : "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide",
   "status" : "active",
-  "date" : "2023-02-28T21:05:48+00:00",
+  "date" : "2023-04-05T09:48:34+00:00",
   "contact" : [{
     "name" : "HL7 BR&R",
     "telecom" : [{
@@ -28,7 +28,7 @@
   }],
   "packageId" : "hl7.fhir.uv.emedicinal-product-info",
   "license" : "CC0-1.0",
-  "fhirVersion" : ["5.0.0-snapshot3"],
+  "fhirVersion" : ["5.0.0"],
   "dependsOn" : [{
     "id" : "hl7tx",
     "extension" : [{
@@ -38,6 +38,16 @@
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r5",
     "version" : "5.0.0"
+  },
+  {
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r5",
+    "version" : "1.0.0"
   }],
   "definition" : {
     "extension" : [{
@@ -58,7 +68,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "STU Ballot"
+        "valueString" : "CI Build"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -520,6 +530,17 @@
       },
       "name" : "SubstanceDefinition (ePI)",
       "description" : "SubstanceDefinition (ePI)",
+      "isExample" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/htmlElementLink"
+      },
+      "name" : "htmlElementLink",
       "isExample" : false
     },
     {
@@ -4463,7 +4484,7 @@
         "system" : "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
         "code" : "releaselabel"
       },
-      "value" : "STU Ballot"
+      "value" : "CI Build"
     },
     {
       "code" : {

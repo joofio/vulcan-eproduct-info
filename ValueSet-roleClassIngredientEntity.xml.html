@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Ingredient Role; e.g., inactive, active base, active moiety - XML Representation - FHIR v5.0.0-snapshot3</title>
+    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Ingredient Role; e.g., inactive, active base, active moiety - XML Representation - FHIR v5.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -21,6 +21,8 @@
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
 <link href="assets/css/epi.css" rel="stylesheet"/>
 
 
@@ -43,17 +45,29 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"10.69"}
-    h3,h4,h5,h6{--heading-prefix:"10.69"}</style>
+    <style type="text/css">h2{--heading-prefix:"10.70"}
+    h3,h4,h5,h6{--heading-prefix:"10.70"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
 
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0-ballot - STU Ballot
+            <span style="display:inline-block;">1.0.0-ballot - CI Build
 
 
 
@@ -79,7 +93,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -203,7 +217,7 @@
         
           Active
           
-            as of 2023-02-28
+            as of 2023-04-05
           
         
       </td>
@@ -221,42 +235,42 @@
 
   <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
 
-&lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#id">value</a>=&quot;roleClassIngredientEntity&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+&lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet">ValueSet</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.id">id</a> <a href="http://hl7.org/fhir/R5/datatypes.html#id">value</a>=&quot;roleClassIngredientEntity&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;ul&gt;&lt;li&gt;Include these codes as defined in &lt;code&gt;urn:ietf:rfc:3986&lt;/code&gt;&lt;table class=&quot;none&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.url">url</a>
-       <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#string">value</a>=&quot;1.0.0-ballot&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#string">value</a>=&quot;VsRoleClassIngredientEntity&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.title">title</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#string">value</a>=&quot;Ingredient Role; e.g., inactive, active base, active moiety&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.experimental">experimental</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#dateTime">value</a>=&quot;2023-02-28T21:05:48+00:00&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.contact">contact</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#string">value</a>=&quot;HL7 BR&amp;amp;R&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#string">value</a>=&quot;http://www.hl7.org/Special/committees/rcrim&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.url">url</a>
+       <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.version">version</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;1.0.0-ballot&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;VsRoleClassIngredientEntity&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.title">title</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;Ingredient Role; e.g., inactive, active base, active moiety&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.status">status</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.experimental">experimental</a> <a href="http://hl7.org/fhir/R5/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.date">date</a> <a href="http://hl7.org/fhir/R5/datatypes.html#dateTime">value</a>=&quot;2023-04-05T09:48:34+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.contact">contact</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;HL7 BR&amp;amp;R&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;url&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;http://www.hl7.org/Special/committees/rcrim&quot;/&gt;
     &lt;/telecom&gt;
   &lt;/contact&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.description">description</a>
-               <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#markdown">value</a>=&quot;Ingredient Role; e.g., inactive, active base, active moiety&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.jurisdiction">jurisdiction</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#uri">value</a>=&quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#code">value</a>=&quot;001&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#string">value</a>=&quot;World&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.description">description</a>
+               <a href="http://hl7.org/fhir/R5/datatypes.html#markdown">value</a>=&quot;Ingredient Role; e.g., inactive, active base, active moiety&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;http://unstats.un.org/unsd/methods/m49/m49.htm&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;001&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R5/datatypes.html#string">value</a>=&quot;World&quot;/&gt;
     &lt;/coding&gt;
   &lt;/jurisdiction&gt;
-  &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.compose">compose</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.compose.include">include</a>&gt;
-      &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#uri">value</a>=&quot;urn:ietf:rfc:3986&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
-        &lt;<a href="http://hl7.org/fhir/5.0.0-snapshot3/valueset.html#ValueSet.compose.include.concept.code">code</a>
-              <a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#code">value</a>=&quot;http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose">compose</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include">include</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.system">system</a> <a href="http://hl7.org/fhir/R5/datatypes.html#uri">value</a>=&quot;urn:ietf:rfc:3986&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept">concept</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R5/valueset.html#ValueSet.compose.include.concept.code">code</a>
+              <a href="http://hl7.org/fhir/R5/datatypes.html#code">value</a>=&quot;http://terminology.hl7.org/ValueSet/v3-RoleClassIngredientEntity&quot;/&gt;
       &lt;/concept&gt;
     &lt;/include&gt;
   &lt;/compose&gt;
@@ -290,13 +304,17 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot3</a>. Generated <span title="Tue, Feb 28, 2023 21:05+0000">2023-02-28</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Apr 5, 2023 09:48+0000">2023-04-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

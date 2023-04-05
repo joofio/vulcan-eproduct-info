@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Semantic Annotation - FHIR v5.0.0-snapshot3</title>
+    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Semantic Annotation - FHIR v5.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -19,6 +19,8 @@
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
 <link href="assets/css/epi.css" rel="stylesheet"/>
 
 
@@ -47,11 +49,23 @@
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
 
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0-ballot - STU Ballot
+            <span style="display:inline-block;">1.0.0-ballot - CI Build
 
 
 
@@ -77,7 +91,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -170,72 +184,63 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#the-purpose-of-semantic-annotation" id="markdown-toc-the-purpose-of-semantic-annotation">The purpose of semantic annotation</a></li>
+  <li><a href="#linking-structured-resources-to-text-with-the-htmlelementlink-extension" id="markdown-toc-linking-structured-resources-to-text-with-the-htmlelementlink-extension">Linking structured resources to text with the htmlElementLink extension</a></li>
+  <li><a href="#focusing-section" id="markdown-toc-focusing-section">Focusing Section</a></li>
+</ul>
+
 </div>
-<h4 id="technical-section">Technical Section</h4>
+<h3 id="the-purpose-of-semantic-annotation">The purpose of semantic annotation</h3>
 
-<p>Semantic Annotation should be implemented with the <a href="http://hl7.org/fhir/2022Sep/extension-narrativelink.html">narrativeLink</a> extension. The <a href="http://hl7.org/fhir/2022Sep/narrative.html#linking">Linking between Data and Narrative</a> section of the Narrative datatype gives a basic example of use.</p>
+<p>This section describes the way in which sections of the Composition’s text can be marked as being about or related to a certain coded concept. This concept may be represented by a resource in the ePI bundle, but the definition of the target concept does not assume this.</p>
 
-<p>The extension has to be declared in the structured resource, and scoped to the Composition using the <code class="language-plaintext highlighter-rouge">fullUrl</code> in the <code class="language-plaintext highlighter-rouge">valueUrl</code> of the extension:</p>
+<p>Applications may use this marking to provide additional functionality. The G-Lens from the <a href="https://www.gravitatehealth.eu/">Gravitate Health</a> project for example might highlight or suppress marked sections based on the patient’s health record, if it contains information related to the linked concepts.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Ingredient xmlns="http://hl7.org/fhir"&gt;
-  &lt;extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink"&gt;
-    &lt;valueUrl value="http://ema.europa.eu/fhir/Composition/123456#lactoseMonohydrateTag"/&gt;
-  &lt;/extension&gt;
-  ...
-  &lt;substance&gt;
-    &lt;code&gt;
-      &lt;concept&gt;
+<p>The annotation is similar to the <a href="http://hl7.org/fhir/2022Sep/extension-narrativelink.html">narrativeLink</a> extension but is different in that the text is not a single, direct representation of the structured resource.</p>
+
+<h3 id="linking-structured-resources-to-text-with-the-htmlelementlink-extension">Linking structured resources to text with the htmlElementLink extension</h3>
+
+<p>The semantic anotation should be implemented with the htmlElementLink extension described below.</p>
+
+<p>The example defines a single concept with an ICD-10 and a SNOMED CT code (for the purpose of the example it is assumed that the codes point to the same real-world concept in the two code systems). This gives the definition the flexibility to be used directly in systems that have access to any of the two code systems.</p>
+
+<p>The concept is associated with the string value ‘theConcept’, which is used in class attributes on some elements in the HTML text of the section. The meaning of the extension is that the HTML elements marked with this class contain text that is relevant for the coded concept.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Composition xmlns="http://hl7.org/fhir"&gt;
+  &lt;extension url="http://hl7.org/fhir/uv/emedicinal-product-info/htmlElementLink"&gt;
+    &lt;extension url="elementClass"&gt;
+      &lt;valueString value="theConcept"/&gt;
+    &lt;/extension&gt;
+    &lt;extension url="concept"&gt;
+      &lt;valueCodeableConcept&gt;
         &lt;coding&gt;
-          &lt;system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
-          &lt;code value="EWQ57Q8I5X"/&gt;
-          &lt;display value="Lactose Monohydrate"/&gt;
+          &lt;system value="http://hl7.org/fhir/sid/icd-10"/&gt;
+          &lt;code value="X13.7"/&gt;
         &lt;/coding&gt;
-      &lt;/concept&gt;
-    &lt;/code&gt;
-  &lt;/substance&gt;
-&lt;/Ingredient&gt;
-</code></pre></div></div>
-
-<p>The ID part can then be used in the HTML code of the extension to mark a section of text:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
-  &lt;p&gt;Text of the section with &lt;span id="lactoseMonohydrateTag"&gt;some information about the ingredient&lt;/span&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</code></pre></div></div>
-
-<p>The same ID attribute can only be used on one HTML element in the same document. If there are several text sections that should be marked, the extension must be duplicated with a different ID value:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Ingredient xmlns="http://hl7.org/fhir"&gt;
-  &lt;extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink"&gt;
-    &lt;valueUrl value="http://ema.europa.eu/fhir/Composition/123456#lactoseMonohydrateTag1"/&gt;
-  &lt;/extension&gt;
-  &lt;extension url="http://hl7.org/fhir/StructureDefinition/narrativeLink"&gt;
-    &lt;valueUrl value="http://ema.europa.eu/fhir/Composition/123456#lactoseMonohydrateTag2"/&gt;
-  &lt;/extension&gt;
-  ...
-  &lt;substance&gt;
-    &lt;code&gt;
-      &lt;concept&gt;
         &lt;coding&gt;
-          &lt;system value="https://gsrs.ncats.nih.gov/ginas/app/beta"/&gt;
-          &lt;code value="EWQ57Q8I5X"/&gt;
-          &lt;display value="Lactose Monohydrate"/&gt;
+          &lt;system value="http://snomed.info/sct"/&gt;
+          &lt;code value="1290023401004"/&gt;
         &lt;/coding&gt;
-      &lt;/concept&gt;
-    &lt;/code&gt;
-  &lt;/substance&gt;
-&lt;/Ingredient&gt;
-
-&lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
-  &lt;div&gt;
-    &lt;p&gt;Text of the section with &lt;span id="lactoseMonohydrateTag1"&gt;some information about the ingredient&lt;/span&gt;.&lt;/p&gt;
-  &lt;/div&gt;
-  &lt;div&gt;
-    &lt;p&gt;Another section that describes &lt;span id="lactoseMonohydrateTag2"&gt;some other aspect related to the ingredient&lt;/span&gt;.&lt;/p&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+      &lt;/valueCodeableConcept&gt;
+    &lt;/extension&gt;
+  &lt;/extension&gt;
+  &lt;section&gt;
+    &lt;text&gt;
+      &lt;div xmlns="http://www.w3.org/1999/xhtml"&gt;
+        &lt;div class="theConcept"&gt;
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing&lt;/p&gt;
+          &lt;p&gt;Nulla ac ex vitae velit commodo sodales. Nam viverra efficitur porta.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+          &lt;p&gt;Praesent condimentum dolor in molestie malesuada. Sed molestie nisi sed&lt;/p&gt;
+          &lt;p class="theConcept"&gt;Quisque suscipit porttitor purus, at sagittis risus pulvinar vel. Nulla a mollis arcu. Nam nec&lt;/p&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/text&gt;
+  &lt;/section&gt;
+&lt;/Composition&gt;
 </code></pre></div></div>
 
 <h3 id="focusing-section">Focusing Section</h3>
@@ -408,13 +413,17 @@ There may be exceptions, such as assigning an Attribute of a Drug Class, rather 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot3</a>. Generated <span title="Tue, Feb 28, 2023 21:05+0000">2023-02-28</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Apr 5, 2023 09:48+0000">2023-04-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->
