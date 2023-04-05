@@ -5,63 +5,56 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-calciovitaminad-anhydrouscitricacid> a fhir:Ingredient;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "ingredient-for-calciovitaminad-anhydrouscitricacid"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi";
-       fhir:index 0;
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-calciovitaminad-anhydrouscitricacid> a fhir:Ingredient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ingredient-for-calciovitaminad-anhydrouscitricacid"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-calciovitaminad-anhydrouscitricacid\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-calciovitaminad-anhydrouscitricacid&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: XF417D3PSL (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-925dad38f0afbba36223a82b3a766438.html\">ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438</a></li><li><a href=\"MedicinalProductDefinition-mpd4bcbbaec04bf6aceb2f71162205967e.html\">MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e</a></li><li><a href=\"AdministrableProductDefinition-ap-925dad38f0afbba36223a82b3a766438.html\">AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438</a></li></ul><p><b>role</b>: excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-org-b7afabe350ac415f70e662ba6c703030.html\">Organization/org-b7afabe350ac415f70e662ba6c703030</a> &quot;Laboratorios Farmacéuticos ROVI, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Anhydrous citric acid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#XF417D3PSL)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "http://fdasis.nlm.nih.gov"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "XF417D3PSL" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "100000072082" ] ;
+       fhir:display [ fhir:v "excipient" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-b7afabe350ac415f70e662ba6c703030> ;
+       fhir:reference [ fhir:v "Organization/org-b7afabe350ac415f70e662ba6c703030" ]
      ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-calciovitaminad-anhydrouscitricacid\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-calciovitaminad-anhydrouscitricacid&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: XF417D3PSL (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-925dad38f0afbba36223a82b3a766438.html\">ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438</a></li><li><a href=\"MedicinalProductDefinition-mpd4bcbbaec04bf6aceb2f71162205967e.html\">MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e</a></li><li><a href=\"AdministrableProductDefinition-ap-925dad38f0afbba36223a82b3a766438.html\">AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438</a></li></ul><p><b>role</b>: excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-org-b7afabe350ac415f70e662ba6c703030.html\">Organization/org-b7afabe350ac415f70e662ba6c703030</a> &quot;Laboratorios Farmacéuticos ROVI, S.A.&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Anhydrous citric acid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#XF417D3PSL)</span></td></tr></table></blockquote></div>"
-  ]; # 
-  fhir:Ingredient.identifier [
-     fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-     fhir:Identifier.value [ fhir:value "XF417D3PSL" ]
-  ]; # 
-  fhir:Ingredient.status [ fhir:value "active"]; # 
-  fhir:Ingredient.for [
-     fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438>;
-     fhir:Reference.reference [ fhir:value "ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438" ]
-  ], [
-     fhir:index 1;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e>;
-     fhir:Reference.reference [ fhir:value "MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e" ]
-  ], [
-     fhir:index 2;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438>;
-     fhir:Reference.reference [ fhir:value "AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438" ]
-  ]; # 
-  fhir:Ingredient.role [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://spor.ema.europa.eu/rmswi" ];
-       fhir:Coding.code [ fhir:value "100000072082" ];
-       fhir:Coding.display [ fhir:value "excipient" ]
-     ]
-  ]; # 
-  fhir:Ingredient.manufacturer [
-     fhir:index 0;
-     fhir:Ingredient.manufacturer.manufacturer [
-       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-b7afabe350ac415f70e662ba6c703030>;
-       fhir:Reference.reference [ fhir:value "Organization/org-b7afabe350ac415f70e662ba6c703030" ]
-     ]
-  ]; # 
-  fhir:Ingredient.substance [
-     fhir:Ingredient.substance.code [
-       fhir:CodeableReference.concept [
-         fhir:CodeableConcept.coding [
-           fhir:index 0;
-           fhir:Coding.system [ fhir:value "http://fdasis.nlm.nih.gov" ];
-           fhir:Coding.code [ fhir:value "XF417D3PSL" ];
-           fhir:Coding.display [ fhir:value "Anhydrous citric acid" ]
-         ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://fdasis.nlm.nih.gov"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "XF417D3PSL" ] ;
+           fhir:display [ fhir:v "Anhydrous citric acid" ]
+         ] )
        ]
      ]
   ] . # 
@@ -73,12 +66,6 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-b7afabe350ac415f70e662ba6c703030> a fhir:uv .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-calciovitaminad-anhydrouscitricacid.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/Ingredient/ingredient-for-calciovitaminad-anhydrouscitricacid.ttl> .
 
 # -------------------------------------------------------------------------------------
 

@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Ingredient-excipient POVIDONE, UNSPECIFIED - JSON Representation - FHIR v5.0.0-snapshot3</title>
+    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Ingredient-excipient POVIDONE, UNSPECIFIED - JSON Representation - FHIR v5.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -21,6 +21,8 @@
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
     <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
 <link href="assets/css/epi.css" rel="stylesheet"/>
 
 
@@ -43,17 +45,29 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"10.221"}
-    h3,h4,h5,h6{--heading-prefix:"10.221"}</style>
+    <style type="text/css">h2{--heading-prefix:"10.222"}
+    h3,h4,h5,h6{--heading-prefix:"10.222"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
 
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0-ballot - STU Ballot
+            <span style="display:inline-block;">1.0.0-ballot - CI Build
 
 
 
@@ -79,7 +93,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -219,58 +233,58 @@
 
   <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
 {
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient">resourceType</a>" : "Ingredient",
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.id">id</a>" : "ingredient-for-paracetamol-povidoneunspecified",
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/resource.html#Meta#Meta.profile">profile</a>" : [
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient">resourceType</a>" : "Ingredient",
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.id">id</a>" : "ingredient-for-paracetamol-povidoneunspecified",
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.meta">meta</a>" : {
+    "<a href="http://hl7.org/fhir/R5/resource.html#Meta#Meta.profile">profile</a>" : [
       "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"
     ]
   },
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;ingredient-for-paracetamol-povidoneunspecified\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;ingredient-for-paracetamol-povidoneunspecified&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-Ingredient-uv-epi.html\&quot;&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: FZ989GH94E (use: OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;ManufacturedItemDefinition-mid-08ac066220d4d68a3933a9c94bef32ff.html\&quot;&gt;ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;MedicinalProductDefinition-mpa975b7e209ea5c4c3bf8040a42b86fbd.html\&quot;&gt;MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff.html\&quot;&gt;AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: Excipient &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Manufacturers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Organization-org-65db33d6be47a433e6e9e9c2980ea7a4.html\&quot;&gt;Organization/org-65db33d6be47a433e6e9e9c2980ea7a4&lt;/a&gt; &amp;quot;FERRER INTERNACIONAL, S.A.&amp;quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;POVIDONE, UNSPECIFIED &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\&quot;&gt;Unique Ingredient Identifier (UNII)&lt;/a&gt;#FZ989GH94E)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R5/narrative.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Ingredient&lt;/b&gt;&lt;a name=\&quot;ingredient-for-paracetamol-povidoneunspecified\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Ingredient &amp;quot;ingredient-for-paracetamol-povidoneunspecified&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-Ingredient-uv-epi.html\&quot;&gt;Ingredient (ePI)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id:\u00a0FZ989GH94E\u00a0(use:\u00a0OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;for&lt;/b&gt;: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=\&quot;ManufacturedItemDefinition-mid-08ac066220d4d68a3933a9c94bef32ff.html\&quot;&gt;ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;MedicinalProductDefinition-mpa975b7e209ea5c4c3bf8040a42b86fbd.html\&quot;&gt;MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=\&quot;AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff.html\&quot;&gt;AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;role&lt;/b&gt;: Excipient &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (rmswi#100000072082)&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;Manufacturers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Manufacturer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Organization-org-65db33d6be47a433e6e9e9c2980ea7a4.html\&quot;&gt;Organization/org-65db33d6be47a433e6e9e9c2980ea7a4&lt;/a&gt; &amp;quot;FERRER INTERNACIONAL, S.A.&amp;quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;substance&lt;/b&gt;&lt;/p&gt;&lt;h3&gt;Codes&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Concept&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;POVIDONE, UNSPECIFIED &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\&quot;&gt;Unique Ingredient Identifier (UNII)&lt;/a&gt;#FZ989GH94E)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
   },
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.identifier">identifier</a>" : {
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.system">system</a>" : "http://fdasis.nlm.nih.gov",
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Identifier#Identifier.value">value</a>" : "FZ989GH94E"
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.identifier">identifier</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.use">use</a>" : "official",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.system">system</a>" : "http://fdasis.nlm.nih.gov",
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#Identifier#Identifier.value">value</a>" : "FZ989GH94E"
   },
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.for">for</a>" : [
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.status">status</a>" : "active",
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.for">for</a>" : [
     {
-      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
+      "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff"
     },
     {
-      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
+      "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd"
     },
     {
-      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
+      "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff"
     }
   ],
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.role">role</a>" : {
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.role">role</a>" : {
+    "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
       {
-        "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
-        "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "100000072082",
-        "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.display">display</a>" : "Excipient"
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "https://spor.ema.europa.eu/rmswi",
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "100000072082",
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "Excipient"
       }
     ]
   },
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.manufacturer">manufacturer</a>" : [
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.manufacturer">manufacturer</a>" : [
     {
-      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.manufacturer.manufacturer">manufacturer</a>" : {
-        "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#Reference#Reference.reference">reference</a>" : "Organization/org-65db33d6be47a433e6e9e9c2980ea7a4"
+      "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.manufacturer.manufacturer">manufacturer</a>" : {
+        "<a href="http://hl7.org/fhir/R5/references.html#Reference#Reference.reference">reference</a>" : "Organization/org-65db33d6be47a433e6e9e9c2980ea7a4"
       }
     }
   ],
-  "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.substance">substance</a>" : {
-    "<a href="http://hl7.org/fhir/5.0.0-snapshot3/ingredient.html#Ingredient.substance.code">code</a>" : {
-      "<a href="http://hl7.org/fhir/5.0.0-snapshot3/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
-        "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+  "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance">substance</a>" : {
+    "<a href="http://hl7.org/fhir/R5/ingredient.html#Ingredient.substance.code">code</a>" : {
+      "<a href="http://hl7.org/fhir/R5/references.html#CodeableReference#CodeableReference.concept">concept</a>" : {
+        "<a href="http://hl7.org/fhir/R5/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
           {
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.system">system</a>" : "http://fdasis.nlm.nih.gov",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.code">code</a>" : "FZ989GH94E",
-            "<a href="http://hl7.org/fhir/5.0.0-snapshot3/datatypes.html#Coding#Coding.display">display</a>" : "POVIDONE, UNSPECIFIED"
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.system">system</a>" : "http://fdasis.nlm.nih.gov",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.code">code</a>" : "FZ989GH94E",
+            "<a href="http://hl7.org/fhir/R5/datatypes.html#Coding#Coding.display">display</a>" : "POVIDONE, UNSPECIFIED"
           }
         ]
       }
@@ -306,13 +320,17 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 5.0.0-snapshot3</a>. Generated <span title="Tue, Feb 28, 2023 21:05+0000">2023-02-28</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Wed, Apr 5, 2023 09:48+0000">2023-04-05</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
           </span>
         </p>
       </div>  <!-- /inner-wrapper -->

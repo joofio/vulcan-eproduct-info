@@ -5,51 +5,41 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-adalimumab> a fhir:SubstanceDefinition;
-  fhir:nodeRole fhir:treeRoot;
-  fhir:Resource.id [ fhir:value "substance-adalimumab"]; # 
-  fhir:Resource.meta [
-     fhir:Meta.profile [
-       fhir:value "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi";
-       fhir:index 0;
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-adalimumab> a fhir:SubstanceDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "substance-adalimumab"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
-     ]
-  ]; # 
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-adalimumab\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-adalimumab&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: FYS6T7F842 (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>manufacturer</b>: <a href=\"Organization-org-fda7514c0dcb7b5f0176cb5af274235f.html\">Organization/org-fda7514c0dcb7b5f0176cb5af274235f</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C6448H10026O2016N1732S42</td></tr></table></div>"
-  ]; # 
-  fhir:SubstanceDefinition.identifier [
-     fhir:index 0;
-     fhir:Identifier.use [ fhir:value "official" ];
-     fhir:Identifier.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
-     fhir:Identifier.value [ fhir:value "FYS6T7F842" ]
-  ]; # 
-  fhir:SubstanceDefinition.version [ fhir:value "1"]; # 
-  fhir:SubstanceDefinition.status [
-     fhir:CodeableConcept.coding [
-       fhir:index 0;
-       fhir:Coding.system [ fhir:value "https://gsrs.ncats.nih.gov/ginas/app/beta/" ];
-       fhir:Coding.code [ fhir:value "1" ];
-       fhir:Coding.display [ fhir:value "Validated (UNII)" ]
-     ]
-  ]; # 
-  fhir:SubstanceDefinition.manufacturer [
-     fhir:index 0;
-     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-fda7514c0dcb7b5f0176cb5af274235f>;
-     fhir:Reference.reference [ fhir:value "Organization/org-fda7514c0dcb7b5f0176cb5af274235f" ]
-  ]; # 
-  fhir:SubstanceDefinition.structure [
-     fhir:SubstanceDefinition.structure.molecularFormula [ fhir:value "C6448H10026O2016N1732S42" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-adalimumab\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-adalimumab&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id: FYS6T7F842 (use: OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>manufacturer</b>: <a href=\"Organization-org-fda7514c0dcb7b5f0176cb5af274235f.html\">Organization/org-fda7514c0dcb7b5f0176cb5af274235f</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</p><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C6448H10026O2016N1732S42</td></tr></table></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "FYS6T7F842" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1"] ; # 
+  fhir:status [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://gsrs.ncats.nih.gov/ginas/app/beta/"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1" ] ;
+       fhir:display [ fhir:v "Validated (UNII)" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-fda7514c0dcb7b5f0176cb5af274235f> ;
+     fhir:reference [ fhir:v "Organization/org-fda7514c0dcb7b5f0176cb5af274235f" ]
+  ] ) ; # 
+  fhir:structure [
+     fhir:molecularFormula [ fhir:v "C6448H10026O2016N1732S42" ]
   ] . # 
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-fda7514c0dcb7b5f0176cb5af274235f> a fhir:uv .
-
-# - ontology header ------------------------------------------------------------
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-adalimumab.ttl> a owl:Ontology;
-  owl:imports fhir:fhir.ttl;
-  owl:versionIRI <http://build.fhir.org/uv/emedicinal-product-info/SubstanceDefinition/substance-adalimumab.ttl> .
 
 # -------------------------------------------------------------------------------------
 
