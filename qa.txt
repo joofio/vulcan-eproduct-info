@@ -1,9 +1,9 @@
 ﻿EpiIG : Validation Results
 =========================================
 
-err = 1037, warn = 25, info = 573
+err = 1039, warn = 25, info = 573
 IG Publisher Version: 1.3.4
-Generated Wed Apr 05 12:06:07 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
+Generated Wed Apr 05 12:09:45 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot (canonical = http://hl7.org/fhir/uv/emedicinal-product-info)
  Build Errors : 0 / 2 / 0
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff : 0 / 0 / 5
  /github/workspace/fsh-generated/resources/AdministrableProductDefinition-ap-1a7318638ddbbeb084ef416e717b6fdb : 0 / 0 / 5
@@ -25,7 +25,7 @@ Generated Wed Apr 05 12:06:07 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-31887cbcd4c018e35f958e5f8547dd66 : 2 / 0 / 104
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-3a3583227b4c5b0887f1e0d38269b469 : 1 / 0 / 103
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e : 0 / 3 / 72
- /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08 : 22 / 1 / 132
+ /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08 : 23 / 1 / 132
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37 : 0 / 0 / 87
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-925dad38f0afbba36223a82b3a766438 : 455 / 1 / 117
  /github/workspace/fsh-generated/resources/Bundle-bundlepackageleaflet-9e0b95f2943e17e9a39046404c6cce71 : 0 / 0 / 87
@@ -51,7 +51,7 @@ Generated Wed Apr 05 12:06:07 UTC 2023. FHIR version 5.0.0 for hl7.fhir.uv.emedi
  /github/workspace/fsh-generated/resources/Composition-cfsb1651231019153 : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-cfsb1651234995610 : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition02e928f15b7b861b4b44915d9f1330ec : 455 / 0 / 11
- /github/workspace/fsh-generated/resources/Composition-composition16598f252d07b4784b82ba43cf9e847e : 0 / 0 / 11
+ /github/workspace/fsh-generated/resources/Composition-composition16598f252d07b4784b82ba43cf9e847e : 1 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition2e8a8b1c9142de3ac8de0723812d3fef : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition34060417eeae4622c4674a9c4100d2ed : 0 / 0 / 11
  /github/workspace/fsh-generated/resources/Composition-composition3a3583227b4c5b0887f1e0d38269b469 : 0 / 0 / 11
@@ -479,6 +479,7 @@ INFORMATION: Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e: Bundl
 INFORMATION: Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e: Bundle.entry[12]: Entry 'RegulatedAuthorization/authorization5aa8042f9b2bea12d814ccaf27f6d64e' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
 INFORMATION: Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e: Bundle.entry[12]: Entry 'PackagedProductDefinition/ppd-8799ff87933460485b763ad9b52f8276' isn't reachable by traversing forwards from the Composition. Only Provenance is approved to be used this way (R4 section 3.3.1)
 == fsh-generated/resources/Bundle-bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08.json ==
+ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.language: The value provided ('em') is not in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: Error from server: Access violation at address 0000000001158DD8 in module 'FHIRServer.exe'. Read of address 0000000000000028)
 INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 ERROR: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.subject[0]: Unable to find a match for profile MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e among choices: http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi
 INFORMATION: Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08: Bundle.entry[0].resource/*Composition/composition16598f252d07b4784b82ba43cf9e847e*/.subject[0]: Details for MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e matching against profile http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi|1.0.0-ballot
@@ -1791,6 +1792,7 @@ ERROR: Composition/composition02e928f15b7b861b4b44915d9f1330ec: Composition.sect
 INFORMATION: Composition/composition02e928f15b7b861b4b44915d9f1330ec: Composition.section[0].section[6].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition02e928f15b7b861b4b44915d9f1330ec: Composition.section[0].section[7].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 == fsh-generated/resources/Composition-composition16598f252d07b4784b82ba43cf9e847e.json ==
+ERROR: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.language: The value provided ('em') is not in the value set 'All Languages' (http://hl7.org/fhir/ValueSet/all-languages|5.0.0), and a code is required from this value set) (error message = Local Error: Resolved system urn:ietf:bcp:47 (v2.0.1), but the definition is not complete. Server Error: Error from server: Access violation at address 0000000001158DD8 in module 'FHIRServer.exe'. Read of address 0000000000000028)
 INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.type.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
 INFORMATION: Composition/composition16598f252d07b4784b82ba43cf9e847e: Composition.section[0].section[0].code.coding[0]: Code System URI 'https://spor.ema.europa.eu/rmswi/' is unknown so the code cannot be validated
