@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "361b3edb-ba50-4f60-a502-619d3f569023-132",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/361b3edb-ba50-4f60-a502-619d3f569023-132",
+  "name" : "IntersectionVsRegulatoryActivityTypeAndVsRegulatoryActivityType",
+  "title" : "Intersection of Regulatory Activity Type And Regulatory Activity Type",
+  "status" : "active",
+  "date" : "2023-04-06T10:25:44+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "https://placeholder.com"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "https://placeholder.com"
+    }]
+  }
+}

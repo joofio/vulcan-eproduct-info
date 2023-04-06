@@ -62,7 +62,7 @@
      fhir:productName [ fhir:v "Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen" ] ;
      fhir:type [
        fhir:coding ( [
-         fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/220000000000"^^xsd:anyURI ] ;
+         fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "220000000001" ]
        ] ) ;
        fhir:text [ fhir:v "Full name" ]
@@ -71,7 +71,7 @@
        fhir:part [ fhir:v "Suliqua" ] ;
        fhir:type [
          fhir:coding ( [
-           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/220000000000"^^xsd:anyURI ] ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
            fhir:code [ fhir:v "220000000002" ]
          ] ) ;
          fhir:text [ fhir:v "Invented name part" ]
@@ -80,7 +80,7 @@
        fhir:part [ fhir:v "Insulin glargine, Lixisenatide" ] ;
        fhir:type [
          fhir:coding ( [
-           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/220000000000"^^xsd:anyURI ] ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
            fhir:code [ fhir:v "220000000003" ]
          ] ) ;
          fhir:text [ fhir:v "Scientific name part" ]
@@ -89,7 +89,7 @@
        fhir:part [ fhir:v "100 units/ml + 50 ug/ml" ] ;
        fhir:type [
          fhir:coding ( [
-           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/220000000000"^^xsd:anyURI ] ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
            fhir:code [ fhir:v "220000000004" ]
          ] ) ;
          fhir:text [ fhir:v "Strength part" ]
@@ -98,7 +98,7 @@
        fhir:part [ fhir:v "Solution for injection" ] ;
        fhir:type [
          fhir:coding ( [
-           fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi/220000000000"^^xsd:anyURI ] ;
+           fhir:system [ fhir:v "https://spor.ema.europa.eu/lists/220000000000"^^xsd:anyURI ] ;
            fhir:code [ fhir:v "220000000005" ]
          ] ) ;
          fhir:text [ fhir:v "Pharmaceutical dose form part" ]

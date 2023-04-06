@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "361b3edb-ba50-4f60-a502-619d3f569023-158",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/361b3edb-ba50-4f60-a502-619d3f569023-158",
+  "name" : "UnionVsUnitofPresentationAndVsUnitofPresentation",
+  "title" : "Union of Units of Presentation And Units of Presentation",
+  "status" : "active",
+  "date" : "2023-04-06T10:25:57+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "https://spor.ema.europa.eu/rmswi"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "https://spor.ema.europa.eu/rmswi"
+    }]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "361b3edb-ba50-4f60-a502-619d3f569023-110",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/361b3edb-ba50-4f60-a502-619d3f569023-110",
+  "name" : "UnionVsPackageTypeAndVsPackageType",
+  "title" : "Union of High level Pack Type And High level Pack Type",
+  "status" : "active",
+  "date" : "2023-04-06T10:25:42+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/package-type",
+      "code" : "MedicinalProductPack",
+      "display" : "Medicinal product pack"
+    },
+    {
+      "system" : "http://hl7.org/fhir/package-type",
+      "code" : "RawMaterialPackage",
+      "display" : "Raw material package"
+    },
+    {
+      "system" : "http://hl7.org/fhir/package-type",
+      "code" : "Shipping-TransportContainer",
+      "display" : "Shipping or transport container"
+    }]
+  }
+}

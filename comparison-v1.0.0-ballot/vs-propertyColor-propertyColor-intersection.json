@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "361b3edb-ba50-4f60-a502-619d3f569023-120",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/361b3edb-ba50-4f60-a502-619d3f569023-120",
+  "name" : "IntersectionVsPropertyColorAndVsPropertyColor",
+  "title" : "Intersection of Color of the product And Color of the product",
+  "status" : "active",
+  "date" : "2023-04-06T10:25:43+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C54453"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "https://ncithesaurus.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C54453"
+    }]
+  }
+}

@@ -151,7 +151,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ManufacturedItemDefinition.property:flavor.type","ManufacturedItemDefinition.property.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","A code expressing the type of characteristic","A code expressing the type of characteristic.","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate""/>
+    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/epi-ig""/>
     <code value=""flavor""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","This value set includes all observable entity codes from SNOMED CT - provided as an exemplar value set.","http://hl7.org/fhir/ValueSet/product-characteristic-codes","",,,,"ManufacturedItemDefinition.property.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -232,13 +232,13 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "ManufacturedItemDefinition.property:surfaceform.type","ManufacturedItemDefinition.property.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","A code expressing the type of characteristic","A code expressing the type of characteristic.","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate""/>
+    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/epi-ig""/>
     <code value=""surfaceform""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","This value set includes all observable entity codes from SNOMED CT - provided as an exemplar value set.","http://hl7.org/fhir/ValueSet/product-characteristic-codes","",,,,"ManufacturedItemDefinition.property.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Physical Characteristics, all attributes"
 "ManufacturedItemDefinition.property:surfaceform.value[x]","ManufacturedItemDefinition.property.value[x]","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","A value for the characteristic","A value for the characteristic.","","","","","","","","","",,"preferred","","http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm","",,,,"ManufacturedItemDefinition.property.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","A value for the characteristic","A value for the characteristic.","","","","","","","","","",,"preferred","","http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertySurfaceForm","",,,,"ManufacturedItemDefinition.property.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Physical Characteristics, attribute's value"
 "ManufacturedItemDefinition.property:size","ManufacturedItemDefinition.property","size","","",0,*,"","","Y","BackboneElement {[]} {[]}
 ","General characteristics of this item","General characteristics of this item.","","","","","","","","","",,,,,"",,,,"ManufacturedItemDefinition.property",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

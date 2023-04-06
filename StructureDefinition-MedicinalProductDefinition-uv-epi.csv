@@ -204,7 +204,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicinalProductDefinition.name.type","MedicinalProductDefinition.name.type","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","Type of product name, such as rINN, BAN, Proprietary, Non-Proprietary","Type of product name, such as rINN, BAN, Proprietary, Non-Proprietary.","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://spor.ema.europa.eu/rmswi/220000000000""/>
+    <system value=""https://spor.ema.europa.eu/lists/220000000000""/>
     <code value=""220000000001""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Type of a name for a Medicinal Product.","http://hl7.org/fhir/ValueSet/medicinal-product-name-type","",,,,"MedicinalProductDefinition.name.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -254,7 +254,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicinalProductDefinition.name.part:ProprietaryNamePart.type","MedicinalProductDefinition.name.part.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Identifying type for this part of the name (e.g. strength part)","Identifying type for this part of the name (e.g. strength part).","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://spor.ema.europa.eu/rmswi/220000000000""/>
+    <system value=""https://spor.ema.europa.eu/lists/220000000000""/>
     <code value=""220000000002""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Type of part of a name for a Medicinal Product.","http://hl7.org/fhir/ValueSet/medicinal-product-name-part-type","",,,,"MedicinalProductDefinition.name.part.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -281,7 +281,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicinalProductDefinition.name.part:Non-proprietaryNamePart.type","MedicinalProductDefinition.name.part.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Identifying type for this part of the name (e.g. strength part)","Identifying type for this part of the name (e.g. strength part).","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://spor.ema.europa.eu/rmswi/220000000000""/>
+    <system value=""https://spor.ema.europa.eu/lists/220000000000""/>
     <code value=""220000000003""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Type of part of a name for a Medicinal Product.","http://hl7.org/fhir/ValueSet/medicinal-product-name-part-type","",,,,"MedicinalProductDefinition.name.part.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -308,7 +308,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicinalProductDefinition.name.part:StrengthPart.type","MedicinalProductDefinition.name.part.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Identifying type for this part of the name (e.g. strength part)","Identifying type for this part of the name (e.g. strength part).","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://spor.ema.europa.eu/rmswi/220000000000""/>
+    <system value=""https://spor.ema.europa.eu/lists/220000000000""/>
     <code value=""220000000004""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Type of part of a name for a Medicinal Product.","http://hl7.org/fhir/ValueSet/medicinal-product-name-part-type","",,,,"MedicinalProductDefinition.name.part.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -335,7 +335,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "MedicinalProductDefinition.name.part:PharmaceuticalDoseFormPart.type","MedicinalProductDefinition.name.part.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","Identifying type for this part of the name (e.g. strength part)","Identifying type for this part of the name (e.g. strength part).","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""https://spor.ema.europa.eu/rmswi/220000000000""/>
+    <system value=""https://spor.ema.europa.eu/lists/220000000000""/>
     <code value=""220000000005""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Type of part of a name for a Medicinal Product.","http://hl7.org/fhir/ValueSet/medicinal-product-name-part-type","",,,,"MedicinalProductDefinition.name.part.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

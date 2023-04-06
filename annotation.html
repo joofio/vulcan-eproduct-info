@@ -61,11 +61,14 @@
           <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
 
+ <div id="project-nav">
+          <a id="project-logo" no-external="true" href="http://www.hl7.org/vulcan/"><img height="55" alt="Visit the Vulcan website" src="assets/images/vulcan-logo-full.png"/> </a>
+        </div>
 
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">1.0.0-ballot - CI Build
+            <span style="display:inline-block;">1.0.0 - CI Build
 
 
 
@@ -168,7 +171,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide, published by . This is not an authorized publication; it is the continuous build for version 1.0.0-ballot). This version is based on the current content of <a href="https://github.com/joofio/vulcan-eproduct-info">https://github.com/joofio/vulcan-eproduct-info</a> and changes regularly. See the <a href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide, published by . This is not an authorized publication; it is the continuous build for version 1.0.0). This version is based on the current content of <a href="https://github.com/joofio/vulcan-eproduct-info">https://github.com/joofio/vulcan-eproduct-info</a> and changes regularly. See the <a href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Semantic Annotation</h2>
   
 
@@ -187,7 +190,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <div class="markdown-toc">
 <ul id="markdown-toc">
   <li><a href="#the-purpose-of-semantic-annotation" id="markdown-toc-the-purpose-of-semantic-annotation">The purpose of semantic annotation</a></li>
-  <li><a href="#linking-structured-resources-to-text-with-the-htmlelementlink-extension" id="markdown-toc-linking-structured-resources-to-text-with-the-htmlelementlink-extension">Linking structured resources to text with the htmlElementLink extension</a></li>
+  <li><a href="#linking-structured-resources-to-text-with-the-htmlelementlink-extension" id="markdown-toc-linking-structured-resources-to-text-with-the-htmlelementlink-extension">Linking structured resources to text with the HtmlElementLink extension</a></li>
   <li><a href="#focusing-section" id="markdown-toc-focusing-section">Focusing Section</a></li>
 </ul>
 
@@ -200,16 +203,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>The annotation is similar to the <a href="http://hl7.org/fhir/2022Sep/extension-narrativelink.html">narrativeLink</a> extension but is different in that the text is not a single, direct representation of the structured resource.</p>
 
-<h3 id="linking-structured-resources-to-text-with-the-htmlelementlink-extension">Linking structured resources to text with the htmlElementLink extension</h3>
+<h3 id="linking-structured-resources-to-text-with-the-htmlelementlink-extension">Linking structured resources to text with the HtmlElementLink extension</h3>
 
-<p>The semantic anotation should be implemented with the htmlElementLink extension described below.</p>
+<p>The semantic anotation should be implemented with the HtmlElementLink extension described below.</p>
 
 <p>The example defines a single concept with an ICD-10 and a SNOMED CT code (for the purpose of the example it is assumed that the codes point to the same real-world concept in the two code systems). This gives the definition the flexibility to be used directly in systems that have access to any of the two code systems.</p>
 
 <p>The concept is associated with the string value ‘theConcept’, which is used in class attributes on some elements in the HTML text of the section. The meaning of the extension is that the HTML elements marked with this class contain text that is relevant for the coded concept.</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Composition xmlns="http://hl7.org/fhir"&gt;
-  &lt;extension url="http://hl7.org/fhir/uv/emedicinal-product-info/htmlElementLink"&gt;
+  &lt;extension url="http://hl7.org/fhir/uv/emedicinal-product-info/HtmlElementLink"&gt;
     &lt;extension url="elementClass"&gt;
       &lt;valueString value="theConcept"/&gt;
     &lt;/extension&gt;
@@ -413,7 +416,7 @@ There may be exceptions, such as assigning an Attribute of a Drug Class, rather 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Apr 6, 2023 08:19+0000">2023-04-06</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Apr 6, 2023 10:24+0000">2023-04-06</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

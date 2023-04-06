@@ -162,7 +162,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "AdministrableProductDefinition.property:flavor.type","AdministrableProductDefinition.property.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","A code expressing the type of characteristic","A code expressing the type of characteristic.","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate""/>
+    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/epi-ig""/>
     <code value=""flavor""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","This value set includes all observable entity codes from SNOMED CT - provided as an exemplar value set.","http://hl7.org/fhir/ValueSet/product-characteristic-codes","",,,,"AdministrableProductDefinition.property.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -252,13 +252,13 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "AdministrableProductDefinition.property:surfaceform.type","AdministrableProductDefinition.property.type","","","",1,1,"","","Y","CodeableConcept {[]} {[]}
 ","A code expressing the type of characteristic","A code expressing the type of characteristic.","","","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
-    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate""/>
+    <system value=""http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/epi-ig""/>
     <code value=""surfaceform""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","This value set includes all observable entity codes from SNOMED CT - provided as an exemplar value set.","http://hl7.org/fhir/ValueSet/product-characteristic-codes","",,,,"AdministrableProductDefinition.property.type",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Pharmaceutical Product Characteristics.Code System (not a one to one map, the resource is more capable)"
 "AdministrableProductDefinition.property:surfaceform.value[x]","AdministrableProductDefinition.property.value[x]","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
-","A value for the characteristic","A value for the characteristic.","","","","","","","","","",,"preferred","","http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm","",,,,"AdministrableProductDefinition.property.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","A value for the characteristic","A value for the characteristic.","","","","","","","","","",,"preferred","","http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertySurfaceForm","",,,,"AdministrableProductDefinition.property.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Pharmaceutical Product Characteristics.Value (not a one to one map, the resource is more capable)"
 "AdministrableProductDefinition.property:surfaceform.status","AdministrableProductDefinition.property.status","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","The status of characteristic e.g. assigned or pending","The status of characteristic e.g. assigned or pending.","","","","","","","","","",,"required","The lifecycle status of an artifact.","http://hl7.org/fhir/ValueSet/publication-status|5.0.0","",,,,"AdministrableProductDefinition.property.status",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
