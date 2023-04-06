@@ -1,0 +1,38 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "caseIdSystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:ietf:rfc:3986</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>https://placeholder.com</td><td/></tr></table></li></ul></div>"
+  },
+  "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem",
+  "version" : "1.0.0-ballot",
+  "name" : "VsCaseIdSystem",
+  "title" : "Case System Identifiers",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-06T08:19:53+00:00",
+  "contact" : [{
+    "name" : "HL7 BR&R",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/rcrim"
+    }]
+  }],
+  "description" : "Case System Identifiers",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "concept" : [{
+        "code" : "https://placeholder.com"
+      }]
+    }]
+  }
+}

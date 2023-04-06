@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Ingredient xmlns="http://hl7.org/fhir">
+  <id value="cfsb1666198119118"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Ingredient</b><a name="cfsb1666198119118"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Ingredient &quot;cfsb1666198119118&quot; </p></div><p><b>identifier</b>: id: 7SEV7J4R1U (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: <a href="MedicinalProductDefinition-cfsb1665505881364.html">MedicinalProductDefinition/cfsb1665505881364</a></p><p><b>role</b>: Excipient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#100000072082)</span></p><blockquote><p><b>substance</b></p><h3>Codes</h3><table class="grid"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Talc <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (#7SEV7J4R1U)</span></td></tr></table></blockquote></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+    <value value="7SEV7J4R1U"/>
+  </identifier>
+  <status value="active"/>
+  <for>
+    <reference value="MedicinalProductDefinition/cfsb1665505881364"/>
+  </for>
+  <role>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi/"/>
+      <code value="100000072082"/>
+    </coding>
+    <text value="Excipient"/>
+  </role>
+  <substance>
+    <code>
+      <concept>
+        <coding>
+          <system value="https://gsrs.ncats.nih.gov/ginas/app/beta/"/>
+          <code value="7SEV7J4R1U"/>
+          <display value="Talc"/>
+        </coding>
+      </concept>
+    </code>
+  </substance>
+</Ingredient>

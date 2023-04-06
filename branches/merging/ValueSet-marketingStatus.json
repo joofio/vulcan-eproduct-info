@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "marketingStatus",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <code>https://spor.ema.europa.eu/rmswi/100000072052</code></li></ul></div>"
+  },
+  "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/marketingStatus",
+  "version" : "1.0.0-ballot",
+  "name" : "VsMarketingStatus",
+  "title" : "Marketing Status",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-06T08:19:53+00:00",
+  "contact" : [{
+    "name" : "HL7 BR&R",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/rcrim"
+    }]
+  }],
+  "description" : "Marketing Status",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi/100000072052"
+    }]
+  }
+}

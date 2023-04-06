@@ -1,0 +1,3232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.FHIR.UV.EMEDICINAL-PRODUCT-INFO\Artifacts Summary - FHIR v5.0.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+<link href="assets/css/epi.css" rel="stylesheet"/>
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"10"}
+    h3,h4,h5,h6{--heading-prefix:"10.0"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0-ballot - CI Build
+
+
+
+  <img alt="International flag" src="assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Introduction</a>
+  </li>
+  <li>
+    <a href="background.html">Background</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">The Specification
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="core-epi-structure.html">Core ePI Structure</a>
+      </li>
+      <li>
+        <a href="annotation.html">Semantic Annotation</a>
+      </li>
+      <li>
+        <a href="steps-to-create-core-epi.html">Step to create ePI</a>
+      </li>
+      <li>
+        <a href="general-technical-conformance-requirements.html">General Technical Conformance</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="capability.html">Capability</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifact Index</a>
+  </li>
+  <li>
+    <a href="appendicies.html">Appendices</a>
+  </li>
+  <li>
+    <a href="downloads.html">Downloads</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Electronic Medicinal Product Information (ePI) FHIR Implementation Guide, published by . This is not an authorized publication; it is the continuous build for version 1.0.0-ballot). This version is based on the current content of <a href="https://github.com/joofio/vulcan-eproduct-info">https://github.com/joofio/vulcan-eproduct-info</a> and changes regularly. See the <a href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Artifacts Summary</h2>
+  
+  
+  
+  <!--DO NOT EDIT THIS FILE - It is generated and any changes made will be overwritten--><div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir"
+     class="markdown-toc">
+   <p>Contents:</p>
+   <ul>
+      <li>
+         <a href="#1">ePI full document</a>
+      </li>
+      <li>
+         <a href="#2">Behavior: Capability Statements</a>
+      </li>
+      <li>
+         <a href="#3">Structures: Resource Profiles</a>
+      </li>
+      <li>
+         <a href="#4">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#6">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#7">Example: Example Instances</a>
+      </li>
+   </ul>
+</div>
+<div xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.w3.org/1999/xhtml"
+     xmlns:f="http://hl7.org/fhir">
+   <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
+   <a name="1"> </a>
+   <h3>ePI full document </h3>
+   <p>
+    <p>ePI document Bundles</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-2d49ae46735143c1323423b7aea24165.html"
+                     title="Bundle/bundlepackageleaflet-2d49ae46735143c1323423b7aea24165">ePI document Bundle for Karvea 75 mg Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for Karvea 75 mg Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-2e8a8b1c9142de3ac8de0723812d3fef.html"
+                     title="Bundle/bundlepackageleaflet-2e8a8b1c9142de3ac8de0723812d3fef">ePI document Bundle for adalimumab Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for adalimumab Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-31887cbcd4c018e35f958e5f8547dd66.html"
+                     title="Bundle/bundlepackageleaflet-31887cbcd4c018e35f958e5f8547dd66">ePI document Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for Humalog Insulin Lispro 100u/ml Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-3a3583227b4c5b0887f1e0d38269b469.html"
+                     title="Bundle/bundlepackageleaflet-3a3583227b4c5b0887f1e0d38269b469">ePI document Bundle for humira Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for humira Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e.html"
+                     title="Bundle/bundlepackageleaflet-5aa8042f9b2bea12d814ccaf27f6d64e">ePI document Bundle for acmedrug Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for acmedrug Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37.html"
+                     title="Bundle/bundlepackageleaflet-87263ad77afb6e39aa59e421ea0b6b37">ePI document Bundle for Pentasa Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for Pentasa Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-925dad38f0afbba36223a82b3a766438.html"
+                     title="Bundle/bundlepackageleaflet-925dad38f0afbba36223a82b3a766438">ePI document Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-9e0b95f2943e17e9a39046404c6cce71.html"
+                     title="Bundle/bundlepackageleaflet-9e0b95f2943e17e9a39046404c6cce71">ePI document Bundle for dolocatil Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for dolocatil Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-af8224f8c853d17daf5ea6782cb5a097.html"
+                     title="Bundle/bundlepackageleaflet-af8224f8c853d17daf5ea6782cb5a097">ePI document Bundle for cinitrapide Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for cinitrapide Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-dbd5a91e4cf6998bdbd8827ab1854e65.html"
+                     title="Bundle/bundlepackageleaflet-dbd5a91e4cf6998bdbd8827ab1854e65">ePI document Bundle for mirtazapine-cinfa Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for mirtazapine-cinfa Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-e2464a7d3d627b9df9bef5bc3b263fb4.html"
+                     title="Bundle/bundlepackageleaflet-e2464a7d3d627b9df9bef5bc3b263fb4">ePI document Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-cfsb1651596479132.html" title="Bundle/cfsb1651596479132">Vulcan Dovato FHIR Package Insert EMA</a>
+               </td>
+               <td>
+<p>English Instance of Dovato package insert for Connectathon testing</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-cfsb1651596479133.html" title="Bundle/cfsb1651596479133">Vulcan Biktarvy FHIR Package Insert EMA</a>
+               </td>
+               <td>
+<p>English Instance of Biktarvy package insert for Connectathon testing</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-cfsb1651597532341.html" title="Bundle/cfsb1651597532341">Vulcan Dovato FHIR Package Insert EMA ESP</a>
+               </td>
+               <td>
+<p>Spanish Instance of Dovato package insert for Connectathon testing</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Behavior: Capability Statements </h3>
+   <p>
+    <p>The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CapabilityStatement-epi-server.html"
+                     title="CapabilityStatement/epi-server">epi-server</a>
+               </td>
+               <td>
+<p>This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification.</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Structures: Resource Profiles </h3>
+   <p>
+    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-AdministrableProductDefinition-uv-epi.html"
+                     title="StructureDefinition/AdministrableProductDefinition-uv-epi">AdministrableProductDefinition (ePI)</a>
+               </td>
+               <td>
+<p>AdministrableProductDefinition (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Bundle-uv-epi.html"
+                     title="StructureDefinition/Bundle-uv-epi">Bundle - ePI</a>
+               </td>
+               <td>
+<p>Medicinal product information is a pivotal source of regulated and scientifically validated information that assists healthcare professionals in prescribing and dispensing the medicine and informs consumers about its safe and effective use. This profile represents the constraints applied to the Bundle resource used in the Electronic Product Information (ePI) FHIR Implementation Guide.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-contraindication-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi">ClinicalUseDefinition Contraindication (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Contraindication (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-indication-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-indication-uv-epi">ClinicalUseDefinition Indication (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Indication (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-interaction-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-interaction-uv-epi">ClinicalUseDefinition Interaction (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Interaction (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi">ClinicalUseDefinition Undesirable Effect (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Undesirable Effect (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ClinicalUseDefinition-warning-uv-epi.html"
+                     title="StructureDefinition/ClinicalUseDefinition-warning-uv-epi">ClinicalUseDefinition Warning (ePI)</a>
+               </td>
+               <td>
+<p>ClinicalUseDefinition Warning (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Composition-uv-epi.html"
+                     title="StructureDefinition/Composition-uv-epi">Composition (ePI)</a>
+               </td>
+               <td>
+<p>The Composition captures the section headings, sub-section headings, and narrative text (For example, paragraphs, bulleted lists, tables) in an ePI.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Ingredient-uv-epi.html"
+                     title="StructureDefinition/Ingredient-uv-epi">Ingredient (ePI)</a>
+               </td>
+               <td>
+<p>Ingredient (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ManufacturedItemDefinition-uv-epi.html"
+                     title="StructureDefinition/ManufacturedItemDefinition-uv-epi">ManufacturedItemDefinition (ePI)</a>
+               </td>
+               <td>
+<p>ManufacturedItemDefinition (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-MedicinalProductDefinition-uv-epi.html"
+                     title="StructureDefinition/MedicinalProductDefinition-uv-epi">MedicinalProductDefinition (ePI)</a>
+               </td>
+               <td>
+<p>Description of the packaged authorized medicinal product(s) associated to this ePI document.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-Organization-uv-epi.html"
+                     title="StructureDefinition/Organization-uv-epi">Organization (ePI)</a>
+               </td>
+               <td>
+<p>Organization (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PackagedProductDefinition-uv-epi.html"
+                     title="StructureDefinition/PackagedProductDefinition-uv-epi">PackagedProductDefinition (ePI)</a>
+               </td>
+               <td>
+<p>PackagedProductDefinition (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-RegulatedAuthorization-uv-epi.html"
+                     title="StructureDefinition/RegulatedAuthorization-uv-epi">RegulatedAuthorization (ePI)</a>
+               </td>
+               <td>
+<p>RegulatedAuthorization (ePI)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-SubstanceDefinition-uv-epi.html"
+                     title="StructureDefinition/SubstanceDefinition-uv-epi">SubstanceDefinition (ePI)</a>
+               </td>
+               <td>
+<p>SubstanceDefinition (ePI)</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-htmlElementLink.html"
+                     title="StructureDefinition/htmlElementLink">htmlElementLink</a>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-additionalMonitoringIndicator.html"
+                     title="ValueSet/additionalMonitoringIndicator">Additional Monitoring Indicator</a>
+               </td>
+               <td>
+<p>Additional Monitoring Indicator</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-admProductIdSystems.html"
+                     title="ValueSet/admProductIdSystems">AdministrableProductDefinition identifier systems</a>
+               </td>
+               <td>
+<p>AdministrableProductDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-atcClassification.html"
+                     title="ValueSet/atcClassification">WHO ATC</a>
+               </td>
+               <td>
+<p>World Health Organization Anatomical Therapeutic Chemical (ATC) classification system</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-authorizationStatus.html"
+                     title="ValueSet/authorizationStatus">Authorization Status</a>
+               </td>
+               <td>
+<p>Authorization Status</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-caseIdSystem.html" title="ValueSet/caseIdSystem">Case System Identifiers</a>
+               </td>
+               <td>
+<p>Case System Identifiers</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-country.html" title="ValueSet/country">ISO Country two letter code</a>
+               </td>
+               <td>
+<p>ISO Country two letter code</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-dataCarrierIdSystem.html"
+                     title="ValueSet/dataCarrierIdSystem">Data Carrier Identifiers</a>
+               </td>
+               <td>
+<p>Listing of identifiers for Data Carriers</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-epiType.html" title="ValueSet/epiType">ePI document types</a>
+               </td>
+               <td>
+<p>ePI document types</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-exampleUseCodesForList.html"
+                     title="ValueSet/exampleUseCodesForList">The topic of this list</a>
+               </td>
+               <td>
+<p>The topic of this list</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-generalStatus.html" title="ValueSet/generalStatus">General Status used across ePI resources</a>
+               </td>
+               <td>
+<p>General Status used across ePI resources</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-legalStatusOfSupply.html"
+                     title="ValueSet/legalStatusOfSupply">Legal Status for the Supply</a>
+               </td>
+               <td>
+<p>Legal Status for the Supply</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-manufacturedItemIdSystems.html"
+                     title="ValueSet/manufacturedItemIdSystems">ManufacturedItemDefinition identifier systems</a>
+               </td>
+               <td>
+<p>ManufacturedItemDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-marketingStatus.html" title="ValueSet/marketingStatus">Marketing Status</a>
+               </td>
+               <td>
+<p>Marketing Status</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VsMedProductIdSystems.html"
+                     title="ValueSet/VsMedProductIdSystems">MedicinalProductDefinition identifier systems</a>
+               </td>
+               <td>
+<p>MedicinalProductDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-medProductType.html" title="ValueSet/medProductType">Medicinal Product Type</a>
+               </td>
+               <td>
+<p>Medicinal Product Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-meddra.html" title="ValueSet/meddra">MedDRA Terms for clinical diseases and symptoms</a>
+               </td>
+               <td>
+<p>MedDRA Terms for clinical diseases and symptoms</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-nonproprietaryNamePart.html"
+                     title="ValueSet/nonproprietaryNamePart">Non-proprietary Name of the active ingredient(s)</a>
+               </td>
+               <td>
+<p>Non-proprietary Name of the active ingredient(s)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-operationType.html" title="ValueSet/operationType">Type of operation</a>
+               </td>
+               <td>
+<p>Type of operation</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-organizationIdSystems.html"
+                     title="ValueSet/organizationIdSystems">Organization identifier systems</a>
+               </td>
+               <td>
+<p>Organization Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-organizationType.html" title="ValueSet/organizationType">Type of organization</a>
+               </td>
+               <td>
+<p>Type of organization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-packageMaterial.html" title="ValueSet/packageMaterial">Package Material</a>
+               </td>
+               <td>
+<p>Package Material</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-packageType.html" title="ValueSet/packageType">High level Pack Type</a>
+               </td>
+               <td>
+<p>High level type of pack; e.g., medicinal product pack, sample pack, shipping container.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-packagedProductIdSystems.html"
+                     title="ValueSet/packagedProductIdSystems">PackagedProductDefinition identifier systems</a>
+               </td>
+               <td>
+<p>PackagedProductDefinition Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-partType.html" title="ValueSet/partType">Part Type</a>
+               </td>
+               <td>
+<p>Part Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-pediatricUseIndicator.html"
+                     title="ValueSet/pediatricUseIndicator">Pediatric Use Indicator</a>
+               </td>
+               <td>
+<p>Pediatric Use Indicator</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-PharmaceuticalDoseForm.html"
+                     title="ValueSet/PharmaceuticalDoseForm">Combined Pharmaceutical Dose Form</a>
+               </td>
+               <td>
+<p>Combined Pharmaceutical Dose Form</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-pharmaceuticalDoseFormPart.html"
+                     title="ValueSet/pharmaceuticalDoseFormPart">Pharmaceutical Dose Form of the medicinal product</a>
+               </td>
+               <td>
+<p>Pharmaceutical Dose Form of the medicinal product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-productConfidentialityIdSystems.html"
+                     title="ValueSet/productConfidentialityIdSystems">Product Confidentiality</a>
+               </td>
+               <td>
+<p>Product Confidentiality</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-productNamePartType.html"
+                     title="ValueSet/productNamePartType">Product Name Part Type</a>
+               </td>
+               <td>
+<p>Product Name Part Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyColor.html" title="ValueSet/propertyColor">Color of the product</a>
+               </td>
+               <td>
+<p>Color of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyFlavor.html" title="ValueSet/propertyFlavor">Flavor of the product</a>
+               </td>
+               <td>
+<p>Flavor of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyScore.html" title="ValueSet/propertyScore">Score on the product</a>
+               </td>
+               <td>
+<p>Score on the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-propertyShape.html" title="ValueSet/propertyShape">Shape of the product</a>
+               </td>
+               <td>
+<p>Shape of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VsPropertySurfaceForm.html"
+                     title="ValueSet/VsPropertySurfaceForm">Surface form of the product</a>
+               </td>
+               <td>
+<p>Surface form of the product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-proprietaryNamePart.html"
+                     title="ValueSet/proprietaryNamePart">Proprietary Name of the medicinal product</a>
+               </td>
+               <td>
+<p>Proprietary Name of the medicinal product</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VsRegulatedAuthorization.html"
+                     title="ValueSet/VsRegulatedAuthorization">Type of Regulated Authorization</a>
+               </td>
+               <td>
+<p>Type of Regulated Authorization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-RegulatedAuthorizationTypeIdSystems.html"
+                     title="ValueSet/RegulatedAuthorizationTypeIdSystems">Regulated Authorization Type identifier systems</a>
+               </td>
+               <td>
+<p>Regulated Authorization Type Identifier systems (uri)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-regulatoryActivityType.html"
+                     title="ValueSet/regulatoryActivityType">Regulatory Activity Type</a>
+               </td>
+               <td>
+<p>Regulatory Activity Type; e.g., MAA</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-roleClassIngredientEntity.html"
+                     title="ValueSet/roleClassIngredientEntity">Ingredient Role; e.g., inactive, active base, active moiety</a>
+               </td>
+               <td>
+<p>Ingredient Role; e.g., inactive, active base, active moiety</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-routeOfAdministration.html"
+                     title="ValueSet/routeOfAdministration">Route Of Administration</a>
+               </td>
+               <td>
+<p>Route Of Administration</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-secondaryPrimaryPackType.html"
+                     title="ValueSet/secondaryPrimaryPackType">Pack Type</a>
+               </td>
+               <td>
+<p>Pack Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-sectionCode.html" title="ValueSet/sectionCode">Section Codes</a>
+               </td>
+               <td>
+<p>Section Codes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-shelfLifeType.html" title="ValueSet/shelfLifeType">Shelf Life Type</a>
+               </td>
+               <td>
+<p>Shelf Life Type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-specialPrecautionsForStorage.html"
+                     title="ValueSet/specialPrecautionsForStorage">Special Precautions For Storage</a>
+               </td>
+               <td>
+<p>Special Precautions For Storage</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-strengthPart.html" title="ValueSet/strengthPart">Strength of the medicinal product name</a>
+               </td>
+               <td>
+<p>Strength of the medicinal product name</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-substance.html" title="ValueSet/substance">Substances</a>
+               </td>
+               <td>
+<p>Substances</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-unitofMeasure.html" title="ValueSet/unitofMeasure">Units of Measure</a>
+               </td>
+               <td>
+<p>Units of Measure</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-unitofPresentation.html"
+                     title="ValueSet/unitofPresentation">Units of Presentation</a>
+               </td>
+               <td>
+<p>Units of Presentation</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="6"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-gravitate.html" title="CodeSystem/gravitate">eMedicinal Product Information Code System</a>
+               </td>
+               <td>
+<p>eMedicinal Product Information Code System. Coded concepts defined for internal project use.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRomswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRomswi">Organization Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/omswi</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRpmswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRpmswi">Products Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/pmswi</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRrmswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRrmswi">Referentials Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/rmswi</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CodeSystemUvEPIRsmswi.html"
+                     title="CodeSystem/CodeSystemUvEPIRsmswi">Substances Management Services CodeSystem</a>
+               </td>
+               <td>
+<p>Items from https://spor.ema.europa.eu/smswi</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="7"> </a>
+   <h3>Example: Example Instances </h3>
+   <p>
+    <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-08ac066220d4d68a3933a9c94bef32ff.html"
+                     title="AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff">Administrable product DOLOCATIL 1 g tablets </a>
+               </td>
+               <td>
+<p>DOLOCATIL 1 g tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-1a7318638ddbbeb084ef416e717b6fdb.html"
+                     title="AdministrableProductDefinition/ap-1a7318638ddbbeb084ef416e717b6fdb">Administrable product Pentasa Slow Release Tablets 1g</a>
+               </td>
+               <td>
+<p>Pentasa Slow Release Tablets 1g</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-2e8a8b1c9142de3ac8de0723812d3fef.html"
+                     title="AdministrableProductDefinition/ap-2e8a8b1c9142de3ac8de0723812d3fef">Administrable product adalimumab</a>
+               </td>
+               <td>
+<p>adalimumab</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-49178f16170ee8a6bc2a4361c1748d5f.html"
+                     title="AdministrableProductDefinition/ap-49178f16170ee8a6bc2a4361c1748d5f">Administrable product Dovato 50 mg/300 mg film-coated tablets</a>
+               </td>
+               <td>
+<p>Dovato 50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-5aa8042f9b2bea12d814ccaf27f6d64e.html"
+                     title="AdministrableProductDefinition/ap-5aa8042f9b2bea12d814ccaf27f6d64e">Administrable product acmedrug</a>
+               </td>
+               <td>
+<p>acmedrug</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-66d97ddf0e95a23a3c0f4f2102139f34.html"
+                     title="AdministrableProductDefinition/ap-66d97ddf0e95a23a3c0f4f2102139f34">Administrable product Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens</a>
+               </td>
+               <td>
+<p>Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-925dad38f0afbba36223a82b3a766438.html"
+                     title="AdministrableProductDefinition/ap-925dad38f0afbba36223a82b3a766438">Administrable product CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES</a>
+               </td>
+               <td>
+<p>CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-9b5b17469311c2ea4d1d08419748b4fb.html"
+                     title="AdministrableProductDefinition/ap-9b5b17469311c2ea4d1d08419748b4fb">Administrable product Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)</a>
+               </td>
+               <td>
+<p>Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-da0fc2395ce219262dfd4f0c9a9f72e1.html"
+                     title="AdministrableProductDefinition/ap-da0fc2395ce219262dfd4f0c9a9f72e1">Administrable product BLASTON 1 mg tablets</a>
+               </td>
+               <td>
+<p>BLASTON 1 mg tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-dcaa4d32aa6658a8df831551503e52ee.html"
+                     title="AdministrableProductDefinition/ap-dcaa4d32aa6658a8df831551503e52ee">Administrable product Karvea 75mg tablet</a>
+               </td>
+               <td>
+<p>Karvea 75mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-e762a2f54b0b24fca4744b1bb7524a5b.html"
+                     title="AdministrableProductDefinition/ap-e762a2f54b0b24fca4744b1bb7524a5b">Administrable product MIRTAZAPINA CINFA 30 mg Coated Tablet</a>
+               </td>
+               <td>
+<p>MIRTAZAPINA CINFA 30 mg Coated Tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-ap-fa2090b7ce9bdf87e24a9d05bbb51677.html"
+                     title="AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677">Administrable product Humalog 100 U/ml 5 pre-filled pen</a>
+               </td>
+               <td>
+<p>Humalog 100 U/ml 5 pre-filled pen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization08ac066220d4d68a3933a9c94bef32ff.html"
+                     title="RegulatedAuthorization/authorization08ac066220d4d68a3933a9c94bef32ff">Regulated Authorization for DOLOCATIL 1 g tablets </a>
+               </td>
+               <td>
+<p>Regulated Authorization for DOLOCATIL 1 g tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization2e8a8b1c9142de3ac8de0723812d3fef.html"
+                     title="RegulatedAuthorization/authorization2e8a8b1c9142de3ac8de0723812d3fef">Regulated Authorization for adalimumab</a>
+               </td>
+               <td>
+<p>Regulated Authorization for adalimumab</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization35570a7ffa4ad1ddf8a920b1728d4cd2.html"
+                     title="RegulatedAuthorization/authorization35570a7ffa4ad1ddf8a920b1728d4cd2">Regulated Authorization for Humalog </a>
+               </td>
+               <td>
+<p>Regulated Authorization for Humalog</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization49178f16170ee8a6bc2a4361c1748d5f.html"
+                     title="RegulatedAuthorization/authorization49178f16170ee8a6bc2a4361c1748d5f">Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets</a>
+               </td>
+               <td>
+<p>Regulated Authorization for Dovato 50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4.html"
+                     title="RegulatedAuthorization/authorization4c6fd7bcbb34ab6e64e45a5035e4e5f4">Regulated Authorization for PENTASA 1g Prolonged-release tablet</a>
+               </td>
+               <td>
+<p>Regulated Authorization for PENTASA 1g Prolonged-release tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization5aa8042f9b2bea12d814ccaf27f6d64e.html"
+                     title="RegulatedAuthorization/authorization5aa8042f9b2bea12d814ccaf27f6d64e">Regulated Authorization for acme drug</a>
+               </td>
+               <td>
+<p>Regulated Authorization for acme drug</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization816b7da4abc60b3e9ae3b37146463f8a.html"
+                     title="RegulatedAuthorization/authorization816b7da4abc60b3e9ae3b37146463f8a">Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe</a>
+               </td>
+               <td>
+<p>Regulated Authorization for Humira 20 mg solution for injection in pre-filled syringe</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorization925dad38f0afbba36223a82b3a766438.html"
+                     title="RegulatedAuthorization/authorization925dad38f0afbba36223a82b3a766438">Regulated Authorization for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES</a>
+               </td>
+               <td>
+<p>Regulated Authorization for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorizationa9517814b36bf7381b0a946a09cda2e4.html"
+                     title="RegulatedAuthorization/authorizationa9517814b36bf7381b0a946a09cda2e4">Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen</a>
+               </td>
+               <td>
+<p>Regulated Authorization for Suliqua 100 units/ml + 50 microgram/ml solution for injection in a pre-filled pen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorizationda0fc2395ce219262dfd4f0c9a9f72e1.html"
+                     title="RegulatedAuthorization/authorizationda0fc2395ce219262dfd4f0c9a9f72e1">Regulated Authorization for BLASTON 1 mg tablets</a>
+               </td>
+               <td>
+<p>Regulated Authorization for BLASTON 1 mg tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorizationdcaa4d32aa6658a8df831551503e52ee.html"
+                     title="RegulatedAuthorization/authorizationdcaa4d32aa6658a8df831551503e52ee">Regulated Authorization for karvea 75 mg tablet</a>
+               </td>
+               <td>
+<p>Regulated Authorization for karvea 75 mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-authorizatione762a2f54b0b24fca4744b1bb7524a5b.html"
+                     title="RegulatedAuthorization/authorizatione762a2f54b0b24fca4744b1bb7524a5b">Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet</a>
+               </td>
+               <td>
+<p>Regulated Authorization for MIRTAZAPINA CINFA 30 mg Coated Tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08.html"
+                     title="Bundle/bundlepackageleaflet-6eb523b7a88cd6dcee848368833cbd08">ePI document Bundle for dovato Package Leaflet</a>
+               </td>
+               <td>
+<p>Bundle for dovato Package Leaflet ePI document</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-cfsb1650904258324.html"
+                     title="MedicinalProductDefinition/cfsb1650904258324">cfsb1650904258324</a>
+               </td>
+               <td>
+<p>EU/1/19/1370/001 Dovato 50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-cfsb1650995718524.html"
+                     title="PackagedProductDefinition/cfsb1650995718524">cfsb1650995718524</a>
+               </td>
+               <td>
+<p>50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-cfsb1650997423990.html"
+                     title="Organization/cfsb1650997423990">cfsb1650997423990</a>
+               </td>
+               <td>
+<p>Manufacturer</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-cfsb1650998521654.html"
+                     title="ManufacturedItemDefinition/cfsb1650998521654">cfsb1650998521654</a>
+               </td>
+               <td>
+<p>Manufactured Item: Dovato 50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-cfsb1650999516847.html"
+                     title="AdministrableProductDefinition/cfsb1650999516847">cfsb1650999516847</a>
+               </td>
+               <td>
+<p>Dovato 50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-cfsb1651148079894.html"
+                     title="RegulatedAuthorization/cfsb1651148079894">cfsb1651148079894</a>
+               </td>
+               <td>
+<p>Regulated authorization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-cfsb1651149636159.html"
+                     title="Organization/cfsb1651149636159">cfsb1651149636159</a>
+               </td>
+               <td>
+<p>Marketing Authorization Holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-cfsb1651152112409.html"
+                     title="Organization/cfsb1651152112409">cfsb1651152112409</a>
+               </td>
+               <td>
+<p>Regulator</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1651162710491.html"
+                     title="Ingredient/cfsb1651162710491">cfsb1651162710491</a>
+               </td>
+               <td>
+<p>dolutegravir</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1651164758053.html"
+                     title="Ingredient/cfsb1651164758053">cfsb1651164758053</a>
+               </td>
+               <td>
+<p>lamivudine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1651170791283.html"
+                     title="Ingredient/cfsb1651170791283">cfsb1651170791283</a>
+               </td>
+               <td>
+<p>microcrystalline cellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1651229974487.html"
+                     title="Ingredient/cfsb1651229974487">cfsb1651229974487</a>
+               </td>
+               <td>
+<p>sodium starch glycolate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1651230170831.html"
+                     title="Ingredient/cfsb1651230170831">cfsb1651230170831</a>
+               </td>
+               <td>
+<p>magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1651230330246.html"
+                     title="Ingredient/cfsb1651230330246">cfsb1651230330246</a>
+               </td>
+               <td>
+<p>mannitol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-cfsb1651231019151.html"
+                     title="Composition/cfsb1651231019151">cfsb1651231019151</a>
+               </td>
+               <td>
+<p>Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-cfsb1651231019153.html"
+                     title="Composition/cfsb1651231019153">cfsb1651231019153</a>
+               </td>
+               <td>
+<p>Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-cfsb1651234995610.html"
+                     title="Composition/cfsb1651234995610">cfsb1651234995610</a>
+               </td>
+               <td>
+<p>Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="RegulatedAuthorization-cfsb1665505019066.html"
+                     title="RegulatedAuthorization/cfsb1665505019066">cfsb1665505019066</a>
+               </td>
+               <td>
+<p>RegulatedAuthorization1</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-cfsb1665505132093.html"
+                     title="Organization/cfsb1665505132093">cfsb1665505132093</a>
+               </td>
+               <td>
+<p>Marketing Authorization Holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-cfsb1665505181936.html"
+                     title="Organization/cfsb1665505181936">cfsb1665505181936</a>
+               </td>
+               <td>
+<p>Regulator</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1665505232916.html"
+                     title="Ingredient/cfsb1665505232916">cfsb1665505232916</a>
+               </td>
+               <td>
+<p>Bictegravir</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1665505279685.html"
+                     title="Ingredient/cfsb1665505279685">cfsb1665505279685</a>
+               </td>
+               <td>
+<p>Embtricitabine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-cfsb1665505881364.html"
+                     title="MedicinalProductDefinition/cfsb1665505881364">cfsb1665505881364</a>
+               </td>
+               <td>
+<p>54347 MAGNESIOBOI 48,62 mg COMPRIMIDOS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-cfsb1665505991728.html"
+                     title="MedicinalProductDefinition/cfsb1665505991728">cfsb1665505991728</a>
+               </td>
+               <td>
+<p>EU/1/18/1289/001</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-cfsb1665507846505.html"
+                     title="AdministrableProductDefinition/cfsb1665507846505">cfsb1665507846505</a>
+               </td>
+               <td>
+<p>Biktarvy 50 mg/200 mg/25 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="AdministrableProductDefinition-cfsb1665507849181.html"
+                     title="AdministrableProductDefinition/cfsb1665507849181">cfsb1665507849181</a>
+               </td>
+               <td>
+<p>Magnesioboi 48,62 mg comprimidos</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666195249780.html"
+                     title="Ingredient/cfsb1666195249780">cfsb1666195249780</a>
+               </td>
+               <td>
+<p>MAGNESIUM LACTATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666195266647.html"
+                     title="Ingredient/cfsb1666195266647">cfsb1666195266647</a>
+               </td>
+               <td>
+<p>tenofovir alafenamide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666197203511.html"
+                     title="Ingredient/cfsb1666197203511">cfsb1666197203511</a>
+               </td>
+               <td>
+<p>Lactose monohydrate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666197397224.html"
+                     title="Ingredient/cfsb1666197397224">cfsb1666197397224</a>
+               </td>
+               <td>
+<p>Microcrystalline cellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666197441225.html"
+                     title="Ingredient/cfsb1666197441225">cfsb1666197441225</a>
+               </td>
+               <td>
+<p>Croscarmellose sodium</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666197470356.html"
+                     title="Ingredient/cfsb1666197470356">cfsb1666197470356</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666197552249.html"
+                     title="Ingredient/cfsb1666197552249">cfsb1666197552249</a>
+               </td>
+               <td>
+<p>MACROGOL 6000</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666197990155.html"
+                     title="Ingredient/cfsb1666197990155">cfsb1666197990155</a>
+               </td>
+               <td>
+<p>MAGNESIUM STEARATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-cfsb1666198119118.html"
+                     title="Ingredient/cfsb1666198119118">cfsb1666198119118</a>
+               </td>
+               <td>
+<p>Talc</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-cfsb1667576615115.html"
+                     title="ManufacturedItemDefinition/cfsb1667576615115">cfsb1667576615115</a>
+               </td>
+               <td>
+<p>Biktarvy 50 mg/200 mg/25 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-cfsb1667576759979.html"
+                     title="ManufacturedItemDefinition/cfsb1667576759979">cfsb1667576759979</a>
+               </td>
+               <td>
+<p>Magnesioboi 48,62 mg comprimidos</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-cfsb1667578264482.html"
+                     title="Organization/cfsb1667578264482">cfsb1667578264482</a>
+               </td>
+               <td>
+<p>Marketing Authorization Holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-cfsb1667579389819.html"
+                     title="Organization/cfsb1667579389819">cfsb1667579389819</a>
+               </td>
+               <td>
+<p>Marketing Authorization Holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-cfsb1667580052450.html"
+                     title="PackagedProductDefinition/cfsb1667580052450">cfsb1667580052450</a>
+               </td>
+               <td>
+<p>90 (3 bottles of 30) film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-cfsb1667580056388.html"
+                     title="PackagedProductDefinition/cfsb1667580056388">cfsb1667580056388</a>
+               </td>
+               <td>
+<p>Packaging Blister x50 tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition02e928f15b7b861b4b44915d9f1330ec.html"
+                     title="Composition/composition02e928f15b7b861b4b44915d9f1330ec">Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for CALCIO/VITAMINA D3 ROVI 1000 mg/880 UI COMPRIMIDOS EFERVESCENTES Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition16598f252d07b4784b82ba43cf9e847e.html"
+                     title="Composition/composition16598f252d07b4784b82ba43cf9e847e">Composition for  Dovato 50 mg/300 mg film-coated tablets Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for  Dovato 50 mg/300 mg film-coated tablets Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition2e8a8b1c9142de3ac8de0723812d3fef.html"
+                     title="Composition/composition2e8a8b1c9142de3ac8de0723812d3fef">Composition for adalimumab Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for adalimumab Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition34060417eeae4622c4674a9c4100d2ed.html"
+                     title="Composition/composition34060417eeae4622c4674a9c4100d2ed">Composition for paracetamol Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for paracetamol Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition3a3583227b4c5b0887f1e0d38269b469.html"
+                     title="Composition/composition3a3583227b4c5b0887f1e0d38269b469">Composition for humira Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for humira Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition45f3604d61f93f5f026bea5d5824af10.html"
+                     title="Composition/composition45f3604d61f93f5f026bea5d5824af10">Composition for Humalog Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for Humalog Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition50a5afca79d8be359ec08791f767639f.html"
+                     title="Composition/composition50a5afca79d8be359ec08791f767639f">Composition for Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for Prospecto Dovato 50 mg/300 mg comprimidos recubiertos con película Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition5aa8042f9b2bea12d814ccaf27f6d64e.html"
+                     title="Composition/composition5aa8042f9b2bea12d814ccaf27f6d64e">Composition for acmedrug Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for acmedrug Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-composition7a7ff0f4e1993c2fdabba6c8d9931a52.html"
+                     title="Composition/composition7a7ff0f4e1993c2fdabba6c8d9931a52">Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for MIRTAZAPINA CINFA 30 mg Coated Tablet Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-compositionaf8224f8c853d17daf5ea6782cb5a097.html"
+                     title="Composition/compositionaf8224f8c853d17daf5ea6782cb5a097">Composition for cinitrapide Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for cinitrapide Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-compositionb3a8d58c709a2281d8ad2a590fe81663.html"
+                     title="Composition/compositionb3a8d58c709a2281d8ad2a590fe81663">Composition for Pentasa Slow Release Tablets 1g Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for Pentasa Slow Release Tablets 1g Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-compositionb4adca48035e7857c0e645892ad2c66e.html"
+                     title="Composition/compositionb4adca48035e7857c0e645892ad2c66e">Composition for Suliqua Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for Suliqua Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Composition-compositionf4d45353edcb21af3718d3a0df94a4d8.html"
+                     title="Composition/compositionf4d45353edcb21af3718d3a0df94a4d8">Composition for Karvea Package Leaflet</a>
+               </td>
+               <td>
+<p>Composition for Karvea Package Leaflet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-contraindication-gastrointestinaldisorders.html"
+                     title="ClinicalUseDefinition/contraindication-gastrointestinaldisorders">contraindication-gastrointestinaldisorders</a>
+               </td>
+               <td>
+<p>contraindication - Gastrointestinal disorders</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-contraindication-hypersensitivityreaction.html"
+                     title="ClinicalUseDefinition/contraindication-hypersensitivityreaction">contraindication-hypersensitivityreaction</a>
+               </td>
+               <td>
+<p>contraindication - Hypersensitivity reaction</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-indication-hypertension.html"
+                     title="ClinicalUseDefinition/indication-hypertension">indication-hypertension</a>
+               </td>
+               <td>
+<p>indication - Hypertension</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-indication-psoriasis.html"
+                     title="ClinicalUseDefinition/indication-psoriasis">indication-psoriasis</a>
+               </td>
+               <td>
+<p>indication - Psoriasis</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-acmedrug-acmedruging1.html"
+                     title="Ingredient/ingredient-for-acmedrug-acmedruging1">Ingredient-active acmedrug-ing1</a>
+               </td>
+               <td>
+<p>acmedrug-ing1</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-acmedrug-acmedruging2.html"
+                     title="Ingredient/ingredient-for-acmedrug-acmedruging2">Ingredient-excipient acmedrug-ing2</a>
+               </td>
+               <td>
+<p>acmedrug-ing2</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-acmedrug-acmedruging3.html"
+                     title="Ingredient/ingredient-for-acmedrug-acmedruging3">Ingredient-excipient acmedrug-ing3</a>
+               </td>
+               <td>
+<p>acmedrug-ing3</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-adalimumab-glycerol85whodd.html"
+                     title="Ingredient/ingredient-for-adalimumab-glycerol85whodd">Ingredient-excipient GLYCEROL 85% [WHO-DD]</a>
+               </td>
+               <td>
+<p>GLYCEROL 85% [WHO-DD]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-adalimumab-insulinglargine.html"
+                     title="Ingredient/ingredient-for-adalimumab-insulinglargine">Ingredient-active Insulin glargine</a>
+               </td>
+               <td>
+<p>Insulin glargine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-adalimumab-lixisenatide.html"
+                     title="Ingredient/ingredient-for-adalimumab-lixisenatide">Ingredient-active Lixisenatide</a>
+               </td>
+               <td>
+<p>Lixisenatide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-anhydrouscitricacid.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-anhydrouscitricacid">Ingredient-excipient Anhydrous citric acid</a>
+               </td>
+               <td>
+<p>Anhydrous citric acid</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-calciumcarbonate.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-calciumcarbonate">Ingredient-active Calcium Carbonate</a>
+               </td>
+               <td>
+<p>Calcium Carbonate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-cholecalciferol.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-cholecalciferol">Ingredient-active cholecalciferol</a>
+               </td>
+               <td>
+<p>cholecalciferol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-hydrogenatedsoybeanoil.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-hydrogenatedsoybeanoil">Ingredient-active hydrogenated soybean oil</a>
+               </td>
+               <td>
+<p>hydrogenated soybean oil</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-lactosemonohydrate.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-lactosemonohydrate">Ingredient-active lactose monohydrate</a>
+               </td>
+               <td>
+<p>lactose monohydrate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-macrogol6000.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-macrogol6000">Ingredient-excipient macrogol 6000</a>
+               </td>
+               <td>
+<p>macrogol 6000</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-povidone.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-povidone">Ingredient-excipient povidone</a>
+               </td>
+               <td>
+<p>povidone</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-saccharinsodium.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-saccharinsodium">Ingredient-excipient saccharin sodium</a>
+               </td>
+               <td>
+<p>saccharin sodium</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-sodium.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-sodium">Ingredient-active Sodium</a>
+               </td>
+               <td>
+<p>Sodium</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-sodiumbicarbonate.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-sodiumbicarbonate">Ingredient-excipient sodium bicarbonate</a>
+               </td>
+               <td>
+<p>sodium bicarbonate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-sodiumcyclamate.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-sodiumcyclamate">Ingredient-excipient sodium cyclamate</a>
+               </td>
+               <td>
+<p>sodium cyclamate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-calciovitaminad-sucrose.html"
+                     title="Ingredient/ingredient-for-calciovitaminad-sucrose">Ingredient-active sucrose</a>
+               </td>
+               <td>
+<p>sucrose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-cinitrapide-cinitapride.html"
+                     title="Ingredient/ingredient-for-cinitrapide-cinitapride">Ingredient-active CINITAPRIDE</a>
+               </td>
+               <td>
+<p>CINITAPRIDE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-cinitrapide-magnesiumstearate.html"
+                     title="Ingredient/ingredient-for-cinitrapide-magnesiumstearate">Ingredient-excipient Magnesium stearate</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-cinitrapide-povidoneunspecified.html"
+                     title="Ingredient/ingredient-for-cinitrapide-povidoneunspecified">Ingredient-excipient POVIDONE, UNSPECIFIED</a>
+               </td>
+               <td>
+<p>POVIDONE, UNSPECIFIED</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-cinitrapide-silicacolloidalanhydrous.html"
+                     title="Ingredient/ingredient-for-cinitrapide-silicacolloidalanhydrous">Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS</a>
+               </td>
+               <td>
+<p>SILICA, COLLOIDAL ANHYDROUS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-cinitrapide-starchcorn.html"
+                     title="Ingredient/ingredient-for-cinitrapide-starchcorn">Ingredient-excipient STARCH, CORN</a>
+               </td>
+               <td>
+<p>STARCH, CORN</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-cinitrapide-starchpotato.html"
+                     title="Ingredient/ingredient-for-cinitrapide-starchpotato">Ingredient-excipient STARCH, POTATO</a>
+               </td>
+               <td>
+<p>STARCH, POTATO</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-dovato-dolutegravirsodium.html"
+                     title="Ingredient/ingredient-for-dovato-dolutegravirsodium">Ingredient-active DOLUTEGRAVIR SODIUM</a>
+               </td>
+               <td>
+<p>DOLUTEGRAVIR SODIUM</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-dovato-lamivudine.html"
+                     title="Ingredient/ingredient-for-dovato-lamivudine">Ingredient-active lamivudine</a>
+               </td>
+               <td>
+<p>lamivudine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-dovato-magnesiumstearate.html"
+                     title="Ingredient/ingredient-for-dovato-magnesiumstearate">Ingredient-excipient magnesium stearate</a>
+               </td>
+               <td>
+<p>magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-dovato-mannitol.html"
+                     title="Ingredient/ingredient-for-dovato-mannitol">Ingredient-excipient mannitol</a>
+               </td>
+               <td>
+<p>mannitol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-dovato-microcrystallinecellulose.html"
+                     title="Ingredient/ingredient-for-dovato-microcrystallinecellulose">Ingredient-excipient microcrystalline cellulose</a>
+               </td>
+               <td>
+<p>microcrystalline cellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-dovato-sodiumstarchglycolate.html"
+                     title="Ingredient/ingredient-for-dovato-sodiumstarchglycolate">Ingredient-excipient sodium starch glycolate</a>
+               </td>
+               <td>
+<p>sodium starch glycolate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-glycerol.html"
+                     title="Ingredient/ingredient-for-humalog-glycerol">Ingredient-excipient Glycerol</a>
+               </td>
+               <td>
+<p>Glycerol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-hydrochloricacid.html"
+                     title="Ingredient/ingredient-for-humalog-hydrochloricacid">Ingredient-excipient Hydrochloric acid</a>
+               </td>
+               <td>
+<p>Hydrochloric acid</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-insulinlispro.html"
+                     title="Ingredient/ingredient-for-humalog-insulinlispro">Ingredient-active Insulin Lispro</a>
+               </td>
+               <td>
+<p>Insulin Lispro</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-metacresol.html"
+                     title="Ingredient/ingredient-for-humalog-metacresol">Ingredient-excipient Metacresol</a>
+               </td>
+               <td>
+<p>Metacresol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-sodiumhydroxide.html"
+                     title="Ingredient/ingredient-for-humalog-sodiumhydroxide">Ingredient-excipient Sodium Hydroxide</a>
+               </td>
+               <td>
+<p>Sodium Hydroxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-sterilewaterforinjection.html"
+                     title="Ingredient/ingredient-for-humalog-sterilewaterforinjection">Ingredient-excipient STERILE WATER FOR INJECTION</a>
+               </td>
+               <td>
+<p>STERILE WATER FOR INJECTION</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-trometamol.html"
+                     title="Ingredient/ingredient-for-humalog-trometamol">Ingredient-excipient Trometamol</a>
+               </td>
+               <td>
+<p>Trometamol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humalog-zincoxide.html"
+                     title="Ingredient/ingredient-for-humalog-zincoxide">Ingredient-excipient Zinc Oxide</a>
+               </td>
+               <td>
+<p>Zinc Oxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-adalimumab.html"
+                     title="Ingredient/ingredient-for-humira-adalimumab">Ingredient-active adalimumab</a>
+               </td>
+               <td>
+<p>adalimumab</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-citricacidmonohydrate.html"
+                     title="Ingredient/ingredient-for-humira-citricacidmonohydrate">Ingredient-excipient CITRIC ACID MONOHYDRATE</a>
+               </td>
+               <td>
+<p>CITRIC ACID MONOHYDRATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-mannitol.html"
+                     title="Ingredient/ingredient-for-humira-mannitol">Ingredient-excipient Mannitol</a>
+               </td>
+               <td>
+<p>Mannitol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-polysorbate80.html"
+                     title="Ingredient/ingredient-for-humira-polysorbate80">Ingredient-excipient Polysorbate 80</a>
+               </td>
+               <td>
+<p>Polysorbate 80</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-sodiumchloride.html"
+                     title="Ingredient/ingredient-for-humira-sodiumchloride">Ingredient-excipient Sodium chloride</a>
+               </td>
+               <td>
+<p>Sodium chloride</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-sodiumcitrateunspecifiedform.html"
+                     title="Ingredient/ingredient-for-humira-sodiumcitrateunspecifiedform">Ingredient-excipient SODIUM CITRATE, UNSPECIFIED FORM</a>
+               </td>
+               <td>
+<p>SODIUM CITRATE, UNSPECIFIED FORM</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-sodiumphosphatedibasicdihydrate.html"
+                     title="Ingredient/ingredient-for-humira-sodiumphosphatedibasicdihydrate">Ingredient-excipient SODIUM PHOSPHATE, DIBASIC, DIHYDRATE</a>
+               </td>
+               <td>
+<p>SODIUM PHOSPHATE, DIBASIC, DIHYDRATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-sodiumphosphatemonobasicdihydrate.html"
+                     title="Ingredient/ingredient-for-humira-sodiumphosphatemonobasicdihydrate">Ingredient-excipient SODIUM PHOSPHATE, MONOBASIC, DIHYDRATE</a>
+               </td>
+               <td>
+<p>SODIUM PHOSPHATE, MONOBASIC, DIHYDRATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-humira-sterilewaterforinjection.html"
+                     title="Ingredient/ingredient-for-humira-sterilewaterforinjection">Ingredient-excipient STERILE WATER FOR INJECTION</a>
+               </td>
+               <td>
+<p>STERILE WATER FOR INJECTION</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-carnaubawax.html"
+                     title="Ingredient/ingredient-for-karvea-carnaubawax">Ingredient-excipient Carnauba wax</a>
+               </td>
+               <td>
+<p>Carnauba wax</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-croscarmellosesodium.html"
+                     title="Ingredient/ingredient-for-karvea-croscarmellosesodium">Ingredient-excipient Croscarmellose sodium</a>
+               </td>
+               <td>
+<p>Croscarmellose sodium</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-hypromellose.html"
+                     title="Ingredient/ingredient-for-karvea-hypromellose">Ingredient-excipient Hypromellose</a>
+               </td>
+               <td>
+<p>Hypromellose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-irbesartan.html"
+                     title="Ingredient/ingredient-for-karvea-irbesartan">Ingredient-active irbesartan</a>
+               </td>
+               <td>
+<p>irbesartan</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-lactosemonohydrate.html"
+                     title="Ingredient/ingredient-for-karvea-lactosemonohydrate">Ingredient-excipient Lactose Monohydrate</a>
+               </td>
+               <td>
+<p>Lactose Monohydrate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-macrogol3000.html"
+                     title="Ingredient/ingredient-for-karvea-macrogol3000">Ingredient-excipient Macrogol 3000</a>
+               </td>
+               <td>
+<p>Macrogol 3000</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-magnesiumstearate.html"
+                     title="Ingredient/ingredient-for-karvea-magnesiumstearate">Ingredient-excipient Magnesium stearate</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-microcrystallinecellulose.html"
+                     title="Ingredient/ingredient-for-karvea-microcrystallinecellulose">Ingredient-excipient Microcrystalline cellulose</a>
+               </td>
+               <td>
+<p>Microcrystalline cellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-silicondioxide.html"
+                     title="Ingredient/ingredient-for-karvea-silicondioxide">Ingredient-excipient Silicon dioxide</a>
+               </td>
+               <td>
+<p>Silicon dioxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-karvea-titaniumdioxide.html"
+                     title="Ingredient/ingredient-for-karvea-titaniumdioxide">Ingredient-excipient Titanium Dioxide</a>
+               </td>
+               <td>
+<p>Titanium Dioxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-mirtazapine-cornstarch.html"
+                     title="Ingredient/ingredient-for-mirtazapine-cornstarch">Ingredient-excipient CORN STARCH</a>
+               </td>
+               <td>
+<p>CORN STARCH</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified.html"
+                     title="Ingredient/ingredient-for-mirtazapine-hydroxypropylcelluloseunspecified">Ingredient-excipient HYDROXYPROPYL CELLULOSE, UNSPECIFIED</a>
+               </td>
+               <td>
+<p>HYDROXYPROPYL CELLULOSE, UNSPECIFIED</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-mirtazapine-lactosemonohydrate.html"
+                     title="Ingredient/ingredient-for-mirtazapine-lactosemonohydrate">Ingredient-excipient LACTOSE MONOHYDRATE</a>
+               </td>
+               <td>
+<p>LACTOSE MONOHYDRATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-mirtazapine-magnesiumstearate.html"
+                     title="Ingredient/ingredient-for-mirtazapine-magnesiumstearate">Ingredient-excipient Magnesium stearate</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-mirtazapine-mirtazapine.html"
+                     title="Ingredient/ingredient-for-mirtazapine-mirtazapine">Ingredient-active Mirtazapine</a>
+               </td>
+               <td>
+<p>Mirtazapine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-mirtazapine-silicacolloidalanhydrous.html"
+                     title="Ingredient/ingredient-for-mirtazapine-silicacolloidalanhydrous">Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS</a>
+               </td>
+               <td>
+<p>SILICA, COLLOIDAL ANHYDROUS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-paracetamol-magnesiumstearate.html"
+                     title="Ingredient/ingredient-for-paracetamol-magnesiumstearate">Ingredient-excipient Magnesium stearate</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-paracetamol-paracetamol.html"
+                     title="Ingredient/ingredient-for-paracetamol-paracetamol">Ingredient-active paracetamol</a>
+               </td>
+               <td>
+<p>paracetamol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-paracetamol-povidoneunspecified.html"
+                     title="Ingredient/ingredient-for-paracetamol-povidoneunspecified">Ingredient-excipient POVIDONE, UNSPECIFIED</a>
+               </td>
+               <td>
+<p>POVIDONE, UNSPECIFIED</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-paracetamol-silicacolloidalanhydrous.html"
+                     title="Ingredient/ingredient-for-paracetamol-silicacolloidalanhydrous">Ingredient-excipient SILICA, COLLOIDAL ANHYDROUS</a>
+               </td>
+               <td>
+<p>SILICA, COLLOIDAL ANHYDROUS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-paracetamol-starchcorn.html"
+                     title="Ingredient/ingredient-for-paracetamol-starchcorn">Ingredient-excipient STARCH, CORN</a>
+               </td>
+               <td>
+<p>STARCH, CORN</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-paracetamol-starchpotato.html"
+                     title="Ingredient/ingredient-for-paracetamol-starchpotato">Ingredient-excipient STARCH, POTATO</a>
+               </td>
+               <td>
+<p>STARCH, POTATO</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-pentasa-ethylcellulose.html"
+                     title="Ingredient/ingredient-for-pentasa-ethylcellulose">Ingredient-excipient Ethylcellulose</a>
+               </td>
+               <td>
+<p>Ethylcellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-pentasa-magnesiumstearate.html"
+                     title="Ingredient/ingredient-for-pentasa-magnesiumstearate">Ingredient-excipient Magnesium stearate</a>
+               </td>
+               <td>
+<p>Magnesium stearate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-pentasa-mesalazine.html"
+                     title="Ingredient/ingredient-for-pentasa-mesalazine">Ingredient-active mesalazine</a>
+               </td>
+               <td>
+<p>mesalazine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-pentasa-microcrystallinecellulose.html"
+                     title="Ingredient/ingredient-for-pentasa-microcrystallinecellulose">Ingredient-excipient Microcrystalline cellulose</a>
+               </td>
+               <td>
+<p>Microcrystalline cellulose</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-pentasa-povidone.html"
+                     title="Ingredient/ingredient-for-pentasa-povidone">Ingredient-excipient Povidone</a>
+               </td>
+               <td>
+<p>Povidone</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-pentasa-talc.html"
+                     title="Ingredient/ingredient-for-pentasa-talc">Ingredient-excipient Talc</a>
+               </td>
+               <td>
+<p>Talc</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-glycerol85whodd.html"
+                     title="Ingredient/ingredient-for-suliqua-glycerol85whodd">Ingredient-excipient GLYCEROL 85% [WHO-DD]</a>
+               </td>
+               <td>
+<p>GLYCEROL 85% [WHO-DD]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-hydrochloricacidiarc.html"
+                     title="Ingredient/ingredient-for-suliqua-hydrochloricacidiarc">Ingredient-excipient HYDROCHLORIC ACID [IARC]</a>
+               </td>
+               <td>
+<p>HYDROCHLORIC ACID [IARC]</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-insulinglargine.html"
+                     title="Ingredient/ingredient-for-suliqua-insulinglargine">Ingredient-active Insulin glargine</a>
+               </td>
+               <td>
+<p>Insulin glargine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-lixisenatide.html"
+                     title="Ingredient/ingredient-for-suliqua-lixisenatide">Ingredient-active Lixisenatide</a>
+               </td>
+               <td>
+<p>Lixisenatide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-metacresol.html"
+                     title="Ingredient/ingredient-for-suliqua-metacresol">Ingredient-excipient Metacresol</a>
+               </td>
+               <td>
+<p>Metacresol</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-methionine.html"
+                     title="Ingredient/ingredient-for-suliqua-methionine">Ingredient-excipient Methionine</a>
+               </td>
+               <td>
+<p>Methionine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-sodiumhydroxide.html"
+                     title="Ingredient/ingredient-for-suliqua-sodiumhydroxide">Ingredient-excipient Sodium hydroxide</a>
+               </td>
+               <td>
+<p>Sodium hydroxide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-sterilewaterforinjection.html"
+                     title="Ingredient/ingredient-for-suliqua-sterilewaterforinjection">Ingredient-excipient STERILE WATER FOR INJECTION</a>
+               </td>
+               <td>
+<p>STERILE WATER FOR INJECTION</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Ingredient-ingredient-for-suliqua-zincchloride.html"
+                     title="Ingredient/ingredient-for-suliqua-zincchloride">Ingredient-excipient Zinc chloride</a>
+               </td>
+               <td>
+<p>Zinc chloride</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-interaction-bezafibrat.html"
+                     title="ClinicalUseDefinition/interaction-bezafibrat">interaction-bezafibrat</a>
+               </td>
+               <td>
+<p>interaction - Bezafibrat</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ClinicalUseDefinition-interaction-methotrexate.html"
+                     title="ClinicalUseDefinition/interaction-methotrexate">interaction-methotrexate</a>
+               </td>
+               <td>
+<p>interaction - METHOTREXATE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-08ac066220d4d68a3933a9c94bef32ff.html"
+                     title="ManufacturedItemDefinition/mid-08ac066220d4d68a3933a9c94bef32ff">Manufactured item DOLOCATIL 1 g tablets </a>
+               </td>
+               <td>
+<p>DOLOCATIL 1 g tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-1a7318638ddbbeb084ef416e717b6fdb.html"
+                     title="ManufacturedItemDefinition/mid-1a7318638ddbbeb084ef416e717b6fdb">Manufactured item Pentasa Slow Release Tablets 1g</a>
+               </td>
+               <td>
+<p>Pentasa Slow Release Tablets 1g</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-2e8a8b1c9142de3ac8de0723812d3fef.html"
+                     title="ManufacturedItemDefinition/mid-2e8a8b1c9142de3ac8de0723812d3fef">Manufactured item adalimumab</a>
+               </td>
+               <td>
+<p>adalimumab</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-49178f16170ee8a6bc2a4361c1748d5f.html"
+                     title="ManufacturedItemDefinition/mid-49178f16170ee8a6bc2a4361c1748d5f">Manufactured item Dovato 50 mg/300 mg film-coated tablets</a>
+               </td>
+               <td>
+<p>Dovato 50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-534e209eb0a3ff60437639cb2015316f.html"
+                     title="ManufacturedItemDefinition/mid-534e209eb0a3ff60437639cb2015316f">Manufactured item acmedrugman</a>
+               </td>
+               <td>
+<p>acmedrugman</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-66d97ddf0e95a23a3c0f4f2102139f34.html"
+                     title="ManufacturedItemDefinition/mid-66d97ddf0e95a23a3c0f4f2102139f34">Manufactured item Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens</a>
+               </td>
+               <td>
+<p>Suliqua 100 units/ml + 33 micrograms/ml solution for injection in x3 pre-filled pens</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-925dad38f0afbba36223a82b3a766438.html"
+                     title="ManufacturedItemDefinition/mid-925dad38f0afbba36223a82b3a766438">Manufactured item Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes</a>
+               </td>
+               <td>
+<p>Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-9b5b17469311c2ea4d1d08419748b4fb.html"
+                     title="ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb">Manufactured item Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)</a>
+               </td>
+               <td>
+<p>Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-af8224f8c853d17daf5ea6782cb5a097.html"
+                     title="ManufacturedItemDefinition/mid-af8224f8c853d17daf5ea6782cb5a097">Manufactured item cinitrapide</a>
+               </td>
+               <td>
+<p>cinitrapide</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-dcaa4d32aa6658a8df831551503e52ee.html"
+                     title="ManufacturedItemDefinition/mid-dcaa4d32aa6658a8df831551503e52ee">Manufactured item karvea 75 mg tablet</a>
+               </td>
+               <td>
+<p>karvea 75 mg tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-e762a2f54b0b24fca4744b1bb7524a5b.html"
+                     title="ManufacturedItemDefinition/mid-e762a2f54b0b24fca4744b1bb7524a5b">Manufactured item MIRTAZAPINA CINFA 30 mg Coated Tablet</a>
+               </td>
+               <td>
+<p>MIRTAZAPINA CINFA 30 mg Coated Tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ManufacturedItemDefinition-mid-fa2090b7ce9bdf87e24a9d05bbb51677.html"
+                     title="ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677">Manufactured item Humalog 100 U/ml 5 pre-filled pen</a>
+               </td>
+               <td>
+<p>Humalog 100 U/ml 5 pre-filled pen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mp1453e0f16ff6c1d3106ed737a7857578.html"
+                     title="MedicinalProductDefinition/mp1453e0f16ff6c1d3106ed737a7857578">Medicinal Product BLASTON 1 mg tablets</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 BLASTON 1 mg tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mp16598f252d07b4784b82ba43cf9e847e.html"
+                     title="MedicinalProductDefinition/mp16598f252d07b4784b82ba43cf9e847e">Medicinal Product Dovato 50 mg/300 mg film-coated tablets</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Dovato 50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mp2e8a8b1c9142de3ac8de0723812d3fef.html"
+                     title="MedicinalProductDefinition/mp2e8a8b1c9142de3ac8de0723812d3fef">Medicinal Product adalimumab</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 adalimumab</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mp367b9089c0743a2330f4c6e82b40ee41.html"
+                     title="MedicinalProductDefinition/mp367b9089c0743a2330f4c6e82b40ee41">Medicinal Product Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Suliqua 100 units/ml + 50 micrograms/ml solution for injection in a pre-filled pen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mp534e209eb0a3ff60437639cb2015316f.html"
+                     title="MedicinalProductDefinition/mp534e209eb0a3ff60437639cb2015316f">Medicinal Product acmedrug-man</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 acmedrug-man</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mp817d49420419b04e8145f2f4031392d3.html"
+                     title="MedicinalProductDefinition/mp817d49420419b04e8145f2f4031392d3">Medicinal Product MIRTAZAPINe CINFA 30 mg Coated Tablet</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 MIRTAZAPINe CINFA 30 mg Coated Tablet</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mpa2bd0171a7654dc24f7eb7e9338e1acc.html"
+                     title="MedicinalProductDefinition/mpa2bd0171a7654dc24f7eb7e9338e1acc">Medicinal Product Karvea 75 mg tablet blister x28</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Karvea 75 mg tablet blister x28</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mpa975b7e209ea5c4c3bf8040a42b86fbd.html"
+                     title="MedicinalProductDefinition/mpa975b7e209ea5c4c3bf8040a42b86fbd">Medicinal Product DOLOCATIL 1 g tablets</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 DOLOCATIL 1 g tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mpb3a8d58c709a2281d8ad2a590fe81663.html"
+                     title="MedicinalProductDefinition/mpb3a8d58c709a2281d8ad2a590fe81663">Medicinal Product Pentasa Slow Release Tablets 1g</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Pentasa Slow Release Tablets 1g</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mpd4bcbbaec04bf6aceb2f71162205967e.html"
+                     title="MedicinalProductDefinition/mpd4bcbbaec04bf6aceb2f71162205967e">Medicinal Product Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Calcio/Vitamina D3 ROVI 1000 mg/880 UI comprimidos efervescentes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mpf6b4fcaaf21ddd70f011f383780f7bf3.html"
+                     title="MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3">Medicinal Product Humalog Mix50 Insulin KwikPen, 3ml pre-fill</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Humalog Mix50 Insulin KwikPen, 3ml pre-fill</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MedicinalProductDefinition-mpf97db27e6330f77484eb8425ad2913cd.html"
+                     title="MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd">Medicinal Product Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)</a>
+               </td>
+               <td>
+<p>EU/1/97/049/001 Humira 40 mg Solution for injection Subcutaneous use pre-filled syringe (glass)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-16019cea3a857659d2c5a2018c2260df.html"
+                     title="Organization/org-16019cea3a857659d2c5a2018c2260df">Sanofi-Aventis Groupe as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>Sanofi-Aventis Groupe as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-173fde4cb6b1018cb7ec8ab708d3961c.html"
+                     title="Organization/org-173fde4cb6b1018cb7ec8ab708d3961c">GLAXO WELLCOME, S.A. as Manufacturer</a>
+               </td>
+               <td>
+<p>GLAXO WELLCOME, S.A. as Manufacturer</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-2aff7154a8d952c895e8a03849a25108.html"
+                     title="Organization/org-2aff7154a8d952c895e8a03849a25108">ACME industry as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>ACME industry as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-31ff1af739c7dcf77386a86f8dd83d29.html"
+                     title="Organization/org-31ff1af739c7dcf77386a86f8dd83d29">ViiV Healthcare BV as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>ViiV Healthcare BV as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-3fdc76794516d7826890ab9f893e99c1.html"
+                     title="Organization/org-3fdc76794516d7826890ab9f893e99c1">Eli Lilly Nederland B.V. as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>Eli Lilly Nederland B.V. as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-591fe9c5de748b22eace6d084f2f041a.html"
+                     title="Organization/org-591fe9c5de748b22eace6d084f2f041a">Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release</a>
+               </td>
+               <td>
+<p>Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-65db33d6be47a433e6e9e9c2980ea7a4.html"
+                     title="Organization/org-65db33d6be47a433e6e9e9c2980ea7a4">FERRER INTERNACIONAL, S.A. as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>FERRER INTERNACIONAL, S.A. as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-6ade044addd6563de0baefebb1cceb8e.html"
+                     title="Organization/org-6ade044addd6563de0baefebb1cceb8e">FERRING S.A.U. as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>FERRING S.A.U. as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-6f4987de7be1bbfa4ee92c07de7e94d4.html"
+                     title="Organization/org-6f4987de7be1bbfa4ee92c07de7e94d4">Eli Lilly and Company as Manufacturer API</a>
+               </td>
+               <td>
+<p>Eli Lilly and Company as Manufacturer API</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-7c9b97127f73ff3605a10eb1c2cc24d1.html"
+                     title="Organization/org-7c9b97127f73ff3605a10eb1c2cc24d1">European Medicines Agency as Medicines Regulatory Authority</a>
+               </td>
+               <td>
+<p>European Medicines Agency as Medicines Regulatory Authority</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-90385ec6a39a5d293a77ef9f7095bd30.html"
+                     title="Organization/org-90385ec6a39a5d293a77ef9f7095bd30">Sanofi-Aventis Deutschland GmbH as Manufacturer API</a>
+               </td>
+               <td>
+<p>Sanofi-Aventis Deutschland GmbH as Manufacturer API</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-94f8082c22713e050c3f2b55ea9d53ff.html"
+                     title="Organization/org-94f8082c22713e050c3f2b55ea9d53ff">Lacer, S.A. - Boters, 5 as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>Lacer, S.A. - Boters, 5 as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-ab61fc2db513f79636782643b3407aa5.html"
+                     title="Organization/org-ab61fc2db513f79636782643b3407aa5">Sanofi-Aventis Deutschland GmbH as Manufacturer API</a>
+               </td>
+               <td>
+<p>Sanofi-Aventis Deutschland GmbH as Manufacturer API</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-b4249a5180d23ad521b23e06e99b7afd.html"
+                     title="Organization/org-b4249a5180d23ad521b23e06e99b7afd">Sanofi-Aventis Groupe as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>Sanofi-Aventis Groupe as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-b7afabe350ac415f70e662ba6c703030.html"
+                     title="Organization/org-b7afabe350ac415f70e662ba6c703030">Laboratorios Farmacéuticos ROVI, S.A. as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>Laboratorios Farmacéuticos ROVI, S.A. as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-b9c6316075799071b2706c402f9fa388.html"
+                     title="Organization/org-b9c6316075799071b2706c402f9fa388">Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release</a>
+               </td>
+               <td>
+<p>Sanofi-Aventis Deutschland GmbH as Manufacturer Batch release</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-bcc70233ff79453d8ddfc13faa4dfb4e.html"
+                     title="Organization/org-bcc70233ff79453d8ddfc13faa4dfb4e">European Medicines Agency as Medicines Regulatory Authority</a>
+               </td>
+               <td>
+<p>European Medicines Agency as Medicines Regulatory Authority</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-dbf32c7ed470ffbeb6060201f32edb29.html"
+                     title="Organization/org-dbf32c7ed470ffbeb6060201f32edb29">LABORATORIOS CINFA, S.A. as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>LABORATORIOS CINFA, S.A. as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-e3ef26dd2c7a0847d92d3bb1a64855b9.html"
+                     title="Organization/org-e3ef26dd2c7a0847d92d3bb1a64855b9">Lilly S.A. as Manufacturer</a>
+               </td>
+               <td>
+<p>Lilly S.A. as Manufacturer</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-fda7514c0dcb7b5f0176cb5af274235f.html"
+                     title="Organization/org-fda7514c0dcb7b5f0176cb5af274235f">AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>AbbVie Deutschland GmbH Co. KG as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-fe4fee458a4f24fccb770d311350f67c.html"
+                     title="Organization/org-fe4fee458a4f24fccb770d311350f67c">Sanofi-Aventis Groupe as Marketing authorisation holder</a>
+               </td>
+               <td>
+<p>Sanofi-Aventis Groupe as Marketing authorisation holder</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Organization-org-ff74c5498eb163c2fb470e9fd175a0c1.html"
+                     title="Organization/org-ff74c5498eb163c2fb470e9fd175a0c1">European Medicines Agency as Medicines Regulatory Authority</a>
+               </td>
+               <td>
+<p>European Medicines Agency as Medicines Regulatory Authority</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-0c848f16e413619f64703ded9343d866.html"
+                     title="PackagedProductDefinition/ppd-0c848f16e413619f64703ded9343d866">MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets</a>
+               </td>
+               <td>
+<p>MIRTAZAPINA CINFA 30 mg Coated Tablet, 30 tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-1a7318638ddbbeb084ef416e717b6fdb.html"
+                     title="PackagedProductDefinition/ppd-1a7318638ddbbeb084ef416e717b6fdb">Pentasa Slow Release Tablets 1g</a>
+               </td>
+               <td>
+<p>Pentasa Slow Release Tablets 1g</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-1fba151ccf2a68d419f373375e997036.html"
+                     title="PackagedProductDefinition/ppd-1fba151ccf2a68d419f373375e997036">DOLOCATIL 1 g tablets, 20 tablets</a>
+               </td>
+               <td>
+<p>DOLOCATIL 1 g tablets, 20 tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-23f4e5c6d9ca952c3ffb3940859a26f8.html"
+                     title="PackagedProductDefinition/ppd-23f4e5c6d9ca952c3ffb3940859a26f8">50 mg/300 mg film-coated tablets</a>
+               </td>
+               <td>
+<p>50 mg/300 mg film-coated tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-2e8a8b1c9142de3ac8de0723812d3fef.html"
+                     title="PackagedProductDefinition/ppd-2e8a8b1c9142de3ac8de0723812d3fef">adalimumab</a>
+               </td>
+               <td>
+<p>adalimumab</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-4c852ef40521d2a0f394aaaec09654a7.html"
+                     title="PackagedProductDefinition/ppd-4c852ef40521d2a0f394aaaec09654a7">BLASTON 1 mg tablets, 50 tablets</a>
+               </td>
+               <td>
+<p>BLASTON 1 mg tablets, 50 tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-8799ff87933460485b763ad9b52f8276.html"
+                     title="PackagedProductDefinition/ppd-8799ff87933460485b763ad9b52f8276">acme drug blister tabs</a>
+               </td>
+               <td>
+<p>acme drug blister tabs</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-8c4132a54faf3c7e493f1831dcb0425d.html"
+                     title="PackagedProductDefinition/ppd-8c4132a54faf3c7e493f1831dcb0425d">3 ml cartridge (glass) in a pre-filled pen</a>
+               </td>
+               <td>
+<p>3 ml cartridge (glass) in a pre-filled pen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-8ff6c02459d9a66f4d9a3db864bd78f6.html"
+                     title="PackagedProductDefinition/ppd-8ff6c02459d9a66f4d9a3db864bd78f6">Humira 40 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads</a>
+               </td>
+               <td>
+<p>Humira 40 mg solution for injection in pre-filled syringe 2 pre-filled syringes + 2 alcohol pads</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-925dad38f0afbba36223a82b3a766438.html"
+                     title="PackagedProductDefinition/ppd-925dad38f0afbba36223a82b3a766438">Calcio/Vitamina D3 ROVI 1000 mg / 880 UI comprimidos efervescentes</a>
+               </td>
+               <td>
+<p>Calcio/Vitamina D3 ROVI 1000 mg / 880 UI comprimidos efervescentes</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-a223062bf3faf7acb3e6e80760fa4e91.html"
+                     title="PackagedProductDefinition/ppd-a223062bf3faf7acb3e6e80760fa4e91">Karvea 75 mg tablet blister x28 tablets</a>
+               </td>
+               <td>
+<p>Karvea 75 mg tablet blister x28 tablets</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="PackagedProductDefinition-ppd-a9955d128989ce310e64a9fb99c8a9ac.html"
+                     title="PackagedProductDefinition/ppd-a9955d128989ce310e64a9fb99c8a9ac">Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen</a>
+               </td>
+               <td>
+<p>Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-acmesub.html"
+                     title="SubstanceDefinition/substance-acmesub">substance-acmesub</a>
+               </td>
+               <td>
+<p>acmesub</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-adalimumab.html"
+                     title="SubstanceDefinition/substance-adalimumab">substance-adalimumab</a>
+               </td>
+               <td>
+<p>ADALIMUMAB</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-calciumcarbonate.html"
+                     title="SubstanceDefinition/substance-calciumcarbonate">substance-calciumcarbonate</a>
+               </td>
+               <td>
+<p>Calcium Carbonate</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-cinitapride.html"
+                     title="SubstanceDefinition/substance-cinitapride">substance-cinitapride</a>
+               </td>
+               <td>
+<p>CINITAPRIDE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-dolutegravirsodium.html"
+                     title="SubstanceDefinition/substance-dolutegravirsodium">substance-dolutegravirsodium</a>
+               </td>
+               <td>
+<p>DOLUTEGRAVIR SODIUM</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-insulinlispro.html"
+                     title="SubstanceDefinition/substance-insulinlispro">substance-insulinlispro</a>
+               </td>
+               <td>
+<p>INSULIN LISPRO</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-irbesartan.html"
+                     title="SubstanceDefinition/substance-irbesartan">substance-irbesartan</a>
+               </td>
+               <td>
+<p>irbesartan</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-lamivudine.html"
+                     title="SubstanceDefinition/substance-lamivudine">substance-lamivudine</a>
+               </td>
+               <td>
+<p>lamivudine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-mesalamine.html"
+                     title="SubstanceDefinition/substance-mesalamine">substance-mesalamine</a>
+               </td>
+               <td>
+<p>MESALAMINE</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-mirtazapine.html"
+                     title="SubstanceDefinition/substance-mirtazapine">substance-mirtazapine</a>
+               </td>
+               <td>
+<p>Mirtazapine</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SubstanceDefinition-substance-paracetamol.html"
+                     title="SubstanceDefinition/substance-paracetamol">substance-paracetamol</a>
+               </td>
+               <td>
+<p>paracetamol</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+</div>
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/rcrim"></a>.  Package hl7.fhir.uv.emedicinal-product-info#1.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 5.0.0</a>. Generated <span title="Thu, Apr 6, 2023 08:19+0000">2023-04-06</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir/uv/emedicinal-product-info/history.html">Version History</a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R5/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
+                 <a style="color: #81BEF7" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

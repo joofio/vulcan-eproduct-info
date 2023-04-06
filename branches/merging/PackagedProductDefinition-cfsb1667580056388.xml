@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PackagedProductDefinition xmlns="http://hl7.org/fhir">
+  <id value="cfsb1667580056388"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PackagedProductDefinition</b><a name="cfsb1667580056388"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PackagedProductDefinition &quot;cfsb1667580056388&quot; </p></div><p><b>identifier</b>: id: 54347 (use: OFFICIAL)</p><p><b>name</b>: Magnesioboi 48,62 mg comprimidos</p><p><b>type</b>: Chemical Medicinal Prodcut <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href="MedicinalProductDefinition-cfsb1665505881364.html">MedicinalProductDefinition/cfsb1665505881364</a></p><p><b>status</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://hl7.org/fhir/R5/codesystem-publication-status.html">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2012-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 50 tablets</p><p><b>manufacturer</b>: <a href="Organization-cfsb1667579389819.html">Organization/cfsb1667579389819</a> &quot;Laboratorios Vicks S.L.&quot;</p><h3>Packagings</h3><table class="grid"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id: 654321</td><td>Child-resistant closure <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#100000073504)</span></td><td>1</td><td>Cardboard <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (rmswi#200000003529)</span></td></tr></table></div>
+  </text>
+  <identifier>
+    <use value="official"/>
+    <system value="https://AEMPS.ES"/>
+    <value value="54347"/>
+  </identifier>
+  <name value="Magnesioboi 48,62 mg comprimidos"/>
+  <type>
+    <coding>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+      <code value="100000155527"/>
+    </coding>
+    <text value="Chemical Medicinal Prodcut"/>
+  </type>
+  <packageFor>
+    <reference value="MedicinalProductDefinition/cfsb1665505881364"/>
+  </packageFor>
+  <status>
+    <coding>
+      <system value="http://hl7.org/fhir/publication-status"/>
+      <code value="active"/>
+      <display value="Active"/>
+    </coding>
+  </status>
+  <statusDate value="2012-02-07T13:28:17Z"/>
+  <containedItemQuantity>
+    <value value="50"/>
+    <unit value="tablets"/>
+  </containedItemQuantity>
+  <manufacturer>
+    <reference value="Organization/cfsb1667579389819"/>
+  </manufacturer>
+  <packaging>
+    <identifier>
+      <system value="https://spor.ema.europa.eu/pmswi"/>
+      <value value="654321"/>
+    </identifier>
+    <type>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="100000073504"/>
+        <display value="Child-resistant closure"/>
+      </coding>
+    </type>
+    <quantity value="1"/>
+    <material>
+      <coding>
+        <system value="https://spor.ema.europa.eu/rmswi"/>
+        <code value="200000003529"/>
+        <display value="Cardboard"/>
+      </coding>
+    </material>
+  </packaging>
+</PackagedProductDefinition>

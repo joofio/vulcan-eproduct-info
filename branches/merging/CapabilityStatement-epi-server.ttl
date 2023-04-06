@@ -1,0 +1,1931 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server> a fhir:CapabilityStatement ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "epi-server"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ePI FHIR Capability Statement (draft 1)</h2><div><p>This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td><div><p>A minumum functionality for ePI. Refer to the FHIR specification for further requirements, and the details in the computable version of this Capabiltiy Statement</p>\n</div></td></tr><tr><td>Transaction</td><td>y</td></tr><tr><td>System History</td><td>y</td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>AdministrableProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition\">http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Bundle</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Bundle\">http://hl7.org/fhir/StructureDefinition/Bundle</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>CapabilityStatement</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/CapabilityStatement\">http://hl7.org/fhir/StructureDefinition/CapabilityStatement</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ClinicalUseDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition\">http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi</a><br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Composition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Composition\">http://hl7.org/fhir/StructureDefinition/Composition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Ingredient</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Ingredient\">http://hl7.org/fhir/StructureDefinition/Ingredient</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ManufacturedItemDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition\">http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>MedicinalProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition\">http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Organization</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Organization\">http://hl7.org/fhir/StructureDefinition/Organization</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>PackagedProductDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition\">http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>RegulatedAuthorization</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization\">http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>SubstanceDefinition</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/SubstanceDefinition\">http://hl7.org/fhir/StructureDefinition/SubstanceDefinition</a><br/>Additional supported profiles:<br/>  <a href=\"http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi\">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0-ballot"] ; # 
+  fhir:name [ fhir:v "ePI FHIR Capability Statement (draft 1)"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2022-10-19"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Vulcan Accelerator on behalf of the HL7 PC WG"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "HL7 BR&R" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:kind [ fhir:v "requirements"] ; # 
+  fhir:fhirVersion [ fhir:v "5.0.0-cibuild"] ; # 
+  fhir:format ( [
+     fhir:v "xml" ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "SHALL" ]
+     ] )
+  ] [
+     fhir:v "json" ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "SHALL" ]
+     ] )
+  ] ) ; # 
+  fhir:implementationGuide ( [
+     fhir:v "http://build.fhir.org/ig/HL7/emedicinal-product-info/toc.html"^^xsd:anyURI ;
+     fhir:link <http://build.fhir.org/ig/HL7/emedicinal-product-info/toc.html> ;
+     fhir:extension ( [
+       fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "SHOULD" ]
+     ] )
+  ] ) ; # 
+  fhir:rest ( [
+     fhir:mode [ fhir:v "server" ] ;
+     fhir:documentation [ fhir:v "A minumum functionality for ePI. Refer to the FHIR specification for further requirements, and the details in the computable version of this Capabiltiy Statement" ] ;
+     fhir:security [
+       fhir:cors [ fhir:v "true"^^xsd:boolean ] ;
+       fhir:description [ fhir:v "1. See the [General Security Considerations](security.html) section for requirements and recommendations.\n1. A server **SHALL** reject any unauthorized requests by returning an `HTTP 401` \"Unauthorized\", `HTTP 403` \"Forbidden\", or `HTTP 404` \"Not Found\"" ]
+     ] ;
+     fhir:resource ( [
+       fhir:type [ fhir:v "AdministrableProductDefinition" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "AdministrableProductDefinition.manufactured-item" ] [ fhir:v "AdministrableProductDefinition.device" ] [ fhir:v "AdministrableProductDefinition.form-of" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "Ingredient.for" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "An identifier for the administrable product" ]
+       ] [
+         fhir:name [ fhir:v "manufactured-item" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-manufactured-item"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-manufactured-item>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The manufactured item(s) that this administrable product is produced from. Either a single item, or several that are mixed before administration (e.g. a power item and a solution item). Note that these are not raw ingredients" ]
+       ] [
+         fhir:name [ fhir:v "ingredient" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-ingredient"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-ingredient>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The ingredients of this administrable medicinal product" ]
+       ] [
+         fhir:name [ fhir:v "route" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-route"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-route>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Coded expression for the route" ]
+       ] [
+         fhir:name [ fhir:v "dose-form" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-dose-form"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-dose-form>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The administrable dose form, i.e. the dose form of the final product after necessary reconstitution or processing" ]
+       ] [
+         fhir:name [ fhir:v "device" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-device"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-device>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A device that is integral to the medicinal product, in effect being considered as an \"ingredient\" of the medicinal product. This is not intended for devices that are just co-packaged" ]
+       ] [
+         fhir:name [ fhir:v "form-of" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-form-of"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-form-of>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The medicinal product that this is an administrable form of. This is not a reference to the item(s) that make up this administrable form - it is the whole product" ]
+       ] [
+         fhir:name [ fhir:v "target-species" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-target-species"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-target-species>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Coded expression for the species" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The status of this administrable product. Enables tracking the life-cycle of the content." ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "Bundle" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/Bundle>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "Bundle.composition" ] [ fhir:v "Bundle.message" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Bundle-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Bundle-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Persistent identifier for the bundle" ]
+       ] [
+         fhir:name [ fhir:v "composition" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Bundle-composition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Bundle-composition>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The first resource in the bundle, if the bundle type is \"document\" - this is a composition, and this parameter provides access to search its contents" ]
+       ] [
+         fhir:name [ fhir:v "message" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Bundle-message"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Bundle-message>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The first resource in the bundle, if the bundle type is \"message\" - this is a message header, and this parameter provides access to search its contents" ]
+       ] [
+         fhir:name [ fhir:v "type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Bundle-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Bundle-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "document | message | transaction | transaction-response | batch | batch-response | history | searchset | collection | subscription-notification" ]
+       ] [
+         fhir:name [ fhir:v "timestamp" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Bundle-timestamp"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Bundle-timestamp>
+         ] ;
+         fhir:type [ fhir:v "date" ] ;
+         fhir:documentation [ fhir:v "When the bundle was assembled" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "CapabilityStatement" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/CapabilityStatement"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/CapabilityStatement>
+       ] ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "CapabilityStatement.resource-profile" ] [ fhir:v "CapabilityStatement.supported-profile" ] [ fhir:v "CapabilityStatement.guide" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "RequestOrchestration.participant" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "date" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-date"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-date>
+         ] ;
+         fhir:type [ fhir:v "date" ] ;
+         fhir:documentation [ fhir:v "The capability statement publication date" ]
+       ] [
+         fhir:name [ fhir:v "resource-profile" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-resource-profile"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-resource-profile>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A profile id invoked in a capability statement" ]
+       ] [
+         fhir:name [ fhir:v "context-type-value" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-context-type-value"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-context-type-value>
+         ] ;
+         fhir:type [ fhir:v "composite" ] ;
+         fhir:documentation [ fhir:v "A use context type and value assigned to the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "software" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-software"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-software>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "Part of the name of a software application" ]
+       ] [
+         fhir:name [ fhir:v "resource" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-resource"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-resource>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Name of a resource mentioned in a capability statement" ]
+       ] [
+         fhir:name [ fhir:v "jurisdiction" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-jurisdiction"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-jurisdiction>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Intended jurisdiction for the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "format" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-format"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-format>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "formats supported (xml | json | ttl | mime type)" ]
+       ] [
+         fhir:name [ fhir:v "description" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-description"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-description>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "The description of the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "context-type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-context-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-context-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A type of use context assigned to the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "fhirversion" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-fhirversion"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-fhirversion>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The version of FHIR" ]
+       ] [
+         fhir:name [ fhir:v "title" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-title"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-title>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "The human-friendly name of the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "version" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-version"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-version>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The business version of the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "supported-profile" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-supported-profile"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-supported-profile>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Profiles for use cases supported" ]
+       ] [
+         fhir:name [ fhir:v "url" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-url"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-url>
+         ] ;
+         fhir:type [ fhir:v "uri" ] ;
+         fhir:documentation [ fhir:v "The uri that identifies the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "mode" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-mode"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-mode>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Mode - restful (server/client) or messaging (sender/receiver)" ]
+       ] [
+         fhir:name [ fhir:v "context-quantity" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-context-quantity"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-context-quantity>
+         ] ;
+         fhir:type [ fhir:v "quantity" ] ;
+         fhir:documentation [ fhir:v "A quantity- or range-valued use context assigned to the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "security-service" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-security-service"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-security-service>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "OAuth | SMART-on-FHIR | NTLM | Basic | Kerberos | Certificates" ]
+       ] [
+         fhir:name [ fhir:v "context" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-context"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-context>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A use context assigned to the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "name" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-name"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-name>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "Computationally friendly name of the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "publisher" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-publisher"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-publisher>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "Name of the publisher of the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "context-type-quantity" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-context-type-quantity"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-context-type-quantity>
+         ] ;
+         fhir:type [ fhir:v "composite" ] ;
+         fhir:documentation [ fhir:v "A use context type and quantity- or range-based value assigned to the capability statement" ]
+       ] [
+         fhir:name [ fhir:v "guide" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/CapabilityStatement-guide"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/CapabilityStatement-guide>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Implementation guides supported" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/conformance-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/conformance-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The current status of the capability statement" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "ClinicalUseDefinition" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "ClinicalUseDefinition.contraindication-reference" ] [ fhir:v "ClinicalUseDefinition.indication-reference" ] [ fhir:v "ClinicalUseDefinition.product" ] [ fhir:v "ClinicalUseDefinition.subject" ] [ fhir:v "ClinicalUseDefinition.effect-reference" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "contraindication-reference" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-contraindication-reference"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-contraindication-reference>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The situation that is being documented as contraindicating against this item, as a reference" ]
+       ] [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Business identifier for this issue" ]
+       ] [
+         fhir:name [ fhir:v "indication-reference" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-indication-reference"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-indication-reference>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The situation that is being documented as an indicaton for this item, as a reference" ]
+       ] [
+         fhir:name [ fhir:v "product" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-product"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-product>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The medicinal product for which this is a clinical usage issue" ]
+       ] [
+         fhir:name [ fhir:v "subject" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-subject"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-subject>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The resource for which this is a clinical usage issue" ]
+       ] [
+         fhir:name [ fhir:v "effect" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-effect"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-effect>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The situation in which the undesirable effect may manifest, as a code" ]
+       ] [
+         fhir:name [ fhir:v "interaction" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-interaction"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-interaction>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The type of the interaction e.g. drug-drug interaction, drug-food interaction, drug-lab test interaction" ]
+       ] [
+         fhir:name [ fhir:v "indication" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-indication"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-indication>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The situation that is being documented as an indicaton for this item, as a code" ]
+       ] [
+         fhir:name [ fhir:v "type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "indication | contraindication | interaction | undesirable-effect | warning" ]
+       ] [
+         fhir:name [ fhir:v "contraindication" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-contraindication"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-contraindication>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The situation that is being documented as contraindicating against this item, as a code" ]
+       ] [
+         fhir:name [ fhir:v "effect-reference" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-effect-reference"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-effect-reference>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The situation in which the undesirable effect may manifest, as a reference" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Whether this is a current issue or one that has been retired etc" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "Composition" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/Composition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/Composition>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "Composition.author" ] [ fhir:v "Composition.subject" ] [ fhir:v "Composition.encounter" ] [ fhir:v "Composition.attester" ] [ fhir:v "Composition.entry" ] [ fhir:v "Composition.related" ] [ fhir:v "Composition.patient" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "Procedure.report" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "date" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/clinical-date"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-date>
+         ] ;
+         fhir:type [ fhir:v "date" ] ;
+         fhir:documentation [ fhir:v "Composition editing time" ]
+       ] [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/clinical-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Version-independent identifier for the Composition" ]
+       ] [
+         fhir:name [ fhir:v "period" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-period"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-period>
+         ] ;
+         fhir:type [ fhir:v "date" ] ;
+         fhir:documentation [ fhir:v "The period covered by the documentation" ]
+       ] [
+         fhir:name [ fhir:v "author" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-author"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-author>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Who and/or what authored the composition" ]
+       ] [
+         fhir:name [ fhir:v "subject" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-subject"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-subject>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Who and/or what the composition is about" ]
+       ] [
+         fhir:name [ fhir:v "section" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-section"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-section>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Classification of section (recommended)" ]
+       ] [
+         fhir:name [ fhir:v "encounter" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/clinical-encounter"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-encounter>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Context of the Composition" ]
+       ] [
+         fhir:name [ fhir:v "title" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-title"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-title>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "Human Readable name/title" ]
+       ] [
+         fhir:name [ fhir:v "type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/clinical-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Kind of composition (LOINC if possible)" ]
+       ] [
+         fhir:name [ fhir:v "version" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-version"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-version>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The business version of the activity definition" ]
+       ] [
+         fhir:name [ fhir:v "attester" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-attester"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-attester>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Who attested the composition" ]
+       ] [
+         fhir:name [ fhir:v "url" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-url"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-url>
+         ] ;
+         fhir:type [ fhir:v "uri" ] ;
+         fhir:documentation [ fhir:v "The uri that identifies the activity definition" ]
+       ] [
+         fhir:name [ fhir:v "section-text" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-section-text"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-section-text>
+         ] ;
+         fhir:type [ fhir:v "special" ] ;
+         fhir:documentation [ fhir:v "Search on the section narrative of the resource" ]
+       ] [
+         fhir:name [ fhir:v "entry" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-entry"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-entry>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A reference to data that supports this section" ]
+       ] [
+         fhir:name [ fhir:v "related" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-related"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-related>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Target of the relationship" ]
+       ] [
+         fhir:name [ fhir:v "patient" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/clinical-patient"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/clinical-patient>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Who and/or what the composition is about" ]
+       ] [
+         fhir:name [ fhir:v "context" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-context"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-context>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Code(s) that apply to the event being documented" ]
+       ] [
+         fhir:name [ fhir:v "category" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-category"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-category>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Categorization of Composition" ]
+       ] [
+         fhir:name [ fhir:v "section-code-text" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-section-code-text"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-section-code-text>
+         ] ;
+         fhir:type [ fhir:v "composite" ] ;
+         fhir:documentation [ fhir:v "Search on the section narrative of the resource" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Composition-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Composition-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "preliminary | final | amended | entered-in-error" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "Ingredient" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/Ingredient"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/Ingredient>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "Ingredient.substance-definition" ] [ fhir:v "Ingredient.substance" ] [ fhir:v "Ingredient.for" ] [ fhir:v "Ingredient.manufacturer" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "RegulatedAuthorization.subject" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "substance-definition" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-substance-definition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-substance-definition>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Reference to a resource (by instance)" ]
+       ] [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "An identifier or code by which the ingredient can be referenced" ]
+       ] [
+         fhir:name [ fhir:v "role" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-role"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-role>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A classification of the ingredient identifying its purpose within the product, e.g. active, inactive" ]
+       ] [
+         fhir:name [ fhir:v "function" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-function"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-function>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A classification of the ingredient identifying its precise purpose(s) in the drug product. This extends the Ingredient.role to add more detail. Example: Antioxidant, Alkalizing Agent" ]
+       ] [
+         fhir:name [ fhir:v "substance" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-substance"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-substance>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Reference to a resource (by instance)" ]
+       ] [
+         fhir:name [ fhir:v "for" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-for"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-for>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The product which this ingredient is a constituent part of" ]
+       ] [
+         fhir:name [ fhir:v "substance-code" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-substance-code"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-substance-code>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Reference to a concept (by class)" ]
+       ] [
+         fhir:name [ fhir:v "manufacturer" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-manufacturer"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-manufacturer>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The organization that manufactures this ingredient" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Ingredient-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Ingredient-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The status of this ingredient. Enables tracking the life-cycle of the content" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "ManufacturedItemDefinition" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "AdministrableProductDefinition.manufactured-item" ] [ fhir:v "Ingredient.for" ] [ fhir:v "RegulatedAuthorization.subject" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Unique identifier" ]
+       ] [
+         fhir:name [ fhir:v "ingredient" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-ingredient"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-ingredient>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "An ingredient of this item" ]
+       ] [
+         fhir:name [ fhir:v "name" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-name"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-name>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A descriptive name applied to this item" ]
+       ] [
+         fhir:name [ fhir:v "dose-form" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-dose-form"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-dose-form>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Dose form as manufactured and before any transformation into the pharmaceutical product" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The status of this item. Enables tracking the life-cycle of the content." ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "MedicinalProductDefinition" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "MedicinalProductDefinition.master-file" ] [ fhir:v "MedicinalProductDefinition.contact" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "AdministrableProductDefinition.form-of" ] [ fhir:v "ClinicalUseDefinition.product" ] [ fhir:v "ClinicalUseDefinition.subject" ] [ fhir:v "Ingredient.for" ] [ fhir:v "PackagedProductDefinition.package-for" ] [ fhir:v "RegulatedAuthorization.subject" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Business identifier for this product. Could be an MPID" ]
+       ] [
+         fhir:name [ fhir:v "ingredient" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-ingredient"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-ingredient>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "An ingredient of this product" ]
+       ] [
+         fhir:name [ fhir:v "master-file" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-master-file"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-master-file>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A master file for to the medicinal product (e.g. Pharmacovigilance System Master File)" ]
+       ] [
+         fhir:name [ fhir:v "contact" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-contact"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-contact>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A product specific contact, person (in a role), or an organization" ]
+       ] [
+         fhir:name [ fhir:v "domain" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-domain"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-domain>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "If this medicine applies to human or veterinary uses" ]
+       ] [
+         fhir:name [ fhir:v "name" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-name"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-name>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "The full product name" ]
+       ] [
+         fhir:name [ fhir:v "name-language" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-name-language"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-name-language>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Language code for this name" ]
+       ] [
+         fhir:name [ fhir:v "type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Regulatory type, e.g. Investigational or Authorized" ]
+       ] [
+         fhir:name [ fhir:v "characteristic" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-characteristic"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-characteristic>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Allows the key product features to be recorded, such as \"sugar free\", \"modified release\", \"parallel import\"" ]
+       ] [
+         fhir:name [ fhir:v "characteristic-type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-characteristic-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-characteristic-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A category for the characteristic" ]
+       ] [
+         fhir:name [ fhir:v "product-classification" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-product-classification"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-product-classification>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Allows the product to be classified by various systems" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The status within the lifecycle of this product record. A high-level status, this is not intended to duplicate details carried elsewhere such as legal status, or authorization status" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "Organization" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "Organization.partof" ] [ fhir:v "Organization.endpoint" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "Account.owner" ] [ fhir:v "Account.patient" ] [ fhir:v "Account.subject" ] [ fhir:v "Account.guarantor" ] [ fhir:v "AllergyIntolerance.participant" ] [ fhir:v "AuditEvent.agent" ] [ fhir:v "AuditEvent.source" ] [ fhir:v "Basic.author" ] [ fhir:v "CarePlan.performer" ] [ fhir:v "CarePlan.custodian" ] [ fhir:v "CareTeam.participant" ] [ fhir:v "ChargeItem.performing-organization" ] [ fhir:v "ChargeItem.enterer" ] [ fhir:v "ChargeItem.performer-actor" ] [ fhir:v "ChargeItem.requesting-organization" ] [ fhir:v "Claim.care-team" ] [ fhir:v "Claim.payee" ] [ fhir:v "Claim.provider" ] [ fhir:v "Claim.insurer" ] [ fhir:v "Claim.facility" ] [ fhir:v "ClaimResponse.insurer" ] [ fhir:v "ClaimResponse.requestor" ] [ fhir:v "Communication.sender" ] [ fhir:v "Communication.recipient" ] [ fhir:v "CommunicationRequest.requester" ] [ fhir:v "CommunicationRequest.recipient" ] [ fhir:v "CommunicationRequest.information-provider" ] [ fhir:v "Composition.author" ] [ fhir:v "Composition.attester" ] [ fhir:v "Condition.participant-actor" ] [ fhir:v "Consent.controller" ] [ fhir:v "Consent.manager" ] [ fhir:v "Consent.grantee" ] [ fhir:v "Consent.actor" ] [ fhir:v "Contract.authority" ] [ fhir:v "Contract.signer" ] [ fhir:v "Coverage.insurer" ] [ fhir:v "Coverage.paymentby-party" ] [ fhir:v "Coverage.policy-holder" ] [ fhir:v "CoverageEligibilityRequest.provider" ] [ fhir:v "CoverageEligibilityResponse.insurer" ] [ fhir:v "CoverageEligibilityResponse.requestor" ] [ fhir:v "DetectedIssue.subject" ] [ fhir:v "DetectedIssue.patient" ] [ fhir:v "Device.organization" ] [ fhir:v "DeviceRequest.requester" ] [ fhir:v "DeviceRequest.performer" ] [ fhir:v "DiagnosticReport.performer" ] [ fhir:v "DiagnosticReport.subject" ] [ fhir:v "DiagnosticReport.patient" ] [ fhir:v "DiagnosticReport.results-interpreter" ] [ fhir:v "DocumentManifest.author" ] [ fhir:v "DocumentManifest.recipient" ] [ fhir:v "DocumentReference.custodian" ] [ fhir:v "DocumentReference.author" ] [ fhir:v "DocumentReference.attester" ] [ fhir:v "Encounter.service-provider" ] [ fhir:v "Endpoint.organization" ] [ fhir:v "EpisodeOfCare.organization" ] [ fhir:v "ExplanationOfBenefit.care-team" ] [ fhir:v "ExplanationOfBenefit.payee" ] [ fhir:v "ExplanationOfBenefit.provider" ] [ fhir:v "ExplanationOfBenefit.facility" ] [ fhir:v "Flag.author" ] [ fhir:v "Flag.patient" ] [ fhir:v "Flag.subject" ] [ fhir:v "GenomicStudy.analysis-patient" ] [ fhir:v "GenomicStudy.patient" ] [ fhir:v "GenomicStudy.subject" ] [ fhir:v "GenomicStudy.analysis-subject" ] [ fhir:v "Goal.patient" ] [ fhir:v "Goal.subject" ] [ fhir:v "Group.managing-entity" ] [ fhir:v "Group.member" ] [ fhir:v "HealthcareService.organization" ] [ fhir:v "ImagingSelection.subject" ] [ fhir:v "ImagingSelection.patient" ] [ fhir:v "ImagingStudy.performer" ] [ fhir:v "Immunization.performer" ] [ fhir:v "InsurancePlan.owned-by" ] [ fhir:v "InsurancePlan.administered-by" ] [ fhir:v "Invoice.issuer" ] [ fhir:v "Invoice.participant" ] [ fhir:v "Invoice.recipient" ] [ fhir:v "Linkage.author" ] [ fhir:v "List.patient" ] [ fhir:v "List.subject" ] [ fhir:v "List.source" ] [ fhir:v "Location.organization" ] [ fhir:v "MeasureReport.patient" ] [ fhir:v "MeasureReport.subject" ] [ fhir:v "MeasureReport.reporter" ] [ fhir:v "Medication.marketingauthorizationholder" ] [ fhir:v "MedicationDispense.performer" ] [ fhir:v "MedicationDispense.responsibleparty" ] [ fhir:v "MedicationRequest.requester" ] [ fhir:v "MedicationRequest.intended-dispenser" ] [ fhir:v "MedicationRequest.intended-performer" ] [ fhir:v "MedicationUsage.source" ] [ fhir:v "MedicinalProductDefinition.contact" ] [ fhir:v "MessageHeader.receiver" ] [ fhir:v "MessageHeader.sender" ] [ fhir:v "MessageHeader.responsible" ] [ fhir:v "MolecularSequence.subject" ] [ fhir:v "MolecularSequence.patient" ] [ fhir:v "NutritionIntake.source" ] [ fhir:v "Observation.subject" ] [ fhir:v "Observation.patient" ] [ fhir:v "Observation.performer" ] [ fhir:v "Organization.partof" ] [ fhir:v "OrganizationAffiliation.primary-organization" ] [ fhir:v "OrganizationAffiliation.network" ] [ fhir:v "OrganizationAffiliation.participating-organization" ] [ fhir:v "Patient.general-practitioner" ] [ fhir:v "Patient.organization" ] [ fhir:v "PaymentNotice.provider" ] [ fhir:v "PaymentReconciliation.payment-issuer" ] [ fhir:v "PaymentReconciliation.requestor" ] [ fhir:v "Person.organization" ] [ fhir:v "PractitionerRole.organization" ] [ fhir:v "Procedure.performer" ] [ fhir:v "Procedure.subject" ] [ fhir:v "Procedure.patient" ] [ fhir:v "Provenance.agent" ] [ fhir:v "QuestionnaireResponse.author" ] [ fhir:v "QuestionnaireResponse.source" ] [ fhir:v "RegulatedAuthorization.subject" ] [ fhir:v "RegulatedAuthorization.holder" ] [ fhir:v "RequestOrchestration.participant" ] [ fhir:v "ResearchStudy.site" ] [ fhir:v "ServiceRequest.requester" ] [ fhir:v "ServiceRequest.performer" ] [ fhir:v "SupplyDelivery.supplier" ] [ fhir:v "SupplyRequest.requester" ] [ fhir:v "SupplyRequest.subject" ] [ fhir:v "SupplyRequest.supplier" ] [ fhir:v "Task.owner" ] [ fhir:v "Task.requester" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Any identifier for the organization (not the accreditation issuer's identifier)" ]
+       ] [
+         fhir:name [ fhir:v "partof" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-partof"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-partof>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "An organization of which this organization forms a part" ]
+       ] [
+         fhir:name [ fhir:v "address" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-address"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-address>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "A server defined search that may match any of the string fields in the Address, including line, city, district, state, country, postalCode, and/or text" ]
+       ] [
+         fhir:name [ fhir:v "address-state" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-address-state"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-address-state>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "A state specified in an address" ]
+       ] [
+         fhir:name [ fhir:v "active" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-active"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-active>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Is the Organization record active" ]
+       ] [
+         fhir:name [ fhir:v "type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A code for the type of organization" ]
+       ] [
+         fhir:name [ fhir:v "address-postalcode" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-address-postalcode"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-address-postalcode>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "A postal code specified in an address" ]
+       ] [
+         fhir:name [ fhir:v "address-country" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-address-country"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-address-country>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "A country specified in an address" ]
+       ] [
+         fhir:name [ fhir:v "endpoint" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-endpoint"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-endpoint>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Technical endpoints providing access to services operated for the organization" ]
+       ] [
+         fhir:name [ fhir:v "phonetic" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-phonetic"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-phonetic>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "A portion of the organization's name using some kind of phonetic matching algorithm" ]
+       ] [
+         fhir:name [ fhir:v "address-use" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-address-use"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-address-use>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A use code specified in an address" ]
+       ] [
+         fhir:name [ fhir:v "name" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-name"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-name>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "A portion of the organization's name or alias" ]
+       ] [
+         fhir:name [ fhir:v "address-city" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/Organization-address-city"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/Organization-address-city>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "A city specified in an address" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "PackagedProductDefinition" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "PackagedProductDefinition.manufactured-item" ] [ fhir:v "PackagedProductDefinition.nutrition" ] [ fhir:v "PackagedProductDefinition.package" ] [ fhir:v "PackagedProductDefinition.biological" ] [ fhir:v "PackagedProductDefinition.package-for" ] [ fhir:v "PackagedProductDefinition.contained-item" ] [ fhir:v "PackagedProductDefinition.medication" ] [ fhir:v "PackagedProductDefinition.device" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "RegulatedAuthorization.subject" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Unique identifier" ]
+       ] [
+         fhir:name [ fhir:v "manufactured-item" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-manufactured-item"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-manufactured-item>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A manufactured item of medication within this packaged product" ]
+       ] [
+         fhir:name [ fhir:v "nutrition" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-nutrition"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-nutrition>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A nutrition product within this packaged product" ]
+       ] [
+         fhir:name [ fhir:v "package" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-package"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-package>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A complete packaged product within this packaged product" ]
+       ] [
+         fhir:name [ fhir:v "name" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-name"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-name>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "A name for this package. Typically what it would be listed as in a drug formulary or catalogue, inventory etc" ]
+       ] [
+         fhir:name [ fhir:v "biological" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-biological"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-biological>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A biologically derived product within this packaged product" ]
+       ] [
+         fhir:name [ fhir:v "package-for" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-package-for"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-package-for>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The product that this is a pack for" ]
+       ] [
+         fhir:name [ fhir:v "contained-item" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-contained-item"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-contained-item>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "Any of the contained items within this packaged product" ]
+       ] [
+         fhir:name [ fhir:v "medication" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-medication"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-medication>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A manufactured item of medication within this packaged product" ]
+       ] [
+         fhir:name [ fhir:v "device" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-device"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-device>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "A device within this packaged product" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The status within the lifecycle of this item. A high level status, this is not intended to duplicate details carried elsewhere such as legal status, or authorization or marketing status" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "RegulatedAuthorization" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchInclude ( [ fhir:v "RegulatedAuthorization.subject" ] [ fhir:v "RegulatedAuthorization.holder" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Business identifier for the authorization, typically assigned by the authorizing body" ]
+       ] [
+         fhir:name [ fhir:v "subject" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-subject"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-subject>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The type of regulated product, treatment, facility or activity that is being authorized" ]
+       ] [
+         fhir:name [ fhir:v "case-type" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-case-type"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-case-type>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The defining type of case" ]
+       ] [
+         fhir:name [ fhir:v "holder" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-holder"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-holder>
+         ] ;
+         fhir:type [ fhir:v "reference" ] ;
+         fhir:documentation [ fhir:v "The organization that holds the granted authorization" ]
+       ] [
+         fhir:name [ fhir:v "region" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-region"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-region>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The territory (e.g., country, jurisdiction etc.) in which the authorization has been granted" ]
+       ] [
+         fhir:name [ fhir:v "case" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-case"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-case>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The case or procedure number" ]
+       ] [
+         fhir:name [ fhir:v "status" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-status"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-status>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The status that is authorised e.g. approved. Intermediate states can be tracked with cases and applications" ]
+       ] )
+     ] [
+       fhir:type [ fhir:v "SubstanceDefinition" ] ;
+       fhir:profile [
+         fhir:v "http://hl7.org/fhir/StructureDefinition/SubstanceDefinition"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/StructureDefinition/SubstanceDefinition>
+       ] ;
+       fhir:supportedProfile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi> ;
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] )
+       ] ) ;
+       fhir:interaction ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "search-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHALL" ]
+         ] ) ;
+         fhir:code [ fhir:v "read" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "SHOULD" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-instance" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] [
+         fhir:extension ( [
+           fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation"^^xsd:anyURI ] ;
+           fhir:value [ fhir:v "MAY" ]
+         ] ) ;
+         fhir:code [ fhir:v "history-type" ] ;
+         fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+       ] ) ;
+       fhir:referencePolicy ( [ fhir:v "literal" ] [ fhir:v "logical" ] ) ;
+       fhir:searchRevInclude ( [ fhir:v "RegulatedAuthorization.subject" ] ) ;
+       fhir:searchParam ( [
+         fhir:name [ fhir:v "identifier" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/SubstanceDefinition-identifier"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/SubstanceDefinition-identifier>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "Identifier by which this substance is known" ]
+       ] [
+         fhir:name [ fhir:v "code" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/SubstanceDefinition-code"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/SubstanceDefinition-code>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "The specific code" ]
+       ] [
+         fhir:name [ fhir:v "domain" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/SubstanceDefinition-domain"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/SubstanceDefinition-domain>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "If the substance applies to only human or veterinary use" ]
+       ] [
+         fhir:name [ fhir:v "name" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/SubstanceDefinition-name"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/SubstanceDefinition-name>
+         ] ;
+         fhir:type [ fhir:v "string" ] ;
+         fhir:documentation [ fhir:v "The actual name" ]
+       ] [
+         fhir:name [ fhir:v "classification" ] ;
+         fhir:definition [
+           fhir:v "http://hl7.org/fhir/SearchParameter/SubstanceDefinition-classification"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/SearchParameter/SubstanceDefinition-classification>
+         ] ;
+         fhir:type [ fhir:v "token" ] ;
+         fhir:documentation [ fhir:v "High or low level categorization, e.g. polymer vs. nucleic acid or linear vs. branch chain" ]
+       ] )
+     ] ) ;
+     fhir:interaction ( [
+       fhir:code [ fhir:v "transaction" ] ;
+       fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+     ] [
+       fhir:code [ fhir:v "batch" ] ;
+       fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+     ] [
+       fhir:code [ fhir:v "history-system" ] ;
+       fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+     ] [
+       fhir:code [ fhir:v "search-system" ] ;
+       fhir:documentation [ fhir:v "Implemented per the specification (or Insert other doco here)" ]
+     ] ) ;
+     fhir:searchParam ( [
+       fhir:name [ fhir:v "_id" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/id"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/id>
+       ] ;
+       fhir:type [ fhir:v "string" ] ;
+       fhir:documentation [ fhir:v "Searches on the server assigned id" ]
+     ] [
+       fhir:name [ fhir:v "_list" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-list"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-list>
+       ] ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:documentation [ fhir:v "Retrieval of resources that are referenced by a List resource" ]
+     ] [
+       fhir:name [ fhir:v "_has" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-has"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-has>
+       ] ;
+       fhir:type [ fhir:v "composite" ] ;
+       fhir:documentation [ fhir:v "Provides support for reverse chaining" ]
+     ] [
+       fhir:name [ fhir:v "_type" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-type"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-type>
+       ] ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:documentation [ fhir:v "Type of resource (when doing cross-resource search" ]
+     ] [
+       fhir:name [ fhir:v "_sort" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-source"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-source>
+       ] ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:documentation [ fhir:v "How to sort the resources when returning" ]
+     ] [
+       fhir:name [ fhir:v "_count" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-count"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-count>
+       ] ;
+       fhir:type [ fhir:v "number" ] ;
+       fhir:documentation [ fhir:v "How many resources to return" ]
+     ] [
+       fhir:name [ fhir:v "_include" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-include"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-include>
+       ] ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:documentation [ fhir:v "Control over returning additional resources (see spec)" ]
+     ] [
+       fhir:name [ fhir:v "_revinclude" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-revinclude"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-revinclude>
+       ] ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:documentation [ fhir:v "Control over returning additional resources (see spec)" ]
+     ] [
+       fhir:name [ fhir:v "_elements" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-elements"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-elements>
+       ] ;
+       fhir:type [ fhir:v "string" ] ;
+       fhir:documentation [ fhir:v "What kind of information to return" ]
+     ] [
+       fhir:name [ fhir:v "_language" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-language"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-language>
+       ] ;
+       fhir:type [ fhir:v "token" ] ;
+       fhir:documentation [ fhir:v "Language of the resource content" ]
+     ] [
+       fhir:name [ fhir:v "_in" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-in"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-in>
+       ] ;
+       fhir:type [ fhir:v "reference" ] ;
+       fhir:documentation [ fhir:v "Allows for the retrieval of resources that are active members of a CareTeam, Group, or List" ]
+     ] [
+       fhir:name [ fhir:v "_lastUpdated" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-lastUpdated>
+       ] ;
+       fhir:type [ fhir:v "date" ] ;
+       fhir:documentation [ fhir:v "When the resource version last changed" ]
+     ] [
+       fhir:name [ fhir:v "_profile" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/SearchParameter/Resource-profile"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/SearchParameter/Resource-profile>
+       ] ;
+       fhir:type [ fhir:v "reference" ] ;
+       fhir:documentation [ fhir:v "Profiles this resource claims to conform to" ]
+     ] ) ;
+     fhir:operation ( [
+       fhir:name [ fhir:v "meta" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/OperationDefinition/resource-meta"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/OperationDefinition/resource-meta>
+       ]
+     ] [
+       fhir:name [ fhir:v "filter" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/OperationDefinition/resource-filter"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/OperationDefinition/resource-filter>
+       ]
+     ] [
+       fhir:name [ fhir:v "document" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/OperationDefinition/composition-document"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/OperationDefinition/composition-document>
+       ]
+     ] [
+       fhir:name [ fhir:v "find" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/OperationDefinition/list-find"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/OperationDefinition/list-find>
+       ]
+     ] [
+       fhir:name [ fhir:v "everything" ] ;
+       fhir:definition [
+         fhir:v "http://hl7.org/fhir/OperationDefinition/medicinalproductdefinition-everything"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/OperationDefinition/medicinalproductdefinition-everything>
+       ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

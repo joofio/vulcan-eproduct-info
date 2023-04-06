@@ -1,0 +1,1715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="epi-server"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ePI FHIR Capability Statement (draft 1)</h2><div><p>This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification.</p>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td><div><p>A minumum functionality for ePI. Refer to the FHIR specification for further requirements, and the details in the computable version of this Capabiltiy Statement</p>
+</div></td></tr><tr><td>Transaction</td><td>y</td></tr><tr><td>System History</td><td>y</td></tr><tr><td>System Search</td><td>y</td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET past versions of resources (vread interaction)">V-Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="GET changes to a resource (history interaction on instance)">Updates</b></th><th><b title="GET changes for all resources of the type (history interaction on type)">History</b></th></tr><tr><td>AdministrableProductDefinition</td><td><a href="http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition">http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Bundle</td><td><a href="http://hl7.org/fhir/StructureDefinition/Bundle">http://hl7.org/fhir/StructureDefinition/Bundle</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>CapabilityStatement</td><td><a href="http://hl7.org/fhir/StructureDefinition/CapabilityStatement">http://hl7.org/fhir/StructureDefinition/CapabilityStatement</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ClinicalUseDefinition</td><td><a href="http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition">http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi</a><br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi</a><br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi</a><br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi</a><br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Composition</td><td><a href="http://hl7.org/fhir/StructureDefinition/Composition">http://hl7.org/fhir/StructureDefinition/Composition</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Ingredient</td><td><a href="http://hl7.org/fhir/StructureDefinition/Ingredient">http://hl7.org/fhir/StructureDefinition/Ingredient</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>ManufacturedItemDefinition</td><td><a href="http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition">http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>MedicinalProductDefinition</td><td><a href="http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition">http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>Organization</td><td><a href="http://hl7.org/fhir/StructureDefinition/Organization">http://hl7.org/fhir/StructureDefinition/Organization</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>PackagedProductDefinition</td><td><a href="http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition">http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>RegulatedAuthorization</td><td><a href="http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization">http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr><tr><td>SubstanceDefinition</td><td><a href="http://hl7.org/fhir/StructureDefinition/SubstanceDefinition">http://hl7.org/fhir/StructureDefinition/SubstanceDefinition</a><br/>Additional supported profiles:<br/>  <a href="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi">http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi</a></td><td>y</td><td>y</td><td>y</td><td></td><td></td><td>y</td><td>y</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server"/>
+  <version value="1.0.0-ballot"/>
+  <name value="ePI FHIR Capability Statement (draft 1)"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2022-10-19"/>
+  <publisher value="Vulcan Accelerator on behalf of the HL7 PC WG"/>
+  <contact>
+    <name value="HL7 BR&amp;R"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <kind value="requirements"/>
+  <fhirVersion value="5.0.0-cibuild"/>
+  <format value="xml">
+    <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+      <valueCode value="SHALL"/>
+    </extension>
+  </format>
+  <format value="json">
+    <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+      <valueCode value="SHALL"/>
+    </extension>
+  </format>
+  <implementationGuide value="http://build.fhir.org/ig/HL7/emedicinal-product-info/toc.html">
+    <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+      <valueCode value="SHOULD"/>
+    </extension>
+  </implementationGuide>
+  <rest>
+    <mode value="server"/>
+    <documentation value="A minumum functionality for ePI. Refer to the FHIR specification for further requirements, and the details in the computable version of this Capabiltiy Statement"/>
+    <security>
+      <cors value="true"/>
+      <description value="1. See the [General Security Considerations](security.html) section for requirements and recommendations.&#xA;1. A server **SHALL** reject any unauthorized requests by returning an `HTTP 401` &quot;Unauthorized&quot;, `HTTP 403` &quot;Forbidden&quot;, or `HTTP 404` &quot;Not Found&quot;"/>
+    </security>
+    <resource>
+      <type value="AdministrableProductDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/AdministrableProductDefinition"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="AdministrableProductDefinition.manufactured-item"/>
+      <searchInclude value="AdministrableProductDefinition.device"/>
+      <searchInclude value="AdministrableProductDefinition.form-of"/>
+      <searchRevInclude value="Ingredient.for"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-identifier"/>
+        <type value="token"/>
+        <documentation value="An identifier for the administrable product"/>
+      </searchParam>
+      <searchParam>
+        <name value="manufactured-item"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-manufactured-item"/>
+        <type value="reference"/>
+        <documentation value="The manufactured item(s) that this administrable product is produced from. Either a single item, or several that are mixed before administration (e.g. a power item and a solution item). Note that these are not raw ingredients"/>
+      </searchParam>
+      <searchParam>
+        <name value="ingredient"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-ingredient"/>
+        <type value="token"/>
+        <documentation value="The ingredients of this administrable medicinal product"/>
+      </searchParam>
+      <searchParam>
+        <name value="route"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-route"/>
+        <type value="token"/>
+        <documentation value="Coded expression for the route"/>
+      </searchParam>
+      <searchParam>
+        <name value="dose-form"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-dose-form"/>
+        <type value="token"/>
+        <documentation value="The administrable dose form, i.e. the dose form of the final product after necessary reconstitution or processing"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-device"/>
+        <type value="reference"/>
+        <documentation value="A device that is integral to the medicinal product, in effect being considered as an &quot;ingredient&quot; of the medicinal product. This is not intended for devices that are just co-packaged"/>
+      </searchParam>
+      <searchParam>
+        <name value="form-of"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-form-of"/>
+        <type value="reference"/>
+        <documentation value="The medicinal product that this is an administrable form of. This is not a reference to the item(s) that make up this administrable form - it is the whole product"/>
+      </searchParam>
+      <searchParam>
+        <name value="target-species"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-target-species"/>
+        <type value="token"/>
+        <documentation value="Coded expression for the species"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/AdministrableProductDefinition-status"/>
+        <type value="token"/>
+        <documentation value="The status of this administrable product. Enables tracking the life-cycle of the content."/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Bundle"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Bundle.composition"/>
+      <searchInclude value="Bundle.message"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Bundle-identifier"/>
+        <type value="token"/>
+        <documentation value="Persistent identifier for the bundle"/>
+      </searchParam>
+      <searchParam>
+        <name value="composition"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Bundle-composition"/>
+        <type value="reference"/>
+        <documentation value="The first resource in the bundle, if the bundle type is &quot;document&quot; - this is a composition, and this parameter provides access to search its contents"/>
+      </searchParam>
+      <searchParam>
+        <name value="message"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Bundle-message"/>
+        <type value="reference"/>
+        <documentation value="The first resource in the bundle, if the bundle type is &quot;message&quot; - this is a message header, and this parameter provides access to search its contents"/>
+      </searchParam>
+      <searchParam>
+        <name value="type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Bundle-type"/>
+        <type value="token"/>
+        <documentation value="document | message | transaction | transaction-response | batch | batch-response | history | searchset | collection | subscription-notification"/>
+      </searchParam>
+      <searchParam>
+        <name value="timestamp"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Bundle-timestamp"/>
+        <type value="date"/>
+        <documentation value="When the bundle was assembled"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="CapabilityStatement"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/CapabilityStatement"/>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="CapabilityStatement.resource-profile"/>
+      <searchInclude value="CapabilityStatement.supported-profile"/>
+      <searchInclude value="CapabilityStatement.guide"/>
+      <searchRevInclude value="RequestOrchestration.participant"/>
+      <searchParam>
+        <name value="date"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-date"/>
+        <type value="date"/>
+        <documentation value="The capability statement publication date"/>
+      </searchParam>
+      <searchParam>
+        <name value="resource-profile"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-resource-profile"/>
+        <type value="reference"/>
+        <documentation value="A profile id invoked in a capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="context-type-value"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-context-type-value"/>
+        <type value="composite"/>
+        <documentation value="A use context type and value assigned to the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="software"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-software"/>
+        <type value="string"/>
+        <documentation value="Part of the name of a software application"/>
+      </searchParam>
+      <searchParam>
+        <name value="resource"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-resource"/>
+        <type value="token"/>
+        <documentation value="Name of a resource mentioned in a capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="jurisdiction"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-jurisdiction"/>
+        <type value="token"/>
+        <documentation value="Intended jurisdiction for the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="format"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-format"/>
+        <type value="token"/>
+        <documentation value="formats supported (xml | json | ttl | mime type)"/>
+      </searchParam>
+      <searchParam>
+        <name value="description"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-description"/>
+        <type value="string"/>
+        <documentation value="The description of the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="context-type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-context-type"/>
+        <type value="token"/>
+        <documentation value="A type of use context assigned to the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="fhirversion"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-fhirversion"/>
+        <type value="token"/>
+        <documentation value="The version of FHIR"/>
+      </searchParam>
+      <searchParam>
+        <name value="title"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-title"/>
+        <type value="string"/>
+        <documentation value="The human-friendly name of the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="version"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-version"/>
+        <type value="token"/>
+        <documentation value="The business version of the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="supported-profile"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-supported-profile"/>
+        <type value="reference"/>
+        <documentation value="Profiles for use cases supported"/>
+      </searchParam>
+      <searchParam>
+        <name value="url"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-url"/>
+        <type value="uri"/>
+        <documentation value="The uri that identifies the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="mode"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-mode"/>
+        <type value="token"/>
+        <documentation value="Mode - restful (server/client) or messaging (sender/receiver)"/>
+      </searchParam>
+      <searchParam>
+        <name value="context-quantity"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-context-quantity"/>
+        <type value="quantity"/>
+        <documentation value="A quantity- or range-valued use context assigned to the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="security-service"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-security-service"/>
+        <type value="token"/>
+        <documentation value="OAuth | SMART-on-FHIR | NTLM | Basic | Kerberos | Certificates"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-context"/>
+        <type value="token"/>
+        <documentation value="A use context assigned to the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-name"/>
+        <type value="string"/>
+        <documentation value="Computationally friendly name of the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="publisher"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-publisher"/>
+        <type value="string"/>
+        <documentation value="Name of the publisher of the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="context-type-quantity"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-context-type-quantity"/>
+        <type value="composite"/>
+        <documentation value="A use context type and quantity- or range-based value assigned to the capability statement"/>
+      </searchParam>
+      <searchParam>
+        <name value="guide"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/CapabilityStatement-guide"/>
+        <type value="reference"/>
+        <documentation value="Implementation guides supported"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/conformance-status"/>
+        <type value="token"/>
+        <documentation value="The current status of the capability statement"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="ClinicalUseDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="ClinicalUseDefinition.contraindication-reference"/>
+      <searchInclude value="ClinicalUseDefinition.indication-reference"/>
+      <searchInclude value="ClinicalUseDefinition.product"/>
+      <searchInclude value="ClinicalUseDefinition.subject"/>
+      <searchInclude value="ClinicalUseDefinition.effect-reference"/>
+      <searchParam>
+        <name value="contraindication-reference"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-contraindication-reference"/>
+        <type value="reference"/>
+        <documentation value="The situation that is being documented as contraindicating against this item, as a reference"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-identifier"/>
+        <type value="token"/>
+        <documentation value="Business identifier for this issue"/>
+      </searchParam>
+      <searchParam>
+        <name value="indication-reference"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-indication-reference"/>
+        <type value="reference"/>
+        <documentation value="The situation that is being documented as an indicaton for this item, as a reference"/>
+      </searchParam>
+      <searchParam>
+        <name value="product"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-product"/>
+        <type value="reference"/>
+        <documentation value="The medicinal product for which this is a clinical usage issue"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-subject"/>
+        <type value="reference"/>
+        <documentation value="The resource for which this is a clinical usage issue"/>
+      </searchParam>
+      <searchParam>
+        <name value="effect"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-effect"/>
+        <type value="token"/>
+        <documentation value="The situation in which the undesirable effect may manifest, as a code"/>
+      </searchParam>
+      <searchParam>
+        <name value="interaction"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-interaction"/>
+        <type value="token"/>
+        <documentation value="The type of the interaction e.g. drug-drug interaction, drug-food interaction, drug-lab test interaction"/>
+      </searchParam>
+      <searchParam>
+        <name value="indication"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-indication"/>
+        <type value="token"/>
+        <documentation value="The situation that is being documented as an indicaton for this item, as a code"/>
+      </searchParam>
+      <searchParam>
+        <name value="type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-type"/>
+        <type value="token"/>
+        <documentation value="indication | contraindication | interaction | undesirable-effect | warning"/>
+      </searchParam>
+      <searchParam>
+        <name value="contraindication"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-contraindication"/>
+        <type value="token"/>
+        <documentation value="The situation that is being documented as contraindicating against this item, as a code"/>
+      </searchParam>
+      <searchParam>
+        <name value="effect-reference"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-effect-reference"/>
+        <type value="reference"/>
+        <documentation value="The situation in which the undesirable effect may manifest, as a reference"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ClinicalUseDefinition-status"/>
+        <type value="token"/>
+        <documentation value="Whether this is a current issue or one that has been retired etc"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Composition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Composition"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Composition.author"/>
+      <searchInclude value="Composition.subject"/>
+      <searchInclude value="Composition.encounter"/>
+      <searchInclude value="Composition.attester"/>
+      <searchInclude value="Composition.entry"/>
+      <searchInclude value="Composition.related"/>
+      <searchInclude value="Composition.patient"/>
+      <searchRevInclude value="Procedure.report"/>
+      <searchParam>
+        <name value="date"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-date"/>
+        <type value="date"/>
+        <documentation value="Composition editing time"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-identifier"/>
+        <type value="token"/>
+        <documentation value="Version-independent identifier for the Composition"/>
+      </searchParam>
+      <searchParam>
+        <name value="period"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-period"/>
+        <type value="date"/>
+        <documentation value="The period covered by the documentation"/>
+      </searchParam>
+      <searchParam>
+        <name value="author"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-author"/>
+        <type value="reference"/>
+        <documentation value="Who and/or what authored the composition"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-subject"/>
+        <type value="reference"/>
+        <documentation value="Who and/or what the composition is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="section"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-section"/>
+        <type value="token"/>
+        <documentation value="Classification of section (recommended)"/>
+      </searchParam>
+      <searchParam>
+        <name value="encounter"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-encounter"/>
+        <type value="reference"/>
+        <documentation value="Context of the Composition"/>
+      </searchParam>
+      <searchParam>
+        <name value="title"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-title"/>
+        <type value="string"/>
+        <documentation value="Human Readable name/title"/>
+      </searchParam>
+      <searchParam>
+        <name value="type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-type"/>
+        <type value="token"/>
+        <documentation value="Kind of composition (LOINC if possible)"/>
+      </searchParam>
+      <searchParam>
+        <name value="version"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-version"/>
+        <type value="token"/>
+        <documentation value="The business version of the activity definition"/>
+      </searchParam>
+      <searchParam>
+        <name value="attester"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-attester"/>
+        <type value="reference"/>
+        <documentation value="Who attested the composition"/>
+      </searchParam>
+      <searchParam>
+        <name value="url"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-url"/>
+        <type value="uri"/>
+        <documentation value="The uri that identifies the activity definition"/>
+      </searchParam>
+      <searchParam>
+        <name value="section-text"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-section-text"/>
+        <type value="special"/>
+        <documentation value="Search on the section narrative of the resource"/>
+      </searchParam>
+      <searchParam>
+        <name value="entry"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-entry"/>
+        <type value="reference"/>
+        <documentation value="A reference to data that supports this section"/>
+      </searchParam>
+      <searchParam>
+        <name value="related"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-related"/>
+        <type value="reference"/>
+        <documentation value="Target of the relationship"/>
+      </searchParam>
+      <searchParam>
+        <name value="patient"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/clinical-patient"/>
+        <type value="reference"/>
+        <documentation value="Who and/or what the composition is about"/>
+      </searchParam>
+      <searchParam>
+        <name value="context"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-context"/>
+        <type value="token"/>
+        <documentation value="Code(s) that apply to the event being documented"/>
+      </searchParam>
+      <searchParam>
+        <name value="category"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-category"/>
+        <type value="token"/>
+        <documentation value="Categorization of Composition"/>
+      </searchParam>
+      <searchParam>
+        <name value="section-code-text"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-section-code-text"/>
+        <type value="composite"/>
+        <documentation value="Search on the section narrative of the resource"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Composition-status"/>
+        <type value="token"/>
+        <documentation value="preliminary | final | amended | entered-in-error"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Ingredient"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Ingredient"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Ingredient.substance-definition"/>
+      <searchInclude value="Ingredient.substance"/>
+      <searchInclude value="Ingredient.for"/>
+      <searchInclude value="Ingredient.manufacturer"/>
+      <searchRevInclude value="RegulatedAuthorization.subject"/>
+      <searchParam>
+        <name value="substance-definition"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-substance-definition"/>
+        <type value="reference"/>
+        <documentation value="Reference to a resource (by instance)"/>
+      </searchParam>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-identifier"/>
+        <type value="token"/>
+        <documentation value="An identifier or code by which the ingredient can be referenced"/>
+      </searchParam>
+      <searchParam>
+        <name value="role"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-role"/>
+        <type value="token"/>
+        <documentation value="A classification of the ingredient identifying its purpose within the product, e.g. active, inactive"/>
+      </searchParam>
+      <searchParam>
+        <name value="function"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-function"/>
+        <type value="token"/>
+        <documentation value="A classification of the ingredient identifying its precise purpose(s) in the drug product. This extends the Ingredient.role to add more detail. Example: Antioxidant, Alkalizing Agent"/>
+      </searchParam>
+      <searchParam>
+        <name value="substance"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-substance"/>
+        <type value="reference"/>
+        <documentation value="Reference to a resource (by instance)"/>
+      </searchParam>
+      <searchParam>
+        <name value="for"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-for"/>
+        <type value="reference"/>
+        <documentation value="The product which this ingredient is a constituent part of"/>
+      </searchParam>
+      <searchParam>
+        <name value="substance-code"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-substance-code"/>
+        <type value="token"/>
+        <documentation value="Reference to a concept (by class)"/>
+      </searchParam>
+      <searchParam>
+        <name value="manufacturer"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-manufacturer"/>
+        <type value="reference"/>
+        <documentation value="The organization that manufactures this ingredient"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Ingredient-status"/>
+        <type value="token"/>
+        <documentation value="The status of this ingredient. Enables tracking the life-cycle of the content"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="ManufacturedItemDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchRevInclude value="AdministrableProductDefinition.manufactured-item"/>
+      <searchRevInclude value="Ingredient.for"/>
+      <searchRevInclude value="RegulatedAuthorization.subject"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-identifier"/>
+        <type value="token"/>
+        <documentation value="Unique identifier"/>
+      </searchParam>
+      <searchParam>
+        <name value="ingredient"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-ingredient"/>
+        <type value="token"/>
+        <documentation value="An ingredient of this item"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-name"/>
+        <type value="token"/>
+        <documentation value="A descriptive name applied to this item"/>
+      </searchParam>
+      <searchParam>
+        <name value="dose-form"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-dose-form"/>
+        <type value="token"/>
+        <documentation value="Dose form as manufactured and before any transformation into the pharmaceutical product"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/ManufacturedItemDefinition-status"/>
+        <type value="token"/>
+        <documentation value="The status of this item. Enables tracking the life-cycle of the content."/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="MedicinalProductDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/MedicinalProductDefinition"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="MedicinalProductDefinition.master-file"/>
+      <searchInclude value="MedicinalProductDefinition.contact"/>
+      <searchRevInclude value="AdministrableProductDefinition.form-of"/>
+      <searchRevInclude value="ClinicalUseDefinition.product"/>
+      <searchRevInclude value="ClinicalUseDefinition.subject"/>
+      <searchRevInclude value="Ingredient.for"/>
+      <searchRevInclude value="PackagedProductDefinition.package-for"/>
+      <searchRevInclude value="RegulatedAuthorization.subject"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-identifier"/>
+        <type value="token"/>
+        <documentation value="Business identifier for this product. Could be an MPID"/>
+      </searchParam>
+      <searchParam>
+        <name value="ingredient"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-ingredient"/>
+        <type value="token"/>
+        <documentation value="An ingredient of this product"/>
+      </searchParam>
+      <searchParam>
+        <name value="master-file"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-master-file"/>
+        <type value="reference"/>
+        <documentation value="A master file for to the medicinal product (e.g. Pharmacovigilance System Master File)"/>
+      </searchParam>
+      <searchParam>
+        <name value="contact"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-contact"/>
+        <type value="reference"/>
+        <documentation value="A product specific contact, person (in a role), or an organization"/>
+      </searchParam>
+      <searchParam>
+        <name value="domain"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-domain"/>
+        <type value="token"/>
+        <documentation value="If this medicine applies to human or veterinary uses"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-name"/>
+        <type value="string"/>
+        <documentation value="The full product name"/>
+      </searchParam>
+      <searchParam>
+        <name value="name-language"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-name-language"/>
+        <type value="token"/>
+        <documentation value="Language code for this name"/>
+      </searchParam>
+      <searchParam>
+        <name value="type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-type"/>
+        <type value="token"/>
+        <documentation value="Regulatory type, e.g. Investigational or Authorized"/>
+      </searchParam>
+      <searchParam>
+        <name value="characteristic"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-characteristic"/>
+        <type value="token"/>
+        <documentation value="Allows the key product features to be recorded, such as &quot;sugar free&quot;, &quot;modified release&quot;, &quot;parallel import&quot;"/>
+      </searchParam>
+      <searchParam>
+        <name value="characteristic-type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-characteristic-type"/>
+        <type value="token"/>
+        <documentation value="A category for the characteristic"/>
+      </searchParam>
+      <searchParam>
+        <name value="product-classification"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-product-classification"/>
+        <type value="token"/>
+        <documentation value="Allows the product to be classified by various systems"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/MedicinalProductDefinition-status"/>
+        <type value="token"/>
+        <documentation value="The status within the lifecycle of this product record. A high-level status, this is not intended to duplicate details carried elsewhere such as legal status, or authorization status"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="Organization"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/Organization"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="Organization.partof"/>
+      <searchInclude value="Organization.endpoint"/>
+      <searchRevInclude value="Account.owner"/>
+      <searchRevInclude value="Account.patient"/>
+      <searchRevInclude value="Account.subject"/>
+      <searchRevInclude value="Account.guarantor"/>
+      <searchRevInclude value="AllergyIntolerance.participant"/>
+      <searchRevInclude value="AuditEvent.agent"/>
+      <searchRevInclude value="AuditEvent.source"/>
+      <searchRevInclude value="Basic.author"/>
+      <searchRevInclude value="CarePlan.performer"/>
+      <searchRevInclude value="CarePlan.custodian"/>
+      <searchRevInclude value="CareTeam.participant"/>
+      <searchRevInclude value="ChargeItem.performing-organization"/>
+      <searchRevInclude value="ChargeItem.enterer"/>
+      <searchRevInclude value="ChargeItem.performer-actor"/>
+      <searchRevInclude value="ChargeItem.requesting-organization"/>
+      <searchRevInclude value="Claim.care-team"/>
+      <searchRevInclude value="Claim.payee"/>
+      <searchRevInclude value="Claim.provider"/>
+      <searchRevInclude value="Claim.insurer"/>
+      <searchRevInclude value="Claim.facility"/>
+      <searchRevInclude value="ClaimResponse.insurer"/>
+      <searchRevInclude value="ClaimResponse.requestor"/>
+      <searchRevInclude value="Communication.sender"/>
+      <searchRevInclude value="Communication.recipient"/>
+      <searchRevInclude value="CommunicationRequest.requester"/>
+      <searchRevInclude value="CommunicationRequest.recipient"/>
+      <searchRevInclude value="CommunicationRequest.information-provider"/>
+      <searchRevInclude value="Composition.author"/>
+      <searchRevInclude value="Composition.attester"/>
+      <searchRevInclude value="Condition.participant-actor"/>
+      <searchRevInclude value="Consent.controller"/>
+      <searchRevInclude value="Consent.manager"/>
+      <searchRevInclude value="Consent.grantee"/>
+      <searchRevInclude value="Consent.actor"/>
+      <searchRevInclude value="Contract.authority"/>
+      <searchRevInclude value="Contract.signer"/>
+      <searchRevInclude value="Coverage.insurer"/>
+      <searchRevInclude value="Coverage.paymentby-party"/>
+      <searchRevInclude value="Coverage.policy-holder"/>
+      <searchRevInclude value="CoverageEligibilityRequest.provider"/>
+      <searchRevInclude value="CoverageEligibilityResponse.insurer"/>
+      <searchRevInclude value="CoverageEligibilityResponse.requestor"/>
+      <searchRevInclude value="DetectedIssue.subject"/>
+      <searchRevInclude value="DetectedIssue.patient"/>
+      <searchRevInclude value="Device.organization"/>
+      <searchRevInclude value="DeviceRequest.requester"/>
+      <searchRevInclude value="DeviceRequest.performer"/>
+      <searchRevInclude value="DiagnosticReport.performer"/>
+      <searchRevInclude value="DiagnosticReport.subject"/>
+      <searchRevInclude value="DiagnosticReport.patient"/>
+      <searchRevInclude value="DiagnosticReport.results-interpreter"/>
+      <searchRevInclude value="DocumentManifest.author"/>
+      <searchRevInclude value="DocumentManifest.recipient"/>
+      <searchRevInclude value="DocumentReference.custodian"/>
+      <searchRevInclude value="DocumentReference.author"/>
+      <searchRevInclude value="DocumentReference.attester"/>
+      <searchRevInclude value="Encounter.service-provider"/>
+      <searchRevInclude value="Endpoint.organization"/>
+      <searchRevInclude value="EpisodeOfCare.organization"/>
+      <searchRevInclude value="ExplanationOfBenefit.care-team"/>
+      <searchRevInclude value="ExplanationOfBenefit.payee"/>
+      <searchRevInclude value="ExplanationOfBenefit.provider"/>
+      <searchRevInclude value="ExplanationOfBenefit.facility"/>
+      <searchRevInclude value="Flag.author"/>
+      <searchRevInclude value="Flag.patient"/>
+      <searchRevInclude value="Flag.subject"/>
+      <searchRevInclude value="GenomicStudy.analysis-patient"/>
+      <searchRevInclude value="GenomicStudy.patient"/>
+      <searchRevInclude value="GenomicStudy.subject"/>
+      <searchRevInclude value="GenomicStudy.analysis-subject"/>
+      <searchRevInclude value="Goal.patient"/>
+      <searchRevInclude value="Goal.subject"/>
+      <searchRevInclude value="Group.managing-entity"/>
+      <searchRevInclude value="Group.member"/>
+      <searchRevInclude value="HealthcareService.organization"/>
+      <searchRevInclude value="ImagingSelection.subject"/>
+      <searchRevInclude value="ImagingSelection.patient"/>
+      <searchRevInclude value="ImagingStudy.performer"/>
+      <searchRevInclude value="Immunization.performer"/>
+      <searchRevInclude value="InsurancePlan.owned-by"/>
+      <searchRevInclude value="InsurancePlan.administered-by"/>
+      <searchRevInclude value="Invoice.issuer"/>
+      <searchRevInclude value="Invoice.participant"/>
+      <searchRevInclude value="Invoice.recipient"/>
+      <searchRevInclude value="Linkage.author"/>
+      <searchRevInclude value="List.patient"/>
+      <searchRevInclude value="List.subject"/>
+      <searchRevInclude value="List.source"/>
+      <searchRevInclude value="Location.organization"/>
+      <searchRevInclude value="MeasureReport.patient"/>
+      <searchRevInclude value="MeasureReport.subject"/>
+      <searchRevInclude value="MeasureReport.reporter"/>
+      <searchRevInclude value="Medication.marketingauthorizationholder"/>
+      <searchRevInclude value="MedicationDispense.performer"/>
+      <searchRevInclude value="MedicationDispense.responsibleparty"/>
+      <searchRevInclude value="MedicationRequest.requester"/>
+      <searchRevInclude value="MedicationRequest.intended-dispenser"/>
+      <searchRevInclude value="MedicationRequest.intended-performer"/>
+      <searchRevInclude value="MedicationUsage.source"/>
+      <searchRevInclude value="MedicinalProductDefinition.contact"/>
+      <searchRevInclude value="MessageHeader.receiver"/>
+      <searchRevInclude value="MessageHeader.sender"/>
+      <searchRevInclude value="MessageHeader.responsible"/>
+      <searchRevInclude value="MolecularSequence.subject"/>
+      <searchRevInclude value="MolecularSequence.patient"/>
+      <searchRevInclude value="NutritionIntake.source"/>
+      <searchRevInclude value="Observation.subject"/>
+      <searchRevInclude value="Observation.patient"/>
+      <searchRevInclude value="Observation.performer"/>
+      <searchRevInclude value="Organization.partof"/>
+      <searchRevInclude value="OrganizationAffiliation.primary-organization"/>
+      <searchRevInclude value="OrganizationAffiliation.network"/>
+      <searchRevInclude value="OrganizationAffiliation.participating-organization"/>
+      <searchRevInclude value="Patient.general-practitioner"/>
+      <searchRevInclude value="Patient.organization"/>
+      <searchRevInclude value="PaymentNotice.provider"/>
+      <searchRevInclude value="PaymentReconciliation.payment-issuer"/>
+      <searchRevInclude value="PaymentReconciliation.requestor"/>
+      <searchRevInclude value="Person.organization"/>
+      <searchRevInclude value="PractitionerRole.organization"/>
+      <searchRevInclude value="Procedure.performer"/>
+      <searchRevInclude value="Procedure.subject"/>
+      <searchRevInclude value="Procedure.patient"/>
+      <searchRevInclude value="Provenance.agent"/>
+      <searchRevInclude value="QuestionnaireResponse.author"/>
+      <searchRevInclude value="QuestionnaireResponse.source"/>
+      <searchRevInclude value="RegulatedAuthorization.subject"/>
+      <searchRevInclude value="RegulatedAuthorization.holder"/>
+      <searchRevInclude value="RequestOrchestration.participant"/>
+      <searchRevInclude value="ResearchStudy.site"/>
+      <searchRevInclude value="ServiceRequest.requester"/>
+      <searchRevInclude value="ServiceRequest.performer"/>
+      <searchRevInclude value="SupplyDelivery.supplier"/>
+      <searchRevInclude value="SupplyRequest.requester"/>
+      <searchRevInclude value="SupplyRequest.subject"/>
+      <searchRevInclude value="SupplyRequest.supplier"/>
+      <searchRevInclude value="Task.owner"/>
+      <searchRevInclude value="Task.requester"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-identifier"/>
+        <type value="token"/>
+        <documentation value="Any identifier for the organization (not the accreditation issuer's identifier)"/>
+      </searchParam>
+      <searchParam>
+        <name value="partof"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-partof"/>
+        <type value="reference"/>
+        <documentation value="An organization of which this organization forms a part"/>
+      </searchParam>
+      <searchParam>
+        <name value="address"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-address"/>
+        <type value="string"/>
+        <documentation value="A server defined search that may match any of the string fields in the Address, including line, city, district, state, country, postalCode, and/or text"/>
+      </searchParam>
+      <searchParam>
+        <name value="address-state"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-address-state"/>
+        <type value="string"/>
+        <documentation value="A state specified in an address"/>
+      </searchParam>
+      <searchParam>
+        <name value="active"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-active"/>
+        <type value="token"/>
+        <documentation value="Is the Organization record active"/>
+      </searchParam>
+      <searchParam>
+        <name value="type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-type"/>
+        <type value="token"/>
+        <documentation value="A code for the type of organization"/>
+      </searchParam>
+      <searchParam>
+        <name value="address-postalcode"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-address-postalcode"/>
+        <type value="string"/>
+        <documentation value="A postal code specified in an address"/>
+      </searchParam>
+      <searchParam>
+        <name value="address-country"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-address-country"/>
+        <type value="string"/>
+        <documentation value="A country specified in an address"/>
+      </searchParam>
+      <searchParam>
+        <name value="endpoint"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-endpoint"/>
+        <type value="reference"/>
+        <documentation value="Technical endpoints providing access to services operated for the organization"/>
+      </searchParam>
+      <searchParam>
+        <name value="phonetic"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-phonetic"/>
+        <type value="string"/>
+        <documentation value="A portion of the organization's name using some kind of phonetic matching algorithm"/>
+      </searchParam>
+      <searchParam>
+        <name value="address-use"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-address-use"/>
+        <type value="token"/>
+        <documentation value="A use code specified in an address"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-name"/>
+        <type value="string"/>
+        <documentation value="A portion of the organization's name or alias"/>
+      </searchParam>
+      <searchParam>
+        <name value="address-city"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/Organization-address-city"/>
+        <type value="string"/>
+        <documentation value="A city specified in an address"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="PackagedProductDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="PackagedProductDefinition.manufactured-item"/>
+      <searchInclude value="PackagedProductDefinition.nutrition"/>
+      <searchInclude value="PackagedProductDefinition.package"/>
+      <searchInclude value="PackagedProductDefinition.biological"/>
+      <searchInclude value="PackagedProductDefinition.package-for"/>
+      <searchInclude value="PackagedProductDefinition.contained-item"/>
+      <searchInclude value="PackagedProductDefinition.medication"/>
+      <searchInclude value="PackagedProductDefinition.device"/>
+      <searchRevInclude value="RegulatedAuthorization.subject"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-identifier"/>
+        <type value="token"/>
+        <documentation value="Unique identifier"/>
+      </searchParam>
+      <searchParam>
+        <name value="manufactured-item"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-manufactured-item"/>
+        <type value="reference"/>
+        <documentation value="A manufactured item of medication within this packaged product"/>
+      </searchParam>
+      <searchParam>
+        <name value="nutrition"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-nutrition"/>
+        <type value="reference"/>
+        <documentation value="A nutrition product within this packaged product"/>
+      </searchParam>
+      <searchParam>
+        <name value="package"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-package"/>
+        <type value="reference"/>
+        <documentation value="A complete packaged product within this packaged product"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-name"/>
+        <type value="token"/>
+        <documentation value="A name for this package. Typically what it would be listed as in a drug formulary or catalogue, inventory etc"/>
+      </searchParam>
+      <searchParam>
+        <name value="biological"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-biological"/>
+        <type value="reference"/>
+        <documentation value="A biologically derived product within this packaged product"/>
+      </searchParam>
+      <searchParam>
+        <name value="package-for"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-package-for"/>
+        <type value="reference"/>
+        <documentation value="The product that this is a pack for"/>
+      </searchParam>
+      <searchParam>
+        <name value="contained-item"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-contained-item"/>
+        <type value="reference"/>
+        <documentation value="Any of the contained items within this packaged product"/>
+      </searchParam>
+      <searchParam>
+        <name value="medication"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-medication"/>
+        <type value="reference"/>
+        <documentation value="A manufactured item of medication within this packaged product"/>
+      </searchParam>
+      <searchParam>
+        <name value="device"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-device"/>
+        <type value="reference"/>
+        <documentation value="A device within this packaged product"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/PackagedProductDefinition-status"/>
+        <type value="token"/>
+        <documentation value="The status within the lifecycle of this item. A high level status, this is not intended to duplicate details carried elsewhere such as legal status, or authorization or marketing status"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="RegulatedAuthorization"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/RegulatedAuthorization"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchInclude value="RegulatedAuthorization.subject"/>
+      <searchInclude value="RegulatedAuthorization.holder"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-identifier"/>
+        <type value="token"/>
+        <documentation value="Business identifier for the authorization, typically assigned by the authorizing body"/>
+      </searchParam>
+      <searchParam>
+        <name value="subject"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-subject"/>
+        <type value="reference"/>
+        <documentation value="The type of regulated product, treatment, facility or activity that is being authorized"/>
+      </searchParam>
+      <searchParam>
+        <name value="case-type"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-case-type"/>
+        <type value="token"/>
+        <documentation value="The defining type of case"/>
+      </searchParam>
+      <searchParam>
+        <name value="holder"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-holder"/>
+        <type value="reference"/>
+        <documentation value="The organization that holds the granted authorization"/>
+      </searchParam>
+      <searchParam>
+        <name value="region"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-region"/>
+        <type value="token"/>
+        <documentation value="The territory (e.g., country, jurisdiction etc.) in which the authorization has been granted"/>
+      </searchParam>
+      <searchParam>
+        <name value="case"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-case"/>
+        <type value="token"/>
+        <documentation value="The case or procedure number"/>
+      </searchParam>
+      <searchParam>
+        <name value="status"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/RegulatedAuthorization-status"/>
+        <type value="token"/>
+        <documentation value="The status that is authorised e.g. approved. Intermediate states can be tracked with cases and applications"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="SubstanceDefinition"/>
+      <profile value="http://hl7.org/fhir/StructureDefinition/SubstanceDefinition"/>
+      <supportedProfile value="http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="vread"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHOULD"/>
+        </extension>
+        <code value="history-instance"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="MAY"/>
+        </extension>
+        <code value="history-type"/>
+        <documentation value="Implemented per the specification (or Insert other doco here)"/>
+      </interaction>
+      <referencePolicy value="literal"/>
+      <referencePolicy value="logical"/>
+      <searchRevInclude value="RegulatedAuthorization.subject"/>
+      <searchParam>
+        <name value="identifier"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/SubstanceDefinition-identifier"/>
+        <type value="token"/>
+        <documentation value="Identifier by which this substance is known"/>
+      </searchParam>
+      <searchParam>
+        <name value="code"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/SubstanceDefinition-code"/>
+        <type value="token"/>
+        <documentation value="The specific code"/>
+      </searchParam>
+      <searchParam>
+        <name value="domain"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/SubstanceDefinition-domain"/>
+        <type value="token"/>
+        <documentation value="If the substance applies to only human or veterinary use"/>
+      </searchParam>
+      <searchParam>
+        <name value="name"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/SubstanceDefinition-name"/>
+        <type value="string"/>
+        <documentation value="The actual name"/>
+      </searchParam>
+      <searchParam>
+        <name value="classification"/>
+        <definition value="http://hl7.org/fhir/SearchParameter/SubstanceDefinition-classification"/>
+        <type value="token"/>
+        <documentation value="High or low level categorization, e.g. polymer vs. nucleic acid or linear vs. branch chain"/>
+      </searchParam>
+    </resource>
+    <interaction>
+      <code value="transaction"/>
+      <documentation value="Implemented per the specification (or Insert other doco here)"/>
+    </interaction>
+    <interaction>
+      <code value="batch"/>
+      <documentation value="Implemented per the specification (or Insert other doco here)"/>
+    </interaction>
+    <interaction>
+      <code value="history-system"/>
+      <documentation value="Implemented per the specification (or Insert other doco here)"/>
+    </interaction>
+    <interaction>
+      <code value="search-system"/>
+      <documentation value="Implemented per the specification (or Insert other doco here)"/>
+    </interaction>
+    <searchParam>
+      <name value="_id"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/id"/>
+      <type value="string"/>
+      <documentation value="Searches on the server assigned id"/>
+    </searchParam>
+    <searchParam>
+      <name value="_list"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-list"/>
+      <type value="token"/>
+      <documentation value="Retrieval of resources that are referenced by a List resource"/>
+    </searchParam>
+    <searchParam>
+      <name value="_has"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-has"/>
+      <type value="composite"/>
+      <documentation value="Provides support for reverse chaining"/>
+    </searchParam>
+    <searchParam>
+      <name value="_type"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-type"/>
+      <type value="token"/>
+      <documentation value="Type of resource (when doing cross-resource search"/>
+    </searchParam>
+    <searchParam>
+      <name value="_sort"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-source"/>
+      <type value="token"/>
+      <documentation value="How to sort the resources when returning"/>
+    </searchParam>
+    <searchParam>
+      <name value="_count"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-count"/>
+      <type value="number"/>
+      <documentation value="How many resources to return"/>
+    </searchParam>
+    <searchParam>
+      <name value="_include"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-include"/>
+      <type value="token"/>
+      <documentation value="Control over returning additional resources (see spec)"/>
+    </searchParam>
+    <searchParam>
+      <name value="_revinclude"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-revinclude"/>
+      <type value="token"/>
+      <documentation value="Control over returning additional resources (see spec)"/>
+    </searchParam>
+    <searchParam>
+      <name value="_elements"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-elements"/>
+      <type value="string"/>
+      <documentation value="What kind of information to return"/>
+    </searchParam>
+    <searchParam>
+      <name value="_language"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-language"/>
+      <type value="token"/>
+      <documentation value="Language of the resource content"/>
+    </searchParam>
+    <searchParam>
+      <name value="_in"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-in"/>
+      <type value="reference"/>
+      <documentation value="Allows for the retrieval of resources that are active members of a CareTeam, Group, or List"/>
+    </searchParam>
+    <searchParam>
+      <name value="_lastUpdated"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-lastUpdated"/>
+      <type value="date"/>
+      <documentation value="When the resource version last changed"/>
+    </searchParam>
+    <searchParam>
+      <name value="_profile"/>
+      <definition value="http://hl7.org/fhir/SearchParameter/Resource-profile"/>
+      <type value="reference"/>
+      <documentation value="Profiles this resource claims to conform to"/>
+    </searchParam>
+    <operation>
+      <name value="meta"/>
+      <definition value="http://hl7.org/fhir/OperationDefinition/resource-meta"/>
+    </operation>
+    <operation>
+      <name value="filter"/>
+      <definition value="http://hl7.org/fhir/OperationDefinition/resource-filter"/>
+    </operation>
+    <operation>
+      <name value="document"/>
+      <definition value="http://hl7.org/fhir/OperationDefinition/composition-document"/>
+    </operation>
+    <operation>
+      <name value="find"/>
+      <definition value="http://hl7.org/fhir/OperationDefinition/list-find"/>
+    </operation>
+    <operation>
+      <name value="everything"/>
+      <definition value="http://hl7.org/fhir/OperationDefinition/medicinalproductdefinition-everything"/>
+    </operation>
+  </rest>
+</CapabilityStatement>

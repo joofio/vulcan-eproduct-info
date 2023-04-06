@@ -1,0 +1,1096 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "bundlepackageleaflet-31887cbcd4c018e35f958e5f8547dd66",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"]
+  },
+  "identifier" : {
+    "system" : "https://www.gravitatehealth.eu/sid/doc",
+    "value" : "xx"
+  },
+  "type" : "document",
+  "timestamp" : "2023-04-05T10:36:35Z",
+  "entry" : [{
+    "fullUrl" : "Composition/composition45f3604d61f93f5f026bea5d5824af10",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "composition45f3604d61f93f5f026bea5d5824af10",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"composition45f3604d61f93f5f026bea5d5824af10\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;composition45f3604d61f93f5f026bea5d5824af10&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Composition-uv-epi.html\">Composition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a00d69fdcb-33cf-407f-8209-a6529856ab4f</p><p><b>status</b>: final</p><p><b>type</b>: Package Leaflet <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000155538)</span></p><p><b>date</b>: 2022-02-16 13:28:17+0000</p><p><b>author</b>: <a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></p><p><b>title</b>: TEST PURPOSES ONLY - Humalog</p></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/rmswi/",
+        "value" : "0d69fdcb-33cf-407f-8209-a6529856ab4f"
+      }],
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000155538"
+        }],
+        "text" : "Package Leaflet"
+      },
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      }],
+      "date" : "2022-02-16T13:28:17Z",
+      "author" : [{
+        "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+      }],
+      "title" : "TEST PURPOSES ONLY - Humalog",
+      "section" : [{
+        "title" : "B. Package Leaflet",
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/",
+            "code" : "100000155538"
+          }],
+          "text" : "B. PACKAGE LEAFLET"
+        },
+        "text" : {
+          "status" : "additional",
+          "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">unavailable</div>"
+        },
+        "emptyReason" : {
+          "coding" : [{
+            "system" : "http://terminology.hl7.org/CodeSystem/list-empty-reason",
+            "code" : "unavailable"
+          }]
+        },
+        "section" : [{
+          "title" : "Package leaflet: Information for the user",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "Package leaflet: Information for the user"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">PACKAGE LEAFLET: INFORMATION FOR THE USER Humalog Mix50 100 units/ml suspension for injection in cartridge insulin lispro Read all of this leaflet carefully before you start taking this medicine because it contains important information for you.<ul><li>Keep this leaflet. You may need to read it again.</li><li>If you have any further questions, ask your doctor or pharmacist.</li><li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, even if their signs of illness are the same as yours.</li><li>If you get any side effects talk to your doctor or pharmacist. This includes any possible side effects not listed in this leaflet. See section 4.</li></ul></div></div>"
+          }
+        },
+        {
+          "title" : "What is in this leaflet",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "What is in this leaflet"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\">What in this leaflet<ol><li>What Humalog Mix50 is and what it is used for</li><li>What you need to know before you take Humalog Mix50</li><li>How to take Humalog Mix50</li><li>Possible side effects</li><li>How to store Humalog Mix50</li><li>Contents of the pack and other information</li></ol></div></div>"
+          }
+        },
+        {
+          "title" : "1. What Humalog is and what it is used for",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "1. What Humalog is and what it is used for"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><b>1.What Humalog Mix50 is and what it is used for</b> Humalog Mix50 is used to treat diabetes. Humalog Mix50 is a premixed suspension. Its active substance is insulin lispro. 50% of the insulin lispro in Humalog Mix50 is dissolved in water and it works more quickly than normal human insulin because the insulin molecule has been changed slightly. 50% of the insulin lispro in Humalog Mix50 is available in a suspension together with protamine sulphate, so that its action is prolonged. You get diabetes if your pancreas does not make enough insulin to control the level of glucose in your blood. Humalog Mix50 is a substitute for your own insulin and is used to control glucose in the long term. Humalog Mix50 works very quickly and longer than soluble insulin. You should normally use Humalog Mix50 within 15 minutes of a meal. Your doctor may tell you to use Humalog Mix50 as well as a longer-acting insulin. Each kind of insulin comes with another patient information leaflet to tell you about it. Do not change your insulin unless your doctor tells you to. Be very careful if you do change insulin.</div></div>"
+          }
+        },
+        {
+          "title" : "2. What you need to know before you take Humalog",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "2. What you need to know before you take Humalog"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><b>2. What you need to know before you use Humalog Mix50</b><p><strong>Do NOT use Humalog Mix50</strong></p><ul><li>if you think hypoglycaemia (low blood sugar) is starting. Further in this leaflet it tells you how to deal with mild hypoglycaemia (see Section 3: If you take more Humalog Mix50 than you need).</li><li>if you are allergic to insulin lispro or any of the other ingredients of this medicine (listed in section 6).</li></ul><p><strong>Warnings and precautions</strong></p><ul><li>Always check the pack and the cartridge label for the name and type of the insulin when you get it from your pharmacy. Make sure you get the Humalog Mix50 that your doctor has told you to use.</li><li>If your blood sugar levels are well controlled by your current insulin therapy, you may not feel the warning symptoms when your blood sugar is falling too low. Warning signs are listed later in this leaflet. You must think carefully about when to have your meals, how often to exercise and how much to do. You must also keep a close watch on your blood sugar levels by testing your blood glucose often.</li><li>A few people who have had hypoglycaemia after switching from animal insulin to human insulin have reported that the early warning symptoms were less obvious or different. If you often have hypoglycaemia or have difficulty recognising them, please discuss this with your doctor.</li><li>If you answer YES to any of the following questions, tell your doctor, pharmacist or diabetes nurse<ul><li>Have you recently become ill?</li><li>Do you have trouble with your kidneys or liver?</li><li>Are you exercising more than usual?</li></ul></li><li>The amount of insulin you need may also change if you drink alcohol.</li><li>You should also tell your doctor, pharmacist or diabetes nurse if you are planning to go abroad. The time difference between countries may mean that you have to have your injections and meals at different times from when you are at home.</li><li>Some patients with long-standing type 2 diabetes mellitus and heart disease or previous stroke who were treated with pioglitazone and insulin experienced the development of heart failure. Inform your doctor as soon as possible, if you experience signs of heart failure such as unusual shortness of breath or rapid increase in weight or localised swelling (oedema).</li></ul><p><strong>Skin changes at the injection site</strong></p><p>The injection site should be rotated to prevent skin changes such as lumps under the skin. The insulin may not work very well if you inject into a lumpy area (See How to use Humalog Mix50). Contact your doctor if you are currently injecting into a lumpy area before you start injecting a different area. Your doctor may tell you to check your blood sugar more closely, and to adjust your insulin or your other antidiabetic medications dose.</p><p><strong>Other medicines and Humalog Mix50</strong></p><p>Your insulin needs may change if you are taking</p><ul><li>the contraceptive pill,</li><li>steroids,</li><li>thyroid hormone replacement therapy,</li><li>oral hypoglycaemics,</li><li>acetyl salicylic acid,</li><li>sulpha antibiotics,</li><li>octreotide,</li><li>“beta2 stimulants” (for example ritodrine, salbutamol or terbutaline),</li><li>beta-blockers, or</li><li>some antidepressants (monoamine oxidase inhibitors or selective serotonin reuptake inhibitors),</li><li>danazol,</li><li>some angiotensin converting enzyme (ACE) inhibitors (for example captopril, enalapril), and</li><li>angiotensin II receptor blockers. Please tell your doctor, if you are taking, have recently taken or might take any other medicines, including medicines obtained without a prescription (see section “Warnings and precautions”).</li></ul><p><strong>Pregnancy and breast-feeding</strong></p><p>Are you pregnant or thinking about becoming pregnant, or are you breast-feeding? The amount of insulin you need usually falls during the first three months of pregnancy and increases for the remaining six months. If you are breast-feeding, you may need to alter your insulin intake or diet. Ask your doctor for advice.</p><p><strong>Driving and using machines</strong></p><p>Your ability to concentrate and react may be reduced if you have hypoglycaemia. Please keep this possible problem in mind in all situations where you might put yourself and others at risk (e.g. driving a car or operating machinery). You should contact your doctor about the advisability of driving if you have:</p><ul><li>frequent episodes of hypoglycaemia</li><li>reduced or absent warning signs of hypoglycaemia Humalog Mix50 contains sodium This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially ‘sodium-free’.</li></ul></div></div>"
+          }
+        },
+        {
+          "title" : "3. How to take Humalog",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "3. How to take Humalog"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><b>3. How to use Humalog Mix50</b><p><strong>Dose</strong></p><ul><li>You should normally inject Humalog Mix50 within 15 minutes of a meal. If you need to, you can inject soon after a meal. But your doctor will have told you exactly how much to use, when to use it, and how often. These instructions are only for you. Follow them exactly and visit your diabetes clinic regularly.</li><li>If you change the type of insulin you use (for example from a human or animal insulin to a Humalog product), you may have to take more or less than before. This might just be for the first injection or it may be a gradual change over several weeks or months.</li><li>Inject Humalog Mix50 under the skin. You should not administer it using a different administration route. Under no circumstances should Humalog Mix50 be given intravenously.</li></ul><p><strong>Preparing Humalog Mix50</strong></p><ul><li>Cartridges containing Humalog Mix50 should be rotated in the palms of the hands ten times and inverted 180° ten times immediately before use to resuspend insulin until it appears uniformly cloudy or milky. If not, repeat the above procedure until contents are mixed. Cartridges contain a small glass bead to assist mixing. Do not shake vigorously as this may cause frothing which may interfere with the correct measurement of the dose. The cartridges should be examined frequently and should not be used if clumps of material are present or if solid white particles stick to the bottom or wall of the cartridge, giving it a frosted appearance. Check each time you inject yourself.</li></ul><p><strong>Getting the pen ready to use</strong></p><ul><li>First wash your hands. Disinfect the rubber membrane of the cartridge.</li><li>You must only use Humalog Mix50 cartridges in Lilly insulin pens. Please make sure that Humalog or Lilly cartridges are mentioned in the leaflet accompanying your pen. The 3 ml cartridge only fits the 3 ml pen.</li><li>Follow the instructions that come with the pen. Put the cartridge into the pen.</li><li>You will set the dose to 1 or 2 units. Then hold the pen with the needle pointing up and tap the side of the pen so that any bubbles float to the top. With the pen still pointing up, press the injection mechanism. Do this until a drop of Humalog Mix50 comes out of the needle. There may still be some small air bubbles left in the pen. These are harmless, but if the air bubble is too big, it may make the dose of your injection less accurate. Injecting Humalog Mix50</li><li>Before you make an injection, clean your skin as you have been instructed. Inject under the skin, as you were taught. Do not inject directly into a vein. After your injection, leave the needle in the skin for five seconds to make sure you have taken the whole dose. Do not rub the area you have just injected. Make sure you inject at least half an inch (1 cm) from the last injection and that you ‘rotate’ the places you inject, as you have been taught.</li></ul><p><strong>After injecting</strong></p><ul><li>As soon as you have done the injection, take the needle off the pen using the outer needle cap. This will keep the Humalog Mix50 sterile and prevent leaking. It will also stop air going back into the pen and the needle clogging up. Do not share your needles. Do not share your pen. Replace the cap on your pen. Leave the cartridge in the pen.</li></ul><p><strong>Further injections</strong></p><ul><li>Before every injection, dial 1 or 2 units and press the injection mechanism with the pen pointing up until a drop of Humalog Mix50 comes out of the needle. You can see how much Humalog is left by looking at the gauge on the side of the cartridge. The distance between each mark on the gauge is about 20 units. If there is not enough for your dose, change the cartridge.</li></ul><p><strong>Do not mix any other insulin in a Humalog Mix50 cartridge. Once the cartridge is empty, do not use it again.</strong></p><p><strong>If you use more Humalog Mix50 than you should</strong> If you use more Humalog Mix50 than you need or are unsure how much you have injected, a low blood sugar may occur. Check your blood sugar.</p><p>If your blood sugar is low (<strong>mild hypoglycaemia</strong>), eat glucose tablets, sugar or drink a sugary drink. Then eat fruit, biscuits, or a sandwich, as your doctor has advised you and have some rest. This will often get you over mild hypoglycaemia or a minor insulin overdose. If you get worse and your breathing is shallow and your skin gets pale, tell your doctor at once. A glucagon injection can treat quite severe hypoglycaemia. Eat glucose or sugar after the glucagon injection. If you do not respond to glucagon, you will have to go to hospital. Ask your doctor to tell you about glucagon.</p><p><strong>If you forget to use Humalog Mix50</strong></p><p>If you take less Humalog Mix50 than you need or are unsure how much you have injected, a high blood sugar may occur. Check your blood sugar</p><p>If hypoglycaemia (low blood sugar) or hyperglycaemia (high blood sugar) is not treated they can be very serious and cause headaches, nausea, vomiting, dehydration, unconsciousness, coma or even death (see A and B in section 4 “Possible Side Effects”).</p><p><strong>Three simple steps</strong> to avoid hypoglycaemia or hyperglycaemia are:</p><ul><li>Always keep a spare pen and cartridges, in case you lose your pen or cartridges or they get damaged.</li><li>Always carry something to show you are diabetic.</li><li>Always carry sugar with you.</li></ul><p><strong>If you stop using Humalog Mix50.</strong></p><p>If you take less Humalog Mix50 than you need, a high blood sugar may occur. Do not change your insulin unless your doctor tells you to.</p><p>If you have any further questions on the use of this product, ask your doctor or pharmacist</p></div></div>"
+          }
+        },
+        {
+          "title" : "4. Possible side effects",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "4. Possible side effects"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>4. Possible side effects</b></p><p>Like all medicines, this medicine can cause side effects, although not everybody gets them.</p></div></div>"
+          }
+        },
+        {
+          "title" : "5. How to store Humalog",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "5. How to store Humalog"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><p><strong>5. How to store Humalog Mix50</strong></p><p>Before the first use store your Humalog Mix50 in a refrigerator (2°C – 8°C). Do not freeze. Keep your cartridge in use at room temperature (below 30°C) and discard after 28 days. Do not put it near heat or in the sun. Do not keep your pen or the cartridges you are using in the fridge. The pen with the inserted cartridge should not be stored with the needle attached. Keep out of the sight and reach of children. Do not use this medicine after the expiry date which is stated on the label and the carton. The expiry date refers to the last day of that month. Do not use this medicine if you notice clumps of material are present or if solid white particles stick to the bottom or wall of the cartridge, giving it a frosted appearance. Check each time you inject yourself. Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to dispose of medicines no longer required. These measures will help to protect the environment.</p></div></div>"
+          }
+        },
+        {
+          "title" : "6. Contents of the pack and other information",
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/",
+              "code" : "100000155538"
+            }],
+            "text" : "6. Contents of the pack and other information"
+          },
+          "text" : {
+            "status" : "additional",
+            "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><div xmlns=\"http://www.w3.org/1999/xhtml\"><b>6. Contents of the pack and other information</b> <b>What Humalog Mix50 100 units/ml suspension for injection in cartridge contains</b><p>The active substance is insulin lispro. Insulin lispro is made in the laboratory by a ‘recombinant DNA technology’ process. It is a changed form of human insulin and so is different from other human and animal insulins. Insulin lispro is closely related to human insulin which is a natural hormone made by the pancreas. The other ingredients are protamine sulphate, m-cresol, phenol, glycerol, dibasic sodium phosphate 7H2O, zinc oxide and water for injection. Sodium hydroxide or hydrochloric acid may have been used to adjust the acidity.</p></div></div>"
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-glycerol",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-glycerol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-glycerol\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-glycerol&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0PDC6A3C0OX\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Glycerol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#PDC6A3C0OX)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "PDC6A3C0OX"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "PDC6A3C0OX",
+              "display" : "Glycerol"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-hydrochloricacid",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-hydrochloricacid",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-hydrochloricacid\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-hydrochloricacid&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0QTT17582CB\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Hydrochloric acid <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#QTT17582CB)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "QTT17582CB"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "QTT17582CB",
+              "display" : "Hydrochloric acid"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-sodiumhydroxide",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-sodiumhydroxide",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-sodiumhydroxide\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-sodiumhydroxide&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a055X04QC32I\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Sodium Hydroxide <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#55X04QC32I)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "55X04QC32I"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "55X04QC32I",
+              "display" : "Sodium Hydroxide"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-sterilewaterforinjection",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-sterilewaterforinjection",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-sterilewaterforinjection\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-sterilewaterforinjection&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0059QF0KO0R\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>STERILE WATER FOR INJECTION <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#059QF0KO0R)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "059QF0KO0R"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "059QF0KO0R",
+              "display" : "STERILE WATER FOR INJECTION"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-insulinlispro",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-insulinlispro",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-insulinlispro\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-insulinlispro&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0GFX7QIS1II\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#72072)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Insulin Lispro <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#GFX7QIS1II)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>100 U/ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code U/ml = 'U/ml')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "GFX7QIS1II"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "72072",
+          "display" : "active"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "GFX7QIS1II",
+              "display" : "Insulin Lispro"
+            }]
+          }
+        },
+        "strength" : [{
+          "presentationQuantity" : {
+            "value" : 100,
+            "system" : "http://unitsofmeasure.org",
+            "code" : "U/ml"
+          },
+          "basis" : {
+            "coding" : [{
+              "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+              "code" : "ACTIB",
+              "display" : "active ingredient - basis of strength"
+            }]
+          }
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-zincoxide",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-zincoxide",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-zincoxide\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-zincoxide&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0SOI2LOH54Z\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Zinc Oxide <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#SOI2LOH54Z)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "SOI2LOH54Z"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "SOI2LOH54Z",
+              "display" : "Zinc Oxide"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-metacresol",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-metacresol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-metacresol\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-metacresol&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0GGO4Y809LO\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Metacresol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#GGO4Y809LO)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "GGO4Y809LO"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "GGO4Y809LO",
+              "display" : "Metacresol"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "Ingredient/ingredient-for-humalog-trometamol",
+    "resource" : {
+      "resourceType" : "Ingredient",
+      "id" : "ingredient-for-humalog-trometamol",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humalog-trometamol\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humalog-trometamol&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0023C2WHX2V\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li><li><a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></li><li><a href=\"#AdministrableProductDefinition_ap-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677)</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Trometamol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#023C2WHX2V)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : {
+        "use" : "official",
+        "system" : "http://fdasis.nlm.nih.gov",
+        "value" : "023C2WHX2V"
+      },
+      "status" : "active",
+      "for" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      },
+      {
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      },
+      {
+        "reference" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "role" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072082",
+          "display" : "Excipient"
+        }]
+      },
+      "manufacturer" : [{
+        "manufacturer" : {
+          "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+        }
+      }],
+      "substance" : {
+        "code" : {
+          "concept" : {
+            "coding" : [{
+              "system" : "http://fdasis.nlm.nih.gov",
+              "code" : "023C2WHX2V",
+              "display" : "Trometamol"
+            }]
+          }
+        }
+      }
+    }
+  },
+  {
+    "fullUrl" : "SubstanceDefinition/substance-insulinlispro",
+    "resource" : {
+      "resourceType" : "SubstanceDefinition",
+      "id" : "substance-insulinlispro",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SubstanceDefinition</b><a name=\"substance-insulinlispro\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SubstanceDefinition &quot;substance-insulinlispro&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-SubstanceDefinition-uv-epi.html\">SubstanceDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0GFX7QIS1II\u00a0(use:\u00a0OFFICIAL)</p><p><b>version</b>: 1</p><p><b>status</b>: Validated (UNII) <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#1)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></p><h3>Structures</h3><table class=\"grid\"><tr><td>-</td><td><b>MolecularFormula</b></td></tr><tr><td>*</td><td>C257H382O75N65S6</td></tr></table><h3>Names</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td></tr><tr><td>*</td><td>28(SUP B)-L-LYSINE-29(SUP B)-L-PROLINEINSULIN (HUMAN)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+        "value" : "GFX7QIS1II"
+      }],
+      "version" : "1",
+      "status" : {
+        "coding" : [{
+          "system" : "https://gsrs.ncats.nih.gov/ginas/app/beta/",
+          "code" : "1",
+          "display" : "Validated (UNII)"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+      }],
+      "structure" : {
+        "molecularFormula" : "C257H382O75N65S6"
+      },
+      "name" : [{
+        "name" : "28(SUP B)-L-LYSINE-29(SUP B)-L-PROLINEINSULIN (HUMAN)"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "AdministrableProductDefinition/ap-fa2090b7ce9bdf87e24a9d05bbb51677",
+    "resource" : {
+      "resourceType" : "AdministrableProductDefinition",
+      "id" : "ap-fa2090b7ce9bdf87e24a9d05bbb51677",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: AdministrableProductDefinition</b><a name=\"ap-fa2090b7ce9bdf87e24a9d05bbb51677\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource AdministrableProductDefinition &quot;ap-fa2090b7ce9bdf87e24a9d05bbb51677&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-AdministrableProductDefinition-uv-epi.html\">AdministrableProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a00x073AF2E5B92AE19E8B67635AFFB3D6CA</p><p><b>status</b>: active</p><p><b>formOf</b>: <a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></p><p><b>administrableDoseForm</b>: Suspension for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073864)</span></p><p><b>unitOfPresentation</b>: Pen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002135)</span></p><p><b>producedFrom</b>: <a href=\"#ManufacturedItemDefinition_mid-fa2090b7ce9bdf87e24a9d05bbb51677\">See above (ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677)</a></p><blockquote><p><b>routeOfAdministration</b></p><p><b>code</b>: Subcutaneous use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073633)</span></p><h3>TargetSpecies</h3><table class=\"grid\"><tr><td>-</td><td><b>Code</b></td></tr><tr><td>*</td><td>Human <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000109093)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://www.who-umc.org/phpid",
+        "value" : "0x073AF2E5B92AE19E8B67635AFFB3D6CA"
+      }],
+      "status" : "active",
+      "formOf" : [{
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      }],
+      "administrableDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000073864",
+          "display" : "Suspension for injection"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002135",
+          "display" : "Pen"
+        }]
+      },
+      "producedFrom" : [{
+        "reference" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677"
+      }],
+      "routeOfAdministration" : [{
+        "code" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073633",
+            "display" : "Subcutaneous use"
+          }]
+        },
+        "targetSpecies" : [{
+          "code" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi",
+              "code" : "100000109093",
+              "display" : "Human"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "RegulatedAuthorization/authorization35570a7ffa4ad1ddf8a920b1728d4cd2",
+    "resource" : {
+      "resourceType" : "RegulatedAuthorization",
+      "id" : "authorization35570a7ffa4ad1ddf8a920b1728d4cd2",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RegulatedAuthorization</b><a name=\"authorization35570a7ffa4ad1ddf8a920b1728d4cd2\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RegulatedAuthorization &quot;authorization35570a7ffa4ad1ddf8a920b1728d4cd2&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-RegulatedAuthorization-uv-epi.html\">RegulatedAuthorization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0EU/1/96/007/035\u00a0(use:\u00a0OFFICIAL)</p><p><b>subject</b>: <a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></p><p><b>type</b>: Marketing Authorisation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072062)</span></p><p><b>region</b>: Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>holder</b>: <a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/96/007/035"
+      }],
+      "subject" : [{
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072062",
+          "display" : "Marketing Authorisation"
+        }]
+      },
+      "region" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "DK",
+          "display" : "Denmark"
+        }]
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "holder" : {
+        "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+      }
+    }
+  },
+  {
+    "fullUrl" : "Organization/org-3fdc76794516d7826890ab9f893e99c1",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "org-3fdc76794516d7826890ab9f893e99c1",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"org-3fdc76794516d7826890ab9f893e99c1\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;org-3fdc76794516d7826890ab9f893e99c1&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0ORG-100000426\u00a0(use:\u00a0OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Marketing authorisation holder <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000034)</span></p><p><b>name</b>: Eli Lilly Nederland B.V.</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Address</b></td></tr><tr><td>*</td><td>Papendorpseweg 83, 3528 BJ Utrecht NL(WORK)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100000426"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000034",
+          "display" : "Marketing authorisation holder"
+        }],
+        "text" : "Marketing authorisation holder"
+      }],
+      "name" : "Eli Lilly Nederland B.V.",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Papendorpseweg 83, 3528 BJ Utrecht NL",
+          "line" : ["Papendorpseweg 83, 3528 BJ"],
+          "city" : "Utrecht",
+          "country" : "NL"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "Organization/org-6f4987de7be1bbfa4ee92c07de7e94d4",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "org-6f4987de7be1bbfa4ee92c07de7e94d4",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"org-6f4987de7be1bbfa4ee92c07de7e94d4\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;org-6f4987de7be1bbfa4ee92c07de7e94d4&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0ORG-100000156\u00a0(use:\u00a0OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Manufacturer API <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000033)</span></p><p><b>name</b>: Eli Lilly and Company</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Address</b></td></tr><tr><td>*</td><td>Lilly Technology Center Building 333 and 324, Indianapolis, Indiana, USA Indianapolis US(WORK)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100000156"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000033",
+          "display" : "Manufacturer API"
+        }],
+        "text" : "Manufacturer API"
+      }],
+      "name" : "Eli Lilly and Company",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Lilly Technology Center Building 333 and 324, Indianapolis, Indiana, USA Indianapolis US",
+          "line" : ["Lilly Technology Center Building 333 and 324, Indianapolis, Indiana, USA"],
+          "city" : "Indianapolis",
+          "country" : "US"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "Organization/org-e3ef26dd2c7a0847d92d3bb1a64855b9",
+    "resource" : {
+      "resourceType" : "Organization",
+      "id" : "org-e3ef26dd2c7a0847d92d3bb1a64855b9",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Organization</b><a name=\"org-e3ef26dd2c7a0847d92d3bb1a64855b9\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Organization &quot;org-e3ef26dd2c7a0847d92d3bb1a64855b9&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Organization-uv-epi.html\">Organization (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0ORG-100003996\u00a0(use:\u00a0OFFICIAL)</p><p><b>active</b>: true</p><p><b>type</b>: Manufacturer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#220000000033)</span></p><p><b>name</b>: Lilly S.A.</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Address</b></td></tr><tr><td>*</td><td>Avenida de la Industria 30, 28108 Alcobendas, Madrid, Spain Alcobendas ES(WORK)</td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/omswi",
+        "value" : "ORG-100003996"
+      }],
+      "active" : true,
+      "type" : [{
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "220000000033",
+          "display" : "Manufacturer"
+        }],
+        "text" : "Manufacturer"
+      }],
+      "name" : "Lilly S.A.",
+      "contact" : [{
+        "address" : {
+          "use" : "work",
+          "type" : "physical",
+          "text" : "Avenida de la Industria 30, 28108 Alcobendas, Madrid, Spain Alcobendas ES",
+          "line" : ["Avenida de la Industria 30, 28108 Alcobendas, Madrid, Spain"],
+          "city" : "Alcobendas",
+          "country" : "ES"
+        }
+      }]
+    }
+  },
+  {
+    "fullUrl" : "PackagedProductDefinition/ppd-a9955d128989ce310e64a9fb99c8a9ac",
+    "resource" : {
+      "resourceType" : "PackagedProductDefinition",
+      "id" : "ppd-a9955d128989ce310e64a9fb99c8a9ac",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: PackagedProductDefinition</b><a name=\"ppd-a9955d128989ce310e64a9fb99c8a9ac\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource PackagedProductDefinition &quot;ppd-a9955d128989ce310e64a9fb99c8a9ac&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-PackagedProductDefinition-uv-epi.html\">PackagedProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0EU/1/96/007/035\u00a0(use:\u00a0OFFICIAL)</p><p><b>name</b>: Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen</p><p><b>type</b>: Chemical Medicinal Prodcut <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000155527)</span></p><p><b>packageFor</b>: <a href=\"#MedicinalProductDefinition_mpf6b4fcaaf21ddd70f011f383780f7bf3\">See above (MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3)</a></p><p><b>status</b>: Active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>statusDate</b>: 2015-02-07 13:28:17+0000</p><p><b>containedItemQuantity</b>: 3 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code ml = 'ml')</span></p><p><b>manufacturer</b>: <a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></p><h3>Packagings</h3><table class=\"grid\"><tr><td>-</td><td><b>Identifier</b></td><td><b>Type</b></td><td><b>Quantity</b></td><td><b>Material</b></td></tr><tr><td>*</td><td>id:\u00a0123456</td><td>Pre-filled pen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000073543)</span></td><td>5</td><td>Glass type 1 <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000003204)</span></td></tr></table></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/96/007/035"
+      }],
+      "name" : "Humalog 100 units/ml KwikPen solution for injection in a pre-filled pen",
+      "type" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000155527",
+          "display" : "Chemical Medicinal Prodcut"
+        }]
+      },
+      "packageFor" : [{
+        "reference" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3"
+      }],
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "Active"
+        }]
+      },
+      "statusDate" : "2015-02-07T13:28:17Z",
+      "containedItemQuantity" : [{
+        "value" : 3,
+        "system" : "http://unitsofmeasure.org",
+        "code" : "ml"
+      }],
+      "manufacturer" : [{
+        "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+      }],
+      "packaging" : {
+        "identifier" : [{
+          "system" : "https://spor.ema.europa.eu/pmswi",
+          "value" : "123456"
+        }],
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "100000073543",
+            "display" : "Pre-filled pen"
+          }]
+        },
+        "quantity" : 5,
+        "material" : [{
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi",
+            "code" : "200000003204",
+            "display" : "Glass type 1"
+          }]
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "MedicinalProductDefinition/mpf6b4fcaaf21ddd70f011f383780f7bf3",
+    "resource" : {
+      "resourceType" : "MedicinalProductDefinition",
+      "id" : "mpf6b4fcaaf21ddd70f011f383780f7bf3",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: MedicinalProductDefinition</b><a name=\"mpf6b4fcaaf21ddd70f011f383780f7bf3\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource MedicinalProductDefinition &quot;mpf6b4fcaaf21ddd70f011f383780f7bf3&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-MedicinalProductDefinition-uv-epi.html\">MedicinalProductDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0EU/1/96/007/035</p><p><b>type</b>: Medicinal Product <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-type.html\">Medicinal Product Type</a>#MedicinalProduct)</span></p><p><b>domain</b>: Human use <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-medicinal-product-domain.html\">Medicinal Product Domain</a>#Human)</span></p><p><b>status</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R5/codesystem-publication-status.html\">PublicationStatus</a>#active)</span></p><p><b>legalStatusOfSupply</b>: Medicinal product subject to medical prescription <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072084)</span></p><p><b>classification</b>: insulin lispro <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html\">WHO ATC</a>#A10AB04)</span></p><blockquote><p><b>name</b></p><p><b>productName</b>: Humalog Mix50 Insulin KwikPen, 3ml pre-fill</p><p><b>type</b>: Full name <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000001)</span></p><blockquote><p><b>part</b></p><p><b>part</b>: Humalog</p><p><b>type</b>: Invented name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000002)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: insulin lispro</p><p><b>type</b>: Scientific name part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000003)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: 100 U/ml</p><p><b>type</b>: Strength part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000004)</span></p></blockquote><blockquote><p><b>part</b></p><p><b>part</b>: Suspension for injection</p><p><b>type</b>: Pharmaceutical dose form part <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (220000000000#220000000005)</span></p></blockquote><h3>Usages</h3><table class=\"grid\"><tr><td>-</td><td><b>Country</b></td><td><b>Jurisdiction</b></td><td><b>Language</b></td></tr><tr><td>*</td><td>Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></td><td>Denmark <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#DK)</span></td><td>English <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-ietf3066.html\">Tags for the Identification of Languages</a>#en)</span></td></tr></table></blockquote></div>"
+      },
+      "identifier" : [{
+        "system" : "https://spor.ema.europa.eu/pmswi",
+        "value" : "EU/1/96/007/035"
+      }],
+      "type" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-type",
+          "code" : "MedicinalProduct",
+          "display" : "Medicinal Product"
+        }]
+      },
+      "domain" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/medicinal-product-domain",
+          "code" : "Human",
+          "display" : "Human use"
+        }]
+      },
+      "status" : {
+        "coding" : [{
+          "system" : "http://hl7.org/fhir/publication-status",
+          "code" : "active",
+          "display" : "active"
+        }]
+      },
+      "legalStatusOfSupply" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "100000072084",
+          "display" : "Medicinal product subject to medical prescription"
+        }]
+      },
+      "classification" : [{
+        "coding" : [{
+          "system" : "http://www.whocc.no/atc",
+          "code" : "A10AB04",
+          "display" : "insulin lispro"
+        }]
+      }],
+      "name" : [{
+        "productName" : "Humalog Mix50 Insulin KwikPen, 3ml pre-fill",
+        "type" : {
+          "coding" : [{
+            "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+            "code" : "220000000001"
+          }],
+          "text" : "Full name"
+        },
+        "part" : [{
+          "part" : "Humalog",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+              "code" : "220000000002"
+            }],
+            "text" : "Invented name part"
+          }
+        },
+        {
+          "part" : "insulin lispro",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+              "code" : "220000000003"
+            }],
+            "text" : "Scientific name part"
+          }
+        },
+        {
+          "part" : "100 U/ml",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+              "code" : "220000000004"
+            }],
+            "text" : "Strength part"
+          }
+        },
+        {
+          "part" : "Suspension for injection",
+          "type" : {
+            "coding" : [{
+              "system" : "https://spor.ema.europa.eu/rmswi/220000000000",
+              "code" : "220000000005"
+            }],
+            "text" : "Pharmaceutical dose form part"
+          }
+        }],
+        "usage" : [{
+          "country" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "DK",
+              "display" : "Denmark"
+            }]
+          },
+          "jurisdiction" : {
+            "coding" : [{
+              "system" : "urn:iso:std:iso:3166",
+              "code" : "DK",
+              "display" : "Denmark"
+            }]
+          },
+          "language" : {
+            "coding" : [{
+              "system" : "urn:ietf:bcp:47",
+              "code" : "en",
+              "display" : "English"
+            }]
+          }
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "ManufacturedItemDefinition/mid-fa2090b7ce9bdf87e24a9d05bbb51677",
+    "resource" : {
+      "resourceType" : "ManufacturedItemDefinition",
+      "id" : "mid-fa2090b7ce9bdf87e24a9d05bbb51677",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ManufacturedItemDefinition</b><a name=\"mid-fa2090b7ce9bdf87e24a9d05bbb51677\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ManufacturedItemDefinition &quot;mid-fa2090b7ce9bdf87e24a9d05bbb51677&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ManufacturedItemDefinition-uv-epi.html\">ManufacturedItemDefinition (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0EU/1/96/007/035\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>manufacturedDoseForm</b>: Suspension for injection <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (#100000073864)</span></p><p><b>unitOfPresentation</b>: Pen <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#200000002135)</span></p><p><b>manufacturer</b>: <a href=\"#Organization_org-3fdc76794516d7826890ab9f893e99c1\">See above (Organization/org-3fdc76794516d7826890ab9f893e99c1)</a></p></div>"
+      },
+      "identifier" : [{
+        "use" : "official",
+        "system" : "https://spor.ema.europa.eu/pmswi/#/",
+        "value" : "EU/1/96/007/035"
+      }],
+      "status" : "active",
+      "manufacturedDoseForm" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi/",
+          "code" : "100000073864",
+          "display" : "Suspension for injection"
+        }]
+      },
+      "unitOfPresentation" : {
+        "coding" : [{
+          "system" : "https://spor.ema.europa.eu/rmswi",
+          "code" : "200000002135",
+          "display" : "Pen"
+        }]
+      },
+      "manufacturer" : [{
+        "reference" : "Organization/org-3fdc76794516d7826890ab9f893e99c1"
+      }]
+    }
+  }]
+}

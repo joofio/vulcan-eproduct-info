@@ -1,0 +1,43 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "gravitate",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">flavor<a name=\"gravitate-flavor\"> </a></td><td>Flavor</td><td>Placeholder for the Flavor concept</td></tr><tr><td style=\"white-space:nowrap\">surfaceform<a name=\"gravitate-surfaceform\"> </a></td><td>Surface form</td><td>Placeholder for the Surface form concept</td></tr></table></div>"
+  },
+  "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate",
+  "version" : "1.0.0-ballot",
+  "name" : "CodeSystemGravitate",
+  "title" : "eMedicinal Product Information Code System",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-04-06T08:19:53+00:00",
+  "contact" : [{
+    "name" : "HL7 BR&R",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/rcrim"
+    }]
+  }],
+  "description" : "eMedicinal Product Information Code System. Coded concepts defined for internal project use.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : false,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "flavor",
+    "display" : "Flavor",
+    "definition" : "Placeholder for the Flavor concept"
+  },
+  {
+    "code" : "surfaceform",
+    "display" : "Surface form",
+    "definition" : "Placeholder for the Surface form concept"
+  }]
+}

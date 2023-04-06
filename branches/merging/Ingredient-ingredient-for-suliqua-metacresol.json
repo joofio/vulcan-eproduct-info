@@ -1,0 +1,49 @@
+{
+  "resourceType" : "Ingredient",
+  "id" : "ingredient-for-suliqua-metacresol",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-suliqua-metacresol\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-suliqua-metacresol&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id:\u00a0GGO4Y809LO\u00a0(use:\u00a0OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-66d97ddf0e95a23a3c0f4f2102139f34.html\">ManufacturedItemDefinition/mid-66d97ddf0e95a23a3c0f4f2102139f34</a></li><li><a href=\"MedicinalProductDefinition-mp367b9089c0743a2330f4c6e82b40ee41.html\">MedicinalProductDefinition/mp367b9089c0743a2330f4c6e82b40ee41</a></li><li><a href=\"AdministrableProductDefinition-ap-66d97ddf0e95a23a3c0f4f2102139f34.html\">AdministrableProductDefinition/ap-66d97ddf0e95a23a3c0f4f2102139f34</a></li></ul><p><b>role</b>: Excipient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#100000072082)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-org-16019cea3a857659d2c5a2018c2260df.html\">Organization/org-16019cea3a857659d2c5a2018c2260df</a> &quot;Sanofi-Aventis Groupe&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Metacresol <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#GGO4Y809LO)</span></td></tr></table></blockquote></div>"
+  },
+  "identifier" : {
+    "use" : "official",
+    "system" : "http://fdasis.nlm.nih.gov",
+    "value" : "GGO4Y809LO"
+  },
+  "status" : "active",
+  "for" : [{
+    "reference" : "ManufacturedItemDefinition/mid-66d97ddf0e95a23a3c0f4f2102139f34"
+  },
+  {
+    "reference" : "MedicinalProductDefinition/mp367b9089c0743a2330f4c6e82b40ee41"
+  },
+  {
+    "reference" : "AdministrableProductDefinition/ap-66d97ddf0e95a23a3c0f4f2102139f34"
+  }],
+  "role" : {
+    "coding" : [{
+      "system" : "https://spor.ema.europa.eu/rmswi",
+      "code" : "100000072082",
+      "display" : "Excipient"
+    }]
+  },
+  "manufacturer" : [{
+    "manufacturer" : {
+      "reference" : "Organization/org-16019cea3a857659d2c5a2018c2260df"
+    }
+  }],
+  "substance" : {
+    "code" : {
+      "concept" : {
+        "coding" : [{
+          "system" : "http://fdasis.nlm.nih.gov",
+          "code" : "GGO4Y809LO",
+          "display" : "Metacresol"
+        }]
+      }
+    }
+  }
+}

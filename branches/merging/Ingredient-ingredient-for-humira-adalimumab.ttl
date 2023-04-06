@@ -1,0 +1,86 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ingredient-for-humira-adalimumab> a fhir:Ingredient ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ingredient-for-humira-adalimumab"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Ingredient</b><a name=\"ingredient-for-humira-adalimumab\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Ingredient &quot;ingredient-for-humira-adalimumab&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Ingredient-uv-epi.html\">Ingredient (ePI)</a></p></div><p><b>identifier</b>: id: FYS6T7F842 (use: OFFICIAL)</p><p><b>status</b>: active</p><p><b>for</b>: </p><ul><li><a href=\"ManufacturedItemDefinition-mid-9b5b17469311c2ea4d1d08419748b4fb.html\">ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb</a></li><li><a href=\"MedicinalProductDefinition-mpf97db27e6330f77484eb8425ad2913cd.html\">MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd</a></li><li><a href=\"AdministrableProductDefinition-ap-9b5b17469311c2ea4d1d08419748b4fb.html\">AdministrableProductDefinition/ap-9b5b17469311c2ea4d1d08419748b4fb</a></li></ul><p><b>role</b>: active <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (rmswi#72072)</span></p><h3>Manufacturers</h3><table class=\"grid\"><tr><td>-</td><td><b>Manufacturer</b></td></tr><tr><td>*</td><td><a href=\"Organization-org-fda7514c0dcb7b5f0176cb5af274235f.html\">Organization/org-fda7514c0dcb7b5f0176cb5af274235f</a> &quot;AbbVie Deutschland GmbH Co. KG&quot;</td></tr></table><blockquote><p><b>substance</b></p><h3>Codes</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>adalimumab <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-UNII.html\">Unique Ingredient Identifier (UNII)</a>#FYS6T7F842)</span></td></tr></table><h3>Strengths</h3><table class=\"grid\"><tr><td>-</td><td><b>Presentation[x]</b></td><td><b>Basis</b></td></tr><tr><td>*</td><td>40 mg<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM code mg = 'mg')</span></td><td>active ingredient - basis of strength <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v3-RoleClass.html\">RoleClass</a>#ACTIB)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "http://fdasis.nlm.nih.gov"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "FYS6T7F842" ]
+  ] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:for ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb> ;
+     fhir:reference [ fhir:v "ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd" ]
+  ] [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-9b5b17469311c2ea4d1d08419748b4fb> ;
+     fhir:reference [ fhir:v "AdministrableProductDefinition/ap-9b5b17469311c2ea4d1d08419748b4fb" ]
+  ] ) ; # 
+  fhir:role [
+     fhir:coding ( [
+       fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "72072" ] ;
+       fhir:display [ fhir:v "active" ]
+     ] )
+  ] ; # 
+  fhir:manufacturer ( [
+     fhir:manufacturer [
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-fda7514c0dcb7b5f0176cb5af274235f> ;
+       fhir:reference [ fhir:v "Organization/org-fda7514c0dcb7b5f0176cb5af274235f" ]
+     ]
+  ] ) ; # 
+  fhir:substance [
+     fhir:code [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://fdasis.nlm.nih.gov"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "FYS6T7F842" ] ;
+           fhir:display [ fhir:v "adalimumab" ]
+         ] )
+       ]
+     ] ;
+     fhir:strength ( [
+       fhir:presentation [
+         a fhir:Quantity ;
+         fhir:value [ fhir:v "40"^^xsd:decimal ] ;
+         fhir:system [ fhir:v "http://unitsofmeasure.org"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "mg" ]
+       ] ;
+       fhir:basis [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/v3-RoleClass"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "ACTIB" ] ;
+           fhir:display [ fhir:v "active ingredient - basis of strength" ]
+         ] )
+       ]
+     ] )
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/mid-9b5b17469311c2ea4d1d08419748b4fb> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/mpf97db27e6330f77484eb8425ad2913cd> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-9b5b17469311c2ea4d1d08419748b4fb> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/org-fda7514c0dcb7b5f0176cb5af274235f> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

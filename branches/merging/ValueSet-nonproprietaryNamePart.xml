@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="nonproprietaryNamePart"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <code>https://spor.ema.europa.eu/rmswi</code></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/nonproprietaryNamePart"/>
+  <version value="1.0.0-ballot"/>
+  <name value="VsNonproprietaryNamePart"/>
+  <title value="Non-proprietary Name of the active ingredient(s)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-04-06T08:19:53+00:00"/>
+  <contact>
+    <name value="HL7 BR&amp;R"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/rcrim"/>
+    </telecom>
+  </contact>
+  <description value="Non-proprietary Name of the active ingredient(s)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://spor.ema.europa.eu/rmswi"/>
+    </include>
+  </compose>
+</ValueSet>

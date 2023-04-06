@@ -1,0 +1,499 @@
+[
+  {
+    "id" : "epi-server",
+    "type" : "CapabilityStatement",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server",
+    "version" : "1.0.0-ballot",
+    "name" : "ePI FHIR Capability Statement (draft 1)"
+  },
+  {
+    "id" : "CodeSystemUvEPIRomswi",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRomswi",
+    "version" : "1.0.0-ballot",
+    "name" : "CodeSystemUvEPIRomswi"
+  },
+  {
+    "id" : "CodeSystemUvEPIRpmswi",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi",
+    "version" : "1.0.0-ballot",
+    "name" : "CodeSystemUvEPIRpmswi"
+  },
+  {
+    "id" : "CodeSystemUvEPIRrmswi",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRrmswi",
+    "version" : "1.0.0-ballot",
+    "name" : "CodeSystemUvEPIRrmswi"
+  },
+  {
+    "id" : "CodeSystemUvEPIRsmswi",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRsmswi",
+    "version" : "1.0.0-ballot",
+    "name" : "CodeSystemUvEPIRsmswi"
+  },
+  {
+    "id" : "gravitate",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate",
+    "version" : "1.0.0-ballot",
+    "name" : "CodeSystemGravitate"
+  },
+  {
+    "id" : "hl7.fhir.uv.emedicinal-product-info",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info",
+    "version" : "1.0.0-ballot",
+    "name" : "EpiIG"
+  },
+  {
+    "id" : "AdministrableProductDefinition-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "AdministrableProductDefinitionUvEpi"
+  },
+  {
+    "id" : "Bundle-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "BundleUvEpi"
+  },
+  {
+    "id" : "ClinicalUseDefinition-contraindication-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "ClinicalUseDefinitionContraindicationUvEpi"
+  },
+  {
+    "id" : "ClinicalUseDefinition-indication-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "ClinicalUseDefinitionIndicationUvEpi"
+  },
+  {
+    "id" : "ClinicalUseDefinition-interaction-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "ClinicalUseDefinitionInteractionUvEpi"
+  },
+  {
+    "id" : "ClinicalUseDefinition-undesirableEffect-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "ClinicalUseDefinitionUndesirableEffectUvEpi"
+  },
+  {
+    "id" : "ClinicalUseDefinition-warning-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "ClinicalUseDefinitionWarningUvEpi"
+  },
+  {
+    "id" : "Composition-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "CompositionUvEpi"
+  },
+  {
+    "id" : "Ingredient-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "IngredientUvEpi"
+  },
+  {
+    "id" : "ManufacturedItemDefinition-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "ManufacturedItemDefinitionUvEpi"
+  },
+  {
+    "id" : "MedicinalProductDefinition-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "MedicinalProductDefinitionUvEpi"
+  },
+  {
+    "id" : "Organization-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "OrganizationUvEpi"
+  },
+  {
+    "id" : "PackagedProductDefinition-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "PackagedProductDefinitionUvEpi"
+  },
+  {
+    "id" : "RegulatedAuthorization-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "RegulatedAuthorizationUvEpi"
+  },
+  {
+    "id" : "SubstanceDefinition-uv-epi",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi",
+    "version" : "1.0.0-ballot",
+    "name" : "SubstanceDefinitionUvEpi"
+  },
+  {
+    "id" : "htmlElementLink",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink",
+    "version" : "1.0.0-ballot",
+    "name" : "htmlElementLink"
+  },
+  {
+    "id" : "PharmaceuticalDoseForm",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPharmaceuticalDoseForm"
+  },
+  {
+    "id" : "RegulatedAuthorizationTypeIdSystems",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems",
+    "version" : "1.0.0-ballot",
+    "name" : "VsRegulatedAuthorizationTypeIdSystems"
+  },
+  {
+    "id" : "VsMedProductIdSystems",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsMedProductIdSystems",
+    "version" : "1.0.0-ballot",
+    "name" : "VsMedProductIdSystems"
+  },
+  {
+    "id" : "VsPropertySurfaceForm",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPropertySurfaceForm"
+  },
+  {
+    "id" : "VsRegulatedAuthorization",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsRegulatedAuthorization",
+    "version" : "1.0.0-ballot",
+    "name" : "VsRegulatedAuthorization"
+  },
+  {
+    "id" : "additionalMonitoringIndicator",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/additionalMonitoringIndicator",
+    "version" : "1.0.0-ballot",
+    "name" : "VsAdditionalMonitoringIndicator"
+  },
+  {
+    "id" : "admProductIdSystems",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/admProductIdSystems",
+    "version" : "1.0.0-ballot",
+    "name" : "VsAdmProductIdSystems"
+  },
+  {
+    "id" : "atcClassification",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/atcClassification",
+    "version" : "1.0.0-ballot",
+    "name" : "VsAtcClassification"
+  },
+  {
+    "id" : "authorizationStatus",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/authorizationStatus",
+    "version" : "1.0.0-ballot",
+    "name" : "VsAuthorizationStatus"
+  },
+  {
+    "id" : "caseIdSystem",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/caseIdSystem",
+    "version" : "1.0.0-ballot",
+    "name" : "VsCaseIdSystem"
+  },
+  {
+    "id" : "country",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/country",
+    "version" : "1.0.0-ballot",
+    "name" : "VsCountry"
+  },
+  {
+    "id" : "dataCarrierIdSystem",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/dataCarrierIdSystem",
+    "version" : "1.0.0-ballot",
+    "name" : "VsDataCarrierIdSystem"
+  },
+  {
+    "id" : "epiType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/epiType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsEpiType"
+  },
+  {
+    "id" : "exampleUseCodesForList",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList",
+    "version" : "1.0.0-ballot",
+    "name" : "VsExampleUseCodesForList"
+  },
+  {
+    "id" : "generalStatus",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus",
+    "version" : "1.0.0-ballot",
+    "name" : "VsGeneralStatus"
+  },
+  {
+    "id" : "legalStatusOfSupply",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/legalStatusOfSupply",
+    "version" : "1.0.0-ballot",
+    "name" : "VsLegalStatusOfSupply"
+  },
+  {
+    "id" : "manufacturedItemIdSystems",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/manufacturedItemIdSystems",
+    "version" : "1.0.0-ballot",
+    "name" : "VsManufacturedItemIdSystems"
+  },
+  {
+    "id" : "marketingStatus",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/marketingStatus",
+    "version" : "1.0.0-ballot",
+    "name" : "VsMarketingStatus"
+  },
+  {
+    "id" : "medProductType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/medProductType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsMedProductType"
+  },
+  {
+    "id" : "meddra",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/meddra",
+    "version" : "1.0.0-ballot",
+    "name" : "VsMeddra"
+  },
+  {
+    "id" : "nonproprietaryNamePart",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/nonproprietaryNamePart",
+    "version" : "1.0.0-ballot",
+    "name" : "VsNonproprietaryNamePart"
+  },
+  {
+    "id" : "operationType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/operationType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsOperationType"
+  },
+  {
+    "id" : "organizationIdSystems",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems",
+    "version" : "1.0.0-ballot",
+    "name" : "VsOrganizationIdSystems"
+  },
+  {
+    "id" : "organizationType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsOrganizationType"
+  },
+  {
+    "id" : "packageMaterial",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageMaterial",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPackageMaterial"
+  },
+  {
+    "id" : "packageType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packageType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPackageType"
+  },
+  {
+    "id" : "packagedProductIdSystems",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPackagedProductIdSystems"
+  },
+  {
+    "id" : "partType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/partType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPartType"
+  },
+  {
+    "id" : "pediatricUseIndicator",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pediatricUseIndicator",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPediatricUseIndicator"
+  },
+  {
+    "id" : "pharmaceuticalDoseFormPart",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pharmaceuticalDoseFormPart",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPharmaceuticalDoseFormPart"
+  },
+  {
+    "id" : "productConfidentialityIdSystems",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems",
+    "version" : "1.0.0-ballot",
+    "name" : "VsProductConfidentialityIdSystems"
+  },
+  {
+    "id" : "productNamePartType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productNamePartType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsProductNamePartType"
+  },
+  {
+    "id" : "propertyColor",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPropertyColor"
+  },
+  {
+    "id" : "propertyFlavor",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyFlavor",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPropertyFlavor"
+  },
+  {
+    "id" : "propertyScore",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyScore",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPropertyScore"
+  },
+  {
+    "id" : "propertyShape",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape",
+    "version" : "1.0.0-ballot",
+    "name" : "VsPropertyShape"
+  },
+  {
+    "id" : "proprietaryNamePart",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/proprietaryNamePart",
+    "version" : "1.0.0-ballot",
+    "name" : "VsProprietaryNamePart"
+  },
+  {
+    "id" : "regulatoryActivityType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsRegulatoryActivityType"
+  },
+  {
+    "id" : "roleClassIngredientEntity",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/roleClassIngredientEntity",
+    "version" : "1.0.0-ballot",
+    "name" : "VsRoleClassIngredientEntity"
+  },
+  {
+    "id" : "routeOfAdministration",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/routeOfAdministration",
+    "version" : "1.0.0-ballot",
+    "name" : "VsRouteOfAdministration"
+  },
+  {
+    "id" : "secondaryPrimaryPackType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/secondaryPrimaryPackType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsSecondaryPrimaryPackType"
+  },
+  {
+    "id" : "sectionCode",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/sectionCode",
+    "version" : "1.0.0-ballot",
+    "name" : "VsSectionCode"
+  },
+  {
+    "id" : "shelfLifeType",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/shelfLifeType",
+    "version" : "1.0.0-ballot",
+    "name" : "VsShelfLifeType"
+  },
+  {
+    "id" : "specialPrecautionsForStorage",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/specialPrecautionsForStorage",
+    "version" : "1.0.0-ballot",
+    "name" : "VsSpecialPrecautionsForStorage"
+  },
+  {
+    "id" : "strengthPart",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/strengthPart",
+    "version" : "1.0.0-ballot",
+    "name" : "VsStrengthPart"
+  },
+  {
+    "id" : "substance",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance",
+    "version" : "1.0.0-ballot",
+    "name" : "VsSubstance"
+  },
+  {
+    "id" : "unitofMeasure",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofMeasure",
+    "version" : "1.0.0-ballot",
+    "name" : "VsUnitofMeasure"
+  },
+  {
+    "id" : "unitofPresentation",
+    "type" : "ValueSet",
+    "url" : "http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation",
+    "version" : "1.0.0-ballot",
+    "name" : "VsUnitofPresentation"
+  }
+]
