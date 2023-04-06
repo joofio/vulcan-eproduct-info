@@ -1,0 +1,46 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/undesirableEffectanemia> a fhir:ClinicalUseDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "undesirableEffectanemia"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ClinicalUseDefinition</b><a name=\"undesirableEffectanemia\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ClinicalUseDefinition &quot;undesirableEffectanemia&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-ClinicalUseDefinition-undesirableEffect-uv-epi.html\">ClinicalUseDefinition Undesirable Effect (ePI)</a></p></div><p><b>identifier</b>: id: anemia (use: OFFICIAL)</p><p><b>type</b>: undesirable-effect</p><p><b>subject</b>: <a href=\"MedicinalProductDefinition-800a51a2-d81d-49a4-a4eb-f2417d301837.html\">MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837</a></p><blockquote><p><b>undesirableEffect</b></p><h3>SymptomConditionEffects</h3><table class=\"grid\"><tr><td>-</td><td><b>Concept</b></td></tr><tr><td>*</td><td>Anemia <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-mdr.html\">MedDRA</a>#10002272)</span></td></tr></table></blockquote></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "official" ] ;
+     fhir:system [ fhir:v "https://spor.ema.europa.eu/rmswi#"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "anemia" ]
+  ] ) ; # 
+  fhir:type [ fhir:v "undesirable-effect"] ; # 
+  fhir:subject ( [
+     fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> ;
+     fhir:reference [ fhir:v "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837" ]
+  ] ) ; # 
+  fhir:undesirableEffect [
+     fhir:symptomConditionEffect [
+       fhir:concept [
+         fhir:coding ( [
+           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/mdr"^^xsd:anyURI ] ;
+           fhir:code [ fhir:v "10002272" ] ;
+           fhir:display [ fhir:v "Anemia" ]
+         ] )
+       ]
+     ]
+  ] . # 
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
+
+# -------------------------------------------------------------------------------------
+

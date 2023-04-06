@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "361b3edb-ba50-4f60-a502-619d3f569023-156",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/361b3edb-ba50-4f60-a502-619d3f569023-156",
+  "name" : "IntersectionVsUnitofMeasureAndVsUnitofMeasure",
+  "title" : "Intersection of Units of Measure And Units of Measure",
+  "status" : "active",
+  "date" : "2023-04-06T10:25:57+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "http://hl7.org/fhir/ValueSet/ucum-units"
+      }]
+    }]
+  },
+  "expansion" : {
+    "contains" : [{
+      "system" : "urn:ietf:rfc:3986",
+      "code" : "http://hl7.org/fhir/ValueSet/ucum-units"
+    }]
+  }
+}

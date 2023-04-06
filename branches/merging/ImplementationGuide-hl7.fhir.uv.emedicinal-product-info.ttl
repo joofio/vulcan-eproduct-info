@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>EpiIG</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info</pre><div><p>BR&amp;R creates and promotes standards to facilitate biomedical research and any subsequent regulatory evaluation of the safety, efficacy and quality of medical products that may arise from research.</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/ImplementationGuide/hl7.fhir.uv.emedicinal-product-info"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0-ballot"] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "EpiIG"] ; # 
   fhir:title [ fhir:v "Electronic Medicinal Product Information (ePI) FHIR Implementation Guide"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-04-06T08:19:53+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-04-06T10:24:10+00:00"^^xsd:dateTime] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 BR&R" ] ;
      fhir:telecom ( [
@@ -497,10 +497,10 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink> ;
-         fhir:reference [ fhir:v "StructureDefinition/htmlElementLink" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink> ;
+         fhir:reference [ fhir:v "StructureDefinition/HtmlElementLink" ]
        ] ;
-       fhir:name [ fhir:v "htmlElementLink" ] ;
+       fhir:name [ fhir:v "HtmlElementLink" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -604,18 +604,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList> ;
-         fhir:reference [ fhir:v "ValueSet/exampleUseCodesForList" ]
-       ] ;
-       fhir:name [ fhir:v "The topic of this list" ] ;
-       fhir:description [ fhir:v "The topic of this list" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus> ;
          fhir:reference [ fhir:v "ValueSet/generalStatus" ]
        ] ;
@@ -700,35 +688,11 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/nonproprietaryNamePart> ;
-         fhir:reference [ fhir:v "ValueSet/nonproprietaryNamePart" ]
-       ] ;
-       fhir:name [ fhir:v "Non-proprietary Name of the active ingredient(s)" ] ;
-       fhir:description [ fhir:v "Non-proprietary Name of the active ingredient(s)" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/operationType> ;
          fhir:reference [ fhir:v "ValueSet/operationType" ]
        ] ;
        fhir:name [ fhir:v "Type of operation" ] ;
        fhir:description [ fhir:v "Type of operation" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems> ;
-         fhir:reference [ fhir:v "ValueSet/organizationIdSystems" ]
-       ] ;
-       fhir:name [ fhir:v "Organization identifier systems" ] ;
-       fhir:description [ fhir:v "Organization Identifier systems (uri)" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -784,18 +748,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/partType> ;
-         fhir:reference [ fhir:v "ValueSet/partType" ]
-       ] ;
-       fhir:name [ fhir:v "Part Type" ] ;
-       fhir:description [ fhir:v "Part Type" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pediatricUseIndicator> ;
          fhir:reference [ fhir:v "ValueSet/pediatricUseIndicator" ]
        ] ;
@@ -813,42 +765,6 @@
        ] ;
        fhir:name [ fhir:v "Combined Pharmaceutical Dose Form" ] ;
        fhir:description [ fhir:v "Combined Pharmaceutical Dose Form" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pharmaceuticalDoseFormPart> ;
-         fhir:reference [ fhir:v "ValueSet/pharmaceuticalDoseFormPart" ]
-       ] ;
-       fhir:name [ fhir:v "Pharmaceutical Dose Form of the medicinal product" ] ;
-       fhir:description [ fhir:v "Pharmaceutical Dose Form of the medicinal product" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems> ;
-         fhir:reference [ fhir:v "ValueSet/productConfidentialityIdSystems" ]
-       ] ;
-       fhir:name [ fhir:v "Product Confidentiality" ] ;
-       fhir:description [ fhir:v "Product Confidentiality" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productNamePartType> ;
-         fhir:reference [ fhir:v "ValueSet/productNamePartType" ]
-       ] ;
-       fhir:name [ fhir:v "Product Name Part Type" ] ;
-       fhir:description [ fhir:v "Product Name Part Type" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -904,8 +820,8 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm> ;
-         fhir:reference [ fhir:v "ValueSet/VsPropertySurfaceForm" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertySurfaceForm> ;
+         fhir:reference [ fhir:v "ValueSet/propertySurfaceForm" ]
        ] ;
        fhir:name [ fhir:v "Surface form of the product" ] ;
        fhir:description [ fhir:v "Surface form of the product" ] ;
@@ -916,35 +832,11 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/proprietaryNamePart> ;
-         fhir:reference [ fhir:v "ValueSet/proprietaryNamePart" ]
-       ] ;
-       fhir:name [ fhir:v "Proprietary Name of the medicinal product" ] ;
-       fhir:description [ fhir:v "Proprietary Name of the medicinal product" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsRegulatedAuthorization> ;
-         fhir:reference [ fhir:v "ValueSet/VsRegulatedAuthorization" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatedAuthorizationType> ;
+         fhir:reference [ fhir:v "ValueSet/regulatedAuthorizationType" ]
        ] ;
        fhir:name [ fhir:v "Type of Regulated Authorization" ] ;
        fhir:description [ fhir:v "Type of Regulated Authorization" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems> ;
-         fhir:reference [ fhir:v "ValueSet/RegulatedAuthorizationTypeIdSystems" ]
-       ] ;
-       fhir:name [ fhir:v "Regulated Authorization Type identifier systems" ] ;
-       fhir:description [ fhir:v "Regulated Authorization Type Identifier systems (uri)" ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1036,18 +928,6 @@
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/strengthPart> ;
-         fhir:reference [ fhir:v "ValueSet/strengthPart" ]
-       ] ;
-       fhir:name [ fhir:v "Strength of the medicinal product name" ] ;
-       fhir:description [ fhir:v "Strength of the medicinal product name" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "ValueSet" ]
-       ] ) ;
-       fhir:reference [
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance> ;
          fhir:reference [ fhir:v "ValueSet/substance" ]
        ] ;
@@ -1084,60 +964,264 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate> ;
-         fhir:reference [ fhir:v "CodeSystem/gravitate" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/epi-ig> ;
+         fhir:reference [ fhir:v "CodeSystem/epi-ig" ]
        ] ;
        fhir:name [ fhir:v "eMedicinal Product Information Code System" ] ;
-       fhir:description [ fhir:v "eMedicinal Product Information Code System. Coded concepts defined for internal project use." ] ;
+       fhir:description [ fhir:v "eMedicinal Product Information Code System.\nCoded concepts defined for ePI use only." ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [ fhir:v "Ingredient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRomswi> ;
-         fhir:reference [ fhir:v "CodeSystem/CodeSystemUvEPIRomswi" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6> ;
+         fhir:reference [ fhir:v "Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6" ]
        ] ;
-       fhir:name [ fhir:v "Organization Management Services CodeSystem" ] ;
-       fhir:description [ fhir:v "Items from https://spor.ema.europa.eu/omswi" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "Ingredient-excipient Silicon dioxide" ] ;
+       fhir:description [ fhir:v "Silicon dioxide" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [ fhir:v "Ingredient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi> ;
-         fhir:reference [ fhir:v "CodeSystem/CodeSystemUvEPIRpmswi" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0> ;
+         fhir:reference [ fhir:v "Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0" ]
        ] ;
-       fhir:name [ fhir:v "Products Management Services CodeSystem" ] ;
-       fhir:description [ fhir:v "Items from https://spor.ema.europa.eu/pmswi" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "Ingredient-excipient Hypromellose" ] ;
+       fhir:description [ fhir:v "Hypromellose" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [ fhir:v "Ingredient" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRrmswi> ;
-         fhir:reference [ fhir:v "CodeSystem/CodeSystemUvEPIRrmswi" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd> ;
+         fhir:reference [ fhir:v "Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd" ]
        ] ;
-       fhir:name [ fhir:v "Referentials Management Services CodeSystem" ] ;
-       fhir:description [ fhir:v "Items from https://spor.ema.europa.eu/rmswi" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "Ingredient-excipient Microcrystalline cellulose" ] ;
+       fhir:description [ fhir:v "Microcrystalline cellulose" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CodeSystem" ]
+         fhir:value [ fhir:v "RegulatedAuthorization" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRsmswi> ;
-         fhir:reference [ fhir:v "CodeSystem/CodeSystemUvEPIRsmswi" ]
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8> ;
+         fhir:reference [ fhir:v "RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8" ]
        ] ;
-       fhir:name [ fhir:v "Substances Management Services CodeSystem" ] ;
-       fhir:description [ fhir:v "Items from https://spor.ema.europa.eu/smswi" ] ;
-       fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "Regulated Authorization for cava 75 mg tablets" ] ;
+       fhir:description [ fhir:v "Regulated Authorization" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ManufacturedItemDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468> ;
+         fhir:reference [ fhir:v "ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468" ]
+       ] ;
+       fhir:name [ fhir:v "Manufactured item cava 75 mg tabelt" ] ;
+       fhir:description [ fhir:v "cava 75 mg tablet" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "AdministrableProductDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069> ;
+         fhir:reference [ fhir:v "AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069" ]
+       ] ;
+       fhir:name [ fhir:v "cava 75mg tablet administrable product" ] ;
+       fhir:description [ fhir:v "cava 75 mg tablet" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ClinicalUseDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/4e922ec1-a398-4a78-8381-3729422b7602> ;
+         fhir:reference [ fhir:v "ClinicalUseDefinition/4e922ec1-a398-4a78-8381-3729422b7602" ]
+       ] ;
+       fhir:name [ fhir:v "indication" ] ;
+       fhir:description [ fhir:v "Indication" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/745c01bc-936e-45ca-9880-57e97608f43e> ;
+         fhir:reference [ fhir:v "Ingredient/745c01bc-936e-45ca-9880-57e97608f43e" ]
+       ] ;
+       fhir:name [ fhir:v "Irbesartan – Example of Ingredient with basis for strength" ] ;
+       fhir:description [ fhir:v "irbesartan" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf> ;
+         fhir:reference [ fhir:v "Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient Lactose Monohydrate" ] ;
+       fhir:description [ fhir:v "Lactose Monohydrate" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "MedicinalProductDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> ;
+         fhir:reference [ fhir:v "MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837" ]
+       ] ;
+       fhir:name [ fhir:v "Medicinal Product cava 75 mg tablet in blister pack of 28 tablets" ] ;
+       fhir:description [ fhir:v "EU/1/97/049/001 cava 75 mg tablet blister x28" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ClinicalUseDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055> ;
+         fhir:reference [ fhir:v "ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055" ]
+       ] ;
+       fhir:name [ fhir:v "contraindication" ] ;
+       fhir:description [ fhir:v "Contraindication - Gastrointestinal disorders" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/a4b7b60c-998f-4f93-89c7-860396af0fe3> ;
+         fhir:reference [ fhir:v "Ingredient/a4b7b60c-998f-4f93-89c7-860396af0fe3" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient carnauba wax" ] ;
+       fhir:description [ fhir:v "Carnauba wax" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6> ;
+         fhir:reference [ fhir:v "Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient Titanium Dioxide" ] ;
+       fhir:description [ fhir:v "Titanium Dioxide" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ClinicalUseDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb> ;
+         fhir:reference [ fhir:v "ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb" ]
+       ] ;
+       fhir:name [ fhir:v "warninghypotension" ] ;
+       fhir:description [ fhir:v "Warning - hypotension" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -2136,6 +2220,81 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet75> ;
+         fhir:reference [ fhir:v "Bundle/bundlepackageleaflet75" ]
+       ] ;
+       fhir:name [ fhir:v "ePI document Bundle for cava 75 mg Package Leaflet" ] ;
+       fhir:description [ fhir:v "Bundle for cava Package Leaflet ePI document" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ManufacturedItemDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Bundle-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-contraindication-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/AdministrableProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-warning-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/MedicinalProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/RegulatedAuthorization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-indication-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e> ;
+         fhir:reference [ fhir:v "Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient Macrogol 3000" ] ;
+       fhir:description [ fhir:v "Macrogol 3000" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "MedicinalProductDefinition" ]
        ] ) ;
        fhir:reference [
@@ -2937,6 +3096,114 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Organization" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75> ;
+         fhir:reference [ fhir:v "Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75" ]
+       ] ;
+       fhir:name [ fhir:v "Acme Inc. as Marketing Authorization Holder" ] ;
+       fhir:description [ fhir:v "Marketing Authorization Holder" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Organization-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "SubstanceDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249> ;
+         fhir:reference [ fhir:v "SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249" ]
+       ] ;
+       fhir:name [ fhir:v "substanceirbesartan" ] ;
+       fhir:description [ fhir:v "irbesartan" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ClinicalUseDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/e60575aa-e7b3-4461-a456-d310514f4041> ;
+         fhir:reference [ fhir:v "ClinicalUseDefinition/e60575aa-e7b3-4461-a456-d310514f4041" ]
+       ] ;
+       fhir:name [ fhir:v "interactionmethotrexate" ] ;
+       fhir:description [ fhir:v "Interaction - METHOTREXATE" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Composition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571> ;
+         fhir:reference [ fhir:v "Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571" ]
+       ] ;
+       fhir:name [ fhir:v "Composition for cava 75 mg Package Leaflet" ] ;
+       fhir:description [ fhir:v "Package Leaflet" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Composition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PackagedProductDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d> ;
+         fhir:reference [ fhir:v "PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d" ]
+       ] ;
+       fhir:name [ fhir:v "Packaging Blister x28 75 mg tablets" ] ;
+       fhir:description [ fhir:v "Blister x28 tablets" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/PackagedProductDefinition-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f> ;
+         fhir:reference [ fhir:v "Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient Magnesium stearate" ] ;
+       fhir:description [ fhir:v "Magnesium stearate" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CapabilityStatement" ]
        ] ) ;
        fhir:reference [
@@ -2946,6 +3213,42 @@
        fhir:name [ fhir:v "epi-server" ] ;
        fhir:description [ fhir:v "This section describes a minumum expected capabilities of an ePI FHIR Server which is responsible for providing responses to the queries submitted by the ePI clients. Please refer to the XML or JSON versions of this specification for details on which elements search is to be enabled on. A compliant server SHALL adhere to the requirements listed in this resource, and implement the RESTful behavior according to the FHIR specification." ] ;
        fhir:isExample [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ClinicalUseDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537> ;
+         fhir:reference [ fhir:v "ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537" ]
+       ] ;
+       fhir:name [ fhir:v "interactiongrapefruitjuice" ] ;
+       fhir:description [ fhir:v "Interaction - GRAPEFRUIT JUICE" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-interaction-uv-epi>
+       ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Ingredient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/fbf58407-83d3-42db-be3d-506b2006d431> ;
+         fhir:reference [ fhir:v "Ingredient/fbf58407-83d3-42db-be3d-506b2006d431" ]
+       ] ;
+       fhir:name [ fhir:v "Ingredient-excipient Croscarmellose sodium" ] ;
+       fhir:description [ fhir:v "Croscarmellose sodium" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/Ingredient-uv-epi>
+       ] )
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -5772,6 +6075,24 @@
          fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi"^^xsd:anyURI ;
          fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi>
        ] )
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ClinicalUseDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/undesirableEffectanemia> ;
+         fhir:reference [ fhir:v "ClinicalUseDefinition/undesirableEffectanemia" ]
+       ] ;
+       fhir:name [ fhir:v "undesirableEffectanemia" ] ;
+       fhir:description [ fhir:v "Undesirable Effect - anemia" ] ;
+       fhir:profile ( [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>
+       ] [
+         fhir:v "http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi"^^xsd:anyURI ;
+         fhir:link <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/ClinicalUseDefinition-undesirableEffect-uv-epi>
+       ] )
      ] ) ;
      fhir:page [
        fhir:source [ fhir:v "toc.html"^^xsd:anyURI ] ;
@@ -6122,7 +6443,7 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/SubstanceDefinition-uv-epi> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/htmlElementLink> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/StructureDefinition/HtmlElementLink> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/additionalMonitoringIndicator> a fhir:uv .
 
@@ -6140,8 +6461,6 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/epiType> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/exampleUseCodesForList> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/generalStatus> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/legalStatusOfSupply> a fhir:uv .
@@ -6156,11 +6475,7 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/meddra> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/nonproprietaryNamePart> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/operationType> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationIdSystems> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/organizationType> a fhir:uv .
 
@@ -6170,17 +6485,9 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/packagedProductIdSystems> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/partType> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pediatricUseIndicator> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/PharmaceuticalDoseForm> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/pharmaceuticalDoseFormPart> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productConfidentialityIdSystems> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/productNamePartType> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyColor> a fhir:uv .
 
@@ -6190,13 +6497,9 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertyShape> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsPropertySurfaceForm> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/propertySurfaceForm> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/proprietaryNamePart> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/VsRegulatedAuthorization> a fhir:uv .
-
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/RegulatedAuthorizationTypeIdSystems> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatedAuthorizationType> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/regulatoryActivityType> a fhir:uv .
 
@@ -6212,23 +6515,41 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/specialPrecautionsForStorage> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/strengthPart> a fhir:uv .
-
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/substance> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofMeasure> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/unitofPresentation> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/gravitate> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/epi-ig> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRomswi> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/09c13040-8fd5-4818-972d-f01d4ee169b6> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRpmswi> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/1c10b441-6bd3-40b8-b14b-514e7c2f79d0> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRrmswi> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/1cdfb0bc-55f0-43ff-b750-8f3a0d9970bd> a fhir:uv .
 
-<http://hl7.org/fhir/uv/emedicinal-product-info/CodeSystem/CodeSystemUvEPIRsmswi> a fhir:uv .
+<http://hl7.org/fhir/uv/emedicinal-product-info/RegulatedAuthorization/297e405a-b6f9-4273-bc01-ae031efe47f8> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ManufacturedItemDefinition/3214f286-b8ec-4ef5-bc8d-0aec39d97468> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/373b9bf3-1fae-47a1-a7cd-230106def069> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/4e922ec1-a398-4a78-8381-3729422b7602> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/745c01bc-936e-45ca-9880-57e97608f43e> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/7a3c0b14-2473-4541-9e45-a24d24cceddf> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/800a51a2-d81d-49a4-a4eb-f2417d301837> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/83f4a22f-9e5e-4941-9fdb-339a0f1f2055> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/a4b7b60c-998f-4f93-89c7-860396af0fe3> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/a88891dc-7e9e-4d84-b462-95e53de3b6a6> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/ac21a804-cafa-41ff-b644-a14c8003edeb> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/AdministrableProductDefinition/ap-08ac066220d4d68a3933a9c94bef32ff> a fhir:uv .
 
@@ -6301,6 +6622,10 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet-dbd5a91e4cf6998bdbd8827ab1854e65> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet-e2464a7d3d627b9df9bef5bc3b263fb4> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Bundle/bundlepackageleaflet75> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/ceba5cd1-321f-4bc3-b203-92d97fcf472e> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/MedicinalProductDefinition/cfsb1650904258324> a fhir:uv .
 
@@ -6420,7 +6745,23 @@
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/contraindication-hypersensitivityreaction> a fhir:uv .
 
+<http://hl7.org/fhir/uv/emedicinal-product-info/Organization/d71bf884-90eb-47f9-81b7-fa81ecec7e75> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/da33bd51-a726-4232-aaa0-4168b9bfe249> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/e60575aa-e7b3-4461-a456-d310514f4041> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Composition/e63f72b2-993f-48b1-b7cb-539b1ed71571> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/PackagedProductDefinition/eb8392a6-2cec-4ff3-9d9e-7c5f4ae3786d> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/eee155e8-e442-491d-9a82-7af3cefac57f> a fhir:uv .
+
 <http://hl7.org/fhir/uv/emedicinal-product-info/CapabilityStatement/epi-server> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/f7d8f2a0-27eb-4e37-8036-58f3d5aa6537> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/Ingredient/fbf58407-83d3-42db-be3d-506b2006d431> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/indication-hypertension> a fhir:uv .
 
@@ -6735,6 +7076,8 @@
 <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-mirtazapine> a fhir:uv .
 
 <http://hl7.org/fhir/uv/emedicinal-product-info/SubstanceDefinition/substance-paracetamol> a fhir:uv .
+
+<http://hl7.org/fhir/uv/emedicinal-product-info/ClinicalUseDefinition/undesirableEffectanemia> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

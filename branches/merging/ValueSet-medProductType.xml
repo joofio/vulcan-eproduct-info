@@ -3,15 +3,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="medProductType"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <code>https://spor.ema.europa.eu/rmswi/200000025915</code></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <code>https://spor.ema.europa.eu/lists/200000025915</code></li></ul></div>
   </text>
   <url value="http://hl7.org/fhir/uv/emedicinal-product-info/ValueSet/medProductType"/>
-  <version value="1.0.0-ballot"/>
+  <version value="1.0.0"/>
   <name value="VsMedProductType"/>
   <title value="Medicinal Product Type"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-04-06T08:19:53+00:00"/>
+  <date value="2023-04-06T10:24:10+00:00"/>
   <contact>
     <name value="HL7 BR&amp;R"/>
     <telecom>
@@ -29,7 +29,7 @@
   </jurisdiction>
   <compose>
     <include>
-      <system value="https://spor.ema.europa.eu/rmswi/200000025915"/>
+      <system value="https://spor.ema.europa.eu/lists/200000025915"/>
     </include>
   </compose>
 </ValueSet>
