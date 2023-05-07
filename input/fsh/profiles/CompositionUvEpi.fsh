@@ -61,10 +61,3 @@ Description: "The Composition captures the section headings, sub-section heading
     * emptyReason ^short = "Reason the section is empty."
 
 
-Extension: HtmlElementLink
-* extension contains
-    elementClass 1..1 and
-    concept 1..1 
-* extension[concept] ^short = "Codes from different code systems"
-* extension[concept].value[x] only CodeableReference
-* extension[elementClass].value[x] only string
