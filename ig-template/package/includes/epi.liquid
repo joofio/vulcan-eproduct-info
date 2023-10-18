@@ -467,12 +467,13 @@
       {% endfor %}
     </div>
     {% assign cudings = bundle.entry | where: "resource.resourceType", "ClinicalUseDefinition" %}
+    {% if cudings %}
+
     <div class="cud container   rcorners">
-      <p> <b>Clinical Information</b></p>
+
     {% for cudingr in cudings %}
       {% assign cuding = cudingr.resource %}
-      {% if cuding %}
-         
+        <p> <b>Clinical Information</b></p>
           {% if cuding.indication %}
             <p>
               Indication: <b>{{ cuding.indication.diseaseSymptomProcedure.concept.coding[0].display }}</b></p>
@@ -502,8 +503,9 @@
               Warning: <b>{{ cuding.warning.description }}</b></p>
           {% endif %}
       
-      {% endif %}
     {% endfor %}
+  {% endif %}
+
     </div>
     {% endif %}
   </div>

@@ -16,6 +16,8 @@ Description: "Medicinal product information is a pivotal source of regulated and
 
 * type = #document (exactly)
 
+* language 1..1
+
 * timestamp 1.. 
   * ^short = "Persistent original date of approval"
   * ^definition = "Original date in which this ePI document received its first authorization. As with the identifier, this date persists across versions. "
